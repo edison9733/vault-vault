@@ -2,7 +2,8 @@
 handle: "@JupiterExchange"
 url: "https://x.com/JupiterExchange/status/2065117866924360088"
 date: 2026-06-11
-processed: false
+processed: true
+score: 3
 ---
 
 RT Jupiter Community

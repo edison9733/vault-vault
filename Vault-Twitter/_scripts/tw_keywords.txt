@@ -1,0 +1,27 @@
+# One Twitter SEARCH KEYWORD per line (topics, not handles). # = comment.
+
+# Crypto & Web3
+solana etf
+SpaceX IPO
+crypto
+web3
+
+# AI & Tech
+AI agents
+AI system design
+automation design
+website design
+
+# Markets — Hardware
+Nvidia stock
+Micron stock
+Huawei chips
+
+# Markets — Software
+Alphabet stock
+Meta stock
+federal reserve rates
+
+# Design & Architecture
+system design
+full stack AI

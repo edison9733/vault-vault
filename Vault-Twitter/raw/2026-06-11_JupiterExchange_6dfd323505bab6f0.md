@@ -2,7 +2,8 @@
 handle: "@JupiterExchange"
 url: "https://x.com/JupiterExchange/status/2065153346600882320"
 date: 2026-06-11
-processed: false
+processed: true
+score: 2
 ---
 
 RT inno
