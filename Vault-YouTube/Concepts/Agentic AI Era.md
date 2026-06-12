@@ -1,0 +1,1 @@
+Google's term for the 2026 paradigm shift in which AI models act as autonomous agents embedded across all software surfaces (Search, Gmail, Android, IDE, glasses) rather than as passive assistants. Declared at Google I/O 2026 by Sundar Pichai and Demis Hassabis.

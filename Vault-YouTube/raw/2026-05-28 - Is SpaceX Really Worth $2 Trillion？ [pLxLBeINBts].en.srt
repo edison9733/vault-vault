@@ -1,0 +1,555 @@
+1
+00:00:00,000 --> 00:00:02,710
+
+Is SpaceX a good business? After doing a
+
+2
+00:00:02,710 --> 00:00:02,720
+Is SpaceX a good business? After doing a
+ 
+
+3
+00:00:02,720 --> 00:00:04,750
+Is SpaceX a good business? After doing a
+lot of research, I think yes. In fact, I
+
+4
+00:00:04,750 --> 00:00:04,760
+lot of research, I think yes. In fact, I
+ 
+
+5
+00:00:04,760 --> 00:00:07,670
+lot of research, I think yes. In fact, I
+think it's a phenomenal business with a
+
+6
+00:00:07,670 --> 00:00:07,680
+think it's a phenomenal business with a
+ 
+
+7
+00:00:07,680 --> 00:00:10,190
+think it's a phenomenal business with a
+wide economic moat, which means it's got
+
+8
+00:00:10,190 --> 00:00:10,200
+wide economic moat, which means it's got
+ 
+
+9
+00:00:10,200 --> 00:00:12,350
+wide economic moat, which means it's got
+a sustainable competitive advantage that
+
+10
+00:00:12,350 --> 00:00:12,360
+a sustainable competitive advantage that
+ 
+
+11
+00:00:12,360 --> 00:00:15,710
+a sustainable competitive advantage that
+is way ahead of the competition. So,
+
+12
+00:00:15,710 --> 00:00:15,720
+is way ahead of the competition. So,
+ 
+
+13
+00:00:15,720 --> 00:00:17,430
+is way ahead of the competition. So,
+what does SpaceX do? Well, they've got
+
+14
+00:00:17,430 --> 00:00:17,440
+what does SpaceX do? Well, they've got
+ 
+
+15
+00:00:17,440 --> 00:00:19,550
+what does SpaceX do? Well, they've got
+four main businesses. Their most
+
+16
+00:00:19,550 --> 00:00:19,560
+four main businesses. Their most
+ 
+
+17
+00:00:19,560 --> 00:00:22,230
+four main businesses. Their most
+profitable business is Starlink. I'm
+
+18
+00:00:22,230 --> 00:00:22,240
+profitable business is Starlink. I'm
+ 
+
+19
+00:00:22,240 --> 00:00:23,590
+profitable business is Starlink. I'm
+sure you've heard of Starlink, which is
+
+20
+00:00:23,590 --> 00:00:23,600
+sure you've heard of Starlink, which is
+ 
+
+21
+00:00:23,600 --> 00:00:26,230
+sure you've heard of Starlink, which is
+a global high-speed satellite internet
+
+22
+00:00:26,230 --> 00:00:26,240
+a global high-speed satellite internet
+ 
+
+23
+00:00:26,240 --> 00:00:28,990
+a global high-speed satellite internet
+business, which currently has got over 9
+
+24
+00:00:28,990 --> 00:00:29,000
+business, which currently has got over 9
+ 
+
+25
+00:00:29,000 --> 00:00:30,710
+business, which currently has got over 9
+million users.
+
+26
+00:00:30,710 --> 00:00:30,720
+million users.
+ 
+
+27
+00:00:30,720 --> 00:00:32,749
+million users.
+This is high-margin recurring revenue
+
+28
+00:00:32,749 --> 00:00:32,759
+This is high-margin recurring revenue
+ 
+
+29
+00:00:32,759 --> 00:00:35,070
+This is high-margin recurring revenue
+business. The second business is their
+
+30
+00:00:35,070 --> 00:00:35,080
+business. The second business is their
+ 
+
+31
+00:00:35,080 --> 00:00:37,430
+business. The second business is their
+launch services, which is also very
+
+32
+00:00:37,430 --> 00:00:37,440
+launch services, which is also very
+ 
+
+33
+00:00:37,440 --> 00:00:40,070
+launch services, which is also very
+profitable. And this focuses on
+
+34
+00:00:40,070 --> 00:00:40,080
+profitable. And this focuses on
+ 
+
+35
+00:00:40,080 --> 00:00:42,030
+profitable. And this focuses on
+commercial and government launch
+
+36
+00:00:42,030 --> 00:00:42,040
+commercial and government launch
+ 
+
+37
+00:00:42,040 --> 00:00:44,990
+commercial and government launch
+operations for NASA, for the Department
+
+38
+00:00:44,990 --> 00:00:45,000
+operations for NASA, for the Department
+ 
+
+39
+00:00:45,000 --> 00:00:47,750
+operations for NASA, for the Department
+of Defense, and commercial clients.
+
+40
+00:00:47,750 --> 00:00:47,760
+of Defense, and commercial clients.
+ 
+
+41
+00:00:47,760 --> 00:00:49,790
+of Defense, and commercial clients.
+Then, you've got Starshield, the third
+
+42
+00:00:49,790 --> 00:00:49,800
+Then, you've got Starshield, the third
+ 
+
+43
+00:00:49,800 --> 00:00:52,430
+Then, you've got Starshield, the third
+business, where they focus on secure
+
+44
+00:00:52,430 --> 00:00:52,440
+business, where they focus on secure
+ 
+
+45
+00:00:52,440 --> 00:00:54,710
+business, where they focus on secure
+satellite network for defense and
+
+46
+00:00:54,710 --> 00:00:54,720
+satellite network for defense and
+ 
+
+47
+00:00:54,720 --> 00:00:56,950
+satellite network for defense and
+national security, military-grade
+
+48
+00:00:56,950 --> 00:00:56,960
+national security, military-grade
+ 
+
+49
+00:00:56,960 --> 00:00:59,430
+national security, military-grade
+capabilities. And then, finally, they've
+
+50
+00:00:59,430 --> 00:00:59,440
+capabilities. And then, finally, they've
+ 
+
+51
+00:00:59,440 --> 00:01:01,870
+capabilities. And then, finally, they've
+got Starship, where they offer fully
+
+52
+00:01:01,870 --> 00:01:01,880
+got Starship, where they offer fully
+ 
+
+53
+00:01:01,880 --> 00:01:04,710
+got Starship, where they offer fully
+reusable large-capacity rocket systems,
+
+54
+00:01:04,710 --> 00:01:04,720
+reusable large-capacity rocket systems,
+ 
+
+55
+00:01:04,720 --> 00:01:06,590
+reusable large-capacity rocket systems,
+potential for deep space and huge
+
+56
+00:01:06,590 --> 00:01:06,600
+potential for deep space and huge
+ 
+
+57
+00:01:06,600 --> 00:01:08,430
+potential for deep space and huge
+payloads. There's been a lot of talk
+
+58
+00:01:08,430 --> 00:01:08,440
+payloads. There's been a lot of talk
+ 
+
+59
+00:01:08,440 --> 00:01:11,150
+payloads. There's been a lot of talk
+about sending and building data centers
+
+60
+00:01:11,150 --> 00:01:11,160
+about sending and building data centers
+ 
+
+61
+00:01:11,160 --> 00:01:13,470
+about sending and building data centers
+in space. Well, you need these Starships
+
+62
+00:01:13,470 --> 00:01:13,480
+in space. Well, you need these Starships
+ 
+
+63
+00:01:13,480 --> 00:01:15,990
+in space. Well, you need these Starships
+to launch them into space, all right?
+
+64
+00:01:15,990 --> 00:01:16,000
+to launch them into space, all right?
+ 
+
+65
+00:01:16,000 --> 00:01:17,950
+to launch them into space, all right?
+So, out of all these four businesses,
+
+66
+00:01:17,950 --> 00:01:17,960
+So, out of all these four businesses,
+ 
+
+67
+00:01:17,960 --> 00:01:20,230
+So, out of all these four businesses,
+they generate a total sales revenue of
+
+68
+00:01:20,230 --> 00:01:20,240
+they generate a total sales revenue of
+ 
+
+69
+00:01:20,240 --> 00:01:23,310
+they generate a total sales revenue of
+15 to 16 billion dollars as of the end
+
+70
+00:01:23,310 --> 00:01:23,320
+15 to 16 billion dollars as of the end
+ 
+
+71
+00:01:23,320 --> 00:01:25,950
+15 to 16 billion dollars as of the end
+of last year, 2025. And are they
+
+72
+00:01:25,950 --> 00:01:25,960
+of last year, 2025. And are they
+ 
+
+73
+00:01:25,960 --> 00:01:28,030
+of last year, 2025. And are they
+profitable? Yes, they are profitable not
+
+74
+00:01:28,030 --> 00:01:28,040
+profitable? Yes, they are profitable not
+ 
+
+75
+00:01:28,040 --> 00:01:30,630
+profitable? Yes, they are profitable not
+on a GAAP basis, but EBITDA
+
+76
+00:01:30,630 --> 00:01:30,640
+on a GAAP basis, but EBITDA
+ 
+
+77
+00:01:30,640 --> 00:01:32,750
+on a GAAP basis, but EBITDA
+positive. EBITDA means earnings before
+
+78
+00:01:32,750 --> 00:01:32,760
+positive. EBITDA means earnings before
+ 
+
+79
+00:01:32,760 --> 00:01:35,190
+positive. EBITDA means earnings before
+taxes, before depreciation, and before
+
+80
+00:01:35,190 --> 00:01:35,200
+taxes, before depreciation, and before
+ 
+
+81
+00:01:35,200 --> 00:01:37,910
+taxes, before depreciation, and before
+amortization profit of 8 billion
+
+82
+00:01:37,910 --> 00:01:37,920
+amortization profit of 8 billion
+ 
+
+83
+00:01:37,920 --> 00:01:40,190
+amortization profit of 8 billion
+dollars. So, that is as of the end of
+
+84
+00:01:40,190 --> 00:01:40,200
+dollars. So, that is as of the end of
+ 
+
+85
+00:01:40,200 --> 00:01:42,590
+dollars. So, that is as of the end of
+last year. Now, 5 years from now, in
+
+86
+00:01:42,590 --> 00:01:42,600
+last year. Now, 5 years from now, in
+ 
+
+87
+00:01:42,600 --> 00:01:44,470
+last year. Now, 5 years from now, in
+2030, they're projected to have a
+
+88
+00:01:44,470 --> 00:01:44,480
+2030, they're projected to have a
+ 
+
+89
+00:01:44,480 --> 00:01:47,630
+2030, they're projected to have a
+revenue of 50 billion dollars, as well
+
+90
+00:01:47,630 --> 00:01:47,640
+revenue of 50 billion dollars, as well
+ 
+
+91
+00:01:47,640 --> 00:01:50,870
+revenue of 50 billion dollars, as well
+as an EBITDA of 25 billion dollars. So,
+
+92
+00:01:50,870 --> 00:01:50,880
+as an EBITDA of 25 billion dollars. So,
+ 
+
+93
+00:01:50,880 --> 00:01:53,870
+as an EBITDA of 25 billion dollars. So,
+from now to 5 years, the projected
+
+94
+00:01:53,870 --> 00:01:53,880
+from now to 5 years, the projected
+ 
+
+95
+00:01:53,880 --> 00:01:56,550
+from now to 5 years, the projected
+growth rate for For profits is about
+
+96
+00:01:56,550 --> 00:01:56,560
+growth rate for For profits is about
+ 
+
+97
+00:01:56,560 --> 00:01:58,510
+growth rate for For profits is about
+25.6%
+
+98
+00:01:58,510 --> 00:01:58,520
+25.6%
+ 
+
+99
+00:01:58,520 --> 00:02:00,990
+25.6%
+compounded annual growth rate.
+
+100
+00:02:00,990 --> 00:02:01,000
+compounded annual growth rate.
+ 
+
+101
+00:02:01,000 --> 00:02:03,270
+compounded annual growth rate.
+Currently, 60% of their revenue comes
+
+102
+00:02:03,270 --> 00:02:03,280
+Currently, 60% of their revenue comes
+ 
+
+103
+00:02:03,280 --> 00:02:05,590
+Currently, 60% of their revenue comes
+from Starlink, which is their high-speed
+
+104
+00:02:05,590 --> 00:02:05,600
+from Starlink, which is their high-speed
+ 
+
+105
+00:02:05,600 --> 00:02:08,150
+from Starlink, which is their high-speed
+satellite internet. And for their launch
+
+106
+00:02:08,150 --> 00:02:08,160
+satellite internet. And for their launch
+ 
+
+107
+00:02:08,160 --> 00:02:10,950
+satellite internet. And for their launch
+services, they control 80% of all
+
+108
+00:02:10,950 --> 00:02:10,960
+services, they control 80% of all
+ 
+
+109
+00:02:10,960 --> 00:02:14,070
+services, they control 80% of all
+commercial mass to orbit. So, they are a
+
+110
+00:02:14,070 --> 00:02:14,080
+commercial mass to orbit. So, they are a
+ 
+
+111
+00:02:14,080 --> 00:02:18,440
+commercial mass to orbit. So, they are a
+current monopoly in that business.
+

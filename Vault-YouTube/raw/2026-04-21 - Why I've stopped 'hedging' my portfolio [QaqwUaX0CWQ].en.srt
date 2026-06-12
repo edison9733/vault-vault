@@ -1,0 +1,285 @@
+1
+00:00:00,000 --> 00:00:01,750
+
+Now, another common question people ask
+
+2
+00:00:01,750 --> 00:00:01,760
+Now, another common question people ask
+ 
+
+3
+00:00:01,760 --> 00:00:04,790
+Now, another common question people ask
+me would be, "Adam, why don't you hedge
+
+4
+00:00:04,790 --> 00:00:04,800
+me would be, "Adam, why don't you hedge
+ 
+
+5
+00:00:04,800 --> 00:00:07,390
+me would be, "Adam, why don't you hedge
+your portfolio if you think the market's
+
+6
+00:00:07,390 --> 00:00:07,400
+your portfolio if you think the market's
+ 
+
+7
+00:00:07,400 --> 00:00:09,630
+your portfolio if you think the market's
+in a correction or bear market?" Now,
+
+8
+00:00:09,630 --> 00:00:09,640
+in a correction or bear market?" Now,
+ 
+
+9
+00:00:09,640 --> 00:00:11,230
+in a correction or bear market?" Now,
+for those of you who don't understand
+
+10
+00:00:11,230 --> 00:00:11,240
+for those of you who don't understand
+ 
+
+11
+00:00:11,240 --> 00:00:14,070
+for those of you who don't understand
+what is hedging, hedging means like
+
+12
+00:00:14,070 --> 00:00:14,080
+what is hedging, hedging means like
+ 
+
+13
+00:00:14,080 --> 00:00:15,350
+what is hedging, hedging means like
+buying insurance. Like you think the
+
+14
+00:00:15,350 --> 00:00:15,360
+buying insurance. Like you think the
+ 
+
+15
+00:00:15,360 --> 00:00:16,830
+buying insurance. Like you think the
+market's going to go down, you buy a lot
+
+16
+00:00:16,830 --> 00:00:16,840
+market's going to go down, you buy a lot
+ 
+
+17
+00:00:16,840 --> 00:00:18,550
+market's going to go down, you buy a lot
+of put options. So, when the market goes
+
+18
+00:00:18,550 --> 00:00:18,560
+of put options. So, when the market goes
+ 
+
+19
+00:00:18,560 --> 00:00:20,630
+of put options. So, when the market goes
+down, your put options will make you
+
+20
+00:00:20,630 --> 00:00:20,640
+down, your put options will make you
+ 
+
+21
+00:00:20,640 --> 00:00:23,310
+down, your put options will make you
+money. Or you can, of course, short the
+
+22
+00:00:23,310 --> 00:00:23,320
+money. Or you can, of course, short the
+ 
+
+23
+00:00:23,320 --> 00:00:26,470
+money. Or you can, of course, short the
+market or you can buy inverse ETFs. Now,
+
+24
+00:00:26,470 --> 00:00:26,480
+market or you can buy inverse ETFs. Now,
+ 
+
+25
+00:00:26,480 --> 00:00:28,390
+market or you can buy inverse ETFs. Now,
+I used to do a lot of hedging in the
+
+26
+00:00:28,390 --> 00:00:28,400
+I used to do a lot of hedging in the
+ 
+
+27
+00:00:28,400 --> 00:00:31,550
+I used to do a lot of hedging in the
+past. I don't really hedge much anymore.
+
+28
+00:00:31,550 --> 00:00:31,560
+past. I don't really hedge much anymore.
+ 
+
+29
+00:00:31,560 --> 00:00:33,630
+past. I don't really hedge much anymore.
+And the reason is because hedging is not
+
+30
+00:00:33,630 --> 00:00:33,640
+And the reason is because hedging is not
+ 
+
+31
+00:00:33,640 --> 00:00:36,190
+And the reason is because hedging is not
+free. And again, when you hedge, which
+
+32
+00:00:36,190 --> 00:00:36,200
+free. And again, when you hedge, which
+ 
+
+33
+00:00:36,200 --> 00:00:38,190
+free. And again, when you hedge, which
+means you buy inverse ETFs, you short
+
+34
+00:00:38,190 --> 00:00:38,200
+means you buy inverse ETFs, you short
+ 
+
+35
+00:00:38,200 --> 00:00:40,710
+means you buy inverse ETFs, you short
+the market, you buy put options, yes, I
+
+36
+00:00:40,710 --> 00:00:40,720
+the market, you buy put options, yes, I
+ 
+
+37
+00:00:40,720 --> 00:00:43,790
+the market, you buy put options, yes, I
+would say that one out of five times the
+
+38
+00:00:43,790 --> 00:00:43,800
+would say that one out of five times the
+ 
+
+39
+00:00:43,800 --> 00:00:45,390
+would say that one out of five times the
+market will go a lot lower and you'll
+
+40
+00:00:45,390 --> 00:00:45,400
+market will go a lot lower and you'll
+ 
+
+41
+00:00:45,400 --> 00:00:47,630
+market will go a lot lower and you'll
+make money on your put options or your
+
+42
+00:00:47,630 --> 00:00:47,640
+make money on your put options or your
+ 
+
+43
+00:00:47,640 --> 00:00:48,910
+make money on your put options or your
+hedges.
+
+44
+00:00:48,910 --> 00:00:48,920
+hedges.
+ 
+
+45
+00:00:48,920 --> 00:00:51,710
+hedges.
+But four out of five times, after you
+
+46
+00:00:51,710 --> 00:00:51,720
+But four out of five times, after you
+ 
+
+47
+00:00:51,720 --> 00:00:54,070
+But four out of five times, after you
+hedge, the market reverses back up very
+
+48
+00:00:54,070 --> 00:00:54,080
+hedge, the market reverses back up very
+ 
+
+49
+00:00:54,080 --> 00:00:57,030
+hedge, the market reverses back up very
+strongly and your put options lose you
+
+50
+00:00:57,030 --> 00:00:57,040
+strongly and your put options lose you
+ 
+
+51
+00:00:57,040 --> 00:01:00,310
+strongly and your put options lose you
+money, your shorts lose you money. And
+
+52
+00:01:00,310 --> 00:01:00,320
+money, your shorts lose you money. And
+ 
+
+53
+00:01:00,320 --> 00:01:02,550
+money, your shorts lose you money. And
+so, by doing that in the long run, you
+
+54
+00:01:02,550 --> 00:01:02,560
+so, by doing that in the long run, you
+ 
+
+55
+00:01:02,560 --> 00:01:05,310
+so, by doing that in the long run, you
+find that hedging actually reduces your
+
+56
+00:01:05,310 --> 00:01:05,320
+find that hedging actually reduces your
+ 
+
+57
+00:01:05,320 --> 00:01:07,840
+find that hedging actually reduces your
+return.
+

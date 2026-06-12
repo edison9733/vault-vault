@@ -1,0 +1,1 @@
+Google's flagship multimodal model announced at Google I/O 2026. Takes any input (text, video, sound) and produces any output. Designed as a [[World Model]] — understanding language, physics, and motion well enough to simulate aspects of reality on demand.

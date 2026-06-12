@@ -1,0 +1,1 @@
+AI research company founded in 2015 as a nonprofit by Elon Musk, Sam Altman, Greg Brockman, and Ilya Sutskever. Evolved into a capped for-profit entity backed by $13B+ from Microsoft and approaching ~$1T valuation by 2026. Central subject of the [[Musk vs Altman Trial]].

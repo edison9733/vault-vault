@@ -1,0 +1,1 @@
+The frameworks, structures, and legal norms governing AI development organizations. The [[Musk vs Altman Trial]] and [[OpenAI]]'s nonprofit-to-for-profit conversion are key 2026 case studies in how AI governance can fail when mission and incentives diverge.

@@ -1,0 +1,165 @@
+1
+00:00:00,000 --> 00:00:01,750
+
+What if your AI agent never went to
+
+2
+00:00:01,750 --> 00:00:01,760
+What if your AI agent never went to
+ 
+
+3
+00:00:01,760 --> 00:00:03,430
+What if your AI agent never went to
+sleep and cost you zero dollars a month
+
+4
+00:00:03,430 --> 00:00:03,440
+sleep and cost you zero dollars a month
+ 
+
+5
+00:00:03,440 --> 00:00:03,919
+sleep and cost you zero dollars a month
+to run?
+
+6
+00:00:03,919 --> 00:00:03,929
+to run?
+ 
+
+7
+00:00:03,929 --> 00:00:04,270
+to run?
+>> [music]
+
+8
+00:00:04,270 --> 00:00:04,280
+>> [music]
+ 
+
+9
+00:00:04,280 --> 00:00:06,190
+>> [music]
+>> In a previous video, I showed you how to
+
+10
+00:00:06,190 --> 00:00:06,200
+>> In a previous video, I showed you how to
+ 
+
+11
+00:00:06,200 --> 00:00:08,470
+>> In a previous video, I showed you how to
+safely set up an AI agent by running a
+
+12
+00:00:08,470 --> 00:00:08,480
+safely set up an AI agent by running a
+ 
+
+13
+00:00:08,480 --> 00:00:11,070
+safely set up an AI agent by running a
+GCP virtual machine. Now, that's great
+
+14
+00:00:11,070 --> 00:00:11,080
+GCP virtual machine. Now, that's great
+ 
+
+15
+00:00:11,080 --> 00:00:12,710
+GCP virtual machine. Now, that's great
+when you're just getting started because
+
+16
+00:00:12,710 --> 00:00:12,720
+when you're just getting started because
+ 
+
+17
+00:00:12,720 --> 00:00:14,510
+when you're just getting started because
+it's very easy to set up while still
+
+18
+00:00:14,510 --> 00:00:14,520
+it's very easy to set up while still
+ 
+
+19
+00:00:14,520 --> 00:00:16,510
+it's very easy to set up while still
+keeping your local machine clean. But,
+
+20
+00:00:16,510 --> 00:00:16,520
+keeping your local machine clean. But,
+ 
+
+21
+00:00:16,520 --> 00:00:18,030
+keeping your local machine clean. But,
+the problem is you're paying for it
+
+22
+00:00:18,030 --> 00:00:18,040
+the problem is you're paying for it
+ 
+
+23
+00:00:18,040 --> 00:00:20,390
+the problem is you're paying for it
+every month and that cost does start to
+
+24
+00:00:20,390 --> 00:00:20,400
+every month and that cost does start to
+ 
+
+25
+00:00:20,400 --> 00:00:20,950
+every month and that cost does start to
+add up.
+
+26
+00:00:20,950 --> 00:00:20,960
+add up.
+ 
+
+27
+00:00:20,960 --> 00:00:21,470
+add up.
+>> [music]
+
+28
+00:00:21,470 --> 00:00:21,480
+>> [music]
+ 
+
+29
+00:00:21,480 --> 00:00:22,630
+>> [music]
+>> So, today we're going to solve that
+
+30
+00:00:22,630 --> 00:00:22,640
+>> So, today we're going to solve that
+ 
+
+31
+00:00:22,640 --> 00:00:24,590
+>> So, today we're going to solve that
+problem by running our AI agent on a
+
+32
+00:00:24,590 --> 00:00:24,600
+problem by running our AI agent on a
+ 
+
+33
+00:00:24,600 --> 00:00:27,480
+problem by running our AI agent on a
+Raspberry Pi.
+

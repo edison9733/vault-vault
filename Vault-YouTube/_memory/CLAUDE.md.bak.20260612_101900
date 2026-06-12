@@ -1,0 +1,22 @@
+# Vault-YouTube - Agent Instructions
+
+This Obsidian vault holds YouTube transcripts (raw/) and analysis notes (notes/).
+
+Input: .srt files in raw/, named `YYYY-MM-DD - Title [VIDEOID].en.srt`.
+
+For each transcript with NO matching note in notes/ (match by VIDEOID in filename):
+
+1. Read the transcript. Ignore srt timestamps and sequence numbers.
+2. Create `notes/YYYY-MM-DD - Title [VIDEOID].md`.
+3. Frontmatter: title, channel (if inferable), video_url (https://youtube.com/watch?v=VIDEOID), date, tags.
+4. Sections, in this order:
+   - `## Summary` - exactly 3 bullets.
+   - `## Key Points` - the substance, with bolded **keywords**.
+   - `## Notable Quotes` - max 3, only if genuinely notable.
+   - `## Concepts` - list of [[wikilinked]] concepts.
+5. For every important concept, ensure a stub note exists in `Concepts/`
+   (2-3 lines) so videos sharing ideas connect in the graph view.
+6. ==Highlight== the single biggest insight of the video.
+7. Never modify or delete anything in raw/. Never delete notes.
+8. If there are no unprocessed transcripts, say "nothing to do" and stop.
+   Do not re-read old notes. Be concise; no filler.

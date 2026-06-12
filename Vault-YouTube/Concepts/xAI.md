@@ -1,0 +1,1 @@
+Elon Musk's AI company, founded after he left the [[OpenAI]] board in 2018. Produces the Grok model. Musk admitted under oath during the [[Musk vs Altman Trial]] that xAI/Grok had used OpenAI model outputs — complicating his case against OpenAI.

@@ -1,0 +1,2225 @@
+1
+00:00:00,000 --> 00:00:02,110
+
+Pay is a new developer tool on Solana
+
+2
+00:00:02,110 --> 00:00:02,120
+Pay is a new developer tool on Solana
+ 
+
+3
+00:00:02,120 --> 00:00:04,790
+Pay is a new developer tool on Solana
+that turns HTTP 402 into a wallet
+
+4
+00:00:04,790 --> 00:00:04,800
+that turns HTTP 402 into a wallet
+ 
+
+5
+00:00:04,800 --> 00:00:07,150
+that turns HTTP 402 into a wallet
+approved API. It's a payment layer that
+
+6
+00:00:07,150 --> 00:00:07,160
+approved API. It's a payment layer that
+ 
+
+7
+00:00:07,160 --> 00:00:10,310
+approved API. It's a payment layer that
+lets CLIs and AI agents access paid APIs
+
+8
+00:00:10,310 --> 00:00:10,320
+lets CLIs and AI agents access paid APIs
+ 
+
+9
+00:00:10,320 --> 00:00:12,750
+lets CLIs and AI agents access paid APIs
+without juggling API keys. So, when an
+
+10
+00:00:12,750 --> 00:00:12,760
+without juggling API keys. So, when an
+ 
+
+11
+00:00:12,760 --> 00:00:16,070
+without juggling API keys. So, when an
+API returns a 402 payment required, Pay
+
+12
+00:00:16,070 --> 00:00:16,080
+API returns a 402 payment required, Pay
+ 
+
+13
+00:00:16,080 --> 00:00:17,870
+API returns a 402 payment required, Pay
+detects a payment protocol, prepares a
+
+14
+00:00:17,870 --> 00:00:17,880
+detects a payment protocol, prepares a
+ 
+
+15
+00:00:17,880 --> 00:00:20,350
+detects a payment protocol, prepares a
+stablecoin payment, asks for a local
+
+16
+00:00:20,350 --> 00:00:20,360
+stablecoin payment, asks for a local
+ 
+
+17
+00:00:20,360 --> 00:00:22,270
+stablecoin payment, asks for a local
+wallet approval, and then retries the
+
+18
+00:00:22,270 --> 00:00:22,280
+wallet approval, and then retries the
+ 
+
+19
+00:00:22,280 --> 00:00:24,550
+wallet approval, and then retries the
+request automatically. In this video,
+
+20
+00:00:24,550 --> 00:00:24,560
+request automatically. In this video,
+ 
+
+21
+00:00:24,560 --> 00:00:26,310
+request automatically. In this video,
+I'll show you the difference between a
+
+22
+00:00:26,310 --> 00:00:26,320
+I'll show you the difference between a
+ 
+
+23
+00:00:26,320 --> 00:00:28,470
+I'll show you the difference between a
+normal curl request that gets blocked
+
+24
+00:00:28,470 --> 00:00:28,480
+normal curl request that gets blocked
+ 
+
+25
+00:00:28,480 --> 00:00:30,070
+normal curl request that gets blocked
+and a Pay powered request that completes
+
+26
+00:00:30,070 --> 00:00:30,080
+and a Pay powered request that completes
+ 
+
+27
+00:00:30,080 --> 00:00:31,950
+and a Pay powered request that completes
+successfully. Then, I'll show the
+
+28
+00:00:31,950 --> 00:00:31,960
+successfully. Then, I'll show the
+ 
+
+29
+00:00:31,960 --> 00:00:34,110
+successfully. Then, I'll show the
+payment debugger to get a full
+
+30
+00:00:34,110 --> 00:00:34,120
+payment debugger to get a full
+ 
+
+31
+00:00:34,120 --> 00:00:36,430
+payment debugger to get a full
+challenge, payment, and response flow in
+
+32
+00:00:36,430 --> 00:00:36,440
+challenge, payment, and response flow in
+ 
+
+33
+00:00:36,440 --> 00:00:37,750
+challenge, payment, and response flow in
+real time.
+
+34
+00:00:37,750 --> 00:00:37,760
+real time.
+ 
+
+35
+00:00:37,760 --> 00:00:39,670
+real time.
+And finally, I'll show how this works
+
+36
+00:00:39,670 --> 00:00:39,680
+And finally, I'll show how this works
+ 
+
+37
+00:00:39,680 --> 00:00:41,630
+And finally, I'll show how this works
+for developers who are building with
+
+38
+00:00:41,630 --> 00:00:41,640
+for developers who are building with
+ 
+
+39
+00:00:41,640 --> 00:00:44,070
+for developers who are building with
+paid APIs and agents using tools like
+
+40
+00:00:44,070 --> 00:00:44,080
+paid APIs and agents using tools like
+ 
+
+41
+00:00:44,080 --> 00:00:46,630
+paid APIs and agents using tools like
+Codex or Claude. So, let's get started.
+
+42
+00:00:46,630 --> 00:00:46,640
+Codex or Claude. So, let's get started.
+ 
+
+43
+00:00:46,640 --> 00:00:47,950
+Codex or Claude. So, let's get started.
+So, we're just going to start with the
+
+44
+00:00:47,950 --> 00:00:47,960
+So, we're just going to start with the
+ 
+
+45
+00:00:47,960 --> 00:00:49,670
+So, we're just going to start with the
+installation and setup. Here, you can
+
+46
+00:00:49,670 --> 00:00:49,680
+installation and setup. Here, you can
+ 
+
+47
+00:00:49,680 --> 00:00:52,230
+installation and setup. Here, you can
+see the GitHub repo for Pay, which I
+
+48
+00:00:52,230 --> 00:00:52,240
+see the GitHub repo for Pay, which I
+ 
+
+49
+00:00:52,240 --> 00:00:54,070
+see the GitHub repo for Pay, which I
+will link in the description of this
+
+50
+00:00:54,070 --> 00:00:54,080
+will link in the description of this
+ 
+
+51
+00:00:54,080 --> 00:00:56,670
+will link in the description of this
+video. If we scroll down in the readme,
+
+52
+00:00:56,670 --> 00:00:56,680
+video. If we scroll down in the readme,
+ 
+
+53
+00:00:56,680 --> 00:00:58,990
+video. If we scroll down in the readme,
+you can see the installation section.
+
+54
+00:00:58,990 --> 00:00:59,000
+you can see the installation section.
+ 
+
+55
+00:00:59,000 --> 00:01:00,790
+you can see the installation section.
+We're going to use brew. You can also
+
+56
+00:01:00,790 --> 00:01:00,800
+We're going to use brew. You can also
+ 
+
+57
+00:01:00,800 --> 00:01:02,950
+We're going to use brew. You can also
+build from source if you would prefer.
+
+58
+00:01:02,950 --> 00:01:02,960
+build from source if you would prefer.
+ 
+
+59
+00:01:02,960 --> 00:01:05,470
+build from source if you would prefer.
+And I'm just going to brew install Pay.
+
+60
+00:01:05,470 --> 00:01:05,480
+And I'm just going to brew install Pay.
+ 
+
+61
+00:01:05,480 --> 00:01:06,950
+And I'm just going to brew install Pay.
+Once that's set up, I'm going to check
+
+62
+00:01:06,950 --> 00:01:06,960
+Once that's set up, I'm going to check
+ 
+
+63
+00:01:06,960 --> 00:01:08,870
+Once that's set up, I'm going to check
+the version to make sure it's installed
+
+64
+00:01:08,870 --> 00:01:08,880
+the version to make sure it's installed
+ 
+
+65
+00:01:08,880 --> 00:01:10,470
+the version to make sure it's installed
+correctly.
+
+66
+00:01:10,470 --> 00:01:10,480
+correctly.
+ 
+
+67
+00:01:10,480 --> 00:01:12,950
+correctly.
+And we're good to go. So, up next is
+
+68
+00:01:12,950 --> 00:01:12,960
+And we're good to go. So, up next is
+ 
+
+69
+00:01:12,960 --> 00:01:15,670
+And we're good to go. So, up next is
+just setting up Pay. And when you do
+
+70
+00:01:15,670 --> 00:01:15,680
+just setting up Pay. And when you do
+ 
+
+71
+00:01:15,680 --> 00:01:18,550
+just setting up Pay. And when you do
+that, you can just follow the setup
+
+72
+00:01:18,550 --> 00:01:18,560
+that, you can just follow the setup
+ 
+
+73
+00:01:18,560 --> 00:01:20,990
+that, you can just follow the setup
+instructions here. So, do I want to
+
+74
+00:01:20,990 --> 00:01:21,000
+instructions here. So, do I want to
+ 
+
+75
+00:01:21,000 --> 00:01:22,830
+instructions here. So, do I want to
+install Pay for my skills? I'm going to
+
+76
+00:01:22,830 --> 00:01:22,840
+install Pay for my skills? I'm going to
+ 
+
+77
+00:01:22,840 --> 00:01:24,790
+install Pay for my skills? I'm going to
+do that. So, now when I'm using Claude,
+
+78
+00:01:24,790 --> 00:01:24,800
+do that. So, now when I'm using Claude,
+ 
+
+79
+00:01:24,800 --> 00:01:27,590
+do that. So, now when I'm using Claude,
+it's going to know about Pay and be able
+
+80
+00:01:27,590 --> 00:01:27,600
+it's going to know about Pay and be able
+ 
+
+81
+00:01:27,600 --> 00:01:30,430
+it's going to know about Pay and be able
+to use it when answering my questions or
+
+82
+00:01:30,430 --> 00:01:30,440
+to use it when answering my questions or
+ 
+
+83
+00:01:30,440 --> 00:01:32,510
+to use it when answering my questions or
+working with any code base that I have.
+
+84
+00:01:32,510 --> 00:01:32,520
+working with any code base that I have.
+ 
+
+85
+00:01:32,520 --> 00:01:34,750
+working with any code base that I have.
+And now, the next question is how should
+
+86
+00:01:34,750 --> 00:01:34,760
+And now, the next question is how should
+ 
+
+87
+00:01:34,760 --> 00:01:36,310
+And now, the next question is how should
+you store your accounts? I'm going to
+
+88
+00:01:36,310 --> 00:01:36,320
+you store your accounts? I'm going to
+ 
+
+89
+00:01:36,320 --> 00:01:38,630
+you store your accounts? I'm going to
+use the Touch ID in my keychain, so I'm
+
+90
+00:01:38,630 --> 00:01:38,640
+use the Touch ID in my keychain, so I'm
+ 
+
+91
+00:01:38,640 --> 00:01:40,990
+use the Touch ID in my keychain, so I'm
+just going to verify that.
+
+92
+00:01:40,990 --> 00:01:41,000
+just going to verify that.
+ 
+
+93
+00:01:41,000 --> 00:01:42,870
+just going to verify that.
+And then, we're good to go.
+
+94
+00:01:42,870 --> 00:01:42,880
+And then, we're good to go.
+ 
+
+95
+00:01:42,880 --> 00:01:45,190
+And then, we're good to go.
+Then next, it's going to prompt you to
+
+96
+00:01:45,190 --> 00:01:45,200
+Then next, it's going to prompt you to
+ 
+
+97
+00:01:45,200 --> 00:01:47,470
+Then next, it's going to prompt you to
+top up the wallet. So, this is the
+
+98
+00:01:47,470 --> 00:01:47,480
+top up the wallet. So, this is the
+ 
+
+99
+00:01:47,480 --> 00:01:50,150
+top up the wallet. So, this is the
+wallet that Pay is going to be using to
+
+100
+00:01:50,150 --> 00:01:50,160
+wallet that Pay is going to be using to
+ 
+
+101
+00:01:50,160 --> 00:01:52,550
+wallet that Pay is going to be using to
+make any payments needed. You can see
+
+102
+00:01:52,550 --> 00:01:52,560
+make any payments needed. You can see
+ 
+
+103
+00:01:52,560 --> 00:01:54,710
+make any payments needed. You can see
+here it says QR code unavailable. If I
+
+104
+00:01:54,710 --> 00:01:54,720
+here it says QR code unavailable. If I
+ 
+
+105
+00:01:54,720 --> 00:01:56,390
+here it says QR code unavailable. If I
+just expand it, it's going to show up. I
+
+106
+00:01:56,390 --> 00:01:56,400
+just expand it, it's going to show up. I
+ 
+
+107
+00:01:56,400 --> 00:01:59,230
+just expand it, it's going to show up. I
+just have my terminal shrunk a bit, but
+
+108
+00:01:59,230 --> 00:01:59,240
+just have my terminal shrunk a bit, but
+ 
+
+109
+00:01:59,240 --> 00:02:01,470
+just have my terminal shrunk a bit, but
+this gives you the QR code that you can
+
+110
+00:02:01,470 --> 00:02:01,480
+this gives you the QR code that you can
+ 
+
+111
+00:02:01,480 --> 00:02:03,270
+this gives you the QR code that you can
+scan from your mobile wallet and then
+
+112
+00:02:03,270 --> 00:02:03,280
+scan from your mobile wallet and then
+ 
+
+113
+00:02:03,280 --> 00:02:05,870
+scan from your mobile wallet and then
+send funds directly to this wallet that
+
+114
+00:02:05,870 --> 00:02:05,880
+send funds directly to this wallet that
+ 
+
+115
+00:02:05,880 --> 00:02:08,790
+send funds directly to this wallet that
+Pay is using. And that is going to allow
+
+116
+00:02:08,790 --> 00:02:08,800
+Pay is using. And that is going to allow
+ 
+
+117
+00:02:08,800 --> 00:02:11,590
+Pay is using. And that is going to allow
+it to make on-chain payments. And once
+
+118
+00:02:11,590 --> 00:02:11,600
+it to make on-chain payments. And once
+ 
+
+119
+00:02:11,600 --> 00:02:13,070
+it to make on-chain payments. And once
+that's done, I already have my wallet
+
+120
+00:02:13,070 --> 00:02:13,080
+that's done, I already have my wallet
+ 
+
+121
+00:02:13,080 --> 00:02:15,870
+that's done, I already have my wallet
+funded, so I'm going to skip that.
+
+122
+00:02:15,870 --> 00:02:15,880
+funded, so I'm going to skip that.
+ 
+
+123
+00:02:15,880 --> 00:02:17,830
+funded, so I'm going to skip that.
+Now, we're all set up and we can start
+
+124
+00:02:17,830 --> 00:02:17,840
+Now, we're all set up and we can start
+ 
+
+125
+00:02:17,840 --> 00:02:20,670
+Now, we're all set up and we can start
+actually using Pay. So, first I'm going
+
+126
+00:02:20,670 --> 00:02:20,680
+actually using Pay. So, first I'm going
+ 
+
+127
+00:02:20,680 --> 00:02:23,750
+actually using Pay. So, first I'm going
+to spin up a demo server so I can demo
+
+128
+00:02:23,750 --> 00:02:23,760
+to spin up a demo server so I can demo
+ 
+
+129
+00:02:23,760 --> 00:02:25,790
+to spin up a demo server so I can demo
+on local. And you can actually do this
+
+130
+00:02:25,790 --> 00:02:25,800
+on local. And you can actually do this
+ 
+
+131
+00:02:25,800 --> 00:02:31,310
+on local. And you can actually do this
+directly with the Pay CLI.
+
+132
+00:02:31,310 --> 00:02:31,320
+
+ 
+
+133
+00:02:31,320 --> 00:02:33,910
+
+So, I'll just call Pay server demo and
+
+134
+00:02:33,910 --> 00:02:33,920
+So, I'll just call Pay server demo and
+ 
+
+135
+00:02:33,920 --> 00:02:36,550
+So, I'll just call Pay server demo and
+specify the bind, and this is now going
+
+136
+00:02:36,550 --> 00:02:36,560
+specify the bind, and this is now going
+ 
+
+137
+00:02:36,560 --> 00:02:39,430
+specify the bind, and this is now going
+to run our demo server. Now, this server
+
+138
+00:02:39,430 --> 00:02:39,440
+to run our demo server. Now, this server
+ 
+
+139
+00:02:39,440 --> 00:02:41,510
+to run our demo server. Now, this server
+was set up so that all of the local
+
+140
+00:02:41,510 --> 00:02:41,520
+was set up so that all of the local
+ 
+
+141
+00:02:41,520 --> 00:02:44,190
+was set up so that all of the local
+endpoints here are payment gated. So,
+
+142
+00:02:44,190 --> 00:02:44,200
+endpoints here are payment gated. So,
+ 
+
+143
+00:02:44,200 --> 00:02:46,310
+endpoints here are payment gated. So,
+let's see what endpoints are available
+
+144
+00:02:46,310 --> 00:02:46,320
+let's see what endpoints are available
+ 
+
+145
+00:02:46,320 --> 00:02:49,190
+let's see what endpoints are available
+and then we can test them out.
+
+146
+00:02:49,190 --> 00:02:49,200
+and then we can test them out.
+ 
+
+147
+00:02:49,200 --> 00:02:51,270
+and then we can test them out.
+So, let's use this first endpoint here
+
+148
+00:02:51,270 --> 00:02:51,280
+So, let's use this first endpoint here
+ 
+
+149
+00:02:51,280 --> 00:02:53,949
+So, let's use this first endpoint here
+that's returned, which is for the usage
+
+150
+00:02:53,949 --> 00:02:53,959
+that's returned, which is for the usage
+ 
+
+151
+00:02:53,959 --> 00:02:57,310
+that's returned, which is for the usage
+report. And let's first test it out just
+
+152
+00:02:57,310 --> 00:02:57,320
+report. And let's first test it out just
+ 
+
+153
+00:02:57,320 --> 00:02:59,390
+report. And let's first test it out just
+running a curl command. So, this is how
+
+154
+00:02:59,390 --> 00:02:59,400
+running a curl command. So, this is how
+ 
+
+155
+00:02:59,400 --> 00:03:07,310
+running a curl command. So, this is how
+you would normally call an API endpoint.
+
+156
+00:03:07,310 --> 00:03:07,320
+
+ 
+
+157
+00:03:07,320 --> 00:03:09,430
+
+So, we're going to scroll up and you see
+
+158
+00:03:09,430 --> 00:03:09,440
+So, we're going to scroll up and you see
+ 
+
+159
+00:03:09,440 --> 00:03:11,750
+So, we're going to scroll up and you see
+this error here that says 402 payment
+
+160
+00:03:11,750 --> 00:03:11,760
+this error here that says 402 payment
+ 
+
+161
+00:03:11,760 --> 00:03:13,750
+this error here that says 402 payment
+required. So, this is what a normal
+
+162
+00:03:13,750 --> 00:03:13,760
+required. So, this is what a normal
+ 
+
+163
+00:03:13,760 --> 00:03:16,790
+required. So, this is what a normal
+client sees. The API is reachable, but
+
+164
+00:03:16,790 --> 00:03:16,800
+client sees. The API is reachable, but
+ 
+
+165
+00:03:16,800 --> 00:03:19,030
+client sees. The API is reachable, but
+the resource is gated. So, the server
+
+166
+00:03:19,030 --> 00:03:19,040
+the resource is gated. So, the server
+ 
+
+167
+00:03:19,040 --> 00:03:21,470
+the resource is gated. So, the server
+responds with a 402 payment required
+
+168
+00:03:21,470 --> 00:03:21,480
+responds with a 402 payment required
+ 
+
+169
+00:03:21,480 --> 00:03:24,710
+responds with a 402 payment required
+error. And that's the part that Pay is
+
+170
+00:03:24,710 --> 00:03:24,720
+error. And that's the part that Pay is
+ 
+
+171
+00:03:24,720 --> 00:03:26,310
+error. And that's the part that Pay is
+actually designed to handle. So, let's
+
+172
+00:03:26,310 --> 00:03:26,320
+actually designed to handle. So, let's
+ 
+
+173
+00:03:26,320 --> 00:03:29,030
+actually designed to handle. So, let's
+test this out again using Pay. And I'm
+
+174
+00:03:29,030 --> 00:03:29,040
+test this out again using Pay. And I'm
+ 
+
+175
+00:03:29,040 --> 00:03:31,550
+test this out again using Pay. And I'm
+going to call the same command, but
+
+176
+00:03:31,550 --> 00:03:31,560
+going to call the same command, but
+ 
+
+177
+00:03:31,560 --> 00:03:35,710
+going to call the same command, but
+we're going to wrap that in the Pay CLI.
+
+178
+00:03:35,710 --> 00:03:35,720
+we're going to wrap that in the Pay CLI.
+ 
+
+179
+00:03:35,720 --> 00:03:38,670
+we're going to wrap that in the Pay CLI.
+So, if we have Pay, curl, and then the
+
+180
+00:03:38,670 --> 00:03:38,680
+So, if we have Pay, curl, and then the
+ 
+
+181
+00:03:38,680 --> 00:03:40,949
+So, if we have Pay, curl, and then the
+same local API we're going to be
+
+182
+00:03:40,949 --> 00:03:40,959
+same local API we're going to be
+ 
+
+183
+00:03:40,959 --> 00:03:45,190
+same local API we're going to be
+calling.
+
+184
+00:03:45,190 --> 00:03:45,200
+
+ 
+
+185
+00:03:45,200 --> 00:03:47,310
+
+And here you can see the API was
+
+186
+00:03:47,310 --> 00:03:47,320
+And here you can see the API was
+ 
+
+187
+00:03:47,320 --> 00:03:49,430
+And here you can see the API was
+successfully called. It returned the
+
+188
+00:03:49,430 --> 00:03:49,440
+successfully called. It returned the
+ 
+
+189
+00:03:49,440 --> 00:03:52,710
+successfully called. It returned the
+usage report and a okay status. Now,
+
+190
+00:03:52,710 --> 00:03:52,720
+usage report and a okay status. Now,
+ 
+
+191
+00:03:52,720 --> 00:03:54,950
+usage report and a okay status. Now,
+here I'm making the same request through
+
+192
+00:03:54,950 --> 00:03:54,960
+here I'm making the same request through
+ 
+
+193
+00:03:54,960 --> 00:03:58,030
+here I'm making the same request through
+pay and pay reads the payment challenge,
+
+194
+00:03:58,030 --> 00:03:58,040
+pay and pay reads the payment challenge,
+ 
+
+195
+00:03:58,040 --> 00:04:00,510
+pay and pay reads the payment challenge,
+builds the payment proof, signs it with
+
+196
+00:04:00,510 --> 00:04:00,520
+builds the payment proof, signs it with
+ 
+
+197
+00:04:00,520 --> 00:04:02,990
+builds the payment proof, signs it with
+the local wallet, and then retries the
+
+198
+00:04:02,990 --> 00:04:03,000
+the local wallet, and then retries the
+ 
+
+199
+00:04:03,000 --> 00:04:05,230
+the local wallet, and then retries the
+request. But, from the user's
+
+200
+00:04:05,230 --> 00:04:05,240
+request. But, from the user's
+ 
+
+201
+00:04:05,240 --> 00:04:07,070
+request. But, from the user's
+perspective, it feels like you're just
+
+202
+00:04:07,070 --> 00:04:07,080
+perspective, it feels like you're just
+ 
+
+203
+00:04:07,080 --> 00:04:09,110
+perspective, it feels like you're just
+running a normal curl command, but the
+
+204
+00:04:09,110 --> 00:04:09,120
+running a normal curl command, but the
+ 
+
+205
+00:04:09,120 --> 00:04:11,390
+running a normal curl command, but the
+payment handshake actually happens
+
+206
+00:04:11,390 --> 00:04:11,400
+payment handshake actually happens
+ 
+
+207
+00:04:11,400 --> 00:04:14,230
+payment handshake actually happens
+automatically here.
+
+208
+00:04:14,230 --> 00:04:14,240
+automatically here.
+ 
+
+209
+00:04:14,240 --> 00:04:17,030
+automatically here.
+Now, let's see what pay looks like in a
+
+210
+00:04:17,030 --> 00:04:17,040
+Now, let's see what pay looks like in a
+ 
+
+211
+00:04:17,040 --> 00:04:19,789
+Now, let's see what pay looks like in a
+UI with a debugger. So, it's a little
+
+212
+00:04:19,789 --> 00:04:19,799
+UI with a debugger. So, it's a little
+ 
+
+213
+00:04:19,799 --> 00:04:22,430
+UI with a debugger. So, it's a little
+bit easier to conceptually understand
+
+214
+00:04:22,430 --> 00:04:22,440
+bit easier to conceptually understand
+ 
+
+215
+00:04:22,440 --> 00:04:24,470
+bit easier to conceptually understand
+when we're looking at the UI and able to
+
+216
+00:04:24,470 --> 00:04:24,480
+when we're looking at the UI and able to
+ 
+
+217
+00:04:24,480 --> 00:04:26,990
+when we're looking at the UI and able to
+analyze the debugger. I'm going to open
+
+218
+00:04:26,990 --> 00:04:27,000
+analyze the debugger. I'm going to open
+ 
+
+219
+00:04:27,000 --> 00:04:30,270
+analyze the debugger. I'm going to open
+up that site here in my browser, and I'm
+
+220
+00:04:30,270 --> 00:04:30,280
+up that site here in my browser, and I'm
+ 
+
+221
+00:04:30,280 --> 00:04:33,270
+up that site here in my browser, and I'm
+just going to execute a payment gated
+
+222
+00:04:33,270 --> 00:04:33,280
+just going to execute a payment gated
+ 
+
+223
+00:04:33,280 --> 00:04:35,909
+just going to execute a payment gated
+API request one more time. Here, I'm
+
+224
+00:04:35,909 --> 00:04:35,919
+API request one more time. Here, I'm
+ 
+
+225
+00:04:35,919 --> 00:04:38,710
+API request one more time. Here, I'm
+going to use this gated endpoint that is
+
+226
+00:04:38,710 --> 00:04:38,720
+going to use this gated endpoint that is
+ 
+
+227
+00:04:38,720 --> 00:04:40,950
+going to use this gated endpoint that is
+shown on the payments debugger UI. So,
+
+228
+00:04:40,950 --> 00:04:40,960
+shown on the payments debugger UI. So,
+ 
+
+229
+00:04:40,960 --> 00:04:42,790
+shown on the payments debugger UI. So,
+let me just copy this and then paste it
+
+230
+00:04:42,790 --> 00:04:42,800
+let me just copy this and then paste it
+ 
+
+231
+00:04:42,800 --> 00:04:45,790
+let me just copy this and then paste it
+in my terminal.
+
+232
+00:04:45,790 --> 00:04:45,800
+
+ 
+
+233
+00:04:45,800 --> 00:04:48,270
+
+And now you can see what's happening in
+
+234
+00:04:48,270 --> 00:04:48,280
+And now you can see what's happening in
+ 
+
+235
+00:04:48,280 --> 00:04:52,110
+And now you can see what's happening in
+real time.
+
+236
+00:04:52,110 --> 00:04:52,120
+
+ 
+
+237
+00:04:52,120 --> 00:04:53,909
+
+Okay. So, you can see the resource was
+
+238
+00:04:53,909 --> 00:04:53,919
+Okay. So, you can see the resource was
+ 
+
+239
+00:04:53,919 --> 00:04:57,590
+Okay. So, you can see the resource was
+delivered. I'm going to expand my
+
+240
+00:04:57,590 --> 00:04:57,600
+delivered. I'm going to expand my
+ 
+
+241
+00:04:57,600 --> 00:04:59,670
+delivered. I'm going to expand my
+browser so you can see everything. We'll
+
+242
+00:04:59,670 --> 00:04:59,680
+browser so you can see everything. We'll
+ 
+
+243
+00:04:59,680 --> 00:05:02,070
+browser so you can see everything. We'll
+zoom in a bit. So, this debugger, it's
+
+244
+00:05:02,070 --> 00:05:02,080
+zoom in a bit. So, this debugger, it's
+ 
+
+245
+00:05:02,080 --> 00:05:03,790
+zoom in a bit. So, this debugger, it's
+one of the best ways to understand
+
+246
+00:05:03,790 --> 00:05:03,800
+one of the best ways to understand
+ 
+
+247
+00:05:03,800 --> 00:05:05,590
+one of the best ways to understand
+what's actually happening behind the
+
+248
+00:05:05,590 --> 00:05:05,600
+what's actually happening behind the
+ 
+
+249
+00:05:05,600 --> 00:05:07,070
+what's actually happening behind the
+hood with pay.
+
+250
+00:05:07,070 --> 00:05:07,080
+hood with pay.
+ 
+
+251
+00:05:07,080 --> 00:05:10,070
+hood with pay.
+It groups the raw HTTP request into a
+
+252
+00:05:10,070 --> 00:05:10,080
+It groups the raw HTTP request into a
+ 
+
+253
+00:05:10,080 --> 00:05:12,070
+It groups the raw HTTP request into a
+single payment flow. So, instead of
+
+254
+00:05:12,070 --> 00:05:12,080
+single payment flow. So, instead of
+ 
+
+255
+00:05:12,080 --> 00:05:14,310
+single payment flow. So, instead of
+staring at headers, so now I'm going to
+
+256
+00:05:14,310 --> 00:05:14,320
+staring at headers, so now I'm going to
+ 
+
+257
+00:05:14,320 --> 00:05:17,110
+staring at headers, so now I'm going to
+show basically the same thing, but just
+
+258
+00:05:17,110 --> 00:05:17,120
+show basically the same thing, but just
+ 
+
+259
+00:05:17,120 --> 00:05:19,150
+show basically the same thing, but just
+all of these different ways to do it so
+
+260
+00:05:19,150 --> 00:05:19,160
+all of these different ways to do it so
+ 
+
+261
+00:05:19,160 --> 00:05:20,830
+all of these different ways to do it so
+you can see the full process from
+
+262
+00:05:20,830 --> 00:05:20,840
+you can see the full process from
+ 
+
+263
+00:05:20,840 --> 00:05:23,110
+you can see the full process from
+different perspectives. If I go back to
+
+264
+00:05:23,110 --> 00:05:23,120
+different perspectives. If I go back to
+ 
+
+265
+00:05:23,120 --> 00:05:25,070
+different perspectives. If I go back to
+the server that I'm running, I'm going
+
+266
+00:05:25,070 --> 00:05:25,080
+the server that I'm running, I'm going
+ 
+
+267
+00:05:25,080 --> 00:05:28,710
+the server that I'm running, I'm going
+to click onto this request. And now you
+
+268
+00:05:28,710 --> 00:05:28,720
+to click onto this request. And now you
+ 
+
+269
+00:05:28,720 --> 00:05:32,110
+to click onto this request. And now you
+can see a UI that comes up with it. And
+
+270
+00:05:32,110 --> 00:05:32,120
+can see a UI that comes up with it. And
+ 
+
+271
+00:05:32,120 --> 00:05:34,909
+can see a UI that comes up with it. And
+this is now pay, but pay running in a UI
+
+272
+00:05:34,909 --> 00:05:34,919
+this is now pay, but pay running in a UI
+ 
+
+273
+00:05:34,919 --> 00:05:37,350
+this is now pay, but pay running in a UI
+with a clickable button. So, if I adjust
+
+274
+00:05:37,350 --> 00:05:37,360
+with a clickable button. So, if I adjust
+ 
+
+275
+00:05:37,360 --> 00:05:40,750
+with a clickable button. So, if I adjust
+click on the continuous Solana button,
+
+276
+00:05:40,750 --> 00:05:40,760
+click on the continuous Solana button,
+ 
+
+277
+00:05:40,760 --> 00:05:42,750
+click on the continuous Solana button,
+it will now execute my payment and
+
+278
+00:05:42,750 --> 00:05:42,760
+it will now execute my payment and
+ 
+
+279
+00:05:42,760 --> 00:05:45,870
+it will now execute my payment and
+return an okay status. So, here's
+
+280
+00:05:45,870 --> 00:05:45,880
+return an okay status. So, here's
+ 
+
+281
+00:05:45,880 --> 00:05:49,190
+return an okay status. So, here's
+multiple ways to have your payments be
+
+282
+00:05:49,190 --> 00:05:49,200
+multiple ways to have your payments be
+ 
+
+283
+00:05:49,200 --> 00:05:52,230
+multiple ways to have your payments be
+executed with the pay CLI. Now, I'm
+
+284
+00:05:52,230 --> 00:05:52,240
+executed with the pay CLI. Now, I'm
+ 
+
+285
+00:05:52,240 --> 00:05:53,790
+executed with the pay CLI. Now, I'm
+going to show one more way to use pay
+
+286
+00:05:53,790 --> 00:05:53,800
+going to show one more way to use pay
+ 
+
+287
+00:05:53,800 --> 00:05:56,190
+going to show one more way to use pay
+for payments. And
+
+288
+00:05:56,190 --> 00:05:56,200
+for payments. And
+ 
+
+289
+00:05:56,200 --> 00:05:59,710
+for payments. And
+that is directly with your Cloud Code.
+
+290
+00:05:59,710 --> 00:05:59,720
+that is directly with your Cloud Code.
+ 
+
+291
+00:05:59,720 --> 00:06:04,270
+that is directly with your Cloud Code.
+So, if I type in pay Cloud,
+
+292
+00:06:04,270 --> 00:06:04,280
+
+ 
+
+293
+00:06:04,280 --> 00:06:06,510
+
+it's now going to open up my Cloud Code,
+
+294
+00:06:06,510 --> 00:06:06,520
+it's now going to open up my Cloud Code,
+ 
+
+295
+00:06:06,520 --> 00:06:08,350
+it's now going to open up my Cloud Code,
+and I can interact with Cloud Code, and
+
+296
+00:06:08,350 --> 00:06:08,360
+and I can interact with Cloud Code, and
+ 
+
+297
+00:06:08,360 --> 00:06:11,470
+and I can interact with Cloud Code, and
+it's going to be using pay. So, let me
+
+298
+00:06:11,470 --> 00:06:11,480
+it's going to be using pay. So, let me
+ 
+
+299
+00:06:11,480 --> 00:06:13,950
+it's going to be using pay. So, let me
+ask it a question that's going to need
+
+300
+00:06:13,950 --> 00:06:13,960
+ask it a question that's going to need
+ 
+
+301
+00:06:13,960 --> 00:06:15,950
+ask it a question that's going to need
+an API request that does require a
+
+302
+00:06:15,950 --> 00:06:15,960
+an API request that does require a
+ 
+
+303
+00:06:15,960 --> 00:06:19,350
+an API request that does require a
+payment. So, we can use the Google API.
+
+304
+00:06:19,350 --> 00:06:19,360
+payment. So, we can use the Google API.
+ 
+
+305
+00:06:19,360 --> 00:06:22,190
+payment. So, we can use the Google API.
+I can ask it,
+
+306
+00:06:22,190 --> 00:06:22,200
+I can ask it,
+ 
+
+307
+00:06:22,200 --> 00:06:25,190
+I can ask it,
+"What are the What
+
+308
+00:06:25,190 --> 00:06:25,200
+"What are the What
+ 
+
+309
+00:06:25,200 --> 00:06:29,870
+"What are the What
+is the best
+
+310
+00:06:29,870 --> 00:06:29,880
+
+ 
+
+311
+00:06:29,880 --> 00:06:33,070
+
+restaurant in Philly
+
+312
+00:06:33,070 --> 00:06:33,080
+restaurant in Philly
+ 
+
+313
+00:06:33,080 --> 00:06:40,909
+restaurant in Philly
+for Italian food?"
+
+314
+00:06:40,909 --> 00:06:40,919
+
+ 
+
+315
+00:06:40,919 --> 00:06:43,270
+
+So, here you can see it returned some
+
+316
+00:06:43,270 --> 00:06:43,280
+So, here you can see it returned some
+ 
+
+317
+00:06:43,280 --> 00:06:45,830
+So, here you can see it returned some
+response. It says, "It can get an
+
+318
+00:06:45,830 --> 00:06:45,840
+response. It says, "It can get an
+ 
+
+319
+00:06:45,840 --> 00:06:47,950
+response. It says, "It can get an
+updated list with current hours, current
+
+320
+00:06:47,950 --> 00:06:47,960
+updated list with current hours, current
+ 
+
+321
+00:06:47,960 --> 00:06:50,670
+updated list with current hours, current
+reservations, and reviews using a live
+
+322
+00:06:50,670 --> 00:06:50,680
+reservations, and reviews using a live
+ 
+
+323
+00:06:50,680 --> 00:06:52,830
+reservations, and reviews using a live
+search via pay." And it's able to do a
+
+324
+00:06:52,830 --> 00:06:52,840
+search via pay." And it's able to do a
+ 
+
+325
+00:06:52,840 --> 00:06:55,430
+search via pay." And it's able to do a
+live search by calling the Google API
+
+326
+00:06:55,430 --> 00:06:55,440
+live search by calling the Google API
+ 
+
+327
+00:06:55,440 --> 00:06:57,550
+live search by calling the Google API
+endpoint, which is payment gated, so
+
+328
+00:06:57,550 --> 00:06:57,560
+endpoint, which is payment gated, so
+ 
+
+329
+00:06:57,560 --> 00:06:59,830
+endpoint, which is payment gated, so
+it's going to be able to use pay, so
+
+330
+00:06:59,830 --> 00:06:59,840
+it's going to be able to use pay, so
+ 
+
+331
+00:06:59,840 --> 00:07:01,630
+it's going to be able to use pay, so
+then make that payment for the API
+
+332
+00:07:01,630 --> 00:07:01,640
+then make that payment for the API
+ 
+
+333
+00:07:01,640 --> 00:07:04,110
+then make that payment for the API
+request, and then make a live search
+
+334
+00:07:04,110 --> 00:07:04,120
+request, and then make a live search
+ 
+
+335
+00:07:04,120 --> 00:07:06,710
+request, and then make a live search
+directly in my Cloud Code terminal. So,
+
+336
+00:07:06,710 --> 00:07:06,720
+directly in my Cloud Code terminal. So,
+ 
+
+337
+00:07:06,720 --> 00:07:13,070
+directly in my Cloud Code terminal. So,
+let me say, "Yes, do a live
+
+338
+00:07:13,070 --> 00:07:13,080
+
+ 
+
+339
+00:07:13,080 --> 00:07:17,950
+
+search with pay."
+
+340
+00:07:17,950 --> 00:07:17,960
+
+ 
+
+341
+00:07:17,960 --> 00:07:19,430
+
+So, here you can see it's using the
+
+342
+00:07:19,430 --> 00:07:19,440
+So, here you can see it's using the
+ 
+
+343
+00:07:19,440 --> 00:07:23,790
+So, here you can see it's using the
+Google Places API. It costs $0.001
+
+344
+00:07:23,790 --> 00:07:23,800
+Google Places API. It costs $0.001
+ 
+
+345
+00:07:23,800 --> 00:07:26,310
+Google Places API. It costs $0.001
+for a text search. And now, my wallet
+
+346
+00:07:26,310 --> 00:07:26,320
+for a text search. And now, my wallet
+ 
+
+347
+00:07:26,320 --> 00:07:28,870
+for a text search. And now, my wallet
+has not been funded yet on mainnet. Um
+
+348
+00:07:28,870 --> 00:07:28,880
+has not been funded yet on mainnet. Um
+ 
+
+349
+00:07:28,880 --> 00:07:30,270
+has not been funded yet on mainnet. Um
+for all of the other requests, we were
+
+350
+00:07:30,270 --> 00:07:30,280
+for all of the other requests, we were
+ 
+
+351
+00:07:30,280 --> 00:07:32,390
+for all of the other requests, we were
+using local, which does automatically
+
+352
+00:07:32,390 --> 00:07:32,400
+using local, which does automatically
+ 
+
+353
+00:07:32,400 --> 00:07:34,470
+using local, which does automatically
+fund your wallet with devnet sold to be
+
+354
+00:07:34,470 --> 00:07:34,480
+fund your wallet with devnet sold to be
+ 
+
+355
+00:07:34,480 --> 00:07:37,110
+fund your wallet with devnet sold to be
+able to execute the request. And this is
+
+356
+00:07:37,110 --> 00:07:37,120
+able to execute the request. And this is
+ 
+
+357
+00:07:37,120 --> 00:07:40,110
+able to execute the request. And this is
+actually a mainnet call. So, it's now
+
+358
+00:07:40,110 --> 00:07:40,120
+actually a mainnet call. So, it's now
+ 
+
+359
+00:07:40,120 --> 00:07:42,470
+actually a mainnet call. So, it's now
+prompting me to top up my wallet, and
+
+360
+00:07:42,470 --> 00:07:42,480
+prompting me to top up my wallet, and
+ 
+
+361
+00:07:42,480 --> 00:07:43,950
+prompting me to top up my wallet, and
+it's giving me the wallet address that I
+
+362
+00:07:43,950 --> 00:07:43,960
+it's giving me the wallet address that I
+ 
+
+363
+00:07:43,960 --> 00:07:47,110
+it's giving me the wallet address that I
+need to send funds to and then telling
+
+364
+00:07:47,110 --> 00:07:47,120
+need to send funds to and then telling
+ 
+
+365
+00:07:47,120 --> 00:07:49,310
+need to send funds to and then telling
+me how to send those funds. So, if I
+
+366
+00:07:49,310 --> 00:07:49,320
+me how to send those funds. So, if I
+ 
+
+367
+00:07:49,320 --> 00:07:51,030
+me how to send those funds. So, if I
+update that with the funds, it's going
+
+368
+00:07:51,030 --> 00:07:51,040
+update that with the funds, it's going
+ 
+
+369
+00:07:51,040 --> 00:07:55,350
+update that with the funds, it's going
+to be able to execute a request for me.
+
+370
+00:07:55,350 --> 00:07:55,360
+to be able to execute a request for me.
+ 
+
+371
+00:07:55,360 --> 00:07:57,710
+to be able to execute a request for me.
+So, now I went and funded my wallet and
+
+372
+00:07:57,710 --> 00:07:57,720
+So, now I went and funded my wallet and
+ 
+
+373
+00:07:57,720 --> 00:08:01,150
+So, now I went and funded my wallet and
+it has USDC on it now. So, I'm going to
+
+374
+00:08:01,150 --> 00:08:01,160
+it has USDC on it now. So, I'm going to
+ 
+
+375
+00:08:01,160 --> 00:08:02,990
+it has USDC on it now. So, I'm going to
+go one more time back into Claude. So,
+
+376
+00:08:02,990 --> 00:08:03,000
+go one more time back into Claude. So,
+ 
+
+377
+00:08:03,000 --> 00:08:05,270
+go one more time back into Claude. So,
+if we do pay Claude,
+
+378
+00:08:05,270 --> 00:08:05,280
+if we do pay Claude,
+ 
+
+379
+00:08:05,280 --> 00:08:06,710
+if we do pay Claude,
+it's going to open my Claude code and
+
+380
+00:08:06,710 --> 00:08:06,720
+it's going to open my Claude code and
+ 
+
+381
+00:08:06,720 --> 00:08:37,149
+it's going to open my Claude code and
+I'm going to ask one more time
+
+382
+00:08:37,149 --> 00:08:37,159
+
+ 
+
+383
+00:08:37,159 --> 00:08:39,550
+
+So, here you can see it found the API
+
+384
+00:08:39,550 --> 00:08:39,560
+So, here you can see it found the API
+ 
+
+385
+00:08:39,560 --> 00:08:41,430
+So, here you can see it found the API
+request that was needed to search for
+
+386
+00:08:41,430 --> 00:08:41,440
+request that was needed to search for
+ 
+
+387
+00:08:41,440 --> 00:08:42,990
+request that was needed to search for
+the top Italian restaurants in
+
+388
+00:08:42,990 --> 00:08:43,000
+the top Italian restaurants in
+ 
+
+389
+00:08:43,000 --> 00:08:44,870
+the top Italian restaurants in
+Philadelphia with up-to-date live
+
+390
+00:08:44,870 --> 00:08:44,880
+Philadelphia with up-to-date live
+ 
+
+391
+00:08:44,880 --> 00:08:48,270
+Philadelphia with up-to-date live
+information. And that one call was
+
+392
+00:08:48,270 --> 00:08:48,280
+information. And that one call was
+ 
+
+393
+00:08:48,280 --> 00:08:50,350
+information. And that one call was
+$0.001
+
+394
+00:08:50,350 --> 00:08:50,360
+$0.001
+ 
+
+395
+00:08:50,360 --> 00:08:52,310
+$0.001
+and it took the wallet that I just
+
+396
+00:08:52,310 --> 00:08:52,320
+and it took the wallet that I just
+ 
+
+397
+00:08:52,320 --> 00:08:54,910
+and it took the wallet that I just
+funded and made that payment, but before
+
+398
+00:08:54,910 --> 00:08:54,920
+funded and made that payment, but before
+ 
+
+399
+00:08:54,920 --> 00:08:57,310
+funded and made that payment, but before
+actually executing that payment, it came
+
+400
+00:08:57,310 --> 00:08:57,320
+actually executing that payment, it came
+ 
+
+401
+00:08:57,320 --> 00:08:59,630
+actually executing that payment, it came
+up on screen with a pop-up that I had to
+
+402
+00:08:59,630 --> 00:08:59,640
+up on screen with a pop-up that I had to
+ 
+
+403
+00:08:59,640 --> 00:09:01,630
+up on screen with a pop-up that I had to
+approve it and I had to use my touch ID
+
+404
+00:09:01,630 --> 00:09:01,640
+approve it and I had to use my touch ID
+ 
+
+405
+00:09:01,640 --> 00:09:03,910
+approve it and I had to use my touch ID
+on my Mac to be able to approve that
+
+406
+00:09:03,910 --> 00:09:03,920
+on my Mac to be able to approve that
+ 
+
+407
+00:09:03,920 --> 00:09:05,470
+on my Mac to be able to approve that
+request. And once I approved the
+
+408
+00:09:05,470 --> 00:09:05,480
+request. And once I approved the
+ 
+
+409
+00:09:05,480 --> 00:09:07,829
+request. And once I approved the
+request, it made the request and then
+
+410
+00:09:07,829 --> 00:09:07,839
+request, it made the request and then
+ 
+
+411
+00:09:07,839 --> 00:09:10,390
+request, it made the request and then
+returned all of this information.
+
+412
+00:09:10,390 --> 00:09:10,400
+returned all of this information.
+ 
+
+413
+00:09:10,400 --> 00:09:12,150
+returned all of this information.
+So, just a recap of everything we went
+
+414
+00:09:12,150 --> 00:09:12,160
+So, just a recap of everything we went
+ 
+
+415
+00:09:12,160 --> 00:09:14,470
+So, just a recap of everything we went
+over today. Pay is basically the missing
+
+416
+00:09:14,470 --> 00:09:14,480
+over today. Pay is basically the missing
+ 
+
+417
+00:09:14,480 --> 00:09:17,150
+over today. Pay is basically the missing
+payment layer for HTTP. Instead of every
+
+418
+00:09:17,150 --> 00:09:17,160
+payment layer for HTTP. Instead of every
+ 
+
+419
+00:09:17,160 --> 00:09:19,430
+payment layer for HTTP. Instead of every
+paid API needing its own account system,
+
+420
+00:09:19,430 --> 00:09:19,440
+paid API needing its own account system,
+ 
+
+421
+00:09:19,440 --> 00:09:21,590
+paid API needing its own account system,
+API key flow, dashboard, and billing
+
+422
+00:09:21,590 --> 00:09:21,600
+API key flow, dashboard, and billing
+ 
+
+423
+00:09:21,600 --> 00:09:24,350
+API key flow, dashboard, and billing
+setup, the server can return a standard
+
+424
+00:09:24,350 --> 00:09:24,360
+setup, the server can return a standard
+ 
+
+425
+00:09:24,360 --> 00:09:27,270
+setup, the server can return a standard
+402 challenge. So, Pay understands
+
+426
+00:09:27,270 --> 00:09:27,280
+402 challenge. So, Pay understands
+ 
+
+427
+00:09:27,280 --> 00:09:30,710
+402 challenge. So, Pay understands
+protocols like MPP and X402, pays with
+
+428
+00:09:30,710 --> 00:09:30,720
+protocols like MPP and X402, pays with
+ 
+
+429
+00:09:30,720 --> 00:09:32,750
+protocols like MPP and X402, pays with
+the supported stablecoins on Solana, and
+
+430
+00:09:32,750 --> 00:09:32,760
+the supported stablecoins on Solana, and
+ 
+
+431
+00:09:32,760 --> 00:09:35,710
+the supported stablecoins on Solana, and
+then sends the proof back to the API.
+
+432
+00:09:35,710 --> 00:09:35,720
+then sends the proof back to the API.
+ 
+
+433
+00:09:35,720 --> 00:09:37,950
+then sends the proof back to the API.
+And the important part is that this
+
+434
+00:09:37,950 --> 00:09:37,960
+And the important part is that this
+ 
+
+435
+00:09:37,960 --> 00:09:40,470
+And the important part is that this
+works with tools developers already use.
+
+436
+00:09:40,470 --> 00:09:40,480
+works with tools developers already use.
+ 
+
+437
+00:09:40,480 --> 00:09:43,750
+works with tools developers already use.
+So you can wrap curl, cloud, codex, or
+
+438
+00:09:43,750 --> 00:09:43,760
+So you can wrap curl, cloud, codex, or
+ 
+
+439
+00:09:43,760 --> 00:09:46,950
+So you can wrap curl, cloud, codex, or
+any agent workflow. And the API gets
+
+440
+00:09:46,950 --> 00:09:46,960
+any agent workflow. And the API gets
+ 
+
+441
+00:09:46,960 --> 00:09:49,430
+any agent workflow. And the API gets
+paid, the user stays in control, and the
+
+442
+00:09:49,430 --> 00:09:49,440
+paid, the user stays in control, and the
+ 
+
+443
+00:09:49,440 --> 00:09:52,190
+paid, the user stays in control, and the
+agent doesn't need to hold private keys
+
+444
+00:09:52,190 --> 00:09:52,200
+agent doesn't need to hold private keys
+ 
+
+445
+00:09:52,200 --> 00:09:55,720
+agent doesn't need to hold private keys
+or API secrets.
+

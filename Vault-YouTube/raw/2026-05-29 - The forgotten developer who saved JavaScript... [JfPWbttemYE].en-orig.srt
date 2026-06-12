@@ -1,0 +1,1965 @@
+1
+00:00:00,000 --> 00:00:02,070
+
+It's 2009. You're at a Hannah Montana
+
+2
+00:00:02,070 --> 00:00:02,080
+It's 2009. You're at a Hannah Montana
+ 
+
+3
+00:00:02,080 --> 00:00:03,910
+It's 2009. You're at a Hannah Montana
+movie, and your phone won't stop buzzing
+
+4
+00:00:03,910 --> 00:00:03,920
+movie, and your phone won't stop buzzing
+ 
+
+5
+00:00:03,920 --> 00:00:05,750
+movie, and your phone won't stop buzzing
+with notifications from a new dating app
+
+6
+00:00:05,750 --> 00:00:05,760
+with notifications from a new dating app
+ 
+
+7
+00:00:05,760 --> 00:00:07,270
+with notifications from a new dating app
+you just downloaded. Your favorite
+
+8
+00:00:07,270 --> 00:00:07,280
+you just downloaded. Your favorite
+ 
+
+9
+00:00:07,280 --> 00:00:08,990
+you just downloaded. Your favorite
+artist is supposed to be releasing a new
+
+10
+00:00:08,990 --> 00:00:09,000
+artist is supposed to be releasing a new
+ 
+
+11
+00:00:09,000 --> 00:00:10,950
+artist is supposed to be releasing a new
+album next year. Your favorite TV show
+
+12
+00:00:10,950 --> 00:00:10,960
+album next year. Your favorite TV show
+ 
+
+13
+00:00:10,960 --> 00:00:12,750
+album next year. Your favorite TV show
+is currently being made into a movie,
+
+14
+00:00:12,750 --> 00:00:12,760
+is currently being made into a movie,
+ 
+
+15
+00:00:12,760 --> 00:00:14,070
+is currently being made into a movie,
+and you're still riding high from
+
+16
+00:00:14,070 --> 00:00:14,080
+and you're still riding high from
+ 
+
+17
+00:00:14,080 --> 00:00:15,990
+and you're still riding high from
+arguing how many days are in a week on
+
+18
+00:00:15,990 --> 00:00:16,000
+arguing how many days are in a week on
+ 
+
+19
+00:00:16,000 --> 00:00:18,190
+arguing how many days are in a week on
+the bodybuilding.com forums. Life is
+
+20
+00:00:18,190 --> 00:00:18,200
+the bodybuilding.com forums. Life is
+ 
+
+21
+00:00:18,200 --> 00:00:20,270
+the bodybuilding.com forums. Life is
+good, at least on the weekends. Because
+
+22
+00:00:20,270 --> 00:00:20,280
+good, at least on the weekends. Because
+ 
+
+23
+00:00:20,280 --> 00:00:21,910
+good, at least on the weekends. Because
+during the week, you have to spend all
+
+24
+00:00:21,910 --> 00:00:21,920
+during the week, you have to spend all
+ 
+
+25
+00:00:21,920 --> 00:00:23,470
+during the week, you have to spend all
+day using the worst programming language
+
+26
+00:00:23,470 --> 00:00:23,480
+day using the worst programming language
+ 
+
+27
+00:00:23,480 --> 00:00:25,190
+day using the worst programming language
+ever invented. A language that was
+
+28
+00:00:25,190 --> 00:00:25,200
+ever invented. A language that was
+ 
+
+29
+00:00:25,200 --> 00:00:27,430
+ever invented. A language that was
+famously designed in 10 days, but after
+
+30
+00:00:27,430 --> 00:00:27,440
+famously designed in 10 days, but after
+ 
+
+31
+00:00:27,440 --> 00:00:29,030
+famously designed in 10 days, but after
+using it, it had you wondering what
+
+32
+00:00:29,030 --> 00:00:29,040
+using it, it had you wondering what
+ 
+
+33
+00:00:29,040 --> 00:00:31,110
+using it, it had you wondering what
+Brendan did after day two. A language
+
+34
+00:00:31,110 --> 00:00:31,120
+Brendan did after day two. A language
+ 
+
+35
+00:00:31,120 --> 00:00:32,470
+Brendan did after day two. A language
+that every browser interpreted
+
+36
+00:00:32,470 --> 00:00:32,480
+that every browser interpreted
+ 
+
+37
+00:00:32,480 --> 00:00:34,590
+that every browser interpreted
+differently, had no standard library,
+
+38
+00:00:34,590 --> 00:00:34,600
+differently, had no standard library,
+ 
+
+39
+00:00:34,600 --> 00:00:36,830
+differently, had no standard library,
+modules, or classes. And if your primary
+
+40
+00:00:36,830 --> 00:00:36,840
+modules, or classes. And if your primary
+ 
+
+41
+00:00:36,840 --> 00:00:38,510
+modules, or classes. And if your primary
+job was to write it, I'm told you were a
+
+42
+00:00:38,510 --> 00:00:38,520
+job was to write it, I'm told you were a
+ 
+
+43
+00:00:38,520 --> 00:00:40,270
+job was to write it, I'm told you were a
+massive loser who didn't deserve to feel
+
+44
+00:00:40,270 --> 00:00:40,280
+massive loser who didn't deserve to feel
+ 
+
+45
+00:00:40,280 --> 00:00:41,910
+massive loser who didn't deserve to feel
+love. At least that's how things were in
+
+46
+00:00:41,910 --> 00:00:41,920
+love. At least that's how things were in
+ 
+
+47
+00:00:41,920 --> 00:00:44,550
+love. At least that's how things were in
+2009. But over the next decade, that
+
+48
+00:00:44,550 --> 00:00:44,560
+2009. But over the next decade, that
+ 
+
+49
+00:00:44,560 --> 00:00:46,670
+2009. But over the next decade, that
+sentiment changed. JavaScript went from
+
+50
+00:00:46,670 --> 00:00:46,680
+sentiment changed. JavaScript went from
+ 
+
+51
+00:00:46,680 --> 00:00:48,150
+sentiment changed. JavaScript went from
+being a language that you'd never touch
+
+52
+00:00:48,150 --> 00:00:48,160
+being a language that you'd never touch
+ 
+
+53
+00:00:48,160 --> 00:00:49,910
+being a language that you'd never touch
+directly without putting on a jQuery
+
+54
+00:00:49,910 --> 00:00:49,920
+directly without putting on a jQuery
+ 
+
+55
+00:00:49,920 --> 00:00:52,310
+directly without putting on a jQuery
+hazmat suit first, it to arguably the
+
+56
+00:00:52,310 --> 00:00:52,320
+hazmat suit first, it to arguably the
+ 
+
+57
+00:00:52,320 --> 00:00:53,870
+hazmat suit first, it to arguably the
+most popular programming language in the
+
+58
+00:00:53,870 --> 00:00:53,880
+most popular programming language in the
+ 
+
+59
+00:00:53,880 --> 00:00:55,990
+most popular programming language in the
+world. While JavaScript developers,
+
+60
+00:00:55,990 --> 00:00:56,000
+world. While JavaScript developers,
+ 
+
+61
+00:00:56,000 --> 00:00:57,470
+world. While JavaScript developers,
+despite all the stupid stickers on their
+
+62
+00:00:57,470 --> 00:00:57,480
+despite all the stupid stickers on their
+ 
+
+63
+00:00:57,480 --> 00:00:59,230
+despite all the stupid stickers on their
+MacBooks, went from being considered
+
+64
+00:00:59,230 --> 00:00:59,240
+MacBooks, went from being considered
+ 
+
+65
+00:00:59,240 --> 00:01:01,230
+MacBooks, went from being considered
+script kiddies to real programmers with
+
+66
+00:01:01,230 --> 00:01:01,240
+script kiddies to real programmers with
+ 
+
+67
+00:01:01,240 --> 00:01:03,350
+script kiddies to real programmers with
+actual feelings and emotions. So, how
+
+68
+00:01:03,350 --> 00:01:03,360
+actual feelings and emotions. So, how
+ 
+
+69
+00:01:03,360 --> 00:01:05,710
+actual feelings and emotions. So, how
+exactly did this mass psychosis happen?
+
+70
+00:01:05,710 --> 00:01:05,720
+exactly did this mass psychosis happen?
+ 
+
+71
+00:01:05,720 --> 00:01:07,310
+exactly did this mass psychosis happen?
+There's a bunch of different reasons,
+
+72
+00:01:07,310 --> 00:01:07,320
+There's a bunch of different reasons,
+ 
+
+73
+00:01:07,320 --> 00:01:08,910
+There's a bunch of different reasons,
+but in my opinion, I think the most
+
+74
+00:01:08,910 --> 00:01:08,920
+but in my opinion, I think the most
+ 
+
+75
+00:01:08,920 --> 00:01:11,030
+but in my opinion, I think the most
+underrated was all led by a single
+
+76
+00:01:11,030 --> 00:01:11,040
+underrated was all led by a single
+ 
+
+77
+00:01:11,040 --> 00:01:12,750
+underrated was all led by a single
+person who has since been forgotten to
+
+78
+00:01:12,750 --> 00:01:12,760
+person who has since been forgotten to
+ 
+
+79
+00:01:12,760 --> 00:01:16,230
+person who has since been forgotten to
+time. Jeremy Ashkenas. In 2009, Jeremy
+
+80
+00:01:16,230 --> 00:01:16,240
+time. Jeremy Ashkenas. In 2009, Jeremy
+ 
+
+81
+00:01:16,240 --> 00:01:18,350
+time. Jeremy Ashkenas. In 2009, Jeremy
+was a developer at Document Cloud, where
+
+82
+00:01:18,350 --> 00:01:18,360
+was a developer at Document Cloud, where
+ 
+
+83
+00:01:18,360 --> 00:01:20,270
+was a developer at Document Cloud, where
+he had the unfortunate task of working
+
+84
+00:01:20,270 --> 00:01:20,280
+he had the unfortunate task of working
+ 
+
+85
+00:01:20,280 --> 00:01:21,910
+he had the unfortunate task of working
+on a heavy client-side JavaScript
+
+86
+00:01:21,910 --> 00:01:21,920
+on a heavy client-side JavaScript
+ 
+
+87
+00:01:21,920 --> 00:01:23,750
+on a heavy client-side JavaScript
+application, which was rare at that
+
+88
+00:01:23,750 --> 00:01:23,760
+application, which was rare at that
+ 
+
+89
+00:01:23,760 --> 00:01:25,670
+application, which was rare at that
+time. Having a background in Ruby, but
+
+90
+00:01:25,670 --> 00:01:25,680
+time. Having a background in Ruby, but
+ 
+
+91
+00:01:25,680 --> 00:01:27,310
+time. Having a background in Ruby, but
+being forced to write JavaScript, I
+
+92
+00:01:27,310 --> 00:01:27,320
+being forced to write JavaScript, I
+ 
+
+93
+00:01:27,320 --> 00:01:28,870
+being forced to write JavaScript, I
+assume every morning he'd wake up and
+
+94
+00:01:28,870 --> 00:01:28,880
+assume every morning he'd wake up and
+ 
+
+95
+00:01:28,880 --> 00:01:30,750
+assume every morning he'd wake up and
+think to himself, "Wow, today might be a
+
+96
+00:01:30,750 --> 00:01:30,760
+think to himself, "Wow, today might be a
+ 
+
+97
+00:01:30,760 --> 00:01:33,350
+think to himself, "Wow, today might be a
+good day to jump myself off the Golden
+
+98
+00:01:33,350 --> 00:01:33,360
+good day to jump myself off the Golden
+ 
+
+99
+00:01:33,360 --> 00:01:35,510
+good day to jump myself off the Golden
+Gate Bridge." But unlike everyone else
+
+100
+00:01:35,510 --> 00:01:35,520
+Gate Bridge." But unlike everyone else
+ 
+
+101
+00:01:35,520 --> 00:01:37,550
+Gate Bridge." But unlike everyone else
+who had JavaScript Stockholm Syndrome,
+
+102
+00:01:37,550 --> 00:01:37,560
+who had JavaScript Stockholm Syndrome,
+ 
+
+103
+00:01:37,560 --> 00:01:39,390
+who had JavaScript Stockholm Syndrome,
+Jeremy had the audacity to think he
+
+104
+00:01:39,390 --> 00:01:39,400
+Jeremy had the audacity to think he
+ 
+
+105
+00:01:39,400 --> 00:01:41,670
+Jeremy had the audacity to think he
+could fix it. And so he did. His first
+
+106
+00:01:41,670 --> 00:01:41,680
+could fix it. And so he did. His first
+ 
+
+107
+00:01:41,680 --> 00:01:43,110
+could fix it. And so he did. His first
+act was dealing with the fact that
+
+108
+00:01:43,110 --> 00:01:43,120
+act was dealing with the fact that
+ 
+
+109
+00:01:43,120 --> 00:01:45,190
+act was dealing with the fact that
+JavaScript had no standard library.
+
+110
+00:01:45,190 --> 00:01:45,200
+JavaScript had no standard library.
+ 
+
+111
+00:01:45,200 --> 00:01:47,670
+JavaScript had no standard library.
+Again, this was 2009. Although Firefox
+
+112
+00:01:47,670 --> 00:01:47,680
+Again, this was 2009. Although Firefox
+ 
+
+113
+00:01:47,680 --> 00:01:49,150
+Again, this was 2009. Although Firefox
+had shipped support for some array
+
+114
+00:01:49,150 --> 00:01:49,160
+had shipped support for some array
+ 
+
+115
+00:01:49,160 --> 00:01:51,550
+had shipped support for some array
+helper methods like map, reduce, and for
+
+116
+00:01:51,550 --> 00:01:51,560
+helper methods like map, reduce, and for
+ 
+
+117
+00:01:51,560 --> 00:01:53,390
+helper methods like map, reduce, and for
+each, Internet Explorer hadn't yet,
+
+118
+00:01:53,390 --> 00:01:53,400
+each, Internet Explorer hadn't yet,
+ 
+
+119
+00:01:53,400 --> 00:01:54,950
+each, Internet Explorer hadn't yet,
+which meant you couldn't use them unless
+
+120
+00:01:54,950 --> 00:01:54,960
+which meant you couldn't use them unless
+ 
+
+121
+00:01:54,960 --> 00:01:57,150
+which meant you couldn't use them unless
+you polyfilled them. So, to fix this,
+
+122
+00:01:57,150 --> 00:01:57,160
+you polyfilled them. So, to fix this,
+ 
+
+123
+00:01:57,160 --> 00:01:59,990
+you polyfilled them. So, to fix this,
+Jeremy released underscore.js, a utility
+
+124
+00:01:59,990 --> 00:02:00,000
+Jeremy released underscore.js, a utility
+ 
+
+125
+00:02:00,000 --> 00:02:02,030
+Jeremy released underscore.js, a utility
+belt library that contained about 60
+
+126
+00:02:02,030 --> 00:02:02,040
+belt library that contained about 60
+ 
+
+127
+00:02:02,040 --> 00:02:04,030
+belt library that contained about 60
+helper functions that made it easier to
+
+128
+00:02:04,030 --> 00:02:04,040
+helper functions that made it easier to
+ 
+
+129
+00:02:04,040 --> 00:02:06,030
+helper functions that made it easier to
+work with arrays and objects. Now, I
+
+130
+00:02:06,030 --> 00:02:06,040
+work with arrays and objects. Now, I
+ 
+
+131
+00:02:06,040 --> 00:02:07,790
+work with arrays and objects. Now, I
+know that doesn't sound exciting today,
+
+132
+00:02:07,790 --> 00:02:07,800
+know that doesn't sound exciting today,
+ 
+
+133
+00:02:07,800 --> 00:02:09,469
+know that doesn't sound exciting today,
+but building for the web was so bad back
+
+134
+00:02:09,469 --> 00:02:09,479
+but building for the web was so bad back
+ 
+
+135
+00:02:09,479 --> 00:02:11,550
+but building for the web was so bad back
+then that underscore likely did save a
+
+136
+00:02:11,550 --> 00:02:11,560
+then that underscore likely did save a
+ 
+
+137
+00:02:11,560 --> 00:02:13,390
+then that underscore likely did save a
+few people from throwing themselves off
+
+138
+00:02:13,390 --> 00:02:13,400
+few people from throwing themselves off
+ 
+
+139
+00:02:13,400 --> 00:02:14,910
+few people from throwing themselves off
+the Golden Gate Bridge.
+
+140
+00:02:14,910 --> 00:02:14,920
+the Golden Gate Bridge.
+ 
+
+141
+00:02:14,920 --> 00:02:16,830
+the Golden Gate Bridge.
+Underscore got so popular that many of
+
+142
+00:02:16,830 --> 00:02:16,840
+Underscore got so popular that many of
+ 
+
+143
+00:02:16,840 --> 00:02:18,430
+Underscore got so popular that many of
+its features were adopted into the
+
+144
+00:02:18,430 --> 00:02:18,440
+its features were adopted into the
+ 
+
+145
+00:02:18,440 --> 00:02:20,270
+its features were adopted into the
+JavaScript language itself, which
+
+146
+00:02:20,270 --> 00:02:20,280
+JavaScript language itself, which
+ 
+
+147
+00:02:20,280 --> 00:02:21,949
+JavaScript language itself, which
+eventually made it obsolete. But,
+
+148
+00:02:21,949 --> 00:02:21,959
+eventually made it obsolete. But,
+ 
+
+149
+00:02:21,959 --> 00:02:24,190
+eventually made it obsolete. But,
+underscore was only Jeremy's first act.
+
+150
+00:02:24,190 --> 00:02:24,200
+underscore was only Jeremy's first act.
+ 
+
+151
+00:02:24,200 --> 00:02:25,430
+underscore was only Jeremy's first act.
+Next,
+
+152
+00:02:25,430 --> 00:02:25,440
+Next,
+ 
+
+153
+00:02:25,440 --> 00:02:26,949
+Next,
+instead of augmenting Fishhead
+
+154
+00:02:26,949 --> 00:02:26,959
+instead of augmenting Fishhead
+ 
+
+155
+00:02:26,959 --> 00:02:28,949
+instead of augmenting Fishhead
+JavaScript with a new library, he'd have
+
+156
+00:02:28,949 --> 00:02:28,959
+JavaScript with a new library, he'd have
+ 
+
+157
+00:02:28,959 --> 00:02:30,670
+JavaScript with a new library, he'd have
+more freedom if he just created an
+
+158
+00:02:30,670 --> 00:02:30,680
+more freedom if he just created an
+ 
+
+159
+00:02:30,680 --> 00:02:32,310
+more freedom if he just created an
+entirely new language with large
+
+160
+00:02:32,310 --> 00:02:32,320
+entirely new language with large
+ 
+
+161
+00:02:32,320 --> 00:02:34,230
+entirely new language with large
+cannons. Again, I can't stress this
+
+162
+00:02:34,230 --> 00:02:34,240
+cannons. Again, I can't stress this
+ 
+
+163
+00:02:34,240 --> 00:02:37,030
+cannons. Again, I can't stress this
+enough, the JavaScript in 2009 was very
+
+164
+00:02:37,030 --> 00:02:37,040
+enough, the JavaScript in 2009 was very
+ 
+
+165
+00:02:37,040 --> 00:02:38,790
+enough, the JavaScript in 2009 was very
+different than it is today. There were
+
+166
+00:02:38,790 --> 00:02:38,800
+different than it is today. There were
+ 
+
+167
+00:02:38,800 --> 00:02:40,870
+different than it is today. There were
+no classes, so inheritance was done
+
+168
+00:02:40,870 --> 00:02:40,880
+no classes, so inheritance was done
+ 
+
+169
+00:02:40,880 --> 00:02:42,470
+no classes, so inheritance was done
+through a pattern where you'd manually
+
+170
+00:02:42,470 --> 00:02:42,480
+through a pattern where you'd manually
+ 
+
+171
+00:02:42,480 --> 00:02:44,350
+through a pattern where you'd manually
+attach properties to a hidden object
+
+172
+00:02:44,350 --> 00:02:44,360
+attach properties to a hidden object
+ 
+
+173
+00:02:44,360 --> 00:02:46,310
+attach properties to a hidden object
+called prototype that every function had
+
+174
+00:02:46,310 --> 00:02:46,320
+called prototype that every function had
+ 
+
+175
+00:02:46,320 --> 00:02:48,190
+called prototype that every function had
+access to. The only way to declare a
+
+176
+00:02:48,190 --> 00:02:48,200
+access to. The only way to declare a
+ 
+
+177
+00:02:48,200 --> 00:02:50,670
+access to. The only way to declare a
+variable had bizarre scoping rules that
+
+178
+00:02:50,670 --> 00:02:50,680
+variable had bizarre scoping rules that
+ 
+
+179
+00:02:50,680 --> 00:02:52,430
+variable had bizarre scoping rules that
+hoisted declarations to the top of a
+
+180
+00:02:52,430 --> 00:02:52,440
+hoisted declarations to the top of a
+ 
+
+181
+00:02:52,440 --> 00:02:54,110
+hoisted declarations to the top of a
+function whether you were aware of it or
+
+182
+00:02:54,110 --> 00:02:54,120
+function whether you were aware of it or
+ 
+
+183
+00:02:54,120 --> 00:02:56,470
+function whether you were aware of it or
+not. No one really understood or cared
+
+184
+00:02:56,470 --> 00:02:56,480
+not. No one really understood or cared
+ 
+
+185
+00:02:56,480 --> 00:02:57,630
+not. No one really understood or cared
+about the difference between the
+
+186
+00:02:57,630 --> 00:02:57,640
+about the difference between the
+ 
+
+187
+00:02:57,640 --> 00:02:59,430
+about the difference between the
+equality operator and the identity
+
+188
+00:02:59,430 --> 00:02:59,440
+equality operator and the identity
+ 
+
+189
+00:02:59,440 --> 00:03:01,150
+equality operator and the identity
+operator. And so, you'd have a bunch of
+
+190
+00:03:01,150 --> 00:03:01,160
+operator. And so, you'd have a bunch of
+ 
+
+191
+00:03:01,160 --> 00:03:02,830
+operator. And so, you'd have a bunch of
+type coercion happening without even
+
+192
+00:03:02,830 --> 00:03:02,840
+type coercion happening without even
+ 
+
+193
+00:03:02,840 --> 00:03:04,509
+type coercion happening without even
+realizing it. And to define even a
+
+194
+00:03:04,509 --> 00:03:04,519
+realizing it. And to define even a
+ 
+
+195
+00:03:04,519 --> 00:03:06,430
+realizing it. And to define even a
+simple function, you had to literally
+
+196
+00:03:06,430 --> 00:03:06,440
+simple function, you had to literally
+ 
+
+197
+00:03:06,440 --> 00:03:08,390
+simple function, you had to literally
+type out the word function every single
+
+198
+00:03:08,390 --> 00:03:08,400
+type out the word function every single
+ 
+
+199
+00:03:08,400 --> 00:03:10,229
+type out the word function every single
+time, which led to some pretty ugly
+
+200
+00:03:10,229 --> 00:03:10,239
+time, which led to some pretty ugly
+ 
+
+201
+00:03:10,239 --> 00:03:12,070
+time, which led to some pretty ugly
+code. By building a new language that
+
+202
+00:03:12,070 --> 00:03:12,080
+code. By building a new language that
+ 
+
+203
+00:03:12,080 --> 00:03:14,350
+code. By building a new language that
+compiled to JavaScript, Jeremy could fix
+
+204
+00:03:14,350 --> 00:03:14,360
+compiled to JavaScript, Jeremy could fix
+ 
+
+205
+00:03:14,360 --> 00:03:16,030
+compiled to JavaScript, Jeremy could fix
+it without having to wait for the
+
+206
+00:03:16,030 --> 00:03:16,040
+it without having to wait for the
+ 
+
+207
+00:03:16,040 --> 00:03:17,990
+it without having to wait for the
+standards committee or browser vendors
+
+208
+00:03:17,990 --> 00:03:18,000
+standards committee or browser vendors
+ 
+
+209
+00:03:18,000 --> 00:03:20,190
+standards committee or browser vendors
+to do it themselves. And even better, he
+
+210
+00:03:20,190 --> 00:03:20,200
+to do it themselves. And even better, he
+ 
+
+211
+00:03:20,200 --> 00:03:21,990
+to do it themselves. And even better, he
+could leave JavaScript, the bad parts,
+
+212
+00:03:21,990 --> 00:03:22,000
+could leave JavaScript, the bad parts,
+ 
+
+213
+00:03:22,000 --> 00:03:24,110
+could leave JavaScript, the bad parts,
+in that musty room Brendan spent 10 days
+
+214
+00:03:24,110 --> 00:03:24,120
+in that musty room Brendan spent 10 days
+ 
+
+215
+00:03:24,120 --> 00:03:26,710
+in that musty room Brendan spent 10 days
+in. And CoffeeScript was huge. The
+
+216
+00:03:26,710 --> 00:03:26,720
+in. And CoffeeScript was huge. The
+ 
+
+217
+00:03:26,720 --> 00:03:29,310
+in. And CoffeeScript was huge. The
+father DHH adopted it almost overnight,
+
+218
+00:03:29,310 --> 00:03:29,320
+father DHH adopted it almost overnight,
+ 
+
+219
+00:03:29,320 --> 00:03:31,430
+father DHH adopted it almost overnight,
+and in 2011, it shipped as the default
+
+220
+00:03:31,430 --> 00:03:31,440
+and in 2011, it shipped as the default
+ 
+
+221
+00:03:31,440 --> 00:03:34,229
+and in 2011, it shipped as the default
+JavaScript preprocessor in Rails 3.1.
+
+222
+00:03:34,229 --> 00:03:34,239
+JavaScript preprocessor in Rails 3.1.
+ 
+
+223
+00:03:34,239 --> 00:03:35,790
+JavaScript preprocessor in Rails 3.1.
+Meaning, the front end for every new
+
+224
+00:03:35,790 --> 00:03:35,800
+Meaning, the front end for every new
+ 
+
+225
+00:03:35,800 --> 00:03:37,430
+Meaning, the front end for every new
+Rails app in the world was suddenly
+
+226
+00:03:37,430 --> 00:03:37,440
+Rails app in the world was suddenly
+ 
+
+227
+00:03:37,440 --> 00:03:39,229
+Rails app in the world was suddenly
+written in CoffeeScript. GitHub,
+
+228
+00:03:39,229 --> 00:03:39,239
+written in CoffeeScript. GitHub,
+ 
+
+229
+00:03:39,239 --> 00:03:41,910
+written in CoffeeScript. GitHub,
+Dropbox, and a long list of early 2010
+
+230
+00:03:41,910 --> 00:03:41,920
+Dropbox, and a long list of early 2010
+ 
+
+231
+00:03:41,920 --> 00:03:43,670
+Dropbox, and a long list of early 2010
+startups adopted it, and for a few
+
+232
+00:03:43,670 --> 00:03:43,680
+startups adopted it, and for a few
+ 
+
+233
+00:03:43,680 --> 00:03:45,430
+startups adopted it, and for a few
+years, it was the default choice for
+
+234
+00:03:45,430 --> 00:03:45,440
+years, it was the default choice for
+ 
+
+235
+00:03:45,440 --> 00:03:47,390
+years, it was the default choice for
+anyone who took JavaScript seriously.
+
+236
+00:03:47,390 --> 00:03:47,400
+anyone who took JavaScript seriously.
+ 
+
+237
+00:03:47,400 --> 00:03:49,350
+anyone who took JavaScript seriously.
+Today, CoffeeScript is basically dead
+
+238
+00:03:49,350 --> 00:03:49,360
+Today, CoffeeScript is basically dead
+ 
+
+239
+00:03:49,360 --> 00:03:51,150
+Today, CoffeeScript is basically dead
+after its best features were absorbed
+
+240
+00:03:51,150 --> 00:03:51,160
+after its best features were absorbed
+ 
+
+241
+00:03:51,160 --> 00:03:53,190
+after its best features were absorbed
+into JavaScript itself, but every time
+
+242
+00:03:53,190 --> 00:03:53,200
+into JavaScript itself, but every time
+ 
+
+243
+00:03:53,200 --> 00:03:54,990
+into JavaScript itself, but every time
+your agent writes a class, arrow
+
+244
+00:03:54,990 --> 00:03:55,000
+your agent writes a class, arrow
+ 
+
+245
+00:03:55,000 --> 00:03:57,470
+your agent writes a class, arrow
+function, default parameters, a spread
+
+246
+00:03:57,470 --> 00:03:57,480
+function, default parameters, a spread
+ 
+
+247
+00:03:57,480 --> 00:03:59,750
+function, default parameters, a spread
+operator, does string interpolation, or
+
+248
+00:03:59,750 --> 00:03:59,760
+operator, does string interpolation, or
+ 
+
+249
+00:03:59,760 --> 00:04:01,630
+operator, does string interpolation, or
+destructures a value, you can thank
+
+250
+00:04:01,630 --> 00:04:01,640
+destructures a value, you can thank
+ 
+
+251
+00:04:01,640 --> 00:04:03,590
+destructures a value, you can thank
+CoffeeScript. But, Jeremy still wasn't
+
+252
+00:04:03,590 --> 00:04:03,600
+CoffeeScript. But, Jeremy still wasn't
+ 
+
+253
+00:04:03,600 --> 00:04:05,670
+CoffeeScript. But, Jeremy still wasn't
+done yet. By 2010, he had given
+
+254
+00:04:05,670 --> 00:04:05,680
+done yet. By 2010, he had given
+ 
+
+255
+00:04:05,680 --> 00:04:07,470
+done yet. By 2010, he had given
+JavaScript a standard library with
+
+256
+00:04:07,470 --> 00:04:07,480
+JavaScript a standard library with
+ 
+
+257
+00:04:07,480 --> 00:04:09,430
+JavaScript a standard library with
+underscore and a better syntax with
+
+258
+00:04:09,430 --> 00:04:09,440
+underscore and a better syntax with
+ 
+
+259
+00:04:09,440 --> 00:04:11,230
+underscore and a better syntax with
+CoffeeScript. But, there was still one
+
+260
+00:04:11,230 --> 00:04:11,240
+CoffeeScript. But, there was still one
+ 
+
+261
+00:04:11,240 --> 00:04:13,270
+CoffeeScript. But, there was still one
+massive problem left. There was no good
+
+262
+00:04:13,270 --> 00:04:13,280
+massive problem left. There was no good
+ 
+
+263
+00:04:13,280 --> 00:04:15,230
+massive problem left. There was no good
+way to actually structure a JavaScript
+
+264
+00:04:15,230 --> 00:04:15,240
+way to actually structure a JavaScript
+ 
+
+265
+00:04:15,240 --> 00:04:16,830
+way to actually structure a JavaScript
+application. If you wanted to build a
+
+266
+00:04:16,830 --> 00:04:16,840
+application. If you wanted to build a
+ 
+
+267
+00:04:16,840 --> 00:04:18,990
+application. If you wanted to build a
+large client-side heavy app, you would
+
+268
+00:04:18,990 --> 00:04:19,000
+large client-side heavy app, you would
+ 
+
+269
+00:04:19,000 --> 00:04:20,710
+large client-side heavy app, you would
+still end up with thousands of lines of
+
+270
+00:04:20,710 --> 00:04:20,720
+still end up with thousands of lines of
+ 
+
+271
+00:04:20,720 --> 00:04:22,470
+still end up with thousands of lines of
+spaghetti where your data, DOM
+
+272
+00:04:22,470 --> 00:04:22,480
+spaghetti where your data, DOM
+ 
+
+273
+00:04:22,480 --> 00:04:24,390
+spaghetti where your data, DOM
+manipulation, and event handlers were
+
+274
+00:04:24,390 --> 00:04:24,400
+manipulation, and event handlers were
+ 
+
+275
+00:04:24,400 --> 00:04:26,830
+manipulation, and event handlers were
+all tangled together. So, in 2010,
+
+276
+00:04:26,830 --> 00:04:26,840
+all tangled together. So, in 2010,
+ 
+
+277
+00:04:26,840 --> 00:04:29,270
+all tangled together. So, in 2010,
+Jeremy released Backbone.js, a tiny
+
+278
+00:04:29,270 --> 00:04:29,280
+Jeremy released Backbone.js, a tiny
+ 
+
+279
+00:04:29,280 --> 00:04:31,790
+Jeremy released Backbone.js, a tiny
+library of less than 2,000 lines of code
+
+280
+00:04:31,790 --> 00:04:31,800
+library of less than 2,000 lines of code
+ 
+
+281
+00:04:31,800 --> 00:04:33,670
+library of less than 2,000 lines of code
+that gave JavaScript developers their
+
+282
+00:04:33,670 --> 00:04:33,680
+that gave JavaScript developers their
+ 
+
+283
+00:04:33,680 --> 00:04:36,150
+that gave JavaScript developers their
+first real taste of MVC on the front
+
+284
+00:04:36,150 --> 00:04:36,160
+first real taste of MVC on the front
+ 
+
+285
+00:04:36,160 --> 00:04:38,430
+first real taste of MVC on the front
+end. It introduced models for your data,
+
+286
+00:04:38,430 --> 00:04:38,440
+end. It introduced models for your data,
+ 
+
+287
+00:04:38,440 --> 00:04:40,750
+end. It introduced models for your data,
+collections for groups of models, views
+
+288
+00:04:40,750 --> 00:04:40,760
+collections for groups of models, views
+ 
+
+289
+00:04:40,760 --> 00:04:43,030
+collections for groups of models, views
+for rendering, and an event system that
+
+290
+00:04:43,030 --> 00:04:43,040
+for rendering, and an event system that
+ 
+
+291
+00:04:43,040 --> 00:04:44,870
+for rendering, and an event system that
+let everything stay in sync without the
+
+292
+00:04:44,870 --> 00:04:44,880
+let everything stay in sync without the
+ 
+
+293
+00:04:44,880 --> 00:04:46,909
+let everything stay in sync without the
+need to wire it up by hand. For the
+
+294
+00:04:46,909 --> 00:04:46,919
+need to wire it up by hand. For the
+ 
+
+295
+00:04:46,919 --> 00:04:48,870
+need to wire it up by hand. For the
+first time, you could build a serious
+
+296
+00:04:48,870 --> 00:04:48,880
+first time, you could build a serious
+ 
+
+297
+00:04:48,880 --> 00:04:50,909
+first time, you could build a serious
+client-side app without it collapsing
+
+298
+00:04:50,909 --> 00:04:50,919
+client-side app without it collapsing
+ 
+
+299
+00:04:50,919 --> 00:04:52,590
+client-side app without it collapsing
+under its own weight. And with Jeremy's
+
+300
+00:04:52,590 --> 00:04:52,600
+under its own weight. And with Jeremy's
+ 
+
+301
+00:04:52,600 --> 00:04:54,550
+under its own weight. And with Jeremy's
+track record, it quickly caught on,
+
+302
+00:04:54,550 --> 00:04:54,560
+track record, it quickly caught on,
+ 
+
+303
+00:04:54,560 --> 00:04:56,630
+track record, it quickly caught on,
+powering the early versions of Trello,
+
+304
+00:04:56,630 --> 00:04:56,640
+powering the early versions of Trello,
+ 
+
+305
+00:04:56,640 --> 00:04:59,670
+powering the early versions of Trello,
+Airbnb, Hulu, Pinterest, and basically
+
+306
+00:04:59,670 --> 00:04:59,680
+Airbnb, Hulu, Pinterest, and basically
+ 
+
+307
+00:04:59,680 --> 00:05:01,350
+Airbnb, Hulu, Pinterest, and basically
+every other startup that needed a real
+
+308
+00:05:01,350 --> 00:05:01,360
+every other startup that needed a real
+ 
+
+309
+00:05:01,360 --> 00:05:04,230
+every other startup that needed a real
+front end between 2011 and 2014. If you
+
+310
+00:05:04,230 --> 00:05:04,240
+front end between 2011 and 2014. If you
+ 
+
+311
+00:05:04,240 --> 00:05:05,750
+front end between 2011 and 2014. If you
+were a JavaScript developer during that
+
+312
+00:05:05,750 --> 00:05:05,760
+were a JavaScript developer during that
+ 
+
+313
+00:05:05,760 --> 00:05:07,470
+were a JavaScript developer during that
+window, you almost certainly wrote
+
+314
+00:05:07,470 --> 00:05:07,480
+window, you almost certainly wrote
+ 
+
+315
+00:05:07,480 --> 00:05:09,190
+window, you almost certainly wrote
+Backbone, and you probably thought it
+
+316
+00:05:09,190 --> 00:05:09,200
+Backbone, and you probably thought it
+ 
+
+317
+00:05:09,200 --> 00:05:11,470
+Backbone, and you probably thought it
+was the future. But, as it turns out, it
+
+318
+00:05:11,470 --> 00:05:11,480
+was the future. But, as it turns out, it
+ 
+
+319
+00:05:11,480 --> 00:05:13,630
+was the future. But, as it turns out, it
+wasn't. Angular, Ember, and eventually
+
+320
+00:05:13,630 --> 00:05:13,640
+wasn't. Angular, Ember, and eventually
+ 
+
+321
+00:05:13,640 --> 00:05:15,950
+wasn't. Angular, Ember, and eventually
+React would make Backbone obsolete by
+
+322
+00:05:15,950 --> 00:05:15,960
+React would make Backbone obsolete by
+ 
+
+323
+00:05:15,960 --> 00:05:18,030
+React would make Backbone obsolete by
+taking its core ideas and pushing them
+
+324
+00:05:18,030 --> 00:05:18,040
+taking its core ideas and pushing them
+ 
+
+325
+00:05:18,040 --> 00:05:19,750
+taking its core ideas and pushing them
+further. But, Backbone was the library
+
+326
+00:05:19,750 --> 00:05:19,760
+further. But, Backbone was the library
+ 
+
+327
+00:05:19,760 --> 00:05:21,350
+further. But, Backbone was the library
+that proved you could actually build
+
+328
+00:05:21,350 --> 00:05:21,360
+that proved you could actually build
+ 
+
+329
+00:05:21,360 --> 00:05:23,230
+that proved you could actually build
+client-side heavy applications. It's
+
+330
+00:05:23,230 --> 00:05:23,240
+client-side heavy applications. It's
+ 
+
+331
+00:05:23,240 --> 00:05:25,110
+client-side heavy applications. It's
+easy to forget how bad JavaScript used
+
+332
+00:05:25,110 --> 00:05:25,120
+easy to forget how bad JavaScript used
+ 
+
+333
+00:05:25,120 --> 00:05:27,030
+easy to forget how bad JavaScript used
+to be, and even easier to forget the
+
+334
+00:05:27,030 --> 00:05:27,040
+to be, and even easier to forget the
+ 
+
+335
+00:05:27,040 --> 00:05:29,110
+to be, and even easier to forget the
+people who fixed it. But, the modern web
+
+336
+00:05:29,110 --> 00:05:29,120
+people who fixed it. But, the modern web
+ 
+
+337
+00:05:29,120 --> 00:05:31,150
+people who fixed it. But, the modern web
+was built on top of ideas that Jeremy
+
+338
+00:05:31,150 --> 00:05:31,160
+was built on top of ideas that Jeremy
+ 
+
+339
+00:05:31,160 --> 00:05:33,110
+was built on top of ideas that Jeremy
+Ashkenas pioneered, even if no one
+
+340
+00:05:33,110 --> 00:05:33,120
+Ashkenas pioneered, even if no one
+ 
+
+341
+00:05:33,120 --> 00:05:34,750
+Ashkenas pioneered, even if no one
+remembers him. But, speaking of things
+
+342
+00:05:34,750 --> 00:05:34,760
+remembers him. But, speaking of things
+ 
+
+343
+00:05:34,760 --> 00:05:36,390
+remembers him. But, speaking of things
+you no longer have to build yourself,
+
+344
+00:05:36,390 --> 00:05:36,400
+you no longer have to build yourself,
+ 
+
+345
+00:05:36,400 --> 00:05:38,590
+you no longer have to build yourself,
+Auth is another one, thanks to Clerk,
+
+346
+00:05:38,590 --> 00:05:38,600
+Auth is another one, thanks to Clerk,
+ 
+
+347
+00:05:38,600 --> 00:05:40,630
+Auth is another one, thanks to Clerk,
+the sponsor of today's video. They just
+
+348
+00:05:40,630 --> 00:05:40,640
+the sponsor of today's video. They just
+ 
+
+349
+00:05:40,640 --> 00:05:42,630
+the sponsor of today's video. They just
+launched the Clerk CLI, which comes with
+
+350
+00:05:42,630 --> 00:05:42,640
+launched the Clerk CLI, which comes with
+ 
+
+351
+00:05:42,640 --> 00:05:44,350
+launched the Clerk CLI, which comes with
+commands that are even more powerful
+
+352
+00:05:44,350 --> 00:05:44,360
+commands that are even more powerful
+ 
+
+353
+00:05:44,360 --> 00:05:46,190
+commands that are even more powerful
+than the ones I I at that human dog
+
+354
+00:05:46,190 --> 00:05:46,200
+than the ones I I at that human dog
+ 
+
+355
+00:05:46,200 --> 00:05:48,350
+than the ones I I at that human dog
+show. Just run clerk and knit in any
+
+356
+00:05:48,350 --> 00:05:48,360
+show. Just run clerk and knit in any
+ 
+
+357
+00:05:48,360 --> 00:05:50,310
+show. Just run clerk and knit in any
+directory and it'll set up end-to-end
+
+358
+00:05:50,310 --> 00:05:50,320
+directory and it'll set up end-to-end
+ 
+
+359
+00:05:50,320 --> 00:05:52,630
+directory and it'll set up end-to-end
+authentication for your entire project
+
+360
+00:05:52,630 --> 00:05:52,640
+authentication for your entire project
+ 
+
+361
+00:05:52,640 --> 00:05:54,790
+authentication for your entire project
+with custom middleware, auth pages, and
+
+362
+00:05:54,790 --> 00:05:54,800
+with custom middleware, auth pages, and
+ 
+
+363
+00:05:54,800 --> 00:05:56,870
+with custom middleware, auth pages, and
+environment variables. It even detects
+
+364
+00:05:56,870 --> 00:05:56,880
+environment variables. It even detects
+ 
+
+365
+00:05:56,880 --> 00:05:58,790
+environment variables. It even detects
+if you're migrating from next auth or
+
+366
+00:05:58,790 --> 00:05:58,800
+if you're migrating from next auth or
+ 
+
+367
+00:05:58,800 --> 00:06:00,910
+if you're migrating from next auth or
+auth0 and walks you through the entire
+
+368
+00:06:00,910 --> 00:06:00,920
+auth0 and walks you through the entire
+ 
+
+369
+00:06:00,920 --> 00:06:02,470
+auth0 and walks you through the entire
+process. And since they know you're
+
+370
+00:06:02,470 --> 00:06:02,480
+process. And since they know you're
+ 
+
+371
+00:06:02,480 --> 00:06:04,510
+process. And since they know you're
+using agents to do all your dirty work,
+
+372
+00:06:04,510 --> 00:06:04,520
+using agents to do all your dirty work,
+ 
+
+373
+00:06:04,520 --> 00:06:06,710
+using agents to do all your dirty work,
+they also created clerk skills, which
+
+374
+00:06:06,710 --> 00:06:06,720
+they also created clerk skills, which
+ 
+
+375
+00:06:06,720 --> 00:06:08,910
+they also created clerk skills, which
+ships framework specific patterns pinned
+
+376
+00:06:08,910 --> 00:06:08,920
+ships framework specific patterns pinned
+ 
+
+377
+00:06:08,920 --> 00:06:11,270
+ships framework specific patterns pinned
+to the CLI version. So your coding agent
+
+378
+00:06:11,270 --> 00:06:11,280
+to the CLI version. So your coding agent
+ 
+
+379
+00:06:11,280 --> 00:06:12,950
+to the CLI version. So your coding agent
+knows exactly how to use it. And the
+
+380
+00:06:12,950 --> 00:06:12,960
+knows exactly how to use it. And the
+ 
+
+381
+00:06:12,960 --> 00:06:15,310
+knows exactly how to use it. And the
+clerk API command lets your agent hit
+
+382
+00:06:15,310 --> 00:06:15,320
+clerk API command lets your agent hit
+ 
+
+383
+00:06:15,320 --> 00:06:17,630
+clerk API command lets your agent hit
+the entire clerk back-end API from the
+
+384
+00:06:17,630 --> 00:06:17,640
+the entire clerk back-end API from the
+ 
+
+385
+00:06:17,640 --> 00:06:19,390
+the entire clerk back-end API from the
+terminal without copy and pasting
+
+386
+00:06:19,390 --> 00:06:19,400
+terminal without copy and pasting
+ 
+
+387
+00:06:19,400 --> 00:06:21,350
+terminal without copy and pasting
+credentials. Try it out for free today
+
+388
+00:06:21,350 --> 00:06:21,360
+credentials. Try it out for free today
+ 
+
+389
+00:06:21,360 --> 00:06:23,350
+credentials. Try it out for free today
+at the link below or just run clerk and
+
+390
+00:06:23,350 --> 00:06:23,360
+at the link below or just run clerk and
+ 
+
+391
+00:06:23,360 --> 00:06:25,350
+at the link below or just run clerk and
+knit to get started. Thanks for watching
+
+392
+00:06:25,350 --> 00:06:25,360
+knit to get started. Thanks for watching
+ 
+
+393
+00:06:25,360 --> 00:06:28,840
+knit to get started. Thanks for watching
+and I will see you in the next one.
+

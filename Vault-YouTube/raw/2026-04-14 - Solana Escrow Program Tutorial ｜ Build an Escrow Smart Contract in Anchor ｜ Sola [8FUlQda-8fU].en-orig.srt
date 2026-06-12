@@ -1,0 +1,7935 @@
+1
+00:00:00,000 --> 00:00:01,670
+
+In this section, we're building one of
+
+2
+00:00:01,670 --> 00:00:01,680
+In this section, we're building one of
+ 
+
+3
+00:00:01,680 --> 00:00:03,070
+In this section, we're building one of
+the most fundamental patterns in
+
+4
+00:00:03,070 --> 00:00:03,080
+the most fundamental patterns in
+ 
+
+5
+00:00:03,080 --> 00:00:04,670
+the most fundamental patterns in
+blockchain development, an escrow
+
+6
+00:00:04,670 --> 00:00:04,680
+blockchain development, an escrow
+ 
+
+7
+00:00:04,680 --> 00:00:06,790
+blockchain development, an escrow
+program. An escrow is a neutral third
+
+8
+00:00:06,790 --> 00:00:06,800
+program. An escrow is a neutral third
+ 
+
+9
+00:00:06,800 --> 00:00:08,750
+program. An escrow is a neutral third
+party that holds assets until certain
+
+10
+00:00:08,750 --> 00:00:08,760
+party that holds assets until certain
+ 
+
+11
+00:00:08,760 --> 00:00:10,470
+party that holds assets until certain
+conditions are met. In traditional
+
+12
+00:00:10,470 --> 00:00:10,480
+conditions are met. In traditional
+ 
+
+13
+00:00:10,480 --> 00:00:12,310
+conditions are met. In traditional
+finance, this might be a bank or a
+
+14
+00:00:12,310 --> 00:00:12,320
+finance, this might be a bank or a
+ 
+
+15
+00:00:12,320 --> 00:00:14,310
+finance, this might be a bank or a
+lawyer, but on the blockchain, we
+
+16
+00:00:14,310 --> 00:00:14,320
+lawyer, but on the blockchain, we
+ 
+
+17
+00:00:14,320 --> 00:00:16,190
+lawyer, but on the blockchain, we
+replace that trusted middleman with
+
+18
+00:00:16,190 --> 00:00:16,200
+replace that trusted middleman with
+ 
+
+19
+00:00:16,200 --> 00:00:18,790
+replace that trusted middleman with
+code, so a smart contract that enforces
+
+20
+00:00:18,790 --> 00:00:18,800
+code, so a smart contract that enforces
+ 
+
+21
+00:00:18,800 --> 00:00:20,710
+code, so a smart contract that enforces
+the rules automatically. Escrows are
+
+22
+00:00:20,710 --> 00:00:20,720
+the rules automatically. Escrows are
+ 
+
+23
+00:00:20,720 --> 00:00:22,990
+the rules automatically. Escrows are
+everywhere in Web3. DEXs use the escrow
+
+24
+00:00:22,990 --> 00:00:23,000
+everywhere in Web3. DEXs use the escrow
+ 
+
+25
+00:00:23,000 --> 00:00:25,990
+everywhere in Web3. DEXs use the escrow
+logic for token swaps. NFT marketplaces
+
+26
+00:00:25,990 --> 00:00:26,000
+logic for token swaps. NFT marketplaces
+ 
+
+27
+00:00:26,000 --> 00:00:28,110
+logic for token swaps. NFT marketplaces
+use it to hold assets until payments
+
+28
+00:00:28,110 --> 00:00:28,120
+use it to hold assets until payments
+ 
+
+29
+00:00:28,120 --> 00:00:28,810
+use it to hold assets until payments
+clear.
+
+30
+00:00:28,810 --> 00:00:28,820
+clear.
+ 
+
+31
+00:00:28,820 --> 00:00:28,950
+clear.
+>> [music]
+
+32
+00:00:28,950 --> 00:00:28,960
+>> [music]
+ 
+
+33
+00:00:28,960 --> 00:00:31,510
+>> [music]
+>> Freelance platforms use it to protect
+
+34
+00:00:31,510 --> 00:00:31,520
+>> Freelance platforms use it to protect
+ 
+
+35
+00:00:31,520 --> 00:00:33,870
+>> Freelance platforms use it to protect
+both clients and contractors. Once you
+
+36
+00:00:33,870 --> 00:00:33,880
+both clients and contractors. Once you
+ 
+
+37
+00:00:33,880 --> 00:00:36,110
+both clients and contractors. Once you
+understand the escrow pattern, you'll
+
+38
+00:00:36,110 --> 00:00:36,120
+understand the escrow pattern, you'll
+ 
+
+39
+00:00:36,120 --> 00:00:38,030
+understand the escrow pattern, you'll
+recognize it in almost every DeFi
+
+40
+00:00:38,030 --> 00:00:38,040
+recognize it in almost every DeFi
+ 
+
+41
+00:00:38,040 --> 00:00:40,110
+recognize it in almost every DeFi
+protocol you interact with. So, in this
+
+42
+00:00:40,110 --> 00:00:40,120
+protocol you interact with. So, in this
+ 
+
+43
+00:00:40,120 --> 00:00:42,430
+protocol you interact with. So, in this
+program, we'll have three instructions:
+
+44
+00:00:42,430 --> 00:00:42,440
+program, we'll have three instructions:
+ 
+
+45
+00:00:42,440 --> 00:00:44,670
+program, we'll have three instructions:
+make, which allows someone to create an
+
+46
+00:00:44,670 --> 00:00:44,680
+make, which allows someone to create an
+ 
+
+47
+00:00:44,680 --> 00:00:46,710
+make, which allows someone to create an
+escrow, deposit their tokens into a
+
+48
+00:00:46,710 --> 00:00:46,720
+escrow, deposit their tokens into a
+ 
+
+49
+00:00:46,720 --> 00:00:48,550
+escrow, deposit their tokens into a
+vault, and specify what they want in
+
+50
+00:00:48,550 --> 00:00:48,560
+vault, and specify what they want in
+ 
+
+51
+00:00:48,560 --> 00:00:51,110
+vault, and specify what they want in
+return. Take lets another party accept
+
+52
+00:00:51,110 --> 00:00:51,120
+return. Take lets another party accept
+ 
+
+53
+00:00:51,120 --> 00:00:52,910
+return. Take lets another party accept
+those terms. They send the requested
+
+54
+00:00:52,910 --> 00:00:52,920
+those terms. They send the requested
+ 
+
+55
+00:00:52,920 --> 00:00:55,070
+those terms. They send the requested
+tokens and receive what's in the vault.
+
+56
+00:00:55,070 --> 00:00:55,080
+tokens and receive what's in the vault.
+ 
+
+57
+00:00:55,080 --> 00:00:56,910
+tokens and receive what's in the vault.
+The whole swap happens automatically,
+
+58
+00:00:56,910 --> 00:00:56,920
+The whole swap happens automatically,
+ 
+
+59
+00:00:56,920 --> 00:00:59,150
+The whole swap happens automatically,
+and refund lets the original creator
+
+60
+00:00:59,150 --> 00:00:59,160
+and refund lets the original creator
+ 
+
+61
+00:00:59,160 --> 00:01:01,150
+and refund lets the original creator
+cancel and reclaim their tokens if they
+
+62
+00:01:01,150 --> 00:01:01,160
+cancel and reclaim their tokens if they
+ 
+
+63
+00:01:01,160 --> 00:01:02,910
+cancel and reclaim their tokens if they
+change their mind. Beyond the escrow
+
+64
+00:01:02,910 --> 00:01:02,920
+change their mind. Beyond the escrow
+ 
+
+65
+00:01:02,920 --> 00:01:05,030
+change their mind. Beyond the escrow
+logic, we'll learn how to test Anchor
+
+66
+00:01:05,030 --> 00:01:05,040
+logic, we'll learn how to test Anchor
+ 
+
+67
+00:01:05,040 --> 00:01:07,630
+logic, we'll learn how to test Anchor
+programs using Light SVM, which is a
+
+68
+00:01:07,630 --> 00:01:07,640
+programs using Light SVM, which is a
+ 
+
+69
+00:01:07,640 --> 00:01:09,870
+programs using Light SVM, which is a
+fast, lightweight alternative to running
+
+70
+00:01:09,870 --> 00:01:09,880
+fast, lightweight alternative to running
+ 
+
+71
+00:01:09,880 --> 00:01:11,870
+fast, lightweight alternative to running
+a local validator. By the end, you'll
+
+72
+00:01:11,870 --> 00:01:11,880
+a local validator. By the end, you'll
+ 
+
+73
+00:01:11,880 --> 00:01:13,630
+a local validator. By the end, you'll
+have a reusable pattern that you can
+
+74
+00:01:13,630 --> 00:01:13,640
+have a reusable pattern that you can
+ 
+
+75
+00:01:13,640 --> 00:01:15,230
+have a reusable pattern that you can
+apply to countless blockchain
+
+76
+00:01:15,230 --> 00:01:15,240
+apply to countless blockchain
+ 
+
+77
+00:01:15,240 --> 00:01:16,710
+apply to countless blockchain
+applications. [music] Now, let's get
+
+78
+00:01:16,710 --> 00:01:16,720
+applications. [music] Now, let's get
+ 
+
+79
+00:01:16,720 --> 00:01:18,310
+applications. [music] Now, let's get
+started.
+
+80
+00:01:18,310 --> 00:01:18,320
+started.
+ 
+
+81
+00:01:18,320 --> 00:01:20,350
+started.
+So, I'm going to link a repo of the
+
+82
+00:01:20,350 --> 00:01:20,360
+So, I'm going to link a repo of the
+ 
+
+83
+00:01:20,360 --> 00:01:22,110
+So, I'm going to link a repo of the
+code, and we're going to go over just
+
+84
+00:01:22,110 --> 00:01:22,120
+code, and we're going to go over just
+ 
+
+85
+00:01:22,120 --> 00:01:24,030
+code, and we're going to go over just
+the concepts and code snippets rather
+
+86
+00:01:24,030 --> 00:01:24,040
+the concepts and code snippets rather
+ 
+
+87
+00:01:24,040 --> 00:01:26,310
+the concepts and code snippets rather
+than code from scratch line by line.
+
+88
+00:01:26,310 --> 00:01:26,320
+than code from scratch line by line.
+ 
+
+89
+00:01:26,320 --> 00:01:27,790
+than code from scratch line by line.
+Just to save more engaging and avoid a
+
+90
+00:01:27,790 --> 00:01:27,800
+Just to save more engaging and avoid a
+ 
+
+91
+00:01:27,800 --> 00:01:30,270
+Just to save more engaging and avoid a
+lot of repetitive code. Now, we already
+
+92
+00:01:30,270 --> 00:01:30,280
+lot of repetitive code. Now, we already
+ 
+
+93
+00:01:30,280 --> 00:01:32,590
+lot of repetitive code. Now, we already
+talked about how most things in DeFi are
+
+94
+00:01:32,590 --> 00:01:32,600
+talked about how most things in DeFi are
+ 
+
+95
+00:01:32,600 --> 00:01:35,230
+talked about how most things in DeFi are
+an escrow, but let's chat about why. So,
+
+96
+00:01:35,230 --> 00:01:35,240
+an escrow, but let's chat about why. So,
+ 
+
+97
+00:01:35,240 --> 00:01:37,710
+an escrow, but let's chat about why. So,
+let's say I'm making a $1,000 bet on the
+
+98
+00:01:37,710 --> 00:01:37,720
+let's say I'm making a $1,000 bet on the
+ 
+
+99
+00:01:37,720 --> 00:01:39,510
+let's say I'm making a $1,000 bet on the
+Super Bowl with my friend, and I'm
+
+100
+00:01:39,510 --> 00:01:39,520
+Super Bowl with my friend, and I'm
+ 
+
+101
+00:01:39,520 --> 00:01:41,070
+Super Bowl with my friend, and I'm
+betting on the Eagles and he's betting
+
+102
+00:01:41,070 --> 00:01:41,080
+betting on the Eagles and he's betting
+ 
+
+103
+00:01:41,080 --> 00:01:43,110
+betting on the Eagles and he's betting
+on the Chiefs. But, how do we know the
+
+104
+00:01:43,110 --> 00:01:43,120
+on the Chiefs. But, how do we know the
+ 
+
+105
+00:01:43,120 --> 00:01:45,230
+on the Chiefs. But, how do we know the
+winner is actually going to get paid?
+
+106
+00:01:45,230 --> 00:01:45,240
+winner is actually going to get paid?
+ 
+
+107
+00:01:45,240 --> 00:01:47,070
+winner is actually going to get paid?
+Well, in traditional finance, either I'd
+
+108
+00:01:47,070 --> 00:01:47,080
+Well, in traditional finance, either I'd
+ 
+
+109
+00:01:47,080 --> 00:01:48,590
+Well, in traditional finance, either I'd
+have to trust my friend that he'd
+
+110
+00:01:48,590 --> 00:01:48,600
+have to trust my friend that he'd
+ 
+
+111
+00:01:48,600 --> 00:01:50,710
+have to trust my friend that he'd
+actually pay me when the Eagles win, but
+
+112
+00:01:50,710 --> 00:01:50,720
+actually pay me when the Eagles win, but
+ 
+
+113
+00:01:50,720 --> 00:01:52,190
+actually pay me when the Eagles win, but
+this is an emotional time, and I don't
+
+114
+00:01:52,190 --> 00:01:52,200
+this is an emotional time, and I don't
+ 
+
+115
+00:01:52,200 --> 00:01:54,630
+this is an emotional time, and I don't
+know if he will. So, we could hire a
+
+116
+00:01:54,630 --> 00:01:54,640
+know if he will. So, we could hire a
+ 
+
+117
+00:01:54,640 --> 00:01:56,510
+know if he will. So, we could hire a
+third party to hold our money and give
+
+118
+00:01:56,510 --> 00:01:56,520
+third party to hold our money and give
+ 
+
+119
+00:01:56,520 --> 00:01:58,390
+third party to hold our money and give
+it to the correct person once the bet is
+
+120
+00:01:58,390 --> 00:01:58,400
+it to the correct person once the bet is
+ 
+
+121
+00:01:58,400 --> 00:02:00,390
+it to the correct person once the bet is
+over, but again, this involves a lot of
+
+122
+00:02:00,390 --> 00:02:00,400
+over, but again, this involves a lot of
+ 
+
+123
+00:02:00,400 --> 00:02:03,230
+over, but again, this involves a lot of
+trust. So, blockchain fixes this. It
+
+124
+00:02:03,230 --> 00:02:03,240
+trust. So, blockchain fixes this. It
+ 
+
+125
+00:02:03,240 --> 00:02:05,350
+trust. So, blockchain fixes this. It
+creates a fully trustless third party
+
+126
+00:02:05,350 --> 00:02:05,360
+creates a fully trustless third party
+ 
+
+127
+00:02:05,360 --> 00:02:07,790
+creates a fully trustless third party
+because this third party is just code.
+
+128
+00:02:07,790 --> 00:02:07,800
+because this third party is just code.
+ 
+
+129
+00:02:07,800 --> 00:02:08,550
+because this third party is just code.
+And that's what we're going [music] to
+
+130
+00:02:08,550 --> 00:02:08,560
+And that's what we're going [music] to
+ 
+
+131
+00:02:08,560 --> 00:02:11,430
+And that's what we're going [music] to
+write today. And it's an escrow. So, it
+
+132
+00:02:11,430 --> 00:02:11,440
+write today. And it's an escrow. So, it
+ 
+
+133
+00:02:11,440 --> 00:02:13,390
+write today. And it's an escrow. So, it
+holds funds and releases them to the
+
+134
+00:02:13,390 --> 00:02:13,400
+holds funds and releases them to the
+ 
+
+135
+00:02:13,400 --> 00:02:15,390
+holds funds and releases them to the
+correct person when the specified
+
+136
+00:02:15,390 --> 00:02:15,400
+correct person when the specified
+ 
+
+137
+00:02:15,400 --> 00:02:17,870
+correct person when the specified
+conditions are met. So, if we made a bet
+
+138
+00:02:17,870 --> 00:02:17,880
+conditions are met. So, if we made a bet
+ 
+
+139
+00:02:17,880 --> 00:02:20,150
+conditions are met. So, if we made a bet
+on chain instead, [music] the code would
+
+140
+00:02:20,150 --> 00:02:20,160
+on chain instead, [music] the code would
+ 
+
+141
+00:02:20,160 --> 00:02:21,910
+on chain instead, [music] the code would
+query the outcome of the Super Bowl at
+
+142
+00:02:21,910 --> 00:02:21,920
+query the outcome of the Super Bowl at
+ 
+
+143
+00:02:21,920 --> 00:02:23,670
+query the outcome of the Super Bowl at
+the specified time and immediately
+
+144
+00:02:23,670 --> 00:02:23,680
+the specified time and immediately
+ 
+
+145
+00:02:23,680 --> 00:02:25,550
+the specified time and immediately
+release the funds to the correct person.
+
+146
+00:02:25,550 --> 00:02:25,560
+release the funds to the correct person.
+ 
+
+147
+00:02:25,560 --> 00:02:27,270
+release the funds to the correct person.
+And it's as simple [music] as that. So,
+
+148
+00:02:27,270 --> 00:02:27,280
+And it's as simple [music] as that. So,
+ 
+
+149
+00:02:27,280 --> 00:02:29,070
+And it's as simple [music] as that. So,
+how do we get started? Well, whenever
+
+150
+00:02:29,070 --> 00:02:29,080
+how do we get started? Well, whenever
+ 
+
+151
+00:02:29,080 --> 00:02:30,790
+how do we get started? Well, whenever
+I'm writing smart contracts, I always
+
+152
+00:02:30,790 --> 00:02:30,800
+I'm writing smart contracts, I always
+ 
+
+153
+00:02:30,800 --> 00:02:33,261
+I'm writing smart contracts, I always
+like to start with the state. And
+
+154
+00:02:33,261 --> 00:02:33,271
+like to start with the state. And
+ 
+
+155
+00:02:33,271 --> 00:02:34,030
+like to start with the state. And
+[music]
+
+156
+00:02:34,030 --> 00:02:34,040
+[music]
+ 
+
+157
+00:02:34,040 --> 00:02:35,710
+[music]
+as we now know, Solana programs are
+
+158
+00:02:35,710 --> 00:02:35,720
+as we now know, Solana programs are
+ 
+
+159
+00:02:35,720 --> 00:02:37,870
+as we now know, Solana programs are
+stateless. So, when we want custom data
+
+160
+00:02:37,870 --> 00:02:37,880
+stateless. So, when we want custom data
+ 
+
+161
+00:02:37,880 --> 00:02:39,910
+stateless. So, when we want custom data
+stored, we're going to need to create an
+
+162
+00:02:39,910 --> 00:02:39,920
+stored, we're going to need to create an
+ 
+
+163
+00:02:39,920 --> 00:02:42,870
+stored, we're going to need to create an
+account in the smart contract. So, let's
+
+164
+00:02:42,870 --> 00:02:42,880
+account in the smart contract. So, let's
+ 
+
+165
+00:02:42,880 --> 00:02:44,870
+account in the smart contract. So, let's
+start with where we're going to define
+
+166
+00:02:44,870 --> 00:02:44,880
+start with where we're going to define
+ 
+
+167
+00:02:44,880 --> 00:02:47,016
+start with where we're going to define
+that account. So,
+
+168
+00:02:47,016 --> 00:02:47,026
+that account. So,
+ 
+
+169
+00:02:47,026 --> 00:02:47,070
+that account. So,
+>> [snorts]
+
+170
+00:02:47,070 --> 00:02:47,080
+>> [snorts]
+ 
+
+171
+00:02:47,080 --> 00:02:49,070
+>> [snorts]
+>> first, let's
+
+172
+00:02:49,070 --> 00:02:49,080
+>> first, let's
+ 
+
+173
+00:02:49,080 --> 00:02:53,310
+>> first, let's
+open up the code. If I go to GitHub, um
+
+174
+00:02:53,310 --> 00:02:53,320
+open up the code. If I go to GitHub, um
+ 
+
+175
+00:02:53,320 --> 00:02:55,390
+open up the code. If I go to GitHub, um
+I'm going to link this repo. We're going
+
+176
+00:02:55,390 --> 00:02:55,400
+I'm going to link this repo. We're going
+ 
+
+177
+00:02:55,400 --> 00:02:58,990
+I'm going to link this repo. We're going
+to copy this GitHub CLI command, open up
+
+178
+00:02:58,990 --> 00:02:59,000
+to copy this GitHub CLI command, open up
+ 
+
+179
+00:02:59,000 --> 00:03:02,790
+to copy this GitHub CLI command, open up
+our terminal.
+
+180
+00:03:02,790 --> 00:03:02,800
+
+ 
+
+181
+00:03:02,800 --> 00:03:04,870
+
+And I'll just zoom in a bit so you can
+
+182
+00:03:04,870 --> 00:03:04,880
+And I'll just zoom in a bit so you can
+ 
+
+183
+00:03:04,880 --> 00:03:09,470
+And I'll just zoom in a bit so you can
+see. I'll paste in the clone command,
+
+184
+00:03:09,470 --> 00:03:09,480
+see. I'll paste in the clone command,
+ 
+
+185
+00:03:09,480 --> 00:03:11,790
+see. I'll paste in the clone command,
+and we're going to first CD into the
+
+186
+00:03:11,790 --> 00:03:11,800
+and we're going to first CD into the
+ 
+
+187
+00:03:11,800 --> 00:03:14,510
+and we're going to first CD into the
+directory of the project that we just
+
+188
+00:03:14,510 --> 00:03:14,520
+directory of the project that we just
+ 
+
+189
+00:03:14,520 --> 00:03:17,070
+directory of the project that we just
+cloned.
+
+190
+00:03:17,070 --> 00:03:17,080
+cloned.
+ 
+
+191
+00:03:17,080 --> 00:03:19,190
+cloned.
+And then, we're going to take the code
+
+192
+00:03:19,190 --> 00:03:19,200
+And then, we're going to take the code
+ 
+
+193
+00:03:19,200 --> 00:03:20,790
+And then, we're going to take the code
+that was already written for us, and
+
+194
+00:03:20,790 --> 00:03:20,800
+that was already written for us, and
+ 
+
+195
+00:03:20,800 --> 00:03:22,150
+that was already written for us, and
+we're just going to go through it.
+
+196
+00:03:22,150 --> 00:03:22,160
+we're just going to go through it.
+ 
+
+197
+00:03:22,160 --> 00:03:23,670
+we're just going to go through it.
+So, first,
+
+198
+00:03:23,670 --> 00:03:23,680
+So, first,
+ 
+
+199
+00:03:23,680 --> 00:03:25,190
+So, first,
+we said we're starting with the state.
+
+200
+00:03:25,190 --> 00:03:25,200
+we said we're starting with the state.
+ 
+
+201
+00:03:25,200 --> 00:03:27,710
+we said we're starting with the state.
+Now, let's see where that actually is.
+
+202
+00:03:27,710 --> 00:03:27,720
+Now, let's see where that actually is.
+ 
+
+203
+00:03:27,720 --> 00:03:29,830
+Now, let's see where that actually is.
+If I go into programs, Anchor escrow
+
+204
+00:03:29,830 --> 00:03:29,840
+If I go into programs, Anchor escrow
+ 
+
+205
+00:03:29,840 --> 00:03:32,550
+If I go into programs, Anchor escrow
+source, and then there's a file called
+
+206
+00:03:32,550 --> 00:03:32,560
+source, and then there's a file called
+ 
+
+207
+00:03:32,560 --> 00:03:34,710
+source, and then there's a file called
+state.rs, and this is where you're going
+
+208
+00:03:34,710 --> 00:03:34,720
+state.rs, and this is where you're going
+ 
+
+209
+00:03:34,720 --> 00:03:37,750
+state.rs, and this is where you're going
+to define every account that you create,
+
+210
+00:03:37,750 --> 00:03:37,760
+to define every account that you create,
+ 
+
+211
+00:03:37,760 --> 00:03:41,550
+to define every account that you create,
+the custom state for that account. So,
+
+212
+00:03:41,550 --> 00:03:41,560
+the custom state for that account. So,
+ 
+
+213
+00:03:41,560 --> 00:03:43,630
+the custom state for that account. So,
+accounts are where all of your data is
+
+214
+00:03:43,630 --> 00:03:43,640
+accounts are where all of your data is
+ 
+
+215
+00:03:43,640 --> 00:03:45,430
+accounts are where all of your data is
+stored. Here, we're just going to have
+
+216
+00:03:45,430 --> 00:03:45,440
+stored. Here, we're just going to have
+ 
+
+217
+00:03:45,440 --> 00:03:46,590
+stored. Here, we're just going to have
+one account, and that's going to be our
+
+218
+00:03:46,590 --> 00:03:46,600
+one account, and that's going to be our
+ 
+
+219
+00:03:46,600 --> 00:03:48,910
+one account, and that's going to be our
+escrow account. So,
+
+220
+00:03:48,910 --> 00:03:48,920
+escrow account. So,
+ 
+
+221
+00:03:48,920 --> 00:03:52,430
+escrow account. So,
+you can see here, we have this struct
+
+222
+00:03:52,430 --> 00:03:52,440
+you can see here, we have this struct
+ 
+
+223
+00:03:52,440 --> 00:03:54,390
+you can see here, we have this struct
+that is our escrow, and it's going to
+
+224
+00:03:54,390 --> 00:03:54,400
+that is our escrow, and it's going to
+ 
+
+225
+00:03:54,400 --> 00:03:56,150
+that is our escrow, and it's going to
+have all the fields of the data that I
+
+226
+00:03:56,150 --> 00:03:56,160
+have all the fields of the data that I
+ 
+
+227
+00:03:56,160 --> 00:03:58,550
+have all the fields of the data that I
+want to store for my escrow. And here,
+
+228
+00:03:58,550 --> 00:03:58,560
+want to store for my escrow. And here,
+ 
+
+229
+00:03:58,560 --> 00:04:01,110
+want to store for my escrow. And here,
+all I'm storing is the seed, the maker.
+
+230
+00:04:01,110 --> 00:04:01,120
+all I'm storing is the seed, the maker.
+ 
+
+231
+00:04:01,120 --> 00:04:03,710
+all I'm storing is the seed, the maker.
+The maker is going to be the person who
+
+232
+00:04:03,710 --> 00:04:03,720
+The maker is going to be the person who
+ 
+
+233
+00:04:03,720 --> 00:04:06,590
+The maker is going to be the person who
+makes a new escrow contract, a new bet,
+
+234
+00:04:06,590 --> 00:04:06,600
+makes a new escrow contract, a new bet,
+ 
+
+235
+00:04:06,600 --> 00:04:08,470
+makes a new escrow contract, a new bet,
+a new whatever logic that they want to
+
+236
+00:04:08,470 --> 00:04:08,480
+a new whatever logic that they want to
+ 
+
+237
+00:04:08,480 --> 00:04:09,670
+a new whatever logic that they want to
+have.
+
+238
+00:04:09,670 --> 00:04:09,680
+have.
+ 
+
+239
+00:04:09,680 --> 00:04:11,510
+have.
+Um and then, we have these two mint
+
+240
+00:04:11,510 --> 00:04:11,520
+Um and then, we have these two mint
+ 
+
+241
+00:04:11,520 --> 00:04:14,910
+Um and then, we have these two mint
+public keys, and that is going to be
+
+242
+00:04:14,910 --> 00:04:14,920
+public keys, and that is going to be
+ 
+
+243
+00:04:14,920 --> 00:04:17,150
+public keys, and that is going to be
+allowing for two different tokens. So,
+
+244
+00:04:17,150 --> 00:04:17,160
+allowing for two different tokens. So,
+ 
+
+245
+00:04:17,160 --> 00:04:19,030
+allowing for two different tokens. So,
+if I want a mint account for one and a
+
+246
+00:04:19,030 --> 00:04:19,040
+if I want a mint account for one and a
+ 
+
+247
+00:04:19,040 --> 00:04:21,069
+if I want a mint account for one and a
+mint account for another token. And
+
+248
+00:04:21,069 --> 00:04:21,079
+mint account for another token. And
+ 
+
+249
+00:04:21,079 --> 00:04:22,670
+mint account for another token. And
+then, the receive is going to be the
+
+250
+00:04:22,670 --> 00:04:22,680
+then, the receive is going to be the
+ 
+
+251
+00:04:22,680 --> 00:04:25,270
+then, the receive is going to be the
+taker, whoever is going to receive the
+
+252
+00:04:25,270 --> 00:04:25,280
+taker, whoever is going to receive the
+ 
+
+253
+00:04:25,280 --> 00:04:27,310
+taker, whoever is going to receive the
+funds that the maker is locking into
+
+254
+00:04:27,310 --> 00:04:27,320
+funds that the maker is locking into
+ 
+
+255
+00:04:27,320 --> 00:04:29,710
+funds that the maker is locking into
+this vault of the escrow. And then, we
+
+256
+00:04:29,710 --> 00:04:29,720
+this vault of the escrow. And then, we
+ 
+
+257
+00:04:29,720 --> 00:04:32,070
+this vault of the escrow. And then, we
+store our bump. So, for best practice
+
+258
+00:04:32,070 --> 00:04:32,080
+store our bump. So, for best practice
+ 
+
+259
+00:04:32,080 --> 00:04:33,470
+store our bump. So, for best practice
+when you're writing Anchor programs, you
+
+260
+00:04:33,470 --> 00:04:33,480
+when you're writing Anchor programs, you
+ 
+
+261
+00:04:33,480 --> 00:04:36,310
+when you're writing Anchor programs, you
+always want to store the bump, and that
+
+262
+00:04:36,310 --> 00:04:36,320
+always want to store the bump, and that
+ 
+
+263
+00:04:36,320 --> 00:04:37,590
+always want to store the bump, and that
+is just going to make things more
+
+264
+00:04:37,590 --> 00:04:37,600
+is just going to make things more
+ 
+
+265
+00:04:37,600 --> 00:04:39,350
+is just going to make things more
+efficient. We'll go through exactly why
+
+266
+00:04:39,350 --> 00:04:39,360
+efficient. We'll go through exactly why
+ 
+
+267
+00:04:39,360 --> 00:04:40,710
+efficient. We'll go through exactly why
+once we get a little deeper into the
+
+268
+00:04:40,710 --> 00:04:40,720
+once we get a little deeper into the
+ 
+
+269
+00:04:40,720 --> 00:04:41,750
+once we get a little deeper into the
+code.
+
+270
+00:04:41,750 --> 00:04:41,760
+code.
+ 
+
+271
+00:04:41,760 --> 00:04:43,790
+code.
+Um but, there you have it. You have your
+
+272
+00:04:43,790 --> 00:04:43,800
+Um but, there you have it. You have your
+ 
+
+273
+00:04:43,800 --> 00:04:46,030
+Um but, there you have it. You have your
+custom data structure with all of the
+
+274
+00:04:46,030 --> 00:04:46,040
+custom data structure with all of the
+ 
+
+275
+00:04:46,040 --> 00:04:48,430
+custom data structure with all of the
+information that you want stored. Now,
+
+276
+00:04:48,430 --> 00:04:48,440
+information that you want stored. Now,
+ 
+
+277
+00:04:48,440 --> 00:04:49,710
+information that you want stored. Now,
+you can see that there's these two
+
+278
+00:04:49,710 --> 00:04:49,720
+you can see that there's these two
+ 
+
+279
+00:04:49,720 --> 00:04:52,510
+you can see that there's these two
+macros, and we talked about before how
+
+280
+00:04:52,510 --> 00:04:52,520
+macros, and we talked about before how
+ 
+
+281
+00:04:52,520 --> 00:04:54,630
+macros, and we talked about before how
+Anchor
+
+282
+00:04:54,630 --> 00:04:54,640
+Anchor
+ 
+
+283
+00:04:54,640 --> 00:04:56,910
+Anchor
+simplifies a lot of smart contract
+
+284
+00:04:56,910 --> 00:04:56,920
+simplifies a lot of smart contract
+ 
+
+285
+00:04:56,920 --> 00:04:59,470
+simplifies a lot of smart contract
+design. And they do that with these
+
+286
+00:04:59,470 --> 00:04:59,480
+design. And they do that with these
+ 
+
+287
+00:04:59,480 --> 00:05:01,510
+design. And they do that with these
+macros that are created. So, here you
+
+288
+00:05:01,510 --> 00:05:01,520
+macros that are created. So, here you
+ 
+
+289
+00:05:01,520 --> 00:05:03,870
+macros that are created. So, here you
+can see this derive init space, and what
+
+290
+00:05:03,870 --> 00:05:03,880
+can see this derive init space, and what
+ 
+
+291
+00:05:03,880 --> 00:05:06,470
+can see this derive init space, and what
+this does is it automatically calculates
+
+292
+00:05:06,470 --> 00:05:06,480
+this does is it automatically calculates
+ 
+
+293
+00:05:06,480 --> 00:05:08,990
+this does is it automatically calculates
+the space needed to store the struct on
+
+294
+00:05:08,990 --> 00:05:09,000
+the space needed to store the struct on
+ 
+
+295
+00:05:09,000 --> 00:05:12,350
+the space needed to store the struct on
+chain. So, Anchor adds up all of the
+
+296
+00:05:12,350 --> 00:05:12,360
+chain. So, Anchor adds up all of the
+ 
+
+297
+00:05:12,360 --> 00:05:14,390
+chain. So, Anchor adds up all of the
+byte sizes of all of the fields that
+
+298
+00:05:14,390 --> 00:05:14,400
+byte sizes of all of the fields that
+ 
+
+299
+00:05:14,400 --> 00:05:17,830
+byte sizes of all of the fields that
+you've stated here in your struct, and
+
+300
+00:05:17,830 --> 00:05:17,840
+you've stated here in your struct, and
+ 
+
+301
+00:05:17,840 --> 00:05:20,350
+you've stated here in your struct, and
+then it calculates how much space it's
+
+302
+00:05:20,350 --> 00:05:20,360
+then it calculates how much space it's
+ 
+
+303
+00:05:20,360 --> 00:05:21,870
+then it calculates how much space it's
+going to store, so you don't have to do
+
+304
+00:05:21,870 --> 00:05:21,880
+going to store, so you don't have to do
+ 
+
+305
+00:05:21,880 --> 00:05:23,310
+going to store, so you don't have to do
+that manually.
+
+306
+00:05:23,310 --> 00:05:23,320
+that manually.
+ 
+
+307
+00:05:23,320 --> 00:05:25,670
+that manually.
+Now, there's also this other
+
+308
+00:05:25,670 --> 00:05:25,680
+Now, there's also this other
+ 
+
+309
+00:05:25,680 --> 00:05:27,550
+Now, there's also this other
+macro, and that is defining what the
+
+310
+00:05:27,550 --> 00:05:27,560
+macro, and that is defining what the
+ 
+
+311
+00:05:27,560 --> 00:05:29,630
+macro, and that is defining what the
+discriminator is. So, this is setting a
+
+312
+00:05:29,630 --> 00:05:29,640
+discriminator is. So, this is setting a
+ 
+
+313
+00:05:29,640 --> 00:05:32,030
+discriminator is. So, this is setting a
+custom discriminator that is a one-byte
+
+314
+00:05:32,030 --> 00:05:32,040
+custom discriminator that is a one-byte
+ 
+
+315
+00:05:32,040 --> 00:05:34,430
+custom discriminator that is a one-byte
+discriminator. Normally, Anchor uses the
+
+316
+00:05:34,430 --> 00:05:34,440
+discriminator. Normally, Anchor uses the
+ 
+
+317
+00:05:34,440 --> 00:05:38,550
+discriminator. Normally, Anchor uses the
+first eight bytes of the SHA-256
+
+318
+00:05:38,550 --> 00:05:38,560
+first eight bytes of the SHA-256
+ 
+
+319
+00:05:38,560 --> 00:05:40,830
+first eight bytes of the SHA-256
+as the discriminator. Um this overrides
+
+320
+00:05:40,830 --> 00:05:40,840
+as the discriminator. Um this overrides
+ 
+
+321
+00:05:40,840 --> 00:05:42,950
+as the discriminator. Um this overrides
+that with just a simple one. So, the
+
+322
+00:05:42,950 --> 00:05:42,960
+that with just a simple one. So, the
+ 
+
+323
+00:05:42,960 --> 00:05:45,110
+that with just a simple one. So, the
+discriminator is written at the start of
+
+324
+00:05:45,110 --> 00:05:45,120
+discriminator is written at the start of
+ 
+
+325
+00:05:45,120 --> 00:05:47,510
+discriminator is written at the start of
+the account data to identify a specific
+
+326
+00:05:47,510 --> 00:05:47,520
+the account data to identify a specific
+ 
+
+327
+00:05:47,520 --> 00:05:48,910
+the account data to identify a specific
+account type.
+
+328
+00:05:48,910 --> 00:05:48,920
+account type.
+ 
+
+329
+00:05:48,920 --> 00:05:50,030
+account type.
+So,
+
+330
+00:05:50,030 --> 00:05:50,040
+So,
+ 
+
+331
+00:05:50,040 --> 00:05:52,230
+So,
+everything for your state is good to go.
+
+332
+00:05:52,230 --> 00:05:52,240
+everything for your state is good to go.
+ 
+
+333
+00:05:52,240 --> 00:05:54,550
+everything for your state is good to go.
+But, all this is doing is defining what
+
+334
+00:05:54,550 --> 00:05:54,560
+But, all this is doing is defining what
+ 
+
+335
+00:05:54,560 --> 00:05:56,950
+But, all this is doing is defining what
+is in your state. So, how do we actually
+
+336
+00:05:56,950 --> 00:05:56,960
+is in your state. So, how do we actually
+ 
+
+337
+00:05:56,960 --> 00:05:58,590
+is in your state. So, how do we actually
+create the account that's going to hold
+
+338
+00:05:58,590 --> 00:05:58,600
+create the account that's going to hold
+ 
+
+339
+00:05:58,600 --> 00:06:00,590
+create the account that's going to hold
+this state? Well,
+
+340
+00:06:00,590 --> 00:06:00,600
+this state? Well,
+ 
+
+341
+00:06:00,600 --> 00:06:02,950
+this state? Well,
+let's go to these instructions. You have
+
+342
+00:06:02,950 --> 00:06:02,960
+let's go to these instructions. You have
+ 
+
+343
+00:06:02,960 --> 00:06:04,830
+let's go to these instructions. You have
+a folder of three different
+
+344
+00:06:04,830 --> 00:06:04,840
+a folder of three different
+ 
+
+345
+00:06:04,840 --> 00:06:07,030
+a folder of three different
+instructions, our make, refund, and
+
+346
+00:06:07,030 --> 00:06:07,040
+instructions, our make, refund, and
+ 
+
+347
+00:06:07,040 --> 00:06:11,310
+instructions, our make, refund, and
+take. And we know that the
+
+348
+00:06:11,310 --> 00:06:11,320
+take. And we know that the
+ 
+
+349
+00:06:11,320 --> 00:06:13,510
+take. And we know that the
+escrow starts at the make instruction.
+
+350
+00:06:13,510 --> 00:06:13,520
+escrow starts at the make instruction.
+ 
+
+351
+00:06:13,520 --> 00:06:15,390
+escrow starts at the make instruction.
+You're having a maker create a new
+
+352
+00:06:15,390 --> 00:06:15,400
+You're having a maker create a new
+ 
+
+353
+00:06:15,400 --> 00:06:16,430
+You're having a maker create a new
+escrow.
+
+354
+00:06:16,430 --> 00:06:16,440
+escrow.
+ 
+
+355
+00:06:16,440 --> 00:06:18,390
+escrow.
+If you go to the lib.rs, you're going to
+
+356
+00:06:18,390 --> 00:06:18,400
+If you go to the lib.rs, you're going to
+ 
+
+357
+00:06:18,400 --> 00:06:20,590
+If you go to the lib.rs, you're going to
+see this program macro. The program
+
+358
+00:06:20,590 --> 00:06:20,600
+see this program macro. The program
+ 
+
+359
+00:06:20,600 --> 00:06:24,750
+see this program macro. The program
+macro is part of Anchor defining exactly
+
+360
+00:06:24,750 --> 00:06:24,760
+macro is part of Anchor defining exactly
+ 
+
+361
+00:06:24,760 --> 00:06:26,590
+macro is part of Anchor defining exactly
+all of the instructions that are going
+
+362
+00:06:26,590 --> 00:06:26,600
+all of the instructions that are going
+ 
+
+363
+00:06:26,600 --> 00:06:28,470
+all of the instructions that are going
+to exist within the smart contract that
+
+364
+00:06:28,470 --> 00:06:28,480
+to exist within the smart contract that
+ 
+
+365
+00:06:28,480 --> 00:06:30,590
+to exist within the smart contract that
+you're writing. So, you can see we have
+
+366
+00:06:30,590 --> 00:06:30,600
+you're writing. So, you can see we have
+ 
+
+367
+00:06:30,600 --> 00:06:32,030
+you're writing. So, you can see we have
+those three instructions that were
+
+368
+00:06:32,030 --> 00:06:32,040
+those three instructions that were
+ 
+
+369
+00:06:32,040 --> 00:06:34,910
+those three instructions that were
+defined in this instruction folder. And
+
+370
+00:06:34,910 --> 00:06:34,920
+defined in this instruction folder. And
+ 
+
+371
+00:06:34,920 --> 00:06:36,910
+defined in this instruction folder. And
+we're going to start with make. So, make
+
+372
+00:06:36,910 --> 00:06:36,920
+we're going to start with make. So, make
+ 
+
+373
+00:06:36,920 --> 00:06:38,470
+we're going to start with make. So, make
+is where you're actually initializing a
+
+374
+00:06:38,470 --> 00:06:38,480
+is where you're actually initializing a
+ 
+
+375
+00:06:38,480 --> 00:06:41,190
+is where you're actually initializing a
+new escrow account, and we're just going
+
+376
+00:06:41,190 --> 00:06:41,200
+new escrow account, and we're just going
+ 
+
+377
+00:06:41,200 --> 00:06:46,470
+new escrow account, and we're just going
+to click into this make context. So,
+
+378
+00:06:46,470 --> 00:06:46,480
+to click into this make context. So,
+ 
+
+379
+00:06:46,480 --> 00:06:48,150
+to click into this make context. So,
+if you're familiar with Anchor, this is
+
+380
+00:06:48,150 --> 00:06:48,160
+if you're familiar with Anchor, this is
+ 
+
+381
+00:06:48,160 --> 00:06:51,830
+if you're familiar with Anchor, this is
+a very familiar format that you'll see.
+
+382
+00:06:51,830 --> 00:06:51,840
+a very familiar format that you'll see.
+ 
+
+383
+00:06:51,840 --> 00:06:53,870
+a very familiar format that you'll see.
+Um it always starts with this context as
+
+384
+00:06:53,870 --> 00:06:53,880
+Um it always starts with this context as
+ 
+
+385
+00:06:53,880 --> 00:06:56,110
+Um it always starts with this context as
+your first parameter. And the reason why
+
+386
+00:06:56,110 --> 00:06:56,120
+your first parameter. And the reason why
+ 
+
+387
+00:06:56,120 --> 00:07:00,390
+your first parameter. And the reason why
+is this is where all of the accounts for
+
+388
+00:07:00,390 --> 00:07:00,400
+is this is where all of the accounts for
+ 
+
+389
+00:07:00,400 --> 00:07:01,830
+is this is where all of the accounts for
+the accounts that you need to handle for
+
+390
+00:07:01,830 --> 00:07:01,840
+the accounts that you need to handle for
+ 
+
+391
+00:07:01,840 --> 00:07:04,550
+the accounts that you need to handle for
+the instruction is going to be given.
+
+392
+00:07:04,550 --> 00:07:04,560
+the instruction is going to be given.
+ 
+
+393
+00:07:04,560 --> 00:07:06,350
+the instruction is going to be given.
+So, if I click into this, it's going to
+
+394
+00:07:06,350 --> 00:07:06,360
+So, if I click into this, it's going to
+ 
+
+395
+00:07:06,360 --> 00:07:09,310
+So, if I click into this, it's going to
+take me over to the make.rs file.
+
+396
+00:07:09,310 --> 00:07:09,320
+take me over to the make.rs file.
+ 
+
+397
+00:07:09,320 --> 00:07:10,470
+take me over to the make.rs file.
+Now,
+
+398
+00:07:10,470 --> 00:07:10,480
+Now,
+ 
+
+399
+00:07:10,480 --> 00:07:13,390
+Now,
+here you can see
+
+400
+00:07:13,390 --> 00:07:13,400
+here you can see
+ 
+
+401
+00:07:13,400 --> 00:07:17,790
+here you can see
+this derive accounts macro and a data
+
+402
+00:07:17,790 --> 00:07:17,800
+this derive accounts macro and a data
+ 
+
+403
+00:07:17,800 --> 00:07:20,430
+this derive accounts macro and a data
+structure inside of it. So, this derive
+
+404
+00:07:20,430 --> 00:07:20,440
+structure inside of it. So, this derive
+ 
+
+405
+00:07:20,440 --> 00:07:24,070
+structure inside of it. So, this derive
+accounts macro, what it does is it tells
+
+406
+00:07:24,070 --> 00:07:24,080
+accounts macro, what it does is it tells
+ 
+
+407
+00:07:24,080 --> 00:07:26,190
+accounts macro, what it does is it tells
+all of the accounts that are needed to
+
+408
+00:07:26,190 --> 00:07:26,200
+all of the accounts that are needed to
+ 
+
+409
+00:07:26,200 --> 00:07:28,430
+all of the accounts that are needed to
+be able to
+
+410
+00:07:28,430 --> 00:07:28,440
+be able to
+ 
+
+411
+00:07:28,440 --> 00:07:29,830
+be able to
+process the instruction that you're
+
+412
+00:07:29,830 --> 00:07:29,840
+process the instruction that you're
+ 
+
+413
+00:07:29,840 --> 00:07:33,190
+process the instruction that you're
+writing, and it's going to tell you
+
+414
+00:07:33,190 --> 00:07:33,200
+writing, and it's going to tell you
+ 
+
+415
+00:07:33,200 --> 00:07:35,070
+writing, and it's going to tell you
+everything that needs to be done to the
+
+416
+00:07:35,070 --> 00:07:35,080
+everything that needs to be done to the
+ 
+
+417
+00:07:35,080 --> 00:07:37,630
+everything that needs to be done to the
+account. So, what does that mean? Well,
+
+418
+00:07:37,630 --> 00:07:37,640
+account. So, what does that mean? Well,
+ 
+
+419
+00:07:37,640 --> 00:07:39,590
+account. So, what does that mean? Well,
+for example, let's start with the escrow
+
+420
+00:07:39,590 --> 00:07:39,600
+for example, let's start with the escrow
+ 
+
+421
+00:07:39,600 --> 00:07:41,350
+for example, let's start with the escrow
+account. So, we already defined what the
+
+422
+00:07:41,350 --> 00:07:41,360
+account. So, we already defined what the
+ 
+
+423
+00:07:41,360 --> 00:07:43,710
+account. So, we already defined what the
+state looks like. But,
+
+424
+00:07:43,710 --> 00:07:43,720
+state looks like. But,
+ 
+
+425
+00:07:43,720 --> 00:07:45,590
+state looks like. But,
+here you can see there's a lot of
+
+426
+00:07:45,590 --> 00:07:45,600
+here you can see there's a lot of
+ 
+
+427
+00:07:45,600 --> 00:07:47,230
+here you can see there's a lot of
+constraints that were written within
+
+428
+00:07:47,230 --> 00:07:47,240
+constraints that were written within
+ 
+
+429
+00:07:47,240 --> 00:07:49,350
+constraints that were written within
+this account macro. So, what does that
+
+430
+00:07:49,350 --> 00:07:49,360
+this account macro. So, what does that
+ 
+
+431
+00:07:49,360 --> 00:07:51,150
+this account macro. So, what does that
+mean? Well, first, we have this init
+
+432
+00:07:51,150 --> 00:07:51,160
+mean? Well, first, we have this init
+ 
+
+433
+00:07:51,160 --> 00:07:52,950
+mean? Well, first, we have this init
+constraint, and what that's doing is
+
+434
+00:07:52,950 --> 00:07:52,960
+constraint, and what that's doing is
+ 
+
+435
+00:07:52,960 --> 00:07:54,950
+constraint, and what that's doing is
+saying this account doesn't exist yet,
+
+436
+00:07:54,950 --> 00:07:54,960
+saying this account doesn't exist yet,
+ 
+
+437
+00:07:54,960 --> 00:07:57,190
+saying this account doesn't exist yet,
+and I need to create it. So, instead of
+
+438
+00:07:57,190 --> 00:07:57,200
+and I need to create it. So, instead of
+ 
+
+439
+00:07:57,200 --> 00:07:58,830
+and I need to create it. So, instead of
+writing all of the logic for how to
+
+440
+00:07:58,830 --> 00:07:58,840
+writing all of the logic for how to
+ 
+
+441
+00:07:58,840 --> 00:08:01,110
+writing all of the logic for how to
+create an accounts on Solana, in Anchor,
+
+442
+00:08:01,110 --> 00:08:01,120
+create an accounts on Solana, in Anchor,
+ 
+
+443
+00:08:01,120 --> 00:08:03,030
+create an accounts on Solana, in Anchor,
+all you have to do is specify the init
+
+444
+00:08:03,030 --> 00:08:03,040
+all you have to do is specify the init
+ 
+
+445
+00:08:03,040 --> 00:08:06,190
+all you have to do is specify the init
+constraint when you are writing out your
+
+446
+00:08:06,190 --> 00:08:06,200
+constraint when you are writing out your
+ 
+
+447
+00:08:06,200 --> 00:08:07,970
+constraint when you are writing out your
+derive accounts macro.
+
+448
+00:08:07,970 --> 00:08:07,980
+derive accounts macro.
+ 
+
+449
+00:08:07,980 --> 00:08:07,990
+derive accounts macro.
+>> [snorts]
+
+450
+00:08:07,990 --> 00:08:08,000
+>> [snorts]
+ 
+
+451
+00:08:08,000 --> 00:08:09,350
+>> [snorts]
+>> So,
+
+452
+00:08:09,350 --> 00:08:09,360
+>> So,
+ 
+
+453
+00:08:09,360 --> 00:08:12,870
+>> So,
+here you have the escrow. If I click
+
+454
+00:08:12,870 --> 00:08:12,880
+here you have the escrow. If I click
+ 
+
+455
+00:08:12,880 --> 00:08:15,670
+here you have the escrow. If I click
+into this escrow
+
+456
+00:08:15,670 --> 00:08:15,680
+into this escrow
+ 
+
+457
+00:08:15,680 --> 00:08:19,070
+into this escrow
+type, it's going to go back to the data
+
+458
+00:08:19,070 --> 00:08:19,080
+type, it's going to go back to the data
+ 
+
+459
+00:08:19,080 --> 00:08:21,030
+type, it's going to go back to the data
+that we've already defined. Now, let's
+
+460
+00:08:21,030 --> 00:08:21,040
+that we've already defined. Now, let's
+ 
+
+461
+00:08:21,040 --> 00:08:22,950
+that we've already defined. Now, let's
+go back over,
+
+462
+00:08:22,950 --> 00:08:22,960
+go back over,
+ 
+
+463
+00:08:22,960 --> 00:08:24,390
+go back over,
+and you can see we already talked about
+
+464
+00:08:24,390 --> 00:08:24,400
+and you can see we already talked about
+ 
+
+465
+00:08:24,400 --> 00:08:27,030
+and you can see we already talked about
+init, payer. The reason we need a payer
+
+466
+00:08:27,030 --> 00:08:27,040
+init, payer. The reason we need a payer
+ 
+
+467
+00:08:27,040 --> 00:08:28,590
+init, payer. The reason we need a payer
+here is because we're initializing a new
+
+468
+00:08:28,590 --> 00:08:28,600
+here is because we're initializing a new
+ 
+
+469
+00:08:28,600 --> 00:08:31,750
+here is because we're initializing a new
+accounts. And accounts need to pay rent
+
+470
+00:08:31,750 --> 00:08:31,760
+accounts. And accounts need to pay rent
+ 
+
+471
+00:08:31,760 --> 00:08:34,270
+accounts. And accounts need to pay rent
+on chain, so this is how data is
+
+472
+00:08:34,270 --> 00:08:34,280
+on chain, so this is how data is
+ 
+
+473
+00:08:34,280 --> 00:08:37,550
+on chain, so this is how data is
+actually paid for. You're going to have
+
+474
+00:08:37,550 --> 00:08:37,560
+actually paid for. You're going to have
+ 
+
+475
+00:08:37,560 --> 00:08:38,230
+actually paid for. You're going to have
+um
+
+476
+00:08:38,230 --> 00:08:38,240
+um
+ 
+
+477
+00:08:38,240 --> 00:08:40,510
+um
+the amount of space that is needed on
+
+478
+00:08:40,510 --> 00:08:40,520
+the amount of space that is needed on
+ 
+
+479
+00:08:40,520 --> 00:08:43,110
+the amount of space that is needed on
+chain calculated, and then you're going
+
+480
+00:08:43,110 --> 00:08:43,120
+chain calculated, and then you're going
+ 
+
+481
+00:08:43,120 --> 00:08:44,430
+chain calculated, and then you're going
+to pay
+
+482
+00:08:44,430 --> 00:08:44,440
+to pay
+ 
+
+483
+00:08:44,440 --> 00:08:46,910
+to pay
+for that space. So, someone has to pay
+
+484
+00:08:46,910 --> 00:08:46,920
+for that space. So, someone has to pay
+ 
+
+485
+00:08:46,920 --> 00:08:48,430
+for that space. So, someone has to pay
+for that. So, here we're going to define
+
+486
+00:08:48,430 --> 00:08:48,440
+for that. So, here we're going to define
+ 
+
+487
+00:08:48,440 --> 00:08:49,990
+for that. So, here we're going to define
+that the maker is paying for the space
+
+488
+00:08:49,990 --> 00:08:50,000
+that the maker is paying for the space
+ 
+
+489
+00:08:50,000 --> 00:08:51,110
+that the maker is paying for the space
+on chain.
+
+490
+00:08:51,110 --> 00:08:51,120
+on chain.
+ 
+
+491
+00:08:51,120 --> 00:08:53,230
+on chain.
+Now, this is, once the account is
+
+492
+00:08:53,230 --> 00:08:53,240
+Now, this is, once the account is
+ 
+
+493
+00:08:53,240 --> 00:08:55,470
+Now, this is, once the account is
+closed, able to go back to the maker.
+
+494
+00:08:55,470 --> 00:08:55,480
+closed, able to go back to the maker.
+ 
+
+495
+00:08:55,480 --> 00:08:57,910
+closed, able to go back to the maker.
+So, it's not a sunk cost, but kind of
+
+496
+00:08:57,910 --> 00:08:57,920
+So, it's not a sunk cost, but kind of
+ 
+
+497
+00:08:57,920 --> 00:08:59,750
+So, it's not a sunk cost, but kind of
+just holding their spot as they're using
+
+498
+00:08:59,750 --> 00:08:59,760
+just holding their spot as they're using
+ 
+
+499
+00:08:59,760 --> 00:09:01,190
+just holding their spot as they're using
+space on chain.
+
+500
+00:09:01,190 --> 00:09:01,200
+space on chain.
+ 
+
+501
+00:09:01,200 --> 00:09:03,550
+space on chain.
+Here, this is just calculating the space
+
+502
+00:09:03,550 --> 00:09:03,560
+Here, this is just calculating the space
+ 
+
+503
+00:09:03,560 --> 00:09:05,830
+Here, this is just calculating the space
+because we need to know how much to pay.
+
+504
+00:09:05,830 --> 00:09:05,840
+because we need to know how much to pay.
+ 
+
+505
+00:09:05,840 --> 00:09:08,710
+because we need to know how much to pay.
+But, this is where the actual
+
+506
+00:09:08,710 --> 00:09:08,720
+But, this is where the actual
+ 
+
+507
+00:09:08,720 --> 00:09:12,590
+But, this is where the actual
+escrow logic comes in. So, you can see
+
+508
+00:09:12,590 --> 00:09:12,600
+escrow logic comes in. So, you can see
+ 
+
+509
+00:09:12,600 --> 00:09:14,710
+escrow logic comes in. So, you can see
+this specific constraint defined as
+
+510
+00:09:14,710 --> 00:09:14,720
+this specific constraint defined as
+ 
+
+511
+00:09:14,720 --> 00:09:16,830
+this specific constraint defined as
+seeds, and then there's a lot that
+
+512
+00:09:16,830 --> 00:09:16,840
+seeds, and then there's a lot that
+ 
+
+513
+00:09:16,840 --> 00:09:19,630
+seeds, and then there's a lot that
+happens after. So, what this actually is
+
+514
+00:09:19,630 --> 00:09:19,640
+happens after. So, what this actually is
+ 
+
+515
+00:09:19,640 --> 00:09:22,390
+happens after. So, what this actually is
+is defining a PDA. So, a PDA is a
+
+516
+00:09:22,390 --> 00:09:22,400
+is defining a PDA. So, a PDA is a
+ 
+
+517
+00:09:22,400 --> 00:09:24,870
+is defining a PDA. So, a PDA is a
+program derived address, and what that
+
+518
+00:09:24,870 --> 00:09:24,880
+program derived address, and what that
+ 
+
+519
+00:09:24,880 --> 00:09:27,510
+program derived address, and what that
+is is it is a public key that falls off
+
+520
+00:09:27,510 --> 00:09:27,520
+is is it is a public key that falls off
+ 
+
+521
+00:09:27,520 --> 00:09:31,710
+is is it is a public key that falls off
+the ED25519 curve, and it's generated by
+
+522
+00:09:31,710 --> 00:09:31,720
+the ED25519 curve, and it's generated by
+ 
+
+523
+00:09:31,720 --> 00:09:34,830
+the ED25519 curve, and it's generated by
+having this input of seeds plus a bump,
+
+524
+00:09:34,830 --> 00:09:34,840
+having this input of seeds plus a bump,
+ 
+
+525
+00:09:34,840 --> 00:09:38,230
+having this input of seeds plus a bump,
+and it runs through the SHA-256 hash and
+
+526
+00:09:38,230 --> 00:09:38,240
+and it runs through the SHA-256 hash and
+ 
+
+527
+00:09:38,240 --> 00:09:39,671
+and it runs through the SHA-256 hash and
+generates a public key.
+
+528
+00:09:39,671 --> 00:09:39,681
+generates a public key.
+ 
+
+529
+00:09:39,681 --> 00:09:39,830
+generates a public key.
+>> [snorts]
+
+530
+00:09:39,830 --> 00:09:39,840
+>> [snorts]
+ 
+
+531
+00:09:39,840 --> 00:09:41,510
+>> [snorts]
+>> If that public key does land on the
+
+532
+00:09:41,510 --> 00:09:41,520
+>> If that public key does land on the
+ 
+
+533
+00:09:41,520 --> 00:09:43,910
+>> If that public key does land on the
+ED25519 curve, that means it has a
+
+534
+00:09:43,910 --> 00:09:43,920
+ED25519 curve, that means it has a
+ 
+
+535
+00:09:43,920 --> 00:09:46,430
+ED25519 curve, that means it has a
+corresponding private key, and it's not
+
+536
+00:09:46,430 --> 00:09:46,440
+corresponding private key, and it's not
+ 
+
+537
+00:09:46,440 --> 00:09:49,830
+corresponding private key, and it's not
+valid as a PDA. So, it's going to
+
+538
+00:09:49,830 --> 00:09:49,840
+valid as a PDA. So, it's going to
+ 
+
+539
+00:09:49,840 --> 00:09:51,510
+valid as a PDA. So, it's going to
+regenerate the bump. The bump always
+
+540
+00:09:51,510 --> 00:09:51,520
+regenerate the bump. The bump always
+ 
+
+541
+00:09:51,520 --> 00:09:54,550
+regenerate the bump. The bump always
+starts at 255. Um it will decrement by
+
+542
+00:09:54,550 --> 00:09:54,560
+starts at 255. Um it will decrement by
+ 
+
+543
+00:09:54,560 --> 00:09:57,630
+starts at 255. Um it will decrement by
+one every iteration until it actually
+
+544
+00:09:57,630 --> 00:09:57,640
+one every iteration until it actually
+ 
+
+545
+00:09:57,640 --> 00:10:00,910
+one every iteration until it actually
+lands off the ED25519 curve. And when
+
+546
+00:10:00,910 --> 00:10:00,920
+lands off the ED25519 curve. And when
+ 
+
+547
+00:10:00,920 --> 00:10:02,350
+lands off the ED25519 curve. And when
+that happens,
+
+548
+00:10:02,350 --> 00:10:02,360
+that happens,
+ 
+
+549
+00:10:02,360 --> 00:10:04,310
+that happens,
+it's
+
+550
+00:10:04,310 --> 00:10:04,320
+it's
+ 
+
+551
+00:10:04,320 --> 00:10:06,510
+it's
+now a public key that does not have a
+
+552
+00:10:06,510 --> 00:10:06,520
+now a public key that does not have a
+ 
+
+553
+00:10:06,520 --> 00:10:08,110
+now a public key that does not have a
+corresponding private key. And the
+
+554
+00:10:08,110 --> 00:10:08,120
+corresponding private key. And the
+ 
+
+555
+00:10:08,120 --> 00:10:10,590
+corresponding private key. And the
+reason that that's important is you're
+
+556
+00:10:10,590 --> 00:10:10,600
+reason that that's important is you're
+ 
+
+557
+00:10:10,600 --> 00:10:12,190
+reason that that's important is you're
+only going to be able to sign for the
+
+558
+00:10:12,190 --> 00:10:12,200
+only going to be able to sign for the
+ 
+
+559
+00:10:12,200 --> 00:10:13,950
+only going to be able to sign for the
+transaction
+
+560
+00:10:13,950 --> 00:10:13,960
+transaction
+ 
+
+561
+00:10:13,960 --> 00:10:16,190
+transaction
+with the signer seeds through a program.
+
+562
+00:10:16,190 --> 00:10:16,200
+with the signer seeds through a program.
+ 
+
+563
+00:10:16,200 --> 00:10:19,830
+with the signer seeds through a program.
+So, now no one can find your private key
+
+564
+00:10:19,830 --> 00:10:19,840
+So, now no one can find your private key
+ 
+
+565
+00:10:19,840 --> 00:10:21,990
+So, now no one can find your private key
+and be able to sign for you. So, all
+
+566
+00:10:21,990 --> 00:10:22,000
+and be able to sign for you. So, all
+ 
+
+567
+00:10:22,000 --> 00:10:24,870
+and be able to sign for you. So, all
+trust lies within this code. And the
+
+568
+00:10:24,870 --> 00:10:24,880
+trust lies within this code. And the
+ 
+
+569
+00:10:24,880 --> 00:10:26,750
+trust lies within this code. And the
+program itself has to sign with the
+
+570
+00:10:26,750 --> 00:10:26,760
+program itself has to sign with the
+ 
+
+571
+00:10:26,760 --> 00:10:29,390
+program itself has to sign with the
+signer seeds. So, what are those seeds?
+
+572
+00:10:29,390 --> 00:10:29,400
+signer seeds. So, what are those seeds?
+ 
+
+573
+00:10:29,400 --> 00:10:31,350
+signer seeds. So, what are those seeds?
+Well, they're exactly what you define
+
+574
+00:10:31,350 --> 00:10:31,360
+Well, they're exactly what you define
+ 
+
+575
+00:10:31,360 --> 00:10:34,150
+Well, they're exactly what you define
+here. So, here you can have any type of
+
+576
+00:10:34,150 --> 00:10:34,160
+here. So, here you can have any type of
+ 
+
+577
+00:10:34,160 --> 00:10:36,950
+here. So, here you can have any type of
+seeds that you want. All that
+
+578
+00:10:36,950 --> 00:10:36,960
+seeds that you want. All that
+ 
+
+579
+00:10:36,960 --> 00:10:39,310
+seeds that you want. All that
+I'm doing specifically for this program
+
+580
+00:10:39,310 --> 00:10:39,320
+I'm doing specifically for this program
+ 
+
+581
+00:10:39,320 --> 00:10:41,550
+I'm doing specifically for this program
+is writing out escrow,
+
+582
+00:10:41,550 --> 00:10:41,560
+is writing out escrow,
+ 
+
+583
+00:10:41,560 --> 00:10:45,110
+is writing out escrow,
+having the maker, who is going to take
+
+584
+00:10:45,110 --> 00:10:45,120
+having the maker, who is going to take
+ 
+
+585
+00:10:45,120 --> 00:10:46,590
+having the maker, who is going to take
+the
+
+586
+00:10:46,590 --> 00:10:46,600
+the
+ 
+
+587
+00:10:46,600 --> 00:10:48,950
+the
+public key of the signer, store that as
+
+588
+00:10:48,950 --> 00:10:48,960
+public key of the signer, store that as
+ 
+
+589
+00:10:48,960 --> 00:10:51,830
+public key of the signer, store that as
+part of the input seeds for the PDA, and
+
+590
+00:10:51,830 --> 00:10:51,840
+part of the input seeds for the PDA, and
+ 
+
+591
+00:10:51,840 --> 00:10:55,190
+part of the input seeds for the PDA, and
+then also this seed parameter. So, this
+
+592
+00:10:55,190 --> 00:10:55,200
+then also this seed parameter. So, this
+ 
+
+593
+00:10:55,200 --> 00:10:57,190
+then also this seed parameter. So, this
+is just an example to show that if you
+
+594
+00:10:57,190 --> 00:10:57,200
+is just an example to show that if you
+ 
+
+595
+00:10:57,200 --> 00:10:59,190
+is just an example to show that if you
+want to have part of your seeds as
+
+596
+00:10:59,190 --> 00:10:59,200
+want to have part of your seeds as
+ 
+
+597
+00:10:59,200 --> 00:11:00,350
+want to have part of your seeds as
+something
+
+598
+00:11:00,350 --> 00:11:00,360
+something
+ 
+
+599
+00:11:00,360 --> 00:11:02,390
+something
+that doesn't exist within the struct,
+
+600
+00:11:02,390 --> 00:11:02,400
+that doesn't exist within the struct,
+ 
+
+601
+00:11:02,400 --> 00:11:04,870
+that doesn't exist within the struct,
+how that works is you're able to take it
+
+602
+00:11:04,870 --> 00:11:04,880
+how that works is you're able to take it
+ 
+
+603
+00:11:04,880 --> 00:11:06,230
+how that works is you're able to take it
+as an input parameter for the
+
+604
+00:11:06,230 --> 00:11:06,240
+as an input parameter for the
+ 
+
+605
+00:11:06,240 --> 00:11:08,550
+as an input parameter for the
+instruction. So, you can see here
+
+606
+00:11:08,550 --> 00:11:08,560
+instruction. So, you can see here
+ 
+
+607
+00:11:08,560 --> 00:11:10,950
+instruction. So, you can see here
+there's this instruction macro.
+
+608
+00:11:10,950 --> 00:11:10,960
+there's this instruction macro.
+ 
+
+609
+00:11:10,960 --> 00:11:12,310
+there's this instruction macro.
+And
+
+610
+00:11:12,310 --> 00:11:12,320
+And
+ 
+
+611
+00:11:12,320 --> 00:11:14,630
+And
+what that's saying is, "Hey, I'm using
+
+612
+00:11:14,630 --> 00:11:14,640
+what that's saying is, "Hey, I'm using
+ 
+
+613
+00:11:14,640 --> 00:11:19,030
+what that's saying is, "Hey, I'm using
+this variable seeds and I'm using it
+
+614
+00:11:19,030 --> 00:11:19,040
+this variable seeds and I'm using it
+ 
+
+615
+00:11:19,040 --> 00:11:21,870
+this variable seeds and I'm using it
+within my account, but I don't have
+
+616
+00:11:21,870 --> 00:11:21,880
+within my account, but I don't have
+ 
+
+617
+00:11:21,880 --> 00:11:23,870
+within my account, but I don't have
+access to it. So, how do I get it? I'm
+
+618
+00:11:23,870 --> 00:11:23,880
+access to it. So, how do I get it? I'm
+ 
+
+619
+00:11:23,880 --> 00:11:25,750
+access to it. So, how do I get it? I'm
+going to get it as an input parameter."
+
+620
+00:11:25,750 --> 00:11:25,760
+going to get it as an input parameter."
+ 
+
+621
+00:11:25,760 --> 00:11:28,110
+going to get it as an input parameter."
+So, if I go back to the lib.rs where the
+
+622
+00:11:28,110 --> 00:11:28,120
+So, if I go back to the lib.rs where the
+ 
+
+623
+00:11:28,120 --> 00:11:30,910
+So, if I go back to the lib.rs where the
+function is defined, you can see that
+
+624
+00:11:30,910 --> 00:11:30,920
+function is defined, you can see that
+ 
+
+625
+00:11:30,920 --> 00:11:33,190
+function is defined, you can see that
+seed is taken in as a parameter for the
+
+626
+00:11:33,190 --> 00:11:33,200
+seed is taken in as a parameter for the
+ 
+
+627
+00:11:33,200 --> 00:11:36,430
+seed is taken in as a parameter for the
+function. So, going back here, just to
+
+628
+00:11:36,430 --> 00:11:36,440
+function. So, going back here, just to
+ 
+
+629
+00:11:36,440 --> 00:11:39,510
+function. So, going back here, just to
+show exactly what I mean, if I remove
+
+630
+00:11:39,510 --> 00:11:39,520
+show exactly what I mean, if I remove
+ 
+
+631
+00:11:39,520 --> 00:11:41,310
+show exactly what I mean, if I remove
+this macro
+
+632
+00:11:41,310 --> 00:11:41,320
+this macro
+ 
+
+633
+00:11:41,320 --> 00:11:42,829
+this macro
+where I'm not saying this comes as an
+
+634
+00:11:42,829 --> 00:11:42,839
+where I'm not saying this comes as an
+ 
+
+635
+00:11:42,839 --> 00:11:45,110
+where I'm not saying this comes as an
+input parameter of the function, now you
+
+636
+00:11:45,110 --> 00:11:45,120
+input parameter of the function, now you
+ 
+
+637
+00:11:45,120 --> 00:11:47,390
+input parameter of the function, now you
+can see seeds is no longer recognized.
+
+638
+00:11:47,390 --> 00:11:47,400
+can see seeds is no longer recognized.
+ 
+
+639
+00:11:47,400 --> 00:11:49,230
+can see seeds is no longer recognized.
+And if I save this, I should be getting
+
+640
+00:11:49,230 --> 00:11:49,240
+And if I save this, I should be getting
+ 
+
+641
+00:11:49,240 --> 00:11:50,750
+And if I save this, I should be getting
+an error.
+
+642
+00:11:50,750 --> 00:11:50,760
+an error.
+ 
+
+643
+00:11:50,760 --> 00:11:53,030
+an error.
+Um but
+
+644
+00:11:53,030 --> 00:11:53,040
+Um but
+ 
+
+645
+00:11:53,040 --> 00:11:55,350
+Um but
+yeah, you can see seeds doesn't exist.
+
+646
+00:11:55,350 --> 00:11:55,360
+yeah, you can see seeds doesn't exist.
+ 
+
+647
+00:11:55,360 --> 00:11:58,070
+yeah, you can see seeds doesn't exist.
+Cannot find the value. So, if I go back
+
+648
+00:11:58,070 --> 00:11:58,080
+Cannot find the value. So, if I go back
+ 
+
+649
+00:11:58,080 --> 00:12:01,470
+Cannot find the value. So, if I go back
+and put the instruction macro back,
+
+650
+00:12:01,470 --> 00:12:01,480
+and put the instruction macro back,
+ 
+
+651
+00:12:01,480 --> 00:12:04,550
+and put the instruction macro back,
+um give this a second to rerun the Rust
+
+652
+00:12:04,550 --> 00:12:04,560
+um give this a second to rerun the Rust
+ 
+
+653
+00:12:04,560 --> 00:12:07,270
+um give this a second to rerun the Rust
+analyzer, and now seeds can be found
+
+654
+00:12:07,270 --> 00:12:07,280
+analyzer, and now seeds can be found
+ 
+
+655
+00:12:07,280 --> 00:12:08,230
+analyzer, and now seeds can be found
+again.
+
+656
+00:12:08,230 --> 00:12:08,240
+again.
+ 
+
+657
+00:12:08,240 --> 00:12:10,190
+again.
+So, this is just an example of if you
+
+658
+00:12:10,190 --> 00:12:10,200
+So, this is just an example of if you
+ 
+
+659
+00:12:10,200 --> 00:12:13,710
+So, this is just an example of if you
+want to have part of your um seeds for
+
+660
+00:12:13,710 --> 00:12:13,720
+want to have part of your um seeds for
+ 
+
+661
+00:12:13,720 --> 00:12:17,430
+want to have part of your um seeds for
+your PDA as a value that's not defined
+
+662
+00:12:17,430 --> 00:12:17,440
+your PDA as a value that's not defined
+ 
+
+663
+00:12:17,440 --> 00:12:19,030
+your PDA as a value that's not defined
+somewhere within the struct, you can
+
+664
+00:12:19,030 --> 00:12:19,040
+somewhere within the struct, you can
+ 
+
+665
+00:12:19,040 --> 00:12:20,470
+somewhere within the struct, you can
+just pass it as a parameter in the
+
+666
+00:12:20,470 --> 00:12:20,480
+just pass it as a parameter in the
+ 
+
+667
+00:12:20,480 --> 00:12:22,590
+just pass it as a parameter in the
+instruction.
+
+668
+00:12:22,590 --> 00:12:22,600
+instruction.
+ 
+
+669
+00:12:22,600 --> 00:12:23,430
+instruction.
+Okay.
+
+670
+00:12:23,430 --> 00:12:23,440
+Okay.
+ 
+
+671
+00:12:23,440 --> 00:12:26,270
+Okay.
+So, that's kind of high-level overview
+
+672
+00:12:26,270 --> 00:12:26,280
+So, that's kind of high-level overview
+ 
+
+673
+00:12:26,280 --> 00:12:30,070
+So, that's kind of high-level overview
+of having a PDA as your account. And
+
+674
+00:12:30,070 --> 00:12:30,080
+of having a PDA as your account. And
+ 
+
+675
+00:12:30,080 --> 00:12:32,550
+of having a PDA as your account. And
+we'll go through exactly how to sign uh
+
+676
+00:12:32,550 --> 00:12:32,560
+we'll go through exactly how to sign uh
+ 
+
+677
+00:12:32,560 --> 00:12:33,829
+we'll go through exactly how to sign uh
+later on when we're going through the
+
+678
+00:12:33,829 --> 00:12:33,839
+later on when we're going through the
+ 
+
+679
+00:12:33,839 --> 00:12:35,670
+later on when we're going through the
+code. But, let's just go over the rest
+
+680
+00:12:35,670 --> 00:12:35,680
+code. But, let's just go over the rest
+ 
+
+681
+00:12:35,680 --> 00:12:37,470
+code. But, let's just go over the rest
+of the accounts that are passed through.
+
+682
+00:12:37,470 --> 00:12:37,480
+of the accounts that are passed through.
+ 
+
+683
+00:12:37,480 --> 00:12:41,110
+of the accounts that are passed through.
+When I'm creating this make function, I
+
+684
+00:12:41,110 --> 00:12:41,120
+When I'm creating this make function, I
+ 
+
+685
+00:12:41,120 --> 00:12:43,150
+When I'm creating this make function, I
+not only have the escrow, but I'm going
+
+686
+00:12:43,150 --> 00:12:43,160
+not only have the escrow, but I'm going
+ 
+
+687
+00:12:43,160 --> 00:12:45,510
+not only have the escrow, but I'm going
+to have to define all the other accounts
+
+688
+00:12:45,510 --> 00:12:45,520
+to have to define all the other accounts
+ 
+
+689
+00:12:45,520 --> 00:12:47,910
+to have to define all the other accounts
+that are going to need to be interacted
+
+690
+00:12:47,910 --> 00:12:47,920
+that are going to need to be interacted
+ 
+
+691
+00:12:47,920 --> 00:12:50,070
+that are going to need to be interacted
+with in order to actually execute this
+
+692
+00:12:50,070 --> 00:12:50,080
+with in order to actually execute this
+ 
+
+693
+00:12:50,080 --> 00:12:52,230
+with in order to actually execute this
+instruction. So,
+
+694
+00:12:52,230 --> 00:12:52,240
+instruction. So,
+ 
+
+695
+00:12:52,240 --> 00:12:55,390
+instruction. So,
+you can see I have this mint A, mint B.
+
+696
+00:12:55,390 --> 00:12:55,400
+you can see I have this mint A, mint B.
+ 
+
+697
+00:12:55,400 --> 00:12:56,910
+you can see I have this mint A, mint B.
+This is allowing for two different
+
+698
+00:12:56,910 --> 00:12:56,920
+This is allowing for two different
+ 
+
+699
+00:12:56,920 --> 00:12:59,510
+This is allowing for two different
+tokens to be interacted with um when
+
+700
+00:12:59,510 --> 00:12:59,520
+tokens to be interacted with um when
+ 
+
+701
+00:12:59,520 --> 00:13:00,950
+tokens to be interacted with um when
+you're actually executing the make
+
+702
+00:13:00,950 --> 00:13:00,960
+you're actually executing the make
+ 
+
+703
+00:13:00,960 --> 00:13:02,590
+you're actually executing the make
+function, and you can define what that
+
+704
+00:13:02,590 --> 00:13:02,600
+function, and you can define what that
+ 
+
+705
+00:13:02,600 --> 00:13:04,110
+function, and you can define what that
+mint [clears throat] account is. So, if
+
+706
+00:13:04,110 --> 00:13:04,120
+mint [clears throat] account is. So, if
+ 
+
+707
+00:13:04,120 --> 00:13:06,270
+mint [clears throat] account is. So, if
+I wanted to put USDC, I would define
+
+708
+00:13:06,270 --> 00:13:06,280
+I wanted to put USDC, I would define
+ 
+
+709
+00:13:06,280 --> 00:13:07,870
+I wanted to put USDC, I would define
+that mint account here when I'm creating
+
+710
+00:13:07,870 --> 00:13:07,880
+that mint account here when I'm creating
+ 
+
+711
+00:13:07,880 --> 00:13:09,390
+that mint account here when I'm creating
+the instruction
+
+712
+00:13:09,390 --> 00:13:09,400
+the instruction
+ 
+
+713
+00:13:09,400 --> 00:13:12,070
+the instruction
+and any other account that you want.
+
+714
+00:13:12,070 --> 00:13:12,080
+and any other account that you want.
+ 
+
+715
+00:13:12,080 --> 00:13:15,630
+and any other account that you want.
+Now, you have this maker ATA. So, what
+
+716
+00:13:15,630 --> 00:13:15,640
+Now, you have this maker ATA. So, what
+ 
+
+717
+00:13:15,640 --> 00:13:17,110
+Now, you have this maker ATA. So, what
+is that? That's an associated token
+
+718
+00:13:17,110 --> 00:13:17,120
+is that? That's an associated token
+ 
+
+719
+00:13:17,120 --> 00:13:19,510
+is that? That's an associated token
+account. So, the mint account, which
+
+720
+00:13:19,510 --> 00:13:19,520
+account. So, the mint account, which
+ 
+
+721
+00:13:19,520 --> 00:13:21,870
+account. So, the mint account, which
+we've gone over a few times um within
+
+722
+00:13:21,870 --> 00:13:21,880
+we've gone over a few times um within
+ 
+
+723
+00:13:21,880 --> 00:13:24,030
+we've gone over a few times um within
+other projects in this boot camp, but
+
+724
+00:13:24,030 --> 00:13:24,040
+other projects in this boot camp, but
+ 
+
+725
+00:13:24,040 --> 00:13:26,270
+other projects in this boot camp, but
+the mint account is kind of the global
+
+726
+00:13:26,270 --> 00:13:26,280
+the mint account is kind of the global
+ 
+
+727
+00:13:26,280 --> 00:13:28,230
+the mint account is kind of the global
+information of the token, and the token
+
+728
+00:13:28,230 --> 00:13:28,240
+information of the token, and the token
+ 
+
+729
+00:13:28,240 --> 00:13:30,829
+information of the token, and the token
+account is what actually holds tokens.
+
+730
+00:13:30,829 --> 00:13:30,839
+account is what actually holds tokens.
+ 
+
+731
+00:13:30,839 --> 00:13:33,390
+account is what actually holds tokens.
+So, if I want the maker to be able to
+
+732
+00:13:33,390 --> 00:13:33,400
+So, if I want the maker to be able to
+ 
+
+733
+00:13:33,400 --> 00:13:37,230
+So, if I want the maker to be able to
+send tokens to the vaults to be stored
+
+734
+00:13:37,230 --> 00:13:37,240
+send tokens to the vaults to be stored
+ 
+
+735
+00:13:37,240 --> 00:13:39,030
+send tokens to the vaults to be stored
+for this escrow program, it's going to
+
+736
+00:13:39,030 --> 00:13:39,040
+for this escrow program, it's going to
+ 
+
+737
+00:13:39,040 --> 00:13:40,990
+for this escrow program, it's going to
+have to have a token account associated
+
+738
+00:13:40,990 --> 00:13:41,000
+have to have a token account associated
+ 
+
+739
+00:13:41,000 --> 00:13:42,870
+have to have a token account associated
+with the instruction to be able to send
+
+740
+00:13:42,870 --> 00:13:42,880
+with the instruction to be able to send
+ 
+
+741
+00:13:42,880 --> 00:13:45,670
+with the instruction to be able to send
+those tokens. So, this is just having
+
+742
+00:13:45,670 --> 00:13:45,680
+those tokens. So, this is just having
+ 
+
+743
+00:13:45,680 --> 00:13:47,829
+those tokens. So, this is just having
+whatever the token account for the maker
+
+744
+00:13:47,829 --> 00:13:47,839
+whatever the token account for the maker
+ 
+
+745
+00:13:47,839 --> 00:13:49,750
+whatever the token account for the maker
+is of the token they're sending into the
+
+746
+00:13:49,750 --> 00:13:49,760
+is of the token they're sending into the
+ 
+
+747
+00:13:49,760 --> 00:13:51,590
+is of the token they're sending into the
+vaults.
+
+748
+00:13:51,590 --> 00:13:51,600
+vaults.
+ 
+
+749
+00:13:51,600 --> 00:13:54,590
+vaults.
+And now, the very last section here
+
+750
+00:13:54,590 --> 00:13:54,600
+And now, the very last section here
+ 
+
+751
+00:13:54,600 --> 00:13:57,310
+And now, the very last section here
+uh is going to be the vault itself. So,
+
+752
+00:13:57,310 --> 00:13:57,320
+uh is going to be the vault itself. So,
+ 
+
+753
+00:13:57,320 --> 00:14:00,030
+uh is going to be the vault itself. So,
+we did define the escrow, but all this
+
+754
+00:14:00,030 --> 00:14:00,040
+we did define the escrow, but all this
+ 
+
+755
+00:14:00,040 --> 00:14:01,990
+we did define the escrow, but all this
+account does is store data. It doesn't
+
+756
+00:14:01,990 --> 00:14:02,000
+account does is store data. It doesn't
+ 
+
+757
+00:14:02,000 --> 00:14:04,350
+account does is store data. It doesn't
+actually store tokens. So, I want to
+
+758
+00:14:04,350 --> 00:14:04,360
+actually store tokens. So, I want to
+ 
+
+759
+00:14:04,360 --> 00:14:06,190
+actually store tokens. So, I want to
+have an account associated with this
+
+760
+00:14:06,190 --> 00:14:06,200
+have an account associated with this
+ 
+
+761
+00:14:06,200 --> 00:14:08,270
+have an account associated with this
+escrow that's going to actually hold the
+
+762
+00:14:08,270 --> 00:14:08,280
+escrow that's going to actually hold the
+ 
+
+763
+00:14:08,280 --> 00:14:10,030
+escrow that's going to actually hold the
+tokens, so then they can be correctly
+
+764
+00:14:10,030 --> 00:14:10,040
+tokens, so then they can be correctly
+ 
+
+765
+00:14:10,040 --> 00:14:11,350
+tokens, so then they can be correctly
+released when the logic has been
+
+766
+00:14:11,350 --> 00:14:11,360
+released when the logic has been
+ 
+
+767
+00:14:11,360 --> 00:14:13,949
+released when the logic has been
+executed. So,
+
+768
+00:14:13,949 --> 00:14:13,959
+executed. So,
+ 
+
+769
+00:14:13,959 --> 00:14:15,270
+executed. So,
+let's see.
+
+770
+00:14:15,270 --> 00:14:15,280
+let's see.
+ 
+
+771
+00:14:15,280 --> 00:14:18,390
+let's see.
+This is initializing a new token account
+
+772
+00:14:18,390 --> 00:14:18,400
+This is initializing a new token account
+ 
+
+773
+00:14:18,400 --> 00:14:20,030
+This is initializing a new token account
+that's associated with this escrow
+
+774
+00:14:20,030 --> 00:14:20,040
+that's associated with this escrow
+ 
+
+775
+00:14:20,040 --> 00:14:23,230
+that's associated with this escrow
+program, and it's defining the payer for
+
+776
+00:14:23,230 --> 00:14:23,240
+program, and it's defining the payer for
+ 
+
+777
+00:14:23,240 --> 00:14:24,670
+program, and it's defining the payer for
+the token account is going to be the
+
+778
+00:14:24,670 --> 00:14:24,680
+the token account is going to be the
+ 
+
+779
+00:14:24,680 --> 00:14:25,790
+the token account is going to be the
+maker,
+
+780
+00:14:25,790 --> 00:14:25,800
+maker,
+ 
+
+781
+00:14:25,800 --> 00:14:27,710
+maker,
+and it's saying what this token account
+
+782
+00:14:27,710 --> 00:14:27,720
+and it's saying what this token account
+ 
+
+783
+00:14:27,720 --> 00:14:29,670
+and it's saying what this token account
+is. So, every token account is going to
+
+784
+00:14:29,670 --> 00:14:29,680
+is. So, every token account is going to
+ 
+
+785
+00:14:29,680 --> 00:14:31,550
+is. So, every token account is going to
+have an associated mint account because
+
+786
+00:14:31,550 --> 00:14:31,560
+have an associated mint account because
+ 
+
+787
+00:14:31,560 --> 00:14:33,510
+have an associated mint account because
+that is defining the global information
+
+788
+00:14:33,510 --> 00:14:33,520
+that is defining the global information
+ 
+
+789
+00:14:33,520 --> 00:14:35,350
+that is defining the global information
+of what token you're actually storing
+
+790
+00:14:35,350 --> 00:14:35,360
+of what token you're actually storing
+ 
+
+791
+00:14:35,360 --> 00:14:37,510
+of what token you're actually storing
+into that token account.
+
+792
+00:14:37,510 --> 00:14:37,520
+into that token account.
+ 
+
+793
+00:14:37,520 --> 00:14:39,710
+into that token account.
+And now, you can see this is kind of the
+
+794
+00:14:39,710 --> 00:14:39,720
+And now, you can see this is kind of the
+ 
+
+795
+00:14:39,720 --> 00:14:41,630
+And now, you can see this is kind of the
+key line.
+
+796
+00:14:41,630 --> 00:14:41,640
+key line.
+ 
+
+797
+00:14:41,640 --> 00:14:43,910
+key line.
+We have associated token, the authority
+
+798
+00:14:43,910 --> 00:14:43,920
+We have associated token, the authority
+ 
+
+799
+00:14:43,920 --> 00:14:45,110
+We have associated token, the authority
+of the account is going to be the
+
+800
+00:14:45,110 --> 00:14:45,120
+of the account is going to be the
+ 
+
+801
+00:14:45,120 --> 00:14:46,350
+of the account is going to be the
+escrow.
+
+802
+00:14:46,350 --> 00:14:46,360
+escrow.
+ 
+
+803
+00:14:46,360 --> 00:14:48,270
+escrow.
+So, as we talked about over here, the
+
+804
+00:14:48,270 --> 00:14:48,280
+So, as we talked about over here, the
+ 
+
+805
+00:14:48,280 --> 00:14:51,069
+So, as we talked about over here, the
+escrow is not a typical public key with
+
+806
+00:14:51,069 --> 00:14:51,079
+escrow is not a typical public key with
+ 
+
+807
+00:14:51,079 --> 00:14:54,270
+escrow is not a typical public key with
+a private key that can be signed for.
+
+808
+00:14:54,270 --> 00:14:54,280
+a private key that can be signed for.
+ 
+
+809
+00:14:54,280 --> 00:14:56,670
+a private key that can be signed for.
+It's a PDA that needs signer seeds for
+
+810
+00:14:56,670 --> 00:14:56,680
+It's a PDA that needs signer seeds for
+ 
+
+811
+00:14:56,680 --> 00:14:58,069
+It's a PDA that needs signer seeds for
+the program to be able to execute the
+
+812
+00:14:58,069 --> 00:14:58,079
+the program to be able to execute the
+ 
+
+813
+00:14:58,079 --> 00:15:00,870
+the program to be able to execute the
+transaction. So, what actually has
+
+814
+00:15:00,870 --> 00:15:00,880
+transaction. So, what actually has
+ 
+
+815
+00:15:00,880 --> 00:15:02,910
+transaction. So, what actually has
+authority over this vault to be able to
+
+816
+00:15:02,910 --> 00:15:02,920
+authority over this vault to be able to
+ 
+
+817
+00:15:02,920 --> 00:15:05,430
+authority over this vault to be able to
+release funds is the program itself.
+
+818
+00:15:05,430 --> 00:15:05,440
+release funds is the program itself.
+ 
+
+819
+00:15:05,440 --> 00:15:07,790
+release funds is the program itself.
+And that's what's making this
+
+820
+00:15:07,790 --> 00:15:07,800
+And that's what's making this
+ 
+
+821
+00:15:07,800 --> 00:15:10,350
+And that's what's making this
+one line, the authority being the
+
+822
+00:15:10,350 --> 00:15:10,360
+one line, the authority being the
+ 
+
+823
+00:15:10,360 --> 00:15:12,750
+one line, the authority being the
+escrow, this is what's making everything
+
+824
+00:15:12,750 --> 00:15:12,760
+escrow, this is what's making everything
+ 
+
+825
+00:15:12,760 --> 00:15:14,750
+escrow, this is what's making everything
+here trustless.
+
+826
+00:15:14,750 --> 00:15:14,760
+here trustless.
+ 
+
+827
+00:15:14,760 --> 00:15:18,110
+here trustless.
+And then, the very last three lines are
+
+828
+00:15:18,110 --> 00:15:18,120
+And then, the very last three lines are
+ 
+
+829
+00:15:18,120 --> 00:15:20,350
+And then, the very last three lines are
+very typical whenever you're defining
+
+830
+00:15:20,350 --> 00:15:20,360
+very typical whenever you're defining
+ 
+
+831
+00:15:20,360 --> 00:15:21,910
+very typical whenever you're defining
+all of the accounts for instruction.
+
+832
+00:15:21,910 --> 00:15:21,920
+all of the accounts for instruction.
+ 
+
+833
+00:15:21,920 --> 00:15:23,630
+all of the accounts for instruction.
+It's going to have your associated token
+
+834
+00:15:23,630 --> 00:15:23,640
+It's going to have your associated token
+ 
+
+835
+00:15:23,640 --> 00:15:25,310
+It's going to have your associated token
+program that's needed whenever you're
+
+836
+00:15:25,310 --> 00:15:25,320
+program that's needed whenever you're
+ 
+
+837
+00:15:25,320 --> 00:15:27,670
+program that's needed whenever you're
+creating an ATA account, your token
+
+838
+00:15:27,670 --> 00:15:27,680
+creating an ATA account, your token
+ 
+
+839
+00:15:27,680 --> 00:15:29,069
+creating an ATA account, your token
+program because we're interacting with
+
+840
+00:15:29,069 --> 00:15:29,079
+program because we're interacting with
+ 
+
+841
+00:15:29,079 --> 00:15:31,150
+program because we're interacting with
+tokens, and then the system program is
+
+842
+00:15:31,150 --> 00:15:31,160
+tokens, and then the system program is
+ 
+
+843
+00:15:31,160 --> 00:15:32,630
+tokens, and then the system program is
+needed because we're initializing new
+
+844
+00:15:32,630 --> 00:15:32,640
+needed because we're initializing new
+ 
+
+845
+00:15:32,640 --> 00:15:34,350
+needed because we're initializing new
+accounts on chain. So, this is just
+
+846
+00:15:34,350 --> 00:15:34,360
+accounts on chain. So, this is just
+ 
+
+847
+00:15:34,360 --> 00:15:36,910
+accounts on chain. So, this is just
+accessing other program information to
+
+848
+00:15:36,910 --> 00:15:36,920
+accessing other program information to
+ 
+
+849
+00:15:36,920 --> 00:15:38,870
+accessing other program information to
+be able to
+
+850
+00:15:38,870 --> 00:15:38,880
+be able to
+ 
+
+851
+00:15:38,880 --> 00:15:40,350
+be able to
+execute all the commands that we want
+
+852
+00:15:40,350 --> 00:15:40,360
+execute all the commands that we want
+ 
+
+853
+00:15:40,360 --> 00:15:42,590
+execute all the commands that we want
+for this instruction.
+
+854
+00:15:42,590 --> 00:15:42,600
+for this instruction.
+ 
+
+855
+00:15:42,600 --> 00:15:44,590
+for this instruction.
+Now,
+
+856
+00:15:44,590 --> 00:15:44,600
+Now,
+ 
+
+857
+00:15:44,600 --> 00:15:47,110
+Now,
+that's how your derived account struct
+
+858
+00:15:47,110 --> 00:15:47,120
+that's how your derived account struct
+ 
+
+859
+00:15:47,120 --> 00:15:50,190
+that's how your derived account struct
+works. All of the accounts that need to
+
+860
+00:15:50,190 --> 00:15:50,200
+works. All of the accounts that need to
+ 
+
+861
+00:15:50,200 --> 00:15:52,910
+works. All of the accounts that need to
+be accessed to be able to execute the
+
+862
+00:15:52,910 --> 00:15:52,920
+be accessed to be able to execute the
+ 
+
+863
+00:15:52,920 --> 00:15:55,870
+be accessed to be able to execute the
+logic in the instruction that you want.
+
+864
+00:15:55,870 --> 00:15:55,880
+logic in the instruction that you want.
+ 
+
+865
+00:15:55,880 --> 00:15:57,550
+logic in the instruction that you want.
+So, that defines everything we need for
+
+866
+00:15:57,550 --> 00:15:57,560
+So, that defines everything we need for
+ 
+
+867
+00:15:57,560 --> 00:15:58,630
+So, that defines everything we need for
+make.
+
+868
+00:15:58,630 --> 00:15:58,640
+make.
+ 
+
+869
+00:15:58,640 --> 00:16:02,390
+make.
+And now, let's go back over to the
+
+870
+00:16:02,390 --> 00:16:02,400
+And now, let's go back over to the
+ 
+
+871
+00:16:02,400 --> 00:16:07,949
+And now, let's go back over to the
+actual instruction.
+
+872
+00:16:07,949 --> 00:16:07,959
+
+ 
+
+873
+00:16:07,959 --> 00:16:10,510
+
+If I go to lib.rs, you can see that this
+
+874
+00:16:10,510 --> 00:16:10,520
+If I go to lib.rs, you can see that this
+ 
+
+875
+00:16:10,520 --> 00:16:12,829
+If I go to lib.rs, you can see that this
+has been organized with a handler. And
+
+876
+00:16:12,829 --> 00:16:12,839
+has been organized with a handler. And
+ 
+
+877
+00:16:12,839 --> 00:16:14,430
+has been organized with a handler. And
+if I click into this, it's going to take
+
+878
+00:16:14,430 --> 00:16:14,440
+if I click into this, it's going to take
+ 
+
+879
+00:16:14,440 --> 00:16:16,430
+if I click into this, it's going to take
+us back to the make page,
+
+880
+00:16:16,430 --> 00:16:16,440
+us back to the make page,
+ 
+
+881
+00:16:16,440 --> 00:16:18,670
+us back to the make page,
+and this handler is executing two
+
+882
+00:16:18,670 --> 00:16:18,680
+and this handler is executing two
+ 
+
+883
+00:16:18,680 --> 00:16:20,949
+and this handler is executing two
+functions. Populate the escrow and
+
+884
+00:16:20,949 --> 00:16:20,959
+functions. Populate the escrow and
+ 
+
+885
+00:16:20,959 --> 00:16:22,750
+functions. Populate the escrow and
+deposit tokens. Because if I'm the
+
+886
+00:16:22,750 --> 00:16:22,760
+deposit tokens. Because if I'm the
+ 
+
+887
+00:16:22,760 --> 00:16:24,510
+deposit tokens. Because if I'm the
+maker, all I'm doing is creating a new
+
+888
+00:16:24,510 --> 00:16:24,520
+maker, all I'm doing is creating a new
+ 
+
+889
+00:16:24,520 --> 00:16:26,510
+maker, all I'm doing is creating a new
+escrow, defining what information needs
+
+890
+00:16:26,510 --> 00:16:26,520
+escrow, defining what information needs
+ 
+
+891
+00:16:26,520 --> 00:16:28,870
+escrow, defining what information needs
+to be in that escrow, and then I'm going
+
+892
+00:16:28,870 --> 00:16:28,880
+to be in that escrow, and then I'm going
+ 
+
+893
+00:16:28,880 --> 00:16:30,590
+to be in that escrow, and then I'm going
+to deposit tokens into the vault that I
+
+894
+00:16:30,590 --> 00:16:30,600
+to deposit tokens into the vault that I
+ 
+
+895
+00:16:30,600 --> 00:16:32,190
+to deposit tokens into the vault that I
+just initialized.
+
+896
+00:16:32,190 --> 00:16:32,200
+just initialized.
+ 
+
+897
+00:16:32,200 --> 00:16:33,510
+just initialized.
+So, let's look at what the logic
+
+898
+00:16:33,510 --> 00:16:33,520
+So, let's look at what the logic
+ 
+
+899
+00:16:33,520 --> 00:16:35,190
+So, let's look at what the logic
+actually is.
+
+900
+00:16:35,190 --> 00:16:35,200
+actually is.
+ 
+
+901
+00:16:35,200 --> 00:16:36,790
+actually is.
+When you're populating the escrow, all
+
+902
+00:16:36,790 --> 00:16:36,800
+When you're populating the escrow, all
+ 
+
+903
+00:16:36,800 --> 00:16:38,670
+When you're populating the escrow, all
+you're doing is defining all of the
+
+904
+00:16:38,670 --> 00:16:38,680
+you're doing is defining all of the
+ 
+
+905
+00:16:38,680 --> 00:16:41,030
+you're doing is defining all of the
+information that needs to be stored in
+
+906
+00:16:41,030 --> 00:16:41,040
+information that needs to be stored in
+ 
+
+907
+00:16:41,040 --> 00:16:43,150
+information that needs to be stored in
+the escrow account. It's just the data.
+
+908
+00:16:43,150 --> 00:16:43,160
+the escrow account. It's just the data.
+ 
+
+909
+00:16:43,160 --> 00:16:45,829
+the escrow account. It's just the data.
+So, if we go back to state here, you see
+
+910
+00:16:45,829 --> 00:16:45,839
+So, if we go back to state here, you see
+ 
+
+911
+00:16:45,839 --> 00:16:48,069
+So, if we go back to state here, you see
+all of the data that's specified that is
+
+912
+00:16:48,069 --> 00:16:48,079
+all of the data that's specified that is
+ 
+
+913
+00:16:48,079 --> 00:16:51,030
+all of the data that's specified that is
+the same data that has been defined for
+
+914
+00:16:51,030 --> 00:16:51,040
+the same data that has been defined for
+ 
+
+915
+00:16:51,040 --> 00:16:55,870
+the same data that has been defined for
+our populate escrow instruction.
+
+916
+00:16:55,870 --> 00:16:55,880
+
+ 
+
+917
+00:16:55,880 --> 00:16:57,790
+
+Now, the other function that's being ran
+
+918
+00:16:57,790 --> 00:16:57,800
+Now, the other function that's being ran
+ 
+
+919
+00:16:57,800 --> 00:16:59,910
+Now, the other function that's being ran
+here is deposit tokens. And this is
+
+920
+00:16:59,910 --> 00:16:59,920
+here is deposit tokens. And this is
+ 
+
+921
+00:16:59,920 --> 00:17:01,470
+here is deposit tokens. And this is
+where we're introducing a new concept,
+
+922
+00:17:01,470 --> 00:17:01,480
+where we're introducing a new concept,
+ 
+
+923
+00:17:01,480 --> 00:17:04,510
+where we're introducing a new concept,
+and that is our CPI. So, CPI is a
+
+924
+00:17:04,510 --> 00:17:04,520
+and that is our CPI. So, CPI is a
+ 
+
+925
+00:17:04,520 --> 00:17:05,949
+and that is our CPI. So, CPI is a
+cross-program
+
+926
+00:17:05,949 --> 00:17:05,959
+cross-program
+ 
+
+927
+00:17:05,959 --> 00:17:07,429
+cross-program
+invocation.
+
+928
+00:17:07,429 --> 00:17:07,439
+invocation.
+ 
+
+929
+00:17:07,439 --> 00:17:09,510
+invocation.
+And what that is is you are calling an
+
+930
+00:17:09,510 --> 00:17:09,520
+And what that is is you are calling an
+ 
+
+931
+00:17:09,520 --> 00:17:12,669
+And what that is is you are calling an
+instruction from one program
+
+932
+00:17:12,669 --> 00:17:12,679
+instruction from one program
+ 
+
+933
+00:17:12,679 --> 00:17:14,669
+instruction from one program
+for another program. So, we're writing
+
+934
+00:17:14,669 --> 00:17:14,679
+for another program. So, we're writing
+ 
+
+935
+00:17:14,679 --> 00:17:16,390
+for another program. So, we're writing
+our escrow program, but when we're
+
+936
+00:17:16,390 --> 00:17:16,400
+our escrow program, but when we're
+ 
+
+937
+00:17:16,400 --> 00:17:19,270
+our escrow program, but when we're
+calling a CPI, we're actually calling a
+
+938
+00:17:19,270 --> 00:17:19,280
+calling a CPI, we're actually calling a
+ 
+
+939
+00:17:19,280 --> 00:17:21,550
+calling a CPI, we're actually calling a
+transfer instruction from another
+
+940
+00:17:21,550 --> 00:17:21,560
+transfer instruction from another
+ 
+
+941
+00:17:21,560 --> 00:17:23,270
+transfer instruction from another
+program on chain.
+
+942
+00:17:23,270 --> 00:17:23,280
+program on chain.
+ 
+
+943
+00:17:23,280 --> 00:17:26,189
+program on chain.
+Now, when you see the CPI,
+
+944
+00:17:26,189 --> 00:17:26,199
+Now, when you see the CPI,
+ 
+
+945
+00:17:26,199 --> 00:17:28,630
+Now, when you see the CPI,
+there are specific accounts that are
+
+946
+00:17:28,630 --> 00:17:28,640
+there are specific accounts that are
+ 
+
+947
+00:17:28,640 --> 00:17:31,030
+there are specific accounts that are
+interacted with here. So, this transfer
+
+948
+00:17:31,030 --> 00:17:31,040
+interacted with here. So, this transfer
+ 
+
+949
+00:17:31,040 --> 00:17:32,830
+interacted with here. So, this transfer
+checked instruction is what we're
+
+950
+00:17:32,830 --> 00:17:32,840
+checked instruction is what we're
+ 
+
+951
+00:17:32,840 --> 00:17:34,950
+checked instruction is what we're
+calling, and that is transferring a
+
+952
+00:17:34,950 --> 00:17:34,960
+calling, and that is transferring a
+ 
+
+953
+00:17:34,960 --> 00:17:37,710
+calling, and that is transferring a
+token from one account to another. So,
+
+954
+00:17:37,710 --> 00:17:37,720
+token from one account to another. So,
+ 
+
+955
+00:17:37,720 --> 00:17:39,669
+token from one account to another. So,
+you can see our from account is the
+
+956
+00:17:39,669 --> 00:17:39,679
+you can see our from account is the
+ 
+
+957
+00:17:39,679 --> 00:17:41,790
+you can see our from account is the
+maker's ATA,
+
+958
+00:17:41,790 --> 00:17:41,800
+maker's ATA,
+ 
+
+959
+00:17:41,800 --> 00:17:45,270
+maker's ATA,
+and we're using the mint of the token
+
+960
+00:17:45,270 --> 00:17:45,280
+and we're using the mint of the token
+ 
+
+961
+00:17:45,280 --> 00:17:48,150
+and we're using the mint of the token
+that we've specified, and it's going to
+
+962
+00:17:48,150 --> 00:17:48,160
+that we've specified, and it's going to
+ 
+
+963
+00:17:48,160 --> 00:17:50,830
+that we've specified, and it's going to
+the vault itself, and the authority is
+
+964
+00:17:50,830 --> 00:17:50,840
+the vault itself, and the authority is
+ 
+
+965
+00:17:50,840 --> 00:17:52,470
+the vault itself, and the authority is
+going to be the maker in this case
+
+966
+00:17:52,470 --> 00:17:52,480
+going to be the maker in this case
+ 
+
+967
+00:17:52,480 --> 00:17:54,310
+going to be the maker in this case
+because the maker is signing from their
+
+968
+00:17:54,310 --> 00:17:54,320
+because the maker is signing from their
+ 
+
+969
+00:17:54,320 --> 00:17:56,350
+because the maker is signing from their
+own wallet and depositing it into the
+
+970
+00:17:56,350 --> 00:17:56,360
+own wallet and depositing it into the
+ 
+
+971
+00:17:56,360 --> 00:17:58,430
+own wallet and depositing it into the
+vaults. So, in this case, the maker's
+
+972
+00:17:58,430 --> 00:17:58,440
+vaults. So, in this case, the maker's
+ 
+
+973
+00:17:58,440 --> 00:18:01,310
+vaults. So, in this case, the maker's
+wallet is a public key that does have an
+
+974
+00:18:01,310 --> 00:18:01,320
+wallet is a public key that does have an
+ 
+
+975
+00:18:01,320 --> 00:18:03,630
+wallet is a public key that does have an
+associated private key, so it does fall
+
+976
+00:18:03,630 --> 00:18:03,640
+associated private key, so it does fall
+ 
+
+977
+00:18:03,640 --> 00:18:06,669
+associated private key, so it does fall
+on that ED25519 curve. It's essentially
+
+978
+00:18:06,669 --> 00:18:06,679
+on that ED25519 curve. It's essentially
+ 
+
+979
+00:18:06,679 --> 00:18:10,150
+on that ED25519 curve. It's essentially
+going to be the wallet of the user
+
+980
+00:18:10,150 --> 00:18:10,160
+going to be the wallet of the user
+ 
+
+981
+00:18:10,160 --> 00:18:11,150
+going to be the wallet of the user
+that's going to be signing the
+
+982
+00:18:11,150 --> 00:18:11,160
+that's going to be signing the
+ 
+
+983
+00:18:11,160 --> 00:18:12,710
+that's going to be signing the
+transaction here.
+
+984
+00:18:12,710 --> 00:18:12,720
+transaction here.
+ 
+
+985
+00:18:12,720 --> 00:18:15,150
+transaction here.
+So, we don't have to worry about the PDA
+
+986
+00:18:15,150 --> 00:18:15,160
+So, we don't have to worry about the PDA
+ 
+
+987
+00:18:15,160 --> 00:18:16,790
+So, we don't have to worry about the PDA
+signer seeds, but we'll get into that
+
+988
+00:18:16,790 --> 00:18:16,800
+signer seeds, but we'll get into that
+ 
+
+989
+00:18:16,800 --> 00:18:19,830
+signer seeds, but we'll get into that
+later. So, this is just a very basic CPI
+
+990
+00:18:19,830 --> 00:18:19,840
+later. So, this is just a very basic CPI
+ 
+
+991
+00:18:19,840 --> 00:18:22,550
+later. So, this is just a very basic CPI
+for transferring a token from one
+
+992
+00:18:22,550 --> 00:18:22,560
+for transferring a token from one
+ 
+
+993
+00:18:22,560 --> 00:18:24,790
+for transferring a token from one
+account to another. And in this case,
+
+994
+00:18:24,790 --> 00:18:24,800
+account to another. And in this case,
+ 
+
+995
+00:18:24,800 --> 00:18:26,070
+account to another. And in this case,
+the account that's going to be
+
+996
+00:18:26,070 --> 00:18:26,080
+the account that's going to be
+ 
+
+997
+00:18:26,080 --> 00:18:27,669
+the account that's going to be
+transferred into is going to be the
+
+998
+00:18:27,669 --> 00:18:27,679
+transferred into is going to be the
+ 
+
+999
+00:18:27,679 --> 00:18:29,870
+transferred into is going to be the
+vault account of the escrow program, so
+
+1000
+00:18:29,870 --> 00:18:29,880
+vault account of the escrow program, so
+ 
+
+1001
+00:18:29,880 --> 00:18:33,310
+vault account of the escrow program, so
+the escrow is now holding this token.
+
+1002
+00:18:33,310 --> 00:18:33,320
+the escrow is now holding this token.
+ 
+
+1003
+00:18:33,320 --> 00:18:36,430
+the escrow is now holding this token.
+Okay. So, that's everything for make.
+
+1004
+00:18:36,430 --> 00:18:36,440
+Okay. So, that's everything for make.
+ 
+
+1005
+00:18:36,440 --> 00:18:39,190
+Okay. So, that's everything for make.
+And now, the reason we're not actually
+
+1006
+00:18:39,190 --> 00:18:39,200
+And now, the reason we're not actually
+ 
+
+1007
+00:18:39,200 --> 00:18:40,990
+And now, the reason we're not actually
+writing this line by line is it does get
+
+1008
+00:18:40,990 --> 00:18:41,000
+writing this line by line is it does get
+ 
+
+1009
+00:18:41,000 --> 00:18:42,590
+writing this line by line is it does get
+pretty repetitive, and you'll see here
+
+1010
+00:18:42,590 --> 00:18:42,600
+pretty repetitive, and you'll see here
+ 
+
+1011
+00:18:42,600 --> 00:18:45,390
+pretty repetitive, and you'll see here
+when I open the take file. Actually, I'm
+
+1012
+00:18:45,390 --> 00:18:45,400
+when I open the take file. Actually, I'm
+ 
+
+1013
+00:18:45,400 --> 00:18:47,390
+when I open the take file. Actually, I'm
+just going to lay these side by side so
+
+1014
+00:18:47,390 --> 00:18:47,400
+just going to lay these side by side so
+ 
+
+1015
+00:18:47,400 --> 00:18:50,550
+just going to lay these side by side so
+you can see how similar they look.
+
+1016
+00:18:50,550 --> 00:18:50,560
+you can see how similar they look.
+ 
+
+1017
+00:18:50,560 --> 00:18:53,909
+you can see how similar they look.
+We're creating our derived accounts.
+
+1018
+00:18:53,909 --> 00:18:53,919
+We're creating our derived accounts.
+ 
+
+1019
+00:18:53,919 --> 00:18:55,950
+We're creating our derived accounts.
+We're specifying a new data structure of
+
+1020
+00:18:55,950 --> 00:18:55,960
+We're specifying a new data structure of
+ 
+
+1021
+00:18:55,960 --> 00:18:56,990
+We're specifying a new data structure of
+all the accounts that need to be
+
+1022
+00:18:56,990 --> 00:18:57,000
+all the accounts that need to be
+ 
+
+1023
+00:18:57,000 --> 00:19:00,070
+all the accounts that need to be
+interacted with for this
+
+1024
+00:19:00,070 --> 00:19:00,080
+interacted with for this
+ 
+
+1025
+00:19:00,080 --> 00:19:02,270
+interacted with for this
+function to be able to execute. You can
+
+1026
+00:19:02,270 --> 00:19:02,280
+function to be able to execute. You can
+ 
+
+1027
+00:19:02,280 --> 00:19:03,909
+function to be able to execute. You can
+see they're pretty much the same
+
+1028
+00:19:03,909 --> 00:19:03,919
+see they're pretty much the same
+ 
+
+1029
+00:19:03,919 --> 00:19:06,830
+see they're pretty much the same
+accounts. You have your maker.
+
+1030
+00:19:06,830 --> 00:19:06,840
+accounts. You have your maker.
+ 
+
+1031
+00:19:06,840 --> 00:19:08,149
+accounts. You have your maker.
+In this case, we're now introducing
+
+1032
+00:19:08,149 --> 00:19:08,159
+In this case, we're now introducing
+ 
+
+1033
+00:19:08,159 --> 00:19:09,390
+In this case, we're now introducing
+another
+
+1034
+00:19:09,390 --> 00:19:09,400
+another
+ 
+
+1035
+00:19:09,400 --> 00:19:10,990
+another
+um account, which is the taker, who's
+
+1036
+00:19:10,990 --> 00:19:11,000
+um account, which is the taker, who's
+ 
+
+1037
+00:19:11,000 --> 00:19:13,070
+um account, which is the taker, who's
+going to be taking those funds.
+
+1038
+00:19:13,070 --> 00:19:13,080
+going to be taking those funds.
+ 
+
+1039
+00:19:13,080 --> 00:19:14,430
+going to be taking those funds.
+Um
+
+1040
+00:19:14,430 --> 00:19:14,440
+Um
+ 
+
+1041
+00:19:14,440 --> 00:19:16,030
+Um
+and then we still have the escrow. It's
+
+1042
+00:19:16,030 --> 00:19:16,040
+and then we still have the escrow. It's
+ 
+
+1043
+00:19:16,040 --> 00:19:19,590
+and then we still have the escrow. It's
+going to be defined pretty similarly. Um
+
+1044
+00:19:19,590 --> 00:19:19,600
+going to be defined pretty similarly. Um
+ 
+
+1045
+00:19:19,600 --> 00:19:21,310
+going to be defined pretty similarly. Um
+here, the only thing that changes is
+
+1046
+00:19:21,310 --> 00:19:21,320
+here, the only thing that changes is
+ 
+
+1047
+00:19:21,320 --> 00:19:22,909
+here, the only thing that changes is
+it's already been initialized, so I
+
+1048
+00:19:22,909 --> 00:19:22,919
+it's already been initialized, so I
+ 
+
+1049
+00:19:22,919 --> 00:19:24,310
+it's already been initialized, so I
+don't have to worry about initializing
+
+1050
+00:19:24,310 --> 00:19:24,320
+don't have to worry about initializing
+ 
+
+1051
+00:19:24,320 --> 00:19:26,590
+don't have to worry about initializing
+it as a constraint, but I do have to add
+
+1052
+00:19:26,590 --> 00:19:26,600
+it as a constraint, but I do have to add
+ 
+
+1053
+00:19:26,600 --> 00:19:28,110
+it as a constraint, but I do have to add
+this mute constraint. And the reason I
+
+1054
+00:19:28,110 --> 00:19:28,120
+this mute constraint. And the reason I
+ 
+
+1055
+00:19:28,120 --> 00:19:30,510
+this mute constraint. And the reason I
+have to add it is because
+
+1056
+00:19:30,510 --> 00:19:30,520
+have to add it is because
+ 
+
+1057
+00:19:30,520 --> 00:19:32,430
+have to add it is because
+variables in Rust are immutable by
+
+1058
+00:19:32,430 --> 00:19:32,440
+variables in Rust are immutable by
+ 
+
+1059
+00:19:32,440 --> 00:19:35,510
+variables in Rust are immutable by
+default, and here I'm going to be
+
+1060
+00:19:35,510 --> 00:19:35,520
+default, and here I'm going to be
+ 
+
+1061
+00:19:35,520 --> 00:19:38,270
+default, and here I'm going to be
+changing the data in the escrow account,
+
+1062
+00:19:38,270 --> 00:19:38,280
+changing the data in the escrow account,
+ 
+
+1063
+00:19:38,280 --> 00:19:39,950
+changing the data in the escrow account,
+so I have to define it as mutable
+
+1064
+00:19:39,950 --> 00:19:39,960
+so I have to define it as mutable
+ 
+
+1065
+00:19:39,960 --> 00:19:41,909
+so I have to define it as mutable
+because something's going to change. So,
+
+1066
+00:19:41,909 --> 00:19:41,919
+because something's going to change. So,
+ 
+
+1067
+00:19:41,919 --> 00:19:43,550
+because something's going to change. So,
+I'm just saying, "Hey, I am changing
+
+1068
+00:19:43,550 --> 00:19:43,560
+I'm just saying, "Hey, I am changing
+ 
+
+1069
+00:19:43,560 --> 00:19:44,590
+I'm just saying, "Hey, I am changing
+this
+
+1070
+00:19:44,590 --> 00:19:44,600
+this
+ 
+
+1071
+00:19:44,600 --> 00:19:45,510
+this
+um and I'm just going to let you know
+
+1072
+00:19:45,510 --> 00:19:45,520
+um and I'm just going to let you know
+ 
+
+1073
+00:19:45,520 --> 00:19:47,070
+um and I'm just going to let you know
+that's going to happen."
+
+1074
+00:19:47,070 --> 00:19:47,080
+that's going to happen."
+ 
+
+1075
+00:19:47,080 --> 00:19:48,070
+that's going to happen."
+Now,
+
+1076
+00:19:48,070 --> 00:19:48,080
+Now,
+ 
+
+1077
+00:19:48,080 --> 00:19:49,710
+Now,
+here we have a few additional
+
+1078
+00:19:49,710 --> 00:19:49,720
+here we have a few additional
+ 
+
+1079
+00:19:49,720 --> 00:19:52,310
+here we have a few additional
+constraints that have been added. And
+
+1080
+00:19:52,310 --> 00:19:52,320
+constraints that have been added. And
+ 
+
+1081
+00:19:52,320 --> 00:19:54,030
+constraints that have been added. And
+what these are just kind of some
+
+1082
+00:19:54,030 --> 00:19:54,040
+what these are just kind of some
+ 
+
+1083
+00:19:54,040 --> 00:19:57,230
+what these are just kind of some
+security checks. So, it's defining that
+
+1084
+00:19:57,230 --> 00:19:57,240
+security checks. So, it's defining that
+ 
+
+1085
+00:19:57,240 --> 00:20:00,390
+security checks. So, it's defining that
+the maker is the correct public key, the
+
+1086
+00:20:00,390 --> 00:20:00,400
+the maker is the correct public key, the
+ 
+
+1087
+00:20:00,400 --> 00:20:03,430
+the maker is the correct public key, the
+mint A and mint B for the mint accounts
+
+1088
+00:20:03,430 --> 00:20:03,440
+mint A and mint B for the mint accounts
+ 
+
+1089
+00:20:03,440 --> 00:20:05,950
+mint A and mint B for the mint accounts
+are also the correct public keys. So,
+
+1090
+00:20:05,950 --> 00:20:05,960
+are also the correct public keys. So,
+ 
+
+1091
+00:20:05,960 --> 00:20:08,390
+are also the correct public keys. So,
+this is just additional security checks
+
+1092
+00:20:08,390 --> 00:20:08,400
+this is just additional security checks
+ 
+
+1093
+00:20:08,400 --> 00:20:09,990
+this is just additional security checks
+to make sure the correct accounts are
+
+1094
+00:20:09,990 --> 00:20:10,000
+to make sure the correct accounts are
+ 
+
+1095
+00:20:10,000 --> 00:20:12,550
+to make sure the correct accounts are
+interacting with this instruction. And
+
+1096
+00:20:12,550 --> 00:20:12,560
+interacting with this instruction. And
+ 
+
+1097
+00:20:12,560 --> 00:20:13,790
+interacting with this instruction. And
+if
+
+1098
+00:20:13,790 --> 00:20:13,800
+if
+ 
+
+1099
+00:20:13,800 --> 00:20:15,590
+if
+it is an incorrect account trying to
+
+1100
+00:20:15,590 --> 00:20:15,600
+it is an incorrect account trying to
+ 
+
+1101
+00:20:15,600 --> 00:20:16,830
+it is an incorrect account trying to
+interact with the instruction, it's
+
+1102
+00:20:16,830 --> 00:20:16,840
+interact with the instruction, it's
+ 
+
+1103
+00:20:16,840 --> 00:20:19,110
+interact with the instruction, it's
+going to return an error and say
+
+1104
+00:20:19,110 --> 00:20:19,120
+going to return an error and say
+ 
+
+1105
+00:20:19,120 --> 00:20:20,230
+going to return an error and say
+you don't have access, this is an
+
+1106
+00:20:20,230 --> 00:20:20,240
+you don't have access, this is an
+ 
+
+1107
+00:20:20,240 --> 00:20:22,830
+you don't have access, this is an
+invalid account.
+
+1108
+00:20:22,830 --> 00:20:22,840
+invalid account.
+ 
+
+1109
+00:20:22,840 --> 00:20:25,630
+invalid account.
+Um otherwise, everything else looks
+
+1110
+00:20:25,630 --> 00:20:25,640
+Um otherwise, everything else looks
+ 
+
+1111
+00:20:25,640 --> 00:20:27,310
+Um otherwise, everything else looks
+pretty much the same. You're defining
+
+1112
+00:20:27,310 --> 00:20:27,320
+pretty much the same. You're defining
+ 
+
+1113
+00:20:27,320 --> 00:20:28,430
+pretty much the same. You're defining
+all of the accounts that need to be
+
+1114
+00:20:28,430 --> 00:20:28,440
+all of the accounts that need to be
+ 
+
+1115
+00:20:28,440 --> 00:20:29,950
+all of the accounts that need to be
+interacted with, but now we're just
+
+1116
+00:20:29,950 --> 00:20:29,960
+interacted with, but now we're just
+ 
+
+1117
+00:20:29,960 --> 00:20:33,910
+interacted with, but now we're just
+adding the taker into this equation.
+
+1118
+00:20:33,910 --> 00:20:33,920
+adding the taker into this equation.
+ 
+
+1119
+00:20:33,920 --> 00:20:37,230
+adding the taker into this equation.
+And now, the one thing that is different
+
+1120
+00:20:37,230 --> 00:20:37,240
+And now, the one thing that is different
+ 
+
+1121
+00:20:37,240 --> 00:20:39,670
+And now, the one thing that is different
+here is how the CPI is actually
+
+1122
+00:20:39,670 --> 00:20:39,680
+here is how the CPI is actually
+ 
+
+1123
+00:20:39,680 --> 00:20:44,590
+here is how the CPI is actually
+executed. And the reason is
+
+1124
+00:20:44,590 --> 00:20:44,600
+executed. And the reason is
+ 
+
+1125
+00:20:44,600 --> 00:20:47,670
+executed. And the reason is
+that we now are going to execute using
+
+1126
+00:20:47,670 --> 00:20:47,680
+that we now are going to execute using
+ 
+
+1127
+00:20:47,680 --> 00:20:48,990
+that we now are going to execute using
+our PDA.
+
+1128
+00:20:48,990 --> 00:20:49,000
+our PDA.
+ 
+
+1129
+00:20:49,000 --> 00:20:50,950
+our PDA.
+So, for the taker to be able to now take
+
+1130
+00:20:50,950 --> 00:20:50,960
+So, for the taker to be able to now take
+ 
+
+1131
+00:20:50,960 --> 00:20:52,550
+So, for the taker to be able to now take
+the funds, they're going to be taking
+
+1132
+00:20:52,550 --> 00:20:52,560
+the funds, they're going to be taking
+ 
+
+1133
+00:20:52,560 --> 00:20:54,430
+the funds, they're going to be taking
+the funds from the vault.
+
+1134
+00:20:54,430 --> 00:20:54,440
+the funds from the vault.
+ 
+
+1135
+00:20:54,440 --> 00:20:56,910
+the funds from the vault.
+And the vault has to
+
+1136
+00:20:56,910 --> 00:20:56,920
+And the vault has to
+ 
+
+1137
+00:20:56,920 --> 00:20:58,670
+And the vault has to
+be able to sign for that instruction.
+
+1138
+00:20:58,670 --> 00:20:58,680
+be able to sign for that instruction.
+ 
+
+1139
+00:20:58,680 --> 00:21:00,710
+be able to sign for that instruction.
+And because we now know that the vault
+
+1140
+00:21:00,710 --> 00:21:00,720
+And because we now know that the vault
+ 
+
+1141
+00:21:00,720 --> 00:21:03,070
+And because we now know that the vault
+is a PDA, it's going to have to be
+
+1142
+00:21:03,070 --> 00:21:03,080
+is a PDA, it's going to have to be
+ 
+
+1143
+00:21:03,080 --> 00:21:04,830
+is a PDA, it's going to have to be
+signed from the program with the signer
+
+1144
+00:21:04,830 --> 00:21:04,840
+signed from the program with the signer
+ 
+
+1145
+00:21:04,840 --> 00:21:07,350
+signed from the program with the signer
+seeds. So, we can just compare what this
+
+1146
+00:21:07,350 --> 00:21:07,360
+seeds. So, we can just compare what this
+ 
+
+1147
+00:21:07,360 --> 00:21:09,270
+seeds. So, we can just compare what this
+looks like. We're still transferring a
+
+1148
+00:21:09,270 --> 00:21:09,280
+looks like. We're still transferring a
+ 
+
+1149
+00:21:09,280 --> 00:21:12,150
+looks like. We're still transferring a
+token, so we're making a CPI call to the
+
+1150
+00:21:12,150 --> 00:21:12,160
+token, so we're making a CPI call to the
+ 
+
+1151
+00:21:12,160 --> 00:21:13,790
+token, so we're making a CPI call to the
+token program
+
+1152
+00:21:13,790 --> 00:21:13,800
+token program
+ 
+
+1153
+00:21:13,800 --> 00:21:15,944
+token program
+calling the transfer checked function.
+
+1154
+00:21:15,944 --> 00:21:15,954
+calling the transfer checked function.
+ 
+
+1155
+00:21:15,954 --> 00:21:16,190
+calling the transfer checked function.
+>> [snorts]
+
+1156
+00:21:16,190 --> 00:21:16,200
+>> [snorts]
+ 
+
+1157
+00:21:16,200 --> 00:21:17,510
+>> [snorts]
+>> And
+
+1158
+00:21:17,510 --> 00:21:17,520
+>> And
+ 
+
+1159
+00:21:17,520 --> 00:21:19,310
+>> And
+that's still all the same.
+
+1160
+00:21:19,310 --> 00:21:19,320
+that's still all the same.
+ 
+
+1161
+00:21:19,320 --> 00:21:22,070
+that's still all the same.
+And you can see here, we're defining
+
+1162
+00:21:22,070 --> 00:21:22,080
+And you can see here, we're defining
+ 
+
+1163
+00:21:22,080 --> 00:21:23,750
+And you can see here, we're defining
+once again the token program, the
+
+1164
+00:21:23,750 --> 00:21:23,760
+once again the token program, the
+ 
+
+1165
+00:21:23,760 --> 00:21:25,750
+once again the token program, the
+transfer checked function, and it has
+
+1166
+00:21:25,750 --> 00:21:25,760
+transfer checked function, and it has
+ 
+
+1167
+00:21:25,760 --> 00:21:28,750
+transfer checked function, and it has
+all of the same parameters. However,
+
+1168
+00:21:28,750 --> 00:21:28,760
+all of the same parameters. However,
+ 
+
+1169
+00:21:28,760 --> 00:21:31,230
+all of the same parameters. However,
+when we're calling this CPI context,
+
+1170
+00:21:31,230 --> 00:21:31,240
+when we're calling this CPI context,
+ 
+
+1171
+00:21:31,240 --> 00:21:32,910
+when we're calling this CPI context,
+instead of just saying new, we're saying
+
+1172
+00:21:32,910 --> 00:21:32,920
+instead of just saying new, we're saying
+ 
+
+1173
+00:21:32,920 --> 00:21:34,990
+instead of just saying new, we're saying
+new assigner. And the reason why is
+
+1174
+00:21:34,990 --> 00:21:35,000
+new assigner. And the reason why is
+ 
+
+1175
+00:21:35,000 --> 00:21:36,550
+new assigner. And the reason why is
+we're going to have to sign with signer
+
+1176
+00:21:36,550 --> 00:21:36,560
+we're going to have to sign with signer
+ 
+
+1177
+00:21:36,560 --> 00:21:39,270
+we're going to have to sign with signer
+seeds. So, there's an additional field
+
+1178
+00:21:39,270 --> 00:21:39,280
+seeds. So, there's an additional field
+ 
+
+1179
+00:21:39,280 --> 00:21:41,430
+seeds. So, there's an additional field
+added here, which is your signer seeds.
+
+1180
+00:21:41,430 --> 00:21:41,440
+added here, which is your signer seeds.
+ 
+
+1181
+00:21:41,440 --> 00:21:43,230
+added here, which is your signer seeds.
+And what these seeds are, we're going to
+
+1182
+00:21:43,230 --> 00:21:43,240
+And what these seeds are, we're going to
+ 
+
+1183
+00:21:43,240 --> 00:21:45,590
+And what these seeds are, we're going to
+have to specify
+
+1184
+00:21:45,590 --> 00:21:45,600
+have to specify
+ 
+
+1185
+00:21:45,600 --> 00:21:47,670
+have to specify
+and they're going to be the seeds of the
+
+1186
+00:21:47,670 --> 00:21:47,680
+and they're going to be the seeds of the
+ 
+
+1187
+00:21:47,680 --> 00:21:49,990
+and they're going to be the seeds of the
+PDA that you defined. So, you can see
+
+1188
+00:21:49,990 --> 00:21:50,000
+PDA that you defined. So, you can see
+ 
+
+1189
+00:21:50,000 --> 00:21:51,630
+PDA that you defined. So, you can see
+here, we've defined what the signer
+
+1190
+00:21:51,630 --> 00:21:51,640
+here, we've defined what the signer
+ 
+
+1191
+00:21:51,640 --> 00:21:53,510
+here, we've defined what the signer
+seeds are, and we can make sure they're
+
+1192
+00:21:53,510 --> 00:21:53,520
+seeds are, and we can make sure they're
+ 
+
+1193
+00:21:53,520 --> 00:21:56,350
+seeds are, and we can make sure they're
+correct by going back to our make
+
+1194
+00:21:56,350 --> 00:21:56,360
+correct by going back to our make
+ 
+
+1195
+00:21:56,360 --> 00:21:57,830
+correct by going back to our make
+instruction
+
+1196
+00:21:57,830 --> 00:21:57,840
+instruction
+ 
+
+1197
+00:21:57,840 --> 00:22:01,750
+instruction
+when we actually
+
+1198
+00:22:01,750 --> 00:22:01,760
+
+ 
+
+1199
+00:22:01,760 --> 00:22:03,669
+
+initialized the escrow program and
+
+1200
+00:22:03,669 --> 00:22:03,679
+initialized the escrow program and
+ 
+
+1201
+00:22:03,679 --> 00:22:06,110
+initialized the escrow program and
+defined what the seeds were for the PDA.
+
+1202
+00:22:06,110 --> 00:22:06,120
+defined what the seeds were for the PDA.
+ 
+
+1203
+00:22:06,120 --> 00:22:08,110
+defined what the seeds were for the PDA.
+And you can see here
+
+1204
+00:22:08,110 --> 00:22:08,120
+And you can see here
+ 
+
+1205
+00:22:08,120 --> 00:22:10,510
+And you can see here
+we have our escrow
+
+1206
+00:22:10,510 --> 00:22:10,520
+we have our escrow
+ 
+
+1207
+00:22:10,520 --> 00:22:11,990
+we have our escrow
+as our first seed.
+
+1208
+00:22:11,990 --> 00:22:12,000
+as our first seed.
+ 
+
+1209
+00:22:12,000 --> 00:22:14,270
+as our first seed.
+We have our maker as our second, and
+
+1210
+00:22:14,270 --> 00:22:14,280
+We have our maker as our second, and
+ 
+
+1211
+00:22:14,280 --> 00:22:15,870
+We have our maker as our second, and
+then we have the escrow seed as the
+
+1212
+00:22:15,870 --> 00:22:15,880
+then we have the escrow seed as the
+ 
+
+1213
+00:22:15,880 --> 00:22:18,470
+then we have the escrow seed as the
+last. And then all we're doing after is
+
+1214
+00:22:18,470 --> 00:22:18,480
+last. And then all we're doing after is
+ 
+
+1215
+00:22:18,480 --> 00:22:20,270
+last. And then all we're doing after is
+just defining the bump. And the reason
+
+1216
+00:22:20,270 --> 00:22:20,280
+just defining the bump. And the reason
+ 
+
+1217
+00:22:20,280 --> 00:22:23,550
+just defining the bump. And the reason
+you're defining the bump is to just
+
+1218
+00:22:23,550 --> 00:22:23,560
+you're defining the bump is to just
+ 
+
+1219
+00:22:23,560 --> 00:22:26,830
+you're defining the bump is to just
+make it easier to actually find what the
+
+1220
+00:22:26,830 --> 00:22:26,840
+make it easier to actually find what the
+ 
+
+1221
+00:22:26,840 --> 00:22:29,669
+make it easier to actually find what the
+PDA is. So, we're saving the bump of the
+
+1222
+00:22:29,669 --> 00:22:29,679
+PDA is. So, we're saving the bump of the
+ 
+
+1223
+00:22:29,679 --> 00:22:32,150
+PDA is. So, we're saving the bump of the
+PDA when we initialize it. You can see
+
+1224
+00:22:32,150 --> 00:22:32,160
+PDA when we initialize it. You can see
+ 
+
+1225
+00:22:32,160 --> 00:22:34,390
+PDA when we initialize it. You can see
+here, we're saving the bump.
+
+1226
+00:22:34,390 --> 00:22:34,400
+here, we're saving the bump.
+ 
+
+1227
+00:22:34,400 --> 00:22:35,590
+here, we're saving the bump.
+And
+
+1228
+00:22:35,590 --> 00:22:35,600
+And
+ 
+
+1229
+00:22:35,600 --> 00:22:38,550
+And
+um the bump is that 255 that's being
+
+1230
+00:22:38,550 --> 00:22:38,560
+um the bump is that 255 that's being
+ 
+
+1231
+00:22:38,560 --> 00:22:39,790
+um the bump is that 255 that's being
+added
+
+1232
+00:22:39,790 --> 00:22:39,800
+added
+ 
+
+1233
+00:22:39,800 --> 00:22:42,030
+added
+when you're actually generating the PDA.
+
+1234
+00:22:42,030 --> 00:22:42,040
+when you're actually generating the PDA.
+ 
+
+1235
+00:22:42,040 --> 00:22:43,669
+when you're actually generating the PDA.
+So, just to recap
+
+1236
+00:22:43,669 --> 00:22:43,679
+So, just to recap
+ 
+
+1237
+00:22:43,679 --> 00:22:45,510
+So, just to recap
+when you're creating a PDA, it has these
+
+1238
+00:22:45,510 --> 00:22:45,520
+when you're creating a PDA, it has these
+ 
+
+1239
+00:22:45,520 --> 00:22:48,910
+when you're creating a PDA, it has these
+input seeds plus a bump starting at 255,
+
+1240
+00:22:48,910 --> 00:22:48,920
+input seeds plus a bump starting at 255,
+ 
+
+1241
+00:22:48,920 --> 00:22:50,990
+input seeds plus a bump starting at 255,
+and then every iteration it decrements
+
+1242
+00:22:50,990 --> 00:22:51,000
+and then every iteration it decrements
+ 
+
+1243
+00:22:51,000 --> 00:22:52,150
+and then every iteration it decrements
+by one.
+
+1244
+00:22:52,150 --> 00:22:52,160
+by one.
+ 
+
+1245
+00:22:52,160 --> 00:22:54,630
+by one.
+And those values are going to be ran
+
+1246
+00:22:54,630 --> 00:22:54,640
+And those values are going to be ran
+ 
+
+1247
+00:22:54,640 --> 00:22:57,510
+And those values are going to be ran
+through the SHA-256 hash and output a
+
+1248
+00:22:57,510 --> 00:22:57,520
+through the SHA-256 hash and output a
+ 
+
+1249
+00:22:57,520 --> 00:22:58,750
+through the SHA-256 hash and output a
+public key.
+
+1250
+00:22:58,750 --> 00:22:58,760
+public key.
+ 
+
+1251
+00:22:58,760 --> 00:23:00,590
+public key.
+That public key is either going to fall
+
+1252
+00:23:00,590 --> 00:23:00,600
+That public key is either going to fall
+ 
+
+1253
+00:23:00,600 --> 00:23:04,510
+That public key is either going to fall
+on the ED25519 curve or it's not. If it
+
+1254
+00:23:04,510 --> 00:23:04,520
+on the ED25519 curve or it's not. If it
+ 
+
+1255
+00:23:04,520 --> 00:23:06,790
+on the ED25519 curve or it's not. If it
+doesn't, it's a valid PDA address. If it
+
+1256
+00:23:06,790 --> 00:23:06,800
+doesn't, it's a valid PDA address. If it
+ 
+
+1257
+00:23:06,800 --> 00:23:08,630
+doesn't, it's a valid PDA address. If it
+does, it's invalid and it's going to
+
+1258
+00:23:08,630 --> 00:23:08,640
+does, it's invalid and it's going to
+ 
+
+1259
+00:23:08,640 --> 00:23:10,669
+does, it's invalid and it's going to
+have to run again, but now it's going to
+
+1260
+00:23:10,669 --> 00:23:10,679
+have to run again, but now it's going to
+ 
+
+1261
+00:23:10,679 --> 00:23:15,430
+have to run again, but now it's going to
+run your input seeds with 254 and so on.
+
+1262
+00:23:15,430 --> 00:23:15,440
+run your input seeds with 254 and so on.
+ 
+
+1263
+00:23:15,440 --> 00:23:17,630
+run your input seeds with 254 and so on.
+So, if I save the bump and I know what
+
+1264
+00:23:17,630 --> 00:23:17,640
+So, if I save the bump and I know what
+ 
+
+1265
+00:23:17,640 --> 00:23:20,950
+So, if I save the bump and I know what
+it is, when I'm recalculating my PDA,
+
+1266
+00:23:20,950 --> 00:23:20,960
+it is, when I'm recalculating my PDA,
+ 
+
+1267
+00:23:20,960 --> 00:23:22,750
+it is, when I'm recalculating my PDA,
+it's going to know immediately by just
+
+1268
+00:23:22,750 --> 00:23:22,760
+it's going to know immediately by just
+ 
+
+1269
+00:23:22,760 --> 00:23:24,910
+it's going to know immediately by just
+pulling that bump that I saved.
+
+1270
+00:23:24,910 --> 00:23:24,920
+pulling that bump that I saved.
+ 
+
+1271
+00:23:24,920 --> 00:23:27,070
+pulling that bump that I saved.
+If I don't save it, it's going to run
+
+1272
+00:23:27,070 --> 00:23:27,080
+If I don't save it, it's going to run
+ 
+
+1273
+00:23:27,080 --> 00:23:29,470
+If I don't save it, it's going to run
+through that cycle continuously until it
+
+1274
+00:23:29,470 --> 00:23:29,480
+through that cycle continuously until it
+ 
+
+1275
+00:23:29,480 --> 00:23:31,590
+through that cycle continuously until it
+finds the correct address. So, now we're
+
+1276
+00:23:31,590 --> 00:23:31,600
+finds the correct address. So, now we're
+ 
+
+1277
+00:23:31,600 --> 00:23:35,270
+finds the correct address. So, now we're
+saving like CU cycles and um
+
+1278
+00:23:35,270 --> 00:23:35,280
+saving like CU cycles and um
+ 
+
+1279
+00:23:35,280 --> 00:23:37,390
+saving like CU cycles and um
+making the contract more efficient by
+
+1280
+00:23:37,390 --> 00:23:37,400
+making the contract more efficient by
+ 
+
+1281
+00:23:37,400 --> 00:23:38,630
+making the contract more efficient by
+saving it and just being able to
+
+1282
+00:23:38,630 --> 00:23:38,640
+saving it and just being able to
+ 
+
+1283
+00:23:38,640 --> 00:23:41,750
+saving it and just being able to
+directly call that value.
+
+1284
+00:23:41,750 --> 00:23:41,760
+directly call that value.
+ 
+
+1285
+00:23:41,760 --> 00:23:43,350
+directly call that value.
+Okay. So
+
+1286
+00:23:43,350 --> 00:23:43,360
+Okay. So
+ 
+
+1287
+00:23:43,360 --> 00:23:45,230
+Okay. So
+that shows the difference between just
+
+1288
+00:23:45,230 --> 00:23:45,240
+that shows the difference between just
+ 
+
+1289
+00:23:45,240 --> 00:23:49,510
+that shows the difference between just
+signing with your
+
+1290
+00:23:49,510 --> 00:23:49,520
+
+ 
+
+1291
+00:23:49,520 --> 00:23:52,390
+
+regular CPI and signing with a PDA. And
+
+1292
+00:23:52,390 --> 00:23:52,400
+regular CPI and signing with a PDA. And
+ 
+
+1293
+00:23:52,400 --> 00:23:55,190
+regular CPI and signing with a PDA. And
+that's how we know that this is more
+
+1294
+00:23:55,190 --> 00:23:55,200
+that's how we know that this is more
+ 
+
+1295
+00:23:55,200 --> 00:23:58,270
+that's how we know that this is more
+secure of a program because the PDA is
+
+1296
+00:23:58,270 --> 00:23:58,280
+secure of a program because the PDA is
+ 
+
+1297
+00:23:58,280 --> 00:24:00,790
+secure of a program because the PDA is
+the authority here for the vaults.
+
+1298
+00:24:00,790 --> 00:24:00,800
+the authority here for the vaults.
+ 
+
+1299
+00:24:00,800 --> 00:24:02,030
+the authority here for the vaults.
+Okay.
+
+1300
+00:24:02,030 --> 00:24:02,040
+Okay.
+ 
+
+1301
+00:24:02,040 --> 00:24:04,350
+Okay.
+So, that goes over pretty much
+
+1302
+00:24:04,350 --> 00:24:04,360
+So, that goes over pretty much
+ 
+
+1303
+00:24:04,360 --> 00:24:06,270
+So, that goes over pretty much
+everything that you need for writing an
+
+1304
+00:24:06,270 --> 00:24:06,280
+everything that you need for writing an
+ 
+
+1305
+00:24:06,280 --> 00:24:08,470
+everything that you need for writing an
+escrow program.
+
+1306
+00:24:08,470 --> 00:24:08,480
+escrow program.
+ 
+
+1307
+00:24:08,480 --> 00:24:09,710
+escrow program.
+So, now that we've gone over the whole
+
+1308
+00:24:09,710 --> 00:24:09,720
+So, now that we've gone over the whole
+ 
+
+1309
+00:24:09,720 --> 00:24:11,950
+So, now that we've gone over the whole
+program, all that we have left is to
+
+1310
+00:24:11,950 --> 00:24:11,960
+program, all that we have left is to
+ 
+
+1311
+00:24:11,960 --> 00:24:13,870
+program, all that we have left is to
+build it and then test it. So, how we're
+
+1312
+00:24:13,870 --> 00:24:13,880
+build it and then test it. So, how we're
+ 
+
+1313
+00:24:13,880 --> 00:24:15,630
+build it and then test it. So, how we're
+going to build it is we're going to open
+
+1314
+00:24:15,630 --> 00:24:15,640
+going to build it is we're going to open
+ 
+
+1315
+00:24:15,640 --> 00:24:17,190
+going to build it is we're going to open
+up our terminal
+
+1316
+00:24:17,190 --> 00:24:17,200
+up our terminal
+ 
+
+1317
+00:24:17,200 --> 00:24:19,750
+up our terminal
+and just type in anchor build. So,
+
+1318
+00:24:19,750 --> 00:24:19,760
+and just type in anchor build. So,
+ 
+
+1319
+00:24:19,760 --> 00:24:22,550
+and just type in anchor build. So,
+anchor build, it's using the anchor CLI
+
+1320
+00:24:22,550 --> 00:24:22,560
+anchor build, it's using the anchor CLI
+ 
+
+1321
+00:24:22,560 --> 00:24:25,470
+anchor build, it's using the anchor CLI
+to compile all of your rust code and
+
+1322
+00:24:25,470 --> 00:24:25,480
+to compile all of your rust code and
+ 
+
+1323
+00:24:25,480 --> 00:24:28,030
+to compile all of your rust code and
+then create this target folder here. So,
+
+1324
+00:24:28,030 --> 00:24:28,040
+then create this target folder here. So,
+ 
+
+1325
+00:24:28,040 --> 00:24:30,030
+then create this target folder here. So,
+we're going to let this run and let
+
+1326
+00:24:30,030 --> 00:24:30,040
+we're going to let this run and let
+ 
+
+1327
+00:24:30,040 --> 00:24:31,990
+we're going to let this run and let
+everything compile.
+
+1328
+00:24:31,990 --> 00:24:32,000
+everything compile.
+ 
+
+1329
+00:24:32,000 --> 00:24:34,630
+everything compile.
+And here you can see it finished and
+
+1330
+00:24:34,630 --> 00:24:34,640
+And here you can see it finished and
+ 
+
+1331
+00:24:34,640 --> 00:24:36,510
+And here you can see it finished and
+compiled successfully. If you're
+
+1332
+00:24:36,510 --> 00:24:36,520
+compiled successfully. If you're
+ 
+
+1333
+00:24:36,520 --> 00:24:38,510
+compiled successfully. If you're
+following along, it's going to take a
+
+1334
+00:24:38,510 --> 00:24:38,520
+following along, it's going to take a
+ 
+
+1335
+00:24:38,520 --> 00:24:40,230
+following along, it's going to take a
+little bit more time for you because I
+
+1336
+00:24:40,230 --> 00:24:40,240
+little bit more time for you because I
+ 
+
+1337
+00:24:40,240 --> 00:24:42,470
+little bit more time for you because I
+pre-compiled this for this video.
+
+1338
+00:24:42,470 --> 00:24:42,480
+pre-compiled this for this video.
+ 
+
+1339
+00:24:42,480 --> 00:24:44,070
+pre-compiled this for this video.
+Um so
+
+1340
+00:24:44,070 --> 00:24:44,080
+Um so
+ 
+
+1341
+00:24:44,080 --> 00:24:46,150
+Um so
+just wait until it completely finishes.
+
+1342
+00:24:46,150 --> 00:24:46,160
+just wait until it completely finishes.
+ 
+
+1343
+00:24:46,160 --> 00:24:47,990
+just wait until it completely finishes.
+Once that's done, you can open your
+
+1344
+00:24:47,990 --> 00:24:48,000
+Once that's done, you can open your
+ 
+
+1345
+00:24:48,000 --> 00:24:51,750
+Once that's done, you can open your
+target directory, go to IDL, and what
+
+1346
+00:24:51,750 --> 00:24:51,760
+target directory, go to IDL, and what
+ 
+
+1347
+00:24:51,760 --> 00:24:54,470
+target directory, go to IDL, and what
+we're going to do is copy this IDL file
+
+1348
+00:24:54,470 --> 00:24:54,480
+we're going to do is copy this IDL file
+ 
+
+1349
+00:24:54,480 --> 00:24:57,750
+we're going to do is copy this IDL file
+into this IDLs directory up here. And
+
+1350
+00:24:57,750 --> 00:24:57,760
+into this IDLs directory up here. And
+ 
+
+1351
+00:24:57,760 --> 00:25:00,750
+into this IDLs directory up here. And
+the reason is so our latest VM test can
+
+1352
+00:25:00,750 --> 00:25:00,760
+the reason is so our latest VM test can
+ 
+
+1353
+00:25:00,760 --> 00:25:02,430
+the reason is so our latest VM test can
+access it. Um
+
+1354
+00:25:02,430 --> 00:25:02,440
+access it. Um
+ 
+
+1355
+00:25:02,440 --> 00:25:03,470
+access it. Um
+so
+
+1356
+00:25:03,470 --> 00:25:03,480
+so
+ 
+
+1357
+00:25:03,480 --> 00:25:04,590
+so
+now that it's compiled, we're going to
+
+1358
+00:25:04,590 --> 00:25:04,600
+now that it's compiled, we're going to
+ 
+
+1359
+00:25:04,600 --> 00:25:07,190
+now that it's compiled, we're going to
+be able to test. I will just copy this
+
+1360
+00:25:07,190 --> 00:25:07,200
+be able to test. I will just copy this
+ 
+
+1361
+00:25:07,200 --> 00:25:09,350
+be able to test. I will just copy this
+over. So, we'll go to IDL, anchor
+
+1362
+00:25:09,350 --> 00:25:09,360
+over. So, we'll go to IDL, anchor
+ 
+
+1363
+00:25:09,360 --> 00:25:11,150
+over. So, we'll go to IDL, anchor
+escrow.json
+
+1364
+00:25:11,150 --> 00:25:11,160
+escrow.json
+ 
+
+1365
+00:25:11,160 --> 00:25:14,630
+escrow.json
+and then paste it into the IDLs folder.
+
+1366
+00:25:14,630 --> 00:25:14,640
+and then paste it into the IDLs folder.
+ 
+
+1367
+00:25:14,640 --> 00:25:17,430
+and then paste it into the IDLs folder.
+Now that that is good to go
+
+1368
+00:25:17,430 --> 00:25:17,440
+Now that that is good to go
+ 
+
+1369
+00:25:17,440 --> 00:25:19,270
+Now that that is good to go
+I'll be able to run cargo test. And what
+
+1370
+00:25:19,270 --> 00:25:19,280
+I'll be able to run cargo test. And what
+ 
+
+1371
+00:25:19,280 --> 00:25:21,910
+I'll be able to run cargo test. And what
+that's going to do is run our latest VM
+
+1372
+00:25:21,910 --> 00:25:21,920
+that's going to do is run our latest VM
+ 
+
+1373
+00:25:21,920 --> 00:25:23,470
+that's going to do is run our latest VM
+test, and I'll go over how those are
+
+1374
+00:25:23,470 --> 00:25:23,480
+test, and I'll go over how those are
+ 
+
+1375
+00:25:23,480 --> 00:25:24,630
+test, and I'll go over how those are
+working.
+
+1376
+00:25:24,630 --> 00:25:24,640
+working.
+ 
+
+1377
+00:25:24,640 --> 00:25:27,110
+working.
+So, we'll do cargo test. It's going to
+
+1378
+00:25:27,110 --> 00:25:27,120
+So, we'll do cargo test. It's going to
+ 
+
+1379
+00:25:27,120 --> 00:25:32,550
+So, we'll do cargo test. It's going to
+compile and then run the tests.
+
+1380
+00:25:32,550 --> 00:25:32,560
+
+ 
+
+1381
+00:25:32,560 --> 00:25:33,990
+
+And you can see here, I'll just zoom in
+
+1382
+00:25:33,990 --> 00:25:34,000
+And you can see here, I'll just zoom in
+ 
+
+1383
+00:25:34,000 --> 00:25:37,950
+And you can see here, I'll just zoom in
+a bit so you can see it better.
+
+1384
+00:25:37,950 --> 00:25:37,960
+
+ 
+
+1385
+00:25:37,960 --> 00:25:40,190
+
+We have running one test, test the
+
+1386
+00:25:40,190 --> 00:25:40,200
+We have running one test, test the
+ 
+
+1387
+00:25:40,200 --> 00:25:43,190
+We have running one test, test the
+escrow make and take has passed. So,
+
+1388
+00:25:43,190 --> 00:25:43,200
+escrow make and take has passed. So,
+ 
+
+1389
+00:25:43,200 --> 00:25:45,750
+escrow make and take has passed. So,
+let's see what that test looks like.
+
+1390
+00:25:45,750 --> 00:25:45,760
+let's see what that test looks like.
+ 
+
+1391
+00:25:45,760 --> 00:25:48,110
+let's see what that test looks like.
+I'll
+
+1392
+00:25:48,110 --> 00:25:48,120
+I'll
+ 
+
+1393
+00:25:48,120 --> 00:25:53,990
+I'll
+zoom out, go into the test folder.
+
+1394
+00:25:53,990 --> 00:25:54,000
+
+ 
+
+1395
+00:25:54,000 --> 00:25:56,070
+
+And it's showing an error just because
+
+1396
+00:25:56,070 --> 00:25:56,080
+And it's showing an error just because
+ 
+
+1397
+00:25:56,080 --> 00:25:59,990
+And it's showing an error just because
+my rust analyzer is a little behind. Um
+
+1398
+00:25:59,990 --> 00:26:00,000
+my rust analyzer is a little behind. Um
+ 
+
+1399
+00:26:00,000 --> 00:26:01,990
+my rust analyzer is a little behind. Um
+it's just waiting to be able to read
+
+1400
+00:26:01,990 --> 00:26:02,000
+it's just waiting to be able to read
+ 
+
+1401
+00:26:02,000 --> 00:26:04,350
+it's just waiting to be able to read
+this IDL file.
+
+1402
+00:26:04,350 --> 00:26:04,360
+this IDL file.
+ 
+
+1403
+00:26:04,360 --> 00:26:06,870
+this IDL file.
+Once it fully reloads, that error error
+
+1404
+00:26:06,870 --> 00:26:06,880
+Once it fully reloads, that error error
+ 
+
+1405
+00:26:06,880 --> 00:26:09,310
+Once it fully reloads, that error error
+will go away. But for now, let's just go
+
+1406
+00:26:09,310 --> 00:26:09,320
+will go away. But for now, let's just go
+ 
+
+1407
+00:26:09,320 --> 00:26:11,030
+will go away. But for now, let's just go
+over what these tests look like. So,
+
+1408
+00:26:11,030 --> 00:26:11,040
+over what these tests look like. So,
+ 
+
+1409
+00:26:11,040 --> 00:26:13,710
+over what these tests look like. So,
+this test demonstrates a complete escrow
+
+1410
+00:26:13,710 --> 00:26:13,720
+this test demonstrates a complete escrow
+ 
+
+1411
+00:26:13,720 --> 00:26:16,150
+this test demonstrates a complete escrow
+flow using latest VM. And what latest VM
+
+1412
+00:26:16,150 --> 00:26:16,160
+flow using latest VM. And what latest VM
+ 
+
+1413
+00:26:16,160 --> 00:26:19,350
+flow using latest VM. And what latest VM
+is, it's a fast lightweight Solana
+
+1414
+00:26:19,350 --> 00:26:19,360
+is, it's a fast lightweight Solana
+ 
+
+1415
+00:26:19,360 --> 00:26:21,750
+is, it's a fast lightweight Solana
+virtual machine that's used for testing.
+
+1416
+00:26:21,750 --> 00:26:21,760
+virtual machine that's used for testing.
+ 
+
+1417
+00:26:21,760 --> 00:26:23,870
+virtual machine that's used for testing.
+So
+
+1418
+00:26:23,870 --> 00:26:23,880
+So
+ 
+
+1419
+00:26:23,880 --> 00:26:26,230
+So
+here you can see we're importing a
+
+1420
+00:26:26,230 --> 00:26:26,240
+here you can see we're importing a
+ 
+
+1421
+00:26:26,240 --> 00:26:28,590
+here you can see we're importing a
+couple crates. So, one is our anchor
+
+1422
+00:26:28,590 --> 00:26:28,600
+couple crates. So, one is our anchor
+ 
+
+1423
+00:26:28,600 --> 00:26:30,990
+couple crates. So, one is our anchor
+latest VM crate and our latest VM utils
+
+1424
+00:26:30,990 --> 00:26:31,000
+latest VM crate and our latest VM utils
+ 
+
+1425
+00:26:31,000 --> 00:26:34,710
+latest VM crate and our latest VM utils
+crate. And what that is doing is
+
+1426
+00:26:34,710 --> 00:26:34,720
+crate. And what that is doing is
+ 
+
+1427
+00:26:34,720 --> 00:26:36,830
+crate. And what that is doing is
+using latest VM, but adding some
+
+1428
+00:26:36,830 --> 00:26:36,840
+using latest VM, but adding some
+ 
+
+1429
+00:26:36,840 --> 00:26:38,870
+using latest VM, but adding some
+additional helpers to be able to make it
+
+1430
+00:26:38,870 --> 00:26:38,880
+additional helpers to be able to make it
+ 
+
+1431
+00:26:38,880 --> 00:26:40,390
+additional helpers to be able to make it
+a little bit more compatible with the
+
+1432
+00:26:40,390 --> 00:26:40,400
+a little bit more compatible with the
+ 
+
+1433
+00:26:40,400 --> 00:26:42,190
+a little bit more compatible with the
+anchor program that you're writing. So,
+
+1434
+00:26:42,190 --> 00:26:42,200
+anchor program that you're writing. So,
+ 
+
+1435
+00:26:42,200 --> 00:26:44,310
+anchor program that you're writing. So,
+you can see here, we have this anchor
+
+1436
+00:26:44,310 --> 00:26:44,320
+you can see here, we have this anchor
+ 
+
+1437
+00:26:44,320 --> 00:26:45,350
+you can see here, we have this anchor
+lang
+
+1438
+00:26:45,350 --> 00:26:45,360
+lang
+ 
+
+1439
+00:26:45,360 --> 00:26:47,150
+lang
+declare program
+
+1440
+00:26:47,150 --> 00:26:47,160
+declare program
+ 
+
+1441
+00:26:47,160 --> 00:26:50,030
+declare program
+for the anchor escrow. And what this
+
+1442
+00:26:50,030 --> 00:26:50,040
+for the anchor escrow. And what this
+ 
+
+1443
+00:26:50,040 --> 00:26:51,990
+for the anchor escrow. And what this
+does is it generates all the client
+
+1444
+00:26:51,990 --> 00:26:52,000
+does is it generates all the client
+ 
+
+1445
+00:26:52,000 --> 00:26:54,710
+does is it generates all the client
+modules for the program. So, it's kind
+
+1446
+00:26:54,710 --> 00:26:54,720
+modules for the program. So, it's kind
+ 
+
+1447
+00:26:54,720 --> 00:26:57,310
+modules for the program. So, it's kind
+of like this magic line that helps you
+
+1448
+00:26:57,310 --> 00:26:57,320
+of like this magic line that helps you
+ 
+
+1449
+00:26:57,320 --> 00:26:59,630
+of like this magic line that helps you
+keep all of your code type safe, and
+
+1450
+00:26:59,630 --> 00:26:59,640
+keep all of your code type safe, and
+ 
+
+1451
+00:26:59,640 --> 00:27:02,070
+keep all of your code type safe, and
+it's referencing this IDL that we pasted
+
+1452
+00:27:02,070 --> 00:27:02,080
+it's referencing this IDL that we pasted
+ 
+
+1453
+00:27:02,080 --> 00:27:04,030
+it's referencing this IDL that we pasted
+over here. So, by using this, you don't
+
+1454
+00:27:04,030 --> 00:27:04,040
+over here. So, by using this, you don't
+ 
+
+1455
+00:27:04,040 --> 00:27:07,430
+over here. So, by using this, you don't
+need any manual serialization. Now,
+
+1456
+00:27:07,430 --> 00:27:07,440
+need any manual serialization. Now,
+ 
+
+1457
+00:27:07,440 --> 00:27:09,270
+need any manual serialization. Now,
+we're going to just go through the test.
+
+1458
+00:27:09,270 --> 00:27:09,280
+we're going to just go through the test.
+ 
+
+1459
+00:27:09,280 --> 00:27:11,510
+we're going to just go through the test.
+All it's doing is
+
+1460
+00:27:11,510 --> 00:27:11,520
+All it's doing is
+ 
+
+1461
+00:27:11,520 --> 00:27:13,350
+All it's doing is
+setting up your latest VM environment.
+
+1462
+00:27:13,350 --> 00:27:13,360
+setting up your latest VM environment.
+ 
+
+1463
+00:27:13,360 --> 00:27:15,390
+setting up your latest VM environment.
+So, you can see right here where it has
+
+1464
+00:27:15,390 --> 00:27:15,400
+So, you can see right here where it has
+ 
+
+1465
+00:27:15,400 --> 00:27:17,790
+So, you can see right here where it has
+anchor latest VM build with program, and
+
+1466
+00:27:17,790 --> 00:27:17,800
+anchor latest VM build with program, and
+ 
+
+1467
+00:27:17,800 --> 00:27:19,830
+anchor latest VM build with program, and
+it is referencing your program ID and
+
+1468
+00:27:19,830 --> 00:27:19,840
+it is referencing your program ID and
+ 
+
+1469
+00:27:19,840 --> 00:27:22,630
+it is referencing your program ID and
+the program bytes to your .so file. This
+
+1470
+00:27:22,630 --> 00:27:22,640
+the program bytes to your .so file. This
+ 
+
+1471
+00:27:22,640 --> 00:27:24,150
+the program bytes to your .so file. This
+is where it's able to actually read the
+
+1472
+00:27:24,150 --> 00:27:24,160
+is where it's able to actually read the
+ 
+
+1473
+00:27:24,160 --> 00:27:26,550
+is where it's able to actually read the
+program and test against it. And it's
+
+1474
+00:27:26,550 --> 00:27:26,560
+program and test against it. And it's
+ 
+
+1475
+00:27:26,560 --> 00:27:28,710
+program and test against it. And it's
+using this, running it against the
+
+1476
+00:27:28,710 --> 00:27:28,720
+using this, running it against the
+ 
+
+1477
+00:27:28,720 --> 00:27:30,710
+using this, running it against the
+Solana virtual machine that latest VM is
+
+1478
+00:27:30,710 --> 00:27:30,720
+Solana virtual machine that latest VM is
+ 
+
+1479
+00:27:30,720 --> 00:27:33,270
+Solana virtual machine that latest VM is
+running, and then being able to test as
+
+1480
+00:27:33,270 --> 00:27:33,280
+running, and then being able to test as
+ 
+
+1481
+00:27:33,280 --> 00:27:34,750
+running, and then being able to test as
+if it's running in a real blockchain
+
+1482
+00:27:34,750 --> 00:27:34,760
+if it's running in a real blockchain
+ 
+
+1483
+00:27:34,760 --> 00:27:37,790
+if it's running in a real blockchain
+environment. Which is why you're able to
+
+1484
+00:27:37,790 --> 00:27:37,800
+environment. Which is why you're able to
+ 
+
+1485
+00:27:37,800 --> 00:27:40,150
+environment. Which is why you're able to
+create test accounts and create token
+
+1486
+00:27:40,150 --> 00:27:40,160
+create test accounts and create token
+ 
+
+1487
+00:27:40,160 --> 00:27:42,150
+create test accounts and create token
+mints and fund those token accounts to
+
+1488
+00:27:42,150 --> 00:27:42,160
+mints and fund those token accounts to
+ 
+
+1489
+00:27:42,160 --> 00:27:44,510
+mints and fund those token accounts to
+be able to fully like emulate what you
+
+1490
+00:27:44,510 --> 00:27:44,520
+be able to fully like emulate what you
+ 
+
+1491
+00:27:44,520 --> 00:27:46,630
+be able to fully like emulate what you
+want your environment to look like. So,
+
+1492
+00:27:46,630 --> 00:27:46,640
+want your environment to look like. So,
+ 
+
+1493
+00:27:46,640 --> 00:27:48,310
+want your environment to look like. So,
+we have everything set up here for our
+
+1494
+00:27:48,310 --> 00:27:48,320
+we have everything set up here for our
+ 
+
+1495
+00:27:48,320 --> 00:27:49,870
+we have everything set up here for our
+environment.
+
+1496
+00:27:49,870 --> 00:27:49,880
+environment.
+ 
+
+1497
+00:27:49,880 --> 00:27:51,830
+environment.
+We're also creating token accounts to be
+
+1498
+00:27:51,830 --> 00:27:51,840
+We're also creating token accounts to be
+ 
+
+1499
+00:27:51,840 --> 00:27:53,190
+We're also creating token accounts to be
+able to interact with our escrow
+
+1500
+00:27:53,190 --> 00:27:53,200
+able to interact with our escrow
+ 
+
+1501
+00:27:53,200 --> 00:27:55,990
+able to interact with our escrow
+program. And then once all of that is
+
+1502
+00:27:55,990 --> 00:27:56,000
+program. And then once all of that is
+ 
+
+1503
+00:27:56,000 --> 00:27:57,870
+program. And then once all of that is
+created, you're going to be able to
+
+1504
+00:27:57,870 --> 00:27:57,880
+created, you're going to be able to
+ 
+
+1505
+00:27:57,880 --> 00:28:01,550
+created, you're going to be able to
+actually call the
+
+1506
+00:28:01,550 --> 00:28:01,560
+
+ 
+
+1507
+00:28:01,560 --> 00:28:04,350
+
+here we're calling the make instruction
+
+1508
+00:28:04,350 --> 00:28:04,360
+here we're calling the make instruction
+ 
+
+1509
+00:28:04,360 --> 00:28:05,590
+here we're calling the make instruction
+and we're passing through all of the
+
+1510
+00:28:05,590 --> 00:28:05,600
+and we're passing through all of the
+ 
+
+1511
+00:28:05,600 --> 00:28:07,350
+and we're passing through all of the
+accounts that are needed for that
+
+1512
+00:28:07,350 --> 00:28:07,360
+accounts that are needed for that
+ 
+
+1513
+00:28:07,360 --> 00:28:09,310
+accounts that are needed for that
+instruction. So, if you remember when we
+
+1514
+00:28:09,310 --> 00:28:09,320
+instruction. So, if you remember when we
+ 
+
+1515
+00:28:09,320 --> 00:28:11,390
+instruction. So, if you remember when we
+were writing the program, we have that
+
+1516
+00:28:11,390 --> 00:28:11,400
+were writing the program, we have that
+ 
+
+1517
+00:28:11,400 --> 00:28:13,070
+were writing the program, we have that
+derived account struct where you're
+
+1518
+00:28:13,070 --> 00:28:13,080
+derived account struct where you're
+ 
+
+1519
+00:28:13,080 --> 00:28:14,630
+derived account struct where you're
+specifying
+
+1520
+00:28:14,630 --> 00:28:14,640
+specifying
+ 
+
+1521
+00:28:14,640 --> 00:28:16,310
+specifying
+all of the accounts that the instruction
+
+1522
+00:28:16,310 --> 00:28:16,320
+all of the accounts that the instruction
+ 
+
+1523
+00:28:16,320 --> 00:28:18,630
+all of the accounts that the instruction
+is going to need to interact with. And
+
+1524
+00:28:18,630 --> 00:28:18,640
+is going to need to interact with. And
+ 
+
+1525
+00:28:18,640 --> 00:28:20,430
+is going to need to interact with. And
+here you're going to specify them once
+
+1526
+00:28:20,430 --> 00:28:20,440
+here you're going to specify them once
+ 
+
+1527
+00:28:20,440 --> 00:28:21,510
+here you're going to specify them once
+again when you're testing out the
+
+1528
+00:28:21,510 --> 00:28:21,520
+again when you're testing out the
+ 
+
+1529
+00:28:21,520 --> 00:28:23,830
+again when you're testing out the
+program. So, we're calling the make
+
+1530
+00:28:23,830 --> 00:28:23,840
+program. So, we're calling the make
+ 
+
+1531
+00:28:23,840 --> 00:28:26,149
+program. So, we're calling the make
+instruction, defining every account that
+
+1532
+00:28:26,149 --> 00:28:26,159
+instruction, defining every account that
+ 
+
+1533
+00:28:26,159 --> 00:28:28,830
+instruction, defining every account that
+it interacts with that you can verify in
+
+1534
+00:28:28,830 --> 00:28:28,840
+it interacts with that you can verify in
+ 
+
+1535
+00:28:28,840 --> 00:28:30,350
+it interacts with that you can verify in
+your derived account struct that you
+
+1536
+00:28:30,350 --> 00:28:30,360
+your derived account struct that you
+ 
+
+1537
+00:28:30,360 --> 00:28:31,830
+your derived account struct that you
+wrote in the program.
+
+1538
+00:28:31,830 --> 00:28:31,840
+wrote in the program.
+ 
+
+1539
+00:28:31,840 --> 00:28:33,590
+wrote in the program.
+And then you're specifying all of the
+
+1540
+00:28:33,590 --> 00:28:33,600
+And then you're specifying all of the
+ 
+
+1541
+00:28:33,600 --> 00:28:35,110
+And then you're specifying all of the
+arguments that need to be passed
+
+1542
+00:28:35,110 --> 00:28:35,120
+arguments that need to be passed
+ 
+
+1543
+00:28:35,120 --> 00:28:37,510
+arguments that need to be passed
+through. And then once you unwrap that
+
+1544
+00:28:37,510 --> 00:28:37,520
+through. And then once you unwrap that
+ 
+
+1545
+00:28:37,520 --> 00:28:39,669
+through. And then once you unwrap that
+function, you're able to execute the
+
+1546
+00:28:39,669 --> 00:28:39,679
+function, you're able to execute the
+ 
+
+1547
+00:28:39,679 --> 00:28:43,030
+function, you're able to execute the
+instruction on your latest VM virtual
+
+1548
+00:28:43,030 --> 00:28:43,040
+instruction on your latest VM virtual
+ 
+
+1549
+00:28:43,040 --> 00:28:44,070
+instruction on your latest VM virtual
+machine.
+
+1550
+00:28:44,070 --> 00:28:44,080
+machine.
+ 
+
+1551
+00:28:44,080 --> 00:28:45,990
+machine.
+And then we're just asserting to make
+
+1552
+00:28:45,990 --> 00:28:46,000
+And then we're just asserting to make
+ 
+
+1553
+00:28:46,000 --> 00:28:49,230
+And then we're just asserting to make
+sure that everything
+
+1554
+00:28:49,230 --> 00:28:49,240
+sure that everything
+ 
+
+1555
+00:28:49,240 --> 00:28:51,149
+sure that everything
+resolves how we want once that once the
+
+1556
+00:28:51,149 --> 00:28:51,159
+resolves how we want once that once the
+ 
+
+1557
+00:28:51,159 --> 00:28:53,070
+resolves how we want once that once the
+instruction is executed. And then we're
+
+1558
+00:28:53,070 --> 00:28:53,080
+instruction is executed. And then we're
+ 
+
+1559
+00:28:53,080 --> 00:28:55,909
+instruction is executed. And then we're
+able to now test the take instruction as
+
+1560
+00:28:55,909 --> 00:28:55,919
+able to now test the take instruction as
+ 
+
+1561
+00:28:55,919 --> 00:28:58,590
+able to now test the take instruction as
+well. And this follows the entire escrow
+
+1562
+00:28:58,590 --> 00:28:58,600
+well. And this follows the entire escrow
+ 
+
+1563
+00:28:58,600 --> 00:29:00,909
+well. And this follows the entire escrow
+flow. We're able to make an escrow, have
+
+1564
+00:29:00,909 --> 00:29:00,919
+flow. We're able to make an escrow, have
+ 
+
+1565
+00:29:00,919 --> 00:29:04,750
+flow. We're able to make an escrow, have
+the logic be defined, and then once it
+
+1566
+00:29:04,750 --> 00:29:04,760
+the logic be defined, and then once it
+ 
+
+1567
+00:29:04,760 --> 00:29:07,790
+the logic be defined, and then once it
+is met, we're able to have the take
+
+1568
+00:29:07,790 --> 00:29:07,800
+is met, we're able to have the take
+ 
+
+1569
+00:29:07,800 --> 00:29:10,350
+is met, we're able to have the take
+instruction called to be able to
+
+1570
+00:29:10,350 --> 00:29:10,360
+instruction called to be able to
+ 
+
+1571
+00:29:10,360 --> 00:29:12,310
+instruction called to be able to
+finalize that interaction between the
+
+1572
+00:29:12,310 --> 00:29:12,320
+finalize that interaction between the
+ 
+
+1573
+00:29:12,320 --> 00:29:14,950
+finalize that interaction between the
+maker and the taker. So
+
+1574
+00:29:14,950 --> 00:29:14,960
+maker and the taker. So
+ 
+
+1575
+00:29:14,960 --> 00:29:16,750
+maker and the taker. So
+there's your escrow program. You have
+
+1576
+00:29:16,750 --> 00:29:16,760
+there's your escrow program. You have
+ 
+
+1577
+00:29:16,760 --> 00:29:18,470
+there's your escrow program. You have
+your tests. You can see the test passed
+
+1578
+00:29:18,470 --> 00:29:18,480
+your tests. You can see the test passed
+ 
+
+1579
+00:29:18,480 --> 00:29:21,669
+your tests. You can see the test passed
+down here, and you're good to go. So,
+
+1580
+00:29:21,669 --> 00:29:21,679
+down here, and you're good to go. So,
+ 
+
+1581
+00:29:21,679 --> 00:29:23,190
+down here, and you're good to go. So,
+that was
+
+1582
+00:29:23,190 --> 00:29:23,200
+that was
+ 
+
+1583
+00:29:23,200 --> 00:29:25,510
+that was
+your escrow anchor project for the
+
+1584
+00:29:25,510 --> 00:29:25,520
+your escrow anchor project for the
+ 
+
+1585
+00:29:25,520 --> 00:29:28,110
+your escrow anchor project for the
+bootcamp, and stay tuned for what's
+
+1586
+00:29:28,110 --> 00:29:28,120
+bootcamp, and stay tuned for what's
+ 
+
+1587
+00:29:28,120 --> 00:29:30,720
+bootcamp, and stay tuned for what's
+next.
+

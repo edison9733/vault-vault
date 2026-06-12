@@ -1,0 +1,1 @@
+AI safety company founded in 2021 by former OpenAI researchers. Produces the Claude model family. Positioned by Google at I/O 2026 as a key rival in the race to become the "interface to reality" — Google stated its goal is to get there before Anthropic and OpenAI.

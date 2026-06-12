@@ -1,0 +1,2015 @@
+1
+00:00:00,000 --> 00:00:01,750
+
+Yesterday in a federal courthouse in
+
+2
+00:00:01,750 --> 00:00:01,760
+Yesterday in a federal courthouse in
+ 
+
+3
+00:00:01,760 --> 00:00:04,110
+Yesterday in a federal courthouse in
+Oakland, the trial of the century, Musk
+
+4
+00:00:04,110 --> 00:00:04,120
+Oakland, the trial of the century, Musk
+ 
+
+5
+00:00:04,120 --> 00:00:05,990
+Oakland, the trial of the century, Musk
+versus Altman, began its closing
+
+6
+00:00:05,990 --> 00:00:06,000
+versus Altman, began its closing
+ 
+
+7
+00:00:06,000 --> 00:00:08,190
+versus Altman, began its closing
+arguments. And so far, this trial has
+
+8
+00:00:08,190 --> 00:00:08,200
+arguments. And so far, this trial has
+ 
+
+9
+00:00:08,200 --> 00:00:10,030
+arguments. And so far, this trial has
+felt like a Silicon Valley episode
+
+10
+00:00:10,030 --> 00:00:10,040
+felt like a Silicon Valley episode
+ 
+
+11
+00:00:10,040 --> 00:00:11,790
+felt like a Silicon Valley episode
+written by someone on bath salts. The
+
+12
+00:00:11,790 --> 00:00:11,800
+written by someone on bath salts. The
+ 
+
+13
+00:00:11,800 --> 00:00:14,190
+written by someone on bath salts. The
+richest and sexiest man alive, Elon
+
+14
+00:00:14,190 --> 00:00:14,200
+richest and sexiest man alive, Elon
+ 
+
+15
+00:00:14,200 --> 00:00:16,830
+richest and sexiest man alive, Elon
+Musk, is currently suing a poor gay man,
+
+16
+00:00:16,830 --> 00:00:16,840
+Musk, is currently suing a poor gay man,
+ 
+
+17
+00:00:16,840 --> 00:00:18,910
+Musk, is currently suing a poor gay man,
+Sam Altman, and his friends at OpenAI
+
+18
+00:00:18,910 --> 00:00:18,920
+Sam Altman, and his friends at OpenAI
+ 
+
+19
+00:00:18,920 --> 00:00:21,710
+Sam Altman, and his friends at OpenAI
+and Microsoft for $134 billion.
+
+20
+00:00:21,710 --> 00:00:21,720
+and Microsoft for $134 billion.
+ 
+
+21
+00:00:21,720 --> 00:00:23,510
+and Microsoft for $134 billion.
+Elon says they stole an open-source
+
+22
+00:00:23,510 --> 00:00:23,520
+Elon says they stole an open-source
+ 
+
+23
+00:00:23,520 --> 00:00:25,030
+Elon says they stole an open-source
+charity and turned it into a
+
+24
+00:00:25,030 --> 00:00:25,040
+charity and turned it into a
+ 
+
+25
+00:00:25,040 --> 00:00:26,710
+charity and turned it into a
+closed-source money printer. While
+
+26
+00:00:26,710 --> 00:00:26,720
+closed-source money printer. While
+ 
+
+27
+00:00:26,720 --> 00:00:29,390
+closed-source money printer. While
+Altman says he owns no OpenAI equity and
+
+28
+00:00:29,390 --> 00:00:29,400
+Altman says he owns no OpenAI equity and
+ 
+
+29
+00:00:29,400 --> 00:00:30,990
+Altman says he owns no OpenAI equity and
+is just doing this because he loves it.
+
+30
+00:00:30,990 --> 00:00:31,000
+is just doing this because he loves it.
+ 
+
+31
+00:00:31,000 --> 00:00:33,190
+is just doing this because he loves it.
+I I'm doing this cuz I love it. The
+
+32
+00:00:33,190 --> 00:00:33,200
+I I'm doing this cuz I love it. The
+ 
+
+33
+00:00:33,200 --> 00:00:35,270
+I I'm doing this cuz I love it. The
+supporting cast includes Greg Brockman,
+
+34
+00:00:35,270 --> 00:00:35,280
+supporting cast includes Greg Brockman,
+ 
+
+35
+00:00:35,280 --> 00:00:37,310
+supporting cast includes Greg Brockman,
+who somehow owns $30 billion of the
+
+36
+00:00:37,310 --> 00:00:37,320
+who somehow owns $30 billion of the
+ 
+
+37
+00:00:37,320 --> 00:00:39,710
+who somehow owns $30 billion of the
+thing Sam doesn't own. Ilya Sutskever,
+
+38
+00:00:39,710 --> 00:00:39,720
+thing Sam doesn't own. Ilya Sutskever,
+ 
+
+39
+00:00:39,720 --> 00:00:41,990
+thing Sam doesn't own. Ilya Sutskever,
+the vibes-based AI safety priest. Mira
+
+40
+00:00:41,990 --> 00:00:42,000
+the vibes-based AI safety priest. Mira
+ 
+
+41
+00:00:42,000 --> 00:00:44,230
+the vibes-based AI safety priest. Mira
+Murati, Sam's Brutus. And Saadia
+
+42
+00:00:44,230 --> 00:00:44,240
+Murati, Sam's Brutus. And Saadia
+ 
+
+43
+00:00:44,240 --> 00:00:46,390
+Murati, Sam's Brutus. And Saadia
+Natella, the only adult in the room. And
+
+44
+00:00:46,390 --> 00:00:46,400
+Natella, the only adult in the room. And
+ 
+
+45
+00:00:46,400 --> 00:00:47,790
+Natella, the only adult in the room. And
+every single one of them has their
+
+46
+00:00:47,790 --> 00:00:47,800
+every single one of them has their
+ 
+
+47
+00:00:47,800 --> 00:00:50,430
+every single one of them has their
+texts, emails, and private diary entries
+
+48
+00:00:50,430 --> 00:00:50,440
+texts, emails, and private diary entries
+ 
+
+49
+00:00:50,440 --> 00:00:52,510
+texts, emails, and private diary entries
+entered into evidence. In today's video,
+
+50
+00:00:52,510 --> 00:00:52,520
+entered into evidence. In today's video,
+ 
+
+51
+00:00:52,520 --> 00:00:53,950
+entered into evidence. In today's video,
+we'll break down all the absurdities
+
+52
+00:00:53,950 --> 00:00:53,960
+we'll break down all the absurdities
+ 
+
+53
+00:00:53,960 --> 00:00:55,710
+we'll break down all the absurdities
+discovered throughout this lawsuit and
+
+54
+00:00:55,710 --> 00:00:55,720
+discovered throughout this lawsuit and
+ 
+
+55
+00:00:55,720 --> 00:00:57,710
+discovered throughout this lawsuit and
+find out who's going to win, probably.
+
+56
+00:00:57,710 --> 00:00:57,720
+find out who's going to win, probably.
+ 
+
+57
+00:00:57,720 --> 00:01:00,110
+find out who's going to win, probably.
+It is May 15th, 2026, and you're
+
+58
+00:01:00,110 --> 00:01:00,120
+It is May 15th, 2026, and you're
+ 
+
+59
+00:01:00,120 --> 00:01:01,910
+It is May 15th, 2026, and you're
+watching The Code Report. The Musk
+
+60
+00:01:01,910 --> 00:01:01,920
+watching The Code Report. The Musk
+ 
+
+61
+00:01:01,920 --> 00:01:03,790
+watching The Code Report. The Musk
+versus Altman lawsuit was filed 2 years
+
+62
+00:01:03,790 --> 00:01:03,800
+versus Altman lawsuit was filed 2 years
+ 
+
+63
+00:01:03,800 --> 00:01:06,150
+versus Altman lawsuit was filed 2 years
+ago in 2024, but the drama goes back
+
+64
+00:01:06,150 --> 00:01:06,160
+ago in 2024, but the drama goes back
+ 
+
+65
+00:01:06,160 --> 00:01:09,230
+ago in 2024, but the drama goes back
+over a decade. In 2015, Elon, Sam, Greg
+
+66
+00:01:09,230 --> 00:01:09,240
+over a decade. In 2015, Elon, Sam, Greg
+ 
+
+67
+00:01:09,240 --> 00:01:11,190
+over a decade. In 2015, Elon, Sam, Greg
+Brockman, and Ilya Sutskever founded
+
+68
+00:01:11,190 --> 00:01:11,200
+Brockman, and Ilya Sutskever founded
+ 
+
+69
+00:01:11,200 --> 00:01:13,590
+Brockman, and Ilya Sutskever founded
+OpenAI as a nonprofit to save humanity
+
+70
+00:01:13,590 --> 00:01:13,600
+OpenAI as a nonprofit to save humanity
+ 
+
+71
+00:01:13,600 --> 00:01:16,310
+OpenAI as a nonprofit to save humanity
+from evil. Elon donated $38 million,
+
+72
+00:01:16,310 --> 00:01:16,320
+from evil. Elon donated $38 million,
+ 
+
+73
+00:01:16,320 --> 00:01:18,550
+from evil. Elon donated $38 million,
+then tried to take it over, lost, rage
+
+74
+00:01:18,550 --> 00:01:18,560
+then tried to take it over, lost, rage
+ 
+
+75
+00:01:18,560 --> 00:01:21,390
+then tried to take it over, lost, rage
+quit the board in 2018, and started xAI.
+
+76
+00:01:21,390 --> 00:01:21,400
+quit the board in 2018, and started xAI.
+ 
+
+77
+00:01:21,400 --> 00:01:23,390
+quit the board in 2018, and started xAI.
+Meanwhile, OpenAI pulled this trick
+
+78
+00:01:23,390 --> 00:01:23,400
+Meanwhile, OpenAI pulled this trick
+ 
+
+79
+00:01:23,400 --> 00:01:24,790
+Meanwhile, OpenAI pulled this trick
+where they bolted a for-profit
+
+80
+00:01:24,790 --> 00:01:24,800
+where they bolted a for-profit
+ 
+
+81
+00:01:24,800 --> 00:01:27,310
+where they bolted a for-profit
+subsidiary onto the nonprofit, it cashed
+
+82
+00:01:27,310 --> 00:01:27,320
+subsidiary onto the nonprofit, it cashed
+ 
+
+83
+00:01:27,320 --> 00:01:29,870
+subsidiary onto the nonprofit, it cashed
+a $13 billion check from Microsoft, and
+
+84
+00:01:29,870 --> 00:01:29,880
+a $13 billion check from Microsoft, and
+ 
+
+85
+00:01:29,880 --> 00:01:31,870
+a $13 billion check from Microsoft, and
+is now approaching a valuation of nearly
+
+86
+00:01:31,870 --> 00:01:31,880
+is now approaching a valuation of nearly
+ 
+
+87
+00:01:31,880 --> 00:01:34,790
+is now approaching a valuation of nearly
+$1 trillion. In 2024, Musk couldn't take
+
+88
+00:01:34,790 --> 00:01:34,800
+$1 trillion. In 2024, Musk couldn't take
+ 
+
+89
+00:01:34,800 --> 00:01:39,030
+$1 trillion. In 2024, Musk couldn't take
+it anymore.
+
+90
+00:01:39,030 --> 00:01:39,040
+
+ 
+
+91
+00:01:39,040 --> 00:01:41,430
+
+I just can't do it. I can't take this
+
+92
+00:01:41,430 --> 00:01:41,440
+I just can't do it. I can't take this
+ 
+
+93
+00:01:41,440 --> 00:01:43,550
+I just can't do it. I can't take this
+ no more, man. His claim is that
+
+94
+00:01:43,550 --> 00:01:43,560
+no more, man. His claim is that
+ 
+
+95
+00:01:43,560 --> 00:01:45,430
+no more, man. His claim is that
+Altman and Brockman stole a charity,
+
+96
+00:01:45,430 --> 00:01:45,440
+Altman and Brockman stole a charity,
+ 
+
+97
+00:01:45,440 --> 00:01:47,270
+Altman and Brockman stole a charity,
+breached a charitable trust, and
+
+98
+00:01:47,270 --> 00:01:47,280
+breached a charitable trust, and
+ 
+
+99
+00:01:47,280 --> 00:01:49,150
+breached a charitable trust, and
+Microsoft aided and abetted them. What
+
+100
+00:01:49,150 --> 00:01:49,160
+Microsoft aided and abetted them. What
+ 
+
+101
+00:01:49,160 --> 00:01:51,230
+Microsoft aided and abetted them. What
+he wants in return is a disgorgement of
+
+102
+00:01:51,230 --> 00:01:51,240
+he wants in return is a disgorgement of
+ 
+
+103
+00:01:51,240 --> 00:01:54,110
+he wants in return is a disgorgement of
+up to $134 billion, and plus they need
+
+104
+00:01:54,110 --> 00:01:54,120
+up to $134 billion, and plus they need
+ 
+
+105
+00:01:54,120 --> 00:01:56,270
+up to $134 billion, and plus they need
+to unwind the for-profit conversion and
+
+106
+00:01:56,270 --> 00:01:56,280
+to unwind the for-profit conversion and
+ 
+
+107
+00:01:56,280 --> 00:01:58,190
+to unwind the for-profit conversion and
+remove Altman and Brockman. But now
+
+108
+00:01:58,190 --> 00:01:58,200
+remove Altman and Brockman. But now
+ 
+
+109
+00:01:58,200 --> 00:01:59,750
+remove Altman and Brockman. But now
+here's the fun part. This trial's
+
+110
+00:01:59,750 --> 00:01:59,760
+here's the fun part. This trial's
+ 
+
+111
+00:01:59,760 --> 00:02:01,670
+here's the fun part. This trial's
+discovery has basically been a giant
+
+112
+00:02:01,670 --> 00:02:01,680
+discovery has basically been a giant
+ 
+
+113
+00:02:01,680 --> 00:02:03,190
+discovery has basically been a giant
+group chat leak between all these
+
+114
+00:02:03,190 --> 00:02:03,200
+group chat leak between all these
+ 
+
+115
+00:02:03,200 --> 00:02:05,510
+group chat leak between all these
+executives. In exhibit A, we have emails
+
+116
+00:02:05,510 --> 00:02:05,520
+executives. In exhibit A, we have emails
+ 
+
+117
+00:02:05,520 --> 00:02:07,910
+executives. In exhibit A, we have emails
+between Sam and Elon where we find out
+
+118
+00:02:07,910 --> 00:02:07,920
+between Sam and Elon where we find out
+ 
+
+119
+00:02:07,920 --> 00:02:09,910
+between Sam and Elon where we find out
+that OpenAI was almost called something
+
+120
+00:02:09,910 --> 00:02:09,920
+that OpenAI was almost called something
+ 
+
+121
+00:02:09,920 --> 00:02:11,710
+that OpenAI was almost called something
+entirely different. Elon wanted to call
+
+122
+00:02:11,710 --> 00:02:11,720
+entirely different. Elon wanted to call
+ 
+
+123
+00:02:11,720 --> 00:02:13,470
+entirely different. Elon wanted to call
+it Freethink and Sam wanted to call it
+
+124
+00:02:13,470 --> 00:02:13,480
+it Freethink and Sam wanted to call it
+ 
+
+125
+00:02:13,480 --> 00:02:15,310
+it Freethink and Sam wanted to call it
+Axon. But in hindsight, the best name
+
+126
+00:02:15,310 --> 00:02:15,320
+Axon. But in hindsight, the best name
+ 
+
+127
+00:02:15,320 --> 00:02:17,030
+Axon. But in hindsight, the best name
+for it would have been ClosedAI. In
+
+128
+00:02:17,030 --> 00:02:17,040
+for it would have been ClosedAI. In
+ 
+
+129
+00:02:17,040 --> 00:02:19,949
+for it would have been ClosedAI. In
+exhibit B from 2017, OpenAI's tech had
+
+130
+00:02:19,949 --> 00:02:19,959
+exhibit B from 2017, OpenAI's tech had
+ 
+
+131
+00:02:19,959 --> 00:02:21,470
+exhibit B from 2017, OpenAI's tech had
+just beat the best humans on Earth at
+
+132
+00:02:21,470 --> 00:02:21,480
+just beat the best humans on Earth at
+ 
+
+133
+00:02:21,480 --> 00:02:23,949
+just beat the best humans on Earth at
+Dota 2. Elon got a mega huge boner and
+
+134
+00:02:23,949 --> 00:02:23,959
+Dota 2. Elon got a mega huge boner and
+ 
+
+135
+00:02:23,959 --> 00:02:25,430
+Dota 2. Elon got a mega huge boner and
+emailed the team that it's time to take
+
+136
+00:02:25,430 --> 00:02:25,440
+emailed the team that it's time to take
+ 
+
+137
+00:02:25,440 --> 00:02:27,150
+emailed the team that it's time to take
+the next step for OpenAI, which
+
+138
+00:02:27,150 --> 00:02:27,160
+the next step for OpenAI, which
+ 
+
+139
+00:02:27,160 --> 00:02:28,710
+the next step for OpenAI, which
+translated into converting it from
+
+140
+00:02:28,710 --> 00:02:28,720
+translated into converting it from
+ 
+
+141
+00:02:28,720 --> 00:02:30,750
+translated into converting it from
+non-profit to for-profit with Elon as
+
+142
+00:02:30,750 --> 00:02:30,760
+non-profit to for-profit with Elon as
+ 
+
+143
+00:02:30,760 --> 00:02:33,310
+non-profit to for-profit with Elon as
+CEO and as the majority shareholder. But
+
+144
+00:02:33,310 --> 00:02:33,320
+CEO and as the majority shareholder. But
+ 
+
+145
+00:02:33,320 --> 00:02:34,670
+CEO and as the majority shareholder. But
+the craziest part is the meeting
+
+146
+00:02:34,670 --> 00:02:34,680
+the craziest part is the meeting
+ 
+
+147
+00:02:34,680 --> 00:02:36,910
+the craziest part is the meeting
+location. Quote, "The haunted mansion I
+
+148
+00:02:36,910 --> 00:02:36,920
+location. Quote, "The haunted mansion I
+ 
+
+149
+00:02:36,920 --> 00:02:38,550
+location. Quote, "The haunted mansion I
+just bought near San Francisco."
+
+150
+00:02:38,550 --> 00:02:38,560
+just bought near San Francisco."
+ 
+
+151
+00:02:38,560 --> 00:02:40,390
+just bought near San Francisco."
+According to Brockman's testimony under
+
+152
+00:02:40,390 --> 00:02:40,400
+According to Brockman's testimony under
+ 
+
+153
+00:02:40,400 --> 00:02:42,030
+According to Brockman's testimony under
+oath, the house was still littered with
+
+154
+00:02:42,030 --> 00:02:42,040
+oath, the house was still littered with
+ 
+
+155
+00:02:42,040 --> 00:02:43,949
+oath, the house was still littered with
+confetti and red solo cups from a party
+
+156
+00:02:43,949 --> 00:02:43,959
+confetti and red solo cups from a party
+ 
+
+157
+00:02:43,959 --> 00:02:45,670
+confetti and red solo cups from a party
+the night before and Amber Heard was
+
+158
+00:02:45,670 --> 00:02:45,680
+the night before and Amber Heard was
+ 
+
+159
+00:02:45,680 --> 00:02:47,630
+the night before and Amber Heard was
+there serving whiskey. And just a few
+
+160
+00:02:47,630 --> 00:02:47,640
+there serving whiskey. And just a few
+ 
+
+161
+00:02:47,640 --> 00:02:49,470
+there serving whiskey. And just a few
+weeks earlier, Elon had gifted each
+
+162
+00:02:49,470 --> 00:02:49,480
+weeks earlier, Elon had gifted each
+ 
+
+163
+00:02:49,480 --> 00:02:51,830
+weeks earlier, Elon had gifted each
+co-founder a brand new Tesla Model 3.
+
+164
+00:02:51,830 --> 00:02:51,840
+co-founder a brand new Tesla Model 3.
+ 
+
+165
+00:02:51,840 --> 00:02:53,630
+co-founder a brand new Tesla Model 3.
+But all this buttering up didn't work
+
+166
+00:02:53,630 --> 00:02:53,640
+But all this buttering up didn't work
+ 
+
+167
+00:02:53,640 --> 00:02:55,190
+But all this buttering up didn't work
+and eventually the other co-founders
+
+168
+00:02:55,190 --> 00:02:55,200
+and eventually the other co-founders
+ 
+
+169
+00:02:55,200 --> 00:02:57,550
+and eventually the other co-founders
+proposed equal equity. Ilya Sutskever
+
+170
+00:02:57,550 --> 00:02:57,560
+proposed equal equity. Ilya Sutskever
+ 
+
+171
+00:02:57,560 --> 00:02:59,030
+proposed equal equity. Ilya Sutskever
+had even commissioned a painting of a
+
+172
+00:02:59,030 --> 00:02:59,040
+had even commissioned a painting of a
+ 
+
+173
+00:02:59,040 --> 00:03:00,550
+had even commissioned a painting of a
+Tesla to give to Musk as a peace
+
+174
+00:03:00,550 --> 00:03:00,560
+Tesla to give to Musk as a peace
+ 
+
+175
+00:03:00,560 --> 00:03:02,270
+Tesla to give to Musk as a peace
+offering. But according to Brockman,
+
+176
+00:03:02,270 --> 00:03:02,280
+offering. But according to Brockman,
+ 
+
+177
+00:03:02,280 --> 00:03:04,310
+offering. But according to Brockman,
+their proposal made Elon furious. He
+
+178
+00:03:04,310 --> 00:03:04,320
+their proposal made Elon furious. He
+ 
+
+179
+00:03:04,320 --> 00:03:06,030
+their proposal made Elon furious. He
+quote, "stood up and stormed around the
+
+180
+00:03:06,030 --> 00:03:06,040
+quote, "stood up and stormed around the
+ 
+
+181
+00:03:06,040 --> 00:03:08,070
+quote, "stood up and stormed around the
+table. I thought he was going to hit me.
+
+182
+00:03:08,070 --> 00:03:08,080
+table. I thought he was going to hit me.
+ 
+
+183
+00:03:08,080 --> 00:03:09,630
+table. I thought he was going to hit me.
+He grabbed the painting and started to
+
+184
+00:03:09,630 --> 00:03:09,640
+He grabbed the painting and started to
+ 
+
+185
+00:03:09,640 --> 00:03:11,070
+He grabbed the painting and started to
+storm out of the room. And then he
+
+186
+00:03:11,070 --> 00:03:11,080
+storm out of the room. And then he
+ 
+
+187
+00:03:11,080 --> 00:03:12,630
+storm out of the room. And then he
+turned around and said, 'When will you
+
+188
+00:03:12,630 --> 00:03:12,640
+turned around and said, 'When will you
+ 
+
+189
+00:03:12,640 --> 00:03:14,670
+turned around and said, 'When will you
+be departing from OpenAI?'" Six months
+
+190
+00:03:14,670 --> 00:03:14,680
+be departing from OpenAI?'" Six months
+ 
+
+191
+00:03:14,680 --> 00:03:16,550
+be departing from OpenAI?'" Six months
+later, he would stop making donations
+
+192
+00:03:16,550 --> 00:03:16,560
+later, he would stop making donations
+ 
+
+193
+00:03:16,560 --> 00:03:18,590
+later, he would stop making donations
+and leave the OpenAI board. Now, in the
+
+194
+00:03:18,590 --> 00:03:18,600
+and leave the OpenAI board. Now, in the
+ 
+
+195
+00:03:18,600 --> 00:03:20,509
+and leave the OpenAI board. Now, in the
+years that followed between 2019 and
+
+196
+00:03:20,509 --> 00:03:20,519
+years that followed between 2019 and
+ 
+
+197
+00:03:20,519 --> 00:03:22,990
+years that followed between 2019 and
+2021, Microsoft entered with a $1
+
+198
+00:03:22,990 --> 00:03:23,000
+2021, Microsoft entered with a $1
+ 
+
+199
+00:03:23,000 --> 00:03:24,870
+2021, Microsoft entered with a $1
+billion investment. Even though CEO
+
+200
+00:03:24,870 --> 00:03:24,880
+billion investment. Even though CEO
+ 
+
+201
+00:03:24,880 --> 00:03:26,550
+billion investment. Even though CEO
+Nadella was pretty skeptical of the
+
+202
+00:03:26,550 --> 00:03:26,560
+Nadella was pretty skeptical of the
+ 
+
+203
+00:03:26,560 --> 00:03:28,190
+Nadella was pretty skeptical of the
+actual value of this investment.
+
+204
+00:03:28,190 --> 00:03:28,200
+actual value of this investment.
+ 
+
+205
+00:03:28,200 --> 00:03:29,710
+actual value of this investment.
+Eventually he would double down though
+
+206
+00:03:29,710 --> 00:03:29,720
+Eventually he would double down though
+ 
+
+207
+00:03:29,720 --> 00:03:31,550
+Eventually he would double down though
+and in 2022 said he didn't want
+
+208
+00:03:31,550 --> 00:03:31,560
+and in 2022 said he didn't want
+ 
+
+209
+00:03:31,560 --> 00:03:33,990
+and in 2022 said he didn't want
+Microsoft to become the next IBM while
+
+210
+00:03:33,990 --> 00:03:34,000
+Microsoft to become the next IBM while
+ 
+
+211
+00:03:34,000 --> 00:03:36,270
+Microsoft to become the next IBM while
+OpenAI became the next Microsoft. But
+
+212
+00:03:36,270 --> 00:03:36,280
+OpenAI became the next Microsoft. But
+ 
+
+213
+00:03:36,280 --> 00:03:37,710
+OpenAI became the next Microsoft. But
+then around this time, we get another
+
+214
+00:03:37,710 --> 00:03:37,720
+then around this time, we get another
+ 
+
+215
+00:03:37,720 --> 00:03:39,509
+then around this time, we get another
+crazy character popping up, Shivon
+
+216
+00:03:39,509 --> 00:03:39,519
+crazy character popping up, Shivon
+ 
+
+217
+00:03:39,519 --> 00:03:41,710
+crazy character popping up, Shivon
+Zilis. And she's the mother of four of
+
+218
+00:03:41,710 --> 00:03:41,720
+Zilis. And she's the mother of four of
+ 
+
+219
+00:03:41,720 --> 00:03:43,990
+Zilis. And she's the mother of four of
+Elon's 14 children and used to be on the
+
+220
+00:03:43,990 --> 00:03:44,000
+Elon's 14 children and used to be on the
+ 
+
+221
+00:03:44,000 --> 00:03:46,229
+Elon's 14 children and used to be on the
+OpenAI board and kept Elon up to date on
+
+222
+00:03:46,229 --> 00:03:46,239
+OpenAI board and kept Elon up to date on
+ 
+
+223
+00:03:46,239 --> 00:03:47,790
+OpenAI board and kept Elon up to date on
+what was going on there, which became a
+
+224
+00:03:47,790 --> 00:03:47,800
+what was going on there, which became a
+ 
+
+225
+00:03:47,800 --> 00:03:49,310
+what was going on there, which became a
+big conflict of interest when he
+
+226
+00:03:49,310 --> 00:03:49,320
+big conflict of interest when he
+ 
+
+227
+00:03:49,320 --> 00:03:51,750
+big conflict of interest when he
+launched xAI. But this next exhibit is
+
+228
+00:03:51,750 --> 00:03:51,760
+launched xAI. But this next exhibit is
+ 
+
+229
+00:03:51,760 --> 00:03:53,950
+launched xAI. But this next exhibit is
+perhaps the most complex and
+
+230
+00:03:53,950 --> 00:03:53,960
+perhaps the most complex and
+ 
+
+231
+00:03:53,960 --> 00:03:56,590
+perhaps the most complex and
+In November 2023, Sam Altman was fired
+
+232
+00:03:56,590 --> 00:03:56,600
+In November 2023, Sam Altman was fired
+ 
+
+233
+00:03:56,600 --> 00:03:59,190
+In November 2023, Sam Altman was fired
+from OpenAI for 4 days before a pattern
+
+234
+00:03:59,190 --> 00:03:59,200
+from OpenAI for 4 days before a pattern
+ 
+
+235
+00:03:59,200 --> 00:04:01,190
+from OpenAI for 4 days before a pattern
+of behavior related to his honesty and
+
+236
+00:04:01,190 --> 00:04:01,200
+of behavior related to his honesty and
+ 
+
+237
+00:04:01,200 --> 00:04:03,430
+of behavior related to his honesty and
+candor. Ilya wrote a memo accusing him
+
+238
+00:04:03,430 --> 00:04:03,440
+candor. Ilya wrote a memo accusing him
+ 
+
+239
+00:04:03,440 --> 00:04:05,430
+candor. Ilya wrote a memo accusing him
+of a consistent pattern of lying and
+
+240
+00:04:05,430 --> 00:04:05,440
+of a consistent pattern of lying and
+ 
+
+241
+00:04:05,440 --> 00:04:07,110
+of a consistent pattern of lying and
+pitting his execs against each other.
+
+242
+00:04:07,110 --> 00:04:07,120
+pitting his execs against each other.
+ 
+
+243
+00:04:07,120 --> 00:04:09,070
+pitting his execs against each other.
+Meanwhile, Mira Murati snaked him from
+
+244
+00:04:09,070 --> 00:04:09,080
+Meanwhile, Mira Murati snaked him from
+ 
+
+245
+00:04:09,080 --> 00:04:11,070
+Meanwhile, Mira Murati snaked him from
+the inside. At the height of the chaos,
+
+246
+00:04:11,070 --> 00:04:11,080
+the inside. At the height of the chaos,
+ 
+
+247
+00:04:11,080 --> 00:04:13,070
+the inside. At the height of the chaos,
+Altman texted Mira, "Can you indicate
+
+248
+00:04:13,070 --> 00:04:13,080
+Altman texted Mira, "Can you indicate
+ 
+
+249
+00:04:13,080 --> 00:04:15,030
+Altman texted Mira, "Can you indicate
+directionally, good or bad?" Her reply
+
+250
+00:04:15,030 --> 00:04:15,040
+directionally, good or bad?" Her reply
+ 
+
+251
+00:04:15,040 --> 00:04:17,069
+directionally, good or bad?" Her reply
+is now immortal, "Directionally, very
+
+252
+00:04:17,069 --> 00:04:17,079
+is now immortal, "Directionally, very
+ 
+
+253
+00:04:17,079 --> 00:04:19,229
+is now immortal, "Directionally, very
+bad." Altman was fired and Mira took his
+
+254
+00:04:19,229 --> 00:04:19,239
+bad." Altman was fired and Mira took his
+ 
+
+255
+00:04:19,239 --> 00:04:21,430
+bad." Altman was fired and Mira took his
+place temporarily. But, Sam Altman was
+
+256
+00:04:21,430 --> 00:04:21,440
+place temporarily. But, Sam Altman was
+ 
+
+257
+00:04:21,440 --> 00:04:23,230
+place temporarily. But, Sam Altman was
+then reinstated a few days later after
+
+258
+00:04:23,230 --> 00:04:23,240
+then reinstated a few days later after
+ 
+
+259
+00:04:23,240 --> 00:04:25,110
+then reinstated a few days later after
+receiving a ton of support from OpenAI
+
+260
+00:04:25,110 --> 00:04:25,120
+receiving a ton of support from OpenAI
+ 
+
+261
+00:04:25,120 --> 00:04:27,350
+receiving a ton of support from OpenAI
+employees and other powerful people. As
+
+262
+00:04:27,350 --> 00:04:27,360
+employees and other powerful people. As
+ 
+
+263
+00:04:27,360 --> 00:04:29,750
+employees and other powerful people. As
+Satya Nadella, watching $13 billion of
+
+264
+00:04:29,750 --> 00:04:29,760
+Satya Nadella, watching $13 billion of
+ 
+
+265
+00:04:29,760 --> 00:04:31,430
+Satya Nadella, watching $13 billion of
+Microsoft's money swing in the wind,
+
+266
+00:04:31,430 --> 00:04:31,440
+Microsoft's money swing in the wind,
+ 
+
+267
+00:04:31,440 --> 00:04:33,350
+Microsoft's money swing in the wind,
+described the entire situation as,
+
+268
+00:04:33,350 --> 00:04:33,360
+described the entire situation as,
+ 
+
+269
+00:04:33,360 --> 00:04:35,430
+described the entire situation as,
+quote, "A sort of amateur city as far as
+
+270
+00:04:35,430 --> 00:04:35,440
+quote, "A sort of amateur city as far as
+ 
+
+271
+00:04:35,440 --> 00:04:37,150
+quote, "A sort of amateur city as far as
+I'm concerned." And that brings us to
+
+272
+00:04:37,150 --> 00:04:37,160
+I'm concerned." And that brings us to
+ 
+
+273
+00:04:37,160 --> 00:04:38,950
+I'm concerned." And that brings us to
+yesterday, the closing arguments of the
+
+274
+00:04:38,950 --> 00:04:38,960
+yesterday, the closing arguments of the
+ 
+
+275
+00:04:38,960 --> 00:04:40,990
+yesterday, the closing arguments of the
+trial. Elon himself wasn't there because
+
+276
+00:04:40,990 --> 00:04:41,000
+trial. Elon himself wasn't there because
+ 
+
+277
+00:04:41,000 --> 00:04:42,510
+trial. Elon himself wasn't there because
+he was on Air Force One flying to
+
+278
+00:04:42,510 --> 00:04:42,520
+he was on Air Force One flying to
+ 
+
+279
+00:04:42,520 --> 00:04:44,350
+he was on Air Force One flying to
+Beijing with Trump, but his lawyer
+
+280
+00:04:44,350 --> 00:04:44,360
+Beijing with Trump, but his lawyer
+ 
+
+281
+00:04:44,360 --> 00:04:45,790
+Beijing with Trump, but his lawyer
+focused on Altman's lack of
+
+282
+00:04:45,790 --> 00:04:45,800
+focused on Altman's lack of
+ 
+
+283
+00:04:45,800 --> 00:04:47,390
+focused on Altman's lack of
+trustworthiness and how he's been able
+
+284
+00:04:47,390 --> 00:04:47,400
+trustworthiness and how he's been able
+ 
+
+285
+00:04:47,400 --> 00:04:49,150
+trustworthiness and how he's been able
+to enrich himself through various deals
+
+286
+00:04:49,150 --> 00:04:49,160
+to enrich himself through various deals
+ 
+
+287
+00:04:49,160 --> 00:04:50,710
+to enrich himself through various deals
+in other companies he owns that are
+
+288
+00:04:50,710 --> 00:04:50,720
+in other companies he owns that are
+ 
+
+289
+00:04:50,720 --> 00:04:52,550
+in other companies he owns that are
+connected to OpenAI. But, on the flip
+
+290
+00:04:52,550 --> 00:04:52,560
+connected to OpenAI. But, on the flip
+ 
+
+291
+00:04:52,560 --> 00:04:54,790
+connected to OpenAI. But, on the flip
+side, OpenAI's lawyers claimed Elon is a
+
+292
+00:04:54,790 --> 00:04:54,800
+side, OpenAI's lawyers claimed Elon is a
+ 
+
+293
+00:04:54,800 --> 00:04:56,590
+side, OpenAI's lawyers claimed Elon is a
+guy who never cared about the nonprofit
+
+294
+00:04:56,590 --> 00:04:56,600
+guy who never cared about the nonprofit
+ 
+
+295
+00:04:56,600 --> 00:04:58,630
+guy who never cared about the nonprofit
+structure and only cared about winning.
+
+296
+00:04:58,630 --> 00:04:58,640
+structure and only cared about winning.
+ 
+
+297
+00:04:58,640 --> 00:05:00,350
+structure and only cared about winning.
+And he seems to have selective amnesia
+
+298
+00:05:00,350 --> 00:05:00,360
+And he seems to have selective amnesia
+ 
+
+299
+00:05:00,360 --> 00:05:02,150
+And he seems to have selective amnesia
+about his past dealings with the OpenAI
+
+300
+00:05:02,150 --> 00:05:02,160
+about his past dealings with the OpenAI
+ 
+
+301
+00:05:02,160 --> 00:05:04,030
+about his past dealings with the OpenAI
+founders. Basically, both sides are
+
+302
+00:05:04,030 --> 00:05:04,040
+founders. Basically, both sides are
+ 
+
+303
+00:05:04,040 --> 00:05:05,710
+founders. Basically, both sides are
+terrible, but who's actually going to
+
+304
+00:05:05,710 --> 00:05:05,720
+terrible, but who's actually going to
+ 
+
+305
+00:05:05,720 --> 00:05:08,350
+terrible, but who's actually going to
+win? Polymarket is giving Elon a 32%
+
+306
+00:05:08,350 --> 00:05:08,360
+win? Polymarket is giving Elon a 32%
+ 
+
+307
+00:05:08,360 --> 00:05:09,990
+win? Polymarket is giving Elon a 32%
+chance of winning, but I think it's even
+
+308
+00:05:09,990 --> 00:05:10,000
+chance of winning, but I think it's even
+ 
+
+309
+00:05:10,000 --> 00:05:11,710
+chance of winning, but I think it's even
+lower than that. The jury in this case
+
+310
+00:05:11,710 --> 00:05:11,720
+lower than that. The jury in this case
+ 
+
+311
+00:05:11,720 --> 00:05:13,670
+lower than that. The jury in this case
+is advisory, so that means it ultimately
+
+312
+00:05:13,670 --> 00:05:13,680
+is advisory, so that means it ultimately
+ 
+
+313
+00:05:13,680 --> 00:05:15,430
+is advisory, so that means it ultimately
+comes down to this judge, Yvonne
+
+314
+00:05:15,430 --> 00:05:15,440
+comes down to this judge, Yvonne
+ 
+
+315
+00:05:15,440 --> 00:05:17,430
+comes down to this judge, Yvonne
+Gonzalez Rogers. And I can tell just by
+
+316
+00:05:17,430 --> 00:05:17,440
+Gonzalez Rogers. And I can tell just by
+ 
+
+317
+00:05:17,440 --> 00:05:18,790
+Gonzalez Rogers. And I can tell just by
+looking at her that she's not going to
+
+318
+00:05:18,790 --> 00:05:18,800
+looking at her that she's not going to
+ 
+
+319
+00:05:18,800 --> 00:05:20,390
+looking at her that she's not going to
+like Elon. Her husband worked for the
+
+320
+00:05:20,390 --> 00:05:20,400
+like Elon. Her husband worked for the
+ 
+
+321
+00:05:20,400 --> 00:05:22,510
+like Elon. Her husband worked for the
+Obama administration, so this was over
+
+322
+00:05:22,510 --> 00:05:22,520
+Obama administration, so this was over
+ 
+
+323
+00:05:22,520 --> 00:05:24,070
+Obama administration, so this was over
+before it even started. But, even if
+
+324
+00:05:24,070 --> 00:05:24,080
+before it even started. But, even if
+ 
+
+325
+00:05:24,080 --> 00:05:26,030
+before it even started. But, even if
+Hulk Hogan was the judge, Elon's case is
+
+326
+00:05:26,030 --> 00:05:26,040
+Hulk Hogan was the judge, Elon's case is
+ 
+
+327
+00:05:26,040 --> 00:05:27,550
+Hulk Hogan was the judge, Elon's case is
+still pretty weak. What they've done to
+
+328
+00:05:27,550 --> 00:05:27,560
+still pretty weak. What they've done to
+ 
+
+329
+00:05:27,560 --> 00:05:29,310
+still pretty weak. What they've done to
+OpenAI is messed up, but here's the
+
+330
+00:05:29,310 --> 00:05:29,320
+OpenAI is messed up, but here's the
+ 
+
+331
+00:05:29,320 --> 00:05:31,350
+OpenAI is messed up, but here's the
+problem. Elon himself tried to make
+
+332
+00:05:31,350 --> 00:05:31,360
+problem. Elon himself tried to make
+ 
+
+333
+00:05:31,360 --> 00:05:33,830
+problem. Elon himself tried to make
+OpenAI for profit back in 2017. There
+
+334
+00:05:33,830 --> 00:05:33,840
+OpenAI for profit back in 2017. There
+ 
+
+335
+00:05:33,840 --> 00:05:35,550
+OpenAI for profit back in 2017. There
+was also never a hard contract that
+
+336
+00:05:35,550 --> 00:05:35,560
+was also never a hard contract that
+ 
+
+337
+00:05:35,560 --> 00:05:37,909
+was also never a hard contract that
+OpenAI would stay nonprofit forever. And
+
+338
+00:05:37,909 --> 00:05:37,919
+OpenAI would stay nonprofit forever. And
+ 
+
+339
+00:05:37,919 --> 00:05:40,350
+OpenAI would stay nonprofit forever. And
+even worse, he admitted under oath that
+
+340
+00:05:40,350 --> 00:05:40,360
+even worse, he admitted under oath that
+ 
+
+341
+00:05:40,360 --> 00:05:42,990
+even worse, he admitted under oath that
+xAI and Grok did steal OpenAI models,
+
+342
+00:05:42,990 --> 00:05:43,000
+xAI and Grok did steal OpenAI models,
+ 
+
+343
+00:05:43,000 --> 00:05:44,550
+xAI and Grok did steal OpenAI models,
+and that makes this whole lawsuit feel
+
+344
+00:05:44,550 --> 00:05:44,560
+and that makes this whole lawsuit feel
+ 
+
+345
+00:05:44,560 --> 00:05:46,390
+and that makes this whole lawsuit feel
+like it's trying to a competitor
+
+346
+00:05:46,390 --> 00:05:46,400
+like it's trying to a competitor
+ 
+
+347
+00:05:46,400 --> 00:05:48,430
+like it's trying to a competitor
+as opposed to rescuing a charity. No
+
+348
+00:05:48,430 --> 00:05:48,440
+as opposed to rescuing a charity. No
+ 
+
+349
+00:05:48,440 --> 00:05:49,830
+as opposed to rescuing a charity. No
+matter what happens though, the one
+
+350
+00:05:49,830 --> 00:05:49,840
+matter what happens though, the one
+ 
+
+351
+00:05:49,840 --> 00:05:51,590
+matter what happens though, the one
+thing you need to know about is Kernel,
+
+352
+00:05:51,590 --> 00:05:51,600
+thing you need to know about is Kernel,
+ 
+
+353
+00:05:51,600 --> 00:05:53,430
+thing you need to know about is Kernel,
+the sponsor of today's video. They
+
+354
+00:05:53,430 --> 00:05:53,440
+the sponsor of today's video. They
+ 
+
+355
+00:05:53,440 --> 00:05:55,430
+the sponsor of today's video. They
+provide open-source infrastructure that
+
+356
+00:05:55,430 --> 00:05:55,440
+provide open-source infrastructure that
+ 
+
+357
+00:05:55,440 --> 00:05:57,590
+provide open-source infrastructure that
+lets your AI agents access the internet
+
+358
+00:05:57,590 --> 00:05:57,600
+lets your AI agents access the internet
+ 
+
+359
+00:05:57,600 --> 00:05:59,630
+lets your AI agents access the internet
+blazingly fast thanks to GPU
+
+360
+00:05:59,630 --> 00:05:59,640
+blazingly fast thanks to GPU
+ 
+
+361
+00:05:59,640 --> 00:06:01,790
+blazingly fast thanks to GPU
+acceleration. It's able to spin up
+
+362
+00:06:01,790 --> 00:06:01,800
+acceleration. It's able to spin up
+ 
+
+363
+00:06:01,800 --> 00:06:04,150
+acceleration. It's able to spin up
+sandbox Chromium browsers in the cloud
+
+364
+00:06:04,150 --> 00:06:04,160
+sandbox Chromium browsers in the cloud
+ 
+
+365
+00:06:04,160 --> 00:06:06,430
+sandbox Chromium browsers in the cloud
+in under 30 milliseconds, which is fast
+
+366
+00:06:06,430 --> 00:06:06,440
+in under 30 milliseconds, which is fast
+ 
+
+367
+00:06:06,440 --> 00:06:08,550
+in under 30 milliseconds, which is fast
+enough to unlock more advanced use cases
+
+368
+00:06:08,550 --> 00:06:08,560
+enough to unlock more advanced use cases
+ 
+
+369
+00:06:08,560 --> 00:06:10,630
+enough to unlock more advanced use cases
+for your agents like interacting with
+
+370
+00:06:10,630 --> 00:06:10,640
+for your agents like interacting with
+ 
+
+371
+00:06:10,640 --> 00:06:12,950
+for your agents like interacting with
+WebGL heavy websites and automating
+
+372
+00:06:12,950 --> 00:06:12,960
+WebGL heavy websites and automating
+ 
+
+373
+00:06:12,960 --> 00:06:15,110
+WebGL heavy websites and automating
+complex user workflows. The faster
+
+374
+00:06:15,110 --> 00:06:15,120
+complex user workflows. The faster
+ 
+
+375
+00:06:15,120 --> 00:06:16,870
+complex user workflows. The faster
+agents also means you'll use fewer
+
+376
+00:06:16,870 --> 00:06:16,880
+agents also means you'll use fewer
+ 
+
+377
+00:06:16,880 --> 00:06:18,950
+agents also means you'll use fewer
+tokens and they cost a lot less money to
+
+378
+00:06:18,950 --> 00:06:18,960
+tokens and they cost a lot less money to
+ 
+
+379
+00:06:18,960 --> 00:06:21,030
+tokens and they cost a lot less money to
+run overall since Kernel only charges
+
+380
+00:06:21,030 --> 00:06:21,040
+run overall since Kernel only charges
+ 
+
+381
+00:06:21,040 --> 00:06:22,590
+run overall since Kernel only charges
+you when your browsers are actually
+
+382
+00:06:22,590 --> 00:06:22,600
+you when your browsers are actually
+ 
+
+383
+00:06:22,600 --> 00:06:25,070
+you when your browsers are actually
+doing work. It also comes with a replay
+
+384
+00:06:25,070 --> 00:06:25,080
+doing work. It also comes with a replay
+ 
+
+385
+00:06:25,080 --> 00:06:26,630
+doing work. It also comes with a replay
+feature that lets you record and
+
+386
+00:06:26,630 --> 00:06:26,640
+feature that lets you record and
+ 
+
+387
+00:06:26,640 --> 00:06:28,430
+feature that lets you record and
+download your agents browser sessions
+
+388
+00:06:28,430 --> 00:06:28,440
+download your agents browser sessions
+ 
+
+389
+00:06:28,440 --> 00:06:30,950
+download your agents browser sessions
+for easy debugging. All of Kernel's SDKs
+
+390
+00:06:30,950 --> 00:06:30,960
+for easy debugging. All of Kernel's SDKs
+ 
+
+391
+00:06:30,960 --> 00:06:32,710
+for easy debugging. All of Kernel's SDKs
+and browser infrastructure itself are
+
+392
+00:06:32,710 --> 00:06:32,720
+and browser infrastructure itself are
+ 
+
+393
+00:06:32,720 --> 00:06:35,230
+and browser infrastructure itself are
+open-source and over 3,000 teams
+
+394
+00:06:35,230 --> 00:06:35,240
+open-source and over 3,000 teams
+ 
+
+395
+00:06:35,240 --> 00:06:37,390
+open-source and over 3,000 teams
+including Framer and Cash App are using
+
+396
+00:06:37,390 --> 00:06:37,400
+including Framer and Cash App are using
+ 
+
+397
+00:06:37,400 --> 00:06:39,230
+including Framer and Cash App are using
+it in production. Try it out for free
+
+398
+00:06:39,230 --> 00:06:39,240
+it in production. Try it out for free
+ 
+
+399
+00:06:39,240 --> 00:06:41,270
+it in production. Try it out for free
+today with the link below. This has been
+
+400
+00:06:41,270 --> 00:06:41,280
+today with the link below. This has been
+ 
+
+401
+00:06:41,280 --> 00:06:43,270
+today with the link below. This has been
+the Code Report. Thanks for watching and
+
+402
+00:06:43,270 --> 00:06:43,280
+the Code Report. Thanks for watching and
+ 
+
+403
+00:06:43,280 --> 00:06:46,600
+the Code Report. Thanks for watching and
+I will see you in the next one.
+

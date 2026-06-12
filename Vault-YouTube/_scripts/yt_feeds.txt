@@ -1,0 +1,19 @@
+# One YouTube channel RSS feed per line. Lines starting with # are ignored.
+# Format: https://www.youtube.com/feeds/videos.xml?channel_id=CHANNEL_ID
+# Find a channel_id:  yt-dlp --playlist-items 0 --print channel_id "https://www.youtube.com/@HANDLE"
+
+# ── Investing ─────────────────────────────────────────────────────────────────
+# Adam Khoo
+https://www.youtube.com/feeds/videos.xml?channel_id=UCK-aOjEvZNJl3HINja0gAiQ
+# Terry Chen 泰瑞
+https://www.youtube.com/feeds/videos.xml?channel_id=UC_whOg3XES3Fihic53fvo4Q
+# 墨山貓MØC
+https://www.youtube.com/feeds/videos.xml?channel_id=UCv1A3TfyyeOg5q43J9pnpOw
+
+# ── Tech ──────────────────────────────────────────────────────────────────────
+# Kelly Tsai
+https://www.youtube.com/feeds/videos.xml?channel_id=UCfbMslS3NmcGO4WIikSoYSA
+# bri
+https://www.youtube.com/feeds/videos.xml?channel_id=UCKKLMlFFiOVV49fS5F1S-Mg
+# Fireship
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA

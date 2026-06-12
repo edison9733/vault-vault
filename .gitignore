@@ -1,0 +1,6 @@
+**/_logs/
+**/.run.lock/
+**/sessions/*.jsonl
+**/.last_run.json
+**/raw/archive/
+.DS_Store

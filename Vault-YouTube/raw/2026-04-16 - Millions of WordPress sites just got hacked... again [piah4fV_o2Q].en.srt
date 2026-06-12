@@ -1,0 +1,1635 @@
+1
+00:00:00,000 --> 00:00:01,990
+
+Eight months ago, some galaxy brain
+
+2
+00:00:01,990 --> 00:00:02,000
+Eight months ago, some galaxy brain
+ 
+
+3
+00:00:02,000 --> 00:00:04,350
+Eight months ago, some galaxy brain
+hacker quietly penetrated the back door
+
+4
+00:00:04,350 --> 00:00:04,360
+hacker quietly penetrated the back door
+ 
+
+5
+00:00:04,360 --> 00:00:06,510
+hacker quietly penetrated the back door
+of more than 30 WordPress plugins, and
+
+6
+00:00:06,510 --> 00:00:06,520
+of more than 30 WordPress plugins, and
+ 
+
+7
+00:00:06,520 --> 00:00:08,830
+of more than 30 WordPress plugins, and
+no one noticed until now. As somehow,
+
+8
+00:00:08,830 --> 00:00:08,840
+no one noticed until now. As somehow,
+ 
+
+9
+00:00:08,840 --> 00:00:10,390
+no one noticed until now. As somehow,
+this massive collection of different
+
+10
+00:00:10,390 --> 00:00:10,400
+this massive collection of different
+ 
+
+11
+00:00:10,400 --> 00:00:12,950
+this massive collection of different
+WordPress plugins for silly UI updates
+
+12
+00:00:12,950 --> 00:00:12,960
+WordPress plugins for silly UI updates
+ 
+
+13
+00:00:12,960 --> 00:00:14,950
+WordPress plugins for silly UI updates
+was instantly turned into malware with a
+
+14
+00:00:14,950 --> 00:00:14,960
+was instantly turned into malware with a
+ 
+
+15
+00:00:14,960 --> 00:00:16,950
+was instantly turned into malware with a
+crazy supply chain attack. That means
+
+16
+00:00:16,950 --> 00:00:16,960
+crazy supply chain attack. That means
+ 
+
+17
+00:00:16,960 --> 00:00:18,710
+crazy supply chain attack. That means
+one minute, your countdown timer
+
+18
+00:00:18,710 --> 00:00:18,720
+one minute, your countdown timer
+ 
+
+19
+00:00:18,720 --> 00:00:20,630
+one minute, your countdown timer
+ultimate plugin is converting sales on
+
+20
+00:00:20,630 --> 00:00:20,640
+ultimate plugin is converting sales on
+ 
+
+21
+00:00:20,640 --> 00:00:22,390
+ultimate plugin is converting sales on
+your website, and then the next minute,
+
+22
+00:00:22,390 --> 00:00:22,400
+your website, and then the next minute,
+ 
+
+23
+00:00:22,400 --> 00:00:24,150
+your website, and then the next minute,
+it becomes a remote control demon on
+
+24
+00:00:24,150 --> 00:00:24,160
+it becomes a remote control demon on
+ 
+
+25
+00:00:24,160 --> 00:00:26,150
+it becomes a remote control demon on
+your server that steals all your data
+
+26
+00:00:26,150 --> 00:00:26,160
+your server that steals all your data
+ 
+
+27
+00:00:26,160 --> 00:00:27,310
+your server that steals all your data
+and leaks photos of your wife's
+
+28
+00:00:27,310 --> 00:00:27,320
+and leaks photos of your wife's
+ 
+
+29
+00:00:27,320 --> 00:00:29,430
+and leaks photos of your wife's
+boyfriend to the Kiwi Farms. WordPress
+
+30
+00:00:29,430 --> 00:00:29,440
+boyfriend to the Kiwi Farms. WordPress
+ 
+
+31
+00:00:29,440 --> 00:00:31,230
+boyfriend to the Kiwi Farms. WordPress
+remains the most popular website builder
+
+32
+00:00:31,230 --> 00:00:31,240
+remains the most popular website builder
+ 
+
+33
+00:00:31,240 --> 00:00:32,830
+remains the most popular website builder
+in the world, but many people have
+
+34
+00:00:32,830 --> 00:00:32,840
+in the world, but many people have
+ 
+
+35
+00:00:32,840 --> 00:00:34,750
+in the world, but many people have
+argued that WordPress's plugin
+
+36
+00:00:34,750 --> 00:00:34,760
+argued that WordPress's plugin
+ 
+
+37
+00:00:34,760 --> 00:00:37,190
+argued that WordPress's plugin
+architecture is fundamentally insecure,
+
+38
+00:00:37,190 --> 00:00:37,200
+architecture is fundamentally insecure,
+ 
+
+39
+00:00:37,200 --> 00:00:39,070
+architecture is fundamentally insecure,
+and a brand new slot work has emerged to
+
+40
+00:00:39,070 --> 00:00:39,080
+and a brand new slot work has emerged to
+ 
+
+41
+00:00:39,080 --> 00:00:41,030
+and a brand new slot work has emerged to
+replace it. In today's video, we'll find
+
+42
+00:00:41,030 --> 00:00:41,040
+replace it. In today's video, we'll find
+ 
+
+43
+00:00:41,040 --> 00:00:42,670
+replace it. In today's video, we'll find
+out how the latest brutal exploit
+
+44
+00:00:42,670 --> 00:00:42,680
+out how the latest brutal exploit
+ 
+
+45
+00:00:42,680 --> 00:00:44,190
+out how the latest brutal exploit
+occurred and take a look at this new
+
+46
+00:00:44,190 --> 00:00:44,200
+occurred and take a look at this new
+ 
+
+47
+00:00:44,200 --> 00:00:46,070
+occurred and take a look at this new
+project from Cloudflare that hopes to
+
+48
+00:00:46,070 --> 00:00:46,080
+project from Cloudflare that hopes to
+ 
+
+49
+00:00:46,080 --> 00:00:47,910
+project from Cloudflare that hopes to
+terminate WordPress from the timeline.
+
+50
+00:00:47,910 --> 00:00:47,920
+terminate WordPress from the timeline.
+ 
+
+51
+00:00:47,920 --> 00:00:50,510
+terminate WordPress from the timeline.
+It is April 16th, 2026, and you are
+
+52
+00:00:50,510 --> 00:00:50,520
+It is April 16th, 2026, and you are
+ 
+
+53
+00:00:50,520 --> 00:00:52,070
+It is April 16th, 2026, and you are
+watching The Code Report. I actually
+
+54
+00:00:52,070 --> 00:00:52,080
+watching The Code Report. I actually
+ 
+
+55
+00:00:52,080 --> 00:00:53,630
+watching The Code Report. I actually
+love WordPress and have built many
+
+56
+00:00:53,630 --> 00:00:53,640
+love WordPress and have built many
+ 
+
+57
+00:00:53,640 --> 00:00:55,390
+love WordPress and have built many
+failed side projects with it, but the
+
+58
+00:00:55,390 --> 00:00:55,400
+failed side projects with it, but the
+ 
+
+59
+00:00:55,400 --> 00:00:57,430
+failed side projects with it, but the
+WordPress ecosystem has experienced a
+
+60
+00:00:57,430 --> 00:00:57,440
+WordPress ecosystem has experienced a
+ 
+
+61
+00:00:57,440 --> 00:00:59,510
+WordPress ecosystem has experienced a
+wild couple years. Its founder, Matt
+
+62
+00:00:59,510 --> 00:00:59,520
+wild couple years. Its founder, Matt
+ 
+
+63
+00:00:59,520 --> 00:01:01,750
+wild couple years. Its founder, Matt
+Mullenweg, sperged out on private equity
+
+64
+00:01:01,750 --> 00:01:01,760
+Mullenweg, sperged out on private equity
+ 
+
+65
+00:01:01,760 --> 00:01:03,750
+Mullenweg, sperged out on private equity
+last year because the Silver Lake-owned
+
+66
+00:01:03,750 --> 00:01:03,760
+last year because the Silver Lake-owned
+ 
+
+67
+00:01:03,760 --> 00:01:06,110
+last year because the Silver Lake-owned
+WP Engine was drinking his milkshake by
+
+68
+00:01:06,110 --> 00:01:06,120
+WP Engine was drinking his milkshake by
+ 
+
+69
+00:01:06,120 --> 00:01:08,030
+WP Engine was drinking his milkshake by
+making money hosting WordPress. So,
+
+70
+00:01:08,030 --> 00:01:08,040
+making money hosting WordPress. So,
+ 
+
+71
+00:01:08,040 --> 00:01:09,990
+making money hosting WordPress. So,
+naturally, he demanded that they pay him
+
+72
+00:01:09,990 --> 00:01:10,000
+naturally, he demanded that they pay him
+ 
+
+73
+00:01:10,000 --> 00:01:12,350
+naturally, he demanded that they pay him
+8% of their revenue for using his logo.
+
+74
+00:01:12,350 --> 00:01:12,360
+8% of their revenue for using his logo.
+ 
+
+75
+00:01:12,360 --> 00:01:14,110
+8% of their revenue for using his logo.
+Now, as you all know, I'm a huge fan of
+
+76
+00:01:14,110 --> 00:01:14,120
+Now, as you all know, I'm a huge fan of
+ 
+
+77
+00:01:14,120 --> 00:01:15,550
+Now, as you all know, I'm a huge fan of
+private equity because they make every
+
+78
+00:01:15,550 --> 00:01:15,560
+private equity because they make every
+ 
+
+79
+00:01:15,560 --> 00:01:17,190
+private equity because they make every
+product better, like Hooters, for
+
+80
+00:01:17,190 --> 00:01:17,200
+product better, like Hooters, for
+ 
+
+81
+00:01:17,200 --> 00:01:19,470
+product better, like Hooters, for
+example, but WP Engine refused to pay
+
+82
+00:01:19,470 --> 00:01:19,480
+example, but WP Engine refused to pay
+ 
+
+83
+00:01:19,480 --> 00:01:20,950
+example, but WP Engine refused to pay
+the king his royalty. That made
+
+84
+00:01:20,950 --> 00:01:20,960
+the king his royalty. That made
+ 
+
+85
+00:01:20,960 --> 00:01:22,830
+the king his royalty. That made
+Mullenweg sperg out even harder, and he
+
+86
+00:01:22,830 --> 00:01:22,840
+Mullenweg sperg out even harder, and he
+ 
+
+87
+00:01:22,840 --> 00:01:24,190
+Mullenweg sperg out even harder, and he
+said a bunch of stuff that eventually
+
+88
+00:01:24,190 --> 00:01:24,200
+said a bunch of stuff that eventually
+ 
+
+89
+00:01:24,200 --> 00:01:26,550
+said a bunch of stuff that eventually
+led to WP Engine filing a defamation
+
+90
+00:01:26,550 --> 00:01:26,560
+led to WP Engine filing a defamation
+ 
+
+91
+00:01:26,560 --> 00:01:28,150
+led to WP Engine filing a defamation
+lawsuit against him. They're still
+
+92
+00:01:28,150 --> 00:01:28,160
+lawsuit against him. They're still
+ 
+
+93
+00:01:28,160 --> 00:01:29,430
+lawsuit against him. They're still
+fighting each other in court to this
+
+94
+00:01:29,430 --> 00:01:29,440
+fighting each other in court to this
+ 
+
+95
+00:01:29,440 --> 00:01:31,510
+fighting each other in court to this
+day, and the lore goes way deeper, but
+
+96
+00:01:31,510 --> 00:01:31,520
+day, and the lore goes way deeper, but
+ 
+
+97
+00:01:31,520 --> 00:01:33,190
+day, and the lore goes way deeper, but
+the bigger problem for WordPress is that
+
+98
+00:01:33,190 --> 00:01:33,200
+the bigger problem for WordPress is that
+ 
+
+99
+00:01:33,200 --> 00:01:34,830
+the bigger problem for WordPress is that
+it's been experiencing a wave of new
+
+100
+00:01:34,830 --> 00:01:34,840
+it's been experiencing a wave of new
+ 
+
+101
+00:01:34,840 --> 00:01:37,390
+it's been experiencing a wave of new
+vulnerabilities, and 96% of those are a
+
+102
+00:01:37,390 --> 00:01:37,400
+vulnerabilities, and 96% of those are a
+ 
+
+103
+00:01:37,400 --> 00:01:39,670
+vulnerabilities, and 96% of those are a
+direct result of its plugin system. The
+
+104
+00:01:39,670 --> 00:01:39,680
+direct result of its plugin system. The
+ 
+
+105
+00:01:39,680 --> 00:01:41,630
+direct result of its plugin system. The
+core problem is that a WordPress plugin
+
+106
+00:01:41,630 --> 00:01:41,640
+core problem is that a WordPress plugin
+ 
+
+107
+00:01:41,640 --> 00:01:43,790
+core problem is that a WordPress plugin
+is basically just a PHP script that
+
+108
+00:01:43,790 --> 00:01:43,800
+is basically just a PHP script that
+ 
+
+109
+00:01:43,800 --> 00:01:45,790
+is basically just a PHP script that
+plugs straight into your site and starts
+
+110
+00:01:45,790 --> 00:01:45,800
+plugs straight into your site and starts
+ 
+
+111
+00:01:45,800 --> 00:01:47,390
+plugs straight into your site and starts
+running with full privileges. There's no
+
+112
+00:01:47,390 --> 00:01:47,400
+running with full privileges. There's no
+ 
+
+113
+00:01:47,400 --> 00:01:49,430
+running with full privileges. There's no
+sandbox or isolation. It can touch your
+
+114
+00:01:49,430 --> 00:01:49,440
+sandbox or isolation. It can touch your
+ 
+
+115
+00:01:49,440 --> 00:01:51,310
+sandbox or isolation. It can touch your
+database, your files, and your private
+
+116
+00:01:51,310 --> 00:01:51,320
+database, your files, and your private
+ 
+
+117
+00:01:51,320 --> 00:01:53,110
+database, your files, and your private
+parts. And when you install a plugin,
+
+118
+00:01:53,110 --> 00:01:53,120
+parts. And when you install a plugin,
+ 
+
+119
+00:01:53,120 --> 00:01:54,750
+parts. And when you install a plugin,
+you're basically just hoping a stranger
+
+120
+00:01:54,750 --> 00:01:54,760
+you're basically just hoping a stranger
+ 
+
+121
+00:01:54,760 --> 00:01:56,510
+you're basically just hoping a stranger
+knows how to handle every edge case,
+
+122
+00:01:56,510 --> 00:01:56,520
+knows how to handle every edge case,
+ 
+
+123
+00:01:56,520 --> 00:01:58,750
+knows how to handle every edge case,
+exploit, and bad input perfectly. What's
+
+124
+00:01:58,750 --> 00:01:58,760
+exploit, and bad input perfectly. What's
+ 
+
+125
+00:01:58,760 --> 00:02:00,590
+exploit, and bad input perfectly. What's
+crazy though, is that this most recent
+
+126
+00:02:00,590 --> 00:02:00,600
+crazy though, is that this most recent
+ 
+
+127
+00:02:00,600 --> 00:02:03,150
+crazy though, is that this most recent
+attack on 31 WordPress plugins was
+
+128
+00:02:03,150 --> 00:02:03,160
+attack on 31 WordPress plugins was
+ 
+
+129
+00:02:03,160 --> 00:02:05,150
+attack on 31 WordPress plugins was
+actually not the result of bad code.
+
+130
+00:02:05,150 --> 00:02:05,160
+actually not the result of bad code.
+ 
+
+131
+00:02:05,160 --> 00:02:06,510
+actually not the result of bad code.
+>> It's not your fault.
+
+132
+00:02:06,510 --> 00:02:06,520
+>> It's not your fault.
+ 
+
+133
+00:02:06,520 --> 00:02:08,430
+>> It's not your fault.
+>> It was something far scarier. In this
+
+134
+00:02:08,430 --> 00:02:08,440
+>> It was something far scarier. In this
+ 
+
+135
+00:02:08,440 --> 00:02:10,029
+>> It was something far scarier. In this
+case, the attacker didn't exploit a
+
+136
+00:02:10,029 --> 00:02:10,039
+case, the attacker didn't exploit a
+ 
+
+137
+00:02:10,039 --> 00:02:11,790
+case, the attacker didn't exploit a
+vulnerability. Instead, they
+
+138
+00:02:11,790 --> 00:02:11,800
+vulnerability. Instead, they
+ 
+
+139
+00:02:11,800 --> 00:02:13,630
+vulnerability. Instead, they
+legitimately acquired and took control
+
+140
+00:02:13,630 --> 00:02:13,640
+legitimately acquired and took control
+ 
+
+141
+00:02:13,640 --> 00:02:16,070
+legitimately acquired and took control
+of a portfolio of plugins by simply
+
+142
+00:02:16,070 --> 00:02:16,080
+of a portfolio of plugins by simply
+ 
+
+143
+00:02:16,080 --> 00:02:17,670
+of a portfolio of plugins by simply
+purchasing them for money from the
+
+144
+00:02:17,670 --> 00:02:17,680
+purchasing them for money from the
+ 
+
+145
+00:02:17,680 --> 00:02:19,949
+purchasing them for money from the
+original developer on Flippa in a deal
+
+146
+00:02:19,949 --> 00:02:19,959
+original developer on Flippa in a deal
+ 
+
+147
+00:02:19,959 --> 00:02:21,630
+original developer on Flippa in a deal
+with a sales price estimated to be in
+
+148
+00:02:21,630 --> 00:02:21,640
+with a sales price estimated to be in
+ 
+
+149
+00:02:21,640 --> 00:02:23,630
+with a sales price estimated to be in
+the mid six figures. After the original
+
+150
+00:02:23,630 --> 00:02:23,640
+the mid six figures. After the original
+ 
+
+151
+00:02:23,640 --> 00:02:25,550
+the mid six figures. After the original
+developer was bought out, the new buyer
+
+152
+00:02:25,550 --> 00:02:25,560
+developer was bought out, the new buyer
+ 
+
+153
+00:02:25,560 --> 00:02:27,070
+developer was bought out, the new buyer
+had control of the code and they
+
+154
+00:02:27,070 --> 00:02:27,080
+had control of the code and they
+ 
+
+155
+00:02:27,080 --> 00:02:28,990
+had control of the code and they
+inserted a back door about eight months
+
+156
+00:02:28,990 --> 00:02:29,000
+inserted a back door about eight months
+ 
+
+157
+00:02:29,000 --> 00:02:30,390
+inserted a back door about eight months
+ago and it's just been sitting there
+
+158
+00:02:30,390 --> 00:02:30,400
+ago and it's just been sitting there
+ 
+
+159
+00:02:30,400 --> 00:02:32,070
+ago and it's just been sitting there
+dormant in production waiting for the
+
+160
+00:02:32,070 --> 00:02:32,080
+dormant in production waiting for the
+ 
+
+161
+00:02:32,080 --> 00:02:33,750
+dormant in production waiting for the
+right moment. Then, when the moment was
+
+162
+00:02:33,750 --> 00:02:33,760
+right moment. Then, when the moment was
+ 
+
+163
+00:02:33,760 --> 00:02:36,110
+right moment. Then, when the moment was
+right, the malicious logic activated
+
+164
+00:02:36,110 --> 00:02:36,120
+right, the malicious logic activated
+ 
+
+165
+00:02:36,120 --> 00:02:37,710
+right, the malicious logic activated
+which reached out to a remote server,
+
+166
+00:02:37,710 --> 00:02:37,720
+which reached out to a remote server,
+ 
+
+167
+00:02:37,720 --> 00:02:39,430
+which reached out to a remote server,
+pulled down additional payloads, and in
+
+168
+00:02:39,430 --> 00:02:39,440
+pulled down additional payloads, and in
+ 
+
+169
+00:02:39,440 --> 00:02:41,910
+pulled down additional payloads, and in
+some cases modified core files like
+
+170
+00:02:41,910 --> 00:02:41,920
+some cases modified core files like
+ 
+
+171
+00:02:41,920 --> 00:02:43,870
+some cases modified core files like
+wp-config.php
+
+172
+00:02:43,870 --> 00:02:43,880
+wp-config.php
+ 
+
+173
+00:02:43,880 --> 00:02:45,590
+wp-config.php
+which includes sensitive data like your
+
+174
+00:02:45,590 --> 00:02:45,600
+which includes sensitive data like your
+ 
+
+175
+00:02:45,600 --> 00:02:47,750
+which includes sensitive data like your
+database connection and security keys.
+
+176
+00:02:47,750 --> 00:02:47,760
+database connection and security keys.
+ 
+
+177
+00:02:47,760 --> 00:02:49,430
+database connection and security keys.
+And apparently, the command and control
+
+178
+00:02:49,430 --> 00:02:49,440
+And apparently, the command and control
+ 
+
+179
+00:02:49,440 --> 00:02:51,270
+And apparently, the command and control
+domain was resolved through an Ethereum
+
+180
+00:02:51,270 --> 00:02:51,280
+domain was resolved through an Ethereum
+ 
+
+181
+00:02:51,280 --> 00:02:53,350
+domain was resolved through an Ethereum
+smart contract. So, once the exploit
+
+182
+00:02:53,350 --> 00:02:53,360
+smart contract. So, once the exploit
+ 
+
+183
+00:02:53,360 --> 00:02:55,270
+smart contract. So, once the exploit
+became known, the attacker could quickly
+
+184
+00:02:55,270 --> 00:02:55,280
+became known, the attacker could quickly
+ 
+
+185
+00:02:55,280 --> 00:02:57,150
+became known, the attacker could quickly
+update the smart contract to point to a
+
+186
+00:02:57,150 --> 00:02:57,160
+update the smart contract to point to a
+ 
+
+187
+00:02:57,160 --> 00:02:59,110
+update the smart contract to point to a
+new domain at any time. That's pretty
+
+188
+00:02:59,110 --> 00:02:59,120
+new domain at any time. That's pretty
+ 
+
+189
+00:02:59,120 --> 00:03:01,070
+new domain at any time. That's pretty
+clever, but the core issue here is that
+
+190
+00:03:01,070 --> 00:03:01,080
+clever, but the core issue here is that
+ 
+
+191
+00:03:01,080 --> 00:03:02,390
+clever, but the core issue here is that
+everything was delivered through a
+
+192
+00:03:02,390 --> 00:03:02,400
+everything was delivered through a
+ 
+
+193
+00:03:02,400 --> 00:03:04,229
+everything was delivered through a
+normal plugin update from a trusted
+
+194
+00:03:04,229 --> 00:03:04,239
+normal plugin update from a trusted
+ 
+
+195
+00:03:04,239 --> 00:03:06,190
+normal plugin update from a trusted
+source. So, it bypassed the usual
+
+196
+00:03:06,190 --> 00:03:06,200
+source. So, it bypassed the usual
+ 
+
+197
+00:03:06,200 --> 00:03:08,350
+source. So, it bypassed the usual
+suspicion of a normal fishing attack.
+
+198
+00:03:08,350 --> 00:03:08,360
+suspicion of a normal fishing attack.
+ 
+
+199
+00:03:08,360 --> 00:03:10,150
+suspicion of a normal fishing attack.
+Now, WordPress did step in and remove
+
+200
+00:03:10,150 --> 00:03:10,160
+Now, WordPress did step in and remove
+ 
+
+201
+00:03:10,160 --> 00:03:12,070
+Now, WordPress did step in and remove
+the plugins, but damage is already done
+
+202
+00:03:12,070 --> 00:03:12,080
+the plugins, but damage is already done
+ 
+
+203
+00:03:12,080 --> 00:03:13,630
+the plugins, but damage is already done
+inside the system and turning what
+
+204
+00:03:13,630 --> 00:03:13,640
+inside the system and turning what
+ 
+
+205
+00:03:13,640 --> 00:03:15,229
+inside the system and turning what
+looked like routine maintenance into a
+
+206
+00:03:15,229 --> 00:03:15,239
+looked like routine maintenance into a
+ 
+
+207
+00:03:15,239 --> 00:03:17,190
+looked like routine maintenance into a
+full-blown supply chain compromise.
+
+208
+00:03:17,190 --> 00:03:17,200
+full-blown supply chain compromise.
+ 
+
+209
+00:03:17,200 --> 00:03:18,710
+full-blown supply chain compromise.
+Luckily though, if you're considering
+
+210
+00:03:18,710 --> 00:03:18,720
+Luckily though, if you're considering
+ 
+
+211
+00:03:18,720 --> 00:03:20,470
+Luckily though, if you're considering
+using WordPress today, Cloudflare
+
+212
+00:03:20,470 --> 00:03:20,480
+using WordPress today, Cloudflare
+ 
+
+213
+00:03:20,480 --> 00:03:23,190
+using WordPress today, Cloudflare
+recently created a new project called m-
+
+214
+00:03:23,190 --> 00:03:23,200
+recently created a new project called m-
+ 
+
+215
+00:03:23,200 --> 00:03:25,710
+recently created a new project called m-
+which takes all that old crappy PHP code
+
+216
+00:03:25,710 --> 00:03:25,720
+which takes all that old crappy PHP code
+ 
+
+217
+00:03:25,720 --> 00:03:26,910
+which takes all that old crappy PHP code
+and turns it into something even
+
+218
+00:03:26,910 --> 00:03:26,920
+and turns it into something even
+ 
+
+219
+00:03:26,920 --> 00:03:29,390
+and turns it into something even
+crappier, AI written JavaScript code.
+
+220
+00:03:29,390 --> 00:03:29,400
+crappier, AI written JavaScript code.
+ 
+
+221
+00:03:29,400 --> 00:03:31,310
+crappier, AI written JavaScript code.
+This project actually doesn't use any
+
+222
+00:03:31,310 --> 00:03:31,320
+This project actually doesn't use any
+ 
+
+223
+00:03:31,320 --> 00:03:33,430
+This project actually doesn't use any
+original WordPress code and is MIT
+
+224
+00:03:33,430 --> 00:03:33,440
+original WordPress code and is MIT
+ 
+
+225
+00:03:33,440 --> 00:03:35,470
+original WordPress code and is MIT
+licensed, but it's designed to be fully
+
+226
+00:03:35,470 --> 00:03:35,480
+licensed, but it's designed to be fully
+ 
+
+227
+00:03:35,480 --> 00:03:37,310
+licensed, but it's designed to be fully
+compatible with the original WordPress
+
+228
+00:03:37,310 --> 00:03:37,320
+compatible with the original WordPress
+ 
+
+229
+00:03:37,320 --> 00:03:39,630
+compatible with the original WordPress
+APIs. And under the hood, it's based on
+
+230
+00:03:39,630 --> 00:03:39,640
+APIs. And under the hood, it's based on
+ 
+
+231
+00:03:39,640 --> 00:03:41,630
+APIs. And under the hood, it's based on
+the awesome Astro project for its
+
+232
+00:03:41,630 --> 00:03:41,640
+the awesome Astro project for its
+ 
+
+233
+00:03:41,640 --> 00:03:43,590
+the awesome Astro project for its
+content management system. What makes
+
+234
+00:03:43,590 --> 00:03:43,600
+content management system. What makes
+ 
+
+235
+00:03:43,600 --> 00:03:45,270
+content management system. What makes
+this project special though, is that it
+
+236
+00:03:45,270 --> 00:03:45,280
+this project special though, is that it
+ 
+
+237
+00:03:45,280 --> 00:03:47,190
+this project special though, is that it
+doesn't let plugins run wild with full
+
+238
+00:03:47,190 --> 00:03:47,200
+doesn't let plugins run wild with full
+ 
+
+239
+00:03:47,200 --> 00:03:49,870
+doesn't let plugins run wild with full
+access. m- locks each plugin down in its
+
+240
+00:03:49,870 --> 00:03:49,880
+access. m- locks each plugin down in its
+ 
+
+241
+00:03:49,880 --> 00:03:52,270
+access. m- locks each plugin down in its
+own sandbox with a dynamic worker. The
+
+242
+00:03:52,270 --> 00:03:52,280
+own sandbox with a dynamic worker. The
+ 
+
+243
+00:03:52,280 --> 00:03:54,030
+own sandbox with a dynamic worker. The
+framework itself doesn't hand over your
+
+244
+00:03:54,030 --> 00:03:54,040
+framework itself doesn't hand over your
+ 
+
+245
+00:03:54,040 --> 00:03:56,550
+framework itself doesn't hand over your
+data directly. Instead, the plugin only
+
+246
+00:03:56,550 --> 00:03:56,560
+data directly. Instead, the plugin only
+ 
+
+247
+00:03:56,560 --> 00:03:58,590
+data directly. Instead, the plugin only
+gets access to specific capabilities
+
+248
+00:03:58,590 --> 00:03:58,600
+gets access to specific capabilities
+ 
+
+249
+00:03:58,600 --> 00:04:00,150
+gets access to specific capabilities
+through bindings and only if it
+
+250
+00:04:00,150 --> 00:04:00,160
+through bindings and only if it
+ 
+
+251
+00:04:00,160 --> 00:04:01,590
+through bindings and only if it
+explicitly asks for them in the
+
+252
+00:04:01,590 --> 00:04:01,600
+explicitly asks for them in the
+ 
+
+253
+00:04:01,600 --> 00:04:03,230
+explicitly asks for them in the
+manifest. It's kind of like telling the
+
+254
+00:04:03,230 --> 00:04:03,240
+manifest. It's kind of like telling the
+ 
+
+255
+00:04:03,240 --> 00:04:05,430
+manifest. It's kind of like telling the
+plugin, "No, no, don't touch me there.
+
+256
+00:04:05,430 --> 00:04:05,440
+plugin, "No, no, don't touch me there.
+ 
+
+257
+00:04:05,440 --> 00:04:07,830
+plugin, "No, no, don't touch me there.
+This is my no-no square." Pretty cool,
+
+258
+00:04:07,830 --> 00:04:07,840
+This is my no-no square." Pretty cool,
+ 
+
+259
+00:04:07,840 --> 00:04:09,949
+This is my no-no square." Pretty cool,
+but will M dash actually kill WordPress
+
+260
+00:04:09,949 --> 00:04:09,959
+but will M dash actually kill WordPress
+ 
+
+261
+00:04:09,959 --> 00:04:12,110
+but will M dash actually kill WordPress
+once and for all? The answer is probably
+
+262
+00:04:12,110 --> 00:04:12,120
+once and for all? The answer is probably
+ 
+
+263
+00:04:12,120 --> 00:04:14,430
+once and for all? The answer is probably
+not and definitely not anytime soon.
+
+264
+00:04:14,430 --> 00:04:14,440
+not and definitely not anytime soon.
+ 
+
+265
+00:04:14,440 --> 00:04:15,949
+not and definitely not anytime soon.
+But, the craziest thing to me is how
+
+266
+00:04:15,949 --> 00:04:15,959
+But, the craziest thing to me is how
+ 
+
+267
+00:04:15,959 --> 00:04:17,870
+But, the craziest thing to me is how
+quickly developers can roll out complete
+
+268
+00:04:17,870 --> 00:04:17,880
+quickly developers can roll out complete
+ 
+
+269
+00:04:17,880 --> 00:04:19,390
+quickly developers can roll out complete
+replacements for frameworks that have
+
+270
+00:04:19,390 --> 00:04:19,400
+replacements for frameworks that have
+ 
+
+271
+00:04:19,400 --> 00:04:20,990
+replacements for frameworks that have
+been around for forever. And that's made
+
+272
+00:04:20,990 --> 00:04:21,000
+been around for forever. And that's made
+ 
+
+273
+00:04:21,000 --> 00:04:23,430
+been around for forever. And that's made
+possible by modern AI coding tools like
+
+274
+00:04:23,430 --> 00:04:23,440
+possible by modern AI coding tools like
+ 
+
+275
+00:04:23,440 --> 00:04:25,670
+possible by modern AI coding tools like
+Warp, the sponsor of today's video. If
+
+276
+00:04:25,670 --> 00:04:25,680
+Warp, the sponsor of today's video. If
+ 
+
+277
+00:04:25,680 --> 00:04:27,430
+Warp, the sponsor of today's video. If
+you're vibe maxing with Claude Code,
+
+278
+00:04:27,430 --> 00:04:27,440
+you're vibe maxing with Claude Code,
+ 
+
+279
+00:04:27,440 --> 00:04:29,830
+you're vibe maxing with Claude Code,
+Codex, Gemini CLI, and open code at the
+
+280
+00:04:29,830 --> 00:04:29,840
+Codex, Gemini CLI, and open code at the
+ 
+
+281
+00:04:29,840 --> 00:04:32,030
+Codex, Gemini CLI, and open code at the
+same time, but keep losing track of all
+
+282
+00:04:32,030 --> 00:04:32,040
+same time, but keep losing track of all
+ 
+
+283
+00:04:32,040 --> 00:04:33,590
+same time, but keep losing track of all
+your agents, you need to check out
+
+284
+00:04:33,590 --> 00:04:33,600
+your agents, you need to check out
+ 
+
+285
+00:04:33,600 --> 00:04:35,710
+your agents, you need to check out
+Warp's new universal agent support,
+
+286
+00:04:35,710 --> 00:04:35,720
+Warp's new universal agent support,
+ 
+
+287
+00:04:35,720 --> 00:04:37,710
+Warp's new universal agent support,
+which turns your terminal into an agent
+
+288
+00:04:37,710 --> 00:04:37,720
+which turns your terminal into an agent
+ 
+
+289
+00:04:37,720 --> 00:04:39,710
+which turns your terminal into an agent
+command center. Vertical tabs let you
+
+290
+00:04:39,710 --> 00:04:39,720
+command center. Vertical tabs let you
+ 
+
+291
+00:04:39,720 --> 00:04:41,630
+command center. Vertical tabs let you
+group your agent sessions together and
+
+292
+00:04:41,630 --> 00:04:41,640
+group your agent sessions together and
+ 
+
+293
+00:04:41,640 --> 00:04:43,750
+group your agent sessions together and
+quickly see useful metadata like Git
+
+294
+00:04:43,750 --> 00:04:43,760
+quickly see useful metadata like Git
+ 
+
+295
+00:04:43,760 --> 00:04:45,750
+quickly see useful metadata like Git
+branch, work tree, and pull request
+
+296
+00:04:45,750 --> 00:04:45,760
+branch, work tree, and pull request
+ 
+
+297
+00:04:45,760 --> 00:04:47,310
+branch, work tree, and pull request
+status, which means your terminal
+
+298
+00:04:47,310 --> 00:04:47,320
+status, which means your terminal
+ 
+
+299
+00:04:47,320 --> 00:04:49,230
+status, which means your terminal
+finally has object permanence. And the
+
+300
+00:04:49,230 --> 00:04:49,240
+finally has object permanence. And the
+ 
+
+301
+00:04:49,240 --> 00:04:51,310
+finally has object permanence. And the
+tab configs let you save your ideal
+
+302
+00:04:51,310 --> 00:04:51,320
+tab configs let you save your ideal
+ 
+
+303
+00:04:51,320 --> 00:04:53,150
+tab configs let you save your ideal
+setup and reopen it instantly in the
+
+304
+00:04:53,150 --> 00:04:53,160
+setup and reopen it instantly in the
+ 
+
+305
+00:04:53,160 --> 00:04:55,190
+setup and reopen it instantly in the
+future. The best part though is that you
+
+306
+00:04:55,190 --> 00:04:55,200
+future. The best part though is that you
+ 
+
+307
+00:04:55,200 --> 00:04:56,990
+future. The best part though is that you
+can get notifications from your coding
+
+308
+00:04:56,990 --> 00:04:57,000
+can get notifications from your coding
+ 
+
+309
+00:04:57,000 --> 00:04:59,070
+can get notifications from your coding
+agents in Warp and on your desktop
+
+310
+00:04:59,070 --> 00:04:59,080
+agents in Warp and on your desktop
+ 
+
+311
+00:04:59,080 --> 00:05:00,750
+agents in Warp and on your desktop
+whenever they need attention. Instead of
+
+312
+00:05:00,750 --> 00:05:00,760
+whenever they need attention. Instead of
+ 
+
+313
+00:05:00,760 --> 00:05:02,590
+whenever they need attention. Instead of
+checking on them every 30 seconds like a
+
+314
+00:05:02,590 --> 00:05:02,600
+checking on them every 30 seconds like a
+ 
+
+315
+00:05:02,600 --> 00:05:04,430
+checking on them every 30 seconds like a
+helicopter parent. So, if you already
+
+316
+00:05:04,430 --> 00:05:04,440
+helicopter parent. So, if you already
+ 
+
+317
+00:05:04,440 --> 00:05:06,150
+helicopter parent. So, if you already
+have an agent you like or you want to
+
+318
+00:05:06,150 --> 00:05:06,160
+have an agent you like or you want to
+ 
+
+319
+00:05:06,160 --> 00:05:08,190
+have an agent you like or you want to
+try running multiple agents at once, I'd
+
+320
+00:05:08,190 --> 00:05:08,200
+try running multiple agents at once, I'd
+ 
+
+321
+00:05:08,200 --> 00:05:09,670
+try running multiple agents at once, I'd
+highly recommend checking out Warp for
+
+322
+00:05:09,670 --> 00:05:09,680
+highly recommend checking out Warp for
+ 
+
+323
+00:05:09,680 --> 00:05:11,470
+highly recommend checking out Warp for
+free at the link below. This has been
+
+324
+00:05:11,470 --> 00:05:11,480
+free at the link below. This has been
+ 
+
+325
+00:05:11,480 --> 00:05:13,430
+free at the link below. This has been
+the Code Report. Thanks for watching and
+
+326
+00:05:13,430 --> 00:05:13,440
+the Code Report. Thanks for watching and
+ 
+
+327
+00:05:13,440 --> 00:05:16,760
+the Code Report. Thanks for watching and
+I will see you in the next one.
+

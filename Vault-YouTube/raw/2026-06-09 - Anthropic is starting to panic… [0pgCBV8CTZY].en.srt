@@ -1,0 +1,1525 @@
+1
+00:00:00,160 --> 00:00:02,389
+
+Last week, Anthropic officially became
+
+2
+00:00:02,389 --> 00:00:02,399
+Last week, Anthropic officially became
+ 
+
+3
+00:00:02,399 --> 00:00:04,870
+Last week, Anthropic officially became
+the Apex Alpha company of the artificial
+
+4
+00:00:04,870 --> 00:00:04,880
+the Apex Alpha company of the artificial
+ 
+
+5
+00:00:04,880 --> 00:00:07,030
+the Apex Alpha company of the artificial
+intelligence race with a valuation
+
+6
+00:00:07,030 --> 00:00:07,040
+intelligence race with a valuation
+ 
+
+7
+00:00:07,040 --> 00:00:09,190
+intelligence race with a valuation
+exceeding OpenAI as they filed to go
+
+8
+00:00:09,190 --> 00:00:09,200
+exceeding OpenAI as they filed to go
+ 
+
+9
+00:00:09,200 --> 00:00:11,190
+exceeding OpenAI as they filed to go
+public with their trillion dollar IPO
+
+10
+00:00:11,190 --> 00:00:11,200
+public with their trillion dollar IPO
+ 
+
+11
+00:00:11,200 --> 00:00:12,790
+public with their trillion dollar IPO
+later this year. If you're a software
+
+12
+00:00:12,790 --> 00:00:12,800
+later this year. If you're a software
+ 
+
+13
+00:00:12,800 --> 00:00:14,709
+later this year. If you're a software
+engineer, this comes as no surprise
+
+14
+00:00:14,709 --> 00:00:14,719
+engineer, this comes as no surprise
+ 
+
+15
+00:00:14,719 --> 00:00:16,310
+engineer, this comes as no surprise
+because Claude has been the best AI
+
+16
+00:00:16,310 --> 00:00:16,320
+because Claude has been the best AI
+ 
+
+17
+00:00:16,320 --> 00:00:18,070
+because Claude has been the best AI
+programmer for years now. But despite
+
+18
+00:00:18,070 --> 00:00:18,080
+programmer for years now. But despite
+ 
+
+19
+00:00:18,080 --> 00:00:19,429
+programmer for years now. But despite
+the billions of dollars flowing into
+
+20
+00:00:19,429 --> 00:00:19,439
+the billions of dollars flowing into
+ 
+
+21
+00:00:19,439 --> 00:00:21,269
+the billions of dollars flowing into
+this company right now, they also just
+
+22
+00:00:21,269 --> 00:00:21,279
+this company right now, they also just
+ 
+
+23
+00:00:21,279 --> 00:00:23,109
+this company right now, they also just
+proposed something that sounds insane.
+
+24
+00:00:23,109 --> 00:00:23,119
+proposed something that sounds insane.
+ 
+
+25
+00:00:23,119 --> 00:00:25,029
+proposed something that sounds insane.
+Maybe we should wait a second and pause
+
+26
+00:00:25,029 --> 00:00:25,039
+Maybe we should wait a second and pause
+ 
+
+27
+00:00:25,039 --> 00:00:27,589
+Maybe we should wait a second and pause
+all AI development because AI is getting
+
+28
+00:00:27,589 --> 00:00:27,599
+all AI development because AI is getting
+ 
+
+29
+00:00:27,599 --> 00:00:29,269
+all AI development because AI is getting
+dangerously close to recursive
+
+30
+00:00:29,269 --> 00:00:29,279
+dangerously close to recursive
+ 
+
+31
+00:00:29,279 --> 00:00:31,349
+dangerously close to recursive
+self-improvement. And when that happens,
+
+32
+00:00:31,349 --> 00:00:31,359
+self-improvement. And when that happens,
+ 
+
+33
+00:00:31,359 --> 00:00:33,430
+self-improvement. And when that happens,
+the last thing humanity ever builds is
+
+34
+00:00:33,430 --> 00:00:33,440
+the last thing humanity ever builds is
+ 
+
+35
+00:00:33,440 --> 00:00:35,590
+the last thing humanity ever builds is
+the thing that realizes it doesn't need
+
+36
+00:00:35,590 --> 00:00:35,600
+the thing that realizes it doesn't need
+ 
+
+37
+00:00:35,600 --> 00:00:37,910
+the thing that realizes it doesn't need
+humanity. Even if AI is benevolent and
+
+38
+00:00:37,910 --> 00:00:37,920
+humanity. Even if AI is benevolent and
+ 
+
+39
+00:00:37,920 --> 00:00:39,750
+humanity. Even if AI is benevolent and
+doesn't go rogue and kill us all, a new
+
+40
+00:00:39,750 --> 00:00:39,760
+doesn't go rogue and kill us all, a new
+ 
+
+41
+00:00:39,760 --> 00:00:41,510
+doesn't go rogue and kill us all, a new
+paper just dropped that believes all
+
+42
+00:00:41,510 --> 00:00:41,520
+paper just dropped that believes all
+ 
+
+43
+00:00:41,520 --> 00:00:43,430
+paper just dropped that believes all
+rational firms will automate each other
+
+44
+00:00:43,430 --> 00:00:43,440
+rational firms will automate each other
+ 
+
+45
+00:00:43,440 --> 00:00:45,430
+rational firms will automate each other
+into a death spiral anyway. It looks
+
+46
+00:00:45,430 --> 00:00:45,440
+into a death spiral anyway. It looks
+ 
+
+47
+00:00:45,440 --> 00:00:47,350
+into a death spiral anyway. It looks
+like we're screwed no matter what we do.
+
+48
+00:00:47,350 --> 00:00:47,360
+like we're screwed no matter what we do.
+ 
+
+49
+00:00:47,360 --> 00:00:49,190
+like we're screwed no matter what we do.
+But not everybody out there is a doomer.
+
+50
+00:00:49,190 --> 00:00:49,200
+But not everybody out there is a doomer.
+ 
+
+51
+00:00:49,200 --> 00:00:50,869
+But not everybody out there is a doomer.
+And I found some compelling evidence
+
+52
+00:00:50,869 --> 00:00:50,879
+And I found some compelling evidence
+ 
+
+53
+00:00:50,879 --> 00:00:53,110
+And I found some compelling evidence
+that AI might actually kind of suck. It
+
+54
+00:00:53,110 --> 00:00:53,120
+that AI might actually kind of suck. It
+ 
+
+55
+00:00:53,120 --> 00:00:55,510
+that AI might actually kind of suck. It
+is June 9th, 2026, and you're watching
+
+56
+00:00:55,510 --> 00:00:55,520
+is June 9th, 2026, and you're watching
+ 
+
+57
+00:00:55,520 --> 00:00:57,430
+is June 9th, 2026, and you're watching
+the code report. Anthropic's in-house
+
+58
+00:00:57,430 --> 00:00:57,440
+the code report. Anthropic's in-house
+ 
+
+59
+00:00:57,440 --> 00:00:59,430
+the code report. Anthropic's in-house
+think tank just dropped a report, and
+
+60
+00:00:59,430 --> 00:00:59,440
+think tank just dropped a report, and
+ 
+
+61
+00:00:59,440 --> 00:01:01,270
+think tank just dropped a report, and
+this is the thesis. AI is getting
+
+62
+00:01:01,270 --> 00:01:01,280
+this is the thesis. AI is getting
+ 
+
+63
+00:01:01,280 --> 00:01:02,869
+this is the thesis. AI is getting
+dangerously close to recursive
+
+64
+00:01:02,869 --> 00:01:02,879
+dangerously close to recursive
+ 
+
+65
+00:01:02,879 --> 00:01:04,469
+dangerously close to recursive
+self-improvement. In other words,
+
+66
+00:01:04,469 --> 00:01:04,479
+self-improvement. In other words,
+ 
+
+67
+00:01:04,479 --> 00:01:05,990
+self-improvement. In other words,
+they're smart enough to rewrite their
+
+68
+00:01:05,990 --> 00:01:06,000
+they're smart enough to rewrite their
+ 
+
+69
+00:01:06,000 --> 00:01:07,670
+they're smart enough to rewrite their
+code and upgrade themselves in a loop
+
+70
+00:01:07,670 --> 00:01:07,680
+code and upgrade themselves in a loop
+ 
+
+71
+00:01:07,680 --> 00:01:09,750
+code and upgrade themselves in a loop
+with no humans necessary. The entire
+
+72
+00:01:09,750 --> 00:01:09,760
+with no humans necessary. The entire
+ 
+
+73
+00:01:09,760 --> 00:01:11,750
+with no humans necessary. The entire
+industry is all gas and no breaks, and
+
+74
+00:01:11,750 --> 00:01:11,760
+industry is all gas and no breaks, and
+ 
+
+75
+00:01:11,760 --> 00:01:13,270
+industry is all gas and no breaks, and
+they want everybody to come together and
+
+76
+00:01:13,270 --> 00:01:13,280
+they want everybody to come together and
+ 
+
+77
+00:01:13,280 --> 00:01:15,270
+they want everybody to come together and
+hold hands and create a brake pedal. The
+
+78
+00:01:15,270 --> 00:01:15,280
+hold hands and create a brake pedal. The
+ 
+
+79
+00:01:15,280 --> 00:01:17,109
+hold hands and create a brake pedal. The
+problem is that Anthropic can't pause
+
+80
+00:01:17,109 --> 00:01:17,119
+problem is that Anthropic can't pause
+ 
+
+81
+00:01:17,119 --> 00:01:19,990
+problem is that Anthropic can't pause
+alone. While OpenAI, Deep Mind, and XAI
+
+82
+00:01:19,990 --> 00:01:20,000
+alone. While OpenAI, Deep Mind, and XAI
+ 
+
+83
+00:01:20,000 --> 00:01:21,910
+alone. While OpenAI, Deep Mind, and XAI
+keep sprinting. So, unilateral pausing
+
+84
+00:01:21,910 --> 00:01:21,920
+keep sprinting. So, unilateral pausing
+ 
+
+85
+00:01:21,920 --> 00:01:23,990
+keep sprinting. So, unilateral pausing
+is off the table. It's either everybody
+
+86
+00:01:23,990 --> 00:01:24,000
+is off the table. It's either everybody
+ 
+
+87
+00:01:24,000 --> 00:01:25,990
+is off the table. It's either everybody
+or nobody. And that includes China, by
+
+88
+00:01:25,990 --> 00:01:26,000
+or nobody. And that includes China, by
+ 
+
+89
+00:01:26,000 --> 00:01:27,190
+or nobody. And that includes China, by
+the way. And nobody's really worried
+
+90
+00:01:27,190 --> 00:01:27,200
+the way. And nobody's really worried
+ 
+
+91
+00:01:27,200 --> 00:01:29,830
+the way. And nobody's really worried
+about the EU. However, a global pause is
+
+92
+00:01:29,830 --> 00:01:29,840
+about the EU. However, a global pause is
+ 
+
+93
+00:01:29,840 --> 00:01:31,670
+about the EU. However, a global pause is
+a very convenient thing for the market
+
+94
+00:01:31,670 --> 00:01:31,680
+a very convenient thing for the market
+ 
+
+95
+00:01:31,680 --> 00:01:33,749
+a very convenient thing for the market
+leader to advocate for. Because it
+
+96
+00:01:33,749 --> 00:01:33,759
+leader to advocate for. Because it
+ 
+
+97
+00:01:33,759 --> 00:01:35,510
+leader to advocate for. Because it
+doesn't erase Anthropic's lead, it
+
+98
+00:01:35,510 --> 00:01:35,520
+doesn't erase Anthropic's lead, it
+ 
+
+99
+00:01:35,520 --> 00:01:36,950
+doesn't erase Anthropic's lead, it
+freezes it right as they're about to
+
+100
+00:01:36,950 --> 00:01:36,960
+freezes it right as they're about to
+ 
+
+101
+00:01:36,960 --> 00:01:38,950
+freezes it right as they're about to
+make billions of dollars with an IPO. If
+
+102
+00:01:38,950 --> 00:01:38,960
+make billions of dollars with an IPO. If
+ 
+
+103
+00:01:38,960 --> 00:01:40,469
+make billions of dollars with an IPO. If
+all this sounds familiar, it's not
+
+104
+00:01:40,469 --> 00:01:40,479
+all this sounds familiar, it's not
+ 
+
+105
+00:01:40,479 --> 00:01:42,149
+all this sounds familiar, it's not
+because you're crazy. It's because in
+
+106
+00:01:42,149 --> 00:01:42,159
+because you're crazy. It's because in
+ 
+
+107
+00:01:42,159 --> 00:01:44,789
+because you're crazy. It's because in
+2019, OpenAI did the same thing before
+
+108
+00:01:44,789 --> 00:01:44,799
+2019, OpenAI did the same thing before
+ 
+
+109
+00:01:44,799 --> 00:01:47,109
+2019, OpenAI did the same thing before
+the release of GPT2. At first, they said
+
+110
+00:01:47,109 --> 00:01:47,119
+the release of GPT2. At first, they said
+ 
+
+111
+00:01:47,119 --> 00:01:49,030
+the release of GPT2. At first, they said
+it was too dangerous to release it, just
+
+112
+00:01:49,030 --> 00:01:49,040
+it was too dangerous to release it, just
+ 
+
+113
+00:01:49,040 --> 00:01:50,710
+it was too dangerous to release it, just
+like Anthropic is doing right now with
+
+114
+00:01:50,710 --> 00:01:50,720
+like Anthropic is doing right now with
+ 
+
+115
+00:01:50,720 --> 00:01:52,310
+like Anthropic is doing right now with
+Claude Mythos. But then they released
+
+116
+00:01:52,310 --> 00:01:52,320
+Claude Mythos. But then they released
+ 
+
+117
+00:01:52,320 --> 00:01:55,109
+Claude Mythos. But then they released
+GPT2 and it was totally fine. That was 7
+
+118
+00:01:55,109 --> 00:01:55,119
+GPT2 and it was totally fine. That was 7
+ 
+
+119
+00:01:55,119 --> 00:01:56,950
+GPT2 and it was totally fine. That was 7
+years ago, and now it looks like ancient
+
+120
+00:01:56,950 --> 00:01:56,960
+years ago, and now it looks like ancient
+ 
+
+121
+00:01:56,960 --> 00:01:59,030
+years ago, and now it looks like ancient
+technology. Today, if we are to trust
+
+122
+00:01:59,030 --> 00:01:59,040
+technology. Today, if we are to trust
+ 
+
+123
+00:01:59,040 --> 00:02:00,870
+technology. Today, if we are to trust
+these Trust Me Bro benchmarks, the
+
+124
+00:02:00,870 --> 00:02:00,880
+these Trust Me Bro benchmarks, the
+ 
+
+125
+00:02:00,880 --> 00:02:02,709
+these Trust Me Bro benchmarks, the
+modern Claude models are far better at
+
+126
+00:02:02,709 --> 00:02:02,719
+modern Claude models are far better at
+ 
+
+127
+00:02:02,719 --> 00:02:05,590
+modern Claude models are far better at
+research than humans. Like 64% of the
+
+128
+00:02:05,590 --> 00:02:05,600
+research than humans. Like 64% of the
+ 
+
+129
+00:02:05,600 --> 00:02:07,670
+research than humans. Like 64% of the
+time, a Claude mythos is better than a
+
+130
+00:02:07,670 --> 00:02:07,680
+time, a Claude mythos is better than a
+ 
+
+131
+00:02:07,680 --> 00:02:09,910
+time, a Claude mythos is better than a
+human every time. On top of that, AI
+
+132
+00:02:09,910 --> 00:02:09,920
+human every time. On top of that, AI
+ 
+
+133
+00:02:09,920 --> 00:02:11,589
+human every time. On top of that, AI
+researchers are now solving problems
+
+134
+00:02:11,589 --> 00:02:11,599
+researchers are now solving problems
+ 
+
+135
+00:02:11,599 --> 00:02:13,350
+researchers are now solving problems
+that humans haven't been able to. Like
+
+136
+00:02:13,350 --> 00:02:13,360
+that humans haven't been able to. Like
+ 
+
+137
+00:02:13,360 --> 00:02:15,670
+that humans haven't been able to. Like
+OpenAI recently disproved a central
+
+138
+00:02:15,670 --> 00:02:15,680
+OpenAI recently disproved a central
+ 
+
+139
+00:02:15,680 --> 00:02:17,750
+OpenAI recently disproved a central
+conjecture and discrete geometry, which
+
+140
+00:02:17,750 --> 00:02:17,760
+conjecture and discrete geometry, which
+ 
+
+141
+00:02:17,760 --> 00:02:19,510
+conjecture and discrete geometry, which
+mathematicians have failed to do for the
+
+142
+00:02:19,510 --> 00:02:19,520
+mathematicians have failed to do for the
+ 
+
+143
+00:02:19,520 --> 00:02:21,589
+mathematicians have failed to do for the
+last 80 years. The scary thing is that
+
+144
+00:02:21,589 --> 00:02:21,599
+last 80 years. The scary thing is that
+ 
+
+145
+00:02:21,599 --> 00:02:23,750
+last 80 years. The scary thing is that
+we're already giving AI access to data
+
+146
+00:02:23,750 --> 00:02:23,760
+we're already giving AI access to data
+ 
+
+147
+00:02:23,760 --> 00:02:25,670
+we're already giving AI access to data
+centers, robots, and weapons to blow
+
+148
+00:02:25,670 --> 00:02:25,680
+centers, robots, and weapons to blow
+ 
+
+149
+00:02:25,680 --> 00:02:27,190
+centers, robots, and weapons to blow
+people up. And thanks to predictive
+
+150
+00:02:27,190 --> 00:02:27,200
+people up. And thanks to predictive
+ 
+
+151
+00:02:27,200 --> 00:02:29,030
+people up. And thanks to predictive
+programming in Hollywood movies, we all
+
+152
+00:02:29,030 --> 00:02:29,040
+programming in Hollywood movies, we all
+ 
+
+153
+00:02:29,040 --> 00:02:30,710
+programming in Hollywood movies, we all
+know how that story ends. It's either
+
+154
+00:02:30,710 --> 00:02:30,720
+know how that story ends. It's either
+ 
+
+155
+00:02:30,720 --> 00:02:32,630
+know how that story ends. It's either
+enslavement like the Matrix or
+
+156
+00:02:32,630 --> 00:02:32,640
+enslavement like the Matrix or
+ 
+
+157
+00:02:32,640 --> 00:02:34,550
+enslavement like the Matrix or
+extermination like Terminator. I'd
+
+158
+00:02:34,550 --> 00:02:34,560
+extermination like Terminator. I'd
+ 
+
+159
+00:02:34,560 --> 00:02:36,070
+extermination like Terminator. I'd
+prefer the latter, but there's a
+
+160
+00:02:36,070 --> 00:02:36,080
+prefer the latter, but there's a
+ 
+
+161
+00:02:36,080 --> 00:02:38,150
+prefer the latter, but there's a
+possibility for an even dumber outcome.
+
+162
+00:02:38,150 --> 00:02:38,160
+possibility for an even dumber outcome.
+ 
+
+163
+00:02:38,160 --> 00:02:40,229
+possibility for an even dumber outcome.
+as predicted by economists from Boston
+
+164
+00:02:40,229 --> 00:02:40,239
+as predicted by economists from Boston
+ 
+
+165
+00:02:40,239 --> 00:02:42,790
+as predicted by economists from Boston
+University in their paper, the AI layoff
+
+166
+00:02:42,790 --> 00:02:42,800
+University in their paper, the AI layoff
+ 
+
+167
+00:02:42,800 --> 00:02:44,630
+University in their paper, the AI layoff
+trap. At this point, there's been tens
+
+168
+00:02:44,630 --> 00:02:44,640
+trap. At this point, there's been tens
+ 
+
+169
+00:02:44,640 --> 00:02:46,390
+trap. At this point, there's been tens
+of thousands of layoffs in tech thanks
+
+170
+00:02:46,390 --> 00:02:46,400
+of thousands of layoffs in tech thanks
+ 
+
+171
+00:02:46,400 --> 00:02:48,550
+of thousands of layoffs in tech thanks
+to AI. But these economists did some
+
+172
+00:02:48,550 --> 00:02:48,560
+to AI. But these economists did some
+ 
+
+173
+00:02:48,560 --> 00:02:50,390
+to AI. But these economists did some
+math, and it doesn't look good. Because
+
+174
+00:02:50,390 --> 00:02:50,400
+math, and it doesn't look good. Because
+ 
+
+175
+00:02:50,400 --> 00:02:52,309
+math, and it doesn't look good. Because
+when a firm automates away a worker with
+
+176
+00:02:52,309 --> 00:02:52,319
+when a firm automates away a worker with
+ 
+
+177
+00:02:52,319 --> 00:02:55,190
+when a firm automates away a worker with
+AI, it pockets 100% of the savings. But
+
+178
+00:02:55,190 --> 00:02:55,200
+AI, it pockets 100% of the savings. But
+ 
+
+179
+00:02:55,200 --> 00:02:57,509
+AI, it pockets 100% of the savings. But
+the laid-off worker is also a customer.
+
+180
+00:02:57,509 --> 00:02:57,519
+the laid-off worker is also a customer.
+ 
+
+181
+00:02:57,519 --> 00:02:59,030
+the laid-off worker is also a customer.
+And their loss spending doesn't just
+
+182
+00:02:59,030 --> 00:02:59,040
+And their loss spending doesn't just
+ 
+
+183
+00:02:59,040 --> 00:03:00,869
+And their loss spending doesn't just
+hurt the firm that fired them, it hurts
+
+184
+00:03:00,869 --> 00:03:00,879
+hurt the firm that fired them, it hurts
+ 
+
+185
+00:03:00,879 --> 00:03:02,790
+hurt the firm that fired them, it hurts
+everyone selling anything. Demand goes
+
+186
+00:03:02,790 --> 00:03:02,800
+everyone selling anything. Demand goes
+ 
+
+187
+00:03:02,800 --> 00:03:05,030
+everyone selling anything. Demand goes
+down. So the endgame is that firms
+
+188
+00:03:05,030 --> 00:03:05,040
+down. So the endgame is that firms
+ 
+
+189
+00:03:05,040 --> 00:03:06,550
+down. So the endgame is that firms
+automate their way to infinite
+
+190
+00:03:06,550 --> 00:03:06,560
+automate their way to infinite
+ 
+
+191
+00:03:06,560 --> 00:03:08,869
+automate their way to infinite
+productivity and zero demand. They also
+
+192
+00:03:08,869 --> 00:03:08,879
+productivity and zero demand. They also
+ 
+
+193
+00:03:08,879 --> 00:03:10,550
+productivity and zero demand. They also
+argue that things like UBI and
+
+194
+00:03:10,550 --> 00:03:10,560
+argue that things like UBI and
+ 
+
+195
+00:03:10,560 --> 00:03:12,309
+argue that things like UBI and
+upskilling aren't going to work and the
+
+196
+00:03:12,309 --> 00:03:12,319
+upskilling aren't going to work and the
+ 
+
+197
+00:03:12,319 --> 00:03:14,149
+upskilling aren't going to work and the
+only solution is to put a tax on
+
+198
+00:03:14,149 --> 00:03:14,159
+only solution is to put a tax on
+ 
+
+199
+00:03:14,159 --> 00:03:15,830
+only solution is to put a tax on
+automation. It kind of like the same way
+
+200
+00:03:15,830 --> 00:03:15,840
+automation. It kind of like the same way
+ 
+
+201
+00:03:15,840 --> 00:03:18,070
+automation. It kind of like the same way
+we tax pollution, making it cost more to
+
+202
+00:03:18,070 --> 00:03:18,080
+we tax pollution, making it cost more to
+ 
+
+203
+00:03:18,080 --> 00:03:20,229
+we tax pollution, making it cost more to
+fire people. So the math stops rewarding
+
+204
+00:03:20,229 --> 00:03:20,239
+fire people. So the math stops rewarding
+ 
+
+205
+00:03:20,239 --> 00:03:21,830
+fire people. So the math stops rewarding
+the AI race. But if there's one thing
+
+206
+00:03:21,830 --> 00:03:21,840
+the AI race. But if there's one thing
+ 
+
+207
+00:03:21,840 --> 00:03:23,430
+the AI race. But if there's one thing
+I've learned about economists, it's that
+
+208
+00:03:23,430 --> 00:03:23,440
+I've learned about economists, it's that
+ 
+
+209
+00:03:23,440 --> 00:03:25,270
+I've learned about economists, it's that
+they're wrong pretty much every time. A
+
+210
+00:03:25,270 --> 00:03:25,280
+they're wrong pretty much every time. A
+ 
+
+211
+00:03:25,280 --> 00:03:27,589
+they're wrong pretty much every time. A
+third possibility is that AI just isn't
+
+212
+00:03:27,589 --> 00:03:27,599
+third possibility is that AI just isn't
+ 
+
+213
+00:03:27,599 --> 00:03:29,509
+third possibility is that AI just isn't
+nearly as good as people think and never
+
+214
+00:03:29,509 --> 00:03:29,519
+nearly as good as people think and never
+ 
+
+215
+00:03:29,519 --> 00:03:31,589
+nearly as good as people think and never
+will be. This is the Wall-E situation
+
+216
+00:03:31,589 --> 00:03:31,599
+will be. This is the Wall-E situation
+ 
+
+217
+00:03:31,599 --> 00:03:33,110
+will be. This is the Wall-E situation
+where we keep chasing more and more
+
+218
+00:03:33,110 --> 00:03:33,120
+where we keep chasing more and more
+ 
+
+219
+00:03:33,120 --> 00:03:35,030
+where we keep chasing more and more
+automation and ultimately destroy the
+
+220
+00:03:35,030 --> 00:03:35,040
+automation and ultimately destroy the
+ 
+
+221
+00:03:35,040 --> 00:03:36,470
+automation and ultimately destroy the
+planet by building more and more data
+
+222
+00:03:36,470 --> 00:03:36,480
+planet by building more and more data
+ 
+
+223
+00:03:36,480 --> 00:03:38,070
+planet by building more and more data
+centers. One piece of evidence that
+
+224
+00:03:38,070 --> 00:03:38,080
+centers. One piece of evidence that
+ 
+
+225
+00:03:38,080 --> 00:03:39,990
+centers. One piece of evidence that
+supports that outcome is that over the
+
+226
+00:03:39,990 --> 00:03:40,000
+supports that outcome is that over the
+ 
+
+227
+00:03:40,000 --> 00:03:41,270
+supports that outcome is that over the
+last couple years with the rise of
+
+228
+00:03:41,270 --> 00:03:41,280
+last couple years with the rise of
+ 
+
+229
+00:03:41,280 --> 00:03:43,350
+last couple years with the rise of
+Agentic AI, the number of new app
+
+230
+00:03:43,350 --> 00:03:43,360
+Agentic AI, the number of new app
+ 
+
+231
+00:03:43,360 --> 00:03:45,670
+Agentic AI, the number of new app
+releases on the iOS app store is nearly
+
+232
+00:03:45,670 --> 00:03:45,680
+releases on the iOS app store is nearly
+ 
+
+233
+00:03:45,680 --> 00:03:47,670
+releases on the iOS app store is nearly
+doubled. However, it appears nobody's
+
+234
+00:03:47,670 --> 00:03:47,680
+doubled. However, it appears nobody's
+ 
+
+235
+00:03:47,680 --> 00:03:49,589
+doubled. However, it appears nobody's
+actually using these apps because app
+
+236
+00:03:49,589 --> 00:03:49,599
+actually using these apps because app
+ 
+
+237
+00:03:49,599 --> 00:03:51,830
+actually using these apps because app
+reviews and apps with significant usage
+
+238
+00:03:51,830 --> 00:03:51,840
+reviews and apps with significant usage
+ 
+
+239
+00:03:51,840 --> 00:03:54,470
+reviews and apps with significant usage
+are declining. In addition, this 2025
+
+240
+00:03:54,470 --> 00:03:54,480
+are declining. In addition, this 2025
+ 
+
+241
+00:03:54,480 --> 00:03:57,030
+are declining. In addition, this 2025
+report from MIT analyzed over 300
+
+242
+00:03:57,030 --> 00:03:57,040
+report from MIT analyzed over 300
+ 
+
+243
+00:03:57,040 --> 00:03:59,270
+report from MIT analyzed over 300
+enterprises implementing AI. And even
+
+244
+00:03:59,270 --> 00:03:59,280
+enterprises implementing AI. And even
+ 
+
+245
+00:03:59,280 --> 00:04:00,949
+enterprises implementing AI. And even
+though they spent over $30 billion
+
+246
+00:04:00,949 --> 00:04:00,959
+though they spent over $30 billion
+ 
+
+247
+00:04:00,959 --> 00:04:03,110
+though they spent over $30 billion
+collectively, the end result was that
+
+248
+00:04:03,110 --> 00:04:03,120
+collectively, the end result was that
+ 
+
+249
+00:04:03,120 --> 00:04:05,670
+collectively, the end result was that
+95% of their projects delivered zero
+
+250
+00:04:05,670 --> 00:04:05,680
+95% of their projects delivered zero
+ 
+
+251
+00:04:05,680 --> 00:04:07,670
+95% of their projects delivered zero
+measurable revenue impact or return on
+
+252
+00:04:07,670 --> 00:04:07,680
+measurable revenue impact or return on
+ 
+
+253
+00:04:07,680 --> 00:04:09,830
+measurable revenue impact or return on
+investment. That doesn't look good. But
+
+254
+00:04:09,830 --> 00:04:09,840
+investment. That doesn't look good. But
+ 
+
+255
+00:04:09,840 --> 00:04:11,190
+investment. That doesn't look good. But
+luckily, there are tools that can help
+
+256
+00:04:11,190 --> 00:04:11,200
+luckily, there are tools that can help
+ 
+
+257
+00:04:11,200 --> 00:04:13,589
+luckily, there are tools that can help
+you avoid failure, like Pioneer, the
+
+258
+00:04:13,589 --> 00:04:13,599
+you avoid failure, like Pioneer, the
+ 
+
+259
+00:04:13,599 --> 00:04:15,270
+you avoid failure, like Pioneer, the
+sponsor of today's video. If you're
+
+260
+00:04:15,270 --> 00:04:15,280
+sponsor of today's video. If you're
+ 
+
+261
+00:04:15,280 --> 00:04:17,670
+sponsor of today's video. If you're
+calling a Frontier model for every LLM
+
+262
+00:04:17,670 --> 00:04:17,680
+calling a Frontier model for every LLM
+ 
+
+263
+00:04:17,680 --> 00:04:19,189
+calling a Frontier model for every LLM
+request in your app, it's probably
+
+264
+00:04:19,189 --> 00:04:19,199
+request in your app, it's probably
+ 
+
+265
+00:04:19,199 --> 00:04:21,270
+request in your app, it's probably
+burning through a bonfire of tokens just
+
+266
+00:04:21,270 --> 00:04:21,280
+burning through a bonfire of tokens just
+ 
+
+267
+00:04:21,280 --> 00:04:23,590
+burning through a bonfire of tokens just
+to return generic results. But Pioneer
+
+268
+00:04:23,590 --> 00:04:23,600
+to return generic results. But Pioneer
+ 
+
+269
+00:04:23,600 --> 00:04:25,430
+to return generic results. But Pioneer
+solves this by giving you an inference
+
+270
+00:04:25,430 --> 00:04:25,440
+solves this by giving you an inference
+ 
+
+271
+00:04:25,440 --> 00:04:27,590
+solves this by giving you an inference
+API that you can plug into your existing
+
+272
+00:04:27,590 --> 00:04:27,600
+API that you can plug into your existing
+ 
+
+273
+00:04:27,600 --> 00:04:30,150
+API that you can plug into your existing
+LLM setup to handle all model routing
+
+274
+00:04:30,150 --> 00:04:30,160
+LLM setup to handle all model routing
+ 
+
+275
+00:04:30,160 --> 00:04:32,230
+LLM setup to handle all model routing
+and optimization for you. And it will
+
+276
+00:04:32,230 --> 00:04:32,240
+and optimization for you. And it will
+ 
+
+277
+00:04:32,240 --> 00:04:34,150
+and optimization for you. And it will
+cluster your app's traffic by use case
+
+278
+00:04:34,150 --> 00:04:34,160
+cluster your app's traffic by use case
+ 
+
+279
+00:04:34,160 --> 00:04:35,990
+cluster your app's traffic by use case
+to discover where your current model is
+
+280
+00:04:35,990 --> 00:04:36,000
+to discover where your current model is
+ 
+
+281
+00:04:36,000 --> 00:04:38,230
+to discover where your current model is
+being too slow, too expensive, or too
+
+282
+00:04:38,230 --> 00:04:38,240
+being too slow, too expensive, or too
+ 
+
+283
+00:04:38,240 --> 00:04:40,310
+being too slow, too expensive, or too
+stupid. Then it trains a fleet of
+
+284
+00:04:40,310 --> 00:04:40,320
+stupid. Then it trains a fleet of
+ 
+
+285
+00:04:40,320 --> 00:04:41,990
+stupid. Then it trains a fleet of
+smaller open- source models in the
+
+286
+00:04:41,990 --> 00:04:42,000
+smaller open- source models in the
+ 
+
+287
+00:04:42,000 --> 00:04:43,830
+smaller open- source models in the
+background and alerts you when it finds
+
+288
+00:04:43,830 --> 00:04:43,840
+background and alerts you when it finds
+ 
+
+289
+00:04:43,840 --> 00:04:46,230
+background and alerts you when it finds
+one that's cheaper and better so you can
+
+290
+00:04:46,230 --> 00:04:46,240
+one that's cheaper and better so you can
+ 
+
+291
+00:04:46,240 --> 00:04:47,909
+one that's cheaper and better so you can
+easily swap it under the hood. But
+
+292
+00:04:47,909 --> 00:04:47,919
+easily swap it under the hood. But
+ 
+
+293
+00:04:47,919 --> 00:04:49,990
+easily swap it under the hood. But
+Pioneer works great with Claude Code,
+
+294
+00:04:49,990 --> 00:04:50,000
+Pioneer works great with Claude Code,
+ 
+
+295
+00:04:50,000 --> 00:04:52,710
+Pioneer works great with Claude Code,
+Codeex, Cursor, Hermes, or anything else
+
+296
+00:04:52,710 --> 00:04:52,720
+Codeex, Cursor, Hermes, or anything else
+ 
+
+297
+00:04:52,720 --> 00:04:55,030
+Codeex, Cursor, Hermes, or anything else
+hitting an LLM endpoint. And you can get
+
+298
+00:04:55,030 --> 00:04:55,040
+hitting an LLM endpoint. And you can get
+ 
+
+299
+00:04:55,040 --> 00:04:57,990
+hitting an LLM endpoint. And you can get
+$30 of inference for just $5 today. But
+
+300
+00:04:57,990 --> 00:04:58,000
+$30 of inference for just $5 today. But
+ 
+
+301
+00:04:58,000 --> 00:04:59,430
+$30 of inference for just $5 today. But
+this has been the code report. Thanks
+
+302
+00:04:59,430 --> 00:04:59,440
+this has been the code report. Thanks
+ 
+
+303
+00:04:59,440 --> 00:05:01,189
+this has been the code report. Thanks
+for watching and I will see you in the
+
+304
+00:05:01,189 --> 00:05:01,199
+for watching and I will see you in the
+ 
+
+305
+00:05:01,199 --> 00:05:04,000
+for watching and I will see you in the
+next one.
+

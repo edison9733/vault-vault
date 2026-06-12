@@ -1,0 +1,1 @@
+An AI model that doesn't merely generate tokens but builds an internal representation of language, physics, motion, and causality — capable of simulating reality. [[Gemini Omni]] is positioned as a world model by Demis Hassabis. Contrasts with narrow generative models that only produce text/pixels.

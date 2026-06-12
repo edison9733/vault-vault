@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SpaceX vs Amazon — Are They Worth the Same Price?</title>
+<style>
+  :root {
+    --bg: #0f1117;
+    --surface: #1a1d27;
+    --border: #2e3248;
+    --text: #e2e8f0;
+    --muted: #8892a4;
+    --amazon: #ff9900;
+    --spacex: #005288;
+    --spacex-light: #4da3e8;
+    --red: #f87171;
+    --green: #4ade80;
+    --accent: #a78bfa;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 32px 24px;
+    max-width: 820px;
+    margin: 0 auto;
+  }
+  h1 { font-size: 1.5rem; font-weight: 700; margin-bottom: 4px; }
+  .subtitle { color: var(--muted); font-size: 0.875rem; margin-bottom: 32px; }
+  .source { color: var(--accent); font-size: 0.8rem; margin-top: 2px; }
+
+  section { margin-bottom: 40px; }
+  h2 { font-size: 1rem; font-weight: 600; color: var(--accent); text-transform: uppercase;
+       letter-spacing: 0.08em; margin-bottom: 16px; border-bottom: 1px solid var(--border);
+       padding-bottom: 6px; }
+
+  /* ── Definition box ── */
+  .defs { background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+          padding: 18px 20px; }
+  .def { margin-bottom: 12px; }
+  .def:last-child { margin-bottom: 0; }
+  .def strong { color: var(--amazon); }
+  .def span { color: var(--muted); font-size: 0.875rem; }
+
+  /* ── Summary table ── */
+  table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+  th { background: var(--surface); color: var(--muted); font-weight: 600;
+       text-align: left; padding: 10px 14px; font-size: 0.8rem; text-transform: uppercase;
+       letter-spacing: 0.05em; }
+  td { padding: 10px 14px; border-bottom: 1px solid var(--border); }
+  tr:last-child td { border-bottom: none; }
+  .val-amazon { color: var(--amazon); font-weight: 600; }
+  .val-spacex  { color: var(--spacex-light); font-weight: 600; }
+  .label-row td { background: var(--surface); color: var(--muted); font-size: 0.8rem;
+                  font-style: italic; }
+
+  /* ── Bar chart ── */
+  .chart-wrap { display: flex; flex-direction: column; gap: 22px; }
+  .chart-item {}
+  .chart-label { font-size: 0.85rem; color: var(--muted); margin-bottom: 6px; }
+  .bars { display: flex; flex-direction: column; gap: 8px; }
+  .bar-row { display: flex; align-items: center; gap: 12px; }
+  .bar-name { width: 90px; font-size: 0.85rem; text-align: right; flex-shrink: 0; }
+  .bar-track { flex: 1; background: var(--surface); border-radius: 4px; height: 32px;
+               overflow: hidden; position: relative; border: 1px solid var(--border); }
+  .bar-fill { height: 100%; border-radius: 3px; display: flex; align-items: center;
+              padding-left: 10px; font-size: 0.8rem; font-weight: 700; white-space: nowrap;
+              transition: width 0.4s ease; }
+  .bar-amazon { background: linear-gradient(90deg, #b36b00, var(--amazon)); color: #000; }
+  .bar-spacex  { background: linear-gradient(90deg, #003d6b, var(--spacex-light)); color: #fff; }
+
+  /* ── Verdict box ── */
+  .verdict { background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--red);
+             border-radius: 10px; padding: 18px 20px; }
+  .verdict p { margin-bottom: 10px; }
+  .verdict p:last-child { margin-bottom: 0; }
+  .verdict strong { color: var(--red); }
+  .tip { border-left-color: var(--green); }
+  .tip strong { color: var(--green); }
+
+  .pill { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 0.78rem;
+          font-weight: 600; margin-left: 6px; }
+  .pill-cheap { background: #14532d; color: #4ade80; }
+  .pill-expensive { background: #450a0a; color: #f87171; }
+
+  footer { color: var(--muted); font-size: 0.78rem; margin-top: 48px;
+           border-top: 1px solid var(--border); padding-top: 14px; }
+</style>
+</head>
+<body>
+
+<h1>SpaceX vs Amazon — Are They Worth the Same Price?</h1>
+<p class="subtitle">Adam Khoo's valuation breakdown, explained from zero</p>
+<p class="source">Source: Adam Khoo — "SpaceX vs Amazon: Which Is Worth $2 Trillion?" (2026-06-01)</p>
+
+<!-- ── 1. What the words mean ── -->
+<section>
+  <h2>Step 1 — What the Words Mean</h2>
+  <div class="defs">
+    <div class="def">
+      <strong>Market cap</strong> — the total price of a company.<br>
+      <span>Market cap = share price × number of shares. "SpaceX at $1.75 trillion" means buying every single share would cost $1.75 trillion.</span>
+    </div>
+    <div class="def">
+      <strong>Revenue (Sales)</strong> — all the money customers paid the company in one year, before any costs.<br>
+      <span>Amazon: $716 billion/year. SpaceX: $16 billion/year.</span>
+    </div>
+    <div class="def">
+      <strong>EBITDA</strong> — Earnings Before Interest, Taxes, Depreciation and Amortisation.<br>
+      <span>A measure of "how much profit does the core business actually make?" Ignore the accounting noise, just: did you earn money?</span>
+    </div>
+    <div class="def">
+      <strong>P/S ratio (Price-to-Sales)</strong> — market cap ÷ yearly revenue.<br>
+      <span>P/S = 3 means: "for every $1 of annual sales, investors pay $3." P/S = 109 means: "for every $1 of annual sales, investors pay $109." Higher P/S = more expensive.</span>
+    </div>
+    <div class="def">
+      <strong>P/EBITDA ratio</strong> — market cap ÷ yearly EBITDA.<br>
+      <span>Same idea but using profit instead of sales. P/EBITDA = 218 means you pay $218 for every $1 of profit the company makes per year.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ── 2. The raw numbers ── -->
+<section>
+  <h2>Step 2 — The Raw Numbers Side by Side</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Metric</th>
+        <th>Amazon 🟠</th>
+        <th>SpaceX 🔵</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Valuation (market cap)</td>
+        <td class="val-amazon">~$2 trillion</td>
+        <td class="val-spacex">~$1.75 trillion (IPO ask)</td>
+      </tr>
+      <tr>
+        <td>Yearly revenue</td>
+        <td class="val-amazon">$716 billion</td>
+        <td class="val-spacex">$16 billion</td>
+      </tr>
+      <tr>
+        <td>EBITDA / profit</td>
+        <td class="val-amazon">$146 billion</td>
+        <td class="val-spacex">$8 billion</td>
+      </tr>
+      <tr class="label-row">
+        <td colspan="3">↓ The ratios — "how much are you paying per $1 of the company's money?"</td>
+      </tr>
+      <tr>
+        <td>P/S ratio <span class="pill pill-cheap">3× = cheap</span></td>
+        <td class="val-amazon" style="font-size:1.2rem">3×</td>
+        <td class="val-spacex" style="font-size:1.2rem">109×</td>
+      </tr>
+      <tr>
+        <td>P/EBITDA ratio <span class="pill pill-expensive">218× = extreme</span></td>
+        <td class="val-amazon" style="font-size:1.2rem">~14×</td>
+        <td class="val-spacex" style="font-size:1.2rem">218×</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ── 3. Visual bar charts ── -->
+<section>
+  <h2>Step 3 — Visual Comparison (same scale)</h2>
+  <div class="chart-wrap">
+
+    <div class="chart-item">
+      <div class="chart-label">
+        <strong>P/S Ratio</strong> — how many dollars you pay per $1 of yearly sales<br>
+        <span style="color:var(--muted);font-size:0.8rem">Lower bar = better value for money</span>
+      </div>
+      <div class="bars">
+        <div class="bar-row">
+          <div class="bar-name" style="color:var(--amazon)">Amazon</div>
+          <div class="bar-track">
+            <!-- 3/109 = 2.75% of max bar, floor to 3% for visibility -->
+            <div class="bar-fill bar-amazon" style="width:3%">3×</div>
+          </div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-name" style="color:var(--spacex-light)">SpaceX</div>
+          <div class="bar-track">
+            <div class="bar-fill bar-spacex" style="width:100%">109× &nbsp;←&nbsp; you pay $109 per $1 of sales</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="chart-item">
+      <div class="chart-label">
+        <strong>P/EBITDA Ratio</strong> — how many dollars you pay per $1 of yearly profit<br>
+        <span style="color:var(--muted);font-size:0.8rem">Lower bar = better value for money</span>
+      </div>
+      <div class="bars">
+        <div class="bar-row">
+          <div class="bar-name" style="color:var(--amazon)">Amazon</div>
+          <div class="bar-track">
+            <!-- 14/218 = 6.4% -->
+            <div class="bar-fill bar-amazon" style="width:6.4%">14×</div>
+          </div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-name" style="color:var(--spacex-light)">SpaceX</div>
+          <div class="bar-track">
+            <div class="bar-fill bar-spacex" style="width:100%">218× &nbsp;←&nbsp; you pay $218 per $1 of profit</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="chart-item">
+      <div class="chart-label">
+        <strong>Revenue (actual size of business)</strong> — yearly sales in $ billions<br>
+        <span style="color:var(--muted);font-size:0.8rem">Both companies cost about the same — but look how different the businesses are</span>
+      </div>
+      <div class="bars">
+        <div class="bar-row">
+          <div class="bar-name" style="color:var(--amazon)">Amazon</div>
+          <div class="bar-track">
+            <div class="bar-fill bar-amazon" style="width:100%">$716B revenue</div>
+          </div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-name" style="color:var(--spacex-light)">SpaceX</div>
+          <div class="bar-track">
+            <!-- 16/716 = 2.2% -->
+            <div class="bar-fill bar-spacex" style="width:2.2%">$16B</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── 4. Adam Khoo's conclusion ── -->
+<section>
+  <h2>Step 4 — What Adam Khoo Concluded</h2>
+  <div class="verdict">
+    <p>At roughly the same total price (~$2 trillion), <strong>SpaceX has 45× less revenue and 18× less profit than Amazon.</strong></p>
+    <p>To justify a P/S of 109×, SpaceX would need to grow its revenue <strong>36×</strong> — just to match the price Amazon trades at today, which is already considered a reasonable price.</p>
+    <p>Adam Khoo is not saying SpaceX is a bad company. He is saying: <strong>the IPO price leaves almost no room for error.</strong> If SpaceX grows slower than expected, the stock will fall hard.</p>
+  </div>
+  <br>
+  <div class="verdict tip">
+    <p><strong>His alternative suggestion:</strong> Instead of buying SpaceX at 109× sales, buy <strong>Alphabet</strong> — which already owns 7% of SpaceX. That stake is worth roughly $6–10 billion and is not included in Alphabet's stock price at all.</p>
+    <p>You get SpaceX exposure for free, on top of Google's search, cloud, and advertising business trading at a much more reasonable valuation.</p>
+  </div>
+</section>
+
+<footer>
+  Chart generated 2026-06-12 · Data from Adam Khoo YouTube channel · Vault-YouTube
+</footer>
+
+</body>
+</html>

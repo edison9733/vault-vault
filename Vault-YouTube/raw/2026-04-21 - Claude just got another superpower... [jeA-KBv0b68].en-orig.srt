@@ -1,0 +1,1575 @@
+1
+00:00:00,000 --> 00:00:01,830
+
+In a shocking turn of events, that
+
+2
+00:00:01,830 --> 00:00:01,840
+In a shocking turn of events, that
+ 
+
+3
+00:00:01,840 --> 00:00:03,990
+In a shocking turn of events, that
+absolutely nobody saw coming, except for
+
+4
+00:00:03,990 --> 00:00:04,000
+absolutely nobody saw coming, except for
+ 
+
+5
+00:00:04,000 --> 00:00:05,910
+absolutely nobody saw coming, except for
+literally everyone, Anthropic just
+
+6
+00:00:05,910 --> 00:00:05,920
+literally everyone, Anthropic just
+ 
+
+7
+00:00:05,920 --> 00:00:07,230
+literally everyone, Anthropic just
+dropped what might be their most
+
+8
+00:00:07,230 --> 00:00:07,240
+dropped what might be their most
+ 
+
+9
+00:00:07,240 --> 00:00:09,470
+dropped what might be their most
+game-changing tool since Claude Code,
+
+10
+00:00:09,470 --> 00:00:09,480
+game-changing tool since Claude Code,
+ 
+
+11
+00:00:09,480 --> 00:00:12,550
+game-changing tool since Claude Code,
+Claude Design, a new Opus 4.7 powered
+
+12
+00:00:12,550 --> 00:00:12,560
+Claude Design, a new Opus 4.7 powered
+ 
+
+13
+00:00:12,560 --> 00:00:14,510
+Claude Design, a new Opus 4.7 powered
+platform that turns your half-baked
+
+14
+00:00:14,510 --> 00:00:14,520
+platform that turns your half-baked
+ 
+
+15
+00:00:14,520 --> 00:00:16,950
+platform that turns your half-baked
+Figma designs into actual prototypes,
+
+16
+00:00:16,950 --> 00:00:16,960
+Figma designs into actual prototypes,
+ 
+
+17
+00:00:16,960 --> 00:00:19,270
+Figma designs into actual prototypes,
+pitch decks, and production-ready UIs
+
+18
+00:00:19,270 --> 00:00:19,280
+pitch decks, and production-ready UIs
+ 
+
+19
+00:00:19,280 --> 00:00:21,030
+pitch decks, and production-ready UIs
+without the need to ever open a single
+
+20
+00:00:21,030 --> 00:00:21,040
+without the need to ever open a single
+ 
+
+21
+00:00:21,040 --> 00:00:23,790
+without the need to ever open a single
+design tool. The Figma stock dropped 7%
+
+22
+00:00:23,790 --> 00:00:23,800
+design tool. The Figma stock dropped 7%
+ 
+
+23
+00:00:23,800 --> 00:00:25,230
+design tool. The Figma stock dropped 7%
+within hours of the announcement.
+
+24
+00:00:25,230 --> 00:00:25,240
+within hours of the announcement.
+ 
+
+25
+00:00:25,240 --> 00:00:26,990
+within hours of the announcement.
+Longtime Adobe executives are just
+
+26
+00:00:26,990 --> 00:00:27,000
+Longtime Adobe executives are just
+ 
+
+27
+00:00:27,000 --> 00:00:28,550
+Longtime Adobe executives are just
+giving up and jumping out of high-rise
+
+28
+00:00:28,550 --> 00:00:28,560
+giving up and jumping out of high-rise
+ 
+
+29
+00:00:28,560 --> 00:00:30,910
+giving up and jumping out of high-rise
+windows. Every AI design startup just
+
+30
+00:00:30,910 --> 00:00:30,920
+windows. Every AI design startup just
+ 
+
+31
+00:00:30,920 --> 00:00:32,990
+windows. Every AI design startup just
+lost funding, and LinkedIn could barely
+
+32
+00:00:32,990 --> 00:00:33,000
+lost funding, and LinkedIn could barely
+ 
+
+33
+00:00:33,000 --> 00:00:34,670
+lost funding, and LinkedIn could barely
+keep its servers running because every
+
+34
+00:00:34,670 --> 00:00:34,680
+keep its servers running because every
+ 
+
+35
+00:00:34,680 --> 00:00:36,870
+keep its servers running because every
+junior UI designer was forced to do what
+
+36
+00:00:36,870 --> 00:00:36,880
+junior UI designer was forced to do what
+ 
+
+37
+00:00:36,880 --> 00:00:39,070
+junior UI designer was forced to do what
+every programmer had to do in 2023,
+
+38
+00:00:39,070 --> 00:00:39,080
+every programmer had to do in 2023,
+ 
+
+39
+00:00:39,080 --> 00:00:40,830
+every programmer had to do in 2023,
+update their job title to prompt
+
+40
+00:00:40,830 --> 00:00:40,840
+update their job title to prompt
+ 
+
+41
+00:00:40,840 --> 00:00:42,790
+update their job title to prompt
+engineer. In today's video, we'll look
+
+42
+00:00:42,790 --> 00:00:42,800
+engineer. In today's video, we'll look
+ 
+
+43
+00:00:42,800 --> 00:00:44,510
+engineer. In today's video, we'll look
+at all the crazy things Claude Design
+
+44
+00:00:44,510 --> 00:00:44,520
+at all the crazy things Claude Design
+ 
+
+45
+00:00:44,520 --> 00:00:46,550
+at all the crazy things Claude Design
+can do and find out if this is the final
+
+46
+00:00:46,550 --> 00:00:46,560
+can do and find out if this is the final
+ 
+
+47
+00:00:46,560 --> 00:00:49,190
+can do and find out if this is the final
+nail in the coffin for human-led UI/UX
+
+48
+00:00:49,190 --> 00:00:49,200
+nail in the coffin for human-led UI/UX
+ 
+
+49
+00:00:49,200 --> 00:00:52,310
+nail in the coffin for human-led UI/UX
+design. It is April 21st, 2026, and
+
+50
+00:00:52,310 --> 00:00:52,320
+design. It is April 21st, 2026, and
+ 
+
+51
+00:00:52,320 --> 00:00:53,990
+design. It is April 21st, 2026, and
+you're watching The Code Report. Claude
+
+52
+00:00:53,990 --> 00:00:54,000
+you're watching The Code Report. Claude
+ 
+
+53
+00:00:54,000 --> 00:00:56,070
+you're watching The Code Report. Claude
+Design is built on Anthropic's brand-new
+
+54
+00:00:56,070 --> 00:00:56,080
+Design is built on Anthropic's brand-new
+ 
+
+55
+00:00:56,080 --> 00:00:59,390
+Design is built on Anthropic's brand-new
+flagship model, Opus 4.7, which was just
+
+56
+00:00:59,390 --> 00:00:59,400
+flagship model, Opus 4.7, which was just
+ 
+
+57
+00:00:59,400 --> 00:01:01,430
+flagship model, Opus 4.7, which was just
+released last week, and is allegedly
+
+58
+00:01:01,430 --> 00:01:01,440
+released last week, and is allegedly
+ 
+
+59
+00:01:01,440 --> 00:01:02,910
+released last week, and is allegedly
+more tasteful and creative than its
+
+60
+00:01:02,910 --> 00:01:02,920
+more tasteful and creative than its
+ 
+
+61
+00:01:02,920 --> 00:01:04,670
+more tasteful and creative than its
+predecessor, which is just corporate
+
+62
+00:01:04,670 --> 00:01:04,680
+predecessor, which is just corporate
+ 
+
+63
+00:01:04,680 --> 00:01:06,870
+predecessor, which is just corporate
+speak for we finally taught it that not
+
+64
+00:01:06,870 --> 00:01:06,880
+speak for we finally taught it that not
+ 
+
+65
+00:01:06,880 --> 00:01:08,630
+speak for we finally taught it that not
+everything needs a purple gradient. The
+
+66
+00:01:08,630 --> 00:01:08,640
+everything needs a purple gradient. The
+ 
+
+67
+00:01:08,640 --> 00:01:11,430
+everything needs a purple gradient. The
+new model can now see images at 3.75
+
+68
+00:01:11,430 --> 00:01:11,440
+new model can now see images at 3.75
+ 
+
+69
+00:01:11,440 --> 00:01:13,790
+new model can now see images at 3.75
+megapixels, which is huge for design
+
+70
+00:01:13,790 --> 00:01:13,800
+megapixels, which is huge for design
+ 
+
+71
+00:01:13,800 --> 00:01:15,390
+megapixels, which is huge for design
+work because it can now understand
+
+72
+00:01:15,390 --> 00:01:15,400
+work because it can now understand
+ 
+
+73
+00:01:15,400 --> 00:01:18,270
+work because it can now understand
+images up to 2,576
+
+74
+00:01:18,270 --> 00:01:18,280
+images up to 2,576
+ 
+
+75
+00:01:18,280 --> 00:01:20,110
+images up to 2,576
+pixels on the long edge. Then, for
+
+76
+00:01:20,110 --> 00:01:20,120
+pixels on the long edge. Then, for
+ 
+
+77
+00:01:20,120 --> 00:01:22,950
+pixels on the long edge. Then, for
+programming, it hit 87.6%
+
+78
+00:01:22,950 --> 00:01:22,960
+programming, it hit 87.6%
+ 
+
+79
+00:01:22,960 --> 00:01:24,910
+programming, it hit 87.6%
+on the software engineering benchmark,
+
+80
+00:01:24,910 --> 00:01:24,920
+on the software engineering benchmark,
+ 
+
+81
+00:01:24,920 --> 00:01:28,110
+on the software engineering benchmark,
+which crushes Opus 4.6, but still falls
+
+82
+00:01:28,110 --> 00:01:28,120
+which crushes Opus 4.6, but still falls
+ 
+
+83
+00:01:28,120 --> 00:01:30,190
+which crushes Opus 4.6, but still falls
+behind the mysterious Mythos model.
+
+84
+00:01:30,190 --> 00:01:30,200
+behind the mysterious Mythos model.
+ 
+
+85
+00:01:30,200 --> 00:01:31,910
+behind the mysterious Mythos model.
+Despite these impressive trust-me-bro
+
+86
+00:01:31,910 --> 00:01:31,920
+Despite these impressive trust-me-bro
+ 
+
+87
+00:01:31,920 --> 00:01:33,910
+Despite these impressive trust-me-bro
+benchmark results, a pretty loud group
+
+88
+00:01:33,910 --> 00:01:33,920
+benchmark results, a pretty loud group
+ 
+
+89
+00:01:33,920 --> 00:01:35,790
+benchmark results, a pretty loud group
+of people on the internet are not happy
+
+90
+00:01:35,790 --> 00:01:35,800
+of people on the internet are not happy
+ 
+
+91
+00:01:35,800 --> 00:01:38,270
+of people on the internet are not happy
+and say Opus 4.7 is actually a
+
+92
+00:01:38,270 --> 00:01:38,280
+and say Opus 4.7 is actually a
+ 
+
+93
+00:01:38,280 --> 00:01:40,190
+and say Opus 4.7 is actually a
+regression. There's even a conspiracy
+
+94
+00:01:40,190 --> 00:01:40,200
+regression. There's even a conspiracy
+ 
+
+95
+00:01:40,200 --> 00:01:41,790
+regression. There's even a conspiracy
+theory that they intentionally nerfed
+
+96
+00:01:41,790 --> 00:01:41,800
+theory that they intentionally nerfed
+ 
+
+97
+00:01:41,800 --> 00:01:44,870
+theory that they intentionally nerfed
+4.6 over the last few months to make 4.7
+
+98
+00:01:44,870 --> 00:01:44,880
+4.6 over the last few months to make 4.7
+ 
+
+99
+00:01:44,880 --> 00:01:46,910
+4.6 over the last few months to make 4.7
+feel smarter on the release date. Now,
+
+100
+00:01:46,910 --> 00:01:46,920
+feel smarter on the release date. Now,
+ 
+
+101
+00:01:46,920 --> 00:01:47,950
+feel smarter on the release date. Now,
+even though I believe in every
+
+102
+00:01:47,950 --> 00:01:47,960
+even though I believe in every
+ 
+
+103
+00:01:47,960 --> 00:01:49,830
+even though I believe in every
+conspiracy I've ever heard, I'm not so
+
+104
+00:01:49,830 --> 00:01:49,840
+conspiracy I've ever heard, I'm not so
+ 
+
+105
+00:01:49,840 --> 00:01:51,790
+conspiracy I've ever heard, I'm not so
+sure about this one because these demos
+
+106
+00:01:51,790 --> 00:01:51,800
+sure about this one because these demos
+ 
+
+107
+00:01:51,800 --> 00:01:53,310
+sure about this one because these demos
+are straight-up off the chain. As
+
+108
+00:01:53,310 --> 00:01:53,320
+are straight-up off the chain. As
+ 
+
+109
+00:01:53,320 --> 00:01:54,990
+are straight-up off the chain. As
+similar to Google Stitch, which I made a
+
+110
+00:01:54,990 --> 00:01:55,000
+similar to Google Stitch, which I made a
+ 
+
+111
+00:01:55,000 --> 00:01:57,470
+similar to Google Stitch, which I made a
+a about a few weeks ago, The design can
+
+112
+00:01:57,470 --> 00:01:57,480
+a about a few weeks ago, The design can
+ 
+
+113
+00:01:57,480 --> 00:01:59,830
+a about a few weeks ago, The design can
+easily put together a basic UI for you,
+
+114
+00:01:59,830 --> 00:01:59,840
+easily put together a basic UI for you,
+ 
+
+115
+00:01:59,840 --> 00:02:01,310
+easily put together a basic UI for you,
+but when it comes to interactivity,
+
+116
+00:02:01,310 --> 00:02:01,320
+but when it comes to interactivity,
+ 
+
+117
+00:02:01,320 --> 00:02:03,110
+but when it comes to interactivity,
+Claude pulls way ahead. You notice all
+
+118
+00:02:03,110 --> 00:02:03,120
+Claude pulls way ahead. You notice all
+ 
+
+119
+00:02:03,120 --> 00:02:05,150
+Claude pulls way ahead. You notice all
+these demos are fully interactive.
+
+120
+00:02:05,150 --> 00:02:05,160
+these demos are fully interactive.
+ 
+
+121
+00:02:05,160 --> 00:02:06,590
+these demos are fully interactive.
+They've got working animations out of
+
+122
+00:02:06,590 --> 00:02:06,600
+They've got working animations out of
+ 
+
+123
+00:02:06,600 --> 00:02:08,150
+They've got working animations out of
+the box, and we can tweak all these
+
+124
+00:02:08,150 --> 00:02:08,160
+the box, and we can tweak all these
+ 
+
+125
+00:02:08,160 --> 00:02:10,109
+the box, and we can tweak all these
+sliders to get different results. In
+
+126
+00:02:10,109 --> 00:02:10,119
+sliders to get different results. In
+ 
+
+127
+00:02:10,119 --> 00:02:11,550
+sliders to get different results. In
+addition, it can give you a bunch of
+
+128
+00:02:11,550 --> 00:02:11,560
+addition, it can give you a bunch of
+ 
+
+129
+00:02:11,560 --> 00:02:13,550
+addition, it can give you a bunch of
+variations about how an animation should
+
+130
+00:02:13,550 --> 00:02:13,560
+variations about how an animation should
+ 
+
+131
+00:02:13,560 --> 00:02:15,430
+variations about how an animation should
+actually look. Like you might try out a
+
+132
+00:02:15,430 --> 00:02:15,440
+actually look. Like you might try out a
+ 
+
+133
+00:02:15,440 --> 00:02:17,110
+actually look. Like you might try out a
+bunch of different animations for a chat
+
+134
+00:02:17,110 --> 00:02:17,120
+bunch of different animations for a chat
+ 
+
+135
+00:02:17,120 --> 00:02:18,790
+bunch of different animations for a chat
+app, or you could have it slop out 100
+
+136
+00:02:18,790 --> 00:02:18,800
+app, or you could have it slop out 100
+ 
+
+137
+00:02:18,800 --> 00:02:20,350
+app, or you could have it slop out 100
+different loading spinners to choose the
+
+138
+00:02:20,350 --> 00:02:20,360
+different loading spinners to choose the
+ 
+
+139
+00:02:20,360 --> 00:02:21,830
+different loading spinners to choose the
+one that fits best for your next failed
+
+140
+00:02:21,830 --> 00:02:21,840
+one that fits best for your next failed
+ 
+
+141
+00:02:21,840 --> 00:02:23,710
+one that fits best for your next failed
+side project. It can also produce these
+
+142
+00:02:23,710 --> 00:02:23,720
+side project. It can also produce these
+ 
+
+143
+00:02:23,720 --> 00:02:25,870
+side project. It can also produce these
+crazy futuristic animations by doing
+
+144
+00:02:25,870 --> 00:02:25,880
+crazy futuristic animations by doing
+ 
+
+145
+00:02:25,880 --> 00:02:27,270
+crazy futuristic animations by doing
+something that terrifies every web
+
+146
+00:02:27,270 --> 00:02:27,280
+something that terrifies every web
+ 
+
+147
+00:02:27,280 --> 00:02:28,830
+something that terrifies every web
+developer. And that, of course, is
+
+148
+00:02:28,830 --> 00:02:28,840
+developer. And that, of course, is
+ 
+
+149
+00:02:28,840 --> 00:02:30,350
+developer. And that, of course, is
+working with shaders. And this thing
+
+150
+00:02:30,350 --> 00:02:30,360
+working with shaders. And this thing
+ 
+
+151
+00:02:30,360 --> 00:02:32,270
+working with shaders. And this thing
+might even make video editors obsolete
+
+152
+00:02:32,270 --> 00:02:32,280
+might even make video editors obsolete
+ 
+
+153
+00:02:32,280 --> 00:02:33,949
+might even make video editors obsolete
+because it can even produce full-length
+
+154
+00:02:33,949 --> 00:02:33,959
+because it can even produce full-length
+ 
+
+155
+00:02:33,959 --> 00:02:36,070
+because it can even produce full-length
+video animations over a minute long.
+
+156
+00:02:36,070 --> 00:02:36,080
+video animations over a minute long.
+ 
+
+157
+00:02:36,080 --> 00:02:37,990
+video animations over a minute long.
+Impressive, but the problem is that
+
+158
+00:02:37,990 --> 00:02:38,000
+Impressive, but the problem is that
+ 
+
+159
+00:02:38,000 --> 00:02:39,750
+Impressive, but the problem is that
+these are all cherry-picked pre-built
+
+160
+00:02:39,750 --> 00:02:39,760
+these are all cherry-picked pre-built
+ 
+
+161
+00:02:39,760 --> 00:02:41,670
+these are all cherry-picked pre-built
+demos. Let's find out if Claude design
+
+162
+00:02:41,670 --> 00:02:41,680
+demos. Let's find out if Claude design
+ 
+
+163
+00:02:41,680 --> 00:02:43,430
+demos. Let's find out if Claude design
+is actually good by building something
+
+164
+00:02:43,430 --> 00:02:43,440
+is actually good by building something
+ 
+
+165
+00:02:43,440 --> 00:02:45,150
+is actually good by building something
+ourselves. Before you start building
+
+166
+00:02:45,150 --> 00:02:45,160
+ourselves. Before you start building
+ 
+
+167
+00:02:45,160 --> 00:02:46,470
+ourselves. Before you start building
+something, though, you might already
+
+168
+00:02:46,470 --> 00:02:46,480
+something, though, you might already
+ 
+
+169
+00:02:46,480 --> 00:02:48,350
+something, though, you might already
+have your own design system in place.
+
+170
+00:02:48,350 --> 00:02:48,360
+have your own design system in place.
+ 
+
+171
+00:02:48,360 --> 00:02:50,310
+have your own design system in place.
+And like Google Stitch, you can upload a
+
+172
+00:02:50,310 --> 00:02:50,320
+And like Google Stitch, you can upload a
+ 
+
+173
+00:02:50,320 --> 00:02:52,470
+And like Google Stitch, you can upload a
+design system, which will force it to
+
+174
+00:02:52,470 --> 00:02:52,480
+design system, which will force it to
+ 
+
+175
+00:02:52,480 --> 00:02:54,590
+design system, which will force it to
+maintain consistency between designs.
+
+176
+00:02:54,590 --> 00:02:54,600
+maintain consistency between designs.
+ 
+
+177
+00:02:54,600 --> 00:02:56,070
+maintain consistency between designs.
+The cool thing about Claude is that you
+
+178
+00:02:56,070 --> 00:02:56,080
+The cool thing about Claude is that you
+ 
+
+179
+00:02:56,080 --> 00:02:58,150
+The cool thing about Claude is that you
+can upload that design system by linking
+
+180
+00:02:58,150 --> 00:02:58,160
+can upload that design system by linking
+ 
+
+181
+00:02:58,160 --> 00:03:00,310
+can upload that design system by linking
+a GitHub repo, or you can even upload a
+
+182
+00:03:00,310 --> 00:03:00,320
+a GitHub repo, or you can even upload a
+ 
+
+183
+00:03:00,320 --> 00:03:02,270
+a GitHub repo, or you can even upload a
+Figma file directly. And that's actually
+
+184
+00:03:02,270 --> 00:03:02,280
+Figma file directly. And that's actually
+ 
+
+185
+00:03:02,280 --> 00:03:04,070
+Figma file directly. And that's actually
+awesome if you're a designer because in
+
+186
+00:03:04,070 --> 00:03:04,080
+awesome if you're a designer because in
+ 
+
+187
+00:03:04,080 --> 00:03:05,830
+awesome if you're a designer because in
+theory, it means you only have to design
+
+188
+00:03:05,830 --> 00:03:05,840
+theory, it means you only have to design
+ 
+
+189
+00:03:05,840 --> 00:03:07,790
+theory, it means you only have to design
+a couple screens, then give Claude your
+
+190
+00:03:07,790 --> 00:03:07,800
+a couple screens, then give Claude your
+ 
+
+191
+00:03:07,800 --> 00:03:09,870
+a couple screens, then give Claude your
+Figma file, and it designs the other 100
+
+192
+00:03:09,870 --> 00:03:09,880
+Figma file, and it designs the other 100
+ 
+
+193
+00:03:09,880 --> 00:03:11,830
+Figma file, and it designs the other 100
+screens for you. Now, I actually have my
+
+194
+00:03:11,830 --> 00:03:11,840
+screens for you. Now, I actually have my
+ 
+
+195
+00:03:11,840 --> 00:03:13,830
+screens for you. Now, I actually have my
+design system already set up as a PDF
+
+196
+00:03:13,830 --> 00:03:13,840
+design system already set up as a PDF
+ 
+
+197
+00:03:13,840 --> 00:03:15,630
+design system already set up as a PDF
+file, which I'll go ahead and upload.
+
+198
+00:03:15,630 --> 00:03:15,640
+file, which I'll go ahead and upload.
+ 
+
+199
+00:03:15,640 --> 00:03:17,390
+file, which I'll go ahead and upload.
+Then I'll prompt Claude to build us an
+
+200
+00:03:17,390 --> 00:03:17,400
+Then I'll prompt Claude to build us an
+ 
+
+201
+00:03:17,400 --> 00:03:19,590
+Then I'll prompt Claude to build us an
+iOS onboarding flow for Horse Tinder.
+
+202
+00:03:19,590 --> 00:03:19,600
+iOS onboarding flow for Horse Tinder.
+ 
+
+203
+00:03:19,600 --> 00:03:21,670
+iOS onboarding flow for Horse Tinder.
+And now we just wait, and wait, and
+
+204
+00:03:21,670 --> 00:03:21,680
+And now we just wait, and wait, and
+ 
+
+205
+00:03:21,680 --> 00:03:24,590
+And now we just wait, and wait, and
+wait, and wait. Opus 4.7 is a lot slower
+
+206
+00:03:24,590 --> 00:03:24,600
+wait, and wait. Opus 4.7 is a lot slower
+ 
+
+207
+00:03:24,600 --> 00:03:26,750
+wait, and wait. Opus 4.7 is a lot slower
+than Google Stitch, Code X, or Cursor
+
+208
+00:03:26,750 --> 00:03:26,760
+than Google Stitch, Code X, or Cursor
+ 
+
+209
+00:03:26,760 --> 00:03:28,430
+than Google Stitch, Code X, or Cursor
+Composer, but at least it's still a
+
+210
+00:03:28,430 --> 00:03:28,440
+Composer, but at least it's still a
+ 
+
+211
+00:03:28,440 --> 00:03:30,430
+Composer, but at least it's still a
+thousand times faster than a human. But
+
+212
+00:03:30,430 --> 00:03:30,440
+thousand times faster than a human. But
+ 
+
+213
+00:03:30,440 --> 00:03:32,430
+thousand times faster than a human. But
+eventually, it brings us to this canvas
+
+214
+00:03:32,430 --> 00:03:32,440
+eventually, it brings us to this canvas
+ 
+
+215
+00:03:32,440 --> 00:03:34,470
+eventually, it brings us to this canvas
+with five beautifully designed screens.
+
+216
+00:03:34,470 --> 00:03:34,480
+with five beautifully designed screens.
+ 
+
+217
+00:03:34,480 --> 00:03:35,790
+with five beautifully designed screens.
+Now, beautiful might be a bit of an
+
+218
+00:03:35,790 --> 00:03:35,800
+Now, beautiful might be a bit of an
+ 
+
+219
+00:03:35,800 --> 00:03:37,509
+Now, beautiful might be a bit of an
+exaggeration here, but it is a good
+
+220
+00:03:37,509 --> 00:03:37,519
+exaggeration here, but it is a good
+ 
+
+221
+00:03:37,519 --> 00:03:39,150
+exaggeration here, but it is a good
+starting point. One issue, though, is
+
+222
+00:03:39,150 --> 00:03:39,160
+starting point. One issue, though, is
+ 
+
+223
+00:03:39,160 --> 00:03:41,070
+starting point. One issue, though, is
+that it didn't use my design system,
+
+224
+00:03:41,070 --> 00:03:41,080
+that it didn't use my design system,
+ 
+
+225
+00:03:41,080 --> 00:03:42,550
+that it didn't use my design system,
+even though it's recognized here in the
+
+226
+00:03:42,550 --> 00:03:42,560
+even though it's recognized here in the
+ 
+
+227
+00:03:42,560 --> 00:03:44,150
+even though it's recognized here in the
+chat output. It looks a lot more
+
+228
+00:03:44,150 --> 00:03:44,160
+chat output. It looks a lot more
+ 
+
+229
+00:03:44,160 --> 00:03:46,150
+chat output. It looks a lot more
+Claude-y than Fire Ship-y. We can just
+
+230
+00:03:46,150 --> 00:03:46,160
+Claude-y than Fire Ship-y. We can just
+ 
+
+231
+00:03:46,160 --> 00:03:47,550
+Claude-y than Fire Ship-y. We can just
+ignore that, though, because another
+
+232
+00:03:47,550 --> 00:03:47,560
+ignore that, though, because another
+ 
+
+233
+00:03:47,560 --> 00:03:49,830
+ignore that, though, because another
+issue is that the Horse Tinder logo is
+
+234
+00:03:49,830 --> 00:03:49,840
+issue is that the Horse Tinder logo is
+ 
+
+235
+00:03:49,840 --> 00:03:51,430
+issue is that the Horse Tinder logo is
+all washed out. Well, another nice
+
+236
+00:03:51,430 --> 00:03:51,440
+all washed out. Well, another nice
+ 
+
+237
+00:03:51,440 --> 00:03:53,270
+all washed out. Well, another nice
+feature in Claude design is that we can
+
+238
+00:03:53,270 --> 00:03:53,280
+feature in Claude design is that we can
+ 
+
+239
+00:03:53,280 --> 00:03:54,910
+feature in Claude design is that we can
+actually draw and comment on this
+
+240
+00:03:54,910 --> 00:03:54,920
+actually draw and comment on this
+ 
+
+241
+00:03:54,920 --> 00:03:57,030
+actually draw and comment on this
+canvas. Like, I can just draw an arrow
+
+242
+00:03:57,030 --> 00:03:57,040
+canvas. Like, I can just draw an arrow
+ 
+
+243
+00:03:57,040 --> 00:03:58,870
+canvas. Like, I can just draw an arrow
+directly to this crappy logo and then
+
+244
+00:03:58,870 --> 00:03:58,880
+directly to this crappy logo and then
+ 
+
+245
+00:03:58,880 --> 00:04:00,590
+directly to this crappy logo and then
+either comment it or just add a new
+
+246
+00:04:00,590 --> 00:04:00,600
+either comment it or just add a new
+ 
+
+247
+00:04:00,600 --> 00:04:02,750
+either comment it or just add a new
+prompt to fix it. Then 5 to 10 minutes
+
+248
+00:04:02,750 --> 00:04:02,760
+prompt to fix it. Then 5 to 10 minutes
+ 
+
+249
+00:04:02,760 --> 00:04:04,550
+prompt to fix it. Then 5 to 10 minutes
+later, it's magically fixed. Well,
+
+250
+00:04:04,550 --> 00:04:04,560
+later, it's magically fixed. Well,
+ 
+
+251
+00:04:04,560 --> 00:04:05,870
+later, it's magically fixed. Well,
+actually, wait a minute. It appears it
+
+252
+00:04:05,870 --> 00:04:05,880
+actually, wait a minute. It appears it
+ 
+
+253
+00:04:05,880 --> 00:04:07,470
+actually, wait a minute. It appears it
+didn't fix it. It just changed the
+
+254
+00:04:07,470 --> 00:04:07,480
+didn't fix it. It just changed the
+ 
+
+255
+00:04:07,480 --> 00:04:09,070
+didn't fix it. It just changed the
+background color a little bit. That's
+
+256
+00:04:09,070 --> 00:04:09,080
+background color a little bit. That's
+ 
+
+257
+00:04:09,080 --> 00:04:10,710
+background color a little bit. That's
+too bad and I guess we'll have to wait
+
+258
+00:04:10,710 --> 00:04:10,720
+too bad and I guess we'll have to wait
+ 
+
+259
+00:04:10,720 --> 00:04:12,750
+too bad and I guess we'll have to wait
+for Opus 4.8 to come out before we can
+
+260
+00:04:12,750 --> 00:04:12,760
+for Opus 4.8 to come out before we can
+ 
+
+261
+00:04:12,760 --> 00:04:14,630
+for Opus 4.8 to come out before we can
+finally finish Horse Tender. But the one
+
+262
+00:04:14,630 --> 00:04:14,640
+finally finish Horse Tender. But the one
+ 
+
+263
+00:04:14,640 --> 00:04:16,430
+finally finish Horse Tender. But the one
+thing we can continue working on is the
+
+264
+00:04:16,430 --> 00:04:16,440
+thing we can continue working on is the
+ 
+
+265
+00:04:16,440 --> 00:04:19,110
+thing we can continue working on is the
+back end using awesome tools like Google
+
+266
+00:04:19,110 --> 00:04:19,120
+back end using awesome tools like Google
+ 
+
+267
+00:04:19,120 --> 00:04:21,509
+back end using awesome tools like Google
+Cloud Run, the sponsor of today's video.
+
+268
+00:04:21,509 --> 00:04:21,519
+Cloud Run, the sponsor of today's video.
+ 
+
+269
+00:04:21,519 --> 00:04:23,710
+Cloud Run, the sponsor of today's video.
+It's a fully managed serverless platform
+
+270
+00:04:23,710 --> 00:04:23,720
+It's a fully managed serverless platform
+ 
+
+271
+00:04:23,720 --> 00:04:25,350
+It's a fully managed serverless platform
+that lets you run code on Google's
+
+272
+00:04:25,350 --> 00:04:25,360
+that lets you run code on Google's
+ 
+
+273
+00:04:25,360 --> 00:04:27,430
+that lets you run code on Google's
+world-class infrastructure with zero
+
+274
+00:04:27,430 --> 00:04:27,440
+world-class infrastructure with zero
+ 
+
+275
+00:04:27,440 --> 00:04:29,310
+world-class infrastructure with zero
+overhead. You can use any language or
+
+276
+00:04:29,310 --> 00:04:29,320
+overhead. You can use any language or
+ 
+
+277
+00:04:29,320 --> 00:04:31,350
+overhead. You can use any language or
+framework to run front-end and back-end
+
+278
+00:04:31,350 --> 00:04:31,360
+framework to run front-end and back-end
+ 
+
+279
+00:04:31,360 --> 00:04:34,110
+framework to run front-end and back-end
+services, batch jobs, or even host
+
+280
+00:04:34,110 --> 00:04:34,120
+services, batch jobs, or even host
+ 
+
+281
+00:04:34,120 --> 00:04:36,950
+services, batch jobs, or even host
+fine-tuned LLMs with GPUs, then deploy
+
+282
+00:04:36,950 --> 00:04:36,960
+fine-tuned LLMs with GPUs, then deploy
+ 
+
+283
+00:04:36,960 --> 00:04:38,550
+fine-tuned LLMs with GPUs, then deploy
+straight from your terminal or Cloud
+
+284
+00:04:38,550 --> 00:04:38,560
+straight from your terminal or Cloud
+ 
+
+285
+00:04:38,560 --> 00:04:40,630
+straight from your terminal or Cloud
+Code with a single command or set up
+
+286
+00:04:40,630 --> 00:04:40,640
+Code with a single command or set up
+ 
+
+287
+00:04:40,640 --> 00:04:42,670
+Code with a single command or set up
+continuous deployment from GitHub. You
+
+288
+00:04:42,670 --> 00:04:42,680
+continuous deployment from GitHub. You
+ 
+
+289
+00:04:42,680 --> 00:04:44,909
+continuous deployment from GitHub. You
+can also use Google AI Studio as a
+
+290
+00:04:44,909 --> 00:04:44,919
+can also use Google AI Studio as a
+ 
+
+291
+00:04:44,919 --> 00:04:46,909
+can also use Google AI Studio as a
+full-stack development environment where
+
+292
+00:04:46,909 --> 00:04:46,919
+full-stack development environment where
+ 
+
+293
+00:04:46,919 --> 00:04:48,990
+full-stack development environment where
+you can vibe code a complete React or
+
+294
+00:04:48,990 --> 00:04:49,000
+you can vibe code a complete React or
+ 
+
+295
+00:04:49,000 --> 00:04:51,230
+you can vibe code a complete React or
+Node.js app, then deploy to Cloud Run
+
+296
+00:04:51,230 --> 00:04:51,240
+Node.js app, then deploy to Cloud Run
+ 
+
+297
+00:04:51,240 --> 00:04:53,030
+Node.js app, then deploy to Cloud Run
+with a single click. The best part is
+
+298
+00:04:53,030 --> 00:04:53,040
+with a single click. The best part is
+ 
+
+299
+00:04:53,040 --> 00:04:55,110
+with a single click. The best part is
+that it scales to zero. So, idle
+
+300
+00:04:55,110 --> 00:04:55,120
+that it scales to zero. So, idle
+ 
+
+301
+00:04:55,120 --> 00:04:57,070
+that it scales to zero. So, idle
+projects don't cost you anything and it
+
+302
+00:04:57,070 --> 00:04:57,080
+projects don't cost you anything and it
+ 
+
+303
+00:04:57,080 --> 00:04:58,990
+projects don't cost you anything and it
+auto scales to handle traffic spikes
+
+304
+00:04:58,990 --> 00:04:59,000
+auto scales to handle traffic spikes
+ 
+
+305
+00:04:59,000 --> 00:05:01,150
+auto scales to handle traffic spikes
+without any manual intervention. It also
+
+306
+00:05:01,150 --> 00:05:01,160
+without any manual intervention. It also
+ 
+
+307
+00:05:01,160 --> 00:05:02,909
+without any manual intervention. It also
+gives you 2 million free requests per
+
+308
+00:05:02,909 --> 00:05:02,919
+gives you 2 million free requests per
+ 
+
+309
+00:05:02,919 --> 00:05:05,150
+gives you 2 million free requests per
+month, so go try it out for free today
+
+310
+00:05:05,150 --> 00:05:05,160
+month, so go try it out for free today
+ 
+
+311
+00:05:05,160 --> 00:05:07,270
+month, so go try it out for free today
+at cloud.run. This has been the Code
+
+312
+00:05:07,270 --> 00:05:07,280
+at cloud.run. This has been the Code
+ 
+
+313
+00:05:07,280 --> 00:05:09,190
+at cloud.run. This has been the Code
+Report. Thanks for watching and I will
+
+314
+00:05:09,190 --> 00:05:09,200
+Report. Thanks for watching and I will
+ 
+
+315
+00:05:09,200 --> 00:05:12,280
+Report. Thanks for watching and I will
+see you in the next one.
+

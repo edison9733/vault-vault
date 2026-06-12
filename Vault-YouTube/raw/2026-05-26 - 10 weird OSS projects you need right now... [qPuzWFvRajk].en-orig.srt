@@ -1,0 +1,2045 @@
+1
+00:00:00,000 --> 00:00:01,870
+
+Yesterday, I was looking at my GitHub
+
+2
+00:00:01,870 --> 00:00:01,880
+Yesterday, I was looking at my GitHub
+ 
+
+3
+00:00:01,880 --> 00:00:04,830
+Yesterday, I was looking at my GitHub
+feed and realized it was 90% AI agents
+
+4
+00:00:04,830 --> 00:00:04,840
+feed and realized it was 90% AI agents
+ 
+
+5
+00:00:04,840 --> 00:00:07,230
+feed and realized it was 90% AI agents
+reviewing other AI agents pull requests.
+
+6
+00:00:07,230 --> 00:00:07,240
+reviewing other AI agents pull requests.
+ 
+
+7
+00:00:07,240 --> 00:00:09,350
+reviewing other AI agents pull requests.
+My for you page is just six rappers
+
+8
+00:00:09,350 --> 00:00:09,360
+My for you page is just six rappers
+ 
+
+9
+00:00:09,360 --> 00:00:11,670
+My for you page is just six rappers
+around the same Claude API key, and all
+
+10
+00:00:11,670 --> 00:00:11,680
+around the same Claude API key, and all
+ 
+
+11
+00:00:11,680 --> 00:00:13,430
+around the same Claude API key, and all
+the most starred repos are literally
+
+12
+00:00:13,430 --> 00:00:13,440
+the most starred repos are literally
+ 
+
+13
+00:00:13,440 --> 00:00:15,510
+the most starred repos are literally
+just markdown files that tell you how to
+
+14
+00:00:15,510 --> 00:00:15,520
+just markdown files that tell you how to
+ 
+
+15
+00:00:15,520 --> 00:00:17,510
+just markdown files that tell you how to
+talk to robots. I thought I had died and
+
+16
+00:00:17,510 --> 00:00:17,520
+talk to robots. I thought I had died and
+ 
+
+17
+00:00:17,520 --> 00:00:19,270
+talk to robots. I thought I had died and
+went to hell, but I realized this can't
+
+18
+00:00:19,270 --> 00:00:19,280
+went to hell, but I realized this can't
+ 
+
+19
+00:00:19,280 --> 00:00:21,310
+went to hell, but I realized this can't
+be hell because this is my terminal
+
+20
+00:00:21,310 --> 00:00:21,320
+be hell because this is my terminal
+ 
+
+21
+00:00:21,320 --> 00:00:24,310
+be hell because this is my terminal
+emulator. It's 3D, it uses 300 megabytes
+
+22
+00:00:24,310 --> 00:00:24,320
+emulator. It's 3D, it uses 300 megabytes
+ 
+
+23
+00:00:24,320 --> 00:00:26,310
+emulator. It's 3D, it uses 300 megabytes
+of RAM, it has a spinning rat for a
+
+24
+00:00:26,310 --> 00:00:26,320
+of RAM, it has a spinning rat for a
+ 
+
+25
+00:00:26,320 --> 00:00:27,910
+of RAM, it has a spinning rat for a
+cursor, and it might be the most
+
+26
+00:00:27,910 --> 00:00:27,920
+cursor, and it might be the most
+ 
+
+27
+00:00:27,920 --> 00:00:30,310
+cursor, and it might be the most
+important software released in 2026.
+
+28
+00:00:30,310 --> 00:00:30,320
+important software released in 2026.
+ 
+
+29
+00:00:30,320 --> 00:00:32,429
+important software released in 2026.
+Underneath the AI sewage layer and below
+
+30
+00:00:32,429 --> 00:00:32,439
+Underneath the AI sewage layer and below
+ 
+
+31
+00:00:32,439 --> 00:00:34,270
+Underneath the AI sewage layer and below
+the prompt bros and notion template
+
+32
+00:00:34,270 --> 00:00:34,280
+the prompt bros and notion template
+ 
+
+33
+00:00:34,280 --> 00:00:36,430
+the prompt bros and notion template
+goblins, there are still real humans
+
+34
+00:00:36,430 --> 00:00:36,440
+goblins, there are still real humans
+ 
+
+35
+00:00:36,440 --> 00:00:38,710
+goblins, there are still real humans
+building insane, beautiful, and deeply
+
+36
+00:00:38,710 --> 00:00:38,720
+building insane, beautiful, and deeply
+ 
+
+37
+00:00:38,720 --> 00:00:40,990
+building insane, beautiful, and deeply
+unnecessary software. In today's video,
+
+38
+00:00:40,990 --> 00:00:41,000
+unnecessary software. In today's video,
+ 
+
+39
+00:00:41,000 --> 00:00:42,510
+unnecessary software. In today's video,
+we'll look at 10 projects you've never
+
+40
+00:00:42,510 --> 00:00:42,520
+we'll look at 10 projects you've never
+ 
+
+41
+00:00:42,520 --> 00:00:44,790
+we'll look at 10 projects you've never
+heard of built by people who absolutely
+
+42
+00:00:44,790 --> 00:00:44,800
+heard of built by people who absolutely
+ 
+
+43
+00:00:44,800 --> 00:00:46,630
+heard of built by people who absolutely
+should not be allowed near a compiler,
+
+44
+00:00:46,630 --> 00:00:46,640
+should not be allowed near a compiler,
+ 
+
+45
+00:00:46,640 --> 00:00:48,350
+should not be allowed near a compiler,
+and I mean that as the highest possible
+
+46
+00:00:48,350 --> 00:00:48,360
+and I mean that as the highest possible
+ 
+
+47
+00:00:48,360 --> 00:00:51,430
+and I mean that as the highest possible
+compliment. It is May 26, 2026, and
+
+48
+00:00:51,430 --> 00:00:51,440
+compliment. It is May 26, 2026, and
+ 
+
+49
+00:00:51,440 --> 00:00:52,910
+compliment. It is May 26, 2026, and
+you're watching The Code Report. The
+
+50
+00:00:52,910 --> 00:00:52,920
+you're watching The Code Report. The
+ 
+
+51
+00:00:52,920 --> 00:00:54,590
+you're watching The Code Report. The
+first project I want to talk about is
+
+52
+00:00:54,590 --> 00:00:54,600
+first project I want to talk about is
+ 
+
+53
+00:00:54,600 --> 00:00:56,470
+first project I want to talk about is
+Ratty. It's a new terminal emulator
+
+54
+00:00:56,470 --> 00:00:56,480
+Ratty. It's a new terminal emulator
+ 
+
+55
+00:00:56,480 --> 00:00:59,350
+Ratty. It's a new terminal emulator
+built in Rust and inspired by TempleOS.
+
+56
+00:00:59,350 --> 00:00:59,360
+built in Rust and inspired by TempleOS.
+ 
+
+57
+00:00:59,360 --> 00:01:01,670
+built in Rust and inspired by TempleOS.
+And as you can see here, the cursor is a
+
+58
+00:01:01,670 --> 00:01:01,680
+And as you can see here, the cursor is a
+ 
+
+59
+00:01:01,680 --> 00:01:03,670
+And as you can see here, the cursor is a
+spinning 3D rat. It was created by
+
+60
+00:01:03,670 --> 00:01:03,680
+spinning 3D rat. It was created by
+ 
+
+61
+00:01:03,680 --> 00:01:05,670
+spinning 3D rat. It was created by
+Warren Parmacksis, and unlike most
+
+62
+00:01:05,670 --> 00:01:05,680
+Warren Parmacksis, and unlike most
+ 
+
+63
+00:01:05,680 --> 00:01:07,310
+Warren Parmacksis, and unlike most
+terminal emulators, it doesn't just
+
+64
+00:01:07,310 --> 00:01:07,320
+terminal emulators, it doesn't just
+ 
+
+65
+00:01:07,320 --> 00:01:09,190
+terminal emulators, it doesn't just
+render text, but rather an entire
+
+66
+00:01:09,190 --> 00:01:09,200
+render text, but rather an entire
+ 
+
+67
+00:01:09,200 --> 00:01:11,870
+render text, but rather an entire
+GPU-accelerated 3D scene using the Bevy
+
+68
+00:01:11,870 --> 00:01:11,880
+GPU-accelerated 3D scene using the Bevy
+ 
+
+69
+00:01:11,880 --> 00:01:13,470
+GPU-accelerated 3D scene using the Bevy
+game engine. That means you can do
+
+70
+00:01:13,470 --> 00:01:13,480
+game engine. That means you can do
+ 
+
+71
+00:01:13,480 --> 00:01:15,350
+game engine. That means you can do
+incredibly useless things like hit
+
+72
+00:01:15,350 --> 00:01:15,360
+incredibly useless things like hit
+ 
+
+73
+00:01:15,360 --> 00:01:17,510
+incredibly useless things like hit
+control-alt-enter to physically tilt
+
+74
+00:01:17,510 --> 00:01:17,520
+control-alt-enter to physically tilt
+ 
+
+75
+00:01:17,520 --> 00:01:19,430
+control-alt-enter to physically tilt
+your terminal in a 3D space like you're
+
+76
+00:01:19,430 --> 00:01:19,440
+your terminal in a 3D space like you're
+ 
+
+77
+00:01:19,440 --> 00:01:21,470
+your terminal in a 3D space like you're
+flying through a PS2 game. And you can
+
+78
+00:01:21,470 --> 00:01:21,480
+flying through a PS2 game. And you can
+ 
+
+79
+00:01:21,480 --> 00:01:23,430
+flying through a PS2 game. And you can
+even bring in your own crappy 3D models
+
+80
+00:01:23,430 --> 00:01:23,440
+even bring in your own crappy 3D models
+ 
+
+81
+00:01:23,440 --> 00:01:25,510
+even bring in your own crappy 3D models
+from tools like Blender. The only catch
+
+82
+00:01:25,510 --> 00:01:25,520
+from tools like Blender. The only catch
+ 
+
+83
+00:01:25,520 --> 00:01:27,750
+from tools like Blender. The only catch
+is that it eats 300 megabytes of RAM,
+
+84
+00:01:27,750 --> 00:01:27,760
+is that it eats 300 megabytes of RAM,
+ 
+
+85
+00:01:27,760 --> 00:01:29,510
+is that it eats 300 megabytes of RAM,
+and RAM is not cheap these days. The
+
+86
+00:01:29,510 --> 00:01:29,520
+and RAM is not cheap these days. The
+ 
+
+87
+00:01:29,520 --> 00:01:31,350
+and RAM is not cheap these days. The
+creator fully acknowledges that this is
+
+88
+00:01:31,350 --> 00:01:31,360
+creator fully acknowledges that this is
+ 
+
+89
+00:01:31,360 --> 00:01:33,470
+creator fully acknowledges that this is
+insane by saying, "Quote, everything
+
+90
+00:01:33,470 --> 00:01:33,480
+insane by saying, "Quote, everything
+ 
+
+91
+00:01:33,480 --> 00:01:35,430
+insane by saying, "Quote, everything
+comes at a cost, especially the spinning
+
+92
+00:01:35,430 --> 00:01:35,440
+comes at a cost, especially the spinning
+ 
+
+93
+00:01:35,440 --> 00:01:37,270
+comes at a cost, especially the spinning
+rat cursor." But if 3D rats are not
+
+94
+00:01:37,270 --> 00:01:37,280
+rat cursor." But if 3D rats are not
+ 
+
+95
+00:01:37,280 --> 00:01:38,870
+rat cursor." But if 3D rats are not
+enough, your terminal's about to get
+
+96
+00:01:38,870 --> 00:01:38,880
+enough, your terminal's about to get
+ 
+
+97
+00:01:38,880 --> 00:01:40,990
+enough, your terminal's about to get
+even more awesomer thanks to a project
+
+98
+00:01:40,990 --> 00:01:41,000
+even more awesomer thanks to a project
+ 
+
+99
+00:01:41,000 --> 00:01:42,990
+even more awesomer thanks to a project
+called Terminal Phone. Imagine this,
+
+100
+00:01:42,990 --> 00:01:43,000
+called Terminal Phone. Imagine this,
+ 
+
+101
+00:01:43,000 --> 00:01:44,910
+called Terminal Phone. Imagine this,
+you're in the terminal, Vim open three
+
+102
+00:01:44,910 --> 00:01:44,920
+you're in the terminal, Vim open three
+ 
+
+103
+00:01:44,920 --> 00:01:46,630
+you're in the terminal, Vim open three
+tmux panes deep, and instead of
+
+104
+00:01:46,630 --> 00:01:46,640
+tmux panes deep, and instead of
+ 
+
+105
+00:01:46,640 --> 00:01:48,470
+tmux panes deep, and instead of
+unlocking your phone to take a call, you
+
+106
+00:01:48,470 --> 00:01:48,480
+unlocking your phone to take a call, you
+ 
+
+107
+00:01:48,480 --> 00:01:50,550
+unlocking your phone to take a call, you
+just make the call from bash. The
+
+108
+00:01:50,550 --> 00:01:50,560
+just make the call from bash. The
+ 
+
+109
+00:01:50,560 --> 00:01:52,310
+just make the call from bash. The
+Terminal Phone is an open-source
+
+110
+00:01:52,310 --> 00:01:52,320
+Terminal Phone is an open-source
+ 
+
+111
+00:01:52,320 --> 00:01:54,230
+Terminal Phone is an open-source
+push-to-talk voice and text app that
+
+112
+00:01:54,230 --> 00:01:54,240
+push-to-talk voice and text app that
+ 
+
+113
+00:01:54,240 --> 00:01:56,150
+push-to-talk voice and text app that
+runs entirely over Tor as a shell
+
+114
+00:01:56,150 --> 00:01:56,160
+runs entirely over Tor as a shell
+ 
+
+115
+00:01:56,160 --> 00:01:57,870
+runs entirely over Tor as a shell
+script. There are no servers, no
+
+116
+00:01:57,870 --> 00:01:57,880
+script. There are no servers, no
+ 
+
+117
+00:01:57,880 --> 00:02:00,350
+script. There are no servers, no
+accounts, no phone numbers. Instead, a
+
+118
+00:02:00,350 --> 00:02:00,360
+accounts, no phone numbers. Instead, a
+ 
+
+119
+00:02:00,360 --> 00:02:02,470
+accounts, no phone numbers. Instead, a
+.onion address is your identity, which
+
+120
+00:02:02,470 --> 00:02:02,480
+.onion address is your identity, which
+ 
+
+121
+00:02:02,480 --> 00:02:04,110
+.onion address is your identity, which
+means everything is ephemeral and
+
+122
+00:02:04,110 --> 00:02:04,120
+means everything is ephemeral and
+ 
+
+123
+00:02:04,120 --> 00:02:05,750
+means everything is ephemeral and
+end-to-end encrypted. The developer
+
+124
+00:02:05,750 --> 00:02:05,760
+end-to-end encrypted. The developer
+ 
+
+125
+00:02:05,760 --> 00:02:07,469
+end-to-end encrypted. The developer
+shipped this project in February with a
+
+126
+00:02:07,469 --> 00:02:07,479
+shipped this project in February with a
+ 
+
+127
+00:02:07,479 --> 00:02:09,669
+shipped this project in February with a
+custom protocol built from scratch. This
+
+128
+00:02:09,669 --> 00:02:09,679
+custom protocol built from scratch. This
+ 
+
+129
+00:02:09,679 --> 00:02:11,150
+custom protocol built from scratch. This
+is the project cypherpunks were
+
+130
+00:02:11,150 --> 00:02:11,160
+is the project cypherpunks were
+ 
+
+131
+00:02:11,160 --> 00:02:13,550
+is the project cypherpunks were
+promising us in 1995, and now finally,
+
+132
+00:02:13,550 --> 00:02:13,560
+promising us in 1995, and now finally,
+ 
+
+133
+00:02:13,560 --> 00:02:15,670
+promising us in 1995, and now finally,
+after 30 years, one psychopath finally
+
+134
+00:02:15,670 --> 00:02:15,680
+after 30 years, one psychopath finally
+ 
+
+135
+00:02:15,680 --> 00:02:17,470
+after 30 years, one psychopath finally
+delivered it. But this next project
+
+136
+00:02:17,470 --> 00:02:17,480
+delivered it. But this next project
+ 
+
+137
+00:02:17,480 --> 00:02:19,230
+delivered it. But this next project
+might even be more rebellious. Back in
+
+138
+00:02:19,230 --> 00:02:19,240
+might even be more rebellious. Back in
+ 
+
+139
+00:02:19,240 --> 00:02:21,990
+might even be more rebellious. Back in
+1988, before the internet even existed,
+
+140
+00:02:21,990 --> 00:02:22,000
+1988, before the internet even existed,
+ 
+
+141
+00:02:22,000 --> 00:02:23,830
+1988, before the internet even existed,
+John Carpenter made an awesome movie
+
+142
+00:02:23,830 --> 00:02:23,840
+John Carpenter made an awesome movie
+ 
+
+143
+00:02:23,840 --> 00:02:25,990
+John Carpenter made an awesome movie
+where this dude puts on sun glasses and
+
+144
+00:02:25,990 --> 00:02:26,000
+where this dude puts on sun glasses and
+ 
+
+145
+00:02:26,000 --> 00:02:28,350
+where this dude puts on sun glasses and
+suddenly every billboard, magazine, and
+
+146
+00:02:28,350 --> 00:02:28,360
+suddenly every billboard, magazine, and
+ 
+
+147
+00:02:28,360 --> 00:02:30,390
+suddenly every billboard, magazine, and
+advertisement on Earth is revealed to be
+
+148
+00:02:30,390 --> 00:02:30,400
+advertisement on Earth is revealed to be
+ 
+
+149
+00:02:30,400 --> 00:02:32,630
+advertisement on Earth is revealed to be
+what it truly is, alien mind control
+
+150
+00:02:32,630 --> 00:02:32,640
+what it truly is, alien mind control
+ 
+
+151
+00:02:32,640 --> 00:02:35,430
+what it truly is, alien mind control
+propaganda telling us to obey, consume,
+
+152
+00:02:35,430 --> 00:02:35,440
+propaganda telling us to obey, consume,
+ 
+
+153
+00:02:35,440 --> 00:02:37,550
+propaganda telling us to obey, consume,
+marry, and reproduce. Developer David
+
+154
+00:02:37,550 --> 00:02:37,560
+marry, and reproduce. Developer David
+ 
+
+155
+00:02:37,560 --> 00:02:39,630
+marry, and reproduce. Developer David
+Lawrence realized that this is also the
+
+156
+00:02:39,630 --> 00:02:39,640
+Lawrence realized that this is also the
+ 
+
+157
+00:02:39,640 --> 00:02:41,350
+Lawrence realized that this is also the
+most aesthetically correct way to
+
+158
+00:02:41,350 --> 00:02:41,360
+most aesthetically correct way to
+ 
+
+159
+00:02:41,360 --> 00:02:43,350
+most aesthetically correct way to
+implement an ad blocker. He actually had
+
+160
+00:02:43,350 --> 00:02:43,360
+implement an ad blocker. He actually had
+ 
+
+161
+00:02:43,360 --> 00:02:45,750
+implement an ad blocker. He actually had
+the idea all the way back in 2015, sat
+
+162
+00:02:45,750 --> 00:02:45,760
+the idea all the way back in 2015, sat
+ 
+
+163
+00:02:45,760 --> 00:02:47,390
+the idea all the way back in 2015, sat
+on it for a decade, and then finally
+
+164
+00:02:47,390 --> 00:02:47,400
+on it for a decade, and then finally
+ 
+
+165
+00:02:47,400 --> 00:02:49,590
+on it for a decade, and then finally
+shipped it recently as a fork of uBlock
+
+166
+00:02:49,590 --> 00:02:49,600
+shipped it recently as a fork of uBlock
+ 
+
+167
+00:02:49,600 --> 00:02:51,550
+shipped it recently as a fork of uBlock
+Origin Light. Instead of just blocking
+
+168
+00:02:51,550 --> 00:02:51,560
+Origin Light. Instead of just blocking
+ 
+
+169
+00:02:51,560 --> 00:02:53,870
+Origin Light. Instead of just blocking
+ads, it turns the entire experience of
+
+170
+00:02:53,870 --> 00:02:53,880
+ads, it turns the entire experience of
+ 
+
+171
+00:02:53,880 --> 00:02:56,150
+ads, it turns the entire experience of
+surfing the World Wide Web into an 80s
+
+172
+00:02:56,150 --> 00:02:56,160
+surfing the World Wide Web into an 80s
+ 
+
+173
+00:02:56,160 --> 00:02:57,910
+surfing the World Wide Web into an 80s
+sci-fi horror movie. But our next
+
+174
+00:02:57,910 --> 00:02:57,920
+sci-fi horror movie. But our next
+ 
+
+175
+00:02:57,920 --> 00:03:00,350
+sci-fi horror movie. But our next
+project, CUDA Oxide, didn't come from
+
+176
+00:03:00,350 --> 00:03:00,360
+project, CUDA Oxide, didn't come from
+ 
+
+177
+00:03:00,360 --> 00:03:02,110
+project, CUDA Oxide, didn't come from
+some basement hacker. It was quietly
+
+178
+00:03:02,110 --> 00:03:02,120
+some basement hacker. It was quietly
+ 
+
+179
+00:03:02,120 --> 00:03:04,110
+some basement hacker. It was quietly
+dropped on GitHub by the five trillion
+
+180
+00:03:04,110 --> 00:03:04,120
+dropped on GitHub by the five trillion
+ 
+
+181
+00:03:04,120 --> 00:03:06,390
+dropped on GitHub by the five trillion
+market cap Nvidia last week, and it
+
+182
+00:03:06,390 --> 00:03:06,400
+market cap Nvidia last week, and it
+ 
+
+183
+00:03:06,400 --> 00:03:08,430
+market cap Nvidia last week, and it
+addresses an important problem. In order
+
+184
+00:03:08,430 --> 00:03:08,440
+addresses an important problem. In order
+ 
+
+185
+00:03:08,440 --> 00:03:10,509
+addresses an important problem. In order
+to write CUDA kernels, code that runs on
+
+186
+00:03:10,509 --> 00:03:10,519
+to write CUDA kernels, code that runs on
+ 
+
+187
+00:03:10,519 --> 00:03:13,870
+to write CUDA kernels, code that runs on
+a GPU, you need to carefully craft C++,
+
+188
+00:03:13,870 --> 00:03:13,880
+a GPU, you need to carefully craft C++,
+ 
+
+189
+00:03:13,880 --> 00:03:15,830
+a GPU, you need to carefully craft C++,
+and pray the compiler doesn't segfault
+
+190
+00:03:15,830 --> 00:03:15,840
+and pray the compiler doesn't segfault
+ 
+
+191
+00:03:15,840 --> 00:03:17,750
+and pray the compiler doesn't segfault
+because it only takes one wrong pointer
+
+192
+00:03:17,750 --> 00:03:17,760
+because it only takes one wrong pointer
+ 
+
+193
+00:03:17,760 --> 00:03:20,710
+because it only takes one wrong pointer
+to turn your $40,000 GPU cluster into a
+
+194
+00:03:20,710 --> 00:03:20,720
+to turn your $40,000 GPU cluster into a
+ 
+
+195
+00:03:20,720 --> 00:03:22,949
+to turn your $40,000 GPU cluster into a
+worthless paperweight. CUDA Oxide tries
+
+196
+00:03:22,949 --> 00:03:22,959
+worthless paperweight. CUDA Oxide tries
+ 
+
+197
+00:03:22,959 --> 00:03:25,030
+worthless paperweight. CUDA Oxide tries
+to fix this by letting you write GPU
+
+198
+00:03:25,030 --> 00:03:25,040
+to fix this by letting you write GPU
+ 
+
+199
+00:03:25,040 --> 00:03:26,949
+to fix this by letting you write GPU
+kernels in pure Rust. Just annotate a
+
+200
+00:03:26,949 --> 00:03:26,959
+kernels in pure Rust. Just annotate a
+ 
+
+201
+00:03:26,959 --> 00:03:28,670
+kernels in pure Rust. Just annotate a
+function with kernel, and now you have
+
+202
+00:03:28,670 --> 00:03:28,680
+function with kernel, and now you have
+ 
+
+203
+00:03:28,680 --> 00:03:30,229
+function with kernel, and now you have
+Rust code that can actually run on a
+
+204
+00:03:30,229 --> 00:03:30,239
+Rust code that can actually run on a
+ 
+
+205
+00:03:30,239 --> 00:03:32,350
+Rust code that can actually run on a
+GPU, and it actually compiles straight
+
+206
+00:03:32,350 --> 00:03:32,360
+GPU, and it actually compiles straight
+ 
+
+207
+00:03:32,360 --> 00:03:34,509
+GPU, and it actually compiles straight
+to PTX. There's no foreign functions
+
+208
+00:03:34,509 --> 00:03:34,519
+to PTX. There's no foreign functions
+ 
+
+209
+00:03:34,519 --> 00:03:37,229
+to PTX. There's no foreign functions
+interface or C++ involved at all. But
+
+210
+00:03:37,229 --> 00:03:37,239
+interface or C++ involved at all. But
+ 
+
+211
+00:03:37,239 --> 00:03:38,870
+interface or C++ involved at all. But
+all these awesome projects should have
+
+212
+00:03:38,870 --> 00:03:38,880
+all these awesome projects should have
+ 
+
+213
+00:03:38,880 --> 00:03:40,670
+all these awesome projects should have
+their own theme songs, and that's where
+
+214
+00:03:40,670 --> 00:03:40,680
+their own theme songs, and that's where
+ 
+
+215
+00:03:40,680 --> 00:03:42,790
+their own theme songs, and that's where
+Wario Synth comes in. This is a weird
+
+216
+00:03:42,790 --> 00:03:42,800
+Wario Synth comes in. This is a weird
+ 
+
+217
+00:03:42,800 --> 00:03:45,070
+Wario Synth comes in. This is a weird
+project where you paste in a song and it
+
+218
+00:03:45,070 --> 00:03:45,080
+project where you paste in a song and it
+ 
+
+219
+00:03:45,080 --> 00:03:46,830
+project where you paste in a song and it
+spits it back out as a Game Boy
+
+220
+00:03:46,830 --> 00:03:46,840
+spits it back out as a Game Boy
+ 
+
+221
+00:03:46,840 --> 00:03:50,670
+spits it back out as a Game Boy
+chiptune.
+
+222
+00:03:50,670 --> 00:03:50,680
+
+ 
+
+223
+00:03:50,680 --> 00:03:52,710
+
+Under the hood, it uses the Web audio
+
+224
+00:03:52,710 --> 00:03:52,720
+Under the hood, it uses the Web audio
+ 
+
+225
+00:03:52,720 --> 00:03:55,230
+Under the hood, it uses the Web audio
+API to take two pulse waves, one wave
+
+226
+00:03:55,230 --> 00:03:55,240
+API to take two pulse waves, one wave
+ 
+
+227
+00:03:55,240 --> 00:03:57,350
+API to take two pulse waves, one wave
+channel, and one noise channel to
+
+228
+00:03:57,350 --> 00:03:57,360
+channel, and one noise channel to
+ 
+
+229
+00:03:57,360 --> 00:03:59,670
+channel, and one noise channel to
+resynthesize an entire song as something
+
+230
+00:03:59,670 --> 00:03:59,680
+resynthesize an entire song as something
+ 
+
+231
+00:03:59,680 --> 00:04:00,790
+resynthesize an entire song as something
+that sounds like it's coming out of a
+
+232
+00:04:00,790 --> 00:04:00,800
+that sounds like it's coming out of a
+ 
+
+233
+00:04:00,800 --> 00:04:03,390
+that sounds like it's coming out of a
+1989 Game Boy. And it can do all of this
+
+234
+00:04:03,390 --> 00:04:03,400
+1989 Game Boy. And it can do all of this
+ 
+
+235
+00:04:03,400 --> 00:04:05,310
+1989 Game Boy. And it can do all of this
+in the browser with zero server-side
+
+236
+00:04:05,310 --> 00:04:05,320
+in the browser with zero server-side
+ 
+
+237
+00:04:05,320 --> 00:04:07,350
+in the browser with zero server-side
+processing required. Enjoy it before
+
+238
+00:04:07,350 --> 00:04:07,360
+processing required. Enjoy it before
+ 
+
+239
+00:04:07,360 --> 00:04:08,910
+processing required. Enjoy it before
+Nintendo's legal team nukes it and
+
+240
+00:04:08,910 --> 00:04:08,920
+Nintendo's legal team nukes it and
+ 
+
+241
+00:04:08,920 --> 00:04:10,910
+Nintendo's legal team nukes it and
+memory holes it. But speaking of memory
+
+242
+00:04:10,910 --> 00:04:10,920
+memory holes it. But speaking of memory
+ 
+
+243
+00:04:10,920 --> 00:04:12,590
+memory holes it. But speaking of memory
+holes, I completely forgot about the
+
+244
+00:04:12,590 --> 00:04:12,600
+holes, I completely forgot about the
+ 
+
+245
+00:04:12,600 --> 00:04:15,150
+holes, I completely forgot about the
+Epstein files after the Iran war and UFO
+
+246
+00:04:15,150 --> 00:04:15,160
+Epstein files after the Iran war and UFO
+ 
+
+247
+00:04:15,160 --> 00:04:17,310
+Epstein files after the Iran war and UFO
+disclosures. Luckily though, the files
+
+248
+00:04:17,310 --> 00:04:17,320
+disclosures. Luckily though, the files
+ 
+
+249
+00:04:17,320 --> 00:04:19,110
+disclosures. Luckily though, the files
+are easier than ever to consume now
+
+250
+00:04:19,110 --> 00:04:19,120
+are easier than ever to consume now
+ 
+
+251
+00:04:19,120 --> 00:04:21,190
+are easier than ever to consume now
+thanks to projects like J Mail, which
+
+252
+00:04:21,190 --> 00:04:21,200
+thanks to projects like J Mail, which
+ 
+
+253
+00:04:21,200 --> 00:04:23,270
+thanks to projects like J Mail, which
+emulates Gmail as if you were Jeffrey
+
+254
+00:04:23,270 --> 00:04:23,280
+emulates Gmail as if you were Jeffrey
+ 
+
+255
+00:04:23,280 --> 00:04:25,190
+emulates Gmail as if you were Jeffrey
+himself using it. But if you truly want
+
+256
+00:04:25,190 --> 00:04:25,200
+himself using it. But if you truly want
+ 
+
+257
+00:04:25,200 --> 00:04:26,830
+himself using it. But if you truly want
+to go deep down this rabbit hole,
+
+258
+00:04:26,830 --> 00:04:26,840
+to go deep down this rabbit hole,
+ 
+
+259
+00:04:26,840 --> 00:04:28,830
+to go deep down this rabbit hole,
+Epstein Exposed provides a searchable
+
+260
+00:04:28,830 --> 00:04:28,840
+Epstein Exposed provides a searchable
+ 
+
+261
+00:04:28,840 --> 00:04:30,830
+Epstein Exposed provides a searchable
+database for the files and also this
+
+262
+00:04:30,830 --> 00:04:30,840
+database for the files and also this
+ 
+
+263
+00:04:30,840 --> 00:04:32,550
+database for the files and also this
+awesome network graph that shows you how
+
+264
+00:04:32,550 --> 00:04:32,560
+awesome network graph that shows you how
+ 
+
+265
+00:04:32,560 --> 00:04:34,110
+awesome network graph that shows you how
+deep the connections of the deep state
+
+266
+00:04:34,110 --> 00:04:34,120
+deep the connections of the deep state
+ 
+
+267
+00:04:34,120 --> 00:04:36,150
+deep the connections of the deep state
+actually go. If that's a little too dark
+
+268
+00:04:36,150 --> 00:04:36,160
+actually go. If that's a little too dark
+ 
+
+269
+00:04:36,160 --> 00:04:37,630
+actually go. If that's a little too dark
+for you though, you'll really like this
+
+270
+00:04:37,630 --> 00:04:37,640
+for you though, you'll really like this
+ 
+
+271
+00:04:37,640 --> 00:04:40,550
+for you though, you'll really like this
+next project, Xpedia. Developer Lea
+
+272
+00:04:40,550 --> 00:04:40,560
+next project, Xpedia. Developer Lea
+ 
+
+273
+00:04:40,560 --> 00:04:42,390
+next project, Xpedia. Developer Lea
+Rebain looked at the dumpster fire
+
+274
+00:04:42,390 --> 00:04:42,400
+Rebain looked at the dumpster fire
+ 
+
+275
+00:04:42,400 --> 00:04:44,470
+Rebain looked at the dumpster fire
+that's modern social media and asked the
+
+276
+00:04:44,470 --> 00:04:44,480
+that's modern social media and asked the
+ 
+
+277
+00:04:44,480 --> 00:04:46,270
+that's modern social media and asked the
+only sensible question, "What if
+
+278
+00:04:46,270 --> 00:04:46,280
+only sensible question, "What if
+ 
+
+279
+00:04:46,280 --> 00:04:47,790
+only sensible question, "What if
+doomscrolling was actually good for
+
+280
+00:04:47,790 --> 00:04:47,800
+doomscrolling was actually good for
+ 
+
+281
+00:04:47,800 --> 00:04:50,030
+doomscrolling was actually good for
+you?" And so she built Wikipedia as a
+
+282
+00:04:50,030 --> 00:04:50,040
+you?" And so she built Wikipedia as a
+ 
+
+283
+00:04:50,040 --> 00:04:52,150
+you?" And so she built Wikipedia as a
+TikTok feed. You open up the web app,
+
+284
+00:04:52,150 --> 00:04:52,160
+TikTok feed. You open up the web app,
+ 
+
+285
+00:04:52,160 --> 00:04:54,150
+TikTok feed. You open up the web app,
+pick a few categories, and it downloads
+
+286
+00:04:54,150 --> 00:04:54,160
+pick a few categories, and it downloads
+ 
+
+287
+00:04:54,160 --> 00:04:56,230
+pick a few categories, and it downloads
+40 megabytes of simple Wikipedia in the
+
+288
+00:04:56,230 --> 00:04:56,240
+40 megabytes of simple Wikipedia in the
+ 
+
+289
+00:04:56,240 --> 00:04:57,470
+40 megabytes of simple Wikipedia in the
+background, and then you have an
+
+290
+00:04:57,470 --> 00:04:57,480
+background, and then you have an
+ 
+
+291
+00:04:57,480 --> 00:04:58,830
+background, and then you have an
+infinite feed you can scroll through
+
+292
+00:04:58,830 --> 00:04:58,840
+infinite feed you can scroll through
+ 
+
+293
+00:04:58,840 --> 00:05:01,030
+infinite feed you can scroll through
+endlessly. This project is also open
+
+294
+00:05:01,030 --> 00:05:01,040
+endlessly. This project is also open
+ 
+
+295
+00:05:01,040 --> 00:05:03,110
+endlessly. This project is also open
+source and runs its algorithm entirely
+
+296
+00:05:03,110 --> 00:05:03,120
+source and runs its algorithm entirely
+ 
+
+297
+00:05:03,120 --> 00:05:04,909
+source and runs its algorithm entirely
+in the browser. But what if we could run
+
+298
+00:05:04,909 --> 00:05:04,919
+in the browser. But what if we could run
+ 
+
+299
+00:05:04,919 --> 00:05:06,950
+in the browser. But what if we could run
+an entire computer in the browser? Well,
+
+300
+00:05:06,950 --> 00:05:06,960
+an entire computer in the browser? Well,
+ 
+
+301
+00:05:06,960 --> 00:05:08,830
+an entire computer in the browser? Well,
+that's where Pyrite comes in. It's a
+
+302
+00:05:08,830 --> 00:05:08,840
+that's where Pyrite comes in. It's a
+ 
+
+303
+00:05:08,840 --> 00:05:10,670
+that's where Pyrite comes in. It's a
+project you can self-host, or if you go
+
+304
+00:05:10,670 --> 00:05:10,680
+project you can self-host, or if you go
+ 
+
+305
+00:05:10,680 --> 00:05:12,830
+project you can self-host, or if you go
+to pyrite.com, you'll be taken to a
+
+306
+00:05:12,830 --> 00:05:12,840
+to pyrite.com, you'll be taken to a
+ 
+
+307
+00:05:12,840 --> 00:05:14,430
+to pyrite.com, you'll be taken to a
+desktop environment where you have a
+
+308
+00:05:14,430 --> 00:05:14,440
+desktop environment where you have a
+ 
+
+309
+00:05:14,440 --> 00:05:16,710
+desktop environment where you have a
+taskbar, draggable windows, a file
+
+310
+00:05:16,710 --> 00:05:16,720
+taskbar, draggable windows, a file
+ 
+
+311
+00:05:16,720 --> 00:05:18,750
+taskbar, draggable windows, a file
+manager, and a bunch of applications
+
+312
+00:05:18,750 --> 00:05:18,760
+manager, and a bunch of applications
+ 
+
+313
+00:05:18,760 --> 00:05:20,950
+manager, and a bunch of applications
+like a notepad, code editor, terminal,
+
+314
+00:05:20,950 --> 00:05:20,960
+like a notepad, code editor, terminal,
+ 
+
+315
+00:05:20,960 --> 00:05:22,790
+like a notepad, code editor, terminal,
+and so on. It's kind of like the dream
+
+316
+00:05:22,790 --> 00:05:22,800
+and so on. It's kind of like the dream
+ 
+
+317
+00:05:22,800 --> 00:05:25,230
+and so on. It's kind of like the dream
+of Chrome OS, except it's actually free,
+
+318
+00:05:25,230 --> 00:05:25,240
+of Chrome OS, except it's actually free,
+ 
+
+319
+00:05:25,240 --> 00:05:28,030
+of Chrome OS, except it's actually free,
+actually open, and actually fun. But now
+
+320
+00:05:28,030 --> 00:05:28,040
+actually open, and actually fun. But now
+ 
+
+321
+00:05:28,040 --> 00:05:29,830
+actually open, and actually fun. But now
+it's time to learn about Honker. This
+
+322
+00:05:29,830 --> 00:05:29,840
+it's time to learn about Honker. This
+ 
+
+323
+00:05:29,840 --> 00:05:31,630
+it's time to learn about Honker. This
+one's for the SQL Lite gang, and
+
+324
+00:05:31,630 --> 00:05:31,640
+one's for the SQL Lite gang, and
+ 
+
+325
+00:05:31,640 --> 00:05:33,350
+one's for the SQL Lite gang, and
+honestly, it might be the single most
+
+326
+00:05:33,350 --> 00:05:33,360
+honestly, it might be the single most
+ 
+
+327
+00:05:33,360 --> 00:05:35,670
+honestly, it might be the single most
+underrated project on this list. A SQL
+
+328
+00:05:35,670 --> 00:05:35,680
+underrated project on this list. A SQL
+ 
+
+329
+00:05:35,680 --> 00:05:37,470
+underrated project on this list. A SQL
+Lite is an incredible database that can
+
+330
+00:05:37,470 --> 00:05:37,480
+Lite is an incredible database that can
+ 
+
+331
+00:05:37,480 --> 00:05:39,510
+Lite is an incredible database that can
+handle even the most ambitious of failed
+
+332
+00:05:39,510 --> 00:05:39,520
+handle even the most ambitious of failed
+ 
+
+333
+00:05:39,520 --> 00:05:41,470
+handle even the most ambitious of failed
+side projects. But if you end up needing
+
+334
+00:05:41,470 --> 00:05:41,480
+side projects. But if you end up needing
+ 
+
+335
+00:05:41,480 --> 00:05:43,510
+side projects. But if you end up needing
+a feature like a job queue, things start
+
+336
+00:05:43,510 --> 00:05:43,520
+a feature like a job queue, things start
+ 
+
+337
+00:05:43,520 --> 00:05:45,230
+a feature like a job queue, things start
+to get complicated. You might think you
+
+338
+00:05:45,230 --> 00:05:45,240
+to get complicated. You might think you
+ 
+
+339
+00:05:45,240 --> 00:05:47,470
+to get complicated. You might think you
+need to spin up Redis, install Celery,
+
+340
+00:05:47,470 --> 00:05:47,480
+need to spin up Redis, install Celery,
+ 
+
+341
+00:05:47,480 --> 00:05:49,670
+need to spin up Redis, install Celery,
+or run a message broker, but developer
+
+342
+00:05:49,670 --> 00:05:49,680
+or run a message broker, but developer
+ 
+
+343
+00:05:49,680 --> 00:05:51,870
+or run a message broker, but developer
+Russell Romney says no. Honker is a
+
+344
+00:05:51,870 --> 00:05:51,880
+Russell Romney says no. Honker is a
+ 
+
+345
+00:05:51,880 --> 00:05:54,110
+Russell Romney says no. Honker is a
+SQLite extension written in Rust that
+
+346
+00:05:54,110 --> 00:05:54,120
+SQLite extension written in Rust that
+ 
+
+347
+00:05:54,120 --> 00:05:56,350
+SQLite extension written in Rust that
+adds Postgres-style notify listen
+
+348
+00:05:56,350 --> 00:05:56,360
+adds Postgres-style notify listen
+ 
+
+349
+00:05:56,360 --> 00:05:58,550
+adds Postgres-style notify listen
+directly into your database file. You
+
+350
+00:05:58,550 --> 00:05:58,560
+directly into your database file. You
+ 
+
+351
+00:05:58,560 --> 00:06:01,110
+directly into your database file. You
+get durable pub/sub, task queues, event
+
+352
+00:06:01,110 --> 00:06:01,120
+get durable pub/sub, task queues, event
+ 
+
+353
+00:06:01,120 --> 00:06:03,430
+get durable pub/sub, task queues, event
+streams, and a cron scheduler. And all
+
+354
+00:06:03,430 --> 00:06:03,440
+streams, and a cron scheduler. And all
+ 
+
+355
+00:06:03,440 --> 00:06:06,230
+streams, and a cron scheduler. And all
+of it lives inside the same .db file as
+
+356
+00:06:06,230 --> 00:06:06,240
+of it lives inside the same .db file as
+ 
+
+357
+00:06:06,240 --> 00:06:08,030
+of it lives inside the same .db file as
+your business data. It's yet another
+
+358
+00:06:08,030 --> 00:06:08,040
+your business data. It's yet another
+ 
+
+359
+00:06:08,040 --> 00:06:10,750
+your business data. It's yet another
+humble reminder that 99% of us don't
+
+360
+00:06:10,750 --> 00:06:10,760
+humble reminder that 99% of us don't
+ 
+
+361
+00:06:10,760 --> 00:06:12,590
+humble reminder that 99% of us don't
+ need Kubernetes
+
+362
+00:06:12,590 --> 00:06:12,600
+need Kubernetes
+ 
+
+363
+00:06:12,600 --> 00:06:14,110
+need Kubernetes
+and would be perfectly fine running
+
+364
+00:06:14,110 --> 00:06:14,120
+and would be perfectly fine running
+ 
+
+365
+00:06:14,120 --> 00:06:16,830
+and would be perfectly fine running
+SQLite in node on a $5 VPS. And that
+
+366
+00:06:16,830 --> 00:06:16,840
+SQLite in node on a $5 VPS. And that
+ 
+
+367
+00:06:16,840 --> 00:06:19,150
+SQLite in node on a $5 VPS. And that
+brings us to number 10, Hyperagent, the
+
+368
+00:06:19,150 --> 00:06:19,160
+brings us to number 10, Hyperagent, the
+ 
+
+369
+00:06:19,160 --> 00:06:21,110
+brings us to number 10, Hyperagent, the
+sponsor of today's video. Most agent
+
+370
+00:06:21,110 --> 00:06:21,120
+sponsor of today's video. Most agent
+ 
+
+371
+00:06:21,120 --> 00:06:23,390
+sponsor of today's video. Most agent
+platforms only give you tool calls, but
+
+372
+00:06:23,390 --> 00:06:23,400
+platforms only give you tool calls, but
+ 
+
+373
+00:06:23,400 --> 00:06:25,270
+platforms only give you tool calls, but
+Hyperagent lets you build and deploy
+
+374
+00:06:25,270 --> 00:06:25,280
+Hyperagent lets you build and deploy
+ 
+
+375
+00:06:25,280 --> 00:06:27,430
+Hyperagent lets you build and deploy
+agents with their own browser, shell,
+
+376
+00:06:27,430 --> 00:06:27,440
+agents with their own browser, shell,
+ 
+
+377
+00:06:27,440 --> 00:06:29,350
+agents with their own browser, shell,
+and file system, all running in an
+
+378
+00:06:29,350 --> 00:06:29,360
+and file system, all running in an
+ 
+
+379
+00:06:29,360 --> 00:06:31,670
+and file system, all running in an
+isolated cloud sandbox. I used it to
+
+380
+00:06:31,670 --> 00:06:31,680
+isolated cloud sandbox. I used it to
+ 
+
+381
+00:06:31,680 --> 00:06:33,670
+isolated cloud sandbox. I used it to
+build a research workflow for our Bytes
+
+382
+00:06:33,670 --> 00:06:33,680
+build a research workflow for our Bytes
+ 
+
+383
+00:06:33,680 --> 00:06:35,909
+build a research workflow for our Bytes
+newsletter that studies past issues,
+
+384
+00:06:35,909 --> 00:06:35,919
+newsletter that studies past issues,
+ 
+
+385
+00:06:35,919 --> 00:06:37,909
+newsletter that studies past issues,
+scouts Tech Twitter and Hacker News for
+
+386
+00:06:37,909 --> 00:06:37,919
+scouts Tech Twitter and Hacker News for
+ 
+
+387
+00:06:37,919 --> 00:06:40,310
+scouts Tech Twitter and Hacker News for
+promising story topics, and saves them
+
+388
+00:06:40,310 --> 00:06:40,320
+promising story topics, and saves them
+ 
+
+389
+00:06:40,320 --> 00:06:42,510
+promising story topics, and saves them
+to our team's airtable. Then I turn that
+
+390
+00:06:42,510 --> 00:06:42,520
+to our team's airtable. Then I turn that
+ 
+
+391
+00:06:42,520 --> 00:06:44,710
+to our team's airtable. Then I turn that
+workflow into an agent we can invoke
+
+392
+00:06:44,710 --> 00:06:44,720
+workflow into an agent we can invoke
+ 
+
+393
+00:06:44,720 --> 00:06:46,670
+workflow into an agent we can invoke
+from Telegram or Slack whenever we need
+
+394
+00:06:46,670 --> 00:06:46,680
+from Telegram or Slack whenever we need
+ 
+
+395
+00:06:46,680 --> 00:06:48,870
+from Telegram or Slack whenever we need
+ideas. Right now, Hyperagent is giving
+
+396
+00:06:48,870 --> 00:06:48,880
+ideas. Right now, Hyperagent is giving
+ 
+
+397
+00:06:48,880 --> 00:06:51,350
+ideas. Right now, Hyperagent is giving
+away $10 million to founders building
+
+398
+00:06:51,350 --> 00:06:51,360
+away $10 million to founders building
+ 
+
+399
+00:06:51,360 --> 00:06:53,110
+away $10 million to founders building
+agent-first companies, and the first
+
+400
+00:06:53,110 --> 00:06:53,120
+agent-first companies, and the first
+ 
+
+401
+00:06:53,120 --> 00:06:55,070
+agent-first companies, and the first
+thousand viewers to use the link below
+
+402
+00:06:55,070 --> 00:06:55,080
+thousand viewers to use the link below
+ 
+
+403
+00:06:55,080 --> 00:06:57,390
+thousand viewers to use the link below
+will get $1,000 in free inference
+
+404
+00:06:57,390 --> 00:06:57,400
+will get $1,000 in free inference
+ 
+
+405
+00:06:57,400 --> 00:06:59,270
+will get $1,000 in free inference
+credits. This has been The Code Report.
+
+406
+00:06:59,270 --> 00:06:59,280
+credits. This has been The Code Report.
+ 
+
+407
+00:06:59,280 --> 00:07:00,950
+credits. This has been The Code Report.
+Thanks for watching, and I will see you
+
+408
+00:07:00,950 --> 00:07:00,960
+Thanks for watching, and I will see you
+ 
+
+409
+00:07:00,960 --> 00:07:03,720
+Thanks for watching, and I will see you
+in the next one.
+

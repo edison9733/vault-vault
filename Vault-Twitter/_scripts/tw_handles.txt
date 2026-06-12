@@ -1,0 +1,8 @@
+# One Twitter/X handle per line, no @. Lines starting with # are ignored.
+elonmusk
+kashdhanda
+JupiterExchange
+solana
+federalreserve
+TurbinWeb3
+SolanaFndn

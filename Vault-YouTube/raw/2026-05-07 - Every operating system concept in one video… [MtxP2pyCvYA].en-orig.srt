@@ -1,0 +1,3445 @@
+1
+00:00:00,080 --> 00:00:01,510
+
+But right now, you're watching this
+
+2
+00:00:01,510 --> 00:00:01,520
+But right now, you're watching this
+ 
+
+3
+00:00:01,520 --> 00:00:03,990
+But right now, you're watching this
+video because one, God put at least one
+
+4
+00:00:03,990 --> 00:00:04,000
+video because one, God put at least one
+ 
+
+5
+00:00:04,000 --> 00:00:05,749
+video because one, God put at least one
+eyeball on your head. And two, because
+
+6
+00:00:05,749 --> 00:00:05,759
+eyeball on your head. And two, because
+ 
+
+7
+00:00:05,759 --> 00:00:07,909
+eyeball on your head. And two, because
+an operating system decided you could.
+
+8
+00:00:07,909 --> 00:00:07,919
+an operating system decided you could.
+ 
+
+9
+00:00:07,919 --> 00:00:09,830
+an operating system decided you could.
+It might be Mac OS if you're rich,
+
+10
+00:00:09,830 --> 00:00:09,840
+It might be Mac OS if you're rich,
+ 
+
+11
+00:00:09,840 --> 00:00:11,589
+It might be Mac OS if you're rich,
+Windows if you've given up on life, or
+
+12
+00:00:11,589 --> 00:00:11,599
+Windows if you've given up on life, or
+ 
+
+13
+00:00:11,599 --> 00:00:13,509
+Windows if you've given up on life, or
+Linux if you're part of the 3% of base
+
+14
+00:00:13,509 --> 00:00:13,519
+Linux if you're part of the 3% of base
+ 
+
+15
+00:00:13,519 --> 00:00:15,509
+Linux if you're part of the 3% of base
+gigachads out there. Either way, your
+
+16
+00:00:15,509 --> 00:00:15,519
+gigachads out there. Either way, your
+ 
+
+17
+00:00:15,519 --> 00:00:17,910
+gigachads out there. Either way, your
+CPU is running something like 400 other
+
+18
+00:00:17,910 --> 00:00:17,920
+CPU is running something like 400 other
+ 
+
+19
+00:00:17,920 --> 00:00:20,230
+CPU is running something like 400 other
+programs, if Chrome is eating 20 GB of
+
+20
+00:00:20,230 --> 00:00:20,240
+programs, if Chrome is eating 20 GB of
+ 
+
+21
+00:00:20,240 --> 00:00:22,150
+programs, if Chrome is eating 20 GB of
+RAM for no reason, and somehow your
+
+22
+00:00:22,150 --> 00:00:22,160
+RAM for no reason, and somehow your
+ 
+
+23
+00:00:22,160 --> 00:00:23,910
+RAM for no reason, and somehow your
+cursor still moves when you wiggle the
+
+24
+00:00:23,910 --> 00:00:23,920
+cursor still moves when you wiggle the
+ 
+
+25
+00:00:23,920 --> 00:00:25,830
+cursor still moves when you wiggle the
+mouse. This is not normal. It's a
+
+26
+00:00:25,830 --> 00:00:25,840
+mouse. This is not normal. It's a
+ 
+
+27
+00:00:25,840 --> 00:00:27,750
+mouse. This is not normal. It's a
+miracle performed thousands of times per
+
+28
+00:00:27,750 --> 00:00:27,760
+miracle performed thousands of times per
+ 
+
+29
+00:00:27,760 --> 00:00:29,669
+miracle performed thousands of times per
+second by the most underappreciated
+
+30
+00:00:29,669 --> 00:00:29,679
+second by the most underappreciated
+ 
+
+31
+00:00:29,679 --> 00:00:31,509
+second by the most underappreciated
+software ever written, the operating
+
+32
+00:00:31,509 --> 00:00:31,519
+software ever written, the operating
+ 
+
+33
+00:00:31,519 --> 00:00:35,270
+software ever written, the operating
+system. The first one, GM-NIO,
+
+34
+00:00:35,270 --> 00:00:35,280
+system. The first one, GM-NIO,
+ 
+
+35
+00:00:35,280 --> 00:00:37,750
+system. The first one, GM-NIO,
+was shipped in 1956 at General Motors
+
+36
+00:00:37,750 --> 00:00:37,760
+was shipped in 1956 at General Motors
+ 
+
+37
+00:00:37,760 --> 00:00:39,830
+was shipped in 1956 at General Motors
+because an engineer decided humanity had
+
+38
+00:00:39,830 --> 00:00:39,840
+because an engineer decided humanity had
+ 
+
+39
+00:00:39,840 --> 00:00:41,910
+because an engineer decided humanity had
+better things to do than hand feed punch
+
+40
+00:00:41,910 --> 00:00:41,920
+better things to do than hand feed punch
+ 
+
+41
+00:00:41,920 --> 00:00:44,389
+better things to do than hand feed punch
+cards into a two-story IBM mainframe. It
+
+42
+00:00:44,389 --> 00:00:44,399
+cards into a two-story IBM mainframe. It
+ 
+
+43
+00:00:44,399 --> 00:00:46,470
+cards into a two-story IBM mainframe. It
+could run exactly one program at a time,
+
+44
+00:00:46,470 --> 00:00:46,480
+could run exactly one program at a time,
+ 
+
+45
+00:00:46,480 --> 00:00:49,029
+could run exactly one program at a time,
+had no memory protection, no users, no
+
+46
+00:00:49,029 --> 00:00:49,039
+had no memory protection, no users, no
+ 
+
+47
+00:00:49,039 --> 00:00:50,950
+had no memory protection, no users, no
+files, and it still crashed less than
+
+48
+00:00:50,950 --> 00:00:50,960
+files, and it still crashed less than
+ 
+
+49
+00:00:50,960 --> 00:00:53,110
+files, and it still crashed less than
+Windows Millennium Edition. It's now 70
+
+50
+00:00:53,110 --> 00:00:53,120
+Windows Millennium Edition. It's now 70
+ 
+
+51
+00:00:53,120 --> 00:00:54,869
+Windows Millennium Edition. It's now 70
+years later, and in today's video,
+
+52
+00:00:54,869 --> 00:00:54,879
+years later, and in today's video,
+ 
+
+53
+00:00:54,879 --> 00:00:56,389
+years later, and in today's video,
+you'll finally understand how the
+
+54
+00:00:56,389 --> 00:00:56,399
+you'll finally understand how the
+ 
+
+55
+00:00:56,399 --> 00:00:58,709
+you'll finally understand how the
+bootloadader, processes, scheduling,
+
+56
+00:00:58,709 --> 00:00:58,719
+bootloadader, processes, scheduling,
+ 
+
+57
+00:00:58,719 --> 00:01:00,630
+bootloadader, processes, scheduling,
+threads, system calls, virtual memory,
+
+58
+00:01:00,630 --> 00:01:00,640
+threads, system calls, virtual memory,
+ 
+
+59
+00:01:00,640 --> 00:01:02,790
+threads, system calls, virtual memory,
+interrupts, privilege rings, IO, index
+
+60
+00:01:02,790 --> 00:01:02,800
+interrupts, privilege rings, IO, index
+ 
+
+61
+00:01:02,800 --> 00:01:04,630
+interrupts, privilege rings, IO, index
+nodes, and more all work together in
+
+62
+00:01:04,630 --> 00:01:04,640
+nodes, and more all work together in
+ 
+
+63
+00:01:04,640 --> 00:01:06,550
+nodes, and more all work together in
+perfect harmony by figuring out exactly
+
+64
+00:01:06,550 --> 00:01:06,560
+perfect harmony by figuring out exactly
+ 
+
+65
+00:01:06,560 --> 00:01:08,310
+perfect harmony by figuring out exactly
+what happens in your computer from the
+
+66
+00:01:08,310 --> 00:01:08,320
+what happens in your computer from the
+ 
+
+67
+00:01:08,320 --> 00:01:09,990
+what happens in your computer from the
+moment you press the power button to the
+
+68
+00:01:09,990 --> 00:01:10,000
+moment you press the power button to the
+ 
+
+69
+00:01:10,000 --> 00:01:11,910
+moment you press the power button to the
+moment you rage quit and shut it down.
+
+70
+00:01:11,910 --> 00:01:11,920
+moment you rage quit and shut it down.
+ 
+
+71
+00:01:11,920 --> 00:01:13,990
+moment you rage quit and shut it down.
+Stage one, the boot loader. You press
+
+72
+00:01:13,990 --> 00:01:14,000
+Stage one, the boot loader. You press
+ 
+
+73
+00:01:14,000 --> 00:01:15,910
+Stage one, the boot loader. You press
+the power button, electricity hits the
+
+74
+00:01:15,910 --> 00:01:15,920
+the power button, electricity hits the
+ 
+
+75
+00:01:15,920 --> 00:01:18,070
+the power button, electricity hits the
+motherboard, and the CPU wakes up in the
+
+76
+00:01:18,070 --> 00:01:18,080
+motherboard, and the CPU wakes up in the
+ 
+
+77
+00:01:18,080 --> 00:01:19,910
+motherboard, and the CPU wakes up in the
+most primitive state possible. At this
+
+78
+00:01:19,910 --> 00:01:19,920
+most primitive state possible. At this
+ 
+
+79
+00:01:19,920 --> 00:01:21,749
+most primitive state possible. At this
+point, there's no memory management or
+
+80
+00:01:21,749 --> 00:01:21,759
+point, there's no memory management or
+ 
+
+81
+00:01:21,759 --> 00:01:23,910
+point, there's no memory management or
+even a concept of files. It's just a
+
+82
+00:01:23,910 --> 00:01:23,920
+even a concept of files. It's just a
+ 
+
+83
+00:01:23,920 --> 00:01:26,149
+even a concept of files. It's just a
+single core executing instructions at a
+
+84
+00:01:26,149 --> 00:01:26,159
+single core executing instructions at a
+ 
+
+85
+00:01:26,159 --> 00:01:27,749
+single core executing instructions at a
+hard-coded address burned into the
+
+86
+00:01:27,749 --> 00:01:27,759
+hard-coded address burned into the
+ 
+
+87
+00:01:27,759 --> 00:01:29,670
+hard-coded address burned into the
+firmware. On modern machines, that's
+
+88
+00:01:29,670 --> 00:01:29,680
+firmware. On modern machines, that's
+ 
+
+89
+00:01:29,680 --> 00:01:32,149
+firmware. On modern machines, that's
+UEFI, but on ancient ones, it was called
+
+90
+00:01:32,149 --> 00:01:32,159
+UEFI, but on ancient ones, it was called
+ 
+
+91
+00:01:32,159 --> 00:01:34,390
+UEFI, but on ancient ones, it was called
+BIOS. A firmware's job is to wake up
+
+92
+00:01:34,390 --> 00:01:34,400
+BIOS. A firmware's job is to wake up
+ 
+
+93
+00:01:34,400 --> 00:01:36,230
+BIOS. A firmware's job is to wake up
+just enough hardware to find a disc,
+
+94
+00:01:36,230 --> 00:01:36,240
+just enough hardware to find a disc,
+ 
+
+95
+00:01:36,240 --> 00:01:38,149
+just enough hardware to find a disc,
+then hand it off to a bootloadader. On
+
+96
+00:01:38,149 --> 00:01:38,159
+then hand it off to a bootloadader. On
+ 
+
+97
+00:01:38,159 --> 00:01:39,910
+then hand it off to a bootloadader. On
+Linux, it's called Grub, the grand
+
+98
+00:01:39,910 --> 00:01:39,920
+Linux, it's called Grub, the grand
+ 
+
+99
+00:01:39,920 --> 00:01:41,830
+Linux, it's called Grub, the grand
+unified bootloader. On Mac, it's called
+
+100
+00:01:41,830 --> 00:01:41,840
+unified bootloader. On Mac, it's called
+ 
+
+101
+00:01:41,840 --> 00:01:43,510
+unified bootloader. On Mac, it's called
+IBO, and on Windows, it's called
+
+102
+00:01:43,510 --> 00:01:43,520
+IBO, and on Windows, it's called
+ 
+
+103
+00:01:43,520 --> 00:01:45,030
+IBO, and on Windows, it's called
+Bootmagger. But the job of the
+
+104
+00:01:45,030 --> 00:01:45,040
+Bootmagger. But the job of the
+ 
+
+105
+00:01:45,040 --> 00:01:47,109
+Bootmagger. But the job of the
+bootloader is simple. Find the kernel on
+
+106
+00:01:47,109 --> 00:01:47,119
+bootloader is simple. Find the kernel on
+ 
+
+107
+00:01:47,119 --> 00:01:49,190
+bootloader is simple. Find the kernel on
+disk and load it into RAM. That's the
+
+108
+00:01:49,190 --> 00:01:49,200
+disk and load it into RAM. That's the
+ 
+
+109
+00:01:49,200 --> 00:01:51,350
+disk and load it into RAM. That's the
+handoff. And at this point, the CPU is
+
+110
+00:01:51,350 --> 00:01:51,360
+handoff. And at this point, the CPU is
+ 
+
+111
+00:01:51,360 --> 00:01:53,109
+handoff. And at this point, the CPU is
+running kernel code with full hardware
+
+112
+00:01:53,109 --> 00:01:53,119
+running kernel code with full hardware
+ 
+
+113
+00:01:53,119 --> 00:01:54,870
+running kernel code with full hardware
+privileges. But everything interesting
+
+114
+00:01:54,870 --> 00:01:54,880
+privileges. But everything interesting
+ 
+
+115
+00:01:54,880 --> 00:01:56,950
+privileges. But everything interesting
+about your computer, like files,
+
+116
+00:01:56,950 --> 00:01:56,960
+about your computer, like files,
+ 
+
+117
+00:01:56,960 --> 00:01:58,950
+about your computer, like files,
+processes, windows, and so on, doesn't
+
+118
+00:01:58,950 --> 00:01:58,960
+processes, windows, and so on, doesn't
+ 
+
+119
+00:01:58,960 --> 00:02:00,870
+processes, windows, and so on, doesn't
+even exist yet. The colonel has to build
+
+120
+00:02:00,870 --> 00:02:00,880
+even exist yet. The colonel has to build
+ 
+
+121
+00:02:00,880 --> 00:02:02,469
+even exist yet. The colonel has to build
+it all from scratch over the next few
+
+122
+00:02:02,469 --> 00:02:02,479
+it all from scratch over the next few
+ 
+
+123
+00:02:02,479 --> 00:02:04,069
+it all from scratch over the next few
+seconds. Before we go any further,
+
+124
+00:02:04,069 --> 00:02:04,079
+seconds. Before we go any further,
+ 
+
+125
+00:02:04,079 --> 00:02:06,149
+seconds. Before we go any further,
+though, we need to understand stage two,
+
+126
+00:02:06,149 --> 00:02:06,159
+though, we need to understand stage two,
+ 
+
+127
+00:02:06,159 --> 00:02:08,790
+though, we need to understand stage two,
+privilege rings. Your CPU is protected
+
+128
+00:02:08,790 --> 00:02:08,800
+privilege rings. Your CPU is protected
+ 
+
+129
+00:02:08,800 --> 00:02:11,510
+privilege rings. Your CPU is protected
+by multiple privilege levels. On x86,
+
+130
+00:02:11,510 --> 00:02:11,520
+by multiple privilege levels. On x86,
+ 
+
+131
+00:02:11,520 --> 00:02:13,110
+by multiple privilege levels. On x86,
+there are four, but basically only two
+
+132
+00:02:13,110 --> 00:02:13,120
+there are four, but basically only two
+ 
+
+133
+00:02:13,120 --> 00:02:15,110
+there are four, but basically only two
+matter. Ring zero for the kernel which
+
+134
+00:02:15,110 --> 00:02:15,120
+matter. Ring zero for the kernel which
+ 
+
+135
+00:02:15,120 --> 00:02:17,430
+matter. Ring zero for the kernel which
+can do basically anything and ring three
+
+136
+00:02:17,430 --> 00:02:17,440
+can do basically anything and ring three
+ 
+
+137
+00:02:17,440 --> 00:02:19,510
+can do basically anything and ring three
+user space which can run applications
+
+138
+00:02:19,510 --> 00:02:19,520
+user space which can run applications
+ 
+
+139
+00:02:19,520 --> 00:02:21,110
+user space which can run applications
+but needs to ask permission for
+
+140
+00:02:21,110 --> 00:02:21,120
+but needs to ask permission for
+ 
+
+141
+00:02:21,120 --> 00:02:23,270
+but needs to ask permission for
+everything else. Currently the kernel is
+
+142
+00:02:23,270 --> 00:02:23,280
+everything else. Currently the kernel is
+ 
+
+143
+00:02:23,280 --> 00:02:25,110
+everything else. Currently the kernel is
+running CC code in ring zero with no
+
+144
+00:02:25,110 --> 00:02:25,120
+running CC code in ring zero with no
+ 
+
+145
+00:02:25,120 --> 00:02:27,190
+running CC code in ring zero with no
+guardrails. One wrong pointer and the
+
+146
+00:02:27,190 --> 00:02:27,200
+guardrails. One wrong pointer and the
+ 
+
+147
+00:02:27,200 --> 00:02:29,190
+guardrails. One wrong pointer and the
+entire machine catches on fire. That's
+
+148
+00:02:29,190 --> 00:02:29,200
+entire machine catches on fire. That's
+ 
+
+149
+00:02:29,200 --> 00:02:31,110
+entire machine catches on fire. That's
+why kernel developers drink. But if we
+
+150
+00:02:31,110 --> 00:02:31,120
+why kernel developers drink. But if we
+ 
+
+151
+00:02:31,120 --> 00:02:32,470
+why kernel developers drink. But if we
+didn't have this ring of separation
+
+152
+00:02:32,470 --> 00:02:32,480
+didn't have this ring of separation
+ 
+
+153
+00:02:32,480 --> 00:02:34,630
+didn't have this ring of separation
+enforced by the CPU itself, every
+
+154
+00:02:34,630 --> 00:02:34,640
+enforced by the CPU itself, every
+ 
+
+155
+00:02:34,640 --> 00:02:36,070
+enforced by the CPU itself, every
+program would be able to read every
+
+156
+00:02:36,070 --> 00:02:36,080
+program would be able to read every
+ 
+
+157
+00:02:36,080 --> 00:02:38,150
+program would be able to read every
+other program's memory and crash your
+
+158
+00:02:38,150 --> 00:02:38,160
+other program's memory and crash your
+ 
+
+159
+00:02:38,160 --> 00:02:39,990
+other program's memory and crash your
+entire system. But with the privilege
+
+160
+00:02:39,990 --> 00:02:40,000
+entire system. But with the privilege
+ 
+
+161
+00:02:40,000 --> 00:02:41,990
+entire system. But with the privilege
+ring in place, it means a buggy program
+
+162
+00:02:41,990 --> 00:02:42,000
+ring in place, it means a buggy program
+ 
+
+163
+00:02:42,000 --> 00:02:44,150
+ring in place, it means a buggy program
+can usually only crash itself. But now
+
+164
+00:02:44,150 --> 00:02:44,160
+can usually only crash itself. But now
+ 
+
+165
+00:02:44,160 --> 00:02:45,910
+can usually only crash itself. But now
+we enter stage three where the colonel
+
+166
+00:02:45,910 --> 00:02:45,920
+we enter stage three where the colonel
+ 
+
+167
+00:02:45,920 --> 00:02:47,670
+we enter stage three where the colonel
+tells the biggest lie in computing
+
+168
+00:02:47,670 --> 00:02:47,680
+tells the biggest lie in computing
+ 
+
+169
+00:02:47,680 --> 00:02:49,509
+tells the biggest lie in computing
+virtual memory. Here's how the scam
+
+170
+00:02:49,509 --> 00:02:49,519
+virtual memory. Here's how the scam
+ 
+
+171
+00:02:49,519 --> 00:02:50,949
+virtual memory. Here's how the scam
+works. When a program eventually
+
+172
+00:02:50,949 --> 00:02:50,959
+works. When a program eventually
+ 
+
+173
+00:02:50,959 --> 00:02:53,350
+works. When a program eventually
+requests a memory address like this,
+
+174
+00:02:53,350 --> 00:02:53,360
+requests a memory address like this,
+ 
+
+175
+00:02:53,360 --> 00:02:55,509
+requests a memory address like this,
+that address doesn't exist. It's a fake
+
+176
+00:02:55,509 --> 00:02:55,519
+that address doesn't exist. It's a fake
+ 
+
+177
+00:02:55,519 --> 00:02:57,350
+that address doesn't exist. It's a fake
+virtual address that gets translated
+
+178
+00:02:57,350 --> 00:02:57,360
+virtual address that gets translated
+ 
+
+179
+00:02:57,360 --> 00:02:59,350
+virtual address that gets translated
+into a real physical address by a piece
+
+180
+00:02:59,350 --> 00:02:59,360
+into a real physical address by a piece
+ 
+
+181
+00:02:59,360 --> 00:03:01,750
+into a real physical address by a piece
+of hardware called the MMU, the memory
+
+182
+00:03:01,750 --> 00:03:01,760
+of hardware called the MMU, the memory
+ 
+
+183
+00:03:01,760 --> 00:03:03,910
+of hardware called the MMU, the memory
+management unit, which itself uses a
+
+184
+00:03:03,910 --> 00:03:03,920
+management unit, which itself uses a
+ 
+
+185
+00:03:03,920 --> 00:03:05,750
+management unit, which itself uses a
+data structure called a page table that
+
+186
+00:03:05,750 --> 00:03:05,760
+data structure called a page table that
+ 
+
+187
+00:03:05,760 --> 00:03:07,430
+data structure called a page table that
+the colonel is building right now.
+
+188
+00:03:07,430 --> 00:03:07,440
+the colonel is building right now.
+ 
+
+189
+00:03:07,440 --> 00:03:09,270
+the colonel is building right now.
+Memory is handed out in chunks called
+
+190
+00:03:09,270 --> 00:03:09,280
+Memory is handed out in chunks called
+ 
+
+191
+00:03:09,280 --> 00:03:11,589
+Memory is handed out in chunks called
+pages, typically four kilobytes each.
+
+192
+00:03:11,589 --> 00:03:11,599
+pages, typically four kilobytes each.
+ 
+
+193
+00:03:11,599 --> 00:03:13,110
+pages, typically four kilobytes each.
+But what's really interesting is that
+
+194
+00:03:13,110 --> 00:03:13,120
+But what's really interesting is that
+ 
+
+195
+00:03:13,120 --> 00:03:15,110
+But what's really interesting is that
+each process gets its own page table.
+
+196
+00:03:15,110 --> 00:03:15,120
+each process gets its own page table.
+ 
+
+197
+00:03:15,120 --> 00:03:16,790
+each process gets its own page table.
+And that means two applications can work
+
+198
+00:03:16,790 --> 00:03:16,800
+And that means two applications can work
+ 
+
+199
+00:03:16,800 --> 00:03:18,309
+And that means two applications can work
+together without screwing each other
+
+200
+00:03:18,309 --> 00:03:18,319
+together without screwing each other
+ 
+
+201
+00:03:18,319 --> 00:03:20,390
+together without screwing each other
+over. Like your browser can't read your
+
+202
+00:03:20,390 --> 00:03:20,400
+over. Like your browser can't read your
+ 
+
+203
+00:03:20,400 --> 00:03:22,149
+over. Like your browser can't read your
+password manager's memory and vice
+
+204
+00:03:22,149 --> 00:03:22,159
+password manager's memory and vice
+ 
+
+205
+00:03:22,159 --> 00:03:24,149
+password manager's memory and vice
+versa. They live in parallel universes
+
+206
+00:03:24,149 --> 00:03:24,159
+versa. They live in parallel universes
+ 
+
+207
+00:03:24,159 --> 00:03:26,309
+versa. They live in parallel universes
+that only the kernel can see between.
+
+208
+00:03:26,309 --> 00:03:26,319
+that only the kernel can see between.
+ 
+
+209
+00:03:26,319 --> 00:03:28,790
+that only the kernel can see between.
+Pretty cool. But the MMU also caches
+
+210
+00:03:28,790 --> 00:03:28,800
+Pretty cool. But the MMU also caches
+ 
+
+211
+00:03:28,800 --> 00:03:31,030
+Pretty cool. But the MMU also caches
+recent translations in a tiny structure
+
+212
+00:03:31,030 --> 00:03:31,040
+recent translations in a tiny structure
+ 
+
+213
+00:03:31,040 --> 00:03:33,270
+recent translations in a tiny structure
+called the TLB. The translation look
+
+214
+00:03:33,270 --> 00:03:33,280
+called the TLB. The translation look
+ 
+
+215
+00:03:33,280 --> 00:03:35,589
+called the TLB. The translation look
+aside buffer. a translation, meaning a
+
+216
+00:03:35,589 --> 00:03:35,599
+aside buffer. a translation, meaning a
+ 
+
+217
+00:03:35,599 --> 00:03:37,190
+aside buffer. a translation, meaning a
+virtual address mapped to a physical
+
+218
+00:03:37,190 --> 00:03:37,200
+virtual address mapped to a physical
+ 
+
+219
+00:03:37,200 --> 00:03:38,949
+virtual address mapped to a physical
+address. When a program touches a page
+
+220
+00:03:38,949 --> 00:03:38,959
+address. When a program touches a page
+ 
+
+221
+00:03:38,959 --> 00:03:41,430
+address. When a program touches a page
+that isn't in RAM, the MMU raises a page
+
+222
+00:03:41,430 --> 00:03:41,440
+that isn't in RAM, the MMU raises a page
+ 
+
+223
+00:03:41,440 --> 00:03:43,270
+that isn't in RAM, the MMU raises a page
+fault, which wakes the kernel up and
+
+224
+00:03:43,270 --> 00:03:43,280
+fault, which wakes the kernel up and
+ 
+
+225
+00:03:43,280 --> 00:03:45,350
+fault, which wakes the kernel up and
+loads a page from disk and resumes the
+
+226
+00:03:45,350 --> 00:03:45,360
+loads a page from disk and resumes the
+ 
+
+227
+00:03:45,360 --> 00:03:46,869
+loads a page from disk and resumes the
+program like nothing happened. And now
+
+228
+00:03:46,869 --> 00:03:46,879
+program like nothing happened. And now
+ 
+
+229
+00:03:46,879 --> 00:03:48,710
+program like nothing happened. And now
+that we have these memory lies in place,
+
+230
+00:03:48,710 --> 00:03:48,720
+that we have these memory lies in place,
+ 
+
+231
+00:03:48,720 --> 00:03:50,630
+that we have these memory lies in place,
+it's time for stage four, the file
+
+232
+00:03:50,630 --> 00:03:50,640
+it's time for stage four, the file
+ 
+
+233
+00:03:50,640 --> 00:03:53,110
+it's time for stage four, the file
+system. Your disc at the lowest level is
+
+234
+00:03:53,110 --> 00:03:53,120
+system. Your disc at the lowest level is
+ 
+
+235
+00:03:53,120 --> 00:03:55,270
+system. Your disc at the lowest level is
+a long line of numbered blocks. But a
+
+236
+00:03:55,270 --> 00:03:55,280
+a long line of numbered blocks. But a
+ 
+
+237
+00:03:55,280 --> 00:03:57,110
+a long line of numbered blocks. But a
+file system is the software that lies
+
+238
+00:03:57,110 --> 00:03:57,120
+file system is the software that lies
+ 
+
+239
+00:03:57,120 --> 00:03:58,710
+file system is the software that lies
+about that and presents you with these
+
+240
+00:03:58,710 --> 00:03:58,720
+about that and presents you with these
+ 
+
+241
+00:03:58,720 --> 00:04:00,630
+about that and presents you with these
+nice files and folders instead. The
+
+242
+00:04:00,630 --> 00:04:00,640
+nice files and folders instead. The
+ 
+
+243
+00:04:00,640 --> 00:04:02,550
+nice files and folders instead. The
+colonel mounts the file system, but the
+
+244
+00:04:02,550 --> 00:04:02,560
+colonel mounts the file system, but the
+ 
+
+245
+00:04:02,560 --> 00:04:04,630
+colonel mounts the file system, but the
+files themselves are stored as something
+
+246
+00:04:04,630 --> 00:04:04,640
+files themselves are stored as something
+ 
+
+247
+00:04:04,640 --> 00:04:07,030
+files themselves are stored as something
+called index nodes. But the index node
+
+248
+00:04:07,030 --> 00:04:07,040
+called index nodes. But the index node
+ 
+
+249
+00:04:07,040 --> 00:04:09,270
+called index nodes. But the index node
+isn't actually the file itself. Instead,
+
+250
+00:04:09,270 --> 00:04:09,280
+isn't actually the file itself. Instead,
+ 
+
+251
+00:04:09,280 --> 00:04:11,350
+isn't actually the file itself. Instead,
+it contains metadata like size,
+
+252
+00:04:11,350 --> 00:04:11,360
+it contains metadata like size,
+ 
+
+253
+00:04:11,360 --> 00:04:13,270
+it contains metadata like size,
+permissions, and timestamps, and most
+
+254
+00:04:13,270 --> 00:04:13,280
+permissions, and timestamps, and most
+ 
+
+255
+00:04:13,280 --> 00:04:15,509
+permissions, and timestamps, and most
+importantly, a pointer to the actual
+
+256
+00:04:15,509 --> 00:04:15,519
+importantly, a pointer to the actual
+ 
+
+257
+00:04:15,519 --> 00:04:17,430
+importantly, a pointer to the actual
+data block on disk. But it's also
+
+258
+00:04:17,430 --> 00:04:17,440
+data block on disk. But it's also
+ 
+
+259
+00:04:17,440 --> 00:04:19,030
+data block on disk. But it's also
+important to notice what's not in the
+
+260
+00:04:19,030 --> 00:04:19,040
+important to notice what's not in the
+ 
+
+261
+00:04:19,040 --> 00:04:21,670
+important to notice what's not in the
+index node, the file name. You see, file
+
+262
+00:04:21,670 --> 00:04:21,680
+index node, the file name. You see, file
+ 
+
+263
+00:04:21,680 --> 00:04:23,270
+index node, the file name. You see, file
+names live in directories, which are
+
+264
+00:04:23,270 --> 00:04:23,280
+names live in directories, which are
+ 
+
+265
+00:04:23,280 --> 00:04:25,270
+names live in directories, which are
+themselves just special files mapping
+
+266
+00:04:25,270 --> 00:04:25,280
+themselves just special files mapping
+ 
+
+267
+00:04:25,280 --> 00:04:27,830
+themselves just special files mapping
+names to index node numbers. This is why
+
+268
+00:04:27,830 --> 00:04:27,840
+names to index node numbers. This is why
+ 
+
+269
+00:04:27,840 --> 00:04:29,189
+names to index node numbers. This is why
+you can have multiple file names
+
+270
+00:04:29,189 --> 00:04:29,199
+you can have multiple file names
+ 
+
+271
+00:04:29,199 --> 00:04:31,110
+you can have multiple file names
+pointing to the same file. Now, file
+
+272
+00:04:31,110 --> 00:04:31,120
+pointing to the same file. Now, file
+ 
+
+273
+00:04:31,120 --> 00:04:32,870
+pointing to the same file. Now, file
+system architectures come in a variety
+
+274
+00:04:32,870 --> 00:04:32,880
+system architectures come in a variety
+ 
+
+275
+00:04:32,880 --> 00:04:35,830
+system architectures come in a variety
+of different personalities like ext4,
+
+276
+00:04:35,830 --> 00:04:35,840
+of different personalities like ext4,
+ 
+
+277
+00:04:35,840 --> 00:04:39,270
+of different personalities like ext4,
+NTFS, and APFS, just to name a few. But
+
+278
+00:04:39,270 --> 00:04:39,280
+NTFS, and APFS, just to name a few. But
+ 
+
+279
+00:04:39,280 --> 00:04:41,110
+NTFS, and APFS, just to name a few. But
+what's cool about modern file systems is
+
+280
+00:04:41,110 --> 00:04:41,120
+what's cool about modern file systems is
+ 
+
+281
+00:04:41,120 --> 00:04:42,310
+what's cool about modern file systems is
+that they use a feature called
+
+282
+00:04:42,310 --> 00:04:42,320
+that they use a feature called
+ 
+
+283
+00:04:42,320 --> 00:04:43,749
+that they use a feature called
+journaling, which will write your
+
+284
+00:04:43,749 --> 00:04:43,759
+journaling, which will write your
+ 
+
+285
+00:04:43,759 --> 00:04:45,830
+journaling, which will write your
+intentions before writing data. And that
+
+286
+00:04:45,830 --> 00:04:45,840
+intentions before writing data. And that
+ 
+
+287
+00:04:45,840 --> 00:04:47,430
+intentions before writing data. And that
+means if you accidentally yank the power
+
+288
+00:04:47,430 --> 00:04:47,440
+means if you accidentally yank the power
+ 
+
+289
+00:04:47,440 --> 00:04:49,189
+means if you accidentally yank the power
+cord midwrite, you don't end up with a
+
+290
+00:04:49,189 --> 00:04:49,199
+cord midwrite, you don't end up with a
+ 
+
+291
+00:04:49,199 --> 00:04:50,870
+cord midwrite, you don't end up with a
+bunch of corrupted garbage most of the
+
+292
+00:04:50,870 --> 00:04:50,880
+bunch of corrupted garbage most of the
+ 
+
+293
+00:04:50,880 --> 00:04:52,469
+bunch of corrupted garbage most of the
+time. But now it's time to move on to
+
+294
+00:04:52,469 --> 00:04:52,479
+time. But now it's time to move on to
+ 
+
+295
+00:04:52,479 --> 00:04:54,150
+time. But now it's time to move on to
+stage five, device drivers and
+
+296
+00:04:54,150 --> 00:04:54,160
+stage five, device drivers and
+ 
+
+297
+00:04:54,160 --> 00:04:55,990
+stage five, device drivers and
+interrupts. But first, we need to
+
+298
+00:04:55,990 --> 00:04:56,000
+interrupts. But first, we need to
+ 
+
+299
+00:04:56,000 --> 00:04:57,909
+interrupts. But first, we need to
+quickly talk about Railway, who was cool
+
+300
+00:04:57,909 --> 00:04:57,919
+quickly talk about Railway, who was cool
+ 
+
+301
+00:04:57,919 --> 00:04:59,909
+quickly talk about Railway, who was cool
+enough to sponsor this 11-minute video
+
+302
+00:04:59,909 --> 00:04:59,919
+enough to sponsor this 11-minute video
+ 
+
+303
+00:04:59,919 --> 00:05:02,310
+enough to sponsor this 11-minute video
+on esoteric operating system knowledge.
+
+304
+00:05:02,310 --> 00:05:02,320
+on esoteric operating system knowledge.
+ 
+
+305
+00:05:02,320 --> 00:05:04,230
+on esoteric operating system knowledge.
+It's an all-in-one intelligent cloud
+
+306
+00:05:04,230 --> 00:05:04,240
+It's an all-in-one intelligent cloud
+ 
+
+307
+00:05:04,240 --> 00:05:05,990
+It's an all-in-one intelligent cloud
+provider that lets you deploy anything
+
+308
+00:05:05,990 --> 00:05:06,000
+provider that lets you deploy anything
+ 
+
+309
+00:05:06,000 --> 00:05:08,310
+provider that lets you deploy anything
+in a few clicks. So, instead of drowning
+
+310
+00:05:08,310 --> 00:05:08,320
+in a few clicks. So, instead of drowning
+ 
+
+311
+00:05:08,320 --> 00:05:10,469
+in a few clicks. So, instead of drowning
+in YAML, you can just connect your repo
+
+312
+00:05:10,469 --> 00:05:10,479
+in YAML, you can just connect your repo
+ 
+
+313
+00:05:10,479 --> 00:05:12,550
+in YAML, you can just connect your repo
+and Railway will read your code and set
+
+314
+00:05:12,550 --> 00:05:12,560
+and Railway will read your code and set
+ 
+
+315
+00:05:12,560 --> 00:05:13,749
+and Railway will read your code and set
+up the right config for you
+
+316
+00:05:13,749 --> 00:05:13,759
+up the right config for you
+ 
+
+317
+00:05:13,759 --> 00:05:15,909
+up the right config for you
+automatically. Or you can use the new
+
+318
+00:05:15,909 --> 00:05:15,919
+automatically. Or you can use the new
+ 
+
+319
+00:05:15,919 --> 00:05:18,390
+automatically. Or you can use the new
+Railway CLI with their official agent
+
+320
+00:05:18,390 --> 00:05:18,400
+Railway CLI with their official agent
+ 
+
+321
+00:05:18,400 --> 00:05:20,950
+Railway CLI with their official agent
+skills to let Codeex, Claude Code, or
+
+322
+00:05:20,950 --> 00:05:20,960
+skills to let Codeex, Claude Code, or
+ 
+
+323
+00:05:20,960 --> 00:05:23,110
+skills to let Codeex, Claude Code, or
+one of your favorite AI agent minions to
+
+324
+00:05:23,110 --> 00:05:23,120
+one of your favorite AI agent minions to
+ 
+
+325
+00:05:23,120 --> 00:05:24,710
+one of your favorite AI agent minions to
+do all the dirty work instead.
+
+326
+00:05:24,710 --> 00:05:24,720
+do all the dirty work instead.
+ 
+
+327
+00:05:24,720 --> 00:05:26,790
+do all the dirty work instead.
+Developers love how easy it is to spin
+
+328
+00:05:26,790 --> 00:05:26,800
+Developers love how easy it is to spin
+ 
+
+329
+00:05:26,800 --> 00:05:28,950
+Developers love how easy it is to spin
+up any service you want, and how Rayway
+
+330
+00:05:28,950 --> 00:05:28,960
+up any service you want, and how Rayway
+ 
+
+331
+00:05:28,960 --> 00:05:30,790
+up any service you want, and how Rayway
+only charges you for the resources you
+
+332
+00:05:30,790 --> 00:05:30,800
+only charges you for the resources you
+ 
+
+333
+00:05:30,800 --> 00:05:33,029
+only charges you for the resources you
+actually use and not what you provision,
+
+334
+00:05:33,029 --> 00:05:33,039
+actually use and not what you provision,
+ 
+
+335
+00:05:33,039 --> 00:05:36,230
+actually use and not what you provision,
+which can save over 65% on cloud costs.
+
+336
+00:05:36,230 --> 00:05:36,240
+which can save over 65% on cloud costs.
+ 
+
+337
+00:05:36,240 --> 00:05:38,310
+which can save over 65% on cloud costs.
+Sign up for free today at the link below
+
+338
+00:05:38,310 --> 00:05:38,320
+Sign up for free today at the link below
+ 
+
+339
+00:05:38,320 --> 00:05:40,310
+Sign up for free today at the link below
+and you'll get $20 in free credits when
+
+340
+00:05:40,310 --> 00:05:40,320
+and you'll get $20 in free credits when
+ 
+
+341
+00:05:40,320 --> 00:05:42,310
+and you'll get $20 in free credits when
+you upgrade. Pardon the interruption,
+
+342
+00:05:42,310 --> 00:05:42,320
+you upgrade. Pardon the interruption,
+ 
+
+343
+00:05:42,320 --> 00:05:44,070
+you upgrade. Pardon the interruption,
+but now it's time to talk about device
+
+344
+00:05:44,070 --> 00:05:44,080
+but now it's time to talk about device
+ 
+
+345
+00:05:44,080 --> 00:05:45,749
+but now it's time to talk about device
+drivers and interrupts. At this point,
+
+346
+00:05:45,749 --> 00:05:45,759
+drivers and interrupts. At this point,
+ 
+
+347
+00:05:45,759 --> 00:05:47,749
+drivers and interrupts. At this point,
+we have memory in a file system. So, the
+
+348
+00:05:47,749 --> 00:05:47,759
+we have memory in a file system. So, the
+ 
+
+349
+00:05:47,759 --> 00:05:49,830
+we have memory in a file system. So, the
+kernel starts loading device drivers,
+
+350
+00:05:49,830 --> 00:05:49,840
+kernel starts loading device drivers,
+ 
+
+351
+00:05:49,840 --> 00:05:51,510
+kernel starts loading device drivers,
+which is specialized code that
+
+352
+00:05:51,510 --> 00:05:51,520
+which is specialized code that
+ 
+
+353
+00:05:51,520 --> 00:05:53,830
+which is specialized code that
+translates generic kernel requests into
+
+354
+00:05:53,830 --> 00:05:53,840
+translates generic kernel requests into
+ 
+
+355
+00:05:53,840 --> 00:05:55,830
+translates generic kernel requests into
+specific hieroglyphics for a given chip
+
+356
+00:05:55,830 --> 00:05:55,840
+specific hieroglyphics for a given chip
+ 
+
+357
+00:05:55,840 --> 00:05:57,670
+specific hieroglyphics for a given chip
+architecture. Each piece of external
+
+358
+00:05:57,670 --> 00:05:57,680
+architecture. Each piece of external
+ 
+
+359
+00:05:57,680 --> 00:06:00,390
+architecture. Each piece of external
+hardware, like your GPU, Wi-Fi card, and
+
+360
+00:06:00,390 --> 00:06:00,400
+hardware, like your GPU, Wi-Fi card, and
+ 
+
+361
+00:06:00,400 --> 00:06:02,469
+hardware, like your GPU, Wi-Fi card, and
+keyboard, it gets a driver loaded from
+
+362
+00:06:02,469 --> 00:06:02,479
+keyboard, it gets a driver loaded from
+ 
+
+363
+00:06:02,479 --> 00:06:04,469
+keyboard, it gets a driver loaded from
+disk and registered with the kernel. The
+
+364
+00:06:04,469 --> 00:06:04,479
+disk and registered with the kernel. The
+ 
+
+365
+00:06:04,479 --> 00:06:06,150
+disk and registered with the kernel. The
+drivers actually run in kernel mode,
+
+366
+00:06:06,150 --> 00:06:06,160
+drivers actually run in kernel mode,
+ 
+
+367
+00:06:06,160 --> 00:06:08,230
+drivers actually run in kernel mode,
+which means one buggy driver can often
+
+368
+00:06:08,230 --> 00:06:08,240
+which means one buggy driver can often
+ 
+
+369
+00:06:08,240 --> 00:06:10,309
+which means one buggy driver can often
+crash the entire operating system. Like
+
+370
+00:06:10,309 --> 00:06:10,319
+crash the entire operating system. Like
+ 
+
+371
+00:06:10,319 --> 00:06:12,230
+crash the entire operating system. Like
+the Windows blue screen of death often
+
+372
+00:06:12,230 --> 00:06:12,240
+the Windows blue screen of death often
+ 
+
+373
+00:06:12,240 --> 00:06:14,070
+the Windows blue screen of death often
+comes from graphics drivers. And a
+
+374
+00:06:14,070 --> 00:06:14,080
+comes from graphics drivers. And a
+ 
+
+375
+00:06:14,080 --> 00:06:16,070
+comes from graphics drivers. And a
+couple years ago, a bad driver released
+
+376
+00:06:16,070 --> 00:06:16,080
+couple years ago, a bad driver released
+ 
+
+377
+00:06:16,080 --> 00:06:17,430
+couple years ago, a bad driver released
+by the cyber security company
+
+378
+00:06:17,430 --> 00:06:17,440
+by the cyber security company
+ 
+
+379
+00:06:17,440 --> 00:06:19,270
+by the cyber security company
+Crowdstrike almost took down the entire
+
+380
+00:06:19,270 --> 00:06:19,280
+Crowdstrike almost took down the entire
+ 
+
+381
+00:06:19,280 --> 00:06:21,510
+Crowdstrike almost took down the entire
+global economy. But once the drivers are
+
+382
+00:06:21,510 --> 00:06:21,520
+global economy. But once the drivers are
+ 
+
+383
+00:06:21,520 --> 00:06:23,110
+global economy. But once the drivers are
+loaded, the colonel then enables
+
+384
+00:06:23,110 --> 00:06:23,120
+loaded, the colonel then enables
+ 
+
+385
+00:06:23,120 --> 00:06:24,790
+loaded, the colonel then enables
+something called interrupts. Like, have
+
+386
+00:06:24,790 --> 00:06:24,800
+something called interrupts. Like, have
+ 
+
+387
+00:06:24,800 --> 00:06:26,469
+something called interrupts. Like, have
+you ever wondered how does the keyboard
+
+388
+00:06:26,469 --> 00:06:26,479
+you ever wondered how does the keyboard
+ 
+
+389
+00:06:26,479 --> 00:06:28,390
+you ever wondered how does the keyboard
+tell the operating system a key was
+
+390
+00:06:28,390 --> 00:06:28,400
+tell the operating system a key was
+ 
+
+391
+00:06:28,400 --> 00:06:30,150
+tell the operating system a key was
+pressed? Well, the OS doesn't sit there
+
+392
+00:06:30,150 --> 00:06:30,160
+pressed? Well, the OS doesn't sit there
+ 
+
+393
+00:06:30,160 --> 00:06:32,469
+pressed? Well, the OS doesn't sit there
+in an infinite loop asking. Instead, the
+
+394
+00:06:32,469 --> 00:06:32,479
+in an infinite loop asking. Instead, the
+ 
+
+395
+00:06:32,479 --> 00:06:34,550
+in an infinite loop asking. Instead, the
+keyboard fires an interrupt, which is an
+
+396
+00:06:34,550 --> 00:06:34,560
+keyboard fires an interrupt, which is an
+ 
+
+397
+00:06:34,560 --> 00:06:36,790
+keyboard fires an interrupt, which is an
+electrical signal that yanks the CPU out
+
+398
+00:06:36,790 --> 00:06:36,800
+electrical signal that yanks the CPU out
+ 
+
+399
+00:06:36,800 --> 00:06:38,629
+electrical signal that yanks the CPU out
+of whatever it's doing and jumps to an
+
+400
+00:06:38,629 --> 00:06:38,639
+of whatever it's doing and jumps to an
+ 
+
+401
+00:06:38,639 --> 00:06:40,230
+of whatever it's doing and jumps to an
+interrupt handler in the kernel.
+
+402
+00:06:40,230 --> 00:06:40,240
+interrupt handler in the kernel.
+ 
+
+403
+00:06:40,240 --> 00:06:41,830
+interrupt handler in the kernel.
+Interrupts are the magic that lets your
+
+404
+00:06:41,830 --> 00:06:41,840
+Interrupts are the magic that lets your
+ 
+
+405
+00:06:41,840 --> 00:06:44,150
+Interrupts are the magic that lets your
+computer react instantly to input. Like
+
+406
+00:06:44,150 --> 00:06:44,160
+computer react instantly to input. Like
+ 
+
+407
+00:06:44,160 --> 00:06:45,749
+computer react instantly to input. Like
+when you move the mouse, an interrupt
+
+408
+00:06:45,749 --> 00:06:45,759
+when you move the mouse, an interrupt
+ 
+
+409
+00:06:45,759 --> 00:06:47,590
+when you move the mouse, an interrupt
+fires and the cursor moves. Or if your
+
+410
+00:06:47,590 --> 00:06:47,600
+fires and the cursor moves. Or if your
+ 
+
+411
+00:06:47,600 --> 00:06:49,110
+fires and the cursor moves. Or if your
+Wi-Fi receives some data from the
+
+412
+00:06:49,110 --> 00:06:49,120
+Wi-Fi receives some data from the
+ 
+
+413
+00:06:49,120 --> 00:06:50,870
+Wi-Fi receives some data from the
+internet, an interrupt fires and the
+
+414
+00:06:50,870 --> 00:06:50,880
+internet, an interrupt fires and the
+ 
+
+415
+00:06:50,880 --> 00:06:52,469
+internet, an interrupt fires and the
+network stack wakes up so that
+
+416
+00:06:52,469 --> 00:06:52,479
+network stack wakes up so that
+ 
+
+417
+00:06:52,479 --> 00:06:54,309
+network stack wakes up so that
+applications can use it. But basically,
+
+418
+00:06:54,309 --> 00:06:54,319
+applications can use it. But basically,
+ 
+
+419
+00:06:54,319 --> 00:06:56,629
+applications can use it. But basically,
+the entire machine is driven by tiny
+
+420
+00:06:56,629 --> 00:06:56,639
+the entire machine is driven by tiny
+ 
+
+421
+00:06:56,639 --> 00:06:58,390
+the entire machine is driven by tiny
+electrical screams from hardware saying,
+
+422
+00:06:58,390 --> 00:06:58,400
+electrical screams from hardware saying,
+ 
+
+423
+00:06:58,400 --> 00:07:00,550
+electrical screams from hardware saying,
+"Hey, something happened. Deal with it."
+
+424
+00:07:00,550 --> 00:07:00,560
+"Hey, something happened. Deal with it."
+ 
+
+425
+00:07:00,560 --> 00:07:02,150
+"Hey, something happened. Deal with it."
+But now that all the drivers are loaded,
+
+426
+00:07:02,150 --> 00:07:02,160
+But now that all the drivers are loaded,
+ 
+
+427
+00:07:02,160 --> 00:07:05,189
+But now that all the drivers are loaded,
+we can move on to stage six, PID1, the
+
+428
+00:07:05,189 --> 00:07:05,199
+we can move on to stage six, PID1, the
+ 
+
+429
+00:07:05,199 --> 00:07:07,270
+we can move on to stage six, PID1, the
+first process. The kernel is now fully
+
+430
+00:07:07,270 --> 00:07:07,280
+first process. The kernel is now fully
+ 
+
+431
+00:07:07,280 --> 00:07:09,270
+first process. The kernel is now fully
+operational, but it's lonely. So it
+
+432
+00:07:09,270 --> 00:07:09,280
+operational, but it's lonely. So it
+ 
+
+433
+00:07:09,280 --> 00:07:11,350
+operational, but it's lonely. So it
+creates the first user space program,
+
+434
+00:07:11,350 --> 00:07:11,360
+creates the first user space program,
+ 
+
+435
+00:07:11,360 --> 00:07:14,550
+creates the first user space program,
+PID1. On Linux, that's usually systemd,
+
+436
+00:07:14,550 --> 00:07:14,560
+PID1. On Linux, that's usually systemd,
+ 
+
+437
+00:07:14,560 --> 00:07:16,710
+PID1. On Linux, that's usually systemd,
+but essentially a process is just a
+
+438
+00:07:16,710 --> 00:07:16,720
+but essentially a process is just a
+ 
+
+439
+00:07:16,720 --> 00:07:18,629
+but essentially a process is just a
+running program. But creating one means
+
+440
+00:07:18,629 --> 00:07:18,639
+running program. But creating one means
+ 
+
+441
+00:07:18,639 --> 00:07:20,550
+running program. But creating one means
+the colonel needs to allocate memory,
+
+442
+00:07:20,550 --> 00:07:20,560
+the colonel needs to allocate memory,
+ 
+
+443
+00:07:20,560 --> 00:07:22,870
+the colonel needs to allocate memory,
+load an executable from disk, set up the
+
+444
+00:07:22,870 --> 00:07:22,880
+load an executable from disk, set up the
+ 
+
+445
+00:07:22,880 --> 00:07:25,029
+load an executable from disk, set up the
+virtual address space in a page table we
+
+446
+00:07:25,029 --> 00:07:25,039
+virtual address space in a page table we
+ 
+
+447
+00:07:25,039 --> 00:07:26,710
+virtual address space in a page table we
+talked about earlier, and then finally
+
+448
+00:07:26,710 --> 00:07:26,720
+talked about earlier, and then finally
+ 
+
+449
+00:07:26,720 --> 00:07:28,950
+talked about earlier, and then finally
+add an entry to a giant data structure
+
+450
+00:07:28,950 --> 00:07:28,960
+add an entry to a giant data structure
+ 
+
+451
+00:07:28,960 --> 00:07:30,950
+add an entry to a giant data structure
+called a process table. This is how the
+
+452
+00:07:30,950 --> 00:07:30,960
+called a process table. This is how the
+ 
+
+453
+00:07:30,960 --> 00:07:33,189
+called a process table. This is how the
+kernel keeps score and every process
+
+454
+00:07:33,189 --> 00:07:33,199
+kernel keeps score and every process
+ 
+
+455
+00:07:33,199 --> 00:07:36,230
+kernel keeps score and every process
+gets a PID or process ID. PID1 is
+
+456
+00:07:36,230 --> 00:07:36,240
+gets a PID or process ID. PID1 is
+ 
+
+457
+00:07:36,240 --> 00:07:38,070
+gets a PID or process ID. PID1 is
+special because it's the ancestor of
+
+458
+00:07:38,070 --> 00:07:38,080
+special because it's the ancestor of
+ 
+
+459
+00:07:38,080 --> 00:07:39,909
+special because it's the ancestor of
+every other process on the machine. If
+
+460
+00:07:39,909 --> 00:07:39,919
+every other process on the machine. If
+ 
+
+461
+00:07:39,919 --> 00:07:42,150
+every other process on the machine. If
+P1 dies, the colonel panics and the
+
+462
+00:07:42,150 --> 00:07:42,160
+P1 dies, the colonel panics and the
+ 
+
+463
+00:07:42,160 --> 00:07:43,909
+P1 dies, the colonel panics and the
+whole system goes down. But a key thing
+
+464
+00:07:43,909 --> 00:07:43,919
+whole system goes down. But a key thing
+ 
+
+465
+00:07:43,919 --> 00:07:46,710
+whole system goes down. But a key thing
+to understand here is that PID1 runs in
+
+466
+00:07:46,710 --> 00:07:46,720
+to understand here is that PID1 runs in
+ 
+
+467
+00:07:46,720 --> 00:07:48,950
+to understand here is that PID1 runs in
+ring 3, the user space. And that means
+
+468
+00:07:48,950 --> 00:07:48,960
+ring 3, the user space. And that means
+ 
+
+469
+00:07:48,960 --> 00:07:50,629
+ring 3, the user space. And that means
+from this moment forward, everything
+
+470
+00:07:50,629 --> 00:07:50,639
+from this moment forward, everything
+ 
+
+471
+00:07:50,639 --> 00:07:52,550
+from this moment forward, everything
+running on your machine needs to ask the
+
+472
+00:07:52,550 --> 00:07:52,560
+running on your machine needs to ask the
+ 
+
+473
+00:07:52,560 --> 00:07:54,230
+running on your machine needs to ask the
+kernel for permission. And that's where
+
+474
+00:07:54,230 --> 00:07:54,240
+kernel for permission. And that's where
+ 
+
+475
+00:07:54,240 --> 00:07:56,869
+kernel for permission. And that's where
+stage 7 comes in, system calls, which
+
+476
+00:07:56,869 --> 00:07:56,879
+stage 7 comes in, system calls, which
+ 
+
+477
+00:07:56,879 --> 00:07:58,629
+stage 7 comes in, system calls, which
+might be the single most important API
+
+478
+00:07:58,629 --> 00:07:58,639
+might be the single most important API
+ 
+
+479
+00:07:58,639 --> 00:08:00,390
+might be the single most important API
+in computing that you've never actually
+
+480
+00:08:00,390 --> 00:08:00,400
+in computing that you've never actually
+ 
+
+481
+00:08:00,400 --> 00:08:02,550
+in computing that you've never actually
+written by hand. When a process wants to
+
+482
+00:08:02,550 --> 00:08:02,560
+written by hand. When a process wants to
+ 
+
+483
+00:08:02,560 --> 00:08:04,469
+written by hand. When a process wants to
+read a file, it can't just reach into
+
+484
+00:08:04,469 --> 00:08:04,479
+read a file, it can't just reach into
+ 
+
+485
+00:08:04,479 --> 00:08:06,550
+read a file, it can't just reach into
+the disk. The CPU will physically
+
+486
+00:08:06,550 --> 00:08:06,560
+the disk. The CPU will physically
+ 
+
+487
+00:08:06,560 --> 00:08:09,029
+the disk. The CPU will physically
+refuse. Instead, it has to make a system
+
+488
+00:08:09,029 --> 00:08:09,039
+refuse. Instead, it has to make a system
+ 
+
+489
+00:08:09,039 --> 00:08:10,790
+refuse. Instead, it has to make a system
+call where it puts arguments into
+
+490
+00:08:10,790 --> 00:08:10,800
+call where it puts arguments into
+ 
+
+491
+00:08:10,800 --> 00:08:12,629
+call where it puts arguments into
+specific registers. it triggers a
+
+492
+00:08:12,629 --> 00:08:12,639
+specific registers. it triggers a
+ 
+
+493
+00:08:12,639 --> 00:08:14,869
+specific registers. it triggers a
+special instruction and the CPU switches
+
+494
+00:08:14,869 --> 00:08:14,879
+special instruction and the CPU switches
+ 
+
+495
+00:08:14,879 --> 00:08:17,189
+special instruction and the CPU switches
+from ring three back to ring zero. This
+
+496
+00:08:17,189 --> 00:08:17,199
+from ring three back to ring zero. This
+ 
+
+497
+00:08:17,199 --> 00:08:18,710
+from ring three back to ring zero. This
+boundary is the only reason your
+
+498
+00:08:18,710 --> 00:08:18,720
+boundary is the only reason your
+ 
+
+499
+00:08:18,720 --> 00:08:20,550
+boundary is the only reason your
+computer is secure. Like if you've ever
+
+500
+00:08:20,550 --> 00:08:20,560
+computer is secure. Like if you've ever
+ 
+
+501
+00:08:20,560 --> 00:08:22,309
+computer is secure. Like if you've ever
+programmed in C, you might think you're
+
+502
+00:08:22,309 --> 00:08:22,319
+programmed in C, you might think you're
+ 
+
+503
+00:08:22,319 --> 00:08:23,830
+programmed in C, you might think you're
+some kind of hardcore low-level
+
+504
+00:08:23,830 --> 00:08:23,840
+some kind of hardcore low-level
+ 
+
+505
+00:08:23,840 --> 00:08:25,830
+some kind of hardcore low-level
+engineer. But when you use a function
+
+506
+00:08:25,830 --> 00:08:25,840
+engineer. But when you use a function
+ 
+
+507
+00:08:25,840 --> 00:08:28,550
+engineer. But when you use a function
+like print in your C code, you may not
+
+508
+00:08:28,550 --> 00:08:28,560
+like print in your C code, you may not
+ 
+
+509
+00:08:28,560 --> 00:08:30,550
+like print in your C code, you may not
+realize it's actually making a right
+
+510
+00:08:30,550 --> 00:08:30,560
+realize it's actually making a right
+ 
+
+511
+00:08:30,560 --> 00:08:32,550
+realize it's actually making a right
+system call under the hood. On Linux,
+
+512
+00:08:32,550 --> 00:08:32,560
+system call under the hood. On Linux,
+ 
+
+513
+00:08:32,560 --> 00:08:34,149
+system call under the hood. On Linux,
+there are around 400 different system
+
+514
+00:08:34,149 --> 00:08:34,159
+there are around 400 different system
+ 
+
+515
+00:08:34,159 --> 00:08:35,990
+there are around 400 different system
+calls to make, and these are the actual
+
+516
+00:08:35,990 --> 00:08:36,000
+calls to make, and these are the actual
+ 
+
+517
+00:08:36,000 --> 00:08:38,149
+calls to make, and these are the actual
+API of your computer. Everything else is
+
+518
+00:08:38,149 --> 00:08:38,159
+API of your computer. Everything else is
+ 
+
+519
+00:08:38,159 --> 00:08:40,230
+API of your computer. Everything else is
+just a library built on top. Two of the
+
+520
+00:08:40,230 --> 00:08:40,240
+just a library built on top. Two of the
+ 
+
+521
+00:08:40,240 --> 00:08:42,389
+just a library built on top. Two of the
+most important system calls are fork and
+
+522
+00:08:42,389 --> 00:08:42,399
+most important system calls are fork and
+ 
+
+523
+00:08:42,399 --> 00:08:44,230
+most important system calls are fork and
+exec, which are used to create new
+
+524
+00:08:44,230 --> 00:08:44,240
+exec, which are used to create new
+ 
+
+525
+00:08:44,240 --> 00:08:46,230
+exec, which are used to create new
+processes in the user space. But by the
+
+526
+00:08:46,230 --> 00:08:46,240
+processes in the user space. But by the
+ 
+
+527
+00:08:46,240 --> 00:08:47,670
+processes in the user space. But by the
+time you actually see the desktop,
+
+528
+00:08:47,670 --> 00:08:47,680
+time you actually see the desktop,
+ 
+
+529
+00:08:47,680 --> 00:08:49,509
+time you actually see the desktop,
+you'll have dozens or even hundreds of
+
+530
+00:08:49,509 --> 00:08:49,519
+you'll have dozens or even hundreds of
+ 
+
+531
+00:08:49,519 --> 00:08:51,030
+you'll have dozens or even hundreds of
+running processes. And that's where
+
+532
+00:08:51,030 --> 00:08:51,040
+running processes. And that's where
+ 
+
+533
+00:08:51,040 --> 00:08:53,269
+running processes. And that's where
+stage 8 comes in, the scheduler. But
+
+534
+00:08:53,269 --> 00:08:53,279
+stage 8 comes in, the scheduler. But
+ 
+
+535
+00:08:53,279 --> 00:08:55,030
+stage 8 comes in, the scheduler. But
+wait a minute, your computer only has
+
+536
+00:08:55,030 --> 00:08:55,040
+wait a minute, your computer only has
+ 
+
+537
+00:08:55,040 --> 00:08:57,030
+wait a minute, your computer only has
+eight CPU cores. So, how does it
+
+538
+00:08:57,030 --> 00:08:57,040
+eight CPU cores. So, how does it
+ 
+
+539
+00:08:57,040 --> 00:08:58,870
+eight CPU cores. So, how does it
+actually manage hundreds of processes at
+
+540
+00:08:58,870 --> 00:08:58,880
+actually manage hundreds of processes at
+ 
+
+541
+00:08:58,880 --> 00:09:01,030
+actually manage hundreds of processes at
+the same time? You can think of theuler
+
+542
+00:09:01,030 --> 00:09:01,040
+the same time? You can think of theuler
+ 
+
+543
+00:09:01,040 --> 00:09:02,870
+the same time? You can think of theuler
+like an air traffic controller at a busy
+
+544
+00:09:02,870 --> 00:09:02,880
+like an air traffic controller at a busy
+ 
+
+545
+00:09:02,880 --> 00:09:04,949
+like an air traffic controller at a busy
+airport. all the airplanes or processes
+
+546
+00:09:04,949 --> 00:09:04,959
+airport. all the airplanes or processes
+ 
+
+547
+00:09:04,959 --> 00:09:06,710
+airport. all the airplanes or processes
+and the scheduler decides who gets to
+
+548
+00:09:06,710 --> 00:09:06,720
+and the scheduler decides who gets to
+ 
+
+549
+00:09:06,720 --> 00:09:08,949
+and the scheduler decides who gets to
+land on the runway which is the CPU in
+
+550
+00:09:08,949 --> 00:09:08,959
+land on the runway which is the CPU in
+ 
+
+551
+00:09:08,959 --> 00:09:10,630
+land on the runway which is the CPU in
+this case. Colonel developers have tried
+
+552
+00:09:10,630 --> 00:09:10,640
+this case. Colonel developers have tried
+ 
+
+553
+00:09:10,640 --> 00:09:12,310
+this case. Colonel developers have tried
+many different architectures to deal
+
+554
+00:09:12,310 --> 00:09:12,320
+many different architectures to deal
+ 
+
+555
+00:09:12,320 --> 00:09:14,230
+many different architectures to deal
+with this challenge. But modern Linux
+
+556
+00:09:14,230 --> 00:09:14,240
+with this challenge. But modern Linux
+ 
+
+557
+00:09:14,240 --> 00:09:16,470
+with this challenge. But modern Linux
+now uses a technique called earliest
+
+558
+00:09:16,470 --> 00:09:16,480
+now uses a technique called earliest
+ 
+
+559
+00:09:16,480 --> 00:09:18,710
+now uses a technique called earliest
+eligible virtual deadline first, which
+
+560
+00:09:18,710 --> 00:09:18,720
+eligible virtual deadline first, which
+ 
+
+561
+00:09:18,720 --> 00:09:20,710
+eligible virtual deadline first, which
+sounds like a boss in Elden Ring, but it
+
+562
+00:09:20,710 --> 00:09:20,720
+sounds like a boss in Elden Ring, but it
+ 
+
+563
+00:09:20,720 --> 00:09:22,949
+sounds like a boss in Elden Ring, but it
+uses a variety of rules to ensure that
+
+564
+00:09:22,949 --> 00:09:22,959
+uses a variety of rules to ensure that
+ 
+
+565
+00:09:22,959 --> 00:09:25,269
+uses a variety of rules to ensure that
+every process gets its fair share of CPU
+
+566
+00:09:25,269 --> 00:09:25,279
+every process gets its fair share of CPU
+ 
+
+567
+00:09:25,279 --> 00:09:27,269
+every process gets its fair share of CPU
+time. But then we run into another
+
+568
+00:09:27,269 --> 00:09:27,279
+time. But then we run into another
+ 
+
+569
+00:09:27,279 --> 00:09:29,509
+time. But then we run into another
+problem. is some applications want to do
+
+570
+00:09:29,509 --> 00:09:29,519
+problem. is some applications want to do
+ 
+
+571
+00:09:29,519 --> 00:09:31,190
+problem. is some applications want to do
+multiple things at once without the
+
+572
+00:09:31,190 --> 00:09:31,200
+multiple things at once without the
+ 
+
+573
+00:09:31,200 --> 00:09:33,190
+multiple things at once without the
+overhead of multiple processes. And
+
+574
+00:09:33,190 --> 00:09:33,200
+overhead of multiple processes. And
+ 
+
+575
+00:09:33,200 --> 00:09:35,509
+overhead of multiple processes. And
+that's where stage 9 comes in, threads.
+
+576
+00:09:35,509 --> 00:09:35,519
+that's where stage 9 comes in, threads.
+ 
+
+577
+00:09:35,519 --> 00:09:37,670
+that's where stage 9 comes in, threads.
+A thread shares the same memory and file
+
+578
+00:09:37,670 --> 00:09:37,680
+A thread shares the same memory and file
+ 
+
+579
+00:09:37,680 --> 00:09:39,829
+A thread shares the same memory and file
+descriptors, but a different stack in a
+
+580
+00:09:39,829 --> 00:09:39,839
+descriptors, but a different stack in a
+ 
+
+581
+00:09:39,839 --> 00:09:41,350
+descriptors, but a different stack in a
+different program counter. And now
+
+582
+00:09:41,350 --> 00:09:41,360
+different program counter. And now
+ 
+
+583
+00:09:41,360 --> 00:09:43,190
+different program counter. And now
+suddenly, one program can do two
+
+584
+00:09:43,190 --> 00:09:43,200
+suddenly, one program can do two
+ 
+
+585
+00:09:43,200 --> 00:09:44,790
+suddenly, one program can do two
+different things in parallel. But it's
+
+586
+00:09:44,790 --> 00:09:44,800
+different things in parallel. But it's
+ 
+
+587
+00:09:44,800 --> 00:09:46,550
+different things in parallel. But it's
+also like having a loaded gun pointed at
+
+588
+00:09:46,550 --> 00:09:46,560
+also like having a loaded gun pointed at
+ 
+
+589
+00:09:46,560 --> 00:09:48,630
+also like having a loaded gun pointed at
+your foot. The threads share memory, and
+
+590
+00:09:48,630 --> 00:09:48,640
+your foot. The threads share memory, and
+ 
+
+591
+00:09:48,640 --> 00:09:50,310
+your foot. The threads share memory, and
+writing to the same variable at the same
+
+592
+00:09:50,310 --> 00:09:50,320
+writing to the same variable at the same
+ 
+
+593
+00:09:50,320 --> 00:09:52,630
+writing to the same variable at the same
+time can often produce race conditions.
+
+594
+00:09:52,630 --> 00:09:52,640
+time can often produce race conditions.
+ 
+
+595
+00:09:52,640 --> 00:09:54,310
+time can often produce race conditions.
+Modern programming languages try to
+
+596
+00:09:54,310 --> 00:09:54,320
+Modern programming languages try to
+ 
+
+597
+00:09:54,320 --> 00:09:55,590
+Modern programming languages try to
+prevent you from shooting yourself in
+
+598
+00:09:55,590 --> 00:09:55,600
+prevent you from shooting yourself in
+ 
+
+599
+00:09:55,600 --> 00:09:58,150
+prevent you from shooting yourself in
+the foot like go's go routines or the
+
+600
+00:09:58,150 --> 00:09:58,160
+the foot like go's go routines or the
+ 
+
+601
+00:09:58,160 --> 00:10:00,070
+the foot like go's go routines or the
+Rust borrow checker which refuses to
+
+602
+00:10:00,070 --> 00:10:00,080
+Rust borrow checker which refuses to
+ 
+
+603
+00:10:00,080 --> 00:10:01,910
+Rust borrow checker which refuses to
+compile threaded code that could race.
+
+604
+00:10:01,910 --> 00:10:01,920
+compile threaded code that could race.
+ 
+
+605
+00:10:01,920 --> 00:10:04,070
+compile threaded code that could race.
+The threads are awesome but two entirely
+
+606
+00:10:04,070 --> 00:10:04,080
+The threads are awesome but two entirely
+ 
+
+607
+00:10:04,080 --> 00:10:05,750
+The threads are awesome but two entirely
+different applications can't just share
+
+608
+00:10:05,750 --> 00:10:05,760
+different applications can't just share
+ 
+
+609
+00:10:05,760 --> 00:10:07,590
+different applications can't just share
+memory like that. So what do we do when
+
+610
+00:10:07,590 --> 00:10:07,600
+memory like that. So what do we do when
+ 
+
+611
+00:10:07,600 --> 00:10:08,790
+memory like that. So what do we do when
+they need to communicate with each
+
+612
+00:10:08,790 --> 00:10:08,800
+they need to communicate with each
+ 
+
+613
+00:10:08,800 --> 00:10:11,430
+they need to communicate with each
+other? Well that brings us to stage 10
+
+614
+00:10:11,430 --> 00:10:11,440
+other? Well that brings us to stage 10
+ 
+
+615
+00:10:11,440 --> 00:10:14,230
+other? Well that brings us to stage 10
+IPC interprocess communication. Like
+
+616
+00:10:14,230 --> 00:10:14,240
+IPC interprocess communication. Like
+ 
+
+617
+00:10:14,240 --> 00:10:16,150
+IPC interprocess communication. Like
+imagine I open up a terminal in Linux
+
+618
+00:10:16,150 --> 00:10:16,160
+imagine I open up a terminal in Linux
+ 
+
+619
+00:10:16,160 --> 00:10:18,310
+imagine I open up a terminal in Linux
+and want to read a file with cat. That
+
+620
+00:10:18,310 --> 00:10:18,320
+and want to read a file with cat. That
+ 
+
+621
+00:10:18,320 --> 00:10:20,389
+and want to read a file with cat. That
+provides me with some output. But now I
+
+622
+00:10:20,389 --> 00:10:20,399
+provides me with some output. But now I
+ 
+
+623
+00:10:20,399 --> 00:10:22,230
+provides me with some output. But now I
+want to search for a specific term in
+
+624
+00:10:22,230 --> 00:10:22,240
+want to search for a specific term in
+ 
+
+625
+00:10:22,240 --> 00:10:24,470
+want to search for a specific term in
+that output. The easiest solution is to
+
+626
+00:10:24,470 --> 00:10:24,480
+that output. The easiest solution is to
+ 
+
+627
+00:10:24,480 --> 00:10:27,190
+that output. The easiest solution is to
+use a pipe which was invented in 1973
+
+628
+00:10:27,190 --> 00:10:27,200
+use a pipe which was invented in 1973
+ 
+
+629
+00:10:27,200 --> 00:10:29,430
+use a pipe which was invented in 1973
+and is still undefeated. It allows us to
+
+630
+00:10:29,430 --> 00:10:29,440
+and is still undefeated. It allows us to
+ 
+
+631
+00:10:29,440 --> 00:10:31,829
+and is still undefeated. It allows us to
+combine cat and GP which are two totally
+
+632
+00:10:31,829 --> 00:10:31,839
+combine cat and GP which are two totally
+ 
+
+633
+00:10:31,839 --> 00:10:33,990
+combine cat and GP which are two totally
+separate processes. The operating system
+
+634
+00:10:33,990 --> 00:10:34,000
+separate processes. The operating system
+ 
+
+635
+00:10:34,000 --> 00:10:36,230
+separate processes. The operating system
+creates a pipe so the output from one
+
+636
+00:10:36,230 --> 00:10:36,240
+creates a pipe so the output from one
+ 
+
+637
+00:10:36,240 --> 00:10:38,470
+creates a pipe so the output from one
+becomes the input to another. No shared
+
+638
+00:10:38,470 --> 00:10:38,480
+becomes the input to another. No shared
+ 
+
+639
+00:10:38,480 --> 00:10:40,470
+becomes the input to another. No shared
+memory just a stream of bytes flowing
+
+640
+00:10:40,470 --> 00:10:40,480
+memory just a stream of bytes flowing
+ 
+
+641
+00:10:40,480 --> 00:10:42,389
+memory just a stream of bytes flowing
+between them. Pretty cool. And there are
+
+642
+00:10:42,389 --> 00:10:42,399
+between them. Pretty cool. And there are
+ 
+
+643
+00:10:42,399 --> 00:10:44,949
+between them. Pretty cool. And there are
+other IPC techniques like sockets and
+
+644
+00:10:44,949 --> 00:10:44,959
+other IPC techniques like sockets and
+ 
+
+645
+00:10:44,959 --> 00:10:47,110
+other IPC techniques like sockets and
+message cues. But the main idea is that
+
+646
+00:10:47,110 --> 00:10:47,120
+message cues. But the main idea is that
+ 
+
+647
+00:10:47,120 --> 00:10:49,190
+message cues. But the main idea is that
+it allows two processes to communicate
+
+648
+00:10:49,190 --> 00:10:49,200
+it allows two processes to communicate
+ 
+
+649
+00:10:49,200 --> 00:10:51,269
+it allows two processes to communicate
+safely. Congratulations, you now
+
+650
+00:10:51,269 --> 00:10:51,279
+safely. Congratulations, you now
+ 
+
+651
+00:10:51,279 --> 00:10:52,870
+safely. Congratulations, you now
+understand how your operating system
+
+652
+00:10:52,870 --> 00:10:52,880
+understand how your operating system
+ 
+
+653
+00:10:52,880 --> 00:10:54,870
+understand how your operating system
+works at a low level. But now it's time
+
+654
+00:10:54,870 --> 00:10:54,880
+works at a low level. But now it's time
+ 
+
+655
+00:10:54,880 --> 00:10:56,550
+works at a low level. But now it's time
+to rage quit. Let's find out what
+
+656
+00:10:56,550 --> 00:10:56,560
+to rage quit. Let's find out what
+ 
+
+657
+00:10:56,560 --> 00:10:58,389
+to rage quit. Let's find out what
+happens in stage 10 when we hit the
+
+658
+00:10:58,389 --> 00:10:58,399
+happens in stage 10 when we hit the
+ 
+
+659
+00:10:58,399 --> 00:11:01,190
+happens in stage 10 when we hit the
+shutdown button. P1 sends a signal
+
+660
+00:11:01,190 --> 00:11:01,200
+shutdown button. P1 sends a signal
+ 
+
+661
+00:11:01,200 --> 00:11:03,670
+shutdown button. P1 sends a signal
+called SIG term to every process, which
+
+662
+00:11:03,670 --> 00:11:03,680
+called SIG term to every process, which
+ 
+
+663
+00:11:03,680 --> 00:11:05,670
+called SIG term to every process, which
+is a polite way of asking them to stop
+
+664
+00:11:05,670 --> 00:11:05,680
+is a polite way of asking them to stop
+ 
+
+665
+00:11:05,680 --> 00:11:07,190
+is a polite way of asking them to stop
+what they're doing. A well- behaved
+
+666
+00:11:07,190 --> 00:11:07,200
+what they're doing. A well- behaved
+ 
+
+667
+00:11:07,200 --> 00:11:09,269
+what they're doing. A well- behaved
+process will save their state and quit.
+
+668
+00:11:09,269 --> 00:11:09,279
+process will save their state and quit.
+ 
+
+669
+00:11:09,279 --> 00:11:11,269
+process will save their state and quit.
+But then after a timeout, another signal
+
+670
+00:11:11,269 --> 00:11:11,279
+But then after a timeout, another signal
+ 
+
+671
+00:11:11,279 --> 00:11:13,670
+But then after a timeout, another signal
+gets sent called sig kill. This is game
+
+672
+00:11:13,670 --> 00:11:13,680
+gets sent called sig kill. This is game
+ 
+
+673
+00:11:13,680 --> 00:11:15,590
+gets sent called sig kill. This is game
+over and the file system will flush its
+
+674
+00:11:15,590 --> 00:11:15,600
+over and the file system will flush its
+ 
+
+675
+00:11:15,600 --> 00:11:17,590
+over and the file system will flush its
+journals and unmount. Drivers release
+
+676
+00:11:17,590 --> 00:11:17,600
+journals and unmount. Drivers release
+ 
+
+677
+00:11:17,600 --> 00:11:19,350
+journals and unmount. Drivers release
+their hardware. The colonel syncs memory
+
+678
+00:11:19,350 --> 00:11:19,360
+their hardware. The colonel syncs memory
+ 
+
+679
+00:11:19,360 --> 00:11:21,350
+their hardware. The colonel syncs memory
+to disk. Interrupts are disabled and
+
+680
+00:11:21,350 --> 00:11:21,360
+to disk. Interrupts are disabled and
+ 
+
+681
+00:11:21,360 --> 00:11:23,269
+to disk. Interrupts are disabled and
+finally the CPU comes to a halt. The
+
+682
+00:11:23,269 --> 00:11:23,279
+finally the CPU comes to a halt. The
+ 
+
+683
+00:11:23,279 --> 00:11:25,190
+finally the CPU comes to a halt. The
+firmware cuts power and your screen goes
+
+684
+00:11:25,190 --> 00:11:25,200
+firmware cuts power and your screen goes
+ 
+
+685
+00:11:25,200 --> 00:11:26,949
+firmware cuts power and your screen goes
+black. You're finally free to go outside
+
+686
+00:11:26,949 --> 00:11:26,959
+black. You're finally free to go outside
+ 
+
+687
+00:11:26,959 --> 00:11:28,550
+black. You're finally free to go outside
+and touch some grass. Thanks for
+
+688
+00:11:28,550 --> 00:11:28,560
+and touch some grass. Thanks for
+ 
+
+689
+00:11:28,560 --> 00:11:32,079
+and touch some grass. Thanks for
+watching and I will see you in the next
+

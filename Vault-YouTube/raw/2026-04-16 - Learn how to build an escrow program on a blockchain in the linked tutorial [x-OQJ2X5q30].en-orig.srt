@@ -1,0 +1,175 @@
+1
+00:00:00,280 --> 00:00:01,630
+
+In this section, we're building one of
+
+2
+00:00:01,630 --> 00:00:01,640
+In this section, we're building one of
+ 
+
+3
+00:00:01,640 --> 00:00:03,070
+In this section, we're building one of
+the most fundamental patterns in
+
+4
+00:00:03,070 --> 00:00:03,080
+the most fundamental patterns in
+ 
+
+5
+00:00:03,080 --> 00:00:04,670
+the most fundamental patterns in
+blockchain development, an escrow
+
+6
+00:00:04,670 --> 00:00:04,680
+blockchain development, an escrow
+ 
+
+7
+00:00:04,680 --> 00:00:07,110
+blockchain development, an escrow
+program. Escrows are everywhere in Web3.
+
+8
+00:00:07,110 --> 00:00:07,120
+program. Escrows are everywhere in Web3.
+ 
+
+9
+00:00:07,120 --> 00:00:09,815
+program. Escrows are everywhere in Web3.
+DEXs use escrow logic for token swaps.
+
+10
+00:00:09,815 --> 00:00:09,825
+DEXs use escrow logic for token swaps.
+ 
+
+11
+00:00:09,825 --> 00:00:12,190
+DEXs use escrow logic for token swaps.
+[music] NFT marketplaces use it to hold
+
+12
+00:00:12,190 --> 00:00:12,200
+[music] NFT marketplaces use it to hold
+ 
+
+13
+00:00:12,200 --> 00:00:14,310
+[music] NFT marketplaces use it to hold
+assets until payments clear.
+
+14
+00:00:14,310 --> 00:00:14,320
+assets until payments clear.
+ 
+
+15
+00:00:14,320 --> 00:00:16,750
+assets until payments clear.
+Freelance platforms use it to protect
+
+16
+00:00:16,750 --> 00:00:16,760
+Freelance platforms use it to protect
+ 
+
+17
+00:00:16,760 --> 00:00:19,030
+Freelance platforms use it to protect
+both clients and contractors. Beyond the
+
+18
+00:00:19,030 --> 00:00:19,040
+both clients and contractors. Beyond the
+ 
+
+19
+00:00:19,040 --> 00:00:21,190
+both clients and contractors. Beyond the
+escrow logic, we'll learn how to test
+
+20
+00:00:21,190 --> 00:00:21,200
+escrow logic, we'll learn how to test
+ 
+
+21
+00:00:21,200 --> 00:00:23,630
+escrow logic, we'll learn how to test
+Anchor programs using latest VM, which
+
+22
+00:00:23,630 --> 00:00:23,640
+Anchor programs using latest VM, which
+ 
+
+23
+00:00:23,640 --> 00:00:26,070
+Anchor programs using latest VM, which
+is a fast, lightweight alternative to
+
+24
+00:00:26,070 --> 00:00:26,080
+is a fast, lightweight alternative to
+ 
+
+25
+00:00:26,080 --> 00:00:27,500
+is a fast, lightweight alternative to
+running a local validator.
+
+26
+00:00:27,500 --> 00:00:27,510
+running a local validator.
+ 
+
+27
+00:00:27,510 --> 00:00:27,590
+running a local validator.
+>> [music]
+
+28
+00:00:27,590 --> 00:00:27,600
+>> [music]
+ 
+
+29
+00:00:27,600 --> 00:00:29,270
+>> [music]
+>> By the end, you'll have a reusable
+
+30
+00:00:29,270 --> 00:00:29,280
+>> By the end, you'll have a reusable
+ 
+
+31
+00:00:29,280 --> 00:00:31,350
+>> By the end, you'll have a reusable
+pattern that you can apply to countless
+
+32
+00:00:31,350 --> 00:00:31,360
+pattern that you can apply to countless
+ 
+
+33
+00:00:31,360 --> 00:00:32,749
+pattern that you can apply to countless
+blockchain applications. [music]
+
+34
+00:00:32,749 --> 00:00:32,759
+blockchain applications. [music]
+ 
+
+35
+00:00:32,759 --> 00:00:35,760
+blockchain applications. [music]
+Now, let's get started.
+

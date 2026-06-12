@@ -1,0 +1,1525 @@
+1
+00:00:00,240 --> 00:00:02,310
+
+Last week, Anthropic stood on the global
+
+2
+00:00:02,310 --> 00:00:02,320
+Last week, Anthropic stood on the global
+ 
+
+3
+00:00:02,320 --> 00:00:04,710
+Last week, Anthropic stood on the global
+stage and begged the world's AI labs to
+
+4
+00:00:04,710 --> 00:00:04,720
+stage and begged the world's AI labs to
+ 
+
+5
+00:00:04,720 --> 00:00:06,630
+stage and begged the world's AI labs to
+install a coordinated brake pedal on
+
+6
+00:00:06,630 --> 00:00:06,640
+install a coordinated brake pedal on
+ 
+
+7
+00:00:06,640 --> 00:00:08,710
+install a coordinated brake pedal on
+Frontier AI development because they're
+
+8
+00:00:08,710 --> 00:00:08,720
+Frontier AI development because they're
+ 
+
+9
+00:00:08,720 --> 00:00:10,150
+Frontier AI development because they're
+terrified that models are getting
+
+10
+00:00:10,150 --> 00:00:10,160
+terrified that models are getting
+ 
+
+11
+00:00:10,160 --> 00:00:11,749
+terrified that models are getting
+dangerously close to recursive
+
+12
+00:00:11,749 --> 00:00:11,759
+dangerously close to recursive
+ 
+
+13
+00:00:11,759 --> 00:00:13,669
+dangerously close to recursive
+self-improvement. But this week, they
+
+14
+00:00:13,669 --> 00:00:13,679
+self-improvement. But this week, they
+ 
+
+15
+00:00:13,679 --> 00:00:14,950
+self-improvement. But this week, they
+threw the pause button in the wood
+
+16
+00:00:14,950 --> 00:00:14,960
+threw the pause button in the wood
+ 
+
+17
+00:00:14,960 --> 00:00:16,710
+threw the pause button in the wood
+chipper and slammed the gas pedal
+
+18
+00:00:16,710 --> 00:00:16,720
+chipper and slammed the gas pedal
+ 
+
+19
+00:00:16,720 --> 00:00:18,390
+chipper and slammed the gas pedal
+through the floor by releasing the most
+
+20
+00:00:18,390 --> 00:00:18,400
+through the floor by releasing the most
+ 
+
+21
+00:00:18,400 --> 00:00:20,230
+through the floor by releasing the most
+powerful AI model the world has ever
+
+22
+00:00:20,230 --> 00:00:20,240
+powerful AI model the world has ever
+ 
+
+23
+00:00:20,240 --> 00:00:22,550
+powerful AI model the world has ever
+seen. Its name is Claude Fable, a
+
+24
+00:00:22,550 --> 00:00:22,560
+seen. Its name is Claude Fable, a
+ 
+
+25
+00:00:22,560 --> 00:00:24,630
+seen. Its name is Claude Fable, a
+mythosclass model that's been carefully
+
+26
+00:00:24,630 --> 00:00:24,640
+mythosclass model that's been carefully
+ 
+
+27
+00:00:24,640 --> 00:00:26,790
+mythosclass model that's been carefully
+lobbomized for safe consumption by the
+
+28
+00:00:26,790 --> 00:00:26,800
+lobbomized for safe consumption by the
+ 
+
+29
+00:00:26,800 --> 00:00:29,189
+lobbomized for safe consumption by the
+average NPC. Despite the guardrails,
+
+30
+00:00:29,189 --> 00:00:29,199
+average NPC. Despite the guardrails,
+ 
+
+31
+00:00:29,199 --> 00:00:30,710
+average NPC. Despite the guardrails,
+smart people are calling this their
+
+32
+00:00:30,710 --> 00:00:30,720
+smart people are calling this their
+ 
+
+33
+00:00:30,720 --> 00:00:32,950
+smart people are calling this their
+singularity moment. And Fable absolutely
+
+34
+00:00:32,950 --> 00:00:32,960
+singularity moment. And Fable absolutely
+ 
+
+35
+00:00:32,960 --> 00:00:35,990
+singularity moment. And Fable absolutely
+embarrasses GPT 5.5 on the Trust Me Bro
+
+36
+00:00:35,990 --> 00:00:36,000
+embarrasses GPT 5.5 on the Trust Me Bro
+ 
+
+37
+00:00:36,000 --> 00:00:37,910
+embarrasses GPT 5.5 on the Trust Me Bro
+coding benchmarks. Right now feels like
+
+38
+00:00:37,910 --> 00:00:37,920
+coding benchmarks. Right now feels like
+ 
+
+39
+00:00:37,920 --> 00:00:40,790
+coding benchmarks. Right now feels like
+2003 when Google was overtaking Yahoo as
+
+40
+00:00:40,790 --> 00:00:40,800
+2003 when Google was overtaking Yahoo as
+ 
+
+41
+00:00:40,800 --> 00:00:42,229
+2003 when Google was overtaking Yahoo as
+the dominant search engine. And
+
+42
+00:00:42,229 --> 00:00:42,239
+the dominant search engine. And
+ 
+
+43
+00:00:42,239 --> 00:00:44,389
+the dominant search engine. And
+coincidentally, Google's Gemini is like
+
+44
+00:00:44,389 --> 00:00:44,399
+coincidentally, Google's Gemini is like
+ 
+
+45
+00:00:44,399 --> 00:00:46,389
+coincidentally, Google's Gemini is like
+Ulta Vista in this analogy. We're living
+
+46
+00:00:46,389 --> 00:00:46,399
+Ulta Vista in this analogy. We're living
+ 
+
+47
+00:00:46,399 --> 00:00:47,830
+Ulta Vista in this analogy. We're living
+through another iteration of the hype
+
+48
+00:00:47,830 --> 00:00:47,840
+through another iteration of the hype
+ 
+
+49
+00:00:47,840 --> 00:00:50,389
+through another iteration of the hype
+cycle. But is Fable actually legit? Or
+
+50
+00:00:50,389 --> 00:00:50,399
+cycle. But is Fable actually legit? Or
+ 
+
+51
+00:00:50,399 --> 00:00:52,150
+cycle. But is Fable actually legit? Or
+is it just a move to pump up the numbers
+
+52
+00:00:52,150 --> 00:00:52,160
+is it just a move to pump up the numbers
+ 
+
+53
+00:00:52,160 --> 00:00:53,990
+is it just a move to pump up the numbers
+before Anthropic goes public? I've been
+
+54
+00:00:53,990 --> 00:00:54,000
+before Anthropic goes public? I've been
+ 
+
+55
+00:00:54,000 --> 00:00:55,510
+before Anthropic goes public? I've been
+poking it with a stick for the last few
+
+56
+00:00:55,510 --> 00:00:55,520
+poking it with a stick for the last few
+ 
+
+57
+00:00:55,520 --> 00:00:57,430
+poking it with a stick for the last few
+hours and in today's video, we'll find
+
+58
+00:00:57,430 --> 00:00:57,440
+hours and in today's video, we'll find
+ 
+
+59
+00:00:57,440 --> 00:00:59,430
+hours and in today's video, we'll find
+out if Fable is the real deal. It is
+
+60
+00:00:59,430 --> 00:00:59,440
+out if Fable is the real deal. It is
+ 
+
+61
+00:00:59,440 --> 00:01:01,990
+out if Fable is the real deal. It is
+June 11th, 2026, and you're watching the
+
+62
+00:01:01,990 --> 00:01:02,000
+June 11th, 2026, and you're watching the
+ 
+
+63
+00:01:02,000 --> 00:01:04,310
+June 11th, 2026, and you're watching the
+Code Report. This week is historic. On
+
+64
+00:01:04,310 --> 00:01:04,320
+Code Report. This week is historic. On
+ 
+
+65
+00:01:04,320 --> 00:01:06,630
+Code Report. This week is historic. On
+Friday, SpaceX will go public and a new
+
+66
+00:01:06,630 --> 00:01:06,640
+Friday, SpaceX will go public and a new
+ 
+
+67
+00:01:06,640 --> 00:01:08,630
+Friday, SpaceX will go public and a new
+world order will emerge. Fang is long
+
+68
+00:01:08,630 --> 00:01:08,640
+world order will emerge. Fang is long
+ 
+
+69
+00:01:08,640 --> 00:01:10,710
+world order will emerge. Fang is long
+gone. Gay Man is dead, and we're about
+
+70
+00:01:10,710 --> 00:01:10,720
+gone. Gay Man is dead, and we're about
+ 
+
+71
+00:01:10,720 --> 00:01:13,190
+gone. Gay Man is dead, and we're about
+to enter the age of gay manos, which is
+
+72
+00:01:13,190 --> 00:01:13,200
+to enter the age of gay manos, which is
+ 
+
+73
+00:01:13,200 --> 00:01:15,670
+to enter the age of gay manos, which is
+Mexican for gay hands. But Anthropic is
+
+74
+00:01:15,670 --> 00:01:15,680
+Mexican for gay hands. But Anthropic is
+ 
+
+75
+00:01:15,680 --> 00:01:17,190
+Mexican for gay hands. But Anthropic is
+the most interesting company with the
+
+76
+00:01:17,190 --> 00:01:17,200
+the most interesting company with the
+ 
+
+77
+00:01:17,200 --> 00:01:19,190
+the most interesting company with the
+most interesting logo in this list. And
+
+78
+00:01:19,190 --> 00:01:19,200
+most interesting logo in this list. And
+ 
+
+79
+00:01:19,200 --> 00:01:20,550
+most interesting logo in this list. And
+it's interesting that they named one
+
+80
+00:01:20,550 --> 00:01:20,560
+it's interesting that they named one
+ 
+
+81
+00:01:20,560 --> 00:01:22,950
+it's interesting that they named one
+model mythos as in myth and another
+
+82
+00:01:22,950 --> 00:01:22,960
+model mythos as in myth and another
+ 
+
+83
+00:01:22,960 --> 00:01:25,190
+model mythos as in myth and another
+fable which implies that it's not real.
+
+84
+00:01:25,190 --> 00:01:25,200
+fable which implies that it's not real.
+ 
+
+85
+00:01:25,200 --> 00:01:28,630
+fable which implies that it's not real.
+>> I don't give two but I am telling you
+
+86
+00:01:28,630 --> 00:01:28,640
+>> I don't give two but I am telling you
+ 
+
+87
+00:01:28,640 --> 00:01:32,469
+>> I don't give two but I am telling you
+right now that mother that motheruck
+
+88
+00:01:32,469 --> 00:01:32,479
+right now that mother that motheruck
+ 
+
+89
+00:01:32,479 --> 00:01:33,990
+right now that mother that motheruck
+back there is not real.
+
+90
+00:01:33,990 --> 00:01:34,000
+back there is not real.
+ 
+
+91
+00:01:34,000 --> 00:01:35,190
+back there is not real.
+>> It's almost like they're trolling us
+
+92
+00:01:35,190 --> 00:01:35,200
+>> It's almost like they're trolling us
+ 
+
+93
+00:01:35,200 --> 00:01:37,429
+>> It's almost like they're trolling us
+with these names like that time Neil A
+
+94
+00:01:37,429 --> 00:01:37,439
+with these names like that time Neil A
+ 
+
+95
+00:01:37,439 --> 00:01:39,429
+with these names like that time Neil A
+went to the moon or when Sam Bankman got
+
+96
+00:01:39,429 --> 00:01:39,439
+went to the moon or when Sam Bankman got
+ 
+
+97
+00:01:39,439 --> 00:01:41,350
+went to the moon or when Sam Bankman got
+fried or when Anthony Weiner showed
+
+98
+00:01:41,350 --> 00:01:41,360
+fried or when Anthony Weiner showed
+ 
+
+99
+00:01:41,360 --> 00:01:43,270
+fried or when Anthony Weiner showed
+people his we don't need to go there but
+
+100
+00:01:43,270 --> 00:01:43,280
+people his we don't need to go there but
+ 
+
+101
+00:01:43,280 --> 00:01:44,870
+people his we don't need to go there but
+you get the point. Oh, and a quick side
+
+102
+00:01:44,870 --> 00:01:44,880
+you get the point. Oh, and a quick side
+ 
+
+103
+00:01:44,880 --> 00:01:46,870
+you get the point. Oh, and a quick side
+note. As Sam Bankman Freed was an early
+
+104
+00:01:46,870 --> 00:01:46,880
+note. As Sam Bankman Freed was an early
+ 
+
+105
+00:01:46,880 --> 00:01:49,350
+note. As Sam Bankman Freed was an early
+investor in Anthropic and owned an 8%
+
+106
+00:01:49,350 --> 00:01:49,360
+investor in Anthropic and owned an 8%
+ 
+
+107
+00:01:49,360 --> 00:01:50,950
+investor in Anthropic and owned an 8%
+stake at one point. Had he given up on
+
+108
+00:01:50,950 --> 00:01:50,960
+stake at one point. Had he given up on
+ 
+
+109
+00:01:50,960 --> 00:01:52,710
+stake at one point. Had he given up on
+the crypto grifting and just sat on that
+
+110
+00:01:52,710 --> 00:01:52,720
+the crypto grifting and just sat on that
+ 
+
+111
+00:01:52,720 --> 00:01:54,230
+the crypto grifting and just sat on that
+investment, he'd be one of the richest
+
+112
+00:01:54,230 --> 00:01:54,240
+investment, he'd be one of the richest
+ 
+
+113
+00:01:54,240 --> 00:01:55,670
+investment, he'd be one of the richest
+people alive right now and not in
+
+114
+00:01:55,670 --> 00:01:55,680
+people alive right now and not in
+ 
+
+115
+00:01:55,680 --> 00:01:57,910
+people alive right now and not in
+prison. Hindsight is 2020, but how does
+
+116
+00:01:57,910 --> 00:01:57,920
+prison. Hindsight is 2020, but how does
+ 
+
+117
+00:01:57,920 --> 00:02:00,069
+prison. Hindsight is 2020, but how does
+Claude Fable differ from Claude Opus
+
+118
+00:02:00,069 --> 00:02:00,079
+Claude Fable differ from Claude Opus
+ 
+
+119
+00:02:00,079 --> 00:02:02,149
+Claude Fable differ from Claude Opus
+4.8, which was just released a few weeks
+
+120
+00:02:02,149 --> 00:02:02,159
+4.8, which was just released a few weeks
+ 
+
+121
+00:02:02,159 --> 00:02:03,910
+4.8, which was just released a few weeks
+ago itself? Well, first of all, it's
+
+122
+00:02:03,910 --> 00:02:03,920
+ago itself? Well, first of all, it's
+ 
+
+123
+00:02:03,920 --> 00:02:06,389
+ago itself? Well, first of all, it's
+twice as expensive at $50 million per
+
+124
+00:02:06,389 --> 00:02:06,399
+twice as expensive at $50 million per
+ 
+
+125
+00:02:06,399 --> 00:02:08,550
+twice as expensive at $50 million per
+output token or no, $50 per million
+
+126
+00:02:08,550 --> 00:02:08,560
+output token or no, $50 per million
+ 
+
+127
+00:02:08,560 --> 00:02:11,589
+output token or no, $50 per million
+output tokens versus $25 for Opus. But
+
+128
+00:02:11,589 --> 00:02:11,599
+output tokens versus $25 for Opus. But
+ 
+
+129
+00:02:11,599 --> 00:02:13,270
+output tokens versus $25 for Opus. But
+another caveat is that if you have a
+
+130
+00:02:13,270 --> 00:02:13,280
+another caveat is that if you have a
+ 
+
+131
+00:02:13,280 --> 00:02:15,350
+another caveat is that if you have a
+paid claw plan right now, you can use
+
+132
+00:02:15,350 --> 00:02:15,360
+paid claw plan right now, you can use
+ 
+
+133
+00:02:15,360 --> 00:02:17,830
+paid claw plan right now, you can use
+Fable until June 22nd, after which point
+
+134
+00:02:17,830 --> 00:02:17,840
+Fable until June 22nd, after which point
+ 
+
+135
+00:02:17,840 --> 00:02:19,750
+Fable until June 22nd, after which point
+it will be removed and can only be used
+
+136
+00:02:19,750 --> 00:02:19,760
+it will be removed and can only be used
+ 
+
+137
+00:02:19,760 --> 00:02:22,070
+it will be removed and can only be used
+on a per token basis. That's a genius
+
+138
+00:02:22,070 --> 00:02:22,080
+on a per token basis. That's a genius
+ 
+
+139
+00:02:22,080 --> 00:02:23,670
+on a per token basis. That's a genius
+marketing move to get people FOMO
+
+140
+00:02:23,670 --> 00:02:23,680
+marketing move to get people FOMO
+ 
+
+141
+00:02:23,680 --> 00:02:25,430
+marketing move to get people FOMO
+subscribed to Claude. But is it really
+
+142
+00:02:25,430 --> 00:02:25,440
+subscribed to Claude. But is it really
+ 
+
+143
+00:02:25,440 --> 00:02:27,589
+subscribed to Claude. But is it really
+that much better than Opus? Well, Fable
+
+144
+00:02:27,589 --> 00:02:27,599
+that much better than Opus? Well, Fable
+ 
+
+145
+00:02:27,599 --> 00:02:29,910
+that much better than Opus? Well, Fable
+5 is literally the same underlying model
+
+146
+00:02:29,910 --> 00:02:29,920
+5 is literally the same underlying model
+ 
+
+147
+00:02:29,920 --> 00:02:32,150
+5 is literally the same underlying model
+as Mythos 5. The only difference is the
+
+148
+00:02:32,150 --> 00:02:32,160
+as Mythos 5. The only difference is the
+ 
+
+149
+00:02:32,160 --> 00:02:33,990
+as Mythos 5. The only difference is the
+muzzle. It has a set of classifier
+
+150
+00:02:33,990 --> 00:02:34,000
+muzzle. It has a set of classifier
+ 
+
+151
+00:02:34,000 --> 00:02:35,670
+muzzle. It has a set of classifier
+models that will watch every query you
+
+152
+00:02:35,670 --> 00:02:35,680
+models that will watch every query you
+ 
+
+153
+00:02:35,680 --> 00:02:37,589
+models that will watch every query you
+make. And if you wander into cyber
+
+154
+00:02:37,589 --> 00:02:37,599
+make. And if you wander into cyber
+ 
+
+155
+00:02:37,599 --> 00:02:40,309
+make. And if you wander into cyber
+security, biology, chemistry, or of
+
+156
+00:02:40,309 --> 00:02:40,319
+security, biology, chemistry, or of
+ 
+
+157
+00:02:40,319 --> 00:02:42,550
+security, biology, chemistry, or of
+course, model distillation, your request
+
+158
+00:02:42,550 --> 00:02:42,560
+course, model distillation, your request
+ 
+
+159
+00:02:42,560 --> 00:02:44,630
+course, model distillation, your request
+gets nuked and answered by Claude Opus
+
+160
+00:02:44,630 --> 00:02:44,640
+gets nuked and answered by Claude Opus
+ 
+
+161
+00:02:44,640 --> 00:02:46,949
+gets nuked and answered by Claude Opus
+4.8 instead. And that means Chinese
+
+162
+00:02:46,949 --> 00:02:46,959
+4.8 instead. And that means Chinese
+ 
+
+163
+00:02:46,959 --> 00:02:49,110
+4.8 instead. And that means Chinese
+models like Deep Seek and Kimmy won't be
+
+164
+00:02:49,110 --> 00:02:49,120
+models like Deep Seek and Kimmy won't be
+ 
+
+165
+00:02:49,120 --> 00:02:50,869
+models like Deep Seek and Kimmy won't be
+able to give us a free and open-source
+
+166
+00:02:50,869 --> 00:02:50,879
+able to give us a free and open-source
+ 
+
+167
+00:02:50,879 --> 00:02:53,110
+able to give us a free and open-source
+Fableclass model anytime soon. Now,
+
+168
+00:02:53,110 --> 00:02:53,120
+Fableclass model anytime soon. Now,
+ 
+
+169
+00:02:53,120 --> 00:02:54,949
+Fableclass model anytime soon. Now,
+among software engineers, the initial
+
+170
+00:02:54,949 --> 00:02:54,959
+among software engineers, the initial
+ 
+
+171
+00:02:54,959 --> 00:02:56,790
+among software engineers, the initial
+reviews are very positive, but one of
+
+172
+00:02:56,790 --> 00:02:56,800
+reviews are very positive, but one of
+ 
+
+173
+00:02:56,800 --> 00:02:58,470
+reviews are very positive, but one of
+the strongest endorsements I've seen
+
+174
+00:02:58,470 --> 00:02:58,480
+the strongest endorsements I've seen
+ 
+
+175
+00:02:58,480 --> 00:03:00,390
+the strongest endorsements I've seen
+comes from the guy who created Bend, a
+
+176
+00:03:00,390 --> 00:03:00,400
+comes from the guy who created Bend, a
+ 
+
+177
+00:03:00,400 --> 00:03:02,470
+comes from the guy who created Bend, a
+programming language for GPUs. He called
+
+178
+00:03:02,470 --> 00:03:02,480
+programming language for GPUs. He called
+ 
+
+179
+00:03:02,480 --> 00:03:04,309
+programming language for GPUs. He called
+this his personal singularity moment
+
+180
+00:03:04,309 --> 00:03:04,319
+this his personal singularity moment
+ 
+
+181
+00:03:04,319 --> 00:03:06,229
+this his personal singularity moment
+after Fable ripped through his code and
+
+182
+00:03:06,229 --> 00:03:06,239
+after Fable ripped through his code and
+ 
+
+183
+00:03:06,239 --> 00:03:07,670
+after Fable ripped through his code and
+implemented massive performance
+
+184
+00:03:07,670 --> 00:03:07,680
+implemented massive performance
+ 
+
+185
+00:03:07,680 --> 00:03:09,110
+implemented massive performance
+improvements. There are many other
+
+186
+00:03:09,110 --> 00:03:09,120
+improvements. There are many other
+ 
+
+187
+00:03:09,120 --> 00:03:11,190
+improvements. There are many other
+stories like this, but I was skeptical,
+
+188
+00:03:11,190 --> 00:03:11,200
+stories like this, but I was skeptical,
+ 
+
+189
+00:03:11,200 --> 00:03:12,790
+stories like this, but I was skeptical,
+so I tried it out for myself. I was
+
+190
+00:03:12,790 --> 00:03:12,800
+so I tried it out for myself. I was
+ 
+
+191
+00:03:12,800 --> 00:03:14,949
+so I tried it out for myself. I was
+recently rejected by Y Combinator trying
+
+192
+00:03:14,949 --> 00:03:14,959
+recently rejected by Y Combinator trying
+ 
+
+193
+00:03:14,959 --> 00:03:17,190
+recently rejected by Y Combinator trying
+to get funding for my app, Horse Tinder.
+
+194
+00:03:17,190 --> 00:03:17,200
+to get funding for my app, Horse Tinder.
+ 
+
+195
+00:03:17,200 --> 00:03:18,869
+to get funding for my app, Horse Tinder.
+They said the idea was brilliant, but
+
+196
+00:03:18,869 --> 00:03:18,879
+They said the idea was brilliant, but
+ 
+
+197
+00:03:18,879 --> 00:03:20,949
+They said the idea was brilliant, but
+the UI would never work because horses
+
+198
+00:03:20,949 --> 00:03:20,959
+the UI would never work because horses
+ 
+
+199
+00:03:20,959 --> 00:03:22,630
+the UI would never work because horses
+don't have fingers. Well, let's find out
+
+200
+00:03:22,630 --> 00:03:22,640
+don't have fingers. Well, let's find out
+ 
+
+201
+00:03:22,640 --> 00:03:24,710
+don't have fingers. Well, let's find out
+if Fable can create a better UI than a
+
+202
+00:03:24,710 --> 00:03:24,720
+if Fable can create a better UI than a
+ 
+
+203
+00:03:24,720 --> 00:03:26,309
+if Fable can create a better UI than a
+human with 20 years of web development
+
+204
+00:03:26,309 --> 00:03:26,319
+human with 20 years of web development
+ 
+
+205
+00:03:26,319 --> 00:03:28,550
+human with 20 years of web development
+experience. I put Fable on max effort
+
+206
+00:03:28,550 --> 00:03:28,560
+experience. I put Fable on max effort
+ 
+
+207
+00:03:28,560 --> 00:03:30,550
+experience. I put Fable on max effort
+mode and told it to come up with a UI
+
+208
+00:03:30,550 --> 00:03:30,560
+mode and told it to come up with a UI
+ 
+
+209
+00:03:30,560 --> 00:03:32,070
+mode and told it to come up with a UI
+that looks like it was created by an
+
+210
+00:03:32,070 --> 00:03:32,080
+that looks like it was created by an
+ 
+
+211
+00:03:32,080 --> 00:03:33,910
+that looks like it was created by an
+elite designer. After about 20 minutes
+
+212
+00:03:33,910 --> 00:03:33,920
+elite designer. After about 20 minutes
+ 
+
+213
+00:03:33,920 --> 00:03:35,910
+elite designer. After about 20 minutes
+of working, I was shocked by the result.
+
+214
+00:03:35,910 --> 00:03:35,920
+of working, I was shocked by the result.
+ 
+
+215
+00:03:35,920 --> 00:03:37,830
+of working, I was shocked by the result.
+I got a pop-up window demanding I pay
+
+216
+00:03:37,830 --> 00:03:37,840
+I got a pop-up window demanding I pay
+ 
+
+217
+00:03:37,840 --> 00:03:39,830
+I got a pop-up window demanding I pay
+more money for Fable to finish the job.
+
+218
+00:03:39,830 --> 00:03:39,840
+more money for Fable to finish the job.
+ 
+
+219
+00:03:39,840 --> 00:03:41,430
+more money for Fable to finish the job.
+I felt like I was getting scammed by a
+
+220
+00:03:41,430 --> 00:03:41,440
+I felt like I was getting scammed by a
+ 
+
+221
+00:03:41,440 --> 00:03:43,270
+I felt like I was getting scammed by a
+developer on Elance, but luckily we
+
+222
+00:03:43,270 --> 00:03:43,280
+developer on Elance, but luckily we
+ 
+
+223
+00:03:43,280 --> 00:03:45,030
+developer on Elance, but luckily we
+could see some of its work in progress.
+
+224
+00:03:45,030 --> 00:03:45,040
+could see some of its work in progress.
+ 
+
+225
+00:03:45,040 --> 00:03:47,350
+could see some of its work in progress.
+It created this absolutely gorgeous UI.
+
+226
+00:03:47,350 --> 00:03:47,360
+It created this absolutely gorgeous UI.
+ 
+
+227
+00:03:47,360 --> 00:03:48,949
+It created this absolutely gorgeous UI.
+And one of the most impressive things is
+
+228
+00:03:48,949 --> 00:03:48,959
+And one of the most impressive things is
+ 
+
+229
+00:03:48,959 --> 00:03:51,350
+And one of the most impressive things is
+that the SVG horse actually looks like a
+
+230
+00:03:51,350 --> 00:03:51,360
+that the SVG horse actually looks like a
+ 
+
+231
+00:03:51,360 --> 00:03:53,110
+that the SVG horse actually looks like a
+horse and not just a bunch of random
+
+232
+00:03:53,110 --> 00:03:53,120
+horse and not just a bunch of random
+ 
+
+233
+00:03:53,120 --> 00:03:55,190
+horse and not just a bunch of random
+shapes. AI typically has a hard time
+
+234
+00:03:55,190 --> 00:03:55,200
+shapes. AI typically has a hard time
+ 
+
+235
+00:03:55,200 --> 00:03:57,429
+shapes. AI typically has a hard time
+generating vector graphics, but all the
+
+236
+00:03:57,429 --> 00:03:57,439
+generating vector graphics, but all the
+ 
+
+237
+00:03:57,439 --> 00:03:59,270
+generating vector graphics, but all the
+icons in this UI look great, and it even
+
+238
+00:03:59,270 --> 00:03:59,280
+icons in this UI look great, and it even
+ 
+
+239
+00:03:59,280 --> 00:04:01,110
+icons in this UI look great, and it even
+nailed the Tinder style drag animation
+
+240
+00:04:01,110 --> 00:04:01,120
+nailed the Tinder style drag animation
+ 
+
+241
+00:04:01,120 --> 00:04:03,110
+nailed the Tinder style drag animation
+when swiping left or right. It also has
+
+242
+00:04:03,110 --> 00:04:03,120
+when swiping left or right. It also has
+ 
+
+243
+00:04:03,120 --> 00:04:05,190
+when swiping left or right. It also has
+some nice creative touches like yay or
+
+244
+00:04:05,190 --> 00:04:05,200
+some nice creative touches like yay or
+ 
+
+245
+00:04:05,200 --> 00:04:07,110
+some nice creative touches like yay or
+nay, and even put the word strictly
+
+246
+00:04:07,110 --> 00:04:07,120
+nay, and even put the word strictly
+ 
+
+247
+00:04:07,120 --> 00:04:08,949
+nay, and even put the word strictly
+confidential at the bottom to make this
+
+248
+00:04:08,949 --> 00:04:08,959
+confidential at the bottom to make this
+ 
+
+249
+00:04:08,959 --> 00:04:10,869
+confidential at the bottom to make this
+app seem special to investors. I'm
+
+250
+00:04:10,869 --> 00:04:10,879
+app seem special to investors. I'm
+ 
+
+251
+00:04:10,879 --> 00:04:13,429
+app seem special to investors. I'm
+highly confident this will make YC 2027,
+
+252
+00:04:13,429 --> 00:04:13,439
+highly confident this will make YC 2027,
+ 
+
+253
+00:04:13,439 --> 00:04:15,030
+highly confident this will make YC 2027,
+especially when combined with Render,
+
+254
+00:04:15,030 --> 00:04:15,040
+especially when combined with Render,
+ 
+
+255
+00:04:15,040 --> 00:04:16,949
+especially when combined with Render,
+the sponsor of today's video. It's a
+
+256
+00:04:16,949 --> 00:04:16,959
+the sponsor of today's video. It's a
+ 
+
+257
+00:04:16,959 --> 00:04:19,110
+the sponsor of today's video. It's a
+cloud platform for developers that lets
+
+258
+00:04:19,110 --> 00:04:19,120
+cloud platform for developers that lets
+ 
+
+259
+00:04:19,120 --> 00:04:20,870
+cloud platform for developers that lets
+you ship production-grade apps and
+
+260
+00:04:20,870 --> 00:04:20,880
+you ship production-grade apps and
+ 
+
+261
+00:04:20,880 --> 00:04:23,270
+you ship production-grade apps and
+agents without managing infrastructure.
+
+262
+00:04:23,270 --> 00:04:23,280
+agents without managing infrastructure.
+ 
+
+263
+00:04:23,280 --> 00:04:24,870
+agents without managing infrastructure.
+That's because it runs your whole stack
+
+264
+00:04:24,870 --> 00:04:24,880
+That's because it runs your whole stack
+ 
+
+265
+00:04:24,880 --> 00:04:27,189
+That's because it runs your whole stack
+in one place with your web services,
+
+266
+00:04:27,189 --> 00:04:27,199
+in one place with your web services,
+ 
+
+267
+00:04:27,199 --> 00:04:29,830
+in one place with your web services,
+Postgress, cron jobs, and workers all
+
+268
+00:04:29,830 --> 00:04:29,840
+Postgress, cron jobs, and workers all
+ 
+
+269
+00:04:29,840 --> 00:04:31,909
+Postgress, cron jobs, and workers all
+wired together by default. So you only
+
+270
+00:04:31,909 --> 00:04:31,919
+wired together by default. So you only
+ 
+
+271
+00:04:31,919 --> 00:04:33,830
+wired together by default. So you only
+need to worry about one dashboard and
+
+272
+00:04:33,830 --> 00:04:33,840
+need to worry about one dashboard and
+ 
+
+273
+00:04:33,840 --> 00:04:35,990
+need to worry about one dashboard and
+one mental model. You start by just
+
+274
+00:04:35,990 --> 00:04:36,000
+one mental model. You start by just
+ 
+
+275
+00:04:36,000 --> 00:04:38,070
+one mental model. You start by just
+connecting a repo and pushing your code.
+
+276
+00:04:38,070 --> 00:04:38,080
+connecting a repo and pushing your code.
+ 
+
+277
+00:04:38,080 --> 00:04:39,830
+connecting a repo and pushing your code.
+Then render will build and deploy
+
+278
+00:04:39,830 --> 00:04:39,840
+Then render will build and deploy
+ 
+
+279
+00:04:39,840 --> 00:04:42,070
+Then render will build and deploy
+automatically. It autoscales with you up
+
+280
+00:04:42,070 --> 00:04:42,080
+automatically. It autoscales with you up
+ 
+
+281
+00:04:42,080 --> 00:04:43,670
+automatically. It autoscales with you up
+to millions of users with a full
+
+282
+00:04:43,670 --> 00:04:43,680
+to millions of users with a full
+ 
+
+283
+00:04:43,680 --> 00:04:45,749
+to millions of users with a full
+observability stack built in. And if
+
+284
+00:04:45,749 --> 00:04:45,759
+observability stack built in. And if
+ 
+
+285
+00:04:45,759 --> 00:04:47,430
+observability stack built in. And if
+you're building an AI app, Render
+
+286
+00:04:47,430 --> 00:04:47,440
+you're building an AI app, Render
+ 
+
+287
+00:04:47,440 --> 00:04:49,670
+you're building an AI app, Render
+Workflows gives you an execution engine
+
+288
+00:04:49,670 --> 00:04:49,680
+Workflows gives you an execution engine
+ 
+
+289
+00:04:49,680 --> 00:04:51,510
+Workflows gives you an execution engine
+that will automatically retry when
+
+290
+00:04:51,510 --> 00:04:51,520
+that will automatically retry when
+ 
+
+291
+00:04:51,520 --> 00:04:53,430
+that will automatically retry when
+something fails, so your agents don't
+
+292
+00:04:53,430 --> 00:04:53,440
+something fails, so your agents don't
+ 
+
+293
+00:04:53,440 --> 00:04:55,430
+something fails, so your agents don't
+crash and burn on a long-running task.
+
+294
+00:04:55,430 --> 00:04:55,440
+crash and burn on a long-running task.
+ 
+
+295
+00:04:55,440 --> 00:04:57,430
+crash and burn on a long-running task.
+Over 6 million developers use Render
+
+296
+00:04:57,430 --> 00:04:57,440
+Over 6 million developers use Render
+ 
+
+297
+00:04:57,440 --> 00:04:59,590
+Over 6 million developers use Render
+today, and the first 2,000 people to
+
+298
+00:04:59,590 --> 00:04:59,600
+today, and the first 2,000 people to
+ 
+
+299
+00:04:59,600 --> 00:05:01,990
+today, and the first 2,000 people to
+enter this promo code will get $50 in
+
+300
+00:05:01,990 --> 00:05:02,000
+enter this promo code will get $50 in
+ 
+
+301
+00:05:02,000 --> 00:05:03,510
+enter this promo code will get $50 in
+free credits. This has been the Code
+
+302
+00:05:03,510 --> 00:05:03,520
+free credits. This has been the Code
+ 
+
+303
+00:05:03,520 --> 00:05:05,430
+free credits. This has been the Code
+Report. Thanks for watching, and I will
+
+304
+00:05:05,430 --> 00:05:05,440
+Report. Thanks for watching, and I will
+ 
+
+305
+00:05:05,440 --> 00:05:09,160
+Report. Thanks for watching, and I will
+see you in the next one.
+

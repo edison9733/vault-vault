@@ -1,0 +1,1855 @@
+1
+00:00:00,000 --> 00:00:02,110
+
+Just a few days ago, the worst nightmare
+
+2
+00:00:02,110 --> 00:00:02,120
+Just a few days ago, the worst nightmare
+ 
+
+3
+00:00:02,120 --> 00:00:03,990
+Just a few days ago, the worst nightmare
+of every open-source maintainer finally
+
+4
+00:00:03,990 --> 00:00:04,000
+of every open-source maintainer finally
+ 
+
+5
+00:00:04,000 --> 00:00:05,910
+of every open-source maintainer finally
+came true. No, they weren't forced to
+
+6
+00:00:05,910 --> 00:00:05,920
+came true. No, they weren't forced to
+ 
+
+7
+00:00:05,920 --> 00:00:07,630
+came true. No, they weren't forced to
+socialize with the opposite sex.
+
+8
+00:00:07,630 --> 00:00:07,640
+socialize with the opposite sex.
+ 
+
+9
+00:00:07,640 --> 00:00:09,750
+socialize with the opposite sex.
+Instead, in just 6 minutes, which I've
+
+10
+00:00:09,750 --> 00:00:09,760
+Instead, in just 6 minutes, which I've
+ 
+
+11
+00:00:09,760 --> 00:00:11,550
+Instead, in just 6 minutes, which I've
+been arguing for years is actually quite
+
+12
+00:00:11,550 --> 00:00:11,560
+been arguing for years is actually quite
+ 
+
+13
+00:00:11,560 --> 00:00:13,990
+been arguing for years is actually quite
+a long time, over 100 packages that
+
+14
+00:00:13,990 --> 00:00:14,000
+a long time, over 100 packages that
+ 
+
+15
+00:00:14,000 --> 00:00:15,790
+a long time, over 100 packages that
+collectively get downloaded more than 50
+
+16
+00:00:15,790 --> 00:00:15,800
+collectively get downloaded more than 50
+ 
+
+17
+00:00:15,800 --> 00:00:17,910
+collectively get downloaded more than 50
+million times a week were compromised in
+
+18
+00:00:17,910 --> 00:00:17,920
+million times a week were compromised in
+ 
+
+19
+00:00:17,920 --> 00:00:19,710
+million times a week were compromised in
+a supply chain attack where no one was
+
+20
+00:00:19,710 --> 00:00:19,720
+a supply chain attack where no one was
+ 
+
+21
+00:00:19,720 --> 00:00:21,950
+a supply chain attack where no one was
+fished, no passwords were leaked, and no
+
+22
+00:00:21,950 --> 00:00:21,960
+fished, no passwords were leaked, and no
+ 
+
+23
+00:00:21,960 --> 00:00:23,830
+fished, no passwords were leaked, and no
+tokens were stolen. And to make it even
+
+24
+00:00:23,830 --> 00:00:23,840
+tokens were stolen. And to make it even
+ 
+
+25
+00:00:23,840 --> 00:00:25,790
+tokens were stolen. And to make it even
+worse, the poisoned packages were
+
+26
+00:00:25,790 --> 00:00:25,800
+worse, the poisoned packages were
+ 
+
+27
+00:00:25,800 --> 00:00:27,990
+worse, the poisoned packages were
+signed, verified, and shipped through
+
+28
+00:00:27,990 --> 00:00:28,000
+signed, verified, and shipped through
+ 
+
+29
+00:00:28,000 --> 00:00:30,510
+signed, verified, and shipped through
+NPM's trusted publishing feature, which
+
+30
+00:00:30,510 --> 00:00:30,520
+NPM's trusted publishing feature, which
+ 
+
+31
+00:00:30,520 --> 00:00:32,269
+NPM's trusted publishing feature, which
+was built primarily to prevent these
+
+32
+00:00:32,269 --> 00:00:32,279
+was built primarily to prevent these
+ 
+
+33
+00:00:32,279 --> 00:00:33,710
+was built primarily to prevent these
+kinds of attacks and has been the
+
+34
+00:00:33,710 --> 00:00:33,720
+kinds of attacks and has been the
+ 
+
+35
+00:00:33,720 --> 00:00:35,630
+kinds of attacks and has been the
+recommended publishing setup for almost
+
+36
+00:00:35,630 --> 00:00:35,640
+recommended publishing setup for almost
+ 
+
+37
+00:00:35,640 --> 00:00:37,590
+recommended publishing setup for almost
+2 years now. In today's video, we'll
+
+38
+00:00:37,590 --> 00:00:37,600
+2 years now. In today's video, we'll
+ 
+
+39
+00:00:37,600 --> 00:00:39,310
+2 years now. In today's video, we'll
+break down the clever trick that let an
+
+40
+00:00:39,310 --> 00:00:39,320
+break down the clever trick that let an
+ 
+
+41
+00:00:39,320 --> 00:00:41,590
+break down the clever trick that let an
+attacker hijack the release pipeline of
+
+42
+00:00:41,590 --> 00:00:41,600
+attacker hijack the release pipeline of
+ 
+
+43
+00:00:41,600 --> 00:00:43,390
+attacker hijack the release pipeline of
+one of the biggest projects in the React
+
+44
+00:00:43,390 --> 00:00:43,400
+one of the biggest projects in the React
+ 
+
+45
+00:00:43,400 --> 00:00:45,350
+one of the biggest projects in the React
+ecosystem. We'll see how the malware
+
+46
+00:00:45,350 --> 00:00:45,360
+ecosystem. We'll see how the malware
+ 
+
+47
+00:00:45,360 --> 00:00:46,910
+ecosystem. We'll see how the malware
+then spread to hundreds of other
+
+48
+00:00:46,910 --> 00:00:46,920
+then spread to hundreds of other
+ 
+
+49
+00:00:46,920 --> 00:00:48,910
+then spread to hundreds of other
+packages and learn about the dead man's
+
+50
+00:00:48,910 --> 00:00:48,920
+packages and learn about the dead man's
+ 
+
+51
+00:00:48,920 --> 00:00:51,030
+packages and learn about the dead man's
+switch, which is now on every infected
+
+52
+00:00:51,030 --> 00:00:51,040
+switch, which is now on every infected
+ 
+
+53
+00:00:51,040 --> 00:00:52,830
+switch, which is now on every infected
+machine that will nuke your home folder
+
+54
+00:00:52,830 --> 00:00:52,840
+machine that will nuke your home folder
+ 
+
+55
+00:00:52,840 --> 00:00:54,350
+machine that will nuke your home folder
+the second you try to clean it up.
+
+56
+00:00:54,350 --> 00:00:54,360
+the second you try to clean it up.
+ 
+
+57
+00:00:54,360 --> 00:00:56,470
+the second you try to clean it up.
+Heaven help us all. It is May 14th,
+
+58
+00:00:56,470 --> 00:00:56,480
+Heaven help us all. It is May 14th,
+ 
+
+59
+00:00:56,480 --> 00:00:58,590
+Heaven help us all. It is May 14th,
+2026, and you're watching The Code
+
+60
+00:00:58,590 --> 00:00:58,600
+2026, and you're watching The Code
+ 
+
+61
+00:00:58,600 --> 00:01:00,470
+2026, and you're watching The Code
+Report. Life has been extra exciting
+
+62
+00:01:00,470 --> 00:01:00,480
+Report. Life has been extra exciting
+ 
+
+63
+00:01:00,480 --> 00:01:02,430
+Report. Life has been extra exciting
+lately because every time I wake up, I
+
+64
+00:01:02,430 --> 00:01:02,440
+lately because every time I wake up, I
+ 
+
+65
+00:01:02,440 --> 00:01:03,990
+lately because every time I wake up, I
+wonder which one is going to destroy my
+
+66
+00:01:03,990 --> 00:01:04,000
+wonder which one is going to destroy my
+ 
+
+67
+00:01:04,000 --> 00:01:06,550
+wonder which one is going to destroy my
+life first, the rodent poop cruise virus
+
+68
+00:01:06,550 --> 00:01:06,560
+life first, the rodent poop cruise virus
+ 
+
+69
+00:01:06,560 --> 00:01:08,550
+life first, the rodent poop cruise virus
+or the mini shai hulud virus.
+
+70
+00:01:08,550 --> 00:01:08,560
+or the mini shai hulud virus.
+ 
+
+71
+00:01:08,560 --> 00:01:10,670
+or the mini shai hulud virus.
+Thankfully, I'm no poop expert, so I'll
+
+72
+00:01:10,670 --> 00:01:10,680
+Thankfully, I'm no poop expert, so I'll
+ 
+
+73
+00:01:10,680 --> 00:01:12,510
+Thankfully, I'm no poop expert, so I'll
+stick with breaking down how the shai
+
+74
+00:01:12,510 --> 00:01:12,520
+stick with breaking down how the shai
+ 
+
+75
+00:01:12,520 --> 00:01:13,950
+stick with breaking down how the shai
+hulud prairie dog bit his little head
+
+76
+00:01:13,950 --> 00:01:13,960
+hulud prairie dog bit his little head
+ 
+
+77
+00:01:13,960 --> 00:01:16,150
+hulud prairie dog bit his little head
+again in a fairly sophisticated attack
+
+78
+00:01:16,150 --> 00:01:16,160
+again in a fairly sophisticated attack
+ 
+
+79
+00:01:16,160 --> 00:01:17,750
+again in a fairly sophisticated attack
+that no one saw coming, and it all
+
+80
+00:01:17,750 --> 00:01:17,760
+that no one saw coming, and it all
+ 
+
+81
+00:01:17,760 --> 00:01:19,590
+that no one saw coming, and it all
+started with how TanStack's release
+
+82
+00:01:19,590 --> 00:01:19,600
+started with how TanStack's release
+ 
+
+83
+00:01:19,600 --> 00:01:21,430
+started with how TanStack's release
+process works. Whenever a new pull
+
+84
+00:01:21,430 --> 00:01:21,440
+process works. Whenever a new pull
+ 
+
+85
+00:01:21,440 --> 00:01:23,590
+process works. Whenever a new pull
+request is merged, a GitHub Actions
+
+86
+00:01:23,590 --> 00:01:23,600
+request is merged, a GitHub Actions
+ 
+
+87
+00:01:23,600 --> 00:01:25,390
+request is merged, a GitHub Actions
+workflow kicks off, which handles
+
+88
+00:01:25,390 --> 00:01:25,400
+workflow kicks off, which handles
+ 
+
+89
+00:01:25,400 --> 00:01:27,310
+workflow kicks off, which handles
+publishing the new version to the NPM
+
+90
+00:01:27,310 --> 00:01:27,320
+publishing the new version to the NPM
+ 
+
+91
+00:01:27,320 --> 00:01:29,990
+publishing the new version to the NPM
+registry. But to do that, the continuous
+
+92
+00:01:29,990 --> 00:01:30,000
+registry. But to do that, the continuous
+ 
+
+93
+00:01:30,000 --> 00:01:31,470
+registry. But to do that, the continuous
+integration server needs to get a
+
+94
+00:01:31,470 --> 00:01:31,480
+integration server needs to get a
+ 
+
+95
+00:01:31,480 --> 00:01:34,110
+integration server needs to get a
+publish token from NPM first. To prove
+
+96
+00:01:34,110 --> 00:01:34,120
+publish token from NPM first. To prove
+ 
+
+97
+00:01:34,120 --> 00:01:36,230
+publish token from NPM first. To prove
+the request is legit, GitHub itself
+
+98
+00:01:36,230 --> 00:01:36,240
+the request is legit, GitHub itself
+ 
+
+99
+00:01:36,240 --> 00:01:38,110
+the request is legit, GitHub itself
+signs a statement saying which workflow
+
+100
+00:01:38,110 --> 00:01:38,120
+signs a statement saying which workflow
+ 
+
+101
+00:01:38,120 --> 00:01:40,310
+signs a statement saying which workflow
+is running, in which repo, and on which
+
+102
+00:01:40,310 --> 00:01:40,320
+is running, in which repo, and on which
+ 
+
+103
+00:01:40,320 --> 00:01:42,390
+is running, in which repo, and on which
+branch. NPM then checks that signed
+
+104
+00:01:42,390 --> 00:01:42,400
+branch. NPM then checks that signed
+ 
+
+105
+00:01:42,400 --> 00:01:44,550
+branch. NPM then checks that signed
+statement against the org's allow list
+
+106
+00:01:44,550 --> 00:01:44,560
+statement against the org's allow list
+ 
+
+107
+00:01:44,560 --> 00:01:46,110
+statement against the org's allow list
+and only hands over a token if
+
+108
+00:01:46,110 --> 00:01:46,120
+and only hands over a token if
+ 
+
+109
+00:01:46,120 --> 00:01:48,070
+and only hands over a token if
+everything matches. The token then lives
+
+110
+00:01:48,070 --> 00:01:48,080
+everything matches. The token then lives
+ 
+
+111
+00:01:48,080 --> 00:01:50,270
+everything matches. The token then lives
+for a few minutes in the CI's cache and
+
+112
+00:01:50,270 --> 00:01:50,280
+for a few minutes in the CI's cache and
+ 
+
+113
+00:01:50,280 --> 00:01:51,990
+for a few minutes in the CI's cache and
+then quickly becomes stale, so there's
+
+114
+00:01:51,990 --> 00:01:52,000
+then quickly becomes stale, so there's
+ 
+
+115
+00:01:52,000 --> 00:01:53,750
+then quickly becomes stale, so there's
+nothing for traditional fishing attacks
+
+116
+00:01:53,750 --> 00:01:53,760
+nothing for traditional fishing attacks
+ 
+
+117
+00:01:53,760 --> 00:01:55,950
+nothing for traditional fishing attacks
+to steal. It sounds bulletproof, but the
+
+118
+00:01:55,950 --> 00:01:55,960
+to steal. It sounds bulletproof, but the
+ 
+
+119
+00:01:55,960 --> 00:01:57,910
+to steal. It sounds bulletproof, but the
+problem is that the mini Shai Hulud
+
+120
+00:01:57,910 --> 00:01:57,920
+problem is that the mini Shai Hulud
+ 
+
+121
+00:01:57,920 --> 00:01:59,870
+problem is that the mini Shai Hulud
+attack wasn't traditional. Here's how it
+
+122
+00:01:59,870 --> 00:01:59,880
+attack wasn't traditional. Here's how it
+ 
+
+123
+00:01:59,880 --> 00:02:02,070
+attack wasn't traditional. Here's how it
+worked. The attacker forked the TanStack
+
+124
+00:02:02,070 --> 00:02:02,080
+worked. The attacker forked the TanStack
+ 
+
+125
+00:02:02,080 --> 00:02:04,350
+worked. The attacker forked the TanStack
+repo, created a pull request, and then
+
+126
+00:02:04,350 --> 00:02:04,360
+repo, created a pull request, and then
+ 
+
+127
+00:02:04,360 --> 00:02:05,910
+repo, created a pull request, and then
+immediately closed it. Even though it
+
+128
+00:02:05,910 --> 00:02:05,920
+immediately closed it. Even though it
+ 
+
+129
+00:02:05,920 --> 00:02:07,710
+immediately closed it. Even though it
+was just a fork, and the pull request
+
+130
+00:02:07,710 --> 00:02:07,720
+was just a fork, and the pull request
+ 
+
+131
+00:02:07,720 --> 00:02:09,389
+was just a fork, and the pull request
+was never seen by anyone, it just
+
+132
+00:02:09,389 --> 00:02:09,399
+was never seen by anyone, it just
+ 
+
+133
+00:02:09,399 --> 00:02:11,350
+was never seen by anyone, it just
+creating the PR was enough to kick off
+
+134
+00:02:11,350 --> 00:02:11,360
+creating the PR was enough to kick off
+ 
+
+135
+00:02:11,360 --> 00:02:13,070
+creating the PR was enough to kick off
+the publishing workflow. And this is
+
+136
+00:02:13,070 --> 00:02:13,080
+the publishing workflow. And this is
+ 
+
+137
+00:02:13,080 --> 00:02:14,710
+the publishing workflow. And this is
+where the TanStack team went wrong,
+
+138
+00:02:14,710 --> 00:02:14,720
+where the TanStack team went wrong,
+ 
+
+139
+00:02:14,720 --> 00:02:16,070
+where the TanStack team went wrong,
+because when they configured the trigger
+
+140
+00:02:16,070 --> 00:02:16,080
+because when they configured the trigger
+ 
+
+141
+00:02:16,080 --> 00:02:18,150
+because when they configured the trigger
+for the workflow, they used the pull
+
+142
+00:02:18,150 --> 00:02:18,160
+for the workflow, they used the pull
+ 
+
+143
+00:02:18,160 --> 00:02:20,270
+for the workflow, they used the pull
+request target option, which meant that
+
+144
+00:02:20,270 --> 00:02:20,280
+request target option, which meant that
+ 
+
+145
+00:02:20,280 --> 00:02:22,230
+request target option, which meant that
+any pull request that came in would run
+
+146
+00:02:22,230 --> 00:02:22,240
+any pull request that came in would run
+ 
+
+147
+00:02:22,240 --> 00:02:24,350
+any pull request that came in would run
+in the context of the main repository
+
+148
+00:02:24,350 --> 00:02:24,360
+in the context of the main repository
+ 
+
+149
+00:02:24,360 --> 00:02:25,830
+in the context of the main repository
+along with the main repository's
+
+150
+00:02:25,830 --> 00:02:25,840
+along with the main repository's
+ 
+
+151
+00:02:25,840 --> 00:02:28,070
+along with the main repository's
+permissions, even if the PR was created
+
+152
+00:02:28,070 --> 00:02:28,080
+permissions, even if the PR was created
+ 
+
+153
+00:02:28,080 --> 00:02:29,949
+permissions, even if the PR was created
+from a fork. And those permissions were
+
+154
+00:02:29,949 --> 00:02:29,959
+from a fork. And those permissions were
+ 
+
+155
+00:02:29,959 --> 00:02:31,830
+from a fork. And those permissions were
+enough to allow the attacker's code to
+
+156
+00:02:31,830 --> 00:02:31,840
+enough to allow the attacker's code to
+ 
+
+157
+00:02:31,840 --> 00:02:33,790
+enough to allow the attacker's code to
+write a poisoned file into the shared
+
+158
+00:02:33,790 --> 00:02:33,800
+write a poisoned file into the shared
+ 
+
+159
+00:02:33,800 --> 00:02:35,990
+write a poisoned file into the shared
+cache of the CI server, which is used by
+
+160
+00:02:35,990 --> 00:02:36,000
+cache of the CI server, which is used by
+ 
+
+161
+00:02:36,000 --> 00:02:38,350
+cache of the CI server, which is used by
+GitHub Actions to reuse dependencies
+
+162
+00:02:38,350 --> 00:02:38,360
+GitHub Actions to reuse dependencies
+ 
+
+163
+00:02:38,360 --> 00:02:40,630
+GitHub Actions to reuse dependencies
+between jobs. A few hours later, an
+
+164
+00:02:40,630 --> 00:02:40,640
+between jobs. A few hours later, an
+ 
+
+165
+00:02:40,640 --> 00:02:42,630
+between jobs. A few hours later, an
+unrelated pull request was merged into
+
+166
+00:02:42,630 --> 00:02:42,640
+unrelated pull request was merged into
+ 
+
+167
+00:02:42,640 --> 00:02:44,230
+unrelated pull request was merged into
+main, and the poisoned file was
+
+168
+00:02:44,230 --> 00:02:44,240
+main, and the poisoned file was
+ 
+
+169
+00:02:44,240 --> 00:02:46,470
+main, and the poisoned file was
+triggered, which grabbed the NPM publish
+
+170
+00:02:46,470 --> 00:02:46,480
+triggered, which grabbed the NPM publish
+ 
+
+171
+00:02:46,480 --> 00:02:48,790
+triggered, which grabbed the NPM publish
+token from the cache and used it to take
+
+172
+00:02:48,790 --> 00:02:48,800
+token from the cache and used it to take
+ 
+
+173
+00:02:48,800 --> 00:02:51,350
+token from the cache and used it to take
+a massive Shai Hulud dump on the 84
+
+174
+00:02:51,350 --> 00:02:51,360
+a massive Shai Hulud dump on the 84
+ 
+
+175
+00:02:51,360 --> 00:02:53,870
+a massive Shai Hulud dump on the 84
+brand new compromised TanStack packages.
+
+176
+00:02:53,870 --> 00:02:53,880
+brand new compromised TanStack packages.
+ 
+
+177
+00:02:53,880 --> 00:02:55,590
+brand new compromised TanStack packages.
+From there, if you were lucky enough to
+
+178
+00:02:55,590 --> 00:02:55,600
+From there, if you were lucky enough to
+ 
+
+179
+00:02:55,600 --> 00:02:57,670
+From there, if you were lucky enough to
+NPM install one of those packages, the
+
+180
+00:02:57,670 --> 00:02:57,680
+NPM install one of those packages, the
+ 
+
+181
+00:02:57,680 --> 00:03:00,070
+NPM install one of those packages, the
+malware ran and scanned your system for
+
+182
+00:03:00,070 --> 00:03:00,080
+malware ran and scanned your system for
+ 
+
+183
+00:03:00,080 --> 00:03:01,430
+malware ran and scanned your system for
+anything valuable it could get its
+
+184
+00:03:01,430 --> 00:03:01,440
+anything valuable it could get its
+ 
+
+185
+00:03:01,440 --> 00:03:03,390
+anything valuable it could get its
+grubby little set tay on. And if it
+
+186
+00:03:03,390 --> 00:03:03,400
+grubby little set tay on. And if it
+ 
+
+187
+00:03:03,400 --> 00:03:05,830
+grubby little set tay on. And if it
+found any NPM publishing tokens, it used
+
+188
+00:03:05,830 --> 00:03:05,840
+found any NPM publishing tokens, it used
+ 
+
+189
+00:03:05,840 --> 00:03:07,990
+found any NPM publishing tokens, it used
+those to publish new poisoned versions
+
+190
+00:03:07,990 --> 00:03:08,000
+those to publish new poisoned versions
+ 
+
+191
+00:03:08,000 --> 00:03:09,710
+those to publish new poisoned versions
+with the same hack, which is how a
+
+192
+00:03:09,710 --> 00:03:09,720
+with the same hack, which is how a
+ 
+
+193
+00:03:09,720 --> 00:03:11,790
+with the same hack, which is how a
+TanStack problem became an everybody
+
+194
+00:03:11,790 --> 00:03:11,800
+TanStack problem became an everybody
+ 
+
+195
+00:03:11,800 --> 00:03:13,870
+TanStack problem became an everybody
+problem. The first wave of victims
+
+196
+00:03:13,870 --> 00:03:13,880
+problem. The first wave of victims
+ 
+
+197
+00:03:13,880 --> 00:03:16,229
+problem. The first wave of victims
+included maintainers at Mistral AI,
+
+198
+00:03:16,229 --> 00:03:16,239
+included maintainers at Mistral AI,
+ 
+
+199
+00:03:16,239 --> 00:03:19,350
+included maintainers at Mistral AI,
+UiPath, Open Search, Guardrails AI, and
+
+200
+00:03:19,350 --> 00:03:19,360
+UiPath, Open Search, Guardrails AI, and
+ 
+
+201
+00:03:19,360 --> 00:03:21,270
+UiPath, Open Search, Guardrails AI, and
+Squawk. Within hours, those companies
+
+202
+00:03:21,270 --> 00:03:21,280
+Squawk. Within hours, those companies
+ 
+
+203
+00:03:21,280 --> 00:03:23,509
+Squawk. Within hours, those companies
+pushed compromised packages onto the NPM
+
+204
+00:03:23,509 --> 00:03:23,519
+pushed compromised packages onto the NPM
+ 
+
+205
+00:03:23,519 --> 00:03:25,070
+pushed compromised packages onto the NPM
+registry as well. And through their
+
+206
+00:03:25,070 --> 00:03:25,080
+registry as well. And through their
+ 
+
+207
+00:03:25,080 --> 00:03:27,509
+registry as well. And through their
+Python SDKs, the worm jumped the shark
+
+208
+00:03:27,509 --> 00:03:27,519
+Python SDKs, the worm jumped the shark
+ 
+
+209
+00:03:27,519 --> 00:03:29,870
+Python SDKs, the worm jumped the shark
+over to PyPI. By the next morning,
+
+210
+00:03:29,870 --> 00:03:29,880
+over to PyPI. By the next morning,
+ 
+
+211
+00:03:29,880 --> 00:03:33,030
+over to PyPI. By the next morning,
+security firm Akamai was tracking 373
+
+212
+00:03:33,030 --> 00:03:33,040
+security firm Akamai was tracking 373
+ 
+
+213
+00:03:33,040 --> 00:03:36,270
+security firm Akamai was tracking 373
+poisoned versions across 169 packages,
+
+214
+00:03:36,270 --> 00:03:36,280
+poisoned versions across 169 packages,
+ 
+
+215
+00:03:36,280 --> 00:03:38,110
+poisoned versions across 169 packages,
+and the worm was getting even smarter.
+
+216
+00:03:38,110 --> 00:03:38,120
+and the worm was getting even smarter.
+ 
+
+217
+00:03:38,120 --> 00:03:40,229
+and the worm was getting even smarter.
+It started forging commits signed by the
+
+218
+00:03:40,229 --> 00:03:40,239
+It started forging commits signed by the
+ 
+
+219
+00:03:40,239 --> 00:03:42,390
+It started forging commits signed by the
+Claude Code GitHub app, so its malicious
+
+220
+00:03:42,390 --> 00:03:42,400
+Claude Code GitHub app, so its malicious
+ 
+
+221
+00:03:42,400 --> 00:03:43,910
+Claude Code GitHub app, so its malicious
+activity blended in with the
+
+222
+00:03:43,910 --> 00:03:43,920
+activity blended in with the
+ 
+
+223
+00:03:43,920 --> 00:03:45,790
+activity blended in with the
+AI-generated commits maintainers were
+
+224
+00:03:45,790 --> 00:03:45,800
+AI-generated commits maintainers were
+ 
+
+225
+00:03:45,800 --> 00:03:47,630
+AI-generated commits maintainers were
+already used to seeing. And on infected
+
+226
+00:03:47,630 --> 00:03:47,640
+already used to seeing. And on infected
+ 
+
+227
+00:03:47,640 --> 00:03:49,670
+already used to seeing. And on infected
+machines, it embedded itself directly
+
+228
+00:03:49,670 --> 00:03:49,680
+machines, it embedded itself directly
+ 
+
+229
+00:03:49,680 --> 00:03:52,070
+machines, it embedded itself directly
+into Claude Code in VS Code, so even
+
+230
+00:03:52,070 --> 00:03:52,080
+into Claude Code in VS Code, so even
+ 
+
+231
+00:03:52,080 --> 00:03:53,710
+into Claude Code in VS Code, so even
+after a developer uninstalled the bad
+
+232
+00:03:53,710 --> 00:03:53,720
+after a developer uninstalled the bad
+ 
+
+233
+00:03:53,720 --> 00:03:55,990
+after a developer uninstalled the bad
+packages, the worm would just re-execute
+
+234
+00:03:55,990 --> 00:03:56,000
+packages, the worm would just re-execute
+ 
+
+235
+00:03:56,000 --> 00:03:57,590
+packages, the worm would just re-execute
+itself the next time they open their
+
+236
+00:03:57,590 --> 00:03:57,600
+itself the next time they open their
+ 
+
+237
+00:03:57,600 --> 00:03:59,310
+itself the next time they open their
+editor. And my favorite part, if you
+
+238
+00:03:59,310 --> 00:03:59,320
+editor. And my favorite part, if you
+ 
+
+239
+00:03:59,320 --> 00:04:01,150
+editor. And my favorite part, if you
+were infected, the malware also
+
+240
+00:04:01,150 --> 00:04:01,160
+were infected, the malware also
+ 
+
+241
+00:04:01,160 --> 00:04:02,990
+were infected, the malware also
+installed a background process that
+
+242
+00:04:02,990 --> 00:04:03,000
+installed a background process that
+ 
+
+243
+00:04:03,000 --> 00:04:05,070
+installed a background process that
+would quietly check every 60 seconds
+
+244
+00:04:05,070 --> 00:04:05,080
+would quietly check every 60 seconds
+ 
+
+245
+00:04:05,080 --> 00:04:06,630
+would quietly check every 60 seconds
+whether your stolen GitHub token was
+
+246
+00:04:06,630 --> 00:04:06,640
+whether your stolen GitHub token was
+ 
+
+247
+00:04:06,640 --> 00:04:08,350
+whether your stolen GitHub token was
+still valid. The moment your token
+
+248
+00:04:08,350 --> 00:04:08,360
+still valid. The moment your token
+ 
+
+249
+00:04:08,360 --> 00:04:10,870
+still valid. The moment your token
+expires, it activates war crime mode and
+
+250
+00:04:10,870 --> 00:04:10,880
+expires, it activates war crime mode and
+ 
+
+251
+00:04:10,880 --> 00:04:12,830
+expires, it activates war crime mode and
+nukes your root directory. So, how do we
+
+252
+00:04:12,830 --> 00:04:12,840
+nukes your root directory. So, how do we
+ 
+
+253
+00:04:12,840 --> 00:04:14,310
+nukes your root directory. So, how do we
+prevent this in the future? Well, the
+
+254
+00:04:14,310 --> 00:04:14,320
+prevent this in the future? Well, the
+ 
+
+255
+00:04:14,320 --> 00:04:16,349
+prevent this in the future? Well, the
+reality is that we probably don't, but
+
+256
+00:04:16,349 --> 00:04:16,359
+reality is that we probably don't, but
+ 
+
+257
+00:04:16,359 --> 00:04:17,949
+reality is that we probably don't, but
+there are some things you can do on your
+
+258
+00:04:17,949 --> 00:04:17,959
+there are some things you can do on your
+ 
+
+259
+00:04:17,959 --> 00:04:20,030
+there are some things you can do on your
+end to help your odds. The best would be
+
+260
+00:04:20,030 --> 00:04:20,040
+end to help your odds. The best would be
+ 
+
+261
+00:04:20,040 --> 00:04:22,350
+end to help your odds. The best would be
+to use pnpm 11 or higher, which comes
+
+262
+00:04:22,350 --> 00:04:22,360
+to use pnpm 11 or higher, which comes
+ 
+
+263
+00:04:22,360 --> 00:04:24,310
+to use pnpm 11 or higher, which comes
+with two features turned on by default
+
+264
+00:04:24,310 --> 00:04:24,320
+with two features turned on by default
+ 
+
+265
+00:04:24,320 --> 00:04:25,909
+with two features turned on by default
+that would have stopped this exact worm
+
+266
+00:04:25,909 --> 00:04:25,919
+that would have stopped this exact worm
+ 
+
+267
+00:04:25,919 --> 00:04:27,750
+that would have stopped this exact worm
+from reaching most of you. The first is
+
+268
+00:04:27,750 --> 00:04:27,760
+from reaching most of you. The first is
+ 
+
+269
+00:04:27,760 --> 00:04:30,110
+from reaching most of you. The first is
+minimum release age. It tells pnpm to
+
+270
+00:04:30,110 --> 00:04:30,120
+minimum release age. It tells pnpm to
+ 
+
+271
+00:04:30,120 --> 00:04:32,070
+minimum release age. It tells pnpm to
+refuse any packages published less than
+
+272
+00:04:32,070 --> 00:04:32,080
+refuse any packages published less than
+ 
+
+273
+00:04:32,080 --> 00:04:34,510
+refuse any packages published less than
+24 hours ago, which is long past when
+
+274
+00:04:34,510 --> 00:04:34,520
+24 hours ago, which is long past when
+ 
+
+275
+00:04:34,520 --> 00:04:36,790
+24 hours ago, which is long past when
+most malicious packages are detected and
+
+276
+00:04:36,790 --> 00:04:36,800
+most malicious packages are detected and
+ 
+
+277
+00:04:36,800 --> 00:04:39,030
+most malicious packages are detected and
+pulled from the registry. The second is
+
+278
+00:04:39,030 --> 00:04:39,040
+pulled from the registry. The second is
+ 
+
+279
+00:04:39,040 --> 00:04:41,350
+pulled from the registry. The second is
+block exotic subdependencies. Normally,
+
+280
+00:04:41,350 --> 00:04:41,360
+block exotic subdependencies. Normally,
+ 
+
+281
+00:04:41,360 --> 00:04:42,870
+block exotic subdependencies. Normally,
+every transitive dependency in your
+
+282
+00:04:42,870 --> 00:04:42,880
+every transitive dependency in your
+ 
+
+283
+00:04:42,880 --> 00:04:45,510
+every transitive dependency in your
+project comes from the npm registry, but
+
+284
+00:04:45,510 --> 00:04:45,520
+project comes from the npm registry, but
+ 
+
+285
+00:04:45,520 --> 00:04:47,190
+project comes from the npm registry, but
+there's nothing stopping a package from
+
+286
+00:04:47,190 --> 00:04:47,200
+there's nothing stopping a package from
+ 
+
+287
+00:04:47,200 --> 00:04:49,070
+there's nothing stopping a package from
+listing a dependency that points at a
+
+288
+00:04:49,070 --> 00:04:49,080
+listing a dependency that points at a
+ 
+
+289
+00:04:49,080 --> 00:04:51,950
+listing a dependency that points at a
+random Git repo or a tarball URL on some
+
+290
+00:04:51,950 --> 00:04:51,960
+random Git repo or a tarball URL on some
+ 
+
+291
+00:04:51,960 --> 00:04:54,070
+random Git repo or a tarball URL on some
+attacker's S3 bucket. Block exotic
+
+292
+00:04:54,070 --> 00:04:54,080
+attacker's S3 bucket. Block exotic
+ 
+
+293
+00:04:54,080 --> 00:04:56,350
+attacker's S3 bucket. Block exotic
+subdeps refuses to install anything that
+
+294
+00:04:56,350 --> 00:04:56,360
+subdeps refuses to install anything that
+ 
+
+295
+00:04:56,360 --> 00:04:58,230
+subdeps refuses to install anything that
+doesn't come through a proper registry,
+
+296
+00:04:58,230 --> 00:04:58,240
+doesn't come through a proper registry,
+ 
+
+297
+00:04:58,240 --> 00:04:59,870
+doesn't come through a proper registry,
+which closes one of the most elegant
+
+298
+00:04:59,870 --> 00:04:59,880
+which closes one of the most elegant
+ 
+
+299
+00:04:59,880 --> 00:05:02,230
+which closes one of the most elegant
+ways for malware to smuggle itself in.
+
+300
+00:05:02,230 --> 00:05:02,240
+ways for malware to smuggle itself in.
+ 
+
+301
+00:05:02,240 --> 00:05:04,110
+ways for malware to smuggle itself in.
+And the third pnpm feature we're using
+
+302
+00:05:04,110 --> 00:05:04,120
+And the third pnpm feature we're using
+ 
+
+303
+00:05:04,120 --> 00:05:06,550
+And the third pnpm feature we're using
+is approved builds. Most npm malware
+
+304
+00:05:06,550 --> 00:05:06,560
+is approved builds. Most npm malware
+ 
+
+305
+00:05:06,560 --> 00:05:08,470
+is approved builds. Most npm malware
+does its damage through install scripts
+
+306
+00:05:08,470 --> 00:05:08,480
+does its damage through install scripts
+ 
+
+307
+00:05:08,480 --> 00:05:10,590
+does its damage through install scripts
+that run automatically when you type npm
+
+308
+00:05:10,590 --> 00:05:10,600
+that run automatically when you type npm
+ 
+
+309
+00:05:10,600 --> 00:05:13,430
+that run automatically when you type npm
+install. pnpm 11 blocks all of them by
+
+310
+00:05:13,430 --> 00:05:13,440
+install. pnpm 11 blocks all of them by
+ 
+
+311
+00:05:13,440 --> 00:05:15,230
+install. pnpm 11 blocks all of them by
+default and lets you walk through your
+
+312
+00:05:15,230 --> 00:05:15,240
+default and lets you walk through your
+ 
+
+313
+00:05:15,240 --> 00:05:16,790
+default and lets you walk through your
+dependencies and whitelist a few
+
+314
+00:05:16,790 --> 00:05:16,800
+dependencies and whitelist a few
+ 
+
+315
+00:05:16,800 --> 00:05:18,550
+dependencies and whitelist a few
+packages you actually want to let run
+
+316
+00:05:18,550 --> 00:05:18,560
+packages you actually want to let run
+ 
+
+317
+00:05:18,560 --> 00:05:21,230
+packages you actually want to let run
+code. But even when you use pnpm, things
+
+318
+00:05:21,230 --> 00:05:21,240
+code. But even when you use pnpm, things
+ 
+
+319
+00:05:21,240 --> 00:05:22,909
+code. But even when you use pnpm, things
+can still break in production, and
+
+320
+00:05:22,909 --> 00:05:22,919
+can still break in production, and
+ 
+
+321
+00:05:22,919 --> 00:05:24,590
+can still break in production, and
+that's where Sentry, today's sponsor,
+
+322
+00:05:24,590 --> 00:05:24,600
+that's where Sentry, today's sponsor,
+ 
+
+323
+00:05:24,600 --> 00:05:26,190
+that's where Sentry, today's sponsor,
+can help you out. They just shipped
+
+324
+00:05:26,190 --> 00:05:26,200
+can help you out. They just shipped
+ 
+
+325
+00:05:26,200 --> 00:05:27,950
+can help you out. They just shipped
+Sentry agent, an AI agent that
+
+326
+00:05:27,950 --> 00:05:27,960
+Sentry agent, an AI agent that
+ 
+
+327
+00:05:27,960 --> 00:05:29,870
+Sentry agent, an AI agent that
+investigates your production issues for
+
+328
+00:05:29,870 --> 00:05:29,880
+investigates your production issues for
+ 
+
+329
+00:05:29,880 --> 00:05:31,430
+investigates your production issues for
+you. So, the next time you get a jump
+
+330
+00:05:31,430 --> 00:05:31,440
+you. So, the next time you get a jump
+ 
+
+331
+00:05:31,440 --> 00:05:33,430
+you. So, the next time you get a jump
+scare Slack notification about a bunch
+
+332
+00:05:33,430 --> 00:05:33,440
+scare Slack notification about a bunch
+ 
+
+333
+00:05:33,440 --> 00:05:35,150
+scare Slack notification about a bunch
+of new errors, you can just ask Sentry
+
+334
+00:05:35,150 --> 00:05:35,160
+of new errors, you can just ask Sentry
+ 
+
+335
+00:05:35,160 --> 00:05:37,270
+of new errors, you can just ask Sentry
+agent to investigate the problem instead
+
+336
+00:05:37,270 --> 00:05:37,280
+agent to investigate the problem instead
+ 
+
+337
+00:05:37,280 --> 00:05:38,909
+agent to investigate the problem instead
+of manually digging through dashboards
+
+338
+00:05:38,909 --> 00:05:38,919
+of manually digging through dashboards
+ 
+
+339
+00:05:38,919 --> 00:05:41,230
+of manually digging through dashboards
+and logs yourself. The agent uses all
+
+340
+00:05:41,230 --> 00:05:41,240
+and logs yourself. The agent uses all
+ 
+
+341
+00:05:41,240 --> 00:05:42,990
+and logs yourself. The agent uses all
+the context Sentry already has on your
+
+342
+00:05:42,990 --> 00:05:43,000
+the context Sentry already has on your
+ 
+
+343
+00:05:43,000 --> 00:05:45,990
+the context Sentry already has on your
+system to pull traces, spans, logs, and
+
+344
+00:05:45,990 --> 00:05:46,000
+system to pull traces, spans, logs, and
+ 
+
+345
+00:05:46,000 --> 00:05:48,430
+system to pull traces, spans, logs, and
+replays. Then it walks upstream across
+
+346
+00:05:48,430 --> 00:05:48,440
+replays. Then it walks upstream across
+ 
+
+347
+00:05:48,440 --> 00:05:50,390
+replays. Then it walks upstream across
+your services to find the actual root
+
+348
+00:05:50,390 --> 00:05:50,400
+your services to find the actual root
+ 
+
+349
+00:05:50,400 --> 00:05:52,070
+your services to find the actual root
+cause. From there, you can work with
+
+350
+00:05:52,070 --> 00:05:52,080
+cause. From there, you can work with
+ 
+
+351
+00:05:52,080 --> 00:05:54,190
+cause. From there, you can work with
+Seer to draft a fix and open a pull
+
+352
+00:05:54,190 --> 00:05:54,200
+Seer to draft a fix and open a pull
+ 
+
+353
+00:05:54,200 --> 00:05:56,030
+Seer to draft a fix and open a pull
+request so you can spend less time
+
+354
+00:05:56,030 --> 00:05:56,040
+request so you can spend less time
+ 
+
+355
+00:05:56,040 --> 00:05:58,310
+request so you can spend less time
+staring at error messages and more time
+
+356
+00:05:58,310 --> 00:05:58,320
+staring at error messages and more time
+ 
+
+357
+00:05:58,320 --> 00:05:59,790
+staring at error messages and more time
+pretending to touch grass. The
+
+358
+00:05:59,790 --> 00:05:59,800
+pretending to touch grass. The
+ 
+
+359
+00:05:59,800 --> 00:06:01,790
+pretending to touch grass. The
+developers are calling it a self-healing
+
+360
+00:06:01,790 --> 00:06:01,800
+developers are calling it a self-healing
+ 
+
+361
+00:06:01,800 --> 00:06:03,470
+developers are calling it a self-healing
+software, and you can try it out for
+
+362
+00:06:03,470 --> 00:06:03,480
+software, and you can try it out for
+ 
+
+363
+00:06:03,480 --> 00:06:05,710
+software, and you can try it out for
+free right now during the open beta at
+
+364
+00:06:05,710 --> 00:06:05,720
+free right now during the open beta at
+ 
+
+365
+00:06:05,720 --> 00:06:07,790
+free right now during the open beta at
+century.io/fireship.
+
+366
+00:06:07,790 --> 00:06:07,800
+century.io/fireship.
+ 
+
+367
+00:06:07,800 --> 00:06:09,350
+century.io/fireship.
+This has been the Code Report. Thanks
+
+368
+00:06:09,350 --> 00:06:09,360
+This has been the Code Report. Thanks
+ 
+
+369
+00:06:09,360 --> 00:06:10,950
+This has been the Code Report. Thanks
+for watching, and I will see you in the
+
+370
+00:06:10,950 --> 00:06:10,960
+for watching, and I will see you in the
+ 
+
+371
+00:06:10,960 --> 00:06:13,600
+for watching, and I will see you in the
+next one.
+

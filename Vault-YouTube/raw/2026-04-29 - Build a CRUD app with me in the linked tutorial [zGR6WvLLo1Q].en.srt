@@ -1,0 +1,105 @@
+1
+00:00:00,000 --> 00:00:02,030
+
+In this video, we'll learn how to handle
+
+2
+00:00:02,030 --> 00:00:02,040
+In this video, we'll learn how to handle
+ 
+
+3
+00:00:02,040 --> 00:00:03,870
+In this video, we'll learn how to handle
+data on chain. We'll be building out a
+
+4
+00:00:03,870 --> 00:00:03,880
+data on chain. We'll be building out a
+ 
+
+5
+00:00:03,880 --> 00:00:05,870
+data on chain. We'll be building out a
+CRUD app, which stands for create, read,
+
+6
+00:00:05,870 --> 00:00:05,880
+CRUD app, which stands for create, read,
+ 
+
+7
+00:00:05,880 --> 00:00:07,550
+CRUD app, which stands for create, read,
+update, and delete, which should cover
+
+8
+00:00:07,550 --> 00:00:07,560
+update, and delete, which should cover
+ 
+
+9
+00:00:07,560 --> 00:00:09,230
+update, and delete, which should cover
+all the basic logic for storing and
+
+10
+00:00:09,230 --> 00:00:09,240
+all the basic logic for storing and
+ 
+
+11
+00:00:09,240 --> 00:00:11,030
+all the basic logic for storing and
+managing data on chain. We'll get
+
+12
+00:00:11,030 --> 00:00:11,040
+managing data on chain. We'll get
+ 
+
+13
+00:00:11,040 --> 00:00:12,750
+managing data on chain. We'll get
+started by using the Anchor CLI to build
+
+14
+00:00:12,750 --> 00:00:12,760
+started by using the Anchor CLI to build
+ 
+
+15
+00:00:12,760 --> 00:00:14,670
+started by using the Anchor CLI to build
+your workspace. Anchor is a framework
+
+16
+00:00:14,670 --> 00:00:14,680
+your workspace. Anchor is a framework
+ 
+
+17
+00:00:14,680 --> 00:00:16,710
+your workspace. Anchor is a framework
+for building Solana smart contracts, and
+
+18
+00:00:16,710 --> 00:00:16,720
+for building Solana smart contracts, and
+ 
+
+19
+00:00:16,720 --> 00:00:17,950
+for building Solana smart contracts, and
+it's what we'll be using to build our
+
+20
+00:00:17,950 --> 00:00:17,960
+it's what we'll be using to build our
+ 
+
+21
+00:00:17,960 --> 00:00:20,520
+it's what we'll be using to build our
+CRUD app.
+

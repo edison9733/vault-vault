@@ -1,0 +1,12 @@
+#!/bin/bash
+# yt_analyze.sh - Run Claude Code headlessly over new transcripts in this vault.
+export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
+set -uo pipefail
+VAULT="$HOME/Vault-YouTube"
+cd "$VAULT" || exit 1
+command -v claude >/dev/null 2>&1 || { echo "FATAL: claude not on PATH" >&2; exit 1; }
+
+claude -p "Process every transcript in raw/ that does not yet have a corresponding note in notes/. Follow CLAUDE.md exactly. If there is nothing new, reply 'nothing to do' and stop." \
+  --allowedTools "Read,Write,Edit,Glob,Grep" \
+  --max-turns 50 \
+  >> "$VAULT/_logs/analyze.log" 2>&1

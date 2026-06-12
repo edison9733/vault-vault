@@ -1,0 +1,1 @@
+Google's family of large language and multimodal models. At Google I/O 2026, Gemini became the centerpiece of Google's "agentic era" strategy — embedded in Search, Gmail, Android, and AR glasses. Variants include Flash (speed-optimized) and Pro (capability-optimized), with Omni as the fully multimodal flagship.

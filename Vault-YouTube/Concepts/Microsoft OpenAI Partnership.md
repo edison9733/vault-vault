@@ -1,0 +1,1 @@
+Strategic investment and compute-for-equity partnership: Microsoft invested $1B in [[OpenAI]] in 2019–2021, then over $13B total by 2023. Satya Nadella described the relationship as strategically critical ("didn't want Microsoft to become the next IBM while OpenAI became the next Microsoft"). Central to the [[Musk vs Altman Trial]] as evidence of the for-profit pivot.

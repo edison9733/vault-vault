@@ -1,0 +1,7635 @@
+1
+00:00:00,000 --> 00:00:01,750
+
+Hey everyone, it's Bree and we're back
+
+2
+00:00:01,750 --> 00:00:01,760
+Hey everyone, it's Bree and we're back
+ 
+
+3
+00:00:01,760 --> 00:00:03,270
+Hey everyone, it's Bree and we're back
+with the Solana blockchain developer
+
+4
+00:00:03,270 --> 00:00:03,280
+with the Solana blockchain developer
+ 
+
+5
+00:00:03,280 --> 00:00:05,310
+with the Solana blockchain developer
+roadmap. In this video, we'll learn how
+
+6
+00:00:05,310 --> 00:00:05,320
+roadmap. In this video, we'll learn how
+ 
+
+7
+00:00:05,320 --> 00:00:07,190
+roadmap. In this video, we'll learn how
+to handle data on chain. We'll be
+
+8
+00:00:07,190 --> 00:00:07,200
+to handle data on chain. We'll be
+ 
+
+9
+00:00:07,200 --> 00:00:08,630
+to handle data on chain. We'll be
+building out a CRUD app, which stands
+
+10
+00:00:08,630 --> 00:00:08,640
+building out a CRUD app, which stands
+ 
+
+11
+00:00:08,640 --> 00:00:10,830
+building out a CRUD app, which stands
+for create, read, update, and delete,
+
+12
+00:00:10,830 --> 00:00:10,840
+for create, read, update, and delete,
+ 
+
+13
+00:00:10,840 --> 00:00:12,350
+for create, read, update, and delete,
+which should cover all the basic logic
+
+14
+00:00:12,350 --> 00:00:12,360
+which should cover all the basic logic
+ 
+
+15
+00:00:12,360 --> 00:00:14,630
+which should cover all the basic logic
+for storing and managing data on chain.
+
+16
+00:00:14,630 --> 00:00:14,640
+for storing and managing data on chain.
+ 
+
+17
+00:00:14,640 --> 00:00:15,870
+for storing and managing data on chain.
+We'll get started by using the Anchor
+
+18
+00:00:15,870 --> 00:00:15,880
+We'll get started by using the Anchor
+ 
+
+19
+00:00:15,880 --> 00:00:17,350
+We'll get started by using the Anchor
+CLI to build your workspace. [music]
+
+20
+00:00:17,350 --> 00:00:17,360
+CLI to build your workspace. [music]
+ 
+
+21
+00:00:17,360 --> 00:00:19,190
+CLI to build your workspace. [music]
+Anchor is a framework for building
+
+22
+00:00:19,190 --> 00:00:19,200
+Anchor is a framework for building
+ 
+
+23
+00:00:19,200 --> 00:00:20,830
+Anchor is a framework for building
+Solana smart contracts and that's what
+
+24
+00:00:20,830 --> 00:00:20,840
+Solana smart contracts and that's what
+ 
+
+25
+00:00:20,840 --> 00:00:21,950
+Solana smart contracts and that's what
+we'll be using to build out our CRUD
+
+26
+00:00:21,950 --> 00:00:21,960
+we'll be using to build out our CRUD
+ 
+
+27
+00:00:21,960 --> 00:00:23,830
+we'll be using to build out our CRUD
+app. [music] So, let's navigate over to
+
+28
+00:00:23,830 --> 00:00:23,840
+app. [music] So, let's navigate over to
+ 
+
+29
+00:00:23,840 --> 00:00:25,110
+app. [music] So, let's navigate over to
+our terminal and we're just going to
+
+30
+00:00:25,110 --> 00:00:25,120
+our terminal and we're just going to
+ 
+
+31
+00:00:25,120 --> 00:00:27,030
+our terminal and we're just going to
+type into the terminal. Actually, I'll
+
+32
+00:00:27,030 --> 00:00:27,040
+type into the terminal. Actually, I'll
+ 
+
+33
+00:00:27,040 --> 00:00:30,070
+type into the terminal. Actually, I'll
+zoom in a bit so you can see better.
+
+34
+00:00:30,070 --> 00:00:30,080
+zoom in a bit so you can see better.
+ 
+
+35
+00:00:30,080 --> 00:00:32,870
+zoom in a bit so you can see better.
+Okay. So, we'll type in anchor init and
+
+36
+00:00:32,870 --> 00:00:32,880
+Okay. So, we'll type in anchor init and
+ 
+
+37
+00:00:32,880 --> 00:00:34,870
+Okay. So, we'll type in anchor init and
+that's going to initialize a workspace
+
+38
+00:00:34,870 --> 00:00:34,880
+that's going to initialize a workspace
+ 
+
+39
+00:00:34,880 --> 00:00:36,710
+that's going to initialize a workspace
+for writing an Anchor smart contract.
+
+40
+00:00:36,710 --> 00:00:36,720
+for writing an Anchor smart contract.
+ 
+
+41
+00:00:36,720 --> 00:00:37,790
+for writing an Anchor smart contract.
+So,
+
+42
+00:00:37,790 --> 00:00:37,800
+So,
+ 
+
+43
+00:00:37,800 --> 00:00:41,070
+So,
+we'll name that CRUD app.
+
+44
+00:00:41,070 --> 00:00:41,080
+we'll name that CRUD app.
+ 
+
+45
+00:00:41,080 --> 00:00:42,590
+we'll name that CRUD app.
+And you can see it's now initializing my
+
+46
+00:00:42,590 --> 00:00:42,600
+And you can see it's now initializing my
+ 
+
+47
+00:00:42,600 --> 00:00:46,230
+And you can see it's now initializing my
+workspace for me.
+
+48
+00:00:46,230 --> 00:00:46,240
+
+ 
+
+49
+00:00:46,240 --> 00:00:47,470
+
+And then we'll just CD into the
+
+50
+00:00:47,470 --> 00:00:47,480
+And then we'll just CD into the
+ 
+
+51
+00:00:47,480 --> 00:00:50,550
+And then we'll just CD into the
+directory that it created.
+
+52
+00:00:50,550 --> 00:00:50,560
+directory that it created.
+ 
+
+53
+00:00:50,560 --> 00:00:53,350
+directory that it created.
+And we'll open that code.
+
+54
+00:00:53,350 --> 00:00:53,360
+And we'll open that code.
+ 
+
+55
+00:00:53,360 --> 00:00:58,150
+And we'll open that code.
+Okay.
+
+56
+00:00:58,150 --> 00:00:58,160
+
+ 
+
+57
+00:00:58,160 --> 00:01:01,070
+
+So, I'll zoom in a bit and this is what
+
+58
+00:01:01,070 --> 00:01:01,080
+So, I'll zoom in a bit and this is what
+ 
+
+59
+00:01:01,080 --> 00:01:02,710
+So, I'll zoom in a bit and this is what
+was created in your workspace. We're
+
+60
+00:01:02,710 --> 00:01:02,720
+was created in your workspace. We're
+ 
+
+61
+00:01:02,720 --> 00:01:04,350
+was created in your workspace. We're
+going to go straight into the programs
+
+62
+00:01:04,350 --> 00:01:04,360
+going to go straight into the programs
+ 
+
+63
+00:01:04,360 --> 00:01:05,870
+going to go straight into the programs
+directory, which is where your actual
+
+64
+00:01:05,870 --> 00:01:05,880
+directory, which is where your actual
+ 
+
+65
+00:01:05,880 --> 00:01:08,230
+directory, which is where your actual
+smart contract is going to live. Now,
+
+66
+00:01:08,230 --> 00:01:08,240
+smart contract is going to live. Now,
+ 
+
+67
+00:01:08,240 --> 00:01:10,590
+smart contract is going to live. Now,
+this generated a file structure that is
+
+68
+00:01:10,590 --> 00:01:10,600
+this generated a file structure that is
+ 
+
+69
+00:01:10,600 --> 00:01:12,470
+this generated a file structure that is
+a little bit
+
+70
+00:01:12,470 --> 00:01:12,480
+a little bit
+ 
+
+71
+00:01:12,480 --> 00:01:14,430
+a little bit
+overkill for just a CRUD app. Um, this
+
+72
+00:01:14,430 --> 00:01:14,440
+overkill for just a CRUD app. Um, this
+ 
+
+73
+00:01:14,440 --> 00:01:16,070
+overkill for just a CRUD app. Um, this
+is best practices for when you have a
+
+74
+00:01:16,070 --> 00:01:16,080
+is best practices for when you have a
+ 
+
+75
+00:01:16,080 --> 00:01:17,990
+is best practices for when you have a
+lot of instructions and a lot of code to
+
+76
+00:01:17,990 --> 00:01:18,000
+lot of instructions and a lot of code to
+ 
+
+77
+00:01:18,000 --> 00:01:20,790
+lot of instructions and a lot of code to
+manage. Um, for simplicity, what I'm
+
+78
+00:01:20,790 --> 00:01:20,800
+manage. Um, for simplicity, what I'm
+ 
+
+79
+00:01:20,800 --> 00:01:22,350
+manage. Um, for simplicity, what I'm
+going to do is just delete everything
+
+80
+00:01:22,350 --> 00:01:22,360
+going to do is just delete everything
+ 
+
+81
+00:01:22,360 --> 00:01:25,710
+going to do is just delete everything
+besides the lib.rs file. And as we
+
+82
+00:01:25,710 --> 00:01:25,720
+besides the lib.rs file. And as we
+ 
+
+83
+00:01:25,720 --> 00:01:27,350
+besides the lib.rs file. And as we
+progress through this roadmap and get to
+
+84
+00:01:27,350 --> 00:01:27,360
+progress through this roadmap and get to
+ 
+
+85
+00:01:27,360 --> 00:01:29,150
+progress through this roadmap and get to
+more complex applications, you'll be
+
+86
+00:01:29,150 --> 00:01:29,160
+more complex applications, you'll be
+ 
+
+87
+00:01:29,160 --> 00:01:31,110
+more complex applications, you'll be
+using all the files that were generated
+
+88
+00:01:31,110 --> 00:01:31,120
+using all the files that were generated
+ 
+
+89
+00:01:31,120 --> 00:01:32,750
+using all the files that were generated
+here, but for now, we really just need
+
+90
+00:01:32,750 --> 00:01:32,760
+here, but for now, we really just need
+ 
+
+91
+00:01:32,760 --> 00:01:35,750
+here, but for now, we really just need
+the lib.rs. We don't need to extract
+
+92
+00:01:35,750 --> 00:01:35,760
+the lib.rs. We don't need to extract
+ 
+
+93
+00:01:35,760 --> 00:01:37,670
+the lib.rs. We don't need to extract
+this into several files because it's
+
+94
+00:01:37,670 --> 00:01:37,680
+this into several files because it's
+ 
+
+95
+00:01:37,680 --> 00:01:39,150
+this into several files because it's
+just a short amount of code to be able
+
+96
+00:01:39,150 --> 00:01:39,160
+just a short amount of code to be able
+ 
+
+97
+00:01:39,160 --> 00:01:40,950
+just a short amount of code to be able
+to create a CRUD app. Since we deleted
+
+98
+00:01:40,950 --> 00:01:40,960
+to create a CRUD app. Since we deleted
+ 
+
+99
+00:01:40,960 --> 00:01:42,510
+to create a CRUD app. Since we deleted
+all of those files, we can delete the
+
+100
+00:01:42,510 --> 00:01:42,520
+all of those files, we can delete the
+ 
+
+101
+00:01:42,520 --> 00:01:45,430
+all of those files, we can delete the
+mods here.
+
+102
+00:01:45,430 --> 00:01:45,440
+
+ 
+
+103
+00:01:45,440 --> 00:01:46,870
+
+Okay.
+
+104
+00:01:46,870 --> 00:01:46,880
+Okay.
+ 
+
+105
+00:01:46,880 --> 00:01:49,270
+Okay.
+And we can delete this. And now we're
+
+106
+00:01:49,270 --> 00:01:49,280
+And we can delete this. And now we're
+ 
+
+107
+00:01:49,280 --> 00:01:52,510
+And we can delete this. And now we're
+left with just the basic outline of a
+
+108
+00:01:52,510 --> 00:01:52,520
+left with just the basic outline of a
+ 
+
+109
+00:01:52,520 --> 00:01:53,990
+left with just the basic outline of a
+Solana program.
+
+110
+00:01:53,990 --> 00:01:54,000
+Solana program.
+ 
+
+111
+00:01:54,000 --> 00:01:55,870
+Solana program.
+So, this is using the Anchor framework.
+
+112
+00:01:55,870 --> 00:01:55,880
+So, this is using the Anchor framework.
+ 
+
+113
+00:01:55,880 --> 00:01:57,510
+So, this is using the Anchor framework.
+You can see that the Anchor link crate
+
+114
+00:01:57,510 --> 00:01:57,520
+You can see that the Anchor link crate
+ 
+
+115
+00:01:57,520 --> 00:01:59,710
+You can see that the Anchor link crate
+has been imported into this file. This
+
+116
+00:01:59,710 --> 00:01:59,720
+has been imported into this file. This
+ 
+
+117
+00:01:59,720 --> 00:02:02,270
+has been imported into this file. This
+declare ID section,
+
+118
+00:02:02,270 --> 00:02:02,280
+declare ID section,
+ 
+
+119
+00:02:02,280 --> 00:02:04,670
+declare ID section,
+this is what is going to generate the
+
+120
+00:02:04,670 --> 00:02:04,680
+this is what is going to generate the
+ 
+
+121
+00:02:04,680 --> 00:02:06,590
+this is what is going to generate the
+public key for your smart contract. So,
+
+122
+00:02:06,590 --> 00:02:06,600
+public key for your smart contract. So,
+ 
+
+123
+00:02:06,600 --> 00:02:08,510
+public key for your smart contract. So,
+when you search a contract on chain,
+
+124
+00:02:08,510 --> 00:02:08,520
+when you search a contract on chain,
+ 
+
+125
+00:02:08,520 --> 00:02:10,109
+when you search a contract on chain,
+it's going to be found by its public
+
+126
+00:02:10,109 --> 00:02:10,119
+it's going to be found by its public
+ 
+
+127
+00:02:10,119 --> 00:02:12,750
+it's going to be found by its public
+key, which is this address right here.
+
+128
+00:02:12,750 --> 00:02:12,760
+key, which is this address right here.
+ 
+
+129
+00:02:12,760 --> 00:02:14,910
+key, which is this address right here.
+So, this is generated when you run
+
+130
+00:02:14,910 --> 00:02:14,920
+So, this is generated when you run
+ 
+
+131
+00:02:14,920 --> 00:02:17,150
+So, this is generated when you run
+Anchor build in your Anchor directory in
+
+132
+00:02:17,150 --> 00:02:17,160
+Anchor build in your Anchor directory in
+ 
+
+133
+00:02:17,160 --> 00:02:19,590
+Anchor build in your Anchor directory in
+your terminal and it's going to generate
+
+134
+00:02:19,590 --> 00:02:19,600
+your terminal and it's going to generate
+ 
+
+135
+00:02:19,600 --> 00:02:21,430
+your terminal and it's going to generate
+the public key and once it's deployed on
+
+136
+00:02:21,430 --> 00:02:21,440
+the public key and once it's deployed on
+ 
+
+137
+00:02:21,440 --> 00:02:22,950
+the public key and once it's deployed on
+chain, that is going to be how you find
+
+138
+00:02:22,950 --> 00:02:22,960
+chain, that is going to be how you find
+ 
+
+139
+00:02:22,960 --> 00:02:24,430
+chain, that is going to be how you find
+the smart contract on chain. I like to
+
+140
+00:02:24,430 --> 00:02:24,440
+the smart contract on chain. I like to
+ 
+
+141
+00:02:24,440 --> 00:02:25,830
+the smart contract on chain. I like to
+think of it kind of like a key value
+
+142
+00:02:25,830 --> 00:02:25,840
+think of it kind of like a key value
+ 
+
+143
+00:02:25,840 --> 00:02:28,350
+think of it kind of like a key value
+store, so the key is your public key and
+
+144
+00:02:28,350 --> 00:02:28,360
+store, so the key is your public key and
+ 
+
+145
+00:02:28,360 --> 00:02:30,470
+store, so the key is your public key and
+then the value is all of the code for
+
+146
+00:02:30,470 --> 00:02:30,480
+then the value is all of the code for
+ 
+
+147
+00:02:30,480 --> 00:02:33,590
+then the value is all of the code for
+your smart contract on the chain. So,
+
+148
+00:02:33,590 --> 00:02:33,600
+your smart contract on the chain. So,
+ 
+
+149
+00:02:33,600 --> 00:02:35,350
+your smart contract on the chain. So,
+now I have this macro right here,
+
+150
+00:02:35,350 --> 00:02:35,360
+now I have this macro right here,
+ 
+
+151
+00:02:35,360 --> 00:02:38,550
+now I have this macro right here,
+program. And that is part of Anchor and
+
+152
+00:02:38,550 --> 00:02:38,560
+program. And that is part of Anchor and
+ 
+
+153
+00:02:38,560 --> 00:02:40,750
+program. And that is part of Anchor and
+what it's doing is it's handling your
+
+154
+00:02:40,750 --> 00:02:40,760
+what it's doing is it's handling your
+ 
+
+155
+00:02:40,760 --> 00:02:42,510
+what it's doing is it's handling your
+entry point for the smart contract. So,
+
+156
+00:02:42,510 --> 00:02:42,520
+entry point for the smart contract. So,
+ 
+
+157
+00:02:42,520 --> 00:02:43,710
+entry point for the smart contract. So,
+it's saying, "Hey, all of these
+
+158
+00:02:43,710 --> 00:02:43,720
+it's saying, "Hey, all of these
+ 
+
+159
+00:02:43,720 --> 00:02:45,710
+it's saying, "Hey, all of these
+functions that live inside of this
+
+160
+00:02:45,710 --> 00:02:45,720
+functions that live inside of this
+ 
+
+161
+00:02:45,720 --> 00:02:47,190
+functions that live inside of this
+program macro are going to be
+
+162
+00:02:47,190 --> 00:02:47,200
+program macro are going to be
+ 
+
+163
+00:02:47,200 --> 00:02:49,350
+program macro are going to be
+instructions for your smart contract."
+
+164
+00:02:49,350 --> 00:02:49,360
+instructions for your smart contract."
+ 
+
+165
+00:02:49,360 --> 00:02:51,150
+instructions for your smart contract."
+And it's going to create the entry point
+
+166
+00:02:51,150 --> 00:02:51,160
+And it's going to create the entry point
+ 
+
+167
+00:02:51,160 --> 00:02:53,270
+And it's going to create the entry point
+for that smart contract. So, Anchor is
+
+168
+00:02:53,270 --> 00:02:53,280
+for that smart contract. So, Anchor is
+ 
+
+169
+00:02:53,280 --> 00:02:55,150
+for that smart contract. So, Anchor is
+handling all of the complexities here
+
+170
+00:02:55,150 --> 00:02:55,160
+handling all of the complexities here
+ 
+
+171
+00:02:55,160 --> 00:02:56,630
+handling all of the complexities here
+and really all you have to worry about
+
+172
+00:02:56,630 --> 00:02:56,640
+and really all you have to worry about
+ 
+
+173
+00:02:56,640 --> 00:02:58,590
+and really all you have to worry about
+is writing your functions and defining
+
+174
+00:02:58,590 --> 00:02:58,600
+is writing your functions and defining
+ 
+
+175
+00:02:58,600 --> 00:03:01,230
+is writing your functions and defining
+the logic within them.
+
+176
+00:03:01,230 --> 00:03:01,240
+the logic within them.
+ 
+
+177
+00:03:01,240 --> 00:03:03,270
+the logic within them.
+So, you can see here we have this
+
+178
+00:03:03,270 --> 00:03:03,280
+So, you can see here we have this
+ 
+
+179
+00:03:03,280 --> 00:03:04,870
+So, you can see here we have this
+initialize function already written for
+
+180
+00:03:04,870 --> 00:03:04,880
+initialize function already written for
+ 
+
+181
+00:03:04,880 --> 00:03:06,790
+initialize function already written for
+you. We're going to be updating this to
+
+182
+00:03:06,790 --> 00:03:06,800
+you. We're going to be updating this to
+ 
+
+183
+00:03:06,800 --> 00:03:09,350
+you. We're going to be updating this to
+be our create function for our CRUD app.
+
+184
+00:03:09,350 --> 00:03:09,360
+be our create function for our CRUD app.
+ 
+
+185
+00:03:09,360 --> 00:03:11,550
+be our create function for our CRUD app.
+So, one example that I like to use for a
+
+186
+00:03:11,550 --> 00:03:11,560
+So, one example that I like to use for a
+ 
+
+187
+00:03:11,560 --> 00:03:13,630
+So, one example that I like to use for a
+CRUD app is a journal. Um, a journal is
+
+188
+00:03:13,630 --> 00:03:13,640
+CRUD app is a journal. Um, a journal is
+ 
+
+189
+00:03:13,640 --> 00:03:15,790
+CRUD app is a journal. Um, a journal is
+a good way where you want to create and
+
+190
+00:03:15,790 --> 00:03:15,800
+a good way where you want to create and
+ 
+
+191
+00:03:15,800 --> 00:03:17,670
+a good way where you want to create and
+store data. Sometimes you want to update
+
+192
+00:03:17,670 --> 00:03:17,680
+store data. Sometimes you want to update
+ 
+
+193
+00:03:17,680 --> 00:03:19,830
+store data. Sometimes you want to update
+it, sometimes you want to delete it. Um,
+
+194
+00:03:19,830 --> 00:03:19,840
+it, sometimes you want to delete it. Um,
+ 
+
+195
+00:03:19,840 --> 00:03:21,910
+it, sometimes you want to delete it. Um,
+so each journal entry is going to be a
+
+196
+00:03:21,910 --> 00:03:21,920
+so each journal entry is going to be a
+ 
+
+197
+00:03:21,920 --> 00:03:23,750
+so each journal entry is going to be a
+new data set that we're going to be
+
+198
+00:03:23,750 --> 00:03:23,760
+new data set that we're going to be
+ 
+
+199
+00:03:23,760 --> 00:03:25,790
+new data set that we're going to be
+either storing, updating, or deleting on
+
+200
+00:03:25,790 --> 00:03:25,800
+either storing, updating, or deleting on
+ 
+
+201
+00:03:25,800 --> 00:03:26,710
+either storing, updating, or deleting on
+chain.
+
+202
+00:03:26,710 --> 00:03:26,720
+chain.
+ 
+
+203
+00:03:26,720 --> 00:03:29,470
+chain.
+Now, one thing to know with Solana smart
+
+204
+00:03:29,470 --> 00:03:29,480
+Now, one thing to know with Solana smart
+ 
+
+205
+00:03:29,480 --> 00:03:31,150
+Now, one thing to know with Solana smart
+contracts, all smart contracts are
+
+206
+00:03:31,150 --> 00:03:31,160
+contracts, all smart contracts are
+ 
+
+207
+00:03:31,160 --> 00:03:32,870
+contracts, all smart contracts are
+stateless. So, if you came from other
+
+208
+00:03:32,870 --> 00:03:32,880
+stateless. So, if you came from other
+ 
+
+209
+00:03:32,880 --> 00:03:34,790
+stateless. So, if you came from other
+ecosystems like Ethereum or Cosmos,
+
+210
+00:03:34,790 --> 00:03:34,800
+ecosystems like Ethereum or Cosmos,
+ 
+
+211
+00:03:34,800 --> 00:03:37,030
+ecosystems like Ethereum or Cosmos,
+you're probably used to having all of
+
+212
+00:03:37,030 --> 00:03:37,040
+you're probably used to having all of
+ 
+
+213
+00:03:37,040 --> 00:03:38,310
+you're probably used to having all of
+your state stored in the smart contract
+
+214
+00:03:38,310 --> 00:03:38,320
+your state stored in the smart contract
+ 
+
+215
+00:03:38,320 --> 00:03:40,150
+your state stored in the smart contract
+itself. On Solana, it's stored in
+
+216
+00:03:40,150 --> 00:03:40,160
+itself. On Solana, it's stored in
+ 
+
+217
+00:03:40,160 --> 00:03:42,470
+itself. On Solana, it's stored in
+accounts. So, here we're going to be
+
+218
+00:03:42,470 --> 00:03:42,480
+accounts. So, here we're going to be
+ 
+
+219
+00:03:42,480 --> 00:03:45,430
+accounts. So, here we're going to be
+generating data that needs to be stored
+
+220
+00:03:45,430 --> 00:03:45,440
+generating data that needs to be stored
+ 
+
+221
+00:03:45,440 --> 00:03:47,470
+generating data that needs to be stored
+somewhere. And to do that, we're going
+
+222
+00:03:47,470 --> 00:03:47,480
+somewhere. And to do that, we're going
+ 
+
+223
+00:03:47,480 --> 00:03:48,870
+somewhere. And to do that, we're going
+to have to create a new account on
+
+224
+00:03:48,870 --> 00:03:48,880
+to have to create a new account on
+ 
+
+225
+00:03:48,880 --> 00:03:50,750
+to have to create a new account on
+chain. So,
+
+226
+00:03:50,750 --> 00:03:50,760
+chain. So,
+ 
+
+227
+00:03:50,760 --> 00:03:53,350
+chain. So,
+when you're writing smart contracts on
+
+228
+00:03:53,350 --> 00:03:53,360
+when you're writing smart contracts on
+ 
+
+229
+00:03:53,360 --> 00:03:54,510
+when you're writing smart contracts on
+Solana,
+
+230
+00:03:54,510 --> 00:03:54,520
+Solana,
+ 
+
+231
+00:03:54,520 --> 00:03:55,910
+Solana,
+you always have to think of this account
+
+232
+00:03:55,910 --> 00:03:55,920
+you always have to think of this account
+ 
+
+233
+00:03:55,920 --> 00:03:58,030
+you always have to think of this account
+model first. So, I always like to start
+
+234
+00:03:58,030 --> 00:03:58,040
+model first. So, I always like to start
+ 
+
+235
+00:03:58,040 --> 00:04:00,230
+model first. So, I always like to start
+with what data I need and how I need to
+
+236
+00:04:00,230 --> 00:04:00,240
+with what data I need and how I need to
+ 
+
+237
+00:04:00,240 --> 00:04:03,310
+with what data I need and how I need to
+store it. So, here let's start with
+
+238
+00:04:03,310 --> 00:04:03,320
+store it. So, here let's start with
+ 
+
+239
+00:04:03,320 --> 00:04:05,750
+store it. So, here let's start with
+exactly that. I'm going to define a new
+
+240
+00:04:05,750 --> 00:04:05,760
+exactly that. I'm going to define a new
+ 
+
+241
+00:04:05,760 --> 00:04:07,150
+exactly that. I'm going to define a new
+account that I need to create on chain
+
+242
+00:04:07,150 --> 00:04:07,160
+account that I need to create on chain
+ 
+
+243
+00:04:07,160 --> 00:04:08,990
+account that I need to create on chain
+and we can do that by using the account
+
+244
+00:04:08,990 --> 00:04:09,000
+and we can do that by using the account
+ 
+
+245
+00:04:09,000 --> 00:04:11,590
+and we can do that by using the account
+macro from Anchor. And all I'm going to
+
+246
+00:04:11,590 --> 00:04:11,600
+macro from Anchor. And all I'm going to
+ 
+
+247
+00:04:11,600 --> 00:04:13,790
+macro from Anchor. And all I'm going to
+do is write out a data structure that's
+
+248
+00:04:13,790 --> 00:04:13,800
+do is write out a data structure that's
+ 
+
+249
+00:04:13,800 --> 00:04:15,910
+do is write out a data structure that's
+going to hold all of my data that I need
+
+250
+00:04:15,910 --> 00:04:15,920
+going to hold all of my data that I need
+ 
+
+251
+00:04:15,920 --> 00:04:18,310
+going to hold all of my data that I need
+for that account. So, I'll make this my
+
+252
+00:04:18,310 --> 00:04:18,320
+for that account. So, I'll make this my
+ 
+
+253
+00:04:18,320 --> 00:04:23,550
+for that account. So, I'll make this my
+journal struct.
+
+254
+00:04:23,550 --> 00:04:23,560
+
+ 
+
+255
+00:04:23,560 --> 00:04:25,030
+
+And let's see, if I'm writing a journal,
+
+256
+00:04:25,030 --> 00:04:25,040
+And let's see, if I'm writing a journal,
+ 
+
+257
+00:04:25,040 --> 00:04:26,710
+And let's see, if I'm writing a journal,
+well, first I want to know that it's my
+
+258
+00:04:26,710 --> 00:04:26,720
+well, first I want to know that it's my
+ 
+
+259
+00:04:26,720 --> 00:04:28,070
+well, first I want to know that it's my
+journal and it needs to be only
+
+260
+00:04:28,070 --> 00:04:28,080
+journal and it needs to be only
+ 
+
+261
+00:04:28,080 --> 00:04:30,590
+journal and it needs to be only
+accessible to me. So, the first field
+
+262
+00:04:30,590 --> 00:04:30,600
+accessible to me. So, the first field
+ 
+
+263
+00:04:30,600 --> 00:04:32,230
+accessible to me. So, the first field
+that I'm going to store here is who the
+
+264
+00:04:32,230 --> 00:04:32,240
+that I'm going to store here is who the
+ 
+
+265
+00:04:32,240 --> 00:04:35,310
+that I'm going to store here is who the
+owner is and we can know that by the
+
+266
+00:04:35,310 --> 00:04:35,320
+owner is and we can know that by the
+ 
+
+267
+00:04:35,320 --> 00:04:37,470
+owner is and we can know that by the
+public key. So, whenever you have your
+
+268
+00:04:37,470 --> 00:04:37,480
+public key. So, whenever you have your
+ 
+
+269
+00:04:37,480 --> 00:04:39,150
+public key. So, whenever you have your
+wallet connected to the front end of the
+
+270
+00:04:39,150 --> 00:04:39,160
+wallet connected to the front end of the
+ 
+
+271
+00:04:39,160 --> 00:04:40,630
+wallet connected to the front end of the
+application, we're going to be able to
+
+272
+00:04:40,630 --> 00:04:40,640
+application, we're going to be able to
+ 
+
+273
+00:04:40,640 --> 00:04:43,030
+application, we're going to be able to
+pull that public key of your wallet and
+
+274
+00:04:43,030 --> 00:04:43,040
+pull that public key of your wallet and
+ 
+
+275
+00:04:43,040 --> 00:04:45,390
+pull that public key of your wallet and
+use that to identify what data you can
+
+276
+00:04:45,390 --> 00:04:45,400
+use that to identify what data you can
+ 
+
+277
+00:04:45,400 --> 00:04:47,990
+use that to identify what data you can
+access. So, we'll make this owner a
+
+278
+00:04:47,990 --> 00:04:48,000
+access. So, we'll make this owner a
+ 
+
+279
+00:04:48,000 --> 00:04:50,110
+access. So, we'll make this owner a
+pubkey type. And if you're new to Rust,
+
+280
+00:04:50,110 --> 00:04:50,120
+pubkey type. And if you're new to Rust,
+ 
+
+281
+00:04:50,120 --> 00:04:51,590
+pubkey type. And if you're new to Rust,
+um, think of it kind of like TypeScript.
+
+282
+00:04:51,590 --> 00:04:51,600
+um, think of it kind of like TypeScript.
+ 
+
+283
+00:04:51,600 --> 00:04:53,470
+um, think of it kind of like TypeScript.
+Everything is type safe here, so every
+
+284
+00:04:53,470 --> 00:04:53,480
+Everything is type safe here, so every
+ 
+
+285
+00:04:53,480 --> 00:04:54,510
+Everything is type safe here, so every
+field that you define, you're going to
+
+286
+00:04:54,510 --> 00:04:54,520
+field that you define, you're going to
+ 
+
+287
+00:04:54,520 --> 00:04:56,790
+field that you define, you're going to
+have to define its corresponding type.
+
+288
+00:04:56,790 --> 00:04:56,800
+have to define its corresponding type.
+ 
+
+289
+00:04:56,800 --> 00:04:57,790
+have to define its corresponding type.
+So,
+
+290
+00:04:57,790 --> 00:04:57,800
+So,
+ 
+
+291
+00:04:57,800 --> 00:04:59,550
+So,
+now when I'm writing a journal, now I
+
+292
+00:04:59,550 --> 00:04:59,560
+now when I'm writing a journal, now I
+ 
+
+293
+00:04:59,560 --> 00:05:00,710
+now when I'm writing a journal, now I
+know that it's mine, what else am I
+
+294
+00:05:00,710 --> 00:05:00,720
+know that it's mine, what else am I
+ 
+
+295
+00:05:00,720 --> 00:05:02,190
+know that it's mine, what else am I
+going to want to store? Well, I think
+
+296
+00:05:02,190 --> 00:05:02,200
+going to want to store? Well, I think
+ 
+
+297
+00:05:02,200 --> 00:05:03,470
+going to want to store? Well, I think
+I'll store the title and then I'll store
+
+298
+00:05:03,470 --> 00:05:03,480
+I'll store the title and then I'll store
+ 
+
+299
+00:05:03,480 --> 00:05:04,710
+I'll store the title and then I'll store
+the message and that should cover
+
+300
+00:05:04,710 --> 00:05:04,720
+the message and that should cover
+ 
+
+301
+00:05:04,720 --> 00:05:06,710
+the message and that should cover
+everything for my journal on a basic
+
+302
+00:05:06,710 --> 00:05:06,720
+everything for my journal on a basic
+ 
+
+303
+00:05:06,720 --> 00:05:08,830
+everything for my journal on a basic
+sense. So, we'll add two more fields
+
+304
+00:05:08,830 --> 00:05:08,840
+sense. So, we'll add two more fields
+ 
+
+305
+00:05:08,840 --> 00:05:10,750
+sense. So, we'll add two more fields
+here.
+
+306
+00:05:10,750 --> 00:05:10,760
+here.
+ 
+
+307
+00:05:10,760 --> 00:05:12,870
+here.
+I'll do title
+
+308
+00:05:12,870 --> 00:05:12,880
+I'll do title
+ 
+
+309
+00:05:12,880 --> 00:05:16,950
+I'll do title
+and that'll be a string type.
+
+310
+00:05:16,950 --> 00:05:16,960
+
+ 
+
+311
+00:05:16,960 --> 00:05:20,510
+
+And then I'll do message.
+
+312
+00:05:20,510 --> 00:05:20,520
+And then I'll do message.
+ 
+
+313
+00:05:20,520 --> 00:05:23,030
+And then I'll do message.
+And that'll also be a string type.
+
+314
+00:05:23,030 --> 00:05:23,040
+And that'll also be a string type.
+ 
+
+315
+00:05:23,040 --> 00:05:24,670
+And that'll also be a string type.
+Okay, so that's pretty much all the data
+
+316
+00:05:24,670 --> 00:05:24,680
+Okay, so that's pretty much all the data
+ 
+
+317
+00:05:24,680 --> 00:05:26,230
+Okay, so that's pretty much all the data
+that I want to store for my smart
+
+318
+00:05:26,230 --> 00:05:26,240
+that I want to store for my smart
+ 
+
+319
+00:05:26,240 --> 00:05:27,750
+that I want to store for my smart
+contract.
+
+320
+00:05:27,750 --> 00:05:27,760
+contract.
+ 
+
+321
+00:05:27,760 --> 00:05:30,670
+contract.
+Now, when you store data on chain, you
+
+322
+00:05:30,670 --> 00:05:30,680
+Now, when you store data on chain, you
+ 
+
+323
+00:05:30,680 --> 00:05:32,470
+Now, when you store data on chain, you
+have to pay rent for that account.
+
+324
+00:05:32,470 --> 00:05:32,480
+have to pay rent for that account.
+ 
+
+325
+00:05:32,480 --> 00:05:34,350
+have to pay rent for that account.
+Meaning, you're paying for how much
+
+326
+00:05:34,350 --> 00:05:34,360
+Meaning, you're paying for how much
+ 
+
+327
+00:05:34,360 --> 00:05:36,190
+Meaning, you're paying for how much
+space you are taking up on chain to
+
+328
+00:05:36,190 --> 00:05:36,200
+space you are taking up on chain to
+ 
+
+329
+00:05:36,200 --> 00:05:38,150
+space you are taking up on chain to
+store the data that you need to store.
+
+330
+00:05:38,150 --> 00:05:38,160
+store the data that you need to store.
+ 
+
+331
+00:05:38,160 --> 00:05:39,590
+store the data that you need to store.
+So,
+
+332
+00:05:39,590 --> 00:05:39,600
+So,
+ 
+
+333
+00:05:39,600 --> 00:05:41,310
+So,
+the amount that you pay for rent
+
+334
+00:05:41,310 --> 00:05:41,320
+the amount that you pay for rent
+ 
+
+335
+00:05:41,320 --> 00:05:42,790
+the amount that you pay for rent
+corresponds to how much space you're
+
+336
+00:05:42,790 --> 00:05:42,800
+corresponds to how much space you're
+ 
+
+337
+00:05:42,800 --> 00:05:44,230
+corresponds to how much space you're
+taking up. So, we have to calculate
+
+338
+00:05:44,230 --> 00:05:44,240
+taking up. So, we have to calculate
+ 
+
+339
+00:05:44,240 --> 00:05:46,030
+taking up. So, we have to calculate
+that. Um, back when I first started
+
+340
+00:05:46,030 --> 00:05:46,040
+that. Um, back when I first started
+ 
+
+341
+00:05:46,040 --> 00:05:47,430
+that. Um, back when I first started
+writing smart contracts on Solana, you
+
+342
+00:05:47,430 --> 00:05:47,440
+writing smart contracts on Solana, you
+ 
+
+343
+00:05:47,440 --> 00:05:49,830
+writing smart contracts on Solana, you
+had to manually calculate this and it's
+
+344
+00:05:49,830 --> 00:05:49,840
+had to manually calculate this and it's
+ 
+
+345
+00:05:49,840 --> 00:05:52,070
+had to manually calculate this and it's
+quite annoying. So, Anchor actually has
+
+346
+00:05:52,070 --> 00:05:52,080
+quite annoying. So, Anchor actually has
+ 
+
+347
+00:05:52,080 --> 00:05:53,670
+quite annoying. So, Anchor actually has
+a macro now that automatically does it
+
+348
+00:05:53,670 --> 00:05:53,680
+a macro now that automatically does it
+ 
+
+349
+00:05:53,680 --> 00:05:55,990
+a macro now that automatically does it
+for you. So, you can do that by adding
+
+350
+00:05:55,990 --> 00:05:56,000
+for you. So, you can do that by adding
+ 
+
+351
+00:05:56,000 --> 00:06:01,870
+for you. So, you can do that by adding
+this derive init space macro.
+
+352
+00:06:01,870 --> 00:06:01,880
+
+ 
+
+353
+00:06:01,880 --> 00:06:02,950
+
+Okay.
+
+354
+00:06:02,950 --> 00:06:02,960
+Okay.
+ 
+
+355
+00:06:02,960 --> 00:06:04,830
+Okay.
+And when I do that, I'm going to get an
+
+356
+00:06:04,830 --> 00:06:04,840
+And when I do that, I'm going to get an
+ 
+
+357
+00:06:04,840 --> 00:06:06,990
+And when I do that, I'm going to get an
+error and you can see that the error is
+
+358
+00:06:06,990 --> 00:06:07,000
+error and you can see that the error is
+ 
+
+359
+00:06:07,000 --> 00:06:09,190
+error and you can see that the error is
+with these two fields that are string
+
+360
+00:06:09,190 --> 00:06:09,200
+with these two fields that are string
+ 
+
+361
+00:06:09,200 --> 00:06:10,790
+with these two fields that are string
+types. And the reason we're getting an
+
+362
+00:06:10,790 --> 00:06:10,800
+types. And the reason we're getting an
+ 
+
+363
+00:06:10,800 --> 00:06:13,150
+types. And the reason we're getting an
+error there is because a string can be
+
+364
+00:06:13,150 --> 00:06:13,160
+error there is because a string can be
+ 
+
+365
+00:06:13,160 --> 00:06:15,670
+error there is because a string can be
+infinitely long, really. So, we need to
+
+366
+00:06:15,670 --> 00:06:15,680
+infinitely long, really. So, we need to
+ 
+
+367
+00:06:15,680 --> 00:06:17,190
+infinitely long, really. So, we need to
+have a max length here to be able to
+
+368
+00:06:17,190 --> 00:06:17,200
+have a max length here to be able to
+ 
+
+369
+00:06:17,200 --> 00:06:18,950
+have a max length here to be able to
+accurately calculate the space it's
+
+370
+00:06:18,950 --> 00:06:18,960
+accurately calculate the space it's
+ 
+
+371
+00:06:18,960 --> 00:06:21,110
+accurately calculate the space it's
+going to take up on chain. So, I'm going
+
+372
+00:06:21,110 --> 00:06:21,120
+going to take up on chain. So, I'm going
+ 
+
+373
+00:06:21,120 --> 00:06:23,710
+going to take up on chain. So, I'm going
+to add one constraint here that just has
+
+374
+00:06:23,710 --> 00:06:23,720
+to add one constraint here that just has
+ 
+
+375
+00:06:23,720 --> 00:06:29,310
+to add one constraint here that just has
+the max length for each of these fields.
+
+376
+00:06:29,310 --> 00:06:29,320
+
+ 
+
+377
+00:06:29,320 --> 00:06:32,230
+
+So, we'll set the first to 50.
+
+378
+00:06:32,230 --> 00:06:32,240
+So, we'll set the first to 50.
+ 
+
+379
+00:06:32,240 --> 00:06:37,150
+So, we'll set the first to 50.
+And let's set the second to like 200.
+
+380
+00:06:37,150 --> 00:06:37,160
+
+ 
+
+381
+00:06:37,160 --> 00:06:38,630
+
+Okay, now you can see that error went
+
+382
+00:06:38,630 --> 00:06:38,640
+Okay, now you can see that error went
+ 
+
+383
+00:06:38,640 --> 00:06:39,870
+Okay, now you can see that error went
+away.
+
+384
+00:06:39,870 --> 00:06:39,880
+away.
+ 
+
+385
+00:06:39,880 --> 00:06:41,070
+away.
+Now,
+
+386
+00:06:41,070 --> 00:06:41,080
+Now,
+ 
+
+387
+00:06:41,080 --> 00:06:43,150
+Now,
+now we defined what our account is, but
+
+388
+00:06:43,150 --> 00:06:43,160
+now we defined what our account is, but
+ 
+
+389
+00:06:43,160 --> 00:06:44,630
+now we defined what our account is, but
+we haven't actually created that account
+
+390
+00:06:44,630 --> 00:06:44,640
+we haven't actually created that account
+ 
+
+391
+00:06:44,640 --> 00:06:45,910
+we haven't actually created that account
+yet. We've just defined what data that's
+
+392
+00:06:45,910 --> 00:06:45,920
+yet. We've just defined what data that's
+ 
+
+393
+00:06:45,920 --> 00:06:48,190
+yet. We've just defined what data that's
+storing. So, we're going to actually
+
+394
+00:06:48,190 --> 00:06:48,200
+storing. So, we're going to actually
+ 
+
+395
+00:06:48,200 --> 00:06:50,190
+storing. So, we're going to actually
+create the account with this initialize
+
+396
+00:06:50,190 --> 00:06:50,200
+create the account with this initialize
+ 
+
+397
+00:06:50,200 --> 00:06:51,670
+create the account with this initialize
+function.
+
+398
+00:06:51,670 --> 00:06:51,680
+function.
+ 
+
+399
+00:06:51,680 --> 00:06:57,270
+function.
+We'll update the name to create.
+
+400
+00:06:57,270 --> 00:06:57,280
+
+ 
+
+401
+00:06:57,280 --> 00:06:59,150
+
+And then
+
+402
+00:06:59,150 --> 00:06:59,160
+And then
+ 
+
+403
+00:06:59,160 --> 00:07:00,830
+And then
+the first parameter that's passed
+
+404
+00:07:00,830 --> 00:07:00,840
+the first parameter that's passed
+ 
+
+405
+00:07:00,840 --> 00:07:02,470
+the first parameter that's passed
+through an instruction in an Anchor
+
+406
+00:07:02,470 --> 00:07:02,480
+through an instruction in an Anchor
+ 
+
+407
+00:07:02,480 --> 00:07:03,790
+through an instruction in an Anchor
+smart contract is always going to be
+
+408
+00:07:03,790 --> 00:07:03,800
+smart contract is always going to be
+ 
+
+409
+00:07:03,800 --> 00:07:06,350
+smart contract is always going to be
+your context. So, this context is
+
+410
+00:07:06,350 --> 00:07:06,360
+your context. So, this context is
+ 
+
+411
+00:07:06,360 --> 00:07:08,470
+your context. So, this context is
+actually a data structure of all the
+
+412
+00:07:08,470 --> 00:07:08,480
+actually a data structure of all the
+ 
+
+413
+00:07:08,480 --> 00:07:10,030
+actually a data structure of all the
+accounts that need to be passed through
+
+414
+00:07:10,030 --> 00:07:10,040
+accounts that need to be passed through
+ 
+
+415
+00:07:10,040 --> 00:07:12,550
+accounts that need to be passed through
+the instruction to accurately execute
+
+416
+00:07:12,550 --> 00:07:12,560
+the instruction to accurately execute
+ 
+
+417
+00:07:12,560 --> 00:07:15,070
+the instruction to accurately execute
+the logic. So, we're going to need to
+
+418
+00:07:15,070 --> 00:07:15,080
+the logic. So, we're going to need to
+ 
+
+419
+00:07:15,080 --> 00:07:17,030
+the logic. So, we're going to need to
+create a data structure that holds all
+
+420
+00:07:17,030 --> 00:07:17,040
+create a data structure that holds all
+ 
+
+421
+00:07:17,040 --> 00:07:19,310
+create a data structure that holds all
+of the accounts and then defines what
+
+422
+00:07:19,310 --> 00:07:19,320
+of the accounts and then defines what
+ 
+
+423
+00:07:19,320 --> 00:07:21,470
+of the accounts and then defines what
+actions need to be done on each account
+
+424
+00:07:21,470 --> 00:07:21,480
+actions need to be done on each account
+ 
+
+425
+00:07:21,480 --> 00:07:23,830
+actions need to be done on each account
+for this instruction. So, it'll make a
+
+426
+00:07:23,830 --> 00:07:23,840
+for this instruction. So, it'll make a
+ 
+
+427
+00:07:23,840 --> 00:07:25,070
+for this instruction. So, it'll make a
+little bit more sense as we actually
+
+428
+00:07:25,070 --> 00:07:25,080
+little bit more sense as we actually
+ 
+
+429
+00:07:25,080 --> 00:07:27,270
+little bit more sense as we actually
+write it out. So, let's update this to
+
+430
+00:07:27,270 --> 00:07:27,280
+write it out. So, let's update this to
+ 
+
+431
+00:07:27,280 --> 00:07:29,510
+write it out. So, let's update this to
+create.
+
+432
+00:07:29,510 --> 00:07:29,520
+create.
+ 
+
+433
+00:07:29,520 --> 00:07:32,710
+create.
+And we'll go down here to create our
+
+434
+00:07:32,710 --> 00:07:32,720
+And we'll go down here to create our
+ 
+
+435
+00:07:32,720 --> 00:07:34,950
+And we'll go down here to create our
+struct for that.
+
+436
+00:07:34,950 --> 00:07:34,960
+struct for that.
+ 
+
+437
+00:07:34,960 --> 00:07:36,950
+struct for that.
+So, here we're going to use the derive
+
+438
+00:07:36,950 --> 00:07:36,960
+So, here we're going to use the derive
+ 
+
+439
+00:07:36,960 --> 00:07:39,110
+So, here we're going to use the derive
+accounts macro from Anchor.
+
+440
+00:07:39,110 --> 00:07:39,120
+accounts macro from Anchor.
+ 
+
+441
+00:07:39,120 --> 00:07:42,430
+accounts macro from Anchor.
+Um,
+
+442
+00:07:42,430 --> 00:07:42,440
+
+ 
+
+443
+00:07:42,440 --> 00:07:43,550
+
+this may seem like a lot in the
+
+444
+00:07:43,550 --> 00:07:43,560
+this may seem like a lot in the
+ 
+
+445
+00:07:43,560 --> 00:07:44,710
+this may seem like a lot in the
+beginning, but it does get very
+
+446
+00:07:44,710 --> 00:07:44,720
+beginning, but it does get very
+ 
+
+447
+00:07:44,720 --> 00:07:46,670
+beginning, but it does get very
+repetitive. So, the more you do this,
+
+448
+00:07:46,670 --> 00:07:46,680
+repetitive. So, the more you do this,
+ 
+
+449
+00:07:46,680 --> 00:07:48,990
+repetitive. So, the more you do this,
+it'll start to stick.
+
+450
+00:07:48,990 --> 00:07:49,000
+it'll start to stick.
+ 
+
+451
+00:07:49,000 --> 00:07:49,990
+it'll start to stick.
+Okay.
+
+452
+00:07:49,990 --> 00:07:50,000
+Okay.
+ 
+
+453
+00:07:50,000 --> 00:07:52,070
+Okay.
+So, we'll do derive accounts and we'll
+
+454
+00:07:52,070 --> 00:07:52,080
+So, we'll do derive accounts and we'll
+ 
+
+455
+00:07:52,080 --> 00:07:56,950
+So, we'll do derive accounts and we'll
+define this.
+
+456
+00:07:56,950 --> 00:07:56,960
+
+ 
+
+457
+00:07:56,960 --> 00:07:58,750
+
+Now, for here, we'll be using a lifetime
+
+458
+00:07:58,750 --> 00:07:58,760
+Now, for here, we'll be using a lifetime
+ 
+
+459
+00:07:58,760 --> 00:08:01,630
+Now, for here, we'll be using a lifetime
+specifier and that's really just
+
+460
+00:08:01,630 --> 00:08:01,640
+specifier and that's really just
+ 
+
+461
+00:08:01,640 --> 00:08:03,670
+specifier and that's really just
+a Rust thing that says, "Hey, I need to
+
+462
+00:08:03,670 --> 00:08:03,680
+a Rust thing that says, "Hey, I need to
+ 
+
+463
+00:08:03,680 --> 00:08:05,390
+a Rust thing that says, "Hey, I need to
+make sure that all of these variables
+
+464
+00:08:05,390 --> 00:08:05,400
+make sure that all of these variables
+ 
+
+465
+00:08:05,400 --> 00:08:07,190
+make sure that all of these variables
+stay alive throughout the entire
+
+466
+00:08:07,190 --> 00:08:07,200
+stay alive throughout the entire
+ 
+
+467
+00:08:07,200 --> 00:08:10,190
+stay alive throughout the entire
+lifetime of this instruction." Now, we
+
+468
+00:08:10,190 --> 00:08:10,200
+lifetime of this instruction." Now, we
+ 
+
+469
+00:08:10,200 --> 00:08:11,830
+lifetime of this instruction." Now, we
+just need to define every account that
+
+470
+00:08:11,830 --> 00:08:11,840
+just need to define every account that
+ 
+
+471
+00:08:11,840 --> 00:08:13,870
+just need to define every account that
+needs to be passed through in our create
+
+472
+00:08:13,870 --> 00:08:13,880
+needs to be passed through in our create
+ 
+
+473
+00:08:13,880 --> 00:08:16,230
+needs to be passed through in our create
+instruction. So, the first one, pretty
+
+474
+00:08:16,230 --> 00:08:16,240
+instruction. So, the first one, pretty
+ 
+
+475
+00:08:16,240 --> 00:08:18,270
+instruction. So, the first one, pretty
+obvious, is we're creating a journal
+
+476
+00:08:18,270 --> 00:08:18,280
+obvious, is we're creating a journal
+ 
+
+477
+00:08:18,280 --> 00:08:19,830
+obvious, is we're creating a journal
+account. So, that's going to be an
+
+478
+00:08:19,830 --> 00:08:19,840
+account. So, that's going to be an
+ 
+
+479
+00:08:19,840 --> 00:08:20,790
+account. So, that's going to be an
+account that we're going to have to pass
+
+480
+00:08:20,790 --> 00:08:20,800
+account that we're going to have to pass
+ 
+
+481
+00:08:20,800 --> 00:08:22,430
+account that we're going to have to pass
+through.
+
+482
+00:08:22,430 --> 00:08:22,440
+through.
+ 
+
+483
+00:08:22,440 --> 00:08:24,190
+through.
+We can define each account with this
+
+484
+00:08:24,190 --> 00:08:24,200
+We can define each account with this
+ 
+
+485
+00:08:24,200 --> 00:08:27,150
+We can define each account with this
+account macro. And then whatever actions
+
+486
+00:08:27,150 --> 00:08:27,160
+account macro. And then whatever actions
+ 
+
+487
+00:08:27,160 --> 00:08:29,150
+account macro. And then whatever actions
+need to be done with this account, we
+
+488
+00:08:29,150 --> 00:08:29,160
+need to be done with this account, we
+ 
+
+489
+00:08:29,160 --> 00:08:30,990
+need to be done with this account, we
+can define within a constraint on that
+
+490
+00:08:30,990 --> 00:08:31,000
+can define within a constraint on that
+ 
+
+491
+00:08:31,000 --> 00:08:32,550
+can define within a constraint on that
+account, which I'll show you what that
+
+492
+00:08:32,550 --> 00:08:32,560
+account, which I'll show you what that
+ 
+
+493
+00:08:32,560 --> 00:08:36,230
+account, which I'll show you what that
+is in just 1 second. But first, let's
+
+494
+00:08:36,230 --> 00:08:36,240
+is in just 1 second. But first, let's
+ 
+
+495
+00:08:36,240 --> 00:08:37,830
+is in just 1 second. But first, let's
+write the account. So, this will be my
+
+496
+00:08:37,830 --> 00:08:37,840
+write the account. So, this will be my
+ 
+
+497
+00:08:37,840 --> 00:08:42,029
+write the account. So, this will be my
+journal.
+
+498
+00:08:42,029 --> 00:08:42,039
+
+ 
+
+499
+00:08:42,039 --> 00:08:43,909
+
+And it's going to be an account type
+
+500
+00:08:43,909 --> 00:08:43,919
+And it's going to be an account type
+ 
+
+501
+00:08:43,919 --> 00:08:48,110
+And it's going to be an account type
+with our lifetime specifier.
+
+502
+00:08:48,110 --> 00:08:48,120
+
+ 
+
+503
+00:08:48,120 --> 00:08:51,390
+
+And it's going to contain the type of
+
+504
+00:08:51,390 --> 00:08:51,400
+And it's going to contain the type of
+ 
+
+505
+00:08:51,400 --> 00:08:55,870
+And it's going to contain the type of
+this data structure down here.
+
+506
+00:08:55,870 --> 00:08:55,880
+
+ 
+
+507
+00:08:55,880 --> 00:08:57,510
+
+Okay.
+
+508
+00:08:57,510 --> 00:08:57,520
+Okay.
+ 
+
+509
+00:08:57,520 --> 00:08:58,830
+Okay.
+So,
+
+510
+00:08:58,830 --> 00:08:58,840
+So,
+ 
+
+511
+00:08:58,840 --> 00:09:00,670
+So,
+now we defined the account that we have
+
+512
+00:09:00,670 --> 00:09:00,680
+now we defined the account that we have
+ 
+
+513
+00:09:00,680 --> 00:09:02,390
+now we defined the account that we have
+to pass through, but this account, it
+
+514
+00:09:02,390 --> 00:09:02,400
+to pass through, but this account, it
+ 
+
+515
+00:09:02,400 --> 00:09:03,990
+to pass through, but this account, it
+hasn't been created yet. So, the way
+
+516
+00:09:03,990 --> 00:09:04,000
+hasn't been created yet. So, the way
+ 
+
+517
+00:09:04,000 --> 00:09:05,790
+hasn't been created yet. So, the way
+that we're going to create this account
+
+518
+00:09:05,790 --> 00:09:05,800
+that we're going to create this account
+ 
+
+519
+00:09:05,800 --> 00:09:08,790
+that we're going to create this account
+is just by using the init constraint on
+
+520
+00:09:08,790 --> 00:09:08,800
+is just by using the init constraint on
+ 
+
+521
+00:09:08,800 --> 00:09:10,070
+is just by using the init constraint on
+the account.
+
+522
+00:09:10,070 --> 00:09:10,080
+the account.
+ 
+
+523
+00:09:10,080 --> 00:09:12,750
+the account.
+So, now whenever we initialize an
+
+524
+00:09:12,750 --> 00:09:12,760
+So, now whenever we initialize an
+ 
+
+525
+00:09:12,760 --> 00:09:14,190
+So, now whenever we initialize an
+account,
+
+526
+00:09:14,190 --> 00:09:14,200
+account,
+ 
+
+527
+00:09:14,200 --> 00:09:15,470
+account,
+we're going to have to have a payer
+
+528
+00:09:15,470 --> 00:09:15,480
+we're going to have to have a payer
+ 
+
+529
+00:09:15,480 --> 00:09:17,470
+we're going to have to have a payer
+because that payer is going to be paying
+
+530
+00:09:17,470 --> 00:09:17,480
+because that payer is going to be paying
+ 
+
+531
+00:09:17,480 --> 00:09:20,070
+because that payer is going to be paying
+the rent to have the account on chain.
+
+532
+00:09:20,070 --> 00:09:20,080
+the rent to have the account on chain.
+ 
+
+533
+00:09:20,080 --> 00:09:21,590
+the rent to have the account on chain.
+So, we have to define that whenever
+
+534
+00:09:21,590 --> 00:09:21,600
+So, we have to define that whenever
+ 
+
+535
+00:09:21,600 --> 00:09:23,390
+So, we have to define that whenever
+we're initializing. Now, who is that
+
+536
+00:09:23,390 --> 00:09:23,400
+we're initializing. Now, who is that
+ 
+
+537
+00:09:23,400 --> 00:09:24,550
+we're initializing. Now, who is that
+payer going to be? Well, it's going to
+
+538
+00:09:24,550 --> 00:09:24,560
+payer going to be? Well, it's going to
+ 
+
+539
+00:09:24,560 --> 00:09:26,430
+payer going to be? Well, it's going to
+be the owner of the journal because
+
+540
+00:09:26,430 --> 00:09:26,440
+be the owner of the journal because
+ 
+
+541
+00:09:26,440 --> 00:09:27,710
+be the owner of the journal because
+that's who is going to be signing the
+
+542
+00:09:27,710 --> 00:09:27,720
+that's who is going to be signing the
+ 
+
+543
+00:09:27,720 --> 00:09:30,630
+that's who is going to be signing the
+instruction to create the account. So,
+
+544
+00:09:30,630 --> 00:09:30,640
+instruction to create the account. So,
+ 
+
+545
+00:09:30,640 --> 00:09:31,630
+instruction to create the account. So,
+the owner is actually going to be
+
+546
+00:09:31,630 --> 00:09:31,640
+the owner is actually going to be
+ 
+
+547
+00:09:31,640 --> 00:09:32,670
+the owner is actually going to be
+another account that we're going to have
+
+548
+00:09:32,670 --> 00:09:32,680
+another account that we're going to have
+ 
+
+549
+00:09:32,680 --> 00:09:34,390
+another account that we're going to have
+to pass through.
+
+550
+00:09:34,390 --> 00:09:34,400
+to pass through.
+ 
+
+551
+00:09:34,400 --> 00:09:39,110
+to pass through.
+So, we can define that here.
+
+552
+00:09:39,110 --> 00:09:39,120
+
+ 
+
+553
+00:09:39,120 --> 00:09:40,790
+
+And the owner will be a signer type
+
+554
+00:09:40,790 --> 00:09:40,800
+And the owner will be a signer type
+ 
+
+555
+00:09:40,800 --> 00:09:42,470
+And the owner will be a signer type
+because that is who is signing the
+
+556
+00:09:42,470 --> 00:09:42,480
+because that is who is signing the
+ 
+
+557
+00:09:42,480 --> 00:09:45,950
+because that is who is signing the
+instruction.
+
+558
+00:09:45,950 --> 00:09:45,960
+
+ 
+
+559
+00:09:45,960 --> 00:09:47,510
+
+Okay.
+
+560
+00:09:47,510 --> 00:09:47,520
+Okay.
+ 
+
+561
+00:09:47,520 --> 00:09:49,110
+Okay.
+So, now I can define the payer as my
+
+562
+00:09:49,110 --> 00:09:49,120
+So, now I can define the payer as my
+ 
+
+563
+00:09:49,120 --> 00:09:50,470
+So, now I can define the payer as my
+owner.
+
+564
+00:09:50,470 --> 00:09:50,480
+owner.
+ 
+
+565
+00:09:50,480 --> 00:09:52,630
+owner.
+And since I'm initializing, I have to
+
+566
+00:09:52,630 --> 00:09:52,640
+And since I'm initializing, I have to
+ 
+
+567
+00:09:52,640 --> 00:09:55,070
+And since I'm initializing, I have to
+calculate how much space this account is
+
+568
+00:09:55,070 --> 00:09:55,080
+calculate how much space this account is
+ 
+
+569
+00:09:55,080 --> 00:09:57,310
+calculate how much space this account is
+going to take up on chain. So, to do
+
+570
+00:09:57,310 --> 00:09:57,320
+going to take up on chain. So, to do
+ 
+
+571
+00:09:57,320 --> 00:09:58,230
+going to take up on chain. So, to do
+that
+
+572
+00:09:58,230 --> 00:09:58,240
+that
+ 
+
+573
+00:09:58,240 --> 00:10:00,710
+that
+I can define the discriminator.
+
+574
+00:10:00,710 --> 00:10:00,720
+I can define the discriminator.
+ 
+
+575
+00:10:00,720 --> 00:10:03,030
+I can define the discriminator.
+And then I can define the discriminator.
+
+576
+00:10:03,030 --> 00:10:03,040
+And then I can define the discriminator.
+ 
+
+577
+00:10:03,040 --> 00:10:05,110
+And then I can define the discriminator.
+So, we're going to use eight, which is
+
+578
+00:10:05,110 --> 00:10:05,120
+So, we're going to use eight, which is
+ 
+
+579
+00:10:05,120 --> 00:10:07,430
+So, we're going to use eight, which is
+just the basic discriminator for Anchor.
+
+580
+00:10:07,430 --> 00:10:07,440
+just the basic discriminator for Anchor.
+ 
+
+581
+00:10:07,440 --> 00:10:09,030
+just the basic discriminator for Anchor.
+Um with this new Anchor version, you can
+
+582
+00:10:09,030 --> 00:10:09,040
+Um with this new Anchor version, you can
+ 
+
+583
+00:10:09,040 --> 00:10:10,830
+Um with this new Anchor version, you can
+customize your discriminator for more
+
+584
+00:10:10,830 --> 00:10:10,840
+customize your discriminator for more
+ 
+
+585
+00:10:10,840 --> 00:10:12,710
+customize your discriminator for more
+efficiency, but since we're just going
+
+586
+00:10:12,710 --> 00:10:12,720
+efficiency, but since we're just going
+ 
+
+587
+00:10:12,720 --> 00:10:13,710
+efficiency, but since we're just going
+over
+
+588
+00:10:13,710 --> 00:10:13,720
+over
+ 
+
+589
+00:10:13,720 --> 00:10:15,710
+over
+how to make a crowd app at a base level,
+
+590
+00:10:15,710 --> 00:10:15,720
+how to make a crowd app at a base level,
+ 
+
+591
+00:10:15,720 --> 00:10:17,670
+how to make a crowd app at a base level,
+um we're just going to stick with
+
+592
+00:10:17,670 --> 00:10:17,680
+um we're just going to stick with
+ 
+
+593
+00:10:17,680 --> 00:10:18,790
+um we're just going to stick with
+eight as our discriminator, and then
+
+594
+00:10:18,790 --> 00:10:18,800
+eight as our discriminator, and then
+ 
+
+595
+00:10:18,800 --> 00:10:21,150
+eight as our discriminator, and then
+we're going to add in the init space
+
+596
+00:10:21,150 --> 00:10:21,160
+we're going to add in the init space
+ 
+
+597
+00:10:21,160 --> 00:10:25,350
+we're going to add in the init space
+calculation. Um which we can do
+
+598
+00:10:25,350 --> 00:10:25,360
+calculation. Um which we can do
+ 
+
+599
+00:10:25,360 --> 00:10:28,870
+calculation. Um which we can do
+by typing in our struct down here.
+
+600
+00:10:28,870 --> 00:10:28,880
+by typing in our struct down here.
+ 
+
+601
+00:10:28,880 --> 00:10:36,870
+by typing in our struct down here.
+And then init space.
+
+602
+00:10:36,870 --> 00:10:36,880
+
+ 
+
+603
+00:10:36,880 --> 00:10:38,830
+
+Okay.
+
+604
+00:10:38,830 --> 00:10:38,840
+Okay.
+ 
+
+605
+00:10:38,840 --> 00:10:40,790
+Okay.
+So, that will auto calculate the space
+
+606
+00:10:40,790 --> 00:10:40,800
+So, that will auto calculate the space
+ 
+
+607
+00:10:40,800 --> 00:10:42,750
+So, that will auto calculate the space
+for us since we used this derive init
+
+608
+00:10:42,750 --> 00:10:42,760
+for us since we used this derive init
+ 
+
+609
+00:10:42,760 --> 00:10:44,870
+for us since we used this derive init
+space macro when we defined our journal
+
+610
+00:10:44,870 --> 00:10:44,880
+space macro when we defined our journal
+ 
+
+611
+00:10:44,880 --> 00:10:46,350
+space macro when we defined our journal
+struct.
+
+612
+00:10:46,350 --> 00:10:46,360
+struct.
+ 
+
+613
+00:10:46,360 --> 00:10:47,470
+struct.
+Okay.
+
+614
+00:10:47,470 --> 00:10:47,480
+Okay.
+ 
+
+615
+00:10:47,480 --> 00:10:49,190
+Okay.
+Now that that's done,
+
+616
+00:10:49,190 --> 00:10:49,200
+Now that that's done,
+ 
+
+617
+00:10:49,200 --> 00:10:50,830
+Now that that's done,
+um
+
+618
+00:10:50,830 --> 00:10:50,840
+um
+ 
+
+619
+00:10:50,840 --> 00:10:52,350
+um
+I'm going to want to create my journal
+
+620
+00:10:52,350 --> 00:10:52,360
+I'm going to want to create my journal
+ 
+
+621
+00:10:52,360 --> 00:10:54,150
+I'm going to want to create my journal
+as a PDA. They're going to define the
+
+622
+00:10:54,150 --> 00:10:54,160
+as a PDA. They're going to define the
+ 
+
+623
+00:10:54,160 --> 00:10:55,510
+as a PDA. They're going to define the
+account and be able to generate the
+
+624
+00:10:55,510 --> 00:10:55,520
+account and be able to generate the
+ 
+
+625
+00:10:55,520 --> 00:10:59,790
+account and be able to generate the
+account address. So,
+
+626
+00:10:59,790 --> 00:10:59,800
+
+ 
+
+627
+00:10:59,800 --> 00:11:01,030
+
+first I'll define what the seeds are.
+
+628
+00:11:01,030 --> 00:11:01,040
+first I'll define what the seeds are.
+ 
+
+629
+00:11:01,040 --> 00:11:02,030
+first I'll define what the seeds are.
+Now,
+
+630
+00:11:02,030 --> 00:11:02,040
+Now,
+ 
+
+631
+00:11:02,040 --> 00:11:03,550
+Now,
+whenever you create an account that has
+
+632
+00:11:03,550 --> 00:11:03,560
+whenever you create an account that has
+ 
+
+633
+00:11:03,560 --> 00:11:06,590
+whenever you create an account that has
+a PDA, um you can optimize how you use
+
+634
+00:11:06,590 --> 00:11:06,600
+a PDA, um you can optimize how you use
+ 
+
+635
+00:11:06,600 --> 00:11:08,790
+a PDA, um you can optimize how you use
+that PDA. So, here I'm going to be
+
+636
+00:11:08,790 --> 00:11:08,800
+that PDA. So, here I'm going to be
+ 
+
+637
+00:11:08,800 --> 00:11:10,630
+that PDA. So, here I'm going to be
+defining
+
+638
+00:11:10,630 --> 00:11:10,640
+defining
+ 
+
+639
+00:11:10,640 --> 00:11:13,510
+defining
+my title and my owner as the seeds for
+
+640
+00:11:13,510 --> 00:11:13,520
+my title and my owner as the seeds for
+ 
+
+641
+00:11:13,520 --> 00:11:17,150
+my title and my owner as the seeds for
+the PDA. If I let's say I defined my PDA
+
+642
+00:11:17,150 --> 00:11:17,160
+the PDA. If I let's say I defined my PDA
+ 
+
+643
+00:11:17,160 --> 00:11:19,990
+the PDA. If I let's say I defined my PDA
+as just the owner, and that was the only
+
+644
+00:11:19,990 --> 00:11:20,000
+as just the owner, and that was the only
+ 
+
+645
+00:11:20,000 --> 00:11:21,829
+as just the owner, and that was the only
+value I use as a seeds. Well, if that
+
+646
+00:11:21,829 --> 00:11:21,839
+value I use as a seeds. Well, if that
+ 
+
+647
+00:11:21,839 --> 00:11:24,510
+value I use as a seeds. Well, if that
+was the case, then my wallet could only
+
+648
+00:11:24,510 --> 00:11:24,520
+was the case, then my wallet could only
+ 
+
+649
+00:11:24,520 --> 00:11:26,950
+was the case, then my wallet could only
+have one account. So, I could only make
+
+650
+00:11:26,950 --> 00:11:26,960
+have one account. So, I could only make
+ 
+
+651
+00:11:26,960 --> 00:11:29,710
+have one account. So, I could only make
+one journal entry for my journal because
+
+652
+00:11:29,710 --> 00:11:29,720
+one journal entry for my journal because
+ 
+
+653
+00:11:29,720 --> 00:11:32,110
+one journal entry for my journal because
+I have one wallet. So, putting the same
+
+654
+00:11:32,110 --> 00:11:32,120
+I have one wallet. So, putting the same
+ 
+
+655
+00:11:32,120 --> 00:11:34,150
+I have one wallet. So, putting the same
+input value in is going to generate the
+
+656
+00:11:34,150 --> 00:11:34,160
+input value in is going to generate the
+ 
+
+657
+00:11:34,160 --> 00:11:37,350
+input value in is going to generate the
+same PDA out. So, here I'm going to also
+
+658
+00:11:37,350 --> 00:11:37,360
+same PDA out. So, here I'm going to also
+ 
+
+659
+00:11:37,360 --> 00:11:39,190
+same PDA out. So, here I'm going to also
+define the title of my journal entry as
+
+660
+00:11:39,190 --> 00:11:39,200
+define the title of my journal entry as
+ 
+
+661
+00:11:39,200 --> 00:11:42,070
+define the title of my journal entry as
+part of the PDA generation. Now,
+
+662
+00:11:42,070 --> 00:11:42,080
+part of the PDA generation. Now,
+ 
+
+663
+00:11:42,080 --> 00:11:44,390
+part of the PDA generation. Now,
+this does kind of cause some confusion
+
+664
+00:11:44,390 --> 00:11:44,400
+this does kind of cause some confusion
+ 
+
+665
+00:11:44,400 --> 00:11:46,390
+this does kind of cause some confusion
+cuz now I can only have that title used
+
+666
+00:11:46,390 --> 00:11:46,400
+cuz now I can only have that title used
+ 
+
+667
+00:11:46,400 --> 00:11:48,110
+cuz now I can only have that title used
+once. Um so, there's further
+
+668
+00:11:48,110 --> 00:11:48,120
+once. Um so, there's further
+ 
+
+669
+00:11:48,120 --> 00:11:49,550
+once. Um so, there's further
+optimizations that you can do here with
+
+670
+00:11:49,550 --> 00:11:49,560
+optimizations that you can do here with
+ 
+
+671
+00:11:49,560 --> 00:11:51,829
+optimizations that you can do here with
+your PDA, but at a baseline this works.
+
+672
+00:11:51,829 --> 00:11:51,839
+your PDA, but at a baseline this works.
+ 
+
+673
+00:11:51,839 --> 00:11:52,910
+your PDA, but at a baseline this works.
+So, we're going to stick to this for
+
+674
+00:11:52,910 --> 00:11:52,920
+So, we're going to stick to this for
+ 
+
+675
+00:11:52,920 --> 00:11:55,990
+So, we're going to stick to this for
+now.
+
+676
+00:11:55,990 --> 00:11:56,000
+
+ 
+
+677
+00:11:56,000 --> 00:11:58,390
+
+Now, the concept of a PDA um is pretty
+
+678
+00:11:58,390 --> 00:11:58,400
+Now, the concept of a PDA um is pretty
+ 
+
+679
+00:11:58,400 --> 00:12:00,510
+Now, the concept of a PDA um is pretty
+confusing in the beginning. So, I do
+
+680
+00:12:00,510 --> 00:12:00,520
+confusing in the beginning. So, I do
+ 
+
+681
+00:12:00,520 --> 00:12:02,390
+confusing in the beginning. So, I do
+have a video just explaining what PDAs
+
+682
+00:12:02,390 --> 00:12:02,400
+have a video just explaining what PDAs
+ 
+
+683
+00:12:02,400 --> 00:12:04,590
+have a video just explaining what PDAs
+are, which I'll link here. And then as
+
+684
+00:12:04,590 --> 00:12:04,600
+are, which I'll link here. And then as
+ 
+
+685
+00:12:04,600 --> 00:12:06,470
+are, which I'll link here. And then as
+you start to write more smart contracts,
+
+686
+00:12:06,470 --> 00:12:06,480
+you start to write more smart contracts,
+ 
+
+687
+00:12:06,480 --> 00:12:09,030
+you start to write more smart contracts,
+you'll start to see ways to use PDAs to
+
+688
+00:12:09,030 --> 00:12:09,040
+you'll start to see ways to use PDAs to
+ 
+
+689
+00:12:09,040 --> 00:12:11,070
+you'll start to see ways to use PDAs to
+optimize your programs. Um it just comes
+
+690
+00:12:11,070 --> 00:12:11,080
+optimize your programs. Um it just comes
+ 
+
+691
+00:12:11,080 --> 00:12:12,790
+optimize your programs. Um it just comes
+with time. But for now, we're just going
+
+692
+00:12:12,790 --> 00:12:12,800
+with time. But for now, we're just going
+ 
+
+693
+00:12:12,800 --> 00:12:14,590
+with time. But for now, we're just going
+to understand that it's a seed and a
+
+694
+00:12:14,590 --> 00:12:14,600
+to understand that it's a seed and a
+ 
+
+695
+00:12:14,600 --> 00:12:19,430
+to understand that it's a seed and a
+bump to generate your PDA.
+
+696
+00:12:19,430 --> 00:12:19,440
+
+ 
+
+697
+00:12:19,440 --> 00:12:21,310
+
+So, my input values for my seed are the
+
+698
+00:12:21,310 --> 00:12:21,320
+So, my input values for my seed are the
+ 
+
+699
+00:12:21,320 --> 00:12:22,470
+So, my input values for my seed are the
+title
+
+700
+00:12:22,470 --> 00:12:22,480
+title
+ 
+
+701
+00:12:22,480 --> 00:12:26,510
+title
+and the owner.
+
+702
+00:12:26,510 --> 00:12:26,520
+
+ 
+
+703
+00:12:26,520 --> 00:12:28,190
+
+And this will be the key. So, it'll be
+
+704
+00:12:28,190 --> 00:12:28,200
+And this will be the key. So, it'll be
+ 
+
+705
+00:12:28,200 --> 00:12:29,829
+And this will be the key. So, it'll be
+the public key of my wallet that's
+
+706
+00:12:29,829 --> 00:12:29,839
+the public key of my wallet that's
+ 
+
+707
+00:12:29,839 --> 00:12:34,390
+the public key of my wallet that's
+connected to the front end.
+
+708
+00:12:34,390 --> 00:12:34,400
+
+ 
+
+709
+00:12:34,400 --> 00:12:36,190
+
+Now, every time I define my seeds, I
+
+710
+00:12:36,190 --> 00:12:36,200
+Now, every time I define my seeds, I
+ 
+
+711
+00:12:36,200 --> 00:12:40,870
+Now, every time I define my seeds, I
+also have to define the bump.
+
+712
+00:12:40,870 --> 00:12:40,880
+
+ 
+
+713
+00:12:40,880 --> 00:12:42,390
+
+If you're still confused on what a bump
+
+714
+00:12:42,390 --> 00:12:42,400
+If you're still confused on what a bump
+ 
+
+715
+00:12:42,400 --> 00:12:44,870
+If you're still confused on what a bump
+is, check out the PDA explanation video
+
+716
+00:12:44,870 --> 00:12:44,880
+is, check out the PDA explanation video
+ 
+
+717
+00:12:44,880 --> 00:12:46,270
+is, check out the PDA explanation video
+that I linked here.
+
+718
+00:12:46,270 --> 00:12:46,280
+that I linked here.
+ 
+
+719
+00:12:46,280 --> 00:12:48,270
+that I linked here.
+Um
+
+720
+00:12:48,270 --> 00:12:48,280
+Um
+ 
+
+721
+00:12:48,280 --> 00:12:52,230
+Um
+Okay. Now that that's done,
+
+722
+00:12:52,230 --> 00:12:52,240
+
+ 
+
+723
+00:12:52,240 --> 00:12:53,990
+
+I have my signer. Now, there's one
+
+724
+00:12:53,990 --> 00:12:54,000
+I have my signer. Now, there's one
+ 
+
+725
+00:12:54,000 --> 00:12:55,310
+I have my signer. Now, there's one
+constraint I'm going to have to add to
+
+726
+00:12:55,310 --> 00:12:55,320
+constraint I'm going to have to add to
+ 
+
+727
+00:12:55,320 --> 00:12:57,390
+constraint I'm going to have to add to
+this account, and that's mute.
+
+728
+00:12:57,390 --> 00:12:57,400
+this account, and that's mute.
+ 
+
+729
+00:12:57,400 --> 00:12:59,950
+this account, and that's mute.
+So, in Rust, all variables are immutable
+
+730
+00:12:59,950 --> 00:12:59,960
+So, in Rust, all variables are immutable
+ 
+
+731
+00:12:59,960 --> 00:13:01,550
+So, in Rust, all variables are immutable
+by default. So, if any part of your
+
+732
+00:13:01,550 --> 00:13:01,560
+by default. So, if any part of your
+ 
+
+733
+00:13:01,560 --> 00:13:03,230
+by default. So, if any part of your
+state is going to be changing in the
+
+734
+00:13:03,230 --> 00:13:03,240
+state is going to be changing in the
+ 
+
+735
+00:13:03,240 --> 00:13:04,829
+state is going to be changing in the
+instruction logic, you have to mark that
+
+736
+00:13:04,829 --> 00:13:04,839
+instruction logic, you have to mark that
+ 
+
+737
+00:13:04,839 --> 00:13:07,670
+instruction logic, you have to mark that
+account as mutable. So,
+
+738
+00:13:07,670 --> 00:13:07,680
+account as mutable. So,
+ 
+
+739
+00:13:07,680 --> 00:13:09,670
+account as mutable. So,
+since the owner is going to have the
+
+740
+00:13:09,670 --> 00:13:09,680
+since the owner is going to have the
+ 
+
+741
+00:13:09,680 --> 00:13:11,190
+since the owner is going to have the
+account balance change to pay rent,
+
+742
+00:13:11,190 --> 00:13:11,200
+account balance change to pay rent,
+ 
+
+743
+00:13:11,200 --> 00:13:12,829
+account balance change to pay rent,
+we're going to have to mark the signer
+
+744
+00:13:12,829 --> 00:13:12,839
+we're going to have to mark the signer
+ 
+
+745
+00:13:12,839 --> 00:13:17,990
+we're going to have to mark the signer
+here as mutable.
+
+746
+00:13:17,990 --> 00:13:18,000
+
+ 
+
+747
+00:13:18,000 --> 00:13:18,790
+
+Okay.
+
+748
+00:13:18,790 --> 00:13:18,800
+Okay.
+ 
+
+749
+00:13:18,800 --> 00:13:20,430
+Okay.
+And then the last account that we have
+
+750
+00:13:20,430 --> 00:13:20,440
+And then the last account that we have
+ 
+
+751
+00:13:20,440 --> 00:13:21,870
+And then the last account that we have
+to pass through is our system program.
+
+752
+00:13:21,870 --> 00:13:21,880
+to pass through is our system program.
+ 
+
+753
+00:13:21,880 --> 00:13:23,310
+to pass through is our system program.
+So, anytime we're creating a new
+
+754
+00:13:23,310 --> 00:13:23,320
+So, anytime we're creating a new
+ 
+
+755
+00:13:23,320 --> 00:13:24,670
+So, anytime we're creating a new
+account, we're going to have to pass
+
+756
+00:13:24,670 --> 00:13:24,680
+account, we're going to have to pass
+ 
+
+757
+00:13:24,680 --> 00:13:40,390
+account, we're going to have to pass
+through the system program.
+
+758
+00:13:40,390 --> 00:13:40,400
+
+ 
+
+759
+00:13:40,400 --> 00:13:42,350
+
+Okay. And sorry, I had a typo here. It's
+
+760
+00:13:42,350 --> 00:13:42,360
+Okay. And sorry, I had a typo here. It's
+ 
+
+761
+00:13:42,360 --> 00:13:43,990
+Okay. And sorry, I had a typo here. It's
+actually accounts with an S, not just
+
+762
+00:13:43,990 --> 00:13:44,000
+actually accounts with an S, not just
+ 
+
+763
+00:13:44,000 --> 00:13:45,510
+actually accounts with an S, not just
+account. So, we're going to fix that and
+
+764
+00:13:45,510 --> 00:13:45,520
+account. So, we're going to fix that and
+ 
+
+765
+00:13:45,520 --> 00:13:47,470
+account. So, we're going to fix that and
+then get our errors to go away.
+
+766
+00:13:47,470 --> 00:13:47,480
+then get our errors to go away.
+ 
+
+767
+00:13:47,480 --> 00:13:49,430
+then get our errors to go away.
+Okay. So, now that our errors are gone,
+
+768
+00:13:49,430 --> 00:13:49,440
+Okay. So, now that our errors are gone,
+ 
+
+769
+00:13:49,440 --> 00:13:51,630
+Okay. So, now that our errors are gone,
+actually a new error was just generated.
+
+770
+00:13:51,630 --> 00:13:51,640
+actually a new error was just generated.
+ 
+
+771
+00:13:51,640 --> 00:13:55,030
+actually a new error was just generated.
+And the reason why is because
+
+772
+00:13:55,030 --> 00:13:55,040
+And the reason why is because
+ 
+
+773
+00:13:55,040 --> 00:13:56,550
+And the reason why is because
+in this struct, it doesn't know what a
+
+774
+00:13:56,550 --> 00:13:56,560
+in this struct, it doesn't know what a
+ 
+
+775
+00:13:56,560 --> 00:13:58,870
+in this struct, it doesn't know what a
+title is. So, you can see here it's able
+
+776
+00:13:58,870 --> 00:13:58,880
+title is. So, you can see here it's able
+ 
+
+777
+00:13:58,880 --> 00:14:00,790
+title is. So, you can see here it's able
+to access the owner field because we're
+
+778
+00:14:00,790 --> 00:14:00,800
+to access the owner field because we're
+ 
+
+779
+00:14:00,800 --> 00:14:02,590
+to access the owner field because we're
+passing through the owner account down
+
+780
+00:14:02,590 --> 00:14:02,600
+passing through the owner account down
+ 
+
+781
+00:14:02,600 --> 00:14:04,870
+passing through the owner account down
+here as an account. So, it can access
+
+782
+00:14:04,870 --> 00:14:04,880
+here as an account. So, it can access
+ 
+
+783
+00:14:04,880 --> 00:14:06,510
+here as an account. So, it can access
+that. But title, it doesn't know what
+
+784
+00:14:06,510 --> 00:14:06,520
+that. But title, it doesn't know what
+ 
+
+785
+00:14:06,520 --> 00:14:08,230
+that. But title, it doesn't know what
+that is. The title is actually going to
+
+786
+00:14:08,230 --> 00:14:08,240
+that is. The title is actually going to
+ 
+
+787
+00:14:08,240 --> 00:14:10,390
+that is. The title is actually going to
+be a user input value coming from that
+
+788
+00:14:10,390 --> 00:14:10,400
+be a user input value coming from that
+ 
+
+789
+00:14:10,400 --> 00:14:12,550
+be a user input value coming from that
+create instruction. So, let's go up here
+
+790
+00:14:12,550 --> 00:14:12,560
+create instruction. So, let's go up here
+ 
+
+791
+00:14:12,560 --> 00:14:13,790
+create instruction. So, let's go up here
+and define
+
+792
+00:14:13,790 --> 00:14:13,800
+and define
+ 
+
+793
+00:14:13,800 --> 00:14:15,430
+and define
+everything that the user is going to
+
+794
+00:14:15,430 --> 00:14:15,440
+everything that the user is going to
+ 
+
+795
+00:14:15,440 --> 00:14:16,870
+everything that the user is going to
+have to input on the front end of our
+
+796
+00:14:16,870 --> 00:14:16,880
+have to input on the front end of our
+ 
+
+797
+00:14:16,880 --> 00:14:18,829
+have to input on the front end of our
+application. So, the first is going to
+
+798
+00:14:18,829 --> 00:14:18,839
+application. So, the first is going to
+ 
+
+799
+00:14:18,839 --> 00:14:21,350
+application. So, the first is going to
+be the title.
+
+800
+00:14:21,350 --> 00:14:21,360
+be the title.
+ 
+
+801
+00:14:21,360 --> 00:14:22,829
+be the title.
+And then the second is going to be the
+
+802
+00:14:22,829 --> 00:14:22,839
+And then the second is going to be the
+ 
+
+803
+00:14:22,839 --> 00:14:28,350
+And then the second is going to be the
+message.
+
+804
+00:14:28,350 --> 00:14:28,360
+
+ 
+
+805
+00:14:28,360 --> 00:14:31,670
+
+Now, I can use another macro down here
+
+806
+00:14:31,670 --> 00:14:31,680
+Now, I can use another macro down here
+ 
+
+807
+00:14:31,680 --> 00:14:33,870
+Now, I can use another macro down here
+to say, "Hey, you're going to find what
+
+808
+00:14:33,870 --> 00:14:33,880
+to say, "Hey, you're going to find what
+ 
+
+809
+00:14:33,880 --> 00:14:35,710
+to say, "Hey, you're going to find what
+this title value is from the
+
+810
+00:14:35,710 --> 00:14:35,720
+this title value is from the
+ 
+
+811
+00:14:35,720 --> 00:14:39,910
+this title value is from the
+corresponding instruction." So,
+
+812
+00:14:39,910 --> 00:14:39,920
+
+ 
+
+813
+00:14:39,920 --> 00:14:43,949
+
+if I just do
+
+814
+00:14:43,949 --> 00:14:43,959
+
+ 
+
+815
+00:14:43,959 --> 00:14:45,550
+
+instruction
+
+816
+00:14:45,550 --> 00:14:45,560
+instruction
+ 
+
+817
+00:14:45,560 --> 00:14:52,390
+instruction
+and then I type in title,
+
+818
+00:14:52,390 --> 00:14:52,400
+
+ 
+
+819
+00:14:52,400 --> 00:14:54,590
+
+now it knows to pull the title field
+
+820
+00:14:54,590 --> 00:14:54,600
+now it knows to pull the title field
+ 
+
+821
+00:14:54,600 --> 00:14:56,430
+now it knows to pull the title field
+from the
+
+822
+00:14:56,430 --> 00:14:56,440
+from the
+ 
+
+823
+00:14:56,440 --> 00:14:58,230
+from the
+instruction up here. So, now the error
+
+824
+00:14:58,230 --> 00:14:58,240
+instruction up here. So, now the error
+ 
+
+825
+00:14:58,240 --> 00:15:00,550
+instruction up here. So, now the error
+went away.
+
+826
+00:15:00,550 --> 00:15:00,560
+went away.
+ 
+
+827
+00:15:00,560 --> 00:15:02,190
+went away.
+Okay.
+
+828
+00:15:02,190 --> 00:15:02,200
+Okay.
+ 
+
+829
+00:15:02,200 --> 00:15:03,710
+Okay.
+Now, I'm just going to remove that
+
+830
+00:15:03,710 --> 00:15:03,720
+Now, I'm just going to remove that
+ 
+
+831
+00:15:03,720 --> 00:15:06,310
+Now, I'm just going to remove that
+handler field because that came from our
+
+832
+00:15:06,310 --> 00:15:06,320
+handler field because that came from our
+ 
+
+833
+00:15:06,320 --> 00:15:07,910
+handler field because that came from our
+scaffold. Um we don't need that. We're
+
+834
+00:15:07,910 --> 00:15:07,920
+scaffold. Um we don't need that. We're
+ 
+
+835
+00:15:07,920 --> 00:15:09,829
+scaffold. Um we don't need that. We're
+going to write our own logic here.
+
+836
+00:15:09,829 --> 00:15:09,839
+going to write our own logic here.
+ 
+
+837
+00:15:09,839 --> 00:15:10,670
+going to write our own logic here.
+So,
+
+838
+00:15:10,670 --> 00:15:10,680
+So,
+ 
+
+839
+00:15:10,680 --> 00:15:12,670
+So,
+now that we've finished our derive
+
+840
+00:15:12,670 --> 00:15:12,680
+now that we've finished our derive
+ 
+
+841
+00:15:12,680 --> 00:15:14,190
+now that we've finished our derive
+account struct that has all of the
+
+842
+00:15:14,190 --> 00:15:14,200
+account struct that has all of the
+ 
+
+843
+00:15:14,200 --> 00:15:15,270
+account struct that has all of the
+accounts that are going to be passed
+
+844
+00:15:15,270 --> 00:15:15,280
+accounts that are going to be passed
+ 
+
+845
+00:15:15,280 --> 00:15:17,710
+accounts that are going to be passed
+through and how they need to be updated,
+
+846
+00:15:17,710 --> 00:15:17,720
+through and how they need to be updated,
+ 
+
+847
+00:15:17,720 --> 00:15:19,470
+through and how they need to be updated,
+now we just finish the logic in our
+
+848
+00:15:19,470 --> 00:15:19,480
+now we just finish the logic in our
+ 
+
+849
+00:15:19,480 --> 00:15:20,930
+now we just finish the logic in our
+actual create function.
+
+850
+00:15:20,930 --> 00:15:20,940
+actual create function.
+ 
+
+851
+00:15:20,940 --> 00:15:21,190
+actual create function.
+>> [snorts]
+
+852
+00:15:21,190 --> 00:15:21,200
+>> [snorts]
+ 
+
+853
+00:15:21,200 --> 00:15:22,670
+>> [snorts]
+>> So,
+
+854
+00:15:22,670 --> 00:15:22,680
+>> So,
+ 
+
+855
+00:15:22,680 --> 00:15:24,310
+>> So,
+all we're doing here is just saving
+
+856
+00:15:24,310 --> 00:15:24,320
+all we're doing here is just saving
+ 
+
+857
+00:15:24,320 --> 00:15:26,910
+all we're doing here is just saving
+title and message and owner into the
+
+858
+00:15:26,910 --> 00:15:26,920
+title and message and owner into the
+ 
+
+859
+00:15:26,920 --> 00:15:29,550
+title and message and owner into the
+field of our new
+
+860
+00:15:29,550 --> 00:15:29,560
+field of our new
+ 
+
+861
+00:15:29,560 --> 00:15:31,230
+field of our new
+journal entry account that's being
+
+862
+00:15:31,230 --> 00:15:31,240
+journal entry account that's being
+ 
+
+863
+00:15:31,240 --> 00:15:32,550
+journal entry account that's being
+created on chain.
+
+864
+00:15:32,550 --> 00:15:32,560
+created on chain.
+ 
+
+865
+00:15:32,560 --> 00:15:34,910
+created on chain.
+So,
+
+866
+00:15:34,910 --> 00:15:34,920
+
+ 
+
+867
+00:15:34,920 --> 00:15:36,750
+
+we can easily do that by loading in the
+
+868
+00:15:36,750 --> 00:15:36,760
+we can easily do that by loading in the
+ 
+
+869
+00:15:36,760 --> 00:15:42,390
+we can easily do that by loading in the
+context. So, we'll do let journal.
+
+870
+00:15:42,390 --> 00:15:42,400
+
+ 
+
+871
+00:15:42,400 --> 00:15:43,670
+
+And we're going to take a mutable
+
+872
+00:15:43,670 --> 00:15:43,680
+And we're going to take a mutable
+ 
+
+873
+00:15:43,680 --> 00:15:49,750
+And we're going to take a mutable
+reference
+
+874
+00:15:49,750 --> 00:15:49,760
+
+ 
+
+875
+00:15:49,760 --> 00:15:51,630
+
+to our account. And the reason it has to
+
+876
+00:15:51,630 --> 00:15:51,640
+to our account. And the reason it has to
+ 
+
+877
+00:15:51,640 --> 00:15:53,630
+to our account. And the reason it has to
+be mutable is because we're now changing
+
+878
+00:15:53,630 --> 00:15:53,640
+be mutable is because we're now changing
+ 
+
+879
+00:15:53,640 --> 00:15:55,230
+be mutable is because we're now changing
+the data that exists with in that
+
+880
+00:15:55,230 --> 00:15:55,240
+the data that exists with in that
+ 
+
+881
+00:15:55,240 --> 00:15:57,270
+the data that exists with in that
+account. So,
+
+882
+00:15:57,270 --> 00:15:57,280
+account. So,
+ 
+
+883
+00:15:57,280 --> 00:15:58,870
+account. So,
+we're adding the title, the message, and
+
+884
+00:15:58,870 --> 00:15:58,880
+we're adding the title, the message, and
+ 
+
+885
+00:15:58,880 --> 00:16:03,829
+we're adding the title, the message, and
+the owner into the account state.
+
+886
+00:16:03,829 --> 00:16:03,839
+
+ 
+
+887
+00:16:03,839 --> 00:16:05,270
+
+So, we can load that in by calling
+
+888
+00:16:05,270 --> 00:16:05,280
+So, we can load that in by calling
+ 
+
+889
+00:16:05,280 --> 00:16:07,390
+So, we can load that in by calling
+ctx.accounts.
+
+890
+00:16:07,390 --> 00:16:07,400
+ctx.accounts.
+ 
+
+891
+00:16:07,400 --> 00:16:08,590
+ctx.accounts.
+And then I'm going to call journal
+
+892
+00:16:08,590 --> 00:16:08,600
+And then I'm going to call journal
+ 
+
+893
+00:16:08,600 --> 00:16:10,430
+And then I'm going to call journal
+entry.
+
+894
+00:16:10,430 --> 00:16:10,440
+entry.
+ 
+
+895
+00:16:10,440 --> 00:16:11,310
+entry.
+Okay.
+
+896
+00:16:11,310 --> 00:16:11,320
+Okay.
+ 
+
+897
+00:16:11,320 --> 00:16:13,230
+Okay.
+Now, all I do is just update that state.
+
+898
+00:16:13,230 --> 00:16:13,240
+Now, all I do is just update that state.
+ 
+
+899
+00:16:13,240 --> 00:16:16,510
+Now, all I do is just update that state.
+So, we can do journal entry
+
+900
+00:16:16,510 --> 00:16:16,520
+So, we can do journal entry
+ 
+
+901
+00:16:16,520 --> 00:16:20,670
+So, we can do journal entry
+dot
+
+902
+00:16:20,670 --> 00:16:20,680
+
+ 
+
+903
+00:16:20,680 --> 00:16:22,069
+
+owner.
+
+904
+00:16:22,069 --> 00:16:22,079
+owner.
+ 
+
+905
+00:16:22,079 --> 00:16:24,870
+owner.
+And that is going to be equal to
+
+906
+00:16:24,870 --> 00:16:24,880
+And that is going to be equal to
+ 
+
+907
+00:16:24,880 --> 00:16:25,829
+And that is going to be equal to
+And that's going to be equal to the
+
+908
+00:16:25,829 --> 00:16:25,839
+And that's going to be equal to the
+ 
+
+909
+00:16:25,839 --> 00:16:27,710
+And that's going to be equal to the
+signer, which is being passed through
+
+910
+00:16:27,710 --> 00:16:27,720
+signer, which is being passed through
+ 
+
+911
+00:16:27,720 --> 00:16:29,630
+signer, which is being passed through
+our account struct. So, we can just call
+
+912
+00:16:29,630 --> 00:16:29,640
+our account struct. So, we can just call
+ 
+
+913
+00:16:29,640 --> 00:16:31,390
+our account struct. So, we can just call
+ctx again
+
+914
+00:16:31,390 --> 00:16:31,400
+ctx again
+ 
+
+915
+00:16:31,400 --> 00:16:33,430
+ctx again
+dot accounts
+
+916
+00:16:33,430 --> 00:16:33,440
+dot accounts
+ 
+
+917
+00:16:33,440 --> 00:16:35,350
+dot accounts
+dot
+
+918
+00:16:35,350 --> 00:16:35,360
+dot
+ 
+
+919
+00:16:35,360 --> 00:16:37,310
+dot
+owner.
+
+920
+00:16:37,310 --> 00:16:37,320
+owner.
+ 
+
+921
+00:16:37,320 --> 00:16:38,510
+owner.
+And then we just want to take the public
+
+922
+00:16:38,510 --> 00:16:38,520
+And then we just want to take the public
+ 
+
+923
+00:16:38,520 --> 00:16:41,110
+And then we just want to take the public
+key of that to save.
+
+924
+00:16:41,110 --> 00:16:41,120
+key of that to save.
+ 
+
+925
+00:16:41,120 --> 00:16:44,430
+key of that to save.
+Okay.
+
+926
+00:16:44,430 --> 00:16:44,440
+
+ 
+
+927
+00:16:44,440 --> 00:16:47,790
+
+Now, we'll also update the title and the
+
+928
+00:16:47,790 --> 00:16:47,800
+Now, we'll also update the title and the
+ 
+
+929
+00:16:47,800 --> 00:16:51,790
+Now, we'll also update the title and the
+message field, which is going to just be
+
+930
+00:16:51,790 --> 00:16:51,800
+message field, which is going to just be
+ 
+
+931
+00:16:51,800 --> 00:16:55,710
+message field, which is going to just be
+setting the title equal to the title.
+
+932
+00:16:55,710 --> 00:16:55,720
+setting the title equal to the title.
+ 
+
+933
+00:16:55,720 --> 00:16:57,110
+setting the title equal to the title.
+And then the message equal to the
+
+934
+00:16:57,110 --> 00:16:57,120
+And then the message equal to the
+ 
+
+935
+00:16:57,120 --> 00:17:02,510
+And then the message equal to the
+message.
+
+936
+00:17:02,510 --> 00:17:02,520
+
+ 
+
+937
+00:17:02,520 --> 00:17:03,910
+
+And then the last thing we have to do is
+
+938
+00:17:03,910 --> 00:17:03,920
+And then the last thing we have to do is
+ 
+
+939
+00:17:03,920 --> 00:17:05,750
+And then the last thing we have to do is
+just return our okay.
+
+940
+00:17:05,750 --> 00:17:05,760
+just return our okay.
+ 
+
+941
+00:17:05,760 --> 00:17:07,390
+just return our okay.
+And we're good to go.
+
+942
+00:17:07,390 --> 00:17:07,400
+And we're good to go.
+ 
+
+943
+00:17:07,400 --> 00:17:10,230
+And we're good to go.
+So, that was our first instruction for
+
+944
+00:17:10,230 --> 00:17:10,240
+So, that was our first instruction for
+ 
+
+945
+00:17:10,240 --> 00:17:11,630
+So, that was our first instruction for
+our crowd app.
+
+946
+00:17:11,630 --> 00:17:11,640
+our crowd app.
+ 
+
+947
+00:17:11,640 --> 00:17:13,829
+our crowd app.
+Now that we got that done, um the rest
+
+948
+00:17:13,829 --> 00:17:13,839
+Now that we got that done, um the rest
+ 
+
+949
+00:17:13,839 --> 00:17:15,590
+Now that we got that done, um the rest
+of the instructions are going to fly by
+
+950
+00:17:15,590 --> 00:17:15,600
+of the instructions are going to fly by
+ 
+
+951
+00:17:15,600 --> 00:17:17,870
+of the instructions are going to fly by
+because a lot of this is repetitive, so
+
+952
+00:17:17,870 --> 00:17:17,880
+because a lot of this is repetitive, so
+ 
+
+953
+00:17:17,880 --> 00:17:19,630
+because a lot of this is repetitive, so
+we can do a lot of copy and pasting now,
+
+954
+00:17:19,630 --> 00:17:19,640
+we can do a lot of copy and pasting now,
+ 
+
+955
+00:17:19,640 --> 00:17:22,990
+we can do a lot of copy and pasting now,
+which makes everything a lot easier. So,
+
+956
+00:17:22,990 --> 00:17:23,000
+which makes everything a lot easier. So,
+ 
+
+957
+00:17:23,000 --> 00:17:25,150
+which makes everything a lot easier. So,
+we finished create. Read actually
+
+958
+00:17:25,150 --> 00:17:25,160
+we finished create. Read actually
+ 
+
+959
+00:17:25,160 --> 00:17:27,030
+we finished create. Read actually
+happens from our RPCs. We're going to
+
+960
+00:17:27,030 --> 00:17:27,040
+happens from our RPCs. We're going to
+ 
+
+961
+00:17:27,040 --> 00:17:28,550
+happens from our RPCs. We're going to
+read directly from the blockchain. So,
+
+962
+00:17:28,550 --> 00:17:28,560
+read directly from the blockchain. So,
+ 
+
+963
+00:17:28,560 --> 00:17:30,030
+read directly from the blockchain. So,
+we don't have to create a read function
+
+964
+00:17:30,030 --> 00:17:30,040
+we don't have to create a read function
+ 
+
+965
+00:17:30,040 --> 00:17:31,870
+we don't have to create a read function
+here. So, we can skip that. The next
+
+966
+00:17:31,870 --> 00:17:31,880
+here. So, we can skip that. The next
+ 
+
+967
+00:17:31,880 --> 00:17:33,150
+here. So, we can skip that. The next
+thing we're going to do is update. So,
+
+968
+00:17:33,150 --> 00:17:33,160
+thing we're going to do is update. So,
+ 
+
+969
+00:17:33,160 --> 00:17:35,030
+thing we're going to do is update. So,
+how can we update
+
+970
+00:17:35,030 --> 00:17:35,040
+how can we update
+ 
+
+971
+00:17:35,040 --> 00:17:37,030
+how can we update
+data that already exists on chain in an
+
+972
+00:17:37,030 --> 00:17:37,040
+data that already exists on chain in an
+ 
+
+973
+00:17:37,040 --> 00:17:38,550
+data that already exists on chain in an
+account? That's going to be our next
+
+974
+00:17:38,550 --> 00:17:38,560
+account? That's going to be our next
+ 
+
+975
+00:17:38,560 --> 00:17:42,412
+account? That's going to be our next
+instruction.
+
+976
+00:17:42,412 --> 00:17:42,422
+
+ 
+
+977
+00:17:42,422 --> 00:17:42,550
+
+>> [clears throat]
+
+978
+00:17:42,550 --> 00:17:42,560
+>> [clears throat]
+ 
+
+979
+00:17:42,560 --> 00:17:45,830
+>> [clears throat]
+>> So, I'll copy our create instruction
+
+980
+00:17:45,830 --> 00:17:45,840
+>> So, I'll copy our create instruction
+ 
+
+981
+00:17:45,840 --> 00:17:48,230
+>> So, I'll copy our create instruction
+and paste it.
+
+982
+00:17:48,230 --> 00:17:48,240
+and paste it.
+ 
+
+983
+00:17:48,240 --> 00:17:54,030
+and paste it.
+And we'll rename this to update.
+
+984
+00:17:54,030 --> 00:17:54,040
+
+ 
+
+985
+00:17:54,040 --> 00:17:55,990
+
+Okay.
+
+986
+00:17:55,990 --> 00:17:56,000
+Okay.
+ 
+
+987
+00:17:56,000 --> 00:17:59,110
+Okay.
+And then I'm going to again copy our
+
+988
+00:17:59,110 --> 00:17:59,120
+And then I'm going to again copy our
+ 
+
+989
+00:17:59,120 --> 00:18:01,190
+And then I'm going to again copy our
+derive account struct, and I'll rename
+
+990
+00:18:01,190 --> 00:18:01,200
+derive account struct, and I'll rename
+ 
+
+991
+00:18:01,200 --> 00:18:03,590
+derive account struct, and I'll rename
+this to update.
+
+992
+00:18:03,590 --> 00:18:03,600
+this to update.
+ 
+
+993
+00:18:03,600 --> 00:18:05,070
+this to update.
+Okay.
+
+994
+00:18:05,070 --> 00:18:05,080
+Okay.
+ 
+
+995
+00:18:05,080 --> 00:18:06,310
+Okay.
+So, let's talk about what's going to
+
+996
+00:18:06,310 --> 00:18:06,320
+So, let's talk about what's going to
+ 
+
+997
+00:18:06,320 --> 00:18:09,070
+So, let's talk about what's going to
+change here. So, I already initialized
+
+998
+00:18:09,070 --> 00:18:09,080
+change here. So, I already initialized
+ 
+
+999
+00:18:09,080 --> 00:18:10,270
+change here. So, I already initialized
+the account, so I don't need this
+
+1000
+00:18:10,270 --> 00:18:10,280
+the account, so I don't need this
+ 
+
+1001
+00:18:10,280 --> 00:18:11,950
+the account, so I don't need this
+constraint anymore.
+
+1002
+00:18:11,950 --> 00:18:11,960
+constraint anymore.
+ 
+
+1003
+00:18:11,960 --> 00:18:13,790
+constraint anymore.
+But a constraint that I do need is mute
+
+1004
+00:18:13,790 --> 00:18:13,800
+But a constraint that I do need is mute
+ 
+
+1005
+00:18:13,800 --> 00:18:15,470
+But a constraint that I do need is mute
+because I now need this account to be
+
+1006
+00:18:15,470 --> 00:18:15,480
+because I now need this account to be
+ 
+
+1007
+00:18:15,480 --> 00:18:17,470
+because I now need this account to be
+mutable so I can change the state that
+
+1008
+00:18:17,470 --> 00:18:17,480
+mutable so I can change the state that
+ 
+
+1009
+00:18:17,480 --> 00:18:21,430
+mutable so I can change the state that
+exists within the account.
+
+1010
+00:18:21,430 --> 00:18:21,440
+
+ 
+
+1011
+00:18:21,440 --> 00:18:22,910
+
+Whenever I'm handling an account that's
+
+1012
+00:18:22,910 --> 00:18:22,920
+Whenever I'm handling an account that's
+ 
+
+1013
+00:18:22,920 --> 00:18:24,669
+Whenever I'm handling an account that's
+a PDA, I'm always going to have to pass
+
+1014
+00:18:24,669 --> 00:18:24,679
+a PDA, I'm always going to have to pass
+ 
+
+1015
+00:18:24,679 --> 00:18:25,950
+a PDA, I'm always going to have to pass
+through the seeds and the bump because
+
+1016
+00:18:25,950 --> 00:18:25,960
+through the seeds and the bump because
+ 
+
+1017
+00:18:25,960 --> 00:18:27,909
+through the seeds and the bump because
+it needs to be able to know how to
+
+1018
+00:18:27,909 --> 00:18:27,919
+it needs to be able to know how to
+ 
+
+1019
+00:18:27,919 --> 00:18:30,830
+it needs to be able to know how to
+generate the PDA address. So, that is
+
+1020
+00:18:30,830 --> 00:18:30,840
+generate the PDA address. So, that is
+ 
+
+1021
+00:18:30,840 --> 00:18:32,550
+generate the PDA address. So, that is
+going to stay the same as well.
+
+1022
+00:18:32,550 --> 00:18:32,560
+going to stay the same as well.
+ 
+
+1023
+00:18:32,560 --> 00:18:33,710
+going to stay the same as well.
+Now,
+
+1024
+00:18:33,710 --> 00:18:33,720
+Now,
+ 
+
+1025
+00:18:33,720 --> 00:18:35,630
+Now,
+because I'm not creating a new account,
+
+1026
+00:18:35,630 --> 00:18:35,640
+because I'm not creating a new account,
+ 
+
+1027
+00:18:35,640 --> 00:18:37,750
+because I'm not creating a new account,
+I don't need the payer. But I do kind of
+
+1028
+00:18:37,750 --> 00:18:37,760
+I don't need the payer. But I do kind of
+ 
+
+1029
+00:18:37,760 --> 00:18:39,230
+I don't need the payer. But I do kind of
+need a payer. You'll see in a second.
+
+1030
+00:18:39,230 --> 00:18:39,240
+need a payer. You'll see in a second.
+ 
+
+1031
+00:18:39,240 --> 00:18:40,750
+need a payer. You'll see in a second.
+But I can delete that.
+
+1032
+00:18:40,750 --> 00:18:40,760
+But I can delete that.
+ 
+
+1033
+00:18:40,760 --> 00:18:42,190
+But I can delete that.
+And I also don't need the space because
+
+1034
+00:18:42,190 --> 00:18:42,200
+And I also don't need the space because
+ 
+
+1035
+00:18:42,200 --> 00:18:44,590
+And I also don't need the space because
+I'm again not creating a new account.
+
+1036
+00:18:44,590 --> 00:18:44,600
+I'm again not creating a new account.
+ 
+
+1037
+00:18:44,600 --> 00:18:46,790
+I'm again not creating a new account.
+However, if I do change the fields,
+
+1038
+00:18:46,790 --> 00:18:46,800
+However, if I do change the fields,
+ 
+
+1039
+00:18:46,800 --> 00:18:48,390
+However, if I do change the fields,
+let's say my first message was just one
+
+1040
+00:18:48,390 --> 00:18:48,400
+let's say my first message was just one
+ 
+
+1041
+00:18:48,400 --> 00:18:50,149
+let's say my first message was just one
+word, and then I updated it to have a
+
+1042
+00:18:50,149 --> 00:18:50,159
+word, and then I updated it to have a
+ 
+
+1043
+00:18:50,159 --> 00:18:52,950
+word, and then I updated it to have a
+thousand words in my message. Well, now
+
+1044
+00:18:52,950 --> 00:18:52,960
+thousand words in my message. Well, now
+ 
+
+1045
+00:18:52,960 --> 00:18:54,630
+thousand words in my message. Well, now
+I'm going to have to pay for that
+
+1046
+00:18:54,630 --> 00:18:54,640
+I'm going to have to pay for that
+ 
+
+1047
+00:18:54,640 --> 00:18:56,149
+I'm going to have to pay for that
+additional space that I'm now taking up
+
+1048
+00:18:56,149 --> 00:18:56,159
+additional space that I'm now taking up
+ 
+
+1049
+00:18:56,159 --> 00:18:57,190
+additional space that I'm now taking up
+on chain.
+
+1050
+00:18:57,190 --> 00:18:57,200
+on chain.
+ 
+
+1051
+00:18:57,200 --> 00:18:58,510
+on chain.
+So,
+
+1052
+00:18:58,510 --> 00:18:58,520
+So,
+ 
+
+1053
+00:18:58,520 --> 00:18:59,710
+So,
+we're going to use this constraint
+
+1054
+00:18:59,710 --> 00:18:59,720
+we're going to use this constraint
+ 
+
+1055
+00:18:59,720 --> 00:19:01,110
+we're going to use this constraint
+called realloc.
+
+1056
+00:19:01,110 --> 00:19:01,120
+called realloc.
+ 
+
+1057
+00:19:01,120 --> 00:19:03,190
+called realloc.
+And what that's doing is reallocating
+
+1058
+00:19:03,190 --> 00:19:03,200
+And what that's doing is reallocating
+ 
+
+1059
+00:19:03,200 --> 00:19:07,630
+And what that's doing is reallocating
+the space for our account.
+
+1060
+00:19:07,630 --> 00:19:07,640
+
+ 
+
+1061
+00:19:07,640 --> 00:19:09,350
+
+So, the first thing I'm going to do is
+
+1062
+00:19:09,350 --> 00:19:09,360
+So, the first thing I'm going to do is
+ 
+
+1063
+00:19:09,360 --> 00:19:16,350
+So, the first thing I'm going to do is
+calculate my space.
+
+1064
+00:19:16,350 --> 00:19:16,360
+
+ 
+
+1065
+00:19:16,360 --> 00:19:19,909
+
+And then once I've calculated it,
+
+1066
+00:19:19,909 --> 00:19:19,919
+And then once I've calculated it,
+ 
+
+1067
+00:19:19,919 --> 00:19:22,510
+And then once I've calculated it,
+I'm going to define who the payer is.
+
+1068
+00:19:22,510 --> 00:19:22,520
+I'm going to define who the payer is.
+ 
+
+1069
+00:19:22,520 --> 00:19:24,430
+I'm going to define who the payer is.
+So,
+
+1070
+00:19:24,430 --> 00:19:24,440
+So,
+ 
+
+1071
+00:19:24,440 --> 00:19:25,909
+So,
+in this case, I'm either going to be
+
+1072
+00:19:25,909 --> 00:19:25,919
+in this case, I'm either going to be
+ 
+
+1073
+00:19:25,919 --> 00:19:27,149
+in this case, I'm either going to be
+paying additional rent for the
+
+1074
+00:19:27,149 --> 00:19:27,159
+paying additional rent for the
+ 
+
+1075
+00:19:27,159 --> 00:19:28,909
+paying additional rent for the
+additional space I'm taking up, or I'm
+
+1076
+00:19:28,909 --> 00:19:28,919
+additional space I'm taking up, or I'm
+ 
+
+1077
+00:19:28,919 --> 00:19:30,990
+additional space I'm taking up, or I'm
+going to be refunded rent because now
+
+1078
+00:19:30,990 --> 00:19:31,000
+going to be refunded rent because now
+ 
+
+1079
+00:19:31,000 --> 00:19:35,110
+going to be refunded rent because now
+I'm taking up less space on chain.
+
+1080
+00:19:35,110 --> 00:19:35,120
+
+ 
+
+1081
+00:19:35,120 --> 00:19:36,230
+
+So, that again is going to be the
+
+1082
+00:19:36,230 --> 00:19:36,240
+So, that again is going to be the
+ 
+
+1083
+00:19:36,240 --> 00:19:37,950
+So, that again is going to be the
+signer, which is the owner.
+
+1084
+00:19:37,950 --> 00:19:37,960
+signer, which is the owner.
+ 
+
+1085
+00:19:37,960 --> 00:19:39,630
+signer, which is the owner.
+And then the last thing I'm going to do
+
+1086
+00:19:39,630 --> 00:19:39,640
+And then the last thing I'm going to do
+ 
+
+1087
+00:19:39,640 --> 00:19:42,909
+And then the last thing I'm going to do
+is set realloc to
+
+1088
+00:19:42,909 --> 00:19:42,919
+
+ 
+
+1089
+00:19:42,919 --> 00:19:45,669
+
+Sorry. Realloc zero to true. And what
+
+1090
+00:19:45,669 --> 00:19:45,679
+Sorry. Realloc zero to true. And what
+ 
+
+1091
+00:19:45,679 --> 00:19:47,750
+Sorry. Realloc zero to true. And what
+that means is
+
+1092
+00:19:47,750 --> 00:19:47,760
+that means is
+ 
+
+1093
+00:19:47,760 --> 00:19:49,230
+that means is
+the previous space that was being taken
+
+1094
+00:19:49,230 --> 00:19:49,240
+the previous space that was being taken
+ 
+
+1095
+00:19:49,240 --> 00:19:51,430
+the previous space that was being taken
+up, it's going to zero that out before
+
+1096
+00:19:51,430 --> 00:19:51,440
+up, it's going to zero that out before
+ 
+
+1097
+00:19:51,440 --> 00:19:53,070
+up, it's going to zero that out before
+recalculating the space. So, what that
+
+1098
+00:19:53,070 --> 00:19:53,080
+recalculating the space. So, what that
+ 
+
+1099
+00:19:53,080 --> 00:19:54,390
+recalculating the space. So, what that
+means is the previous space that was
+
+1100
+00:19:54,390 --> 00:19:54,400
+means is the previous space that was
+ 
+
+1101
+00:19:54,400 --> 00:19:55,870
+means is the previous space that was
+being taken up, it's going to zero that
+
+1102
+00:19:55,870 --> 00:19:55,880
+being taken up, it's going to zero that
+ 
+
+1103
+00:19:55,880 --> 00:19:57,630
+being taken up, it's going to zero that
+out before recalculating the space up
+
+1104
+00:19:57,630 --> 00:19:57,640
+out before recalculating the space up
+ 
+
+1105
+00:19:57,640 --> 00:20:00,990
+out before recalculating the space up
+here. Okay. So, now that's good to go.
+
+1106
+00:20:00,990 --> 00:20:01,000
+here. Okay. So, now that's good to go.
+ 
+
+1107
+00:20:01,000 --> 00:20:02,430
+here. Okay. So, now that's good to go.
+Our signer is going to stay the same,
+
+1108
+00:20:02,430 --> 00:20:02,440
+Our signer is going to stay the same,
+ 
+
+1109
+00:20:02,440 --> 00:20:03,550
+Our signer is going to stay the same,
+and then the system program will stay
+
+1110
+00:20:03,550 --> 00:20:03,560
+and then the system program will stay
+ 
+
+1111
+00:20:03,560 --> 00:20:06,550
+and then the system program will stay
+the same. So, now we'll go back up to
+
+1112
+00:20:06,550 --> 00:20:06,560
+the same. So, now we'll go back up to
+ 
+
+1113
+00:20:06,560 --> 00:20:08,750
+the same. So, now we'll go back up to
+the logic. Well, I'm still going to load
+
+1114
+00:20:08,750 --> 00:20:08,760
+the logic. Well, I'm still going to load
+ 
+
+1115
+00:20:08,760 --> 00:20:11,030
+the logic. Well, I'm still going to load
+in my journal entry. However,
+
+1116
+00:20:11,030 --> 00:20:11,040
+in my journal entry. However,
+ 
+
+1117
+00:20:11,040 --> 00:20:12,390
+in my journal entry. However,
+I want to make sure my journal says
+
+1118
+00:20:12,390 --> 00:20:12,400
+I want to make sure my journal says
+ 
+
+1119
+00:20:12,400 --> 00:20:13,990
+I want to make sure my journal says
+private to me, and no one else can
+
+1120
+00:20:13,990 --> 00:20:14,000
+private to me, and no one else can
+ 
+
+1121
+00:20:14,000 --> 00:20:16,230
+private to me, and no one else can
+access it, and I can't change ownership.
+
+1122
+00:20:16,230 --> 00:20:16,240
+access it, and I can't change ownership.
+ 
+
+1123
+00:20:16,240 --> 00:20:18,390
+access it, and I can't change ownership.
+So, I'm not going to allow anyone to be
+
+1124
+00:20:18,390 --> 00:20:18,400
+So, I'm not going to allow anyone to be
+ 
+
+1125
+00:20:18,400 --> 00:20:20,030
+So, I'm not going to allow anyone to be
+able to update the owner. So, I'm not
+
+1126
+00:20:20,030 --> 00:20:20,040
+able to update the owner. So, I'm not
+ 
+
+1127
+00:20:20,040 --> 00:20:21,670
+able to update the owner. So, I'm not
+going to change that.
+
+1128
+00:20:21,670 --> 00:20:21,680
+going to change that.
+ 
+
+1129
+00:20:21,680 --> 00:20:24,030
+going to change that.
+Now, the title is part of the PDA. So,
+
+1130
+00:20:24,030 --> 00:20:24,040
+Now, the title is part of the PDA. So,
+ 
+
+1131
+00:20:24,040 --> 00:20:25,230
+Now, the title is part of the PDA. So,
+we're not going to allow for updates for
+
+1132
+00:20:25,230 --> 00:20:25,240
+we're not going to allow for updates for
+ 
+
+1133
+00:20:25,240 --> 00:20:26,470
+we're not going to allow for updates for
+that, either. We're just going to allow
+
+1134
+00:20:26,470 --> 00:20:26,480
+that, either. We're just going to allow
+ 
+
+1135
+00:20:26,480 --> 00:20:28,550
+that, either. We're just going to allow
+for updates for the message. So, the
+
+1136
+00:20:28,550 --> 00:20:28,560
+for updates for the message. So, the
+ 
+
+1137
+00:20:28,560 --> 00:20:30,110
+for updates for the message. So, the
+only field that is going to be updated
+
+1138
+00:20:30,110 --> 00:20:30,120
+only field that is going to be updated
+ 
+
+1139
+00:20:30,120 --> 00:20:31,910
+only field that is going to be updated
+here is the message.
+
+1140
+00:20:31,910 --> 00:20:31,920
+here is the message.
+ 
+
+1141
+00:20:31,920 --> 00:20:33,790
+here is the message.
+Now, when I deleted title, you get this
+
+1142
+00:20:33,790 --> 00:20:33,800
+Now, when I deleted title, you get this
+ 
+
+1143
+00:20:33,800 --> 00:20:35,550
+Now, when I deleted title, you get this
+error here. It's actually not an error,
+
+1144
+00:20:35,550 --> 00:20:35,560
+error here. It's actually not an error,
+ 
+
+1145
+00:20:35,560 --> 00:20:37,510
+error here. It's actually not an error,
+it's a warning. Um but, this is coming
+
+1146
+00:20:37,510 --> 00:20:37,520
+it's a warning. Um but, this is coming
+ 
+
+1147
+00:20:37,520 --> 00:20:39,310
+it's a warning. Um but, this is coming
+from my Rust analyzer.
+
+1148
+00:20:39,310 --> 00:20:39,320
+from my Rust analyzer.
+ 
+
+1149
+00:20:39,320 --> 00:20:40,910
+from my Rust analyzer.
+Um if you're following along and don't
+
+1150
+00:20:40,910 --> 00:20:40,920
+Um if you're following along and don't
+ 
+
+1151
+00:20:40,920 --> 00:20:42,550
+Um if you're following along and don't
+get these same errors that are being
+
+1152
+00:20:42,550 --> 00:20:42,560
+get these same errors that are being
+ 
+
+1153
+00:20:42,560 --> 00:20:44,910
+get these same errors that are being
+generated, I do have Rust analyzer down
+
+1154
+00:20:44,910 --> 00:20:44,920
+generated, I do have Rust analyzer down
+ 
+
+1155
+00:20:44,920 --> 00:20:47,710
+generated, I do have Rust analyzer down
+here as an add-on in my VS Code, so get
+
+1156
+00:20:47,710 --> 00:20:47,720
+here as an add-on in my VS Code, so get
+ 
+
+1157
+00:20:47,720 --> 00:20:49,630
+here as an add-on in my VS Code, so get
+that added, um and then you'll be able
+
+1158
+00:20:49,630 --> 00:20:49,640
+that added, um and then you'll be able
+ 
+
+1159
+00:20:49,640 --> 00:20:50,830
+that added, um and then you'll be able
+to follow along with the same error
+
+1160
+00:20:50,830 --> 00:20:50,840
+to follow along with the same error
+ 
+
+1161
+00:20:50,840 --> 00:20:52,590
+to follow along with the same error
+messages that I'm getting.
+
+1162
+00:20:52,590 --> 00:20:52,600
+messages that I'm getting.
+ 
+
+1163
+00:20:52,600 --> 00:20:54,710
+messages that I'm getting.
+Um but, you can see this warning here.
+
+1164
+00:20:54,710 --> 00:20:54,720
+Um but, you can see this warning here.
+ 
+
+1165
+00:20:54,720 --> 00:20:56,150
+Um but, you can see this warning here.
+And that's because I'm passing through a
+
+1166
+00:20:56,150 --> 00:20:56,160
+And that's because I'm passing through a
+ 
+
+1167
+00:20:56,160 --> 00:20:57,710
+And that's because I'm passing through a
+parameter in my instruction, but I'm not
+
+1168
+00:20:57,710 --> 00:20:57,720
+parameter in my instruction, but I'm not
+ 
+
+1169
+00:20:57,720 --> 00:20:59,910
+parameter in my instruction, but I'm not
+actually using it anywhere in the logic.
+
+1170
+00:20:59,910 --> 00:20:59,920
+actually using it anywhere in the logic.
+ 
+
+1171
+00:20:59,920 --> 00:21:01,790
+actually using it anywhere in the logic.
+And this is going to happen sometimes
+
+1172
+00:21:01,790 --> 00:21:01,800
+And this is going to happen sometimes
+ 
+
+1173
+00:21:01,800 --> 00:21:02,790
+And this is going to happen sometimes
+when you're writing Solana smart
+
+1174
+00:21:02,790 --> 00:21:02,800
+when you're writing Solana smart
+ 
+
+1175
+00:21:02,800 --> 00:21:04,950
+when you're writing Solana smart
+contracts, because you still do
+
+1176
+00:21:04,950 --> 00:21:04,960
+contracts, because you still do
+ 
+
+1177
+00:21:04,960 --> 00:21:06,590
+contracts, because you still do
+technically need this title field, and
+
+1178
+00:21:06,590 --> 00:21:06,600
+technically need this title field, and
+ 
+
+1179
+00:21:06,600 --> 00:21:07,350
+technically need this title field, and
+I'm going [clears throat] to have to
+
+1180
+00:21:07,350 --> 00:21:07,360
+I'm going [clears throat] to have to
+ 
+
+1181
+00:21:07,360 --> 00:21:10,030
+I'm going [clears throat] to have to
+continue to pass it through the
+
+1182
+00:21:10,030 --> 00:21:10,040
+continue to pass it through the
+ 
+
+1183
+00:21:10,040 --> 00:21:11,710
+continue to pass it through the
+instructions parameters,
+
+1184
+00:21:11,710 --> 00:21:11,720
+instructions parameters,
+ 
+
+1185
+00:21:11,720 --> 00:21:15,230
+instructions parameters,
+because I'm using it to calculate my
+
+1186
+00:21:15,230 --> 00:21:15,240
+because I'm using it to calculate my
+ 
+
+1187
+00:21:15,240 --> 00:21:17,670
+because I'm using it to calculate my
+PDA down here.
+
+1188
+00:21:17,670 --> 00:21:17,680
+PDA down here.
+ 
+
+1189
+00:21:17,680 --> 00:21:18,590
+PDA down here.
+So, the way we're going to get rid of
+
+1190
+00:21:18,590 --> 00:21:18,600
+So, the way we're going to get rid of
+ 
+
+1191
+00:21:18,600 --> 00:21:20,230
+So, the way we're going to get rid of
+this warning is just add a little
+
+1192
+00:21:20,230 --> 00:21:20,240
+this warning is just add a little
+ 
+
+1193
+00:21:20,240 --> 00:21:22,030
+this warning is just add a little
+underscore here. And that's basically
+
+1194
+00:21:22,030 --> 00:21:22,040
+underscore here. And that's basically
+ 
+
+1195
+00:21:22,040 --> 00:21:23,750
+underscore here. And that's basically
+telling Rust, like, "Hey, I know I'm not
+
+1196
+00:21:23,750 --> 00:21:23,760
+telling Rust, like, "Hey, I know I'm not
+ 
+
+1197
+00:21:23,760 --> 00:21:25,710
+telling Rust, like, "Hey, I know I'm not
+actually using it in the logic of this
+
+1198
+00:21:25,710 --> 00:21:25,720
+actually using it in the logic of this
+ 
+
+1199
+00:21:25,720 --> 00:21:27,590
+actually using it in the logic of this
+instruction, but I do still need to
+
+1200
+00:21:27,590 --> 00:21:27,600
+instruction, but I do still need to
+ 
+
+1201
+00:21:27,600 --> 00:21:29,030
+instruction, but I do still need to
+gather that information for something
+
+1202
+00:21:29,030 --> 00:21:29,040
+gather that information for something
+ 
+
+1203
+00:21:29,040 --> 00:21:30,870
+gather that information for something
+else."
+
+1204
+00:21:30,870 --> 00:21:30,880
+else."
+ 
+
+1205
+00:21:30,880 --> 00:21:32,510
+else."
+Okay.
+
+1206
+00:21:32,510 --> 00:21:32,520
+Okay.
+ 
+
+1207
+00:21:32,520 --> 00:21:33,790
+Okay.
+So, now
+
+1208
+00:21:33,790 --> 00:21:33,800
+So, now
+ 
+
+1209
+00:21:33,800 --> 00:21:35,190
+So, now
+quick and easy, we already finished
+
+1210
+00:21:35,190 --> 00:21:35,200
+quick and easy, we already finished
+ 
+
+1211
+00:21:35,200 --> 00:21:36,750
+quick and easy, we already finished
+create, read, and update. The last one
+
+1212
+00:21:36,750 --> 00:21:36,760
+create, read, and update. The last one
+ 
+
+1213
+00:21:36,760 --> 00:21:38,470
+create, read, and update. The last one
+we have is delete, and that's going to
+
+1214
+00:21:38,470 --> 00:21:38,480
+we have is delete, and that's going to
+ 
+
+1215
+00:21:38,480 --> 00:21:42,510
+we have is delete, and that's going to
+complete out our CRUD app. So,
+
+1216
+00:21:42,510 --> 00:21:42,520
+
+ 
+
+1217
+00:21:42,520 --> 00:21:44,910
+
+let's copy one more time the same
+
+1218
+00:21:44,910 --> 00:21:44,920
+let's copy one more time the same
+ 
+
+1219
+00:21:44,920 --> 00:21:49,270
+let's copy one more time the same
+layout.
+
+1220
+00:21:49,270 --> 00:21:49,280
+
+ 
+
+1221
+00:21:49,280 --> 00:21:51,110
+
+And I'm going to copy again my derived
+
+1222
+00:21:51,110 --> 00:21:51,120
+And I'm going to copy again my derived
+ 
+
+1223
+00:21:51,120 --> 00:21:56,230
+And I'm going to copy again my derived
+accounts.
+
+1224
+00:21:56,230 --> 00:21:56,240
+
+ 
+
+1225
+00:21:56,240 --> 00:22:07,669
+
+Now, we'll rename this to delete.
+
+1226
+00:22:07,669 --> 00:22:07,679
+
+ 
+
+1227
+00:22:07,679 --> 00:22:10,110
+
+Okay. So, now I'm going to update my
+
+1228
+00:22:10,110 --> 00:22:10,120
+Okay. So, now I'm going to update my
+ 
+
+1229
+00:22:10,120 --> 00:22:11,910
+Okay. So, now I'm going to update my
+delete struct. So, we still need to keep
+
+1230
+00:22:11,910 --> 00:22:11,920
+delete struct. So, we still need to keep
+ 
+
+1231
+00:22:11,920 --> 00:22:13,430
+delete struct. So, we still need to keep
+it mutable, because the account is going
+
+1232
+00:22:13,430 --> 00:22:13,440
+it mutable, because the account is going
+ 
+
+1233
+00:22:13,440 --> 00:22:14,550
+it mutable, because the account is going
+to be changing, it's going to be
+
+1234
+00:22:14,550 --> 00:22:14,560
+to be changing, it's going to be
+ 
+
+1235
+00:22:14,560 --> 00:22:17,230
+to be changing, it's going to be
+deleted. Now, we also still need the
+
+1236
+00:22:17,230 --> 00:22:17,240
+deleted. Now, we also still need the
+ 
+
+1237
+00:22:17,240 --> 00:22:18,870
+deleted. Now, we also still need the
+seeds in the bump, because it is a PDA,
+
+1238
+00:22:18,870 --> 00:22:18,880
+seeds in the bump, because it is a PDA,
+ 
+
+1239
+00:22:18,880 --> 00:22:21,590
+seeds in the bump, because it is a PDA,
+and we have to calculate that PDA.
+
+1240
+00:22:21,590 --> 00:22:21,600
+and we have to calculate that PDA.
+ 
+
+1241
+00:22:21,600 --> 00:22:23,510
+and we have to calculate that PDA.
+We don't need realloc, because we're not
+
+1242
+00:22:23,510 --> 00:22:23,520
+We don't need realloc, because we're not
+ 
+
+1243
+00:22:23,520 --> 00:22:25,470
+We don't need realloc, because we're not
+reallocating anything.
+
+1244
+00:22:25,470 --> 00:22:25,480
+reallocating anything.
+ 
+
+1245
+00:22:25,480 --> 00:22:27,230
+reallocating anything.
+And then, to delete an account on chain,
+
+1246
+00:22:27,230 --> 00:22:27,240
+And then, to delete an account on chain,
+ 
+
+1247
+00:22:27,240 --> 00:22:28,910
+And then, to delete an account on chain,
+you can just simply use the close
+
+1248
+00:22:28,910 --> 00:22:28,920
+you can just simply use the close
+ 
+
+1249
+00:22:28,920 --> 00:22:30,830
+you can just simply use the close
+constraint for Anchor. Now, I'm going to
+
+1250
+00:22:30,830 --> 00:22:30,840
+constraint for Anchor. Now, I'm going to
+ 
+
+1251
+00:22:30,840 --> 00:22:33,470
+constraint for Anchor. Now, I'm going to
+set close equal to a signer. So, this is
+
+1252
+00:22:33,470 --> 00:22:33,480
+set close equal to a signer. So, this is
+ 
+
+1253
+00:22:33,480 --> 00:22:36,310
+set close equal to a signer. So, this is
+adding additional permissions by only
+
+1254
+00:22:36,310 --> 00:22:36,320
+adding additional permissions by only
+ 
+
+1255
+00:22:36,320 --> 00:22:38,310
+adding additional permissions by only
+allowing a specific account to be able
+
+1256
+00:22:38,310 --> 00:22:38,320
+allowing a specific account to be able
+ 
+
+1257
+00:22:38,320 --> 00:22:40,830
+allowing a specific account to be able
+to close that account. So, I want the
+
+1258
+00:22:40,830 --> 00:22:40,840
+to close that account. So, I want the
+ 
+
+1259
+00:22:40,840 --> 00:22:42,470
+to close that account. So, I want the
+owner of this journal entry to be the
+
+1260
+00:22:42,470 --> 00:22:42,480
+owner of this journal entry to be the
+ 
+
+1261
+00:22:42,480 --> 00:22:43,870
+owner of this journal entry to be the
+only person that's allowed to delete
+
+1262
+00:22:43,870 --> 00:22:43,880
+only person that's allowed to delete
+ 
+
+1263
+00:22:43,880 --> 00:22:46,110
+only person that's allowed to delete
+their own journal entry. So, we want to
+
+1264
+00:22:46,110 --> 00:22:46,120
+their own journal entry. So, we want to
+ 
+
+1265
+00:22:46,120 --> 00:22:48,830
+their own journal entry. So, we want to
+make sure that the signer of this
+
+1266
+00:22:48,830 --> 00:22:48,840
+make sure that the signer of this
+ 
+
+1267
+00:22:48,840 --> 00:22:50,270
+make sure that the signer of this
+instruction
+
+1268
+00:22:50,270 --> 00:22:50,280
+instruction
+ 
+
+1269
+00:22:50,280 --> 00:22:52,470
+instruction
+is the same as the owner of this
+
+1270
+00:22:52,470 --> 00:22:52,480
+is the same as the owner of this
+ 
+
+1271
+00:22:52,480 --> 00:22:53,870
+is the same as the owner of this
+account.
+
+1272
+00:22:53,870 --> 00:22:53,880
+account.
+ 
+
+1273
+00:22:53,880 --> 00:22:56,150
+account.
+So,
+
+1274
+00:22:56,150 --> 00:22:56,160
+So,
+ 
+
+1275
+00:22:56,160 --> 00:22:59,550
+So,
+we'll set that to owner.
+
+1276
+00:22:59,550 --> 00:22:59,560
+
+ 
+
+1277
+00:22:59,560 --> 00:23:00,870
+
+Okay.
+
+1278
+00:23:00,870 --> 00:23:00,880
+Okay.
+ 
+
+1279
+00:23:00,880 --> 00:23:02,350
+Okay.
+And then, owner and system program will
+
+1280
+00:23:02,350 --> 00:23:02,360
+And then, owner and system program will
+ 
+
+1281
+00:23:02,360 --> 00:23:03,910
+And then, owner and system program will
+stay the same.
+
+1282
+00:23:03,910 --> 00:23:03,920
+stay the same.
+ 
+
+1283
+00:23:03,920 --> 00:23:05,790
+stay the same.
+And then, because all we're doing in
+
+1284
+00:23:05,790 --> 00:23:05,800
+And then, because all we're doing in
+ 
+
+1285
+00:23:05,800 --> 00:23:07,990
+And then, because all we're doing in
+this instruction is deleting the account
+
+1286
+00:23:07,990 --> 00:23:08,000
+this instruction is deleting the account
+ 
+
+1287
+00:23:08,000 --> 00:23:10,470
+this instruction is deleting the account
+itself, and the deletion of the account
+
+1288
+00:23:10,470 --> 00:23:10,480
+itself, and the deletion of the account
+ 
+
+1289
+00:23:10,480 --> 00:23:12,510
+itself, and the deletion of the account
+is actually handled right here in this
+
+1290
+00:23:12,510 --> 00:23:12,520
+is actually handled right here in this
+ 
+
+1291
+00:23:12,520 --> 00:23:15,550
+is actually handled right here in this
+constraint on my journal entry account
+
+1292
+00:23:15,550 --> 00:23:15,560
+constraint on my journal entry account
+ 
+
+1293
+00:23:15,560 --> 00:23:17,110
+constraint on my journal entry account
+macro,
+
+1294
+00:23:17,110 --> 00:23:17,120
+macro,
+ 
+
+1295
+00:23:17,120 --> 00:23:19,230
+macro,
+I actually don't need anything in this
+
+1296
+00:23:19,230 --> 00:23:19,240
+I actually don't need anything in this
+ 
+
+1297
+00:23:19,240 --> 00:23:20,910
+I actually don't need anything in this
+function. I can just make the function
+
+1298
+00:23:20,910 --> 00:23:20,920
+function. I can just make the function
+ 
+
+1299
+00:23:20,920 --> 00:23:24,910
+function. I can just make the function
+return an okay.
+
+1300
+00:23:24,910 --> 00:23:24,920
+
+ 
+
+1301
+00:23:24,920 --> 00:23:26,790
+
+And because I'm not using any of this
+
+1302
+00:23:26,790 --> 00:23:26,800
+And because I'm not using any of this
+ 
+
+1303
+00:23:26,800 --> 00:23:29,390
+And because I'm not using any of this
+information,
+
+1304
+00:23:29,390 --> 00:23:29,400
+information,
+ 
+
+1305
+00:23:29,400 --> 00:23:32,910
+information,
+I can just add an underscore here,
+
+1306
+00:23:32,910 --> 00:23:32,920
+I can just add an underscore here,
+ 
+
+1307
+00:23:32,920 --> 00:23:35,150
+I can just add an underscore here,
+and then we're good to go. So, this is
+
+1308
+00:23:35,150 --> 00:23:35,160
+and then we're good to go. So, this is
+ 
+
+1309
+00:23:35,160 --> 00:23:37,750
+and then we're good to go. So, this is
+all the code that you need to have a
+
+1310
+00:23:37,750 --> 00:23:37,760
+all the code that you need to have a
+ 
+
+1311
+00:23:37,760 --> 00:23:39,950
+all the code that you need to have a
+fully functioning CRUD app on Solana.
+
+1312
+00:23:39,950 --> 00:23:39,960
+fully functioning CRUD app on Solana.
+ 
+
+1313
+00:23:39,960 --> 00:23:41,750
+fully functioning CRUD app on Solana.
+So, my camera stopped recording, and I
+
+1314
+00:23:41,750 --> 00:23:41,760
+So, my camera stopped recording, and I
+ 
+
+1315
+00:23:41,760 --> 00:23:43,910
+So, my camera stopped recording, and I
+have now spawned to a new office, and
+
+1316
+00:23:43,910 --> 00:23:43,920
+have now spawned to a new office, and
+ 
+
+1317
+00:23:43,920 --> 00:23:45,510
+have now spawned to a new office, and
+we'll finish this project here. But,
+
+1318
+00:23:45,510 --> 00:23:45,520
+we'll finish this project here. But,
+ 
+
+1319
+00:23:45,520 --> 00:23:46,910
+we'll finish this project here. But,
+don't worry, I promise we're almost
+
+1320
+00:23:46,910 --> 00:23:46,920
+don't worry, I promise we're almost
+ 
+
+1321
+00:23:46,920 --> 00:23:49,910
+don't worry, I promise we're almost
+done. We finished writing out all of our
+
+1322
+00:23:49,910 --> 00:23:49,920
+done. We finished writing out all of our
+ 
+
+1323
+00:23:49,920 --> 00:23:51,510
+done. We finished writing out all of our
+smart contract code already, so all we
+
+1324
+00:23:51,510 --> 00:23:51,520
+smart contract code already, so all we
+ 
+
+1325
+00:23:51,520 --> 00:23:53,350
+smart contract code already, so all we
+have left is to build and deploy the
+
+1326
+00:23:53,350 --> 00:23:53,360
+have left is to build and deploy the
+ 
+
+1327
+00:23:53,360 --> 00:23:55,669
+have left is to build and deploy the
+program. So, we can actually do this
+
+1328
+00:23:55,669 --> 00:23:55,679
+program. So, we can actually do this
+ 
+
+1329
+00:23:55,679 --> 00:23:58,110
+program. So, we can actually do this
+very easily using the Anchor CLI. I'm
+
+1330
+00:23:58,110 --> 00:23:58,120
+very easily using the Anchor CLI. I'm
+ 
+
+1331
+00:23:58,120 --> 00:23:59,390
+very easily using the Anchor CLI. I'm
+going to open up my terminal, and then
+
+1332
+00:23:59,390 --> 00:23:59,400
+going to open up my terminal, and then
+ 
+
+1333
+00:23:59,400 --> 00:24:01,950
+going to open up my terminal, and then
+navigate to the CRUD app directory, and
+
+1334
+00:24:01,950 --> 00:24:01,960
+navigate to the CRUD app directory, and
+ 
+
+1335
+00:24:01,960 --> 00:24:07,110
+navigate to the CRUD app directory, and
+all I'm going to do is run Anchor build.
+
+1336
+00:24:07,110 --> 00:24:07,120
+
+ 
+
+1337
+00:24:07,120 --> 00:24:09,350
+
+And this command is taking all of our
+
+1338
+00:24:09,350 --> 00:24:09,360
+And this command is taking all of our
+ 
+
+1339
+00:24:09,360 --> 00:24:12,070
+And this command is taking all of our
+Rust code and compiling it. So, mine
+
+1340
+00:24:12,070 --> 00:24:12,080
+Rust code and compiling it. So, mine
+ 
+
+1341
+00:24:12,080 --> 00:24:13,350
+Rust code and compiling it. So, mine
+compiled really quickly, because I
+
+1342
+00:24:13,350 --> 00:24:13,360
+compiled really quickly, because I
+ 
+
+1343
+00:24:13,360 --> 00:24:14,870
+compiled really quickly, because I
+actually already compiled this program
+
+1344
+00:24:14,870 --> 00:24:14,880
+actually already compiled this program
+ 
+
+1345
+00:24:14,880 --> 00:24:16,790
+actually already compiled this program
+earlier. Yours is going to take a little
+
+1346
+00:24:16,790 --> 00:24:16,800
+earlier. Yours is going to take a little
+ 
+
+1347
+00:24:16,800 --> 00:24:19,350
+earlier. Yours is going to take a little
+bit longer. And then, once everything is
+
+1348
+00:24:19,350 --> 00:24:19,360
+bit longer. And then, once everything is
+ 
+
+1349
+00:24:19,360 --> 00:24:20,950
+bit longer. And then, once everything is
+compiled, you're going to have this
+
+1350
+00:24:20,950 --> 00:24:20,960
+compiled, you're going to have this
+ 
+
+1351
+00:24:20,960 --> 00:24:23,110
+compiled, you're going to have this
+target directory generated. And then, if
+
+1352
+00:24:23,110 --> 00:24:23,120
+target directory generated. And then, if
+ 
+
+1353
+00:24:23,120 --> 00:24:25,470
+target directory generated. And then, if
+you go into the deploy folder, there is
+
+1354
+00:24:25,470 --> 00:24:25,480
+you go into the deploy folder, there is
+ 
+
+1355
+00:24:25,480 --> 00:24:28,390
+you go into the deploy folder, there is
+this CRUD app.so file. This is what was
+
+1356
+00:24:28,390 --> 00:24:28,400
+this CRUD app.so file. This is what was
+ 
+
+1357
+00:24:28,400 --> 00:24:30,150
+this CRUD app.so file. This is what was
+compiled, and what is going to actually
+
+1358
+00:24:30,150 --> 00:24:30,160
+compiled, and what is going to actually
+ 
+
+1359
+00:24:30,160 --> 00:24:33,101
+compiled, and what is going to actually
+be deployed onto the Solana blockchain.
+
+1360
+00:24:33,101 --> 00:24:33,111
+be deployed onto the Solana blockchain.
+ 
+
+1361
+00:24:33,111 --> 00:24:33,150
+be deployed onto the Solana blockchain.
+>> [snorts]
+
+1362
+00:24:33,150 --> 00:24:33,160
+>> [snorts]
+ 
+
+1363
+00:24:33,160 --> 00:24:35,110
+>> [snorts]
+>> So, now that we have this file, we can
+
+1364
+00:24:35,110 --> 00:24:35,120
+>> So, now that we have this file, we can
+ 
+
+1365
+00:24:35,120 --> 00:24:37,190
+>> So, now that we have this file, we can
+again use the Anchor CLI and deploy it
+
+1366
+00:24:37,190 --> 00:24:37,200
+again use the Anchor CLI and deploy it
+ 
+
+1367
+00:24:37,200 --> 00:24:39,350
+again use the Anchor CLI and deploy it
+on chain. So, to deploy, all you have to
+
+1368
+00:24:39,350 --> 00:24:39,360
+on chain. So, to deploy, all you have to
+ 
+
+1369
+00:24:39,360 --> 00:24:41,830
+on chain. So, to deploy, all you have to
+do is run Anchor
+
+1370
+00:24:41,830 --> 00:24:41,840
+do is run Anchor
+ 
+
+1371
+00:24:41,840 --> 00:24:43,950
+do is run Anchor
+program deploy,
+
+1372
+00:24:43,950 --> 00:24:43,960
+program deploy,
+ 
+
+1373
+00:24:43,960 --> 00:24:46,310
+program deploy,
+and then specify which cluster you want
+
+1374
+00:24:46,310 --> 00:24:46,320
+and then specify which cluster you want
+ 
+
+1375
+00:24:46,320 --> 00:24:47,550
+and then specify which cluster you want
+to deploy to. So, we're going to be
+
+1376
+00:24:47,550 --> 00:24:47,560
+to deploy to. So, we're going to be
+ 
+
+1377
+00:24:47,560 --> 00:24:49,550
+to deploy to. So, we're going to be
+deploying to devnet. So, I'm going to
+
+1378
+00:24:49,550 --> 00:24:49,560
+deploying to devnet. So, I'm going to
+ 
+
+1379
+00:24:49,560 --> 00:24:53,510
+deploying to devnet. So, I'm going to
+add a flag that says provider.cluster
+
+1380
+00:24:53,510 --> 00:24:53,520
+add a flag that says provider.cluster
+ 
+
+1381
+00:24:53,520 --> 00:24:55,910
+add a flag that says provider.cluster
+is devnet.
+
+1382
+00:24:55,910 --> 00:24:55,920
+is devnet.
+ 
+
+1383
+00:24:55,920 --> 00:24:58,070
+is devnet.
+Now, before you run this,
+
+1384
+00:24:58,070 --> 00:24:58,080
+Now, before you run this,
+ 
+
+1385
+00:24:58,080 --> 00:25:00,669
+Now, before you run this,
+you do have to have your local keypair
+
+1386
+00:25:00,669 --> 00:25:00,679
+you do have to have your local keypair
+ 
+
+1387
+00:25:00,679 --> 00:25:03,190
+you do have to have your local keypair
+set up in your CLI and have it funded.
+
+1388
+00:25:03,190 --> 00:25:03,200
+set up in your CLI and have it funded.
+ 
+
+1389
+00:25:03,200 --> 00:25:06,030
+set up in your CLI and have it funded.
+If you don't, I have that in the setup
+
+1390
+00:25:06,030 --> 00:25:06,040
+If you don't, I have that in the setup
+ 
+
+1391
+00:25:06,040 --> 00:25:07,750
+If you don't, I have that in the setup
+video, but I can also go over it really
+
+1392
+00:25:07,750 --> 00:25:07,760
+video, but I can also go over it really
+ 
+
+1393
+00:25:07,760 --> 00:25:10,510
+video, but I can also go over it really
+quickly after I enter this command.
+
+1394
+00:25:10,510 --> 00:25:10,520
+quickly after I enter this command.
+ 
+
+1395
+00:25:10,520 --> 00:25:12,630
+quickly after I enter this command.
+So, here you can see it's deploying my
+
+1396
+00:25:12,630 --> 00:25:12,640
+So, here you can see it's deploying my
+ 
+
+1397
+00:25:12,640 --> 00:25:14,830
+So, here you can see it's deploying my
+program.
+
+1398
+00:25:14,830 --> 00:25:14,840
+program.
+ 
+
+1399
+00:25:14,840 --> 00:25:16,110
+program.
+I actually already deployed this
+
+1400
+00:25:16,110 --> 00:25:16,120
+I actually already deployed this
+ 
+
+1401
+00:25:16,120 --> 00:25:18,270
+I actually already deployed this
+earlier, so it says program already
+
+1402
+00:25:18,270 --> 00:25:18,280
+earlier, so it says program already
+ 
+
+1403
+00:25:18,280 --> 00:25:20,350
+earlier, so it says program already
+exists, but it's upgrading. If I had any
+
+1404
+00:25:20,350 --> 00:25:20,360
+exists, but it's upgrading. If I had any
+ 
+
+1405
+00:25:20,360 --> 00:25:21,910
+exists, but it's upgrading. If I had any
+code changes when I recompiled the
+
+1406
+00:25:21,910 --> 00:25:21,920
+code changes when I recompiled the
+ 
+
+1407
+00:25:21,920 --> 00:25:24,350
+code changes when I recompiled the
+program, it would upgrade the file
+
+1408
+00:25:24,350 --> 00:25:24,360
+program, it would upgrade the file
+ 
+
+1409
+00:25:24,360 --> 00:25:27,470
+program, it would upgrade the file
+that's on chain to this new file. So,
+
+1410
+00:25:27,470 --> 00:25:27,480
+that's on chain to this new file. So,
+ 
+
+1411
+00:25:27,480 --> 00:25:30,430
+that's on chain to this new file. So,
+this program ID field is the ID for the
+
+1412
+00:25:30,430 --> 00:25:30,440
+this program ID field is the ID for the
+ 
+
+1413
+00:25:30,440 --> 00:25:31,630
+this program ID field is the ID for the
+program that you just deployed, and
+
+1414
+00:25:31,630 --> 00:25:31,640
+program that you just deployed, and
+ 
+
+1415
+00:25:31,640 --> 00:25:33,550
+program that you just deployed, and
+we'll be able to query that on chain.
+
+1416
+00:25:33,550 --> 00:25:33,560
+we'll be able to query that on chain.
+ 
+
+1417
+00:25:33,560 --> 00:25:35,350
+we'll be able to query that on chain.
+So, if this didn't work,
+
+1418
+00:25:35,350 --> 00:25:35,360
+So, if this didn't work,
+ 
+
+1419
+00:25:35,360 --> 00:25:37,350
+So, if this didn't work,
+I want you to check to make sure that
+
+1420
+00:25:37,350 --> 00:25:37,360
+I want you to check to make sure that
+ 
+
+1421
+00:25:37,360 --> 00:25:39,550
+I want you to check to make sure that
+you have a local keypair set up in your
+
+1422
+00:25:39,550 --> 00:25:39,560
+you have a local keypair set up in your
+ 
+
+1423
+00:25:39,560 --> 00:25:42,030
+you have a local keypair set up in your
+CLI. So, if you type in Solana address,
+
+1424
+00:25:42,030 --> 00:25:42,040
+CLI. So, if you type in Solana address,
+ 
+
+1425
+00:25:42,040 --> 00:25:45,430
+CLI. So, if you type in Solana address,
+it's going to return your public key of
+
+1426
+00:25:45,430 --> 00:25:45,440
+it's going to return your public key of
+ 
+
+1427
+00:25:45,440 --> 00:25:47,390
+it's going to return your public key of
+that wallet.
+
+1428
+00:25:47,390 --> 00:25:47,400
+that wallet.
+ 
+
+1429
+00:25:47,400 --> 00:25:49,150
+that wallet.
+If it returns an error, it's also going
+
+1430
+00:25:49,150 --> 00:25:49,160
+If it returns an error, it's also going
+ 
+
+1431
+00:25:49,160 --> 00:25:51,630
+If it returns an error, it's also going
+to return a CLI command to run to
+
+1432
+00:25:51,630 --> 00:25:51,640
+to return a CLI command to run to
+ 
+
+1433
+00:25:51,640 --> 00:25:53,950
+to return a CLI command to run to
+generate a new
+
+1434
+00:25:53,950 --> 00:25:53,960
+generate a new
+ 
+
+1435
+00:25:53,960 --> 00:25:56,350
+generate a new
+wallet for you. So, you can just copy
+
+1436
+00:25:56,350 --> 00:25:56,360
+wallet for you. So, you can just copy
+ 
+
+1437
+00:25:56,360 --> 00:25:57,790
+wallet for you. So, you can just copy
+and paste that, run it in your terminal,
+
+1438
+00:25:57,790 --> 00:25:57,800
+and paste that, run it in your terminal,
+ 
+
+1439
+00:25:57,800 --> 00:25:59,830
+and paste that, run it in your terminal,
+it's going to return your new public key
+
+1440
+00:25:59,830 --> 00:25:59,840
+it's going to return your new public key
+ 
+
+1441
+00:25:59,840 --> 00:26:01,710
+it's going to return your new public key
+for that wallet, as well as the seed
+
+1442
+00:26:01,710 --> 00:26:01,720
+for that wallet, as well as the seed
+ 
+
+1443
+00:26:01,720 --> 00:26:04,550
+for that wallet, as well as the seed
+phrase. So, save that somewhere.
+
+1444
+00:26:04,550 --> 00:26:04,560
+phrase. So, save that somewhere.
+ 
+
+1445
+00:26:04,560 --> 00:26:05,870
+phrase. So, save that somewhere.
+And then, once you have that, all you
+
+1446
+00:26:05,870 --> 00:26:05,880
+And then, once you have that, all you
+ 
+
+1447
+00:26:05,880 --> 00:26:08,710
+And then, once you have that, all you
+have to do is airdrop some devnet SOL to
+
+1448
+00:26:08,710 --> 00:26:08,720
+have to do is airdrop some devnet SOL to
+ 
+
+1449
+00:26:08,720 --> 00:26:10,710
+have to do is airdrop some devnet SOL to
+yourself. So, if I copy this, and I go
+
+1450
+00:26:10,710 --> 00:26:10,720
+yourself. So, if I copy this, and I go
+ 
+
+1451
+00:26:10,720 --> 00:26:12,990
+yourself. So, if I copy this, and I go
+over to faucet.solana.com,
+
+1452
+00:26:12,990 --> 00:26:13,000
+over to faucet.solana.com,
+ 
+
+1453
+00:26:13,000 --> 00:26:15,030
+over to faucet.solana.com,
+I can paste in my wallet address and
+
+1454
+00:26:15,030 --> 00:26:15,040
+I can paste in my wallet address and
+ 
+
+1455
+00:26:15,040 --> 00:26:16,669
+I can paste in my wallet address and
+choose how much SOL I want to airdrop to
+
+1456
+00:26:16,669 --> 00:26:16,679
+choose how much SOL I want to airdrop to
+ 
+
+1457
+00:26:16,679 --> 00:26:18,950
+choose how much SOL I want to airdrop to
+myself, and then airdrop it. I've
+
+1458
+00:26:18,950 --> 00:26:18,960
+myself, and then airdrop it. I've
+ 
+
+1459
+00:26:18,960 --> 00:26:21,230
+myself, and then airdrop it. I've
+already airdropped the maximum amount of
+
+1460
+00:26:21,230 --> 00:26:21,240
+already airdropped the maximum amount of
+ 
+
+1461
+00:26:21,240 --> 00:26:23,630
+already airdropped the maximum amount of
+SOL for the day to my wallet, so I can't
+
+1462
+00:26:23,630 --> 00:26:23,640
+SOL for the day to my wallet, so I can't
+ 
+
+1463
+00:26:23,640 --> 00:26:24,990
+SOL for the day to my wallet, so I can't
+actually show you, but all you do is
+
+1464
+00:26:24,990 --> 00:26:25,000
+actually show you, but all you do is
+ 
+
+1465
+00:26:25,000 --> 00:26:27,790
+actually show you, but all you do is
+click this button, and then
+
+1466
+00:26:27,790 --> 00:26:27,800
+click this button, and then
+ 
+
+1467
+00:26:27,800 --> 00:26:28,790
+click this button, and then
+you'll be good to go, you'll be able to
+
+1468
+00:26:28,790 --> 00:26:28,800
+you'll be good to go, you'll be able to
+ 
+
+1469
+00:26:28,800 --> 00:26:30,950
+you'll be good to go, you'll be able to
+deploy.
+
+1470
+00:26:30,950 --> 00:26:30,960
+deploy.
+ 
+
+1471
+00:26:30,960 --> 00:26:32,790
+deploy.
+And then, after that, the last thing I
+
+1472
+00:26:32,790 --> 00:26:32,800
+And then, after that, the last thing I
+ 
+
+1473
+00:26:32,800 --> 00:26:36,790
+And then, after that, the last thing I
+want to do is show you how to
+
+1474
+00:26:36,790 --> 00:26:36,800
+want to do is show you how to
+ 
+
+1475
+00:26:36,800 --> 00:26:38,590
+want to do is show you how to
+verify that this was deployed on chain.
+
+1476
+00:26:38,590 --> 00:26:38,600
+verify that this was deployed on chain.
+ 
+
+1477
+00:26:38,600 --> 00:26:41,270
+verify that this was deployed on chain.
+So, if I copy the program ID,
+
+1478
+00:26:41,270 --> 00:26:41,280
+So, if I copy the program ID,
+ 
+
+1479
+00:26:41,280 --> 00:26:46,068
+So, if I copy the program ID,
+and I go back over to my explorer,
+
+1480
+00:26:46,068 --> 00:26:46,078
+
+ 
+
+1481
+00:26:46,078 --> 00:26:46,510
+
+>> [snorts]
+
+1482
+00:26:46,510 --> 00:26:46,520
+>> [snorts]
+ 
+
+1483
+00:26:46,520 --> 00:26:48,550
+>> [snorts]
+>> update the cluster to devnet, and then I
+
+1484
+00:26:48,550 --> 00:26:48,560
+>> update the cluster to devnet, and then I
+ 
+
+1485
+00:26:48,560 --> 00:26:50,550
+>> update the cluster to devnet, and then I
+paste in that program ID, it's going to
+
+1486
+00:26:50,550 --> 00:26:50,560
+paste in that program ID, it's going to
+ 
+
+1487
+00:26:50,560 --> 00:26:52,230
+paste in that program ID, it's going to
+be able to look up my program. So, think
+
+1488
+00:26:52,230 --> 00:26:52,240
+be able to look up my program. So, think
+ 
+
+1489
+00:26:52,240 --> 00:26:54,430
+be able to look up my program. So, think
+of it like a key-value pair. Your value
+
+1490
+00:26:54,430 --> 00:26:54,440
+of it like a key-value pair. Your value
+ 
+
+1491
+00:26:54,440 --> 00:26:56,630
+of it like a key-value pair. Your value
+is that .so file that you deployed, and
+
+1492
+00:26:56,630 --> 00:26:56,640
+is that .so file that you deployed, and
+ 
+
+1493
+00:26:56,640 --> 00:26:59,230
+is that .so file that you deployed, and
+the key is your program ID. So, [snorts]
+
+1494
+00:26:59,230 --> 00:26:59,240
+the key is your program ID. So, [snorts]
+ 
+
+1495
+00:26:59,240 --> 00:27:00,590
+the key is your program ID. So, [snorts]
+I'm just going to search this, and now
+
+1496
+00:27:00,590 --> 00:27:00,600
+I'm just going to search this, and now
+ 
+
+1497
+00:27:00,600 --> 00:27:02,630
+I'm just going to search this, and now
+you can see there's a program account,
+
+1498
+00:27:02,630 --> 00:27:02,640
+you can see there's a program account,
+ 
+
+1499
+00:27:02,640 --> 00:27:05,310
+you can see there's a program account,
+and here was when I originally deployed
+
+1500
+00:27:05,310 --> 00:27:05,320
+and here was when I originally deployed
+ 
+
+1501
+00:27:05,320 --> 00:27:07,350
+and here was when I originally deployed
+it on chain 15 minutes ago, uh when I
+
+1502
+00:27:07,350 --> 00:27:07,360
+it on chain 15 minutes ago, uh when I
+ 
+
+1503
+00:27:07,360 --> 00:27:09,350
+it on chain 15 minutes ago, uh when I
+first tried to record this video, and
+
+1504
+00:27:09,350 --> 00:27:09,360
+first tried to record this video, and
+ 
+
+1505
+00:27:09,360 --> 00:27:10,710
+first tried to record this video, and
+then
+
+1506
+00:27:10,710 --> 00:27:10,720
+then
+ 
+
+1507
+00:27:10,720 --> 00:27:12,510
+then
+3 minutes ago, when I just executed the
+
+1508
+00:27:12,510 --> 00:27:12,520
+3 minutes ago, when I just executed the
+ 
+
+1509
+00:27:12,520 --> 00:27:14,590
+3 minutes ago, when I just executed the
+last deployment for upgrading this
+
+1510
+00:27:14,590 --> 00:27:14,600
+last deployment for upgrading this
+ 
+
+1511
+00:27:14,600 --> 00:27:17,110
+last deployment for upgrading this
+program.
+
+1512
+00:27:17,110 --> 00:27:17,120
+program.
+ 
+
+1513
+00:27:17,120 --> 00:27:18,818
+program.
+And there you go. So,
+
+1514
+00:27:18,818 --> 00:27:18,828
+And there you go. So,
+ 
+
+1515
+00:27:18,828 --> 00:27:18,870
+And there you go. So,
+>> [music]
+
+1516
+00:27:18,870 --> 00:27:18,880
+>> [music]
+ 
+
+1517
+00:27:18,880 --> 00:27:20,150
+>> [music]
+>> we've learned how to handle data on
+
+1518
+00:27:20,150 --> 00:27:20,160
+>> we've learned how to handle data on
+ 
+
+1519
+00:27:20,160 --> 00:27:22,470
+>> we've learned how to handle data on
+chain and build and deploy your program
+
+1520
+00:27:22,470 --> 00:27:22,480
+chain and build and deploy your program
+ 
+
+1521
+00:27:22,480 --> 00:27:25,110
+chain and build and deploy your program
+to Solana devnet. Up next, we're going
+
+1522
+00:27:25,110 --> 00:27:25,120
+to Solana devnet. Up next, we're going
+ 
+
+1523
+00:27:25,120 --> 00:27:27,270
+to Solana devnet. Up next, we're going
+to be learning about tokens, and then
+
+1524
+00:27:27,270 --> 00:27:27,280
+to be learning about tokens, and then
+ 
+
+1525
+00:27:27,280 --> 00:27:29,298
+to be learning about tokens, and then
+how to handle those in Solana programs.
+
+1526
+00:27:29,298 --> 00:27:29,308
+how to handle those in Solana programs.
+ 
+
+1527
+00:27:29,308 --> 00:27:33,000
+how to handle those in Solana programs.
+[music] So, check that out next.
+

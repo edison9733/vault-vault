@@ -1,0 +1,1 @@
+AI models that accept and/or produce multiple modalities — text, images, audio, video. [[Gemini Omni]] (2026) is a key example: any-to-any multimodal model. Represents the trend away from text-only LLMs toward unified perception and generation systems.

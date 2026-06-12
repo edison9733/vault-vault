@@ -1,0 +1,105 @@
+1
+00:00:00,000 --> 00:00:02,390
+
+Hey, I'm Bree. I am a Rust engineer, and
+
+2
+00:00:02,390 --> 00:00:02,400
+Hey, I'm Bree. I am a Rust engineer, and
+ 
+
+3
+00:00:02,400 --> 00:00:04,190
+Hey, I'm Bree. I am a Rust engineer, and
+I have been building on Solana for over
+
+4
+00:00:04,190 --> 00:00:04,200
+I have been building on Solana for over
+ 
+
+5
+00:00:04,200 --> 00:00:06,270
+I have been building on Solana for over
+2 years now. And lately, I've just been
+
+6
+00:00:06,270 --> 00:00:06,280
+2 years now. And lately, I've just been
+ 
+
+7
+00:00:06,280 --> 00:00:08,070
+2 years now. And lately, I've just been
+trying to keep up with all of this AI
+
+8
+00:00:08,070 --> 00:00:08,080
+trying to keep up with all of this AI
+ 
+
+9
+00:00:08,080 --> 00:00:10,830
+trying to keep up with all of this AI
+stuff and trying to learn how to use it
+
+10
+00:00:10,830 --> 00:00:10,840
+stuff and trying to learn how to use it
+ 
+
+11
+00:00:10,840 --> 00:00:12,750
+stuff and trying to learn how to use it
+effectively in my day-to-day. So, I
+
+12
+00:00:12,750 --> 00:00:12,760
+effectively in my day-to-day. So, I
+ 
+
+13
+00:00:12,760 --> 00:00:14,710
+effectively in my day-to-day. So, I
+started making videos to teach coding,
+
+14
+00:00:14,710 --> 00:00:14,720
+started making videos to teach coding,
+ 
+
+15
+00:00:14,720 --> 00:00:16,910
+started making videos to teach coding,
+share tools that actually work, and show
+
+16
+00:00:16,910 --> 00:00:16,920
+share tools that actually work, and show
+ 
+
+17
+00:00:16,920 --> 00:00:18,550
+share tools that actually work, and show
+you what it's like to work in blockchain
+
+18
+00:00:18,550 --> 00:00:18,560
+you what it's like to work in blockchain
+ 
+
+19
+00:00:18,560 --> 00:00:19,990
+you what it's like to work in blockchain
+development. Follow to see what's coming
+
+20
+00:00:19,990 --> 00:00:20,000
+development. Follow to see what's coming
+ 
+
+21
+00:00:20,000 --> 00:00:22,600
+development. Follow to see what's coming
+next.
+

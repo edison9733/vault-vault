@@ -1,0 +1,325 @@
+1
+00:00:00,000 --> 00:00:02,430
+
+Now, again, if you look at the S&P 500,
+
+2
+00:00:02,430 --> 00:00:02,440
+Now, again, if you look at the S&P 500,
+ 
+
+3
+00:00:02,440 --> 00:00:04,230
+Now, again, if you look at the S&P 500,
+you can see that the drawdown is
+
+4
+00:00:04,230 --> 00:00:04,240
+you can see that the drawdown is
+ 
+
+5
+00:00:04,240 --> 00:00:07,350
+you can see that the drawdown is
+actually about 9%. So, why is my
+
+6
+00:00:07,350 --> 00:00:07,360
+actually about 9%. So, why is my
+ 
+
+7
+00:00:07,360 --> 00:00:09,950
+actually about 9%. So, why is my
+portfolio down more than 9%? The reason
+
+8
+00:00:09,950 --> 00:00:09,960
+portfolio down more than 9%? The reason
+ 
+
+9
+00:00:09,960 --> 00:00:11,710
+portfolio down more than 9%? The reason
+is very simple. It's because you don't
+
+10
+00:00:11,710 --> 00:00:11,720
+is very simple. It's because you don't
+ 
+
+11
+00:00:11,720 --> 00:00:15,390
+is very simple. It's because you don't
+own any energy stocks. You can see that
+
+12
+00:00:15,390 --> 00:00:15,400
+own any energy stocks. You can see that
+ 
+
+13
+00:00:15,400 --> 00:00:17,550
+own any energy stocks. You can see that
+year-to-date, a lot of stocks, in fact,
+
+14
+00:00:17,550 --> 00:00:17,560
+year-to-date, a lot of stocks, in fact,
+ 
+
+15
+00:00:17,560 --> 00:00:19,950
+year-to-date, a lot of stocks, in fact,
+are down more than 9%. A lot of them are
+
+16
+00:00:19,950 --> 00:00:19,960
+are down more than 9%. A lot of them are
+ 
+
+17
+00:00:19,960 --> 00:00:22,230
+are down more than 9%. A lot of them are
+down 20%, 30%,
+
+18
+00:00:22,230 --> 00:00:22,240
+down 20%, 30%,
+ 
+
+19
+00:00:22,240 --> 00:00:23,470
+down 20%, 30%,
+and many of them are very good
+
+20
+00:00:23,470 --> 00:00:23,480
+and many of them are very good
+ 
+
+21
+00:00:23,480 --> 00:00:26,030
+and many of them are very good
+companies. Your Microsoft, your Nvidia,
+
+22
+00:00:26,030 --> 00:00:26,040
+companies. Your Microsoft, your Nvidia,
+ 
+
+23
+00:00:26,040 --> 00:00:27,950
+companies. Your Microsoft, your Nvidia,
+your Meta, they are down double digits.
+
+24
+00:00:27,950 --> 00:00:27,960
+your Meta, they are down double digits.
+ 
+
+25
+00:00:27,960 --> 00:00:30,030
+your Meta, they are down double digits.
+Your Palo Alto, great companies are down
+
+26
+00:00:30,030 --> 00:00:30,040
+Your Palo Alto, great companies are down
+ 
+
+27
+00:00:30,040 --> 00:00:31,470
+Your Palo Alto, great companies are down
+a lot. And I own all these companies,
+
+28
+00:00:31,470 --> 00:00:31,480
+a lot. And I own all these companies,
+ 
+
+29
+00:00:31,480 --> 00:00:33,830
+a lot. And I own all these companies,
+right? But why is it the S&P is only
+
+30
+00:00:33,830 --> 00:00:33,840
+right? But why is it the S&P is only
+ 
+
+31
+00:00:33,840 --> 00:00:36,830
+right? But why is it the S&P is only
+down 9%? Because it's being held up by
+
+32
+00:00:36,830 --> 00:00:36,840
+down 9%? Because it's being held up by
+ 
+
+33
+00:00:36,840 --> 00:00:39,910
+down 9%? Because it's being held up by
+the energy stocks. Why? Because oil. Oil
+
+34
+00:00:39,910 --> 00:00:39,920
+the energy stocks. Why? Because oil. Oil
+ 
+
+35
+00:00:39,920 --> 00:00:42,550
+the energy stocks. Why? Because oil. Oil
+goes up, energy companies make a lot of
+
+36
+00:00:42,550 --> 00:00:42,560
+goes up, energy companies make a lot of
+ 
+
+37
+00:00:42,560 --> 00:00:44,510
+goes up, energy companies make a lot of
+money. As you know, the majority of
+
+38
+00:00:44,510 --> 00:00:44,520
+money. As you know, the majority of
+ 
+
+39
+00:00:44,520 --> 00:00:47,710
+money. As you know, the majority of
+stocks that I buy in my portfolio are in
+
+40
+00:00:47,710 --> 00:00:47,720
+stocks that I buy in my portfolio are in
+ 
+
+41
+00:00:47,720 --> 00:00:49,590
+stocks that I buy in my portfolio are in
+these sectors like healthcare,
+
+42
+00:00:49,590 --> 00:00:49,600
+these sectors like healthcare,
+ 
+
+43
+00:00:49,600 --> 00:00:51,470
+these sectors like healthcare,
+technology, financial stocks,
+
+44
+00:00:51,470 --> 00:00:51,480
+technology, financial stocks,
+ 
+
+45
+00:00:51,480 --> 00:00:53,270
+technology, financial stocks,
+communication services stocks, and
+
+46
+00:00:53,270 --> 00:00:53,280
+communication services stocks, and
+ 
+
+47
+00:00:53,280 --> 00:00:55,190
+communication services stocks, and
+consumer discretionary, also known as
+
+48
+00:00:55,190 --> 00:00:55,200
+consumer discretionary, also known as
+ 
+
+49
+00:00:55,200 --> 00:00:57,910
+consumer discretionary, also known as
+consumer cyclicals. Why? Because stocks
+
+50
+00:00:57,910 --> 00:00:57,920
+consumer cyclicals. Why? Because stocks
+ 
+
+51
+00:00:57,920 --> 00:01:00,150
+consumer cyclicals. Why? Because stocks
+within these sectors, they have much
+
+52
+00:01:00,150 --> 00:01:00,160
+within these sectors, they have much
+ 
+
+53
+00:01:00,160 --> 00:01:01,870
+within these sectors, they have much
+higher growth rates, higher profit
+
+54
+00:01:01,870 --> 00:01:01,880
+higher growth rates, higher profit
+ 
+
+55
+00:01:01,880 --> 00:01:03,910
+higher growth rates, higher profit
+margins, stronger economic moat, higher
+
+56
+00:01:03,910 --> 00:01:03,920
+margins, stronger economic moat, higher
+ 
+
+57
+00:01:03,920 --> 00:01:06,270
+margins, stronger economic moat, higher
+return on capital compared to the S&P
+
+58
+00:01:06,270 --> 00:01:06,280
+return on capital compared to the S&P
+ 
+
+59
+00:01:06,280 --> 00:01:10,230
+return on capital compared to the S&P
+500. So, in the long run, these sectors
+
+60
+00:01:10,230 --> 00:01:10,240
+500. So, in the long run, these sectors
+ 
+
+61
+00:01:10,240 --> 00:01:13,190
+500. So, in the long run, these sectors
+over here, they way outperform the S&P
+
+62
+00:01:13,190 --> 00:01:13,200
+over here, they way outperform the S&P
+ 
+
+63
+00:01:13,200 --> 00:01:15,870
+over here, they way outperform the S&P
+500 over the long run. But this year is
+
+64
+00:01:15,870 --> 00:01:15,880
+500 over the long run. But this year is
+ 
+
+65
+00:01:15,880 --> 00:01:19,680
+500 over the long run. But this year is
+what we call a bizarro period.
+

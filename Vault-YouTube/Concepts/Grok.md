@@ -1,0 +1,1 @@
+[[xAI]]'s large language model, positioned as an alternative to [[OpenAI]]'s ChatGPT. In the [[Musk vs Altman Trial]], Musk admitted under oath that Grok had used OpenAI model outputs, undermining Musk's moral standing in the lawsuit.

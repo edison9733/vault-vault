@@ -1,0 +1,1 @@
+A Chrome web API announced at Google I/O 2026 that allows native HTML elements to be rendered directly inside an HTML canvas element. Enables developers to combine pixel-level control (WebGL, WebGPU) with standard HTML UI components in a single surface.

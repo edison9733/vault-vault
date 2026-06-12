@@ -1,0 +1,2305 @@
+1
+00:00:00,640 --> 00:00:02,070
+
+Before I write a single line of Solana
+
+2
+00:00:02,070 --> 00:00:02,080
+Before I write a single line of Solana
+ 
+
+3
+00:00:02,080 --> 00:00:03,430
+Before I write a single line of Solana
+code, we need to get your machine set up
+
+4
+00:00:03,430 --> 00:00:03,440
+code, we need to get your machine set up
+ 
+
+5
+00:00:03,440 --> 00:00:05,270
+code, we need to get your machine set up
+properly. So, let's go over what we'll
+
+6
+00:00:05,270 --> 00:00:05,280
+properly. So, let's go over what we'll
+ 
+
+7
+00:00:05,280 --> 00:00:07,070
+properly. So, let's go over what we'll
+be installing. First, [music] Rust.
+
+8
+00:00:07,070 --> 00:00:07,080
+be installing. First, [music] Rust.
+ 
+
+9
+00:00:07,080 --> 00:00:08,870
+be installing. First, [music] Rust.
+Solana programs are written in Rust, so
+
+10
+00:00:08,870 --> 00:00:08,880
+Solana programs are written in Rust, so
+ 
+
+11
+00:00:08,880 --> 00:00:10,950
+Solana programs are written in Rust, so
+we need the Rust compiler and Cargo,
+
+12
+00:00:10,950 --> 00:00:10,960
+we need the Rust compiler and Cargo,
+ 
+
+13
+00:00:10,960 --> 00:00:12,950
+we need the Rust compiler and Cargo,
+which is Rust package manager. If you've
+
+14
+00:00:12,950 --> 00:00:12,960
+which is Rust package manager. If you've
+ 
+
+15
+00:00:12,960 --> 00:00:14,550
+which is Rust package manager. If you've
+never written with Rust before, don't
+
+16
+00:00:14,550 --> 00:00:14,560
+never written with Rust before, don't
+ 
+
+17
+00:00:14,560 --> 00:00:16,070
+never written with Rust before, don't
+worry. We'll cover everything you need
+
+18
+00:00:16,070 --> 00:00:16,080
+worry. We'll cover everything you need
+ 
+
+19
+00:00:16,080 --> 00:00:17,950
+worry. We'll cover everything you need
+to know, but the tool chain needs to be
+
+20
+00:00:17,950 --> 00:00:17,960
+to know, but the tool chain needs to be
+ 
+
+21
+00:00:17,960 --> 00:00:18,870
+to know, but the tool chain needs to be
+there.
+
+22
+00:00:18,870 --> 00:00:18,880
+there.
+ 
+
+23
+00:00:18,880 --> 00:00:20,950
+there.
+Second is the Solana CLI. This is
+
+24
+00:00:20,950 --> 00:00:20,960
+Second is the Solana CLI. This is
+ 
+
+25
+00:00:20,960 --> 00:00:22,310
+Second is the Solana CLI. This is
+[music] your command line interface for
+
+26
+00:00:22,310 --> 00:00:22,320
+[music] your command line interface for
+ 
+
+27
+00:00:22,320 --> 00:00:24,230
+[music] your command line interface for
+interacting with Solana networks. You'll
+
+28
+00:00:24,230 --> 00:00:24,240
+interacting with Solana networks. You'll
+ 
+
+29
+00:00:24,240 --> 00:00:25,750
+interacting with Solana networks. You'll
+use it to create wallets, deploy
+
+30
+00:00:25,750 --> 00:00:25,760
+use it to create wallets, deploy
+ 
+
+31
+00:00:25,760 --> 00:00:27,390
+use it to create wallets, deploy
+programs, check balances, [music]
+
+32
+00:00:27,390 --> 00:00:27,400
+programs, check balances, [music]
+ 
+
+33
+00:00:27,400 --> 00:00:28,950
+programs, check balances, [music]
+airdrop yourself devnet SOL, and a lot
+
+34
+00:00:28,950 --> 00:00:28,960
+airdrop yourself devnet SOL, and a lot
+ 
+
+35
+00:00:28,960 --> 00:00:30,670
+airdrop yourself devnet SOL, and a lot
+more. It's essential.
+
+36
+00:00:30,670 --> 00:00:30,680
+more. It's essential.
+ 
+
+37
+00:00:30,680 --> 00:00:32,510
+more. It's essential.
+Third is Anchor. Anchor is a framework
+
+38
+00:00:32,510 --> 00:00:32,520
+Third is Anchor. Anchor is a framework
+ 
+
+39
+00:00:32,520 --> 00:00:33,870
+Third is Anchor. Anchor is a framework
+that makes Solana development
+
+40
+00:00:33,870 --> 00:00:33,880
+that makes Solana development
+ 
+
+41
+00:00:33,880 --> 00:00:36,350
+that makes Solana development
+significantly easier. It handles a lot
+
+42
+00:00:36,350 --> 00:00:36,360
+significantly easier. It handles a lot
+ 
+
+43
+00:00:36,360 --> 00:00:38,110
+significantly easier. It handles a lot
+of the boilerplate and security checks
+
+44
+00:00:38,110 --> 00:00:38,120
+of the boilerplate and security checks
+ 
+
+45
+00:00:38,120 --> 00:00:39,470
+of the boilerplate and security checks
+that you'd otherwise have to write
+
+46
+00:00:39,470 --> 00:00:39,480
+that you'd otherwise have to write
+ 
+
+47
+00:00:39,480 --> 00:00:41,390
+that you'd otherwise have to write
+manually. Most production Solana
+
+48
+00:00:41,390 --> 00:00:41,400
+manually. Most production Solana
+ 
+
+49
+00:00:41,400 --> 00:00:43,110
+manually. Most production Solana
+programs today are built with Anchor,
+
+50
+00:00:43,110 --> 00:00:43,120
+programs today are built with Anchor,
+ 
+
+51
+00:00:43,120 --> 00:00:44,430
+programs today are built with Anchor,
+and it's what we'll be using throughout
+
+52
+00:00:44,430 --> 00:00:44,440
+and it's what we'll be using throughout
+ 
+
+53
+00:00:44,440 --> 00:00:45,185
+and it's what we'll be using throughout
+this bootcamp.
+
+54
+00:00:45,185 --> 00:00:45,195
+this bootcamp.
+ 
+
+55
+00:00:45,195 --> 00:00:45,430
+this bootcamp.
+>> [music]
+
+56
+00:00:45,430 --> 00:00:45,440
+>> [music]
+ 
+
+57
+00:00:45,440 --> 00:00:47,430
+>> [music]
+>> And fourth is Surf Pool. This is a local
+
+58
+00:00:47,430 --> 00:00:47,440
+>> And fourth is Surf Pool. This is a local
+ 
+
+59
+00:00:47,440 --> 00:00:48,990
+>> And fourth is Surf Pool. This is a local
+test validator that's extremely fast.
+
+60
+00:00:48,990 --> 00:00:49,000
+test validator that's extremely fast.
+ 
+
+61
+00:00:49,000 --> 00:00:50,310
+test validator that's extremely fast.
+Instead of waiting for transactions to
+
+62
+00:00:50,310 --> 00:00:50,320
+Instead of waiting for transactions to
+ 
+
+63
+00:00:50,320 --> 00:00:51,950
+Instead of waiting for transactions to
+confirm on devnet, you can test locally
+
+64
+00:00:51,950 --> 00:00:51,960
+confirm on devnet, you can test locally
+ 
+
+65
+00:00:51,960 --> 00:00:53,070
+confirm on devnet, you can test locally
+and get instant feedback on your [music]
+
+66
+00:00:53,070 --> 00:00:53,080
+and get instant feedback on your [music]
+ 
+
+67
+00:00:53,080 --> 00:00:55,510
+and get instant feedback on your [music]
+code. It's a huge productivity boost
+
+68
+00:00:55,510 --> 00:00:55,520
+code. It's a huge productivity boost
+ 
+
+69
+00:00:55,520 --> 00:00:57,590
+code. It's a huge productivity boost
+when you are iterating quickly. Now,
+
+70
+00:00:57,590 --> 00:00:57,600
+when you are iterating quickly. Now,
+ 
+
+71
+00:00:57,600 --> 00:00:59,110
+when you are iterating quickly. Now,
+I'll be showing this on a Mac, but I'll
+
+72
+00:00:59,110 --> 00:00:59,120
+I'll be showing this on a Mac, but I'll
+ 
+
+73
+00:00:59,120 --> 00:01:00,670
+I'll be showing this on a Mac, but I'll
+include instructions for other operating
+
+74
+00:01:00,670 --> 00:01:00,680
+include instructions for other operating
+ 
+
+75
+00:01:00,680 --> 00:01:02,630
+include instructions for other operating
+systems. The process is pretty similar
+
+76
+00:01:02,630 --> 00:01:02,640
+systems. The process is pretty similar
+ 
+
+77
+00:01:02,640 --> 00:01:04,310
+systems. The process is pretty similar
+across platforms. [music] Now, let's get
+
+78
+00:01:04,310 --> 00:01:04,320
+across platforms. [music] Now, let's get
+ 
+
+79
+00:01:04,320 --> 00:01:05,950
+across platforms. [music] Now, let's get
+started.
+
+80
+00:01:05,950 --> 00:01:05,960
+started.
+ 
+
+81
+00:01:05,960 --> 00:01:07,550
+started.
+So, we're going to go straight to the
+
+82
+00:01:07,550 --> 00:01:07,560
+So, we're going to go straight to the
+ 
+
+83
+00:01:07,560 --> 00:01:10,790
+So, we're going to go straight to the
+Solana docs. So, solana.com/docs,
+
+84
+00:01:10,790 --> 00:01:10,800
+Solana docs. So, solana.com/docs,
+ 
+
+85
+00:01:10,800 --> 00:01:12,390
+Solana docs. So, solana.com/docs,
+and there is going to be an installation
+
+86
+00:01:12,390 --> 00:01:12,400
+and there is going to be an installation
+ 
+
+87
+00:01:12,400 --> 00:01:14,150
+and there is going to be an installation
+section. And this is going to go over
+
+88
+00:01:14,150 --> 00:01:14,160
+section. And this is going to go over
+ 
+
+89
+00:01:14,160 --> 00:01:15,630
+section. And this is going to go over
+everything you need to set up your
+
+90
+00:01:15,630 --> 00:01:15,640
+everything you need to set up your
+ 
+
+91
+00:01:15,640 --> 00:01:18,870
+everything you need to set up your
+environment. And it's pretty simple
+
+92
+00:01:18,870 --> 00:01:18,880
+environment. And it's pretty simple
+ 
+
+93
+00:01:18,880 --> 00:01:20,470
+environment. And it's pretty simple
+because everything's been wrapped into
+
+94
+00:01:20,470 --> 00:01:20,480
+because everything's been wrapped into
+ 
+
+95
+00:01:20,480 --> 00:01:22,110
+because everything's been wrapped into
+this curl command to install all the
+
+96
+00:01:22,110 --> 00:01:22,120
+this curl command to install all the
+ 
+
+97
+00:01:22,120 --> 00:01:23,790
+this curl command to install all the
+dependencies that you need. So, this is
+
+98
+00:01:23,790 --> 00:01:23,800
+dependencies that you need. So, this is
+ 
+
+99
+00:01:23,800 --> 00:01:26,430
+dependencies that you need. So, this is
+going to cover Rust, the Solana CLI,
+
+100
+00:01:26,430 --> 00:01:26,440
+going to cover Rust, the Solana CLI,
+ 
+
+101
+00:01:26,440 --> 00:01:29,270
+going to cover Rust, the Solana CLI,
+Anchor CLI, Surf Pool, Node.js, and
+
+102
+00:01:29,270 --> 00:01:29,280
+Anchor CLI, Surf Pool, Node.js, and
+ 
+
+103
+00:01:29,280 --> 00:01:32,150
+Anchor CLI, Surf Pool, Node.js, and
+Yarn. One thing to note, though, is if
+
+104
+00:01:32,150 --> 00:01:32,160
+Yarn. One thing to note, though, is if
+ 
+
+105
+00:01:32,160 --> 00:01:34,230
+Yarn. One thing to note, though, is if
+you are running Windows or Linux, there
+
+106
+00:01:34,230 --> 00:01:34,240
+you are running Windows or Linux, there
+ 
+
+107
+00:01:34,240 --> 00:01:35,550
+you are running Windows or Linux, there
+are pre-reqs that you're going to have
+
+108
+00:01:35,550 --> 00:01:35,560
+are pre-reqs that you're going to have
+ 
+
+109
+00:01:35,560 --> 00:01:37,350
+are pre-reqs that you're going to have
+to meet before actually running this
+
+110
+00:01:37,350 --> 00:01:37,360
+to meet before actually running this
+ 
+
+111
+00:01:37,360 --> 00:01:39,230
+to meet before actually running this
+curl command in your terminal.
+
+112
+00:01:39,230 --> 00:01:39,240
+curl command in your terminal.
+ 
+
+113
+00:01:39,240 --> 00:01:40,750
+curl command in your terminal.
+I am running a Mac, so I can't show you
+
+114
+00:01:40,750 --> 00:01:40,760
+I am running a Mac, so I can't show you
+ 
+
+115
+00:01:40,760 --> 00:01:43,790
+I am running a Mac, so I can't show you
+how to do it, but um if you just go to
+
+116
+00:01:43,790 --> 00:01:43,800
+how to do it, but um if you just go to
+ 
+
+117
+00:01:43,800 --> 00:01:46,910
+how to do it, but um if you just go to
+the documentation, everything is very
+
+118
+00:01:46,910 --> 00:01:46,920
+the documentation, everything is very
+ 
+
+119
+00:01:46,920 --> 00:01:48,950
+the documentation, everything is very
+explicitly stated here for you to follow
+
+120
+00:01:48,950 --> 00:01:48,960
+explicitly stated here for you to follow
+ 
+
+121
+00:01:48,960 --> 00:01:50,030
+explicitly stated here for you to follow
+along.
+
+122
+00:01:50,030 --> 00:01:50,040
+along.
+ 
+
+123
+00:01:50,040 --> 00:01:52,110
+along.
+And once that's all set up, then we can
+
+124
+00:01:52,110 --> 00:01:52,120
+And once that's all set up, then we can
+ 
+
+125
+00:01:52,120 --> 00:01:54,350
+And once that's all set up, then we can
+get to our install. So, here we're just
+
+126
+00:01:54,350 --> 00:01:54,360
+get to our install. So, here we're just
+ 
+
+127
+00:01:54,360 --> 00:01:56,750
+get to our install. So, here we're just
+going to very simply copy these
+
+128
+00:01:56,750 --> 00:01:56,760
+going to very simply copy these
+ 
+
+129
+00:01:56,760 --> 00:01:58,350
+going to very simply copy these
+commands, and we're going to paste it
+
+130
+00:01:58,350 --> 00:01:58,360
+commands, and we're going to paste it
+ 
+
+131
+00:01:58,360 --> 00:01:59,950
+commands, and we're going to paste it
+into our terminal.
+
+132
+00:01:59,950 --> 00:01:59,960
+into our terminal.
+ 
+
+133
+00:01:59,960 --> 00:02:02,070
+into our terminal.
+And we'll let this run. It's going to
+
+134
+00:02:02,070 --> 00:02:02,080
+And we'll let this run. It's going to
+ 
+
+135
+00:02:02,080 --> 00:02:03,510
+And we'll let this run. It's going to
+take some time to run, but what it's
+
+136
+00:02:03,510 --> 00:02:03,520
+take some time to run, but what it's
+ 
+
+137
+00:02:03,520 --> 00:02:06,710
+take some time to run, but what it's
+going to do is it's going to make sure
+
+138
+00:02:06,710 --> 00:02:06,720
+going to do is it's going to make sure
+ 
+
+139
+00:02:06,720 --> 00:02:08,310
+going to do is it's going to make sure
+all of the dependencies are installed on
+
+140
+00:02:08,310 --> 00:02:08,320
+all of the dependencies are installed on
+ 
+
+141
+00:02:08,320 --> 00:02:11,230
+all of the dependencies are installed on
+your machine. And once they are, then
+
+142
+00:02:11,230 --> 00:02:11,240
+your machine. And once they are, then
+ 
+
+143
+00:02:11,240 --> 00:02:12,630
+your machine. And once they are, then
+it's going to move on to the next one.
+
+144
+00:02:12,630 --> 00:02:12,640
+it's going to move on to the next one.
+ 
+
+145
+00:02:12,640 --> 00:02:14,070
+it's going to move on to the next one.
+If you already have things installed, it
+
+146
+00:02:14,070 --> 00:02:14,080
+If you already have things installed, it
+ 
+
+147
+00:02:14,080 --> 00:02:16,470
+If you already have things installed, it
+won't reinstall it. So, you can see mine
+
+148
+00:02:16,470 --> 00:02:16,480
+won't reinstall it. So, you can see mine
+ 
+
+149
+00:02:16,480 --> 00:02:18,350
+won't reinstall it. So, you can see mine
+ran pretty fast just because I already
+
+150
+00:02:18,350 --> 00:02:18,360
+ran pretty fast just because I already
+ 
+
+151
+00:02:18,360 --> 00:02:19,550
+ran pretty fast just because I already
+did have everything installed on my
+
+152
+00:02:19,550 --> 00:02:19,560
+did have everything installed on my
+ 
+
+153
+00:02:19,560 --> 00:02:20,670
+did have everything installed on my
+machine.
+
+154
+00:02:20,670 --> 00:02:20,680
+machine.
+ 
+
+155
+00:02:20,680 --> 00:02:22,110
+machine.
+Um and then it's also going to check
+
+156
+00:02:22,110 --> 00:02:22,120
+Um and then it's also going to check
+ 
+
+157
+00:02:22,120 --> 00:02:24,190
+Um and then it's also going to check
+versions for you. And then once it's all
+
+158
+00:02:24,190 --> 00:02:24,200
+versions for you. And then once it's all
+ 
+
+159
+00:02:24,200 --> 00:02:26,150
+versions for you. And then once it's all
+installed, you'll see that it says
+
+160
+00:02:26,150 --> 00:02:26,160
+installed, you'll see that it says
+ 
+
+161
+00:02:26,160 --> 00:02:27,870
+installed, you'll see that it says
+installation complete, please restart
+
+162
+00:02:27,870 --> 00:02:27,880
+installation complete, please restart
+ 
+
+163
+00:02:27,880 --> 00:02:30,550
+installation complete, please restart
+your terminal to apply all changes. So,
+
+164
+00:02:30,550 --> 00:02:30,560
+your terminal to apply all changes. So,
+ 
+
+165
+00:02:30,560 --> 00:02:32,430
+your terminal to apply all changes. So,
+I'm just going to close this out, and
+
+166
+00:02:32,430 --> 00:02:32,440
+I'm just going to close this out, and
+ 
+
+167
+00:02:32,440 --> 00:02:35,350
+I'm just going to close this out, and
+then we're going to reopen the terminal.
+
+168
+00:02:35,350 --> 00:02:35,360
+then we're going to reopen the terminal.
+ 
+
+169
+00:02:35,360 --> 00:02:38,310
+then we're going to reopen the terminal.
+I'll zoom in a bit for you there.
+
+170
+00:02:38,310 --> 00:02:38,320
+I'll zoom in a bit for you there.
+ 
+
+171
+00:02:38,320 --> 00:02:39,710
+I'll zoom in a bit for you there.
+And then all we're going to do is check
+
+172
+00:02:39,710 --> 00:02:39,720
+And then all we're going to do is check
+ 
+
+173
+00:02:39,720 --> 00:02:40,910
+And then all we're going to do is check
+to make sure everything was installed
+
+174
+00:02:40,910 --> 00:02:40,920
+to make sure everything was installed
+ 
+
+175
+00:02:40,920 --> 00:02:43,270
+to make sure everything was installed
+correctly. So, that command is also
+
+176
+00:02:43,270 --> 00:02:43,280
+correctly. So, that command is also
+ 
+
+177
+00:02:43,280 --> 00:02:44,990
+correctly. So, that command is also
+explained here in the docs, and all it
+
+178
+00:02:44,990 --> 00:02:45,000
+explained here in the docs, and all it
+ 
+
+179
+00:02:45,000 --> 00:02:46,990
+explained here in the docs, and all it
+is is checking the version of each
+
+180
+00:02:46,990 --> 00:02:47,000
+is is checking the version of each
+ 
+
+181
+00:02:47,000 --> 00:02:48,390
+is is checking the version of each
+dependency that was installed on your
+
+182
+00:02:48,390 --> 00:02:48,400
+dependency that was installed on your
+ 
+
+183
+00:02:48,400 --> 00:02:50,030
+dependency that was installed on your
+computer. So, we're just going to copy
+
+184
+00:02:50,030 --> 00:02:50,040
+computer. So, we're just going to copy
+ 
+
+185
+00:02:50,040 --> 00:02:53,190
+computer. So, we're just going to copy
+that and paste it into our terminal.
+
+186
+00:02:53,190 --> 00:02:53,200
+that and paste it into our terminal.
+ 
+
+187
+00:02:53,200 --> 00:02:55,870
+that and paste it into our terminal.
+And you can see I have Rust, Solana CLI,
+
+188
+00:02:55,870 --> 00:02:55,880
+And you can see I have Rust, Solana CLI,
+ 
+
+189
+00:02:55,880 --> 00:02:58,430
+And you can see I have Rust, Solana CLI,
+Anchor CLI, and Surf Pool all installed.
+
+190
+00:02:58,430 --> 00:02:58,440
+Anchor CLI, and Surf Pool all installed.
+ 
+
+191
+00:02:58,440 --> 00:03:00,790
+Anchor CLI, and Surf Pool all installed.
+So, we're all good to go there. Now that
+
+192
+00:03:00,790 --> 00:03:00,800
+So, we're all good to go there. Now that
+ 
+
+193
+00:03:00,800 --> 00:03:03,910
+So, we're all good to go there. Now that
+that's set up, if you are curious to
+
+194
+00:03:03,910 --> 00:03:03,920
+that's set up, if you are curious to
+ 
+
+195
+00:03:03,920 --> 00:03:06,430
+that's set up, if you are curious to
+dive deeper into each of these CLIs and
+
+196
+00:03:06,430 --> 00:03:06,440
+dive deeper into each of these CLIs and
+ 
+
+197
+00:03:06,440 --> 00:03:08,270
+dive deeper into each of these CLIs and
+all the basics that go along with it,
+
+198
+00:03:08,270 --> 00:03:08,280
+all the basics that go along with it,
+ 
+
+199
+00:03:08,280 --> 00:03:10,070
+all the basics that go along with it,
+there are docs for each of them. So, you
+
+200
+00:03:10,070 --> 00:03:10,080
+there are docs for each of them. So, you
+ 
+
+201
+00:03:10,080 --> 00:03:13,390
+there are docs for each of them. So, you
+can go into these pages here and just
+
+202
+00:03:13,390 --> 00:03:13,400
+can go into these pages here and just
+ 
+
+203
+00:03:13,400 --> 00:03:14,950
+can go into these pages here and just
+take a look
+
+204
+00:03:14,950 --> 00:03:14,960
+take a look
+ 
+
+205
+00:03:14,960 --> 00:03:17,390
+take a look
+and figure everything out on how you can
+
+206
+00:03:17,390 --> 00:03:17,400
+and figure everything out on how you can
+ 
+
+207
+00:03:17,400 --> 00:03:19,750
+and figure everything out on how you can
+use these CLIs. These will be used
+
+208
+00:03:19,750 --> 00:03:19,760
+use these CLIs. These will be used
+ 
+
+209
+00:03:19,760 --> 00:03:21,390
+use these CLIs. These will be used
+throughout the rest of the bootcamp, so
+
+210
+00:03:21,390 --> 00:03:21,400
+throughout the rest of the bootcamp, so
+ 
+
+211
+00:03:21,400 --> 00:03:22,750
+throughout the rest of the bootcamp, so
+you don't have to read through this
+
+212
+00:03:22,750 --> 00:03:22,760
+you don't have to read through this
+ 
+
+213
+00:03:22,760 --> 00:03:24,230
+you don't have to read through this
+documentation. You can follow along with
+
+214
+00:03:24,230 --> 00:03:24,240
+documentation. You can follow along with
+ 
+
+215
+00:03:24,240 --> 00:03:25,870
+documentation. You can follow along with
+the rest of our courses, but if you're
+
+216
+00:03:25,870 --> 00:03:25,880
+the rest of our courses, but if you're
+ 
+
+217
+00:03:25,880 --> 00:03:28,390
+the rest of our courses, but if you're
+curious now, take a look. And then we're
+
+218
+00:03:28,390 --> 00:03:28,400
+curious now, take a look. And then we're
+ 
+
+219
+00:03:28,400 --> 00:03:30,230
+curious now, take a look. And then we're
+just going to go over a few more basics
+
+220
+00:03:30,230 --> 00:03:30,240
+just going to go over a few more basics
+ 
+
+221
+00:03:30,240 --> 00:03:31,670
+just going to go over a few more basics
+for getting your computer ready, so then
+
+222
+00:03:31,670 --> 00:03:31,680
+for getting your computer ready, so then
+ 
+
+223
+00:03:31,680 --> 00:03:33,110
+for getting your computer ready, so then
+you can follow along for the rest of our
+
+224
+00:03:33,110 --> 00:03:33,120
+you can follow along for the rest of our
+ 
+
+225
+00:03:33,120 --> 00:03:34,950
+you can follow along for the rest of our
+projects. So, the next thing I'm going
+
+226
+00:03:34,950 --> 00:03:34,960
+projects. So, the next thing I'm going
+ 
+
+227
+00:03:34,960 --> 00:03:38,670
+projects. So, the next thing I'm going
+to look at is setting up your local
+
+228
+00:03:38,670 --> 00:03:38,680
+to look at is setting up your local
+ 
+
+229
+00:03:38,680 --> 00:03:40,670
+to look at is setting up your local
+wallet on your computer.
+
+230
+00:03:40,670 --> 00:03:40,680
+wallet on your computer.
+ 
+
+231
+00:03:40,680 --> 00:03:42,990
+wallet on your computer.
+So, if I go to terminal, if I type in
+
+232
+00:03:42,990 --> 00:03:43,000
+So, if I go to terminal, if I type in
+ 
+
+233
+00:03:43,000 --> 00:03:46,230
+So, if I go to terminal, if I type in
+Solana address, it's using the CLI to
+
+234
+00:03:46,230 --> 00:03:46,240
+Solana address, it's using the CLI to
+ 
+
+235
+00:03:46,240 --> 00:03:48,790
+Solana address, it's using the CLI to
+check what wallet is connected as your
+
+236
+00:03:48,790 --> 00:03:48,800
+check what wallet is connected as your
+ 
+
+237
+00:03:48,800 --> 00:03:51,150
+check what wallet is connected as your
+local key pair on your machine. So, I'm
+
+238
+00:03:51,150 --> 00:03:51,160
+local key pair on your machine. So, I'm
+ 
+
+239
+00:03:51,160 --> 00:03:52,590
+local key pair on your machine. So, I'm
+going to type this in, and you can see I
+
+240
+00:03:52,590 --> 00:03:52,600
+going to type this in, and you can see I
+ 
+
+241
+00:03:52,600 --> 00:03:56,230
+going to type this in, and you can see I
+have no signer found right now. Um
+
+242
+00:03:56,230 --> 00:03:56,240
+have no signer found right now. Um
+ 
+
+243
+00:03:56,240 --> 00:03:58,630
+have no signer found right now. Um
+most of the time it's going to show that
+
+244
+00:03:58,630 --> 00:03:58,640
+most of the time it's going to show that
+ 
+
+245
+00:03:58,640 --> 00:04:00,270
+most of the time it's going to show that
+unless you've already set it up. So, if
+
+246
+00:04:00,270 --> 00:04:00,280
+unless you've already set it up. So, if
+ 
+
+247
+00:04:00,280 --> 00:04:01,510
+unless you've already set it up. So, if
+you're just installing for the first
+
+248
+00:04:01,510 --> 00:04:01,520
+you're just installing for the first
+ 
+
+249
+00:04:01,520 --> 00:04:02,950
+you're just installing for the first
+time, this is the output that you're
+
+250
+00:04:02,950 --> 00:04:02,960
+time, this is the output that you're
+ 
+
+251
+00:04:02,960 --> 00:04:04,350
+time, this is the output that you're
+going to get, and you're going to be
+
+252
+00:04:04,350 --> 00:04:04,360
+going to get, and you're going to be
+ 
+
+253
+00:04:04,360 --> 00:04:06,950
+going to get, and you're going to be
+able to run Solana keygen new.
+
+254
+00:04:06,950 --> 00:04:06,960
+able to run Solana keygen new.
+ 
+
+255
+00:04:06,960 --> 00:04:09,070
+able to run Solana keygen new.
+And what this is, so the command
+
+256
+00:04:09,070 --> 00:04:09,080
+And what this is, so the command
+ 
+
+257
+00:04:09,080 --> 00:04:10,310
+And what this is, so the command
+actually tells you what to run, which
+
+258
+00:04:10,310 --> 00:04:10,320
+actually tells you what to run, which
+ 
+
+259
+00:04:10,320 --> 00:04:12,430
+actually tells you what to run, which
+makes it easy. But what this is doing is
+
+260
+00:04:12,430 --> 00:04:12,440
+makes it easy. But what this is doing is
+ 
+
+261
+00:04:12,440 --> 00:04:15,110
+makes it easy. But what this is doing is
+it's generating a new key pair and
+
+262
+00:04:15,110 --> 00:04:15,120
+it's generating a new key pair and
+ 
+
+263
+00:04:15,120 --> 00:04:17,710
+it's generating a new key pair and
+storing that on your machine.
+
+264
+00:04:17,710 --> 00:04:17,720
+storing that on your machine.
+ 
+
+265
+00:04:17,720 --> 00:04:19,390
+storing that on your machine.
+Now that's created, you're going to have
+
+266
+00:04:19,390 --> 00:04:19,400
+Now that's created, you're going to have
+ 
+
+267
+00:04:19,400 --> 00:04:20,949
+Now that's created, you're going to have
+your seed phrase displayed on the
+
+268
+00:04:20,949 --> 00:04:20,959
+your seed phrase displayed on the
+ 
+
+269
+00:04:20,959 --> 00:04:22,870
+your seed phrase displayed on the
+screen. Mine's going to be blurred out,
+
+270
+00:04:22,870 --> 00:04:22,880
+screen. Mine's going to be blurred out,
+ 
+
+271
+00:04:22,880 --> 00:04:25,630
+screen. Mine's going to be blurred out,
+so you can't see it. Um but make sure
+
+272
+00:04:25,630 --> 00:04:25,640
+so you can't see it. Um but make sure
+ 
+
+273
+00:04:25,640 --> 00:04:27,150
+so you can't see it. Um but make sure
+you save that. It's going to be how
+
+274
+00:04:27,150 --> 00:04:27,160
+you save that. It's going to be how
+ 
+
+275
+00:04:27,160 --> 00:04:28,470
+you save that. It's going to be how
+you're going to access your wallet in
+
+276
+00:04:28,470 --> 00:04:28,480
+you're going to access your wallet in
+ 
+
+277
+00:04:28,480 --> 00:04:31,350
+you're going to access your wallet in
+the future. And then you're going to be
+
+278
+00:04:31,350 --> 00:04:31,360
+the future. And then you're going to be
+ 
+
+279
+00:04:31,360 --> 00:04:33,750
+the future. And then you're going to be
+able to see what that wallet address is.
+
+280
+00:04:33,750 --> 00:04:33,760
+able to see what that wallet address is.
+ 
+
+281
+00:04:33,760 --> 00:04:35,950
+able to see what that wallet address is.
+So, here this is your public key that's
+
+282
+00:04:35,950 --> 00:04:35,960
+So, here this is your public key that's
+ 
+
+283
+00:04:35,960 --> 00:04:37,270
+So, here this is your public key that's
+returned.
+
+284
+00:04:37,270 --> 00:04:37,280
+returned.
+ 
+
+285
+00:04:37,280 --> 00:04:40,510
+returned.
+Um if I type in Solana address now, it
+
+286
+00:04:40,510 --> 00:04:40,520
+Um if I type in Solana address now, it
+ 
+
+287
+00:04:40,520 --> 00:04:42,350
+Um if I type in Solana address now, it
+should return the same public key. So,
+
+288
+00:04:42,350 --> 00:04:42,360
+should return the same public key. So,
+ 
+
+289
+00:04:42,360 --> 00:04:44,230
+should return the same public key. So,
+you can see that these match up, and
+
+290
+00:04:44,230 --> 00:04:44,240
+you can see that these match up, and
+ 
+
+291
+00:04:44,240 --> 00:04:46,510
+you can see that these match up, and
+that is my local key pair on my machine.
+
+292
+00:04:46,510 --> 00:04:46,520
+that is my local key pair on my machine.
+ 
+
+293
+00:04:46,520 --> 00:04:48,910
+that is my local key pair on my machine.
+So, now if I'm going to want to test
+
+294
+00:04:48,910 --> 00:04:48,920
+So, now if I'm going to want to test
+ 
+
+295
+00:04:48,920 --> 00:04:51,550
+So, now if I'm going to want to test
+anything out locally, it's going to use
+
+296
+00:04:51,550 --> 00:04:51,560
+anything out locally, it's going to use
+ 
+
+297
+00:04:51,560 --> 00:04:53,710
+anything out locally, it's going to use
+this wallet. And for me to be able to
+
+298
+00:04:53,710 --> 00:04:53,720
+this wallet. And for me to be able to
+ 
+
+299
+00:04:53,720 --> 00:04:55,670
+this wallet. And for me to be able to
+test, I'm going to need some devnet SOL
+
+300
+00:04:55,670 --> 00:04:55,680
+test, I'm going to need some devnet SOL
+ 
+
+301
+00:04:55,680 --> 00:04:57,230
+test, I'm going to need some devnet SOL
+in my wallet. So, how are we going to
+
+302
+00:04:57,230 --> 00:04:57,240
+in my wallet. So, how are we going to
+ 
+
+303
+00:04:57,240 --> 00:05:00,670
+in my wallet. So, how are we going to
+get that? Well, there is a faucet, so I
+
+304
+00:05:00,670 --> 00:05:00,680
+get that? Well, there is a faucet, so I
+ 
+
+305
+00:05:00,680 --> 00:05:02,950
+get that? Well, there is a faucet, so I
+can take this address, and we're going
+
+306
+00:05:02,950 --> 00:05:02,960
+can take this address, and we're going
+ 
+
+307
+00:05:02,960 --> 00:05:06,230
+can take this address, and we're going
+to go to the Solana devnet faucet, and
+
+308
+00:05:06,230 --> 00:05:06,240
+to go to the Solana devnet faucet, and
+ 
+
+309
+00:05:06,240 --> 00:05:08,470
+to go to the Solana devnet faucet, and
+we're just going to paste that in,
+
+310
+00:05:08,470 --> 00:05:08,480
+we're just going to paste that in,
+ 
+
+311
+00:05:08,480 --> 00:05:10,030
+we're just going to paste that in,
+choose an amount, and confirm the
+
+312
+00:05:10,030 --> 00:05:10,040
+choose an amount, and confirm the
+ 
+
+313
+00:05:10,040 --> 00:05:11,270
+choose an amount, and confirm the
+airdrop.
+
+314
+00:05:11,270 --> 00:05:11,280
+airdrop.
+ 
+
+315
+00:05:11,280 --> 00:05:13,470
+airdrop.
+And
+
+316
+00:05:13,470 --> 00:05:13,480
+And
+ 
+
+317
+00:05:13,480 --> 00:05:15,430
+And
+this does require you to connect your
+
+318
+00:05:15,430 --> 00:05:15,440
+this does require you to connect your
+ 
+
+319
+00:05:15,440 --> 00:05:17,013
+this does require you to connect your
+GitHub. I don't want to connect
+
+320
+00:05:17,013 --> 00:05:17,023
+GitHub. I don't want to connect
+ 
+
+321
+00:05:17,023 --> 00:05:18,710
+GitHub. I don't want to connect
+[clears throat] mine currently, um just
+
+322
+00:05:18,710 --> 00:05:18,720
+[clears throat] mine currently, um just
+ 
+
+323
+00:05:18,720 --> 00:05:21,070
+[clears throat] mine currently, um just
+cuz that'll have all of my login, but
+
+324
+00:05:21,070 --> 00:05:21,080
+cuz that'll have all of my login, but
+ 
+
+325
+00:05:21,080 --> 00:05:22,950
+cuz that'll have all of my login, but
+we'll go back. There is another method
+
+326
+00:05:22,950 --> 00:05:22,960
+we'll go back. There is another method
+ 
+
+327
+00:05:22,960 --> 00:05:25,230
+we'll go back. There is another method
+that you can use. This is going to have
+
+328
+00:05:25,230 --> 00:05:25,240
+that you can use. This is going to have
+ 
+
+329
+00:05:25,240 --> 00:05:27,550
+that you can use. This is going to have
+a rate limit on it, so it's a lot more
+
+330
+00:05:27,550 --> 00:05:27,560
+a rate limit on it, so it's a lot more
+ 
+
+331
+00:05:27,560 --> 00:05:29,470
+a rate limit on it, so it's a lot more
+efficient to use the faucet. But if you
+
+332
+00:05:29,470 --> 00:05:29,480
+efficient to use the faucet. But if you
+ 
+
+333
+00:05:29,480 --> 00:05:33,110
+efficient to use the faucet. But if you
+go straight into the Solana CLI and you
+
+334
+00:05:33,110 --> 00:05:33,120
+go straight into the Solana CLI and you
+ 
+
+335
+00:05:33,120 --> 00:05:35,510
+go straight into the Solana CLI and you
+type in Solana airdrop, and I just type
+
+336
+00:05:35,510 --> 00:05:35,520
+type in Solana airdrop, and I just type
+ 
+
+337
+00:05:35,520 --> 00:05:38,270
+type in Solana airdrop, and I just type
+in two, it's [snorts] going to request
+
+338
+00:05:38,270 --> 00:05:38,280
+in two, it's [snorts] going to request
+ 
+
+339
+00:05:38,280 --> 00:05:41,590
+in two, it's [snorts] going to request
+two SOL to my wallet.
+
+340
+00:05:41,590 --> 00:05:41,600
+two SOL to my wallet.
+ 
+
+341
+00:05:41,600 --> 00:05:43,230
+two SOL to my wallet.
+And you can see that this rate limit was
+
+342
+00:05:43,230 --> 00:05:43,240
+And you can see that this rate limit was
+ 
+
+343
+00:05:43,240 --> 00:05:46,190
+And you can see that this rate limit was
+reached because I'm using Wi-Fi that a
+
+344
+00:05:46,190 --> 00:05:46,200
+reached because I'm using Wi-Fi that a
+ 
+
+345
+00:05:46,200 --> 00:05:47,430
+reached because I'm using Wi-Fi that a
+lot of other people are using right now
+
+346
+00:05:47,430 --> 00:05:47,440
+lot of other people are using right now
+ 
+
+347
+00:05:47,440 --> 00:05:49,870
+lot of other people are using right now
+and probably already requested some SOL.
+
+348
+00:05:49,870 --> 00:05:49,880
+and probably already requested some SOL.
+ 
+
+349
+00:05:49,880 --> 00:05:52,270
+and probably already requested some SOL.
+So, I'm going to
+
+350
+00:05:52,270 --> 00:05:52,280
+So, I'm going to
+ 
+
+351
+00:05:52,280 --> 00:05:54,350
+So, I'm going to
+just go to another browser where my
+
+352
+00:05:54,350 --> 00:05:54,360
+just go to another browser where my
+ 
+
+353
+00:05:54,360 --> 00:05:56,830
+just go to another browser where my
+GitHub is actually logged in. So, one
+
+354
+00:05:56,830 --> 00:05:56,840
+GitHub is actually logged in. So, one
+ 
+
+355
+00:05:56,840 --> 00:05:58,150
+GitHub is actually logged in. So, one
+second.
+
+356
+00:05:58,150 --> 00:05:58,160
+second.
+ 
+
+357
+00:05:58,160 --> 00:06:00,590
+second.
+I'm going to open that.
+
+358
+00:06:00,590 --> 00:06:00,600
+I'm going to open that.
+ 
+
+359
+00:06:00,600 --> 00:06:02,350
+I'm going to open that.
+And we're going to go to the devnet
+
+360
+00:06:02,350 --> 00:06:02,360
+And we're going to go to the devnet
+ 
+
+361
+00:06:02,360 --> 00:06:13,670
+And we're going to go to the devnet
+faucet.
+
+362
+00:06:13,670 --> 00:06:13,680
+
+ 
+
+363
+00:06:13,680 --> 00:06:15,070
+
+Okay.
+
+364
+00:06:15,070 --> 00:06:15,080
+Okay.
+ 
+
+365
+00:06:15,080 --> 00:06:17,790
+Okay.
+So, I'll connect my GitHub here,
+
+366
+00:06:17,790 --> 00:06:17,800
+So, I'll connect my GitHub here,
+ 
+
+367
+00:06:17,800 --> 00:06:19,150
+So, I'll connect my GitHub here,
+and then I'll paste in the wallet
+
+368
+00:06:19,150 --> 00:06:19,160
+and then I'll paste in the wallet
+ 
+
+369
+00:06:19,160 --> 00:06:20,830
+and then I'll paste in the wallet
+address, and then we're going to choose
+
+370
+00:06:20,830 --> 00:06:20,840
+address, and then we're going to choose
+ 
+
+371
+00:06:20,840 --> 00:06:22,270
+address, and then we're going to choose
+an amount, and we'll confirm the
+
+372
+00:06:22,270 --> 00:06:22,280
+an amount, and we'll confirm the
+ 
+
+373
+00:06:22,280 --> 00:06:24,830
+an amount, and we'll confirm the
+airdrop.
+
+374
+00:06:24,830 --> 00:06:24,840
+airdrop.
+ 
+
+375
+00:06:24,840 --> 00:06:30,470
+airdrop.
+So, we'll verify that.
+
+376
+00:06:30,470 --> 00:06:30,480
+
+ 
+
+377
+00:06:30,480 --> 00:06:31,670
+
+And you can see the airdrop was
+
+378
+00:06:31,670 --> 00:06:31,680
+And you can see the airdrop was
+ 
+
+379
+00:06:31,680 --> 00:06:32,950
+And you can see the airdrop was
+successful.
+
+380
+00:06:32,950 --> 00:06:32,960
+successful.
+ 
+
+381
+00:06:32,960 --> 00:06:35,150
+successful.
+So, now we have funds on our wallet, and
+
+382
+00:06:35,150 --> 00:06:35,160
+So, now we have funds on our wallet, and
+ 
+
+383
+00:06:35,160 --> 00:06:36,670
+So, now we have funds on our wallet, and
+we're going to be able to use it for
+
+384
+00:06:36,670 --> 00:06:36,680
+we're going to be able to use it for
+ 
+
+385
+00:06:36,680 --> 00:06:39,150
+we're going to be able to use it for
+testing purposes. Now, we can confirm
+
+386
+00:06:39,150 --> 00:06:39,160
+testing purposes. Now, we can confirm
+ 
+
+387
+00:06:39,160 --> 00:06:41,470
+testing purposes. Now, we can confirm
+that this actually happened by using the
+
+388
+00:06:41,470 --> 00:06:41,480
+that this actually happened by using the
+ 
+
+389
+00:06:41,480 --> 00:06:44,430
+that this actually happened by using the
+explorer. So, the explorer is Solana's
+
+390
+00:06:44,430 --> 00:06:44,440
+explorer. So, the explorer is Solana's
+ 
+
+391
+00:06:44,440 --> 00:06:47,550
+explorer. So, the explorer is Solana's
+block explorer, and what this does is it
+
+392
+00:06:47,550 --> 00:06:47,560
+block explorer, and what this does is it
+ 
+
+393
+00:06:47,560 --> 00:06:49,950
+block explorer, and what this does is it
+shows you recent transactions, token
+
+394
+00:06:49,950 --> 00:06:49,960
+shows you recent transactions, token
+ 
+
+395
+00:06:49,960 --> 00:06:52,430
+shows you recent transactions, token
+account, mint account, wallet accounts,
+
+396
+00:06:52,430 --> 00:06:52,440
+account, mint account, wallet accounts,
+ 
+
+397
+00:06:52,440 --> 00:06:53,030
+account, mint account, wallet accounts,
+um
+
+398
+00:06:53,030 --> 00:06:53,040
+um
+ 
+
+399
+00:06:53,040 --> 00:06:54,710
+um
+just activity that happens on chain. And
+
+400
+00:06:54,710 --> 00:06:54,720
+just activity that happens on chain. And
+ 
+
+401
+00:06:54,720 --> 00:06:56,310
+just activity that happens on chain. And
+it's also going to connect to different
+
+402
+00:06:56,310 --> 00:06:56,320
+it's also going to connect to different
+ 
+
+403
+00:06:56,320 --> 00:06:58,550
+it's also going to connect to different
+clusters. So, here you can see we're
+
+404
+00:06:58,550 --> 00:06:58,560
+clusters. So, here you can see we're
+ 
+
+405
+00:06:58,560 --> 00:07:00,590
+clusters. So, here you can see we're
+connected to mainnet beta, which is
+
+406
+00:07:00,590 --> 00:07:00,600
+connected to mainnet beta, which is
+ 
+
+407
+00:07:00,600 --> 00:07:02,870
+connected to mainnet beta, which is
+Solana's mainnet. It's where all of the
+
+408
+00:07:02,870 --> 00:07:02,880
+Solana's mainnet. It's where all of the
+ 
+
+409
+00:07:02,880 --> 00:07:05,590
+Solana's mainnet. It's where all of the
+actual real traffic happens. There's
+
+410
+00:07:05,590 --> 00:07:05,600
+actual real traffic happens. There's
+ 
+
+411
+00:07:05,600 --> 00:07:07,550
+actual real traffic happens. There's
+other clusters. So, you have localnet
+
+412
+00:07:07,550 --> 00:07:07,560
+other clusters. So, you have localnet
+ 
+
+413
+00:07:07,560 --> 00:07:09,310
+other clusters. So, you have localnet
+when you're running a validator locally
+
+414
+00:07:09,310 --> 00:07:09,320
+when you're running a validator locally
+ 
+
+415
+00:07:09,320 --> 00:07:11,950
+when you're running a validator locally
+on your machine. There's testnet where
+
+416
+00:07:11,950 --> 00:07:11,960
+on your machine. There's testnet where
+ 
+
+417
+00:07:11,960 --> 00:07:13,830
+on your machine. There's testnet where
+mainly the network team works on testing
+
+418
+00:07:13,830 --> 00:07:13,840
+mainly the network team works on testing
+ 
+
+419
+00:07:13,840 --> 00:07:16,350
+mainly the network team works on testing
+things, and then devnet, which is where
+
+420
+00:07:16,350 --> 00:07:16,360
+things, and then devnet, which is where
+ 
+
+421
+00:07:16,360 --> 00:07:19,270
+things, and then devnet, which is where
+you'll be testing things for um
+
+422
+00:07:19,270 --> 00:07:19,280
+you'll be testing things for um
+ 
+
+423
+00:07:19,280 --> 00:07:21,150
+you'll be testing things for um
+just when you're building.
+
+424
+00:07:21,150 --> 00:07:21,160
+just when you're building.
+ 
+
+425
+00:07:21,160 --> 00:07:23,990
+just when you're building.
+So, here you can see I airdropped
+
+426
+00:07:23,990 --> 00:07:24,000
+So, here you can see I airdropped
+ 
+
+427
+00:07:24,000 --> 00:07:25,590
+So, here you can see I airdropped
+devnet SOL to my wallet. So, we're going
+
+428
+00:07:25,590 --> 00:07:25,600
+devnet SOL to my wallet. So, we're going
+ 
+
+429
+00:07:25,600 --> 00:07:27,270
+devnet SOL to my wallet. So, we're going
+to check that. If I paste in my wallet
+
+430
+00:07:27,270 --> 00:07:27,280
+to check that. If I paste in my wallet
+ 
+
+431
+00:07:27,280 --> 00:07:28,630
+to check that. If I paste in my wallet
+address here,
+
+432
+00:07:28,630 --> 00:07:28,640
+address here,
+ 
+
+433
+00:07:28,640 --> 00:07:30,950
+address here,
+and I'm now connected to devnet, we'll
+
+434
+00:07:30,950 --> 00:07:30,960
+and I'm now connected to devnet, we'll
+ 
+
+435
+00:07:30,960 --> 00:07:33,710
+and I'm now connected to devnet, we'll
+click over, and you can see my balance
+
+436
+00:07:33,710 --> 00:07:33,720
+click over, and you can see my balance
+ 
+
+437
+00:07:33,720 --> 00:07:35,870
+click over, and you can see my balance
+on my wallet is now five SOL because I
+
+438
+00:07:35,870 --> 00:07:35,880
+on my wallet is now five SOL because I
+ 
+
+439
+00:07:35,880 --> 00:07:37,470
+on my wallet is now five SOL because I
+just requested five SOL from the
+
+440
+00:07:37,470 --> 00:07:37,480
+just requested five SOL from the
+ 
+
+441
+00:07:37,480 --> 00:07:41,030
+just requested five SOL from the
+airdrop. So, that's an overview of
+
+442
+00:07:41,030 --> 00:07:41,040
+airdrop. So, that's an overview of
+ 
+
+443
+00:07:41,040 --> 00:07:42,550
+airdrop. So, that's an overview of
+pretty much all the basics you need to
+
+444
+00:07:42,550 --> 00:07:42,560
+pretty much all the basics you need to
+ 
+
+445
+00:07:42,560 --> 00:07:44,990
+pretty much all the basics you need to
+be set up on your computer. We went over
+
+446
+00:07:44,990 --> 00:07:45,000
+be set up on your computer. We went over
+ 
+
+447
+00:07:45,000 --> 00:07:46,750
+be set up on your computer. We went over
+installing all of the dependencies on
+
+448
+00:07:46,750 --> 00:07:46,760
+installing all of the dependencies on
+ 
+
+449
+00:07:46,760 --> 00:07:49,150
+installing all of the dependencies on
+your machine, how to set up your wallet
+
+450
+00:07:49,150 --> 00:07:49,160
+your machine, how to set up your wallet
+ 
+
+451
+00:07:49,160 --> 00:07:52,110
+your machine, how to set up your wallet
+locally in your terminal, how to request
+
+452
+00:07:52,110 --> 00:07:52,120
+locally in your terminal, how to request
+ 
+
+453
+00:07:52,120 --> 00:07:54,310
+locally in your terminal, how to request
+funds to your wallet, and then how to
+
+454
+00:07:54,310 --> 00:07:54,320
+funds to your wallet, and then how to
+ 
+
+455
+00:07:54,320 --> 00:07:56,750
+funds to your wallet, and then how to
+use the Solana block explorer. So, now
+
+456
+00:07:56,750 --> 00:07:56,760
+use the Solana block explorer. So, now
+ 
+
+457
+00:07:56,760 --> 00:07:58,110
+use the Solana block explorer. So, now
+you're all good to go. You have your
+
+458
+00:07:58,110 --> 00:07:58,120
+you're all good to go. You have your
+ 
+
+459
+00:07:58,120 --> 00:07:59,950
+you're all good to go. You have your
+machine set up to start working through
+
+460
+00:07:59,950 --> 00:07:59,960
+machine set up to start working through
+ 
+
+461
+00:07:59,960 --> 00:08:03,200
+machine set up to start working through
+the tutorials in the bootcamp.
+

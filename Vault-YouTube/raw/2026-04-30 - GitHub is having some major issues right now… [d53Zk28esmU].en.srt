@@ -1,0 +1,1765 @@
+1
+00:00:00,000 --> 00:00:01,710
+
+It's 10:00 p.m. Do you know where your
+
+2
+00:00:01,710 --> 00:00:01,720
+It's 10:00 p.m. Do you know where your
+ 
+
+3
+00:00:01,720 --> 00:00:03,070
+It's 10:00 p.m. Do you know where your
+children are? I don't know where mine
+
+4
+00:00:03,070 --> 00:00:03,080
+children are? I don't know where mine
+ 
+
+5
+00:00:03,080 --> 00:00:04,670
+children are? I don't know where mine
+are because I'm too busy working on
+
+6
+00:00:04,670 --> 00:00:04,680
+are because I'm too busy working on
+ 
+
+7
+00:00:04,680 --> 00:00:07,630
+are because I'm too busy working on
+pushing commit final final V2 actual fix
+
+8
+00:00:07,630 --> 00:00:07,640
+pushing commit final final V2 actual fix
+ 
+
+9
+00:00:07,640 --> 00:00:09,470
+pushing commit final final V2 actual fix
+to GitHub. Unfortunately, if you're one
+
+10
+00:00:09,470 --> 00:00:09,480
+to GitHub. Unfortunately, if you're one
+ 
+
+11
+00:00:09,480 --> 00:00:11,510
+to GitHub. Unfortunately, if you're one
+of the 100 million plus developers who
+
+12
+00:00:11,510 --> 00:00:11,520
+of the 100 million plus developers who
+ 
+
+13
+00:00:11,520 --> 00:00:13,230
+of the 100 million plus developers who
+use GitHub, you may have encountered a
+
+14
+00:00:13,230 --> 00:00:13,240
+use GitHub, you may have encountered a
+ 
+
+15
+00:00:13,240 --> 00:00:15,350
+use GitHub, you may have encountered a
+message like this recently. Or maybe all
+
+16
+00:00:15,350 --> 00:00:15,360
+message like this recently. Or maybe all
+ 
+
+17
+00:00:15,360 --> 00:00:16,910
+message like this recently. Or maybe all
+of your pull requests just disappeared
+
+18
+00:00:16,910 --> 00:00:16,920
+of your pull requests just disappeared
+ 
+
+19
+00:00:16,920 --> 00:00:18,750
+of your pull requests just disappeared
+completely. Or maybe the search returns
+
+20
+00:00:18,750 --> 00:00:18,760
+completely. Or maybe the search returns
+ 
+
+21
+00:00:18,760 --> 00:00:20,790
+completely. Or maybe the search returns
+nothing. Or your continuous integration
+
+22
+00:00:20,790 --> 00:00:20,800
+nothing. Or your continuous integration
+ 
+
+23
+00:00:20,800 --> 00:00:23,070
+nothing. Or your continuous integration
+actions just hang in the void. GitHub is
+
+24
+00:00:23,070 --> 00:00:23,080
+actions just hang in the void. GitHub is
+ 
+
+25
+00:00:23,080 --> 00:00:24,710
+actions just hang in the void. GitHub is
+easily the most important website in
+
+26
+00:00:24,710 --> 00:00:24,720
+easily the most important website in
+ 
+
+27
+00:00:24,720 --> 00:00:26,590
+easily the most important website in
+software engineering. But more and more
+
+28
+00:00:26,590 --> 00:00:26,600
+software engineering. But more and more
+ 
+
+29
+00:00:26,600 --> 00:00:28,470
+software engineering. But more and more
+developers are yelling at it and in some
+
+30
+00:00:28,470 --> 00:00:28,480
+developers are yelling at it and in some
+ 
+
+31
+00:00:28,480 --> 00:00:30,270
+developers are yelling at it and in some
+cases literally crying like it's a
+
+32
+00:00:30,270 --> 00:00:30,280
+cases literally crying like it's a
+ 
+
+33
+00:00:30,280 --> 00:00:31,750
+cases literally crying like it's a
+broken vending machine that ate their
+
+34
+00:00:31,750 --> 00:00:31,760
+broken vending machine that ate their
+ 
+
+35
+00:00:31,760 --> 00:00:33,870
+broken vending machine that ate their
+last dollar. Well, finally, yesterday
+
+36
+00:00:33,870 --> 00:00:33,880
+last dollar. Well, finally, yesterday
+ 
+
+37
+00:00:33,880 --> 00:00:35,870
+last dollar. Well, finally, yesterday
+things hit the point of no return after
+
+38
+00:00:35,870 --> 00:00:35,880
+things hit the point of no return after
+ 
+
+39
+00:00:35,880 --> 00:00:38,110
+things hit the point of no return after
+legendary developer Mitchell Hashimoto
+
+40
+00:00:38,110 --> 00:00:38,120
+legendary developer Mitchell Hashimoto
+ 
+
+41
+00:00:38,120 --> 00:00:39,950
+legendary developer Mitchell Hashimoto
+did the unthinkable. He packed up his
+
+42
+00:00:39,950 --> 00:00:39,960
+did the unthinkable. He packed up his
+ 
+
+43
+00:00:39,960 --> 00:00:41,870
+did the unthinkable. He packed up his
+open source project Ghosty and is
+
+44
+00:00:41,870 --> 00:00:41,880
+open source project Ghosty and is
+ 
+
+45
+00:00:41,880 --> 00:00:43,710
+open source project Ghosty and is
+leaving GitHub for good in search of
+
+46
+00:00:43,710 --> 00:00:43,720
+leaving GitHub for good in search of
+ 
+
+47
+00:00:43,720 --> 00:00:44,830
+leaving GitHub for good in search of
+greener pastures.
+
+48
+00:00:44,830 --> 00:00:44,840
+greener pastures.
+ 
+
+49
+00:00:44,840 --> 00:00:46,230
+greener pastures.
+>> Um in this fall I'm going to take my
+
+50
+00:00:46,230 --> 00:00:46,240
+>> Um in this fall I'm going to take my
+ 
+
+51
+00:00:46,240 --> 00:00:47,510
+>> Um in this fall I'm going to take my
+talents to South Beach.
+
+52
+00:00:47,510 --> 00:00:47,520
+talents to South Beach.
+ 
+
+53
+00:00:47,520 --> 00:00:49,190
+talents to South Beach.
+>> In today's video, we'll find out what
+
+54
+00:00:49,190 --> 00:00:49,200
+>> In today's video, we'll find out what
+ 
+
+55
+00:00:49,200 --> 00:00:51,390
+>> In today's video, we'll find out what
+the hell happened to GitHub and why. It
+
+56
+00:00:51,390 --> 00:00:51,400
+the hell happened to GitHub and why. It
+ 
+
+57
+00:00:51,400 --> 00:00:54,070
+the hell happened to GitHub and why. It
+is April 30th, 2026 and you are watching
+
+58
+00:00:54,070 --> 00:00:54,080
+is April 30th, 2026 and you are watching
+ 
+
+59
+00:00:54,080 --> 00:00:56,390
+is April 30th, 2026 and you are watching
+The Code Report. In 2008, GitHub was
+
+60
+00:00:56,390 --> 00:00:56,400
+The Code Report. In 2008, GitHub was
+ 
+
+61
+00:00:56,400 --> 00:00:58,430
+The Code Report. In 2008, GitHub was
+built with Ruby on Rails as an online
+
+62
+00:00:58,430 --> 00:00:58,440
+built with Ruby on Rails as an online
+ 
+
+63
+00:00:58,440 --> 00:01:00,590
+built with Ruby on Rails as an online
+platform to manage your software source
+
+64
+00:01:00,590 --> 00:01:00,600
+platform to manage your software source
+ 
+
+65
+00:01:00,600 --> 00:01:02,590
+platform to manage your software source
+code with a relatively new technology
+
+66
+00:01:02,590 --> 00:01:02,600
+code with a relatively new technology
+ 
+
+67
+00:01:02,600 --> 00:01:04,509
+code with a relatively new technology
+called Git, which is the version control
+
+68
+00:01:04,509 --> 00:01:04,519
+called Git, which is the version control
+ 
+
+69
+00:01:04,519 --> 00:01:07,270
+called Git, which is the version control
+system built by Linus Torvalds in 2005
+
+70
+00:01:07,270 --> 00:01:07,280
+system built by Linus Torvalds in 2005
+ 
+
+71
+00:01:07,280 --> 00:01:09,190
+system built by Linus Torvalds in 2005
+to manage the source code of Linux. The
+
+72
+00:01:09,190 --> 00:01:09,200
+to manage the source code of Linux. The
+ 
+
+73
+00:01:09,200 --> 00:01:10,910
+to manage the source code of Linux. The
+pitch was simple. It take the command
+
+74
+00:01:10,910 --> 00:01:10,920
+pitch was simple. It take the command
+ 
+
+75
+00:01:10,920 --> 00:01:12,510
+pitch was simple. It take the command
+line nightmare you are senior engineer
+
+76
+00:01:12,510 --> 00:01:12,520
+line nightmare you are senior engineer
+ 
+
+77
+00:01:12,520 --> 00:01:14,670
+line nightmare you are senior engineer
+keeps yelling about, give it a web UI,
+
+78
+00:01:14,670 --> 00:01:14,680
+keeps yelling about, give it a web UI,
+ 
+
+79
+00:01:14,680 --> 00:01:16,670
+keeps yelling about, give it a web UI,
+make it like Facebook for code, and
+
+80
+00:01:16,670 --> 00:01:16,680
+make it like Facebook for code, and
+ 
+
+81
+00:01:16,680 --> 00:01:18,670
+make it like Facebook for code, and
+suddenly every developer on Earth has a
+
+82
+00:01:18,670 --> 00:01:18,680
+suddenly every developer on Earth has a
+ 
+
+83
+00:01:18,680 --> 00:01:20,870
+suddenly every developer on Earth has a
+public coding profile. It works so well
+
+84
+00:01:20,870 --> 00:01:20,880
+public coding profile. It works so well
+ 
+
+85
+00:01:20,880 --> 00:01:23,550
+public coding profile. It works so well
+that by 2018, Microsoft bought it for
+
+86
+00:01:23,550 --> 00:01:23,560
+that by 2018, Microsoft bought it for
+ 
+
+87
+00:01:23,560 --> 00:01:26,430
+that by 2018, Microsoft bought it for
+7.5 billion dollars. And today, it hosts
+
+88
+00:01:26,430 --> 00:01:26,440
+7.5 billion dollars. And today, it hosts
+ 
+
+89
+00:01:26,440 --> 00:01:29,190
+7.5 billion dollars. And today, it hosts
+over 420 million failed side projects
+
+90
+00:01:29,190 --> 00:01:29,200
+over 420 million failed side projects
+ 
+
+91
+00:01:29,200 --> 00:01:31,070
+over 420 million failed side projects
+and effectively is the public record of
+
+92
+00:01:31,070 --> 00:01:31,080
+and effectively is the public record of
+ 
+
+93
+00:01:31,080 --> 00:01:32,990
+and effectively is the public record of
+software. If it isn't on GitHub, it
+
+94
+00:01:32,990 --> 00:01:33,000
+software. If it isn't on GitHub, it
+ 
+
+95
+00:01:33,000 --> 00:01:34,990
+software. If it isn't on GitHub, it
+might as well not exist. Developers use
+
+96
+00:01:34,990 --> 00:01:35,000
+might as well not exist. Developers use
+ 
+
+97
+00:01:35,000 --> 00:01:37,110
+might as well not exist. Developers use
+it to store code, track bugs through
+
+98
+00:01:37,110 --> 00:01:37,120
+it to store code, track bugs through
+ 
+
+99
+00:01:37,120 --> 00:01:39,150
+it to store code, track bugs through
+issues, propose changes through pull
+
+100
+00:01:39,150 --> 00:01:39,160
+issues, propose changes through pull
+ 
+
+101
+00:01:39,160 --> 00:01:41,110
+issues, propose changes through pull
+requests, run tests and deployment
+
+102
+00:01:41,110 --> 00:01:41,120
+requests, run tests and deployment
+ 
+
+103
+00:01:41,120 --> 00:01:42,910
+requests, run tests and deployment
+through GitHub actions, while also
+
+104
+00:01:42,910 --> 00:01:42,920
+through GitHub actions, while also
+ 
+
+105
+00:01:42,920 --> 00:01:44,670
+through GitHub actions, while also
+functioning as a social network and
+
+106
+00:01:44,670 --> 00:01:44,680
+functioning as a social network and
+ 
+
+107
+00:01:44,680 --> 00:01:46,910
+functioning as a social network and
+resume for developers. All duct tape to
+
+108
+00:01:46,910 --> 00:01:46,920
+resume for developers. All duct tape to
+ 
+
+109
+00:01:46,920 --> 00:01:48,790
+resume for developers. All duct tape to
+a Git server, which is exactly why it
+
+110
+00:01:48,790 --> 00:01:48,800
+a Git server, which is exactly why it
+ 
+
+111
+00:01:48,800 --> 00:01:50,750
+a Git server, which is exactly why it
+breaking is such a problem. And the main
+
+112
+00:01:50,750 --> 00:01:50,760
+breaking is such a problem. And the main
+ 
+
+113
+00:01:50,760 --> 00:01:52,710
+breaking is such a problem. And the main
+reason developers are big mad at GitHub
+
+114
+00:01:52,710 --> 00:01:52,720
+reason developers are big mad at GitHub
+ 
+
+115
+00:01:52,720 --> 00:01:55,350
+reason developers are big mad at GitHub
+right now is uptime or lack thereof. But
+
+116
+00:01:55,350 --> 00:01:55,360
+right now is uptime or lack thereof. But
+ 
+
+117
+00:01:55,360 --> 00:01:56,990
+right now is uptime or lack thereof. But
+let's check the actual receipts.
+
+118
+00:01:56,990 --> 00:01:57,000
+let's check the actual receipts.
+ 
+
+119
+00:01:57,000 --> 00:01:58,870
+let's check the actual receipts.
+According to third-party monitoring,
+
+120
+00:01:58,870 --> 00:01:58,880
+According to third-party monitoring,
+ 
+
+121
+00:01:58,880 --> 00:02:02,270
+According to third-party monitoring,
+GitHub uptime in 2025 dipped below 90%
+
+122
+00:02:02,270 --> 00:02:02,280
+GitHub uptime in 2025 dipped below 90%
+ 
+
+123
+00:02:02,280 --> 00:02:04,910
+GitHub uptime in 2025 dipped below 90%
+and April 2026 is tracking around an
+
+124
+00:02:04,910 --> 00:02:04,920
+and April 2026 is tracking around an
+ 
+
+125
+00:02:04,920 --> 00:02:08,710
+and April 2026 is tracking around an
+abysmal 86%. For context, AWS S3
+
+126
+00:02:08,710 --> 00:02:08,720
+abysmal 86%. For context, AWS S3
+ 
+
+127
+00:02:08,720 --> 00:02:11,550
+abysmal 86%. For context, AWS S3
+promises 11 9s and GitHub is currently
+
+128
+00:02:11,550 --> 00:02:11,560
+promises 11 9s and GitHub is currently
+ 
+
+129
+00:02:11,560 --> 00:02:13,870
+promises 11 9s and GitHub is currently
+operating at just one 9. However, the
+
+130
+00:02:13,870 --> 00:02:13,880
+operating at just one 9. However, the
+ 
+
+131
+00:02:13,880 --> 00:02:15,630
+operating at just one 9. However, the
+official GitHub status page would beg to
+
+132
+00:02:15,630 --> 00:02:15,640
+official GitHub status page would beg to
+ 
+
+133
+00:02:15,640 --> 00:02:18,710
+official GitHub status page would beg to
+differ and reports uptime well above 99%
+
+134
+00:02:18,710 --> 00:02:18,720
+differ and reports uptime well above 99%
+ 
+
+135
+00:02:18,720 --> 00:02:20,630
+differ and reports uptime well above 99%
+for all services. Regardless, the
+
+136
+00:02:20,630 --> 00:02:20,640
+for all services. Regardless, the
+ 
+
+137
+00:02:20,640 --> 00:02:22,910
+for all services. Regardless, the
+previous week on GitHub was a disaster.
+
+138
+00:02:22,910 --> 00:02:22,920
+previous week on GitHub was a disaster.
+ 
+
+139
+00:02:22,920 --> 00:02:25,390
+previous week on GitHub was a disaster.
+On April 23rd, the merge queue quietly
+
+140
+00:02:25,390 --> 00:02:25,400
+On April 23rd, the merge queue quietly
+ 
+
+141
+00:02:25,400 --> 00:02:29,230
+On April 23rd, the merge queue quietly
+unmerged 2,092 pull requests across 658
+
+142
+00:02:29,230 --> 00:02:29,240
+unmerged 2,092 pull requests across 658
+ 
+
+143
+00:02:29,240 --> 00:02:31,310
+unmerged 2,092 pull requests across 658
+repos. In other words, the platform
+
+144
+00:02:31,310 --> 00:02:31,320
+repos. In other words, the platform
+ 
+
+145
+00:02:31,320 --> 00:02:33,070
+repos. In other words, the platform
+whose entire job is to not lose your
+
+146
+00:02:33,070 --> 00:02:33,080
+whose entire job is to not lose your
+ 
+
+147
+00:02:33,080 --> 00:02:35,550
+whose entire job is to not lose your
+code just lost your code. Damn, it's
+
+148
+00:02:35,550 --> 00:02:35,560
+code just lost your code. Damn, it's
+ 
+
+149
+00:02:35,560 --> 00:02:38,150
+code just lost your code. Damn, it's
+gone. Then on April 27th, GitHub's
+
+150
+00:02:38,150 --> 00:02:38,160
+gone. Then on April 27th, GitHub's
+ 
+
+151
+00:02:38,160 --> 00:02:40,150
+gone. Then on April 27th, GitHub's
+elastic search subsystem was hit by a
+
+152
+00:02:40,150 --> 00:02:40,160
+elastic search subsystem was hit by a
+ 
+
+153
+00:02:40,160 --> 00:02:42,390
+elastic search subsystem was hit by a
+botnet that took down GitHub search for
+
+154
+00:02:42,390 --> 00:02:42,400
+botnet that took down GitHub search for
+ 
+
+155
+00:02:42,400 --> 00:02:44,710
+botnet that took down GitHub search for
+hours. And then on April 28th, GitHub
+
+156
+00:02:44,710 --> 00:02:44,720
+hours. And then on April 28th, GitHub
+ 
+
+157
+00:02:44,720 --> 00:02:46,630
+hours. And then on April 28th, GitHub
+was forced to publish two blog posts the
+
+158
+00:02:46,630 --> 00:02:46,640
+was forced to publish two blog posts the
+ 
+
+159
+00:02:46,640 --> 00:02:48,510
+was forced to publish two blog posts the
+same morning. One was the CTO
+
+160
+00:02:48,510 --> 00:02:48,520
+same morning. One was the CTO
+ 
+
+161
+00:02:48,520 --> 00:02:50,710
+same morning. One was the CTO
+apologizing for reliability, while the
+
+162
+00:02:50,710 --> 00:02:50,720
+apologizing for reliability, while the
+ 
+
+163
+00:02:50,720 --> 00:02:52,510
+apologizing for reliability, while the
+other was about a critical remote code
+
+164
+00:02:52,510 --> 00:02:52,520
+other was about a critical remote code
+ 
+
+165
+00:02:52,520 --> 00:02:54,990
+other was about a critical remote code
+execution vulnerability where a git push
+
+166
+00:02:54,990 --> 00:02:55,000
+execution vulnerability where a git push
+ 
+
+167
+00:02:55,000 --> 00:02:56,830
+execution vulnerability where a git push
+could literally execute code on GitHub
+
+168
+00:02:56,830 --> 00:02:56,840
+could literally execute code on GitHub
+ 
+
+169
+00:02:56,840 --> 00:02:59,030
+could literally execute code on GitHub
+servers. A few big projects like Zig
+
+170
+00:02:59,030 --> 00:02:59,040
+servers. A few big projects like Zig
+ 
+
+171
+00:02:59,040 --> 00:03:00,949
+servers. A few big projects like Zig
+have already migrated away from GitHub,
+
+172
+00:03:00,949 --> 00:03:00,959
+have already migrated away from GitHub,
+ 
+
+173
+00:03:00,959 --> 00:03:02,670
+have already migrated away from GitHub,
+but then really hit the fan when
+
+174
+00:03:02,670 --> 00:03:02,680
+but then really hit the fan when
+ 
+
+175
+00:03:02,680 --> 00:03:04,430
+but then really hit the fan when
+Mitchell Hashimoto dropped this blog
+
+176
+00:03:04,430 --> 00:03:04,440
+Mitchell Hashimoto dropped this blog
+ 
+
+177
+00:03:04,440 --> 00:03:06,190
+Mitchell Hashimoto dropped this blog
+post. He's the creator of tools like
+
+178
+00:03:06,190 --> 00:03:06,200
+post. He's the creator of tools like
+ 
+
+179
+00:03:06,200 --> 00:03:07,910
+post. He's the creator of tools like
+Vagrant and Terraform, which are part of
+
+180
+00:03:07,910 --> 00:03:07,920
+Vagrant and Terraform, which are part of
+ 
+
+181
+00:03:07,920 --> 00:03:09,710
+Vagrant and Terraform, which are part of
+his company HashiCorp, which was taken
+
+182
+00:03:09,710 --> 00:03:09,720
+his company HashiCorp, which was taken
+ 
+
+183
+00:03:09,720 --> 00:03:11,470
+his company HashiCorp, which was taken
+public and made him extremely rich.
+
+184
+00:03:11,470 --> 00:03:11,480
+public and made him extremely rich.
+ 
+
+185
+00:03:11,480 --> 00:03:13,030
+public and made him extremely rich.
+Despite having enough money to own his
+
+186
+00:03:13,030 --> 00:03:13,040
+Despite having enough money to own his
+ 
+
+187
+00:03:13,040 --> 00:03:14,949
+Despite having enough money to own his
+own private jet, he still bangs out code
+
+188
+00:03:14,949 --> 00:03:14,959
+own private jet, he still bangs out code
+ 
+
+189
+00:03:14,959 --> 00:03:16,710
+own private jet, he still bangs out code
+daily building a terminal emulator
+
+190
+00:03:16,710 --> 00:03:16,720
+daily building a terminal emulator
+ 
+
+191
+00:03:16,720 --> 00:03:19,270
+daily building a terminal emulator
+called Ghosty. He joined GitHub in 2008
+
+192
+00:03:19,270 --> 00:03:19,280
+called Ghosty. He joined GitHub in 2008
+ 
+
+193
+00:03:19,280 --> 00:03:22,110
+called Ghosty. He joined GitHub in 2008
+as user number 1,299
+
+194
+00:03:22,110 --> 00:03:22,120
+as user number 1,299
+ 
+
+195
+00:03:22,120 --> 00:03:23,550
+as user number 1,299
+and has logged in almost every single
+
+196
+00:03:23,550 --> 00:03:23,560
+and has logged in almost every single
+ 
+
+197
+00:03:23,560 --> 00:03:26,270
+and has logged in almost every single
+day for 18 years. But on April 28th, he
+
+198
+00:03:26,270 --> 00:03:26,280
+day for 18 years. But on April 28th, he
+ 
+
+199
+00:03:26,280 --> 00:03:27,949
+day for 18 years. But on April 28th, he
+wrote a breakup letter while literally
+
+200
+00:03:27,949 --> 00:03:27,959
+wrote a breakup letter while literally
+ 
+
+201
+00:03:27,959 --> 00:03:29,990
+wrote a breakup letter while literally
+crying. Speaking of GitHub, he said,
+
+202
+00:03:29,990 --> 00:03:30,000
+crying. Speaking of GitHub, he said,
+ 
+
+203
+00:03:30,000 --> 00:03:32,390
+crying. Speaking of GitHub, he said,
+"Quote, I want to ship software and it
+
+204
+00:03:32,390 --> 00:03:32,400
+"Quote, I want to ship software and it
+ 
+
+205
+00:03:32,400 --> 00:03:34,310
+"Quote, I want to ship software and it
+doesn't want me to ship software." That
+
+206
+00:03:34,310 --> 00:03:34,320
+doesn't want me to ship software." That
+ 
+
+207
+00:03:34,320 --> 00:03:36,110
+doesn't want me to ship software." That
+line hits hard and he says he kept a
+
+208
+00:03:36,110 --> 00:03:36,120
+line hits hard and he says he kept a
+ 
+
+209
+00:03:36,120 --> 00:03:38,310
+line hits hard and he says he kept a
+journal for a month and put an X next to
+
+210
+00:03:38,310 --> 00:03:38,320
+journal for a month and put an X next to
+ 
+
+211
+00:03:38,320 --> 00:03:40,350
+journal for a month and put an X next to
+every day a GitHub outage blocked his
+
+212
+00:03:40,350 --> 00:03:40,360
+every day a GitHub outage blocked his
+ 
+
+213
+00:03:40,360 --> 00:03:42,949
+every day a GitHub outage blocked his
+work and almost every day got an X. At
+
+214
+00:03:42,949 --> 00:03:42,959
+work and almost every day got an X. At
+ 
+
+215
+00:03:42,959 --> 00:03:44,470
+work and almost every day got an X. At
+this point, he's had enough and his
+
+216
+00:03:44,470 --> 00:03:44,480
+this point, he's had enough and his
+ 
+
+217
+00:03:44,480 --> 00:03:46,990
+this point, he's had enough and his
+50,000 star GitHub project Ghosty is
+
+218
+00:03:46,990 --> 00:03:47,000
+50,000 star GitHub project Ghosty is
+ 
+
+219
+00:03:47,000 --> 00:03:48,710
+50,000 star GitHub project Ghosty is
+leaving the platform for good. That's a
+
+220
+00:03:48,710 --> 00:03:48,720
+leaving the platform for good. That's a
+ 
+
+221
+00:03:48,720 --> 00:03:50,670
+leaving the platform for good. That's a
+massive vibe shift, but who can we get
+
+222
+00:03:50,670 --> 00:03:50,680
+massive vibe shift, but who can we get
+ 
+
+223
+00:03:50,680 --> 00:03:52,430
+massive vibe shift, but who can we get
+blame for this? Well, it's easy to point
+
+224
+00:03:52,430 --> 00:03:52,440
+blame for this? Well, it's easy to point
+ 
+
+225
+00:03:52,440 --> 00:03:54,190
+blame for this? Well, it's easy to point
+the finger at Microsoft because it's
+
+226
+00:03:54,190 --> 00:03:54,200
+the finger at Microsoft because it's
+ 
+
+227
+00:03:54,200 --> 00:03:56,150
+the finger at Microsoft because it's
+literally their sole responsibility to
+
+228
+00:03:56,150 --> 00:03:56,160
+literally their sole responsibility to
+ 
+
+229
+00:03:56,160 --> 00:03:57,990
+literally their sole responsibility to
+make this website work. But, I actually
+
+230
+00:03:57,990 --> 00:03:58,000
+make this website work. But, I actually
+ 
+
+231
+00:03:58,000 --> 00:03:59,670
+make this website work. But, I actually
+know people who work at GitHub and
+
+232
+00:03:59,670 --> 00:03:59,680
+know people who work at GitHub and
+ 
+
+233
+00:03:59,680 --> 00:04:00,750
+know people who work at GitHub and
+believe they're trying.
+
+234
+00:04:00,750 --> 00:04:00,760
+believe they're trying.
+ 
+
+235
+00:04:00,760 --> 00:04:04,350
+believe they're trying.
+>> The key to success is developers,
+
+236
+00:04:04,350 --> 00:04:04,360
+>> The key to success is developers,
+ 
+
+237
+00:04:04,360 --> 00:04:06,590
+>> The key to success is developers,
+developers, developers, developers,
+
+238
+00:04:06,590 --> 00:04:06,600
+developers, developers, developers,
+ 
+
+239
+00:04:06,600 --> 00:04:08,870
+developers, developers, developers,
+developers, developers, developers,
+
+240
+00:04:08,870 --> 00:04:08,880
+developers, developers, developers,
+ 
+
+241
+00:04:08,880 --> 00:04:10,110
+developers, developers, developers,
+developers, developers.
+
+242
+00:04:10,110 --> 00:04:10,120
+developers, developers.
+ 
+
+243
+00:04:10,120 --> 00:04:12,110
+developers, developers.
+>> When they acquired GitHub back in 2018,
+
+244
+00:04:12,110 --> 00:04:12,120
+>> When they acquired GitHub back in 2018,
+ 
+
+245
+00:04:12,120 --> 00:04:13,710
+>> When they acquired GitHub back in 2018,
+it actually got better in the years that
+
+246
+00:04:13,710 --> 00:04:13,720
+it actually got better in the years that
+ 
+
+247
+00:04:13,720 --> 00:04:15,750
+it actually got better in the years that
+followed with features like actions,
+
+248
+00:04:15,750 --> 00:04:15,760
+followed with features like actions,
+ 
+
+249
+00:04:15,760 --> 00:04:18,150
+followed with features like actions,
+code spaces, et cetera. But, now in the
+
+250
+00:04:18,150 --> 00:04:18,160
+code spaces, et cetera. But, now in the
+ 
+
+251
+00:04:18,160 --> 00:04:20,229
+code spaces, et cetera. But, now in the
+AI coding era, the enshittification is
+
+252
+00:04:20,229 --> 00:04:20,239
+AI coding era, the enshittification is
+ 
+
+253
+00:04:20,239 --> 00:04:22,950
+AI coding era, the enshittification is
+real. A GitHub CTO admits in writing
+
+254
+00:04:22,950 --> 00:04:22,960
+real. A GitHub CTO admits in writing
+ 
+
+255
+00:04:22,960 --> 00:04:25,510
+real. A GitHub CTO admits in writing
+that since 2025, agentic development
+
+256
+00:04:25,510 --> 00:04:25,520
+that since 2025, agentic development
+ 
+
+257
+00:04:25,520 --> 00:04:27,470
+that since 2025, agentic development
+workflows have accelerated sharply,
+
+258
+00:04:27,470 --> 00:04:27,480
+workflows have accelerated sharply,
+ 
+
+259
+00:04:27,480 --> 00:04:29,590
+workflows have accelerated sharply,
+which translated into English means that
+
+260
+00:04:29,590 --> 00:04:29,600
+which translated into English means that
+ 
+
+261
+00:04:29,600 --> 00:04:31,470
+which translated into English means that
+AI agents are hammering GitHub like it's
+
+262
+00:04:31,470 --> 00:04:31,480
+AI agents are hammering GitHub like it's
+ 
+
+263
+00:04:31,480 --> 00:04:33,390
+AI agents are hammering GitHub like it's
+a free buffet. A GitHub isn't just a
+
+264
+00:04:33,390 --> 00:04:33,400
+a free buffet. A GitHub isn't just a
+ 
+
+265
+00:04:33,400 --> 00:04:35,510
+a free buffet. A GitHub isn't just a
+host for developers anymore, it's a host
+
+266
+00:04:35,510 --> 00:04:35,520
+host for developers anymore, it's a host
+ 
+
+267
+00:04:35,520 --> 00:04:37,190
+host for developers anymore, it's a host
+for their replacements. In the same way
+
+268
+00:04:37,190 --> 00:04:37,200
+for their replacements. In the same way
+ 
+
+269
+00:04:37,200 --> 00:04:38,390
+for their replacements. In the same way
+Bill Gates saved the world from
+
+270
+00:04:38,390 --> 00:04:38,400
+Bill Gates saved the world from
+ 
+
+271
+00:04:38,400 --> 00:04:40,750
+Bill Gates saved the world from
+COVID-19, I have faith Microsoft will
+
+272
+00:04:40,750 --> 00:04:40,760
+COVID-19, I have faith Microsoft will
+ 
+
+273
+00:04:40,760 --> 00:04:42,350
+COVID-19, I have faith Microsoft will
+turn the GitHub ship around. But, if
+
+274
+00:04:42,350 --> 00:04:42,360
+turn the GitHub ship around. But, if
+ 
+
+275
+00:04:42,360 --> 00:04:43,909
+turn the GitHub ship around. But, if
+they don't, there are alternatives out
+
+276
+00:04:43,909 --> 00:04:43,919
+they don't, there are alternatives out
+ 
+
+277
+00:04:43,919 --> 00:04:45,350
+they don't, there are alternatives out
+there. You've got the reliable but
+
+278
+00:04:45,350 --> 00:04:45,360
+there. You've got the reliable but
+ 
+
+279
+00:04:45,360 --> 00:04:47,150
+there. You've got the reliable but
+boring GitLab, you've got the German
+
+280
+00:04:47,150 --> 00:04:47,160
+boring GitLab, you've got the German
+ 
+
+281
+00:04:47,160 --> 00:04:49,030
+boring GitLab, you've got the German
+nonprofit Codeberg, and you've got the
+
+282
+00:04:49,030 --> 00:04:49,040
+nonprofit Codeberg, and you've got the
+ 
+
+283
+00:04:49,040 --> 00:04:51,070
+nonprofit Codeberg, and you've got the
+minimal SourceHut which has zero AI
+
+284
+00:04:51,070 --> 00:04:51,080
+minimal SourceHut which has zero AI
+ 
+
+285
+00:04:51,080 --> 00:04:52,909
+minimal SourceHut which has zero AI
+features whatsoever, and many other
+
+286
+00:04:52,909 --> 00:04:52,919
+features whatsoever, and many other
+ 
+
+287
+00:04:52,919 --> 00:04:54,470
+features whatsoever, and many other
+viable platforms ready to reap the
+
+288
+00:04:54,470 --> 00:04:54,480
+viable platforms ready to reap the
+ 
+
+289
+00:04:54,480 --> 00:04:56,430
+viable platforms ready to reap the
+benefits of GitHub's downfall. So, that
+
+290
+00:04:56,430 --> 00:04:56,440
+benefits of GitHub's downfall. So, that
+ 
+
+291
+00:04:56,440 --> 00:04:57,909
+benefits of GitHub's downfall. So, that
+means the good news is that if you make
+
+292
+00:04:57,909 --> 00:04:57,919
+means the good news is that if you make
+ 
+
+293
+00:04:57,919 --> 00:04:59,230
+means the good news is that if you make
+the mistake of choosing to become a
+
+294
+00:04:59,230 --> 00:04:59,240
+the mistake of choosing to become a
+ 
+
+295
+00:04:59,240 --> 00:05:00,870
+the mistake of choosing to become a
+programmer as a career, there will
+
+296
+00:05:00,870 --> 00:05:00,880
+programmer as a career, there will
+ 
+
+297
+00:05:00,880 --> 00:05:02,630
+programmer as a career, there will
+always be a home for your code. But, did
+
+298
+00:05:02,630 --> 00:05:02,640
+always be a home for your code. But, did
+ 
+
+299
+00:05:02,640 --> 00:05:04,830
+always be a home for your code. But, did
+you realize you have 80,000 hours in
+
+300
+00:05:04,830 --> 00:05:04,840
+you realize you have 80,000 hours in
+ 
+
+301
+00:05:04,840 --> 00:05:07,150
+you realize you have 80,000 hours in
+your career? 40 hours per week, 50 weeks
+
+302
+00:05:07,150 --> 00:05:07,160
+your career? 40 hours per week, 50 weeks
+ 
+
+303
+00:05:07,160 --> 00:05:09,350
+your career? 40 hours per week, 50 weeks
+per year for 40 years. That's a lot of
+
+304
+00:05:09,350 --> 00:05:09,360
+per year for 40 years. That's a lot of
+ 
+
+305
+00:05:09,360 --> 00:05:11,030
+per year for 40 years. That's a lot of
+time to make a positive impact on the
+
+306
+00:05:11,030 --> 00:05:11,040
+time to make a positive impact on the
+ 
+
+307
+00:05:11,040 --> 00:05:13,750
+time to make a positive impact on the
+world. And 80,000 Hours, the sponsor of
+
+308
+00:05:13,750 --> 00:05:13,760
+world. And 80,000 Hours, the sponsor of
+ 
+
+309
+00:05:13,760 --> 00:05:15,790
+world. And 80,000 Hours, the sponsor of
+today's video, can help you do that. If
+
+310
+00:05:15,790 --> 00:05:15,800
+today's video, can help you do that. If
+ 
+
+311
+00:05:15,800 --> 00:05:17,190
+today's video, can help you do that. If
+you're young, you've probably heard
+
+312
+00:05:17,190 --> 00:05:17,200
+you're young, you've probably heard
+ 
+
+313
+00:05:17,200 --> 00:05:19,470
+you're young, you've probably heard
+advice like follow your passion, do what
+
+314
+00:05:19,470 --> 00:05:19,480
+advice like follow your passion, do what
+ 
+
+315
+00:05:19,480 --> 00:05:21,590
+advice like follow your passion, do what
+you love, and take the initiative. But,
+
+316
+00:05:21,590 --> 00:05:21,600
+you love, and take the initiative. But,
+ 
+
+317
+00:05:21,600 --> 00:05:23,470
+you love, and take the initiative. But,
+these clichés are not based on evidence
+
+318
+00:05:23,470 --> 00:05:23,480
+these clichés are not based on evidence
+ 
+
+319
+00:05:23,480 --> 00:05:25,550
+these clichés are not based on evidence
+or data, unlike the work of 80,000
+
+320
+00:05:25,550 --> 00:05:25,560
+or data, unlike the work of 80,000
+ 
+
+321
+00:05:25,560 --> 00:05:27,990
+or data, unlike the work of 80,000
+Hours, which is a nonprofit that for the
+
+322
+00:05:27,990 --> 00:05:28,000
+Hours, which is a nonprofit that for the
+ 
+
+323
+00:05:28,000 --> 00:05:29,990
+Hours, which is a nonprofit that for the
+last 10 years has been researching the
+
+324
+00:05:29,990 --> 00:05:30,000
+last 10 years has been researching the
+ 
+
+325
+00:05:30,000 --> 00:05:32,150
+last 10 years has been researching the
+question of how do you find a fulfilling
+
+326
+00:05:32,150 --> 00:05:32,160
+question of how do you find a fulfilling
+ 
+
+327
+00:05:32,160 --> 00:05:34,270
+question of how do you find a fulfilling
+career that does good, too. Their
+
+328
+00:05:34,270 --> 00:05:34,280
+career that does good, too. Their
+ 
+
+329
+00:05:34,280 --> 00:05:36,390
+career that does good, too. Their
+website has tons of collected research
+
+330
+00:05:36,390 --> 00:05:36,400
+website has tons of collected research
+ 
+
+331
+00:05:36,400 --> 00:05:38,790
+website has tons of collected research
+on high-impact careers along with job
+
+332
+00:05:38,790 --> 00:05:38,800
+on high-impact careers along with job
+ 
+
+333
+00:05:38,800 --> 00:05:41,350
+on high-impact careers along with job
+boards, podcasts, and a lot more. It's
+
+334
+00:05:41,350 --> 00:05:41,360
+boards, podcasts, and a lot more. It's
+ 
+
+335
+00:05:41,360 --> 00:05:42,909
+boards, podcasts, and a lot more. It's
+an incredible resource for anyone
+
+336
+00:05:42,909 --> 00:05:42,919
+an incredible resource for anyone
+ 
+
+337
+00:05:42,919 --> 00:05:44,950
+an incredible resource for anyone
+looking to start a high-impact career or
+
+338
+00:05:44,950 --> 00:05:44,960
+looking to start a high-impact career or
+ 
+
+339
+00:05:44,960 --> 00:05:46,590
+looking to start a high-impact career or
+make a switch mid-career. Join the
+
+340
+00:05:46,590 --> 00:05:46,600
+make a switch mid-career. Join the
+ 
+
+341
+00:05:46,600 --> 00:05:48,590
+make a switch mid-career. Join the
+newsletter today to get a free copy of
+
+342
+00:05:48,590 --> 00:05:48,600
+newsletter today to get a free copy of
+ 
+
+343
+00:05:48,600 --> 00:05:50,310
+newsletter today to get a free copy of
+their in-depth career guide sent to your
+
+344
+00:05:50,310 --> 00:05:50,320
+their in-depth career guide sent to your
+ 
+
+345
+00:05:50,320 --> 00:05:52,150
+their in-depth career guide sent to your
+inbox. It could be the catalyst that
+
+346
+00:05:52,150 --> 00:05:52,160
+inbox. It could be the catalyst that
+ 
+
+347
+00:05:52,160 --> 00:05:54,070
+inbox. It could be the catalyst that
+changes your direction in life. This has
+
+348
+00:05:54,070 --> 00:05:54,080
+changes your direction in life. This has
+ 
+
+349
+00:05:54,080 --> 00:05:55,390
+changes your direction in life. This has
+been the Code Report. Thanks for
+
+350
+00:05:55,390 --> 00:05:55,400
+been the Code Report. Thanks for
+ 
+
+351
+00:05:55,400 --> 00:05:57,150
+been the Code Report. Thanks for
+watching and I will see you in the next
+
+352
+00:05:57,150 --> 00:05:57,160
+watching and I will see you in the next
+ 
+
+353
+00:05:57,160 --> 00:05:59,560
+watching and I will see you in the next
+one.
+

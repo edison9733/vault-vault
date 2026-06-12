@@ -1,0 +1,7155 @@
+1
+00:00:00,000 --> 00:00:02,310
+
+we can actually be traditional finance.
+
+2
+00:00:02,310 --> 00:00:02,320
+we can actually be traditional finance.
+ 
+
+3
+00:00:02,320 --> 00:00:03,870
+we can actually be traditional finance.
+>> This is one of the people quietly
+
+4
+00:00:03,870 --> 00:00:03,880
+>> This is one of the people quietly
+ 
+
+5
+00:00:03,880 --> 00:00:06,270
+>> This is one of the people quietly
+rewriting how global finance works. Meet
+
+6
+00:00:06,270 --> 00:00:06,280
+rewriting how global finance works. Meet
+ 
+
+7
+00:00:06,280 --> 00:00:08,150
+rewriting how global finance works. Meet
+Anatoly Yakovenko, one of the founders
+
+8
+00:00:08,150 --> 00:00:08,160
+Anatoly Yakovenko, one of the founders
+ 
+
+9
+00:00:08,160 --> 00:00:10,910
+Anatoly Yakovenko, one of the founders
+of Solana. It's completely open finance.
+
+10
+00:00:10,910 --> 00:00:10,920
+of Solana. It's completely open finance.
+ 
+
+11
+00:00:10,920 --> 00:00:12,870
+of Solana. It's completely open finance.
+See a full control over the entire
+
+12
+00:00:12,870 --> 00:00:12,880
+See a full control over the entire
+ 
+
+13
+00:00:12,880 --> 00:00:15,070
+See a full control over the entire
+stack. This network processed over a
+
+14
+00:00:15,070 --> 00:00:15,080
+stack. This network processed over a
+ 
+
+15
+00:00:15,080 --> 00:00:18,150
+stack. This network processed over a
+trillion dollars last year. It runs 24/7
+
+16
+00:00:18,150 --> 00:00:18,160
+trillion dollars last year. It runs 24/7
+ 
+
+17
+00:00:18,160 --> 00:00:20,150
+trillion dollars last year. It runs 24/7
+and every line of code is open for
+
+18
+00:00:20,150 --> 00:00:20,160
+and every line of code is open for
+ 
+
+19
+00:00:20,160 --> 00:00:22,110
+and every line of code is open for
+anyone to read. My dream is that it's
+
+20
+00:00:22,110 --> 00:00:22,120
+anyone to read. My dream is that it's
+ 
+
+21
+00:00:22,120 --> 00:00:24,350
+anyone to read. My dream is that it's
+like Linux. And today he's sharing his
+
+22
+00:00:24,350 --> 00:00:24,360
+like Linux. And today he's sharing his
+ 
+
+23
+00:00:24,360 --> 00:00:26,190
+like Linux. And today he's sharing his
+entire vision for where markets are
+
+24
+00:00:26,190 --> 00:00:26,200
+entire vision for where markets are
+ 
+
+25
+00:00:26,200 --> 00:00:27,630
+entire vision for where markets are
+heading. Why the biggest trading [music]
+
+26
+00:00:27,630 --> 00:00:27,640
+heading. Why the biggest trading [music]
+ 
+
+27
+00:00:27,640 --> 00:00:29,790
+heading. Why the biggest trading [music]
+firms are now building on Solana instead
+
+28
+00:00:29,790 --> 00:00:29,800
+firms are now building on Solana instead
+ 
+
+29
+00:00:29,800 --> 00:00:31,630
+firms are now building on Solana instead
+of competing against it. His bold
+
+30
+00:00:31,630 --> 00:00:31,640
+of competing against it. His bold
+ 
+
+31
+00:00:31,640 --> 00:00:33,310
+of competing against it. His bold
+prediction for the next 10 years.
+
+32
+00:00:33,310 --> 00:00:33,320
+prediction for the next 10 years.
+ 
+
+33
+00:00:33,320 --> 00:00:34,310
+prediction for the next 10 years.
+>> There's not going to be a difference
+
+34
+00:00:34,310 --> 00:00:34,320
+>> There's not going to be a difference
+ 
+
+35
+00:00:34,320 --> 00:00:35,910
+>> There's not going to be a difference
+between DeFi and finance. We'll just
+
+36
+00:00:35,910 --> 00:00:35,920
+between DeFi and finance. We'll just
+ 
+
+37
+00:00:35,920 --> 00:00:37,910
+between DeFi and finance. We'll just
+call it all finance. And what every
+
+38
+00:00:37,910 --> 00:00:37,920
+call it all finance. And what every
+ 
+
+39
+00:00:37,920 --> 00:00:40,230
+call it all finance. And what every
+trader needs to understand right now.
+
+40
+00:00:40,230 --> 00:00:40,240
+trader needs to understand right now.
+ 
+
+41
+00:00:40,240 --> 00:00:42,710
+trader needs to understand right now.
+Because in this game the only enemy left
+
+42
+00:00:42,710 --> 00:00:42,720
+Because in this game the only enemy left
+ 
+
+43
+00:00:42,720 --> 00:00:44,670
+Because in this game the only enemy left
+isn't a competitor. You are fighting
+
+44
+00:00:44,670 --> 00:00:44,680
+isn't a competitor. You are fighting
+ 
+
+45
+00:00:44,680 --> 00:00:47,310
+isn't a competitor. You are fighting
+physics. And what what better thing can
+
+46
+00:00:47,310 --> 00:00:47,320
+physics. And what what better thing can
+ 
+
+47
+00:00:47,320 --> 00:00:50,110
+physics. And what what better thing can
+you possibly work on?
+
+48
+00:00:50,110 --> 00:00:50,120
+you possibly work on?
+ 
+
+49
+00:00:50,120 --> 00:00:51,830
+you possibly work on?
+Hey everyone. Today we have a very
+
+50
+00:00:51,830 --> 00:00:51,840
+Hey everyone. Today we have a very
+ 
+
+51
+00:00:51,840 --> 00:00:54,830
+Hey everyone. Today we have a very
+special guest, Anatoly Yakovenko, one of
+
+52
+00:00:54,830 --> 00:00:54,840
+special guest, Anatoly Yakovenko, one of
+ 
+
+53
+00:00:54,840 --> 00:00:56,470
+special guest, Anatoly Yakovenko, one of
+the founders of Solana. So thanks for
+
+54
+00:00:56,470 --> 00:00:56,480
+the founders of Solana. So thanks for
+ 
+
+55
+00:00:56,480 --> 00:00:58,030
+the founders of Solana. So thanks for
+joining us today.
+
+56
+00:00:58,030 --> 00:00:58,040
+joining us today.
+ 
+
+57
+00:00:58,040 --> 00:00:59,590
+joining us today.
+Thanks for having me.
+
+58
+00:00:59,590 --> 00:00:59,600
+Thanks for having me.
+ 
+
+59
+00:00:59,600 --> 00:01:01,710
+Thanks for having me.
+Yeah. Happy that you're here. So in this
+
+60
+00:01:01,710 --> 00:01:01,720
+Yeah. Happy that you're here. So in this
+ 
+
+61
+00:01:01,720 --> 00:01:03,630
+Yeah. Happy that you're here. So in this
+video we're going to be kicking off an
+
+62
+00:01:03,630 --> 00:01:03,640
+video we're going to be kicking off an
+ 
+
+63
+00:01:03,640 --> 00:01:06,190
+video we're going to be kicking off an
+education series that's teaching market
+
+64
+00:01:06,190 --> 00:01:06,200
+education series that's teaching market
+ 
+
+65
+00:01:06,200 --> 00:01:07,950
+education series that's teaching market
+infrastructure on Solana and how to
+
+66
+00:01:07,950 --> 00:01:07,960
+infrastructure on Solana and how to
+ 
+
+67
+00:01:07,960 --> 00:01:10,310
+infrastructure on Solana and how to
+build on it. So before we get into any
+
+68
+00:01:10,310 --> 00:01:10,320
+build on it. So before we get into any
+ 
+
+69
+00:01:10,320 --> 00:01:12,550
+build on it. So before we get into any
+of the deep questions, what is your
+
+70
+00:01:12,550 --> 00:01:12,560
+of the deep questions, what is your
+ 
+
+71
+00:01:12,560 --> 00:01:15,470
+of the deep questions, what is your
+elevator pitch to get someone interested
+
+72
+00:01:15,470 --> 00:01:15,480
+elevator pitch to get someone interested
+ 
+
+73
+00:01:15,480 --> 00:01:18,030
+elevator pitch to get someone interested
+in using Solana or building on it?
+
+74
+00:01:18,030 --> 00:01:18,040
+in using Solana or building on it?
+ 
+
+75
+00:01:18,040 --> 00:01:19,430
+in using Solana or building on it?
+I think
+
+76
+00:01:19,430 --> 00:01:19,440
+I think
+ 
+
+77
+00:01:19,440 --> 00:01:21,510
+I think
+what got me really interested in
+
+78
+00:01:21,510 --> 00:01:21,520
+what got me really interested in
+ 
+
+79
+00:01:21,520 --> 00:01:23,510
+what got me really interested in
+building Solana in the first place was
+
+80
+00:01:23,510 --> 00:01:23,520
+building Solana in the first place was
+ 
+
+81
+00:01:23,520 --> 00:01:26,830
+building Solana in the first place was
+that it's completely open finance. See a
+
+82
+00:01:26,830 --> 00:01:26,840
+that it's completely open finance. See a
+ 
+
+83
+00:01:26,840 --> 00:01:29,750
+that it's completely open finance. See a
+full control over the entire stack.
+
+84
+00:01:29,750 --> 00:01:29,760
+full control over the entire stack.
+ 
+
+85
+00:01:29,760 --> 00:01:32,190
+full control over the entire stack.
+Um how finance happens and um you know
+
+86
+00:01:32,190 --> 00:01:32,200
+Um how finance happens and um you know
+ 
+
+87
+00:01:32,200 --> 00:01:36,070
+Um how finance happens and um you know
+like this is 15 to 20 years ago before
+
+88
+00:01:36,070 --> 00:01:36,080
+like this is 15 to 20 years ago before
+ 
+
+89
+00:01:36,080 --> 00:01:38,310
+like this is 15 to 20 years ago before
+Solana was even an idea, I was
+
+90
+00:01:38,310 --> 00:01:38,320
+Solana was even an idea, I was
+ 
+
+91
+00:01:38,320 --> 00:01:40,110
+Solana was even an idea, I was
+having fun trying to build trading
+
+92
+00:01:40,110 --> 00:01:40,120
+having fun trying to build trading
+ 
+
+93
+00:01:40,120 --> 00:01:42,190
+having fun trying to build trading
+systems, trading bots, trading on like
+
+94
+00:01:42,190 --> 00:01:42,200
+systems, trading bots, trading on like
+ 
+
+95
+00:01:42,200 --> 00:01:43,910
+systems, trading bots, trading on like
+interactive brokers on traditional
+
+96
+00:01:43,910 --> 00:01:43,920
+interactive brokers on traditional
+ 
+
+97
+00:01:43,920 --> 00:01:45,510
+interactive brokers on traditional
+finance rails.
+
+98
+00:01:45,510 --> 00:01:45,520
+finance rails.
+ 
+
+99
+00:01:45,520 --> 00:01:48,430
+finance rails.
+And um you're kind of when you do that
+
+100
+00:01:48,430 --> 00:01:48,440
+And um you're kind of when you do that
+ 
+
+101
+00:01:48,440 --> 00:01:50,230
+And um you're kind of when you do that
+you learn that you're kind of trading
+
+102
+00:01:50,230 --> 00:01:50,240
+you learn that you're kind of trading
+ 
+
+103
+00:01:50,240 --> 00:01:52,110
+you learn that you're kind of trading
+with a black box. You don't know how any
+
+104
+00:01:52,110 --> 00:01:52,120
+with a black box. You don't know how any
+ 
+
+105
+00:01:52,120 --> 00:01:54,950
+with a black box. You don't know how any
+of the stuff actually works. What
+
+106
+00:01:54,950 --> 00:01:54,960
+of the stuff actually works. What
+ 
+
+107
+00:01:54,960 --> 00:01:56,670
+of the stuff actually works. What
+happens to your order, how it actually
+
+108
+00:01:56,670 --> 00:01:56,680
+happens to your order, how it actually
+ 
+
+109
+00:01:56,680 --> 00:01:58,190
+happens to your order, how it actually
+ends up from when you submit it to a
+
+110
+00:01:58,190 --> 00:01:58,200
+ends up from when you submit it to a
+ 
+
+111
+00:01:58,200 --> 00:02:00,830
+ends up from when you submit it to a
+broker to being filled on an exchange in
+
+112
+00:02:00,830 --> 00:02:00,840
+broker to being filled on an exchange in
+ 
+
+113
+00:02:00,840 --> 00:02:02,350
+broker to being filled on an exchange in
+an order book.
+
+114
+00:02:02,350 --> 00:02:02,360
+an order book.
+ 
+
+115
+00:02:02,360 --> 00:02:04,470
+an order book.
+And the cool thing about Solana is you
+
+116
+00:02:04,470 --> 00:02:04,480
+And the cool thing about Solana is you
+ 
+
+117
+00:02:04,480 --> 00:02:05,510
+And the cool thing about Solana is you
+have
+
+118
+00:02:05,510 --> 00:02:05,520
+have
+ 
+
+119
+00:02:05,520 --> 00:02:07,230
+have
+all the validator source code. You can
+
+120
+00:02:07,230 --> 00:02:07,240
+all the validator source code. You can
+ 
+
+121
+00:02:07,240 --> 00:02:08,749
+all the validator source code. You can
+run your own validator. You can get
+
+122
+00:02:08,749 --> 00:02:08,759
+run your own validator. You can get
+ 
+
+123
+00:02:08,759 --> 00:02:11,470
+run your own validator. You can get
+stakes. You can even participate in the
+
+124
+00:02:11,470 --> 00:02:11,480
+stakes. You can even participate in the
+ 
+
+125
+00:02:11,480 --> 00:02:13,510
+stakes. You can even participate in the
+block creation process. And you have
+
+126
+00:02:13,510 --> 00:02:13,520
+block creation process. And you have
+ 
+
+127
+00:02:13,520 --> 00:02:15,830
+block creation process. And you have
+full control over that entire pipeline.
+
+128
+00:02:15,830 --> 00:02:15,840
+full control over that entire pipeline.
+ 
+
+129
+00:02:15,840 --> 00:02:17,430
+full control over that entire pipeline.
+So you know exactly
+
+130
+00:02:17,430 --> 00:02:17,440
+So you know exactly
+ 
+
+131
+00:02:17,440 --> 00:02:19,430
+So you know exactly
+why things can go wrong. And many things
+
+132
+00:02:19,430 --> 00:02:19,440
+why things can go wrong. And many things
+ 
+
+133
+00:02:19,440 --> 00:02:21,790
+why things can go wrong. And many things
+can go wrong, but it's important to me
+
+134
+00:02:21,790 --> 00:02:21,800
+can go wrong, but it's important to me
+ 
+
+135
+00:02:21,800 --> 00:02:24,390
+can go wrong, but it's important to me
+as an engineer to understand
+
+136
+00:02:24,390 --> 00:02:24,400
+as an engineer to understand
+ 
+
+137
+00:02:24,400 --> 00:02:26,910
+as an engineer to understand
+why stuff can break and then have the
+
+138
+00:02:26,910 --> 00:02:26,920
+why stuff can break and then have the
+ 
+
+139
+00:02:26,920 --> 00:02:28,910
+why stuff can break and then have the
+ability to fix it or you know adjust my
+
+140
+00:02:28,910 --> 00:02:28,920
+ability to fix it or you know adjust my
+ 
+
+141
+00:02:28,920 --> 00:02:30,390
+ability to fix it or you know adjust my
+strategy.
+
+142
+00:02:30,390 --> 00:02:30,400
+strategy.
+ 
+
+143
+00:02:30,400 --> 00:02:32,070
+strategy.
+Yeah, I think that was kind of one of
+
+144
+00:02:32,070 --> 00:02:32,080
+Yeah, I think that was kind of one of
+ 
+
+145
+00:02:32,080 --> 00:02:33,830
+Yeah, I think that was kind of one of
+the reasons I got into crypto too. It's
+
+146
+00:02:33,830 --> 00:02:33,840
+the reasons I got into crypto too. It's
+ 
+
+147
+00:02:33,840 --> 00:02:35,310
+the reasons I got into crypto too. It's
+just you have everything that's
+
+148
+00:02:35,310 --> 00:02:35,320
+just you have everything that's
+ 
+
+149
+00:02:35,320 --> 00:02:37,590
+just you have everything that's
+permissionless and borderless and you
+
+150
+00:02:37,590 --> 00:02:37,600
+permissionless and borderless and you
+ 
+
+151
+00:02:37,600 --> 00:02:39,750
+permissionless and borderless and you
+have the ability to see the code and
+
+152
+00:02:39,750 --> 00:02:39,760
+have the ability to see the code and
+ 
+
+153
+00:02:39,760 --> 00:02:42,110
+have the ability to see the code and
+interact directly with it. And that kind
+
+154
+00:02:42,110 --> 00:02:42,120
+interact directly with it. And that kind
+ 
+
+155
+00:02:42,120 --> 00:02:43,830
+interact directly with it. And that kind
+of jumps into one of the other questions
+
+156
+00:02:43,830 --> 00:02:43,840
+of jumps into one of the other questions
+ 
+
+157
+00:02:43,840 --> 00:02:46,510
+of jumps into one of the other questions
+that I had and that was that you have
+
+158
+00:02:46,510 --> 00:02:46,520
+that I had and that was that you have
+ 
+
+159
+00:02:46,520 --> 00:02:48,310
+that I had and that was that you have
+talked a lot about your own frustrations
+
+160
+00:02:48,310 --> 00:02:48,320
+talked a lot about your own frustrations
+ 
+
+161
+00:02:48,320 --> 00:02:50,950
+talked a lot about your own frustrations
+in traditional markets. Like watching
+
+162
+00:02:50,950 --> 00:02:50,960
+in traditional markets. Like watching
+ 
+
+163
+00:02:50,960 --> 00:02:53,070
+in traditional markets. Like watching
+large institutions always have edge. You
+
+164
+00:02:53,070 --> 00:02:53,080
+large institutions always have edge. You
+ 
+
+165
+00:02:53,080 --> 00:02:56,070
+large institutions always have edge. You
+have co-location and order flow and just
+
+166
+00:02:56,070 --> 00:02:56,080
+have co-location and order flow and just
+ 
+
+167
+00:02:56,080 --> 00:02:57,550
+have co-location and order flow and just
+knowing the right people it puts you
+
+168
+00:02:57,550 --> 00:02:57,560
+knowing the right people it puts you
+ 
+
+169
+00:02:57,560 --> 00:03:00,030
+knowing the right people it puts you
+ahead of just anyone else that's
+
+170
+00:03:00,030 --> 00:03:00,040
+ahead of just anyone else that's
+ 
+
+171
+00:03:00,040 --> 00:03:02,790
+ahead of just anyone else that's
+trading. So you made a bet early on that
+
+172
+00:03:02,790 --> 00:03:02,800
+trading. So you made a bet early on that
+ 
+
+173
+00:03:02,800 --> 00:03:04,430
+trading. So you made a bet early on that
+a single global state machine was the
+
+174
+00:03:04,430 --> 00:03:04,440
+a single global state machine was the
+ 
+
+175
+00:03:04,440 --> 00:03:05,950
+a single global state machine was the
+answer. You have like on-chain
+
+176
+00:03:05,950 --> 00:03:05,960
+answer. You have like on-chain
+ 
+
+177
+00:03:05,960 --> 00:03:07,950
+answer. You have like on-chain
+borderless permissionless with full
+
+178
+00:03:07,950 --> 00:03:07,960
+borderless permissionless with full
+ 
+
+179
+00:03:07,960 --> 00:03:11,550
+borderless permissionless with full
+transparency. But one thing that has
+
+180
+00:03:11,550 --> 00:03:11,560
+transparency. But one thing that has
+ 
+
+181
+00:03:11,560 --> 00:03:13,630
+transparency. But one thing that has
+kind of been a topic of discussion was
+
+182
+00:03:13,630 --> 00:03:13,640
+kind of been a topic of discussion was
+ 
+
+183
+00:03:13,640 --> 00:03:16,630
+kind of been a topic of discussion was
+on Solana you have the block leader that
+
+184
+00:03:16,630 --> 00:03:16,640
+on Solana you have the block leader that
+ 
+
+185
+00:03:16,640 --> 00:03:19,350
+on Solana you have the block leader that
+has a temporary monopoly and that means
+
+186
+00:03:19,350 --> 00:03:19,360
+has a temporary monopoly and that means
+ 
+
+187
+00:03:19,360 --> 00:03:21,990
+has a temporary monopoly and that means
+the playing field isn't super even. But
+
+188
+00:03:21,990 --> 00:03:22,000
+the playing field isn't super even. But
+ 
+
+189
+00:03:22,000 --> 00:03:23,630
+the playing field isn't super even. But
+now we have constellation or multiple
+
+190
+00:03:23,630 --> 00:03:23,640
+now we have constellation or multiple
+ 
+
+191
+00:03:23,640 --> 00:03:25,270
+now we have constellation or multiple
+concurrent proposers that just came out
+
+192
+00:03:25,270 --> 00:03:25,280
+concurrent proposers that just came out
+ 
+
+193
+00:03:25,280 --> 00:03:26,790
+concurrent proposers that just came out
+and I wanted to hear your thoughts more
+
+194
+00:03:26,790 --> 00:03:26,800
+and I wanted to hear your thoughts more
+ 
+
+195
+00:03:26,800 --> 00:03:29,550
+and I wanted to hear your thoughts more
+on that. So you're removing the last
+
+196
+00:03:29,550 --> 00:03:29,560
+on that. So you're removing the last
+ 
+
+197
+00:03:29,560 --> 00:03:31,590
+on that. So you're removing the last
+unfair advantage here. To me it's more
+
+198
+00:03:31,590 --> 00:03:31,600
+unfair advantage here. To me it's more
+ 
+
+199
+00:03:31,600 --> 00:03:33,110
+unfair advantage here. To me it's more
+than that. We can actually beat
+
+200
+00:03:33,110 --> 00:03:33,120
+than that. We can actually beat
+ 
+
+201
+00:03:33,120 --> 00:03:35,710
+than that. We can actually beat
+traditional finance. So if you kind of
+
+202
+00:03:35,710 --> 00:03:35,720
+traditional finance. So if you kind of
+ 
+
+203
+00:03:35,720 --> 00:03:38,310
+traditional finance. So if you kind of
+get into the the last mile of how this
+
+204
+00:03:38,310 --> 00:03:38,320
+get into the the last mile of how this
+ 
+
+205
+00:03:38,320 --> 00:03:39,830
+get into the the last mile of how this
+stuff happens and you think of it from a
+
+206
+00:03:39,830 --> 00:03:39,840
+stuff happens and you think of it from a
+ 
+
+207
+00:03:39,840 --> 00:03:42,270
+stuff happens and you think of it from a
+physics as a physics problem, you have a
+
+208
+00:03:42,270 --> 00:03:42,280
+physics as a physics problem, you have a
+ 
+
+209
+00:03:42,280 --> 00:03:43,910
+physics as a physics problem, you have a
+bunch of information that's happen
+
+210
+00:03:43,910 --> 00:03:43,920
+bunch of information that's happen
+ 
+
+211
+00:03:43,920 --> 00:03:45,390
+bunch of information that's happen
+that's happening around the world that's
+
+212
+00:03:45,390 --> 00:03:45,400
+that's happening around the world that's
+ 
+
+213
+00:03:45,400 --> 00:03:47,550
+that's happening around the world that's
+relevant to markets. And the example
+
+214
+00:03:47,550 --> 00:03:47,560
+relevant to markets. And the example
+ 
+
+215
+00:03:47,560 --> 00:03:49,070
+relevant to markets. And the example
+that I always use is like you're sitting
+
+216
+00:03:49,070 --> 00:03:49,080
+that I always use is like you're sitting
+ 
+
+217
+00:03:49,080 --> 00:03:51,510
+that I always use is like you're sitting
+in Singapore in your high-rise, you
+
+218
+00:03:51,510 --> 00:03:51,520
+in Singapore in your high-rise, you
+ 
+
+219
+00:03:51,520 --> 00:03:53,150
+in Singapore in your high-rise, you
+know, hotel room
+
+220
+00:03:53,150 --> 00:03:53,160
+know, hotel room
+ 
+
+221
+00:03:53,160 --> 00:03:56,110
+know, hotel room
+and you see like a ship full of iPhones
+
+222
+00:03:56,110 --> 00:03:56,120
+and you see like a ship full of iPhones
+ 
+
+223
+00:03:56,120 --> 00:03:59,190
+and you see like a ship full of iPhones
+sink out of the harbor. That information
+
+224
+00:03:59,190 --> 00:03:59,200
+sink out of the harbor. That information
+ 
+
+225
+00:03:59,200 --> 00:04:01,230
+sink out of the harbor. That information
+is really important to markets and it's
+
+226
+00:04:01,230 --> 00:04:01,240
+is really important to markets and it's
+ 
+
+227
+00:04:01,240 --> 00:04:03,350
+is really important to markets and it's
+important to the company Apple.
+
+228
+00:04:03,350 --> 00:04:03,360
+important to the company Apple.
+ 
+
+229
+00:04:03,360 --> 00:04:05,470
+important to the company Apple.
+And that that app but that Apple stock
+
+230
+00:04:05,470 --> 00:04:05,480
+And that that app but that Apple stock
+ 
+
+231
+00:04:05,480 --> 00:04:07,550
+And that that app but that Apple stock
+is trading in New York. And there's a
+
+232
+00:04:07,550 --> 00:04:07,560
+is trading in New York. And there's a
+ 
+
+233
+00:04:07,560 --> 00:04:09,830
+is trading in New York. And there's a
+physical latency to get that information
+
+234
+00:04:09,830 --> 00:04:09,840
+physical latency to get that information
+ 
+
+235
+00:04:09,840 --> 00:04:12,150
+physical latency to get that information
+from when you see it to the stock market
+
+236
+00:04:12,150 --> 00:04:12,160
+from when you see it to the stock market
+ 
+
+237
+00:04:12,160 --> 00:04:14,390
+from when you see it to the stock market
+in New York. So that news wire has to
+
+238
+00:04:14,390 --> 00:04:14,400
+in New York. So that news wire has to
+ 
+
+239
+00:04:14,400 --> 00:04:17,150
+in New York. So that news wire has to
+propagate as fast as possible, speed of
+
+240
+00:04:17,150 --> 00:04:17,160
+propagate as fast as possible, speed of
+ 
+
+241
+00:04:17,160 --> 00:04:19,349
+propagate as fast as possible, speed of
+light or fiber even go through like
+
+242
+00:04:19,349 --> 00:04:19,359
+light or fiber even go through like
+ 
+
+243
+00:04:19,359 --> 00:04:21,710
+light or fiber even go through like
+lower earth orbit to get to the New York
+
+244
+00:04:21,710 --> 00:04:21,720
+lower earth orbit to get to the New York
+ 
+
+245
+00:04:21,720 --> 00:04:24,750
+lower earth orbit to get to the New York
+Stock Exchange for trader to then add it
+
+246
+00:04:24,750 --> 00:04:24,760
+Stock Exchange for trader to then add it
+ 
+
+247
+00:04:24,760 --> 00:04:26,630
+Stock Exchange for trader to then add it
+to their risk engine, to their model to
+
+248
+00:04:26,630 --> 00:04:26,640
+to their risk engine, to their model to
+ 
+
+249
+00:04:26,640 --> 00:04:28,310
+to their risk engine, to their model to
+produce a trade to get into the order
+
+250
+00:04:28,310 --> 00:04:28,320
+produce a trade to get into the order
+ 
+
+251
+00:04:28,320 --> 00:04:29,630
+produce a trade to get into the order
+book.
+
+252
+00:04:29,630 --> 00:04:29,640
+book.
+ 
+
+253
+00:04:29,640 --> 00:04:31,470
+book.
+If you have multiple concurrent
+
+254
+00:04:31,470 --> 00:04:31,480
+If you have multiple concurrent
+ 
+
+255
+00:04:31,480 --> 00:04:33,270
+If you have multiple concurrent
+proposers, um
+
+256
+00:04:33,270 --> 00:04:33,280
+proposers, um
+ 
+
+257
+00:04:33,280 --> 00:04:35,350
+proposers, um
+the idea there is that we don't have to
+
+258
+00:04:35,350 --> 00:04:35,360
+the idea there is that we don't have to
+ 
+
+259
+00:04:35,360 --> 00:04:37,390
+the idea there is that we don't have to
+be located in New York. We could
+
+260
+00:04:37,390 --> 00:04:37,400
+be located in New York. We could
+ 
+
+261
+00:04:37,400 --> 00:04:40,030
+be located in New York. We could
+actually be at the same time located in
+
+262
+00:04:40,030 --> 00:04:40,040
+actually be at the same time located in
+ 
+
+263
+00:04:40,040 --> 00:04:42,870
+actually be at the same time located in
+New York and Singapore and have at the
+
+264
+00:04:42,870 --> 00:04:42,880
+New York and Singapore and have at the
+ 
+
+265
+00:04:42,880 --> 00:04:46,270
+New York and Singapore and have at the
+same time exceptions actions that are
+
+266
+00:04:46,270 --> 00:04:46,280
+same time exceptions actions that are
+ 
+
+267
+00:04:46,280 --> 00:04:49,030
+same time exceptions actions that are
+accepted in the same we call it economic
+
+268
+00:04:49,030 --> 00:04:49,040
+accepted in the same we call it economic
+ 
+
+269
+00:04:49,040 --> 00:04:51,430
+accepted in the same we call it economic
+tick. So in the same short kind of batch
+
+270
+00:04:51,430 --> 00:04:51,440
+tick. So in the same short kind of batch
+ 
+
+271
+00:04:51,440 --> 00:04:53,950
+tick. So in the same short kind of batch
+of time that is universally applied
+
+272
+00:04:53,950 --> 00:04:53,960
+of time that is universally applied
+ 
+
+273
+00:04:53,960 --> 00:04:56,110
+of time that is universally applied
+around the around the world.
+
+274
+00:04:56,110 --> 00:04:56,120
+around the around the world.
+ 
+
+275
+00:04:56,120 --> 00:04:59,910
+around the around the world.
+So by the time that news wire eventually
+
+276
+00:04:59,910 --> 00:04:59,920
+So by the time that news wire eventually
+ 
+
+277
+00:04:59,920 --> 00:05:01,270
+So by the time that news wire eventually
+ends up in New York and a trader's
+
+278
+00:05:01,270 --> 00:05:01,280
+ends up in New York and a trader's
+ 
+
+279
+00:05:01,280 --> 00:05:03,790
+ends up in New York and a trader's
+looking at Bloomberg terminal, the price
+
+280
+00:05:03,790 --> 00:05:03,800
+looking at Bloomberg terminal, the price
+ 
+
+281
+00:05:03,800 --> 00:05:05,910
+looking at Bloomberg terminal, the price
+on Solana is already reflected it.
+
+282
+00:05:05,910 --> 00:05:05,920
+on Solana is already reflected it.
+ 
+
+283
+00:05:05,920 --> 00:05:07,630
+on Solana is already reflected it.
+Because somebody placed that order
+
+284
+00:05:07,630 --> 00:05:07,640
+Because somebody placed that order
+ 
+
+285
+00:05:07,640 --> 00:05:09,830
+Because somebody placed that order
+immediately in Singapore. It didn't have
+
+286
+00:05:09,830 --> 00:05:09,840
+immediately in Singapore. It didn't have
+ 
+
+287
+00:05:09,840 --> 00:05:11,510
+immediately in Singapore. It didn't have
+to go all the way to New York first to
+
+288
+00:05:11,510 --> 00:05:11,520
+to go all the way to New York first to
+ 
+
+289
+00:05:11,520 --> 00:05:14,310
+to go all the way to New York first to
+place the order. So
+
+290
+00:05:14,310 --> 00:05:14,320
+place the order. So
+ 
+
+291
+00:05:14,320 --> 00:05:17,150
+place the order. So
+decentralized systems actually can
+
+292
+00:05:17,150 --> 00:05:17,160
+decentralized systems actually can
+ 
+
+293
+00:05:17,160 --> 00:05:20,390
+decentralized systems actually can
+completely beat traditional finance.
+
+294
+00:05:20,390 --> 00:05:20,400
+completely beat traditional finance.
+ 
+
+295
+00:05:20,400 --> 00:05:22,110
+completely beat traditional finance.
+This is I think the cool part about
+
+296
+00:05:22,110 --> 00:05:22,120
+This is I think the cool part about
+ 
+
+297
+00:05:22,120 --> 00:05:24,230
+This is I think the cool part about
+this. This is this isn't us just trying
+
+298
+00:05:24,230 --> 00:05:24,240
+this. This is this isn't us just trying
+ 
+
+299
+00:05:24,240 --> 00:05:25,950
+this. This is this isn't us just trying
+to work around
+
+300
+00:05:25,950 --> 00:05:25,960
+to work around
+ 
+
+301
+00:05:25,960 --> 00:05:27,910
+to work around
+problem with Byzantine fault tolerance
+
+302
+00:05:27,910 --> 00:05:27,920
+problem with Byzantine fault tolerance
+ 
+
+303
+00:05:27,920 --> 00:05:30,510
+problem with Byzantine fault tolerance
+and kind of all the all the stuff that's
+
+304
+00:05:30,510 --> 00:05:30,520
+and kind of all the all the stuff that's
+ 
+
+305
+00:05:30,520 --> 00:05:32,950
+and kind of all the all the stuff that's
+been holding us back building these open
+
+306
+00:05:32,950 --> 00:05:32,960
+been holding us back building these open
+ 
+
+307
+00:05:32,960 --> 00:05:35,190
+been holding us back building these open
+systems where nobody controls anything.
+
+308
+00:05:35,190 --> 00:05:35,200
+systems where nobody controls anything.
+ 
+
+309
+00:05:35,200 --> 00:05:36,550
+systems where nobody controls anything.
+Which make it much more difficult. You
+
+310
+00:05:36,550 --> 00:05:36,560
+Which make it much more difficult. You
+ 
+
+311
+00:05:36,560 --> 00:05:38,870
+Which make it much more difficult. You
+have to solve a lot more problems than a
+
+312
+00:05:38,870 --> 00:05:38,880
+have to solve a lot more problems than a
+ 
+
+313
+00:05:38,880 --> 00:05:41,150
+have to solve a lot more problems than a
+centralized provider. But I think
+
+314
+00:05:41,150 --> 00:05:41,160
+centralized provider. But I think
+ 
+
+315
+00:05:41,160 --> 00:05:43,230
+centralized provider. But I think
+because we have to innovate and think of
+
+316
+00:05:43,230 --> 00:05:43,240
+because we have to innovate and think of
+ 
+
+317
+00:05:43,240 --> 00:05:45,030
+because we have to innovate and think of
+these problems from first principles, we
+
+318
+00:05:45,030 --> 00:05:45,040
+these problems from first principles, we
+ 
+
+319
+00:05:45,040 --> 00:05:47,590
+these problems from first principles, we
+have a chance to really solve them
+
+320
+00:05:47,590 --> 00:05:47,600
+have a chance to really solve them
+ 
+
+321
+00:05:47,600 --> 00:05:48,910
+have a chance to really solve them
+in a way that's even better than
+
+322
+00:05:48,910 --> 00:05:48,920
+in a way that's even better than
+ 
+
+323
+00:05:48,920 --> 00:05:50,590
+in a way that's even better than
+traditional finance could ever
+
+324
+00:05:50,590 --> 00:05:50,600
+traditional finance could ever
+ 
+
+325
+00:05:50,600 --> 00:05:52,110
+traditional finance could ever
+accomplish.
+
+326
+00:05:52,110 --> 00:05:52,120
+accomplish.
+ 
+
+327
+00:05:52,120 --> 00:05:54,310
+accomplish.
+Yeah, definitely. And
+
+328
+00:05:54,310 --> 00:05:54,320
+Yeah, definitely. And
+ 
+
+329
+00:05:54,320 --> 00:05:57,070
+Yeah, definitely. And
+I'm curious what mark mixed with
+
+330
+00:05:57,070 --> 00:05:57,080
+I'm curious what mark mixed with
+ 
+
+331
+00:05:57,080 --> 00:05:58,990
+I'm curious what mark mixed with
+multiple concurrent proposers and then
+
+332
+00:05:58,990 --> 00:05:59,000
+multiple concurrent proposers and then
+ 
+
+333
+00:05:59,000 --> 00:06:00,790
+multiple concurrent proposers and then
+you have the updates with Fire Dancer
+
+334
+00:06:00,790 --> 00:06:00,800
+you have the updates with Fire Dancer
+ 
+
+335
+00:06:00,800 --> 00:06:03,590
+you have the updates with Fire Dancer
+going live and Alpenglow also coming
+
+336
+00:06:03,590 --> 00:06:03,600
+going live and Alpenglow also coming
+ 
+
+337
+00:06:03,600 --> 00:06:05,790
+going live and Alpenglow also coming
+live. All three of those, do you think
+
+338
+00:06:05,790 --> 00:06:05,800
+live. All three of those, do you think
+ 
+
+339
+00:06:05,800 --> 00:06:07,390
+live. All three of those, do you think
+that's going to bring Solana to the
+
+340
+00:06:07,390 --> 00:06:07,400
+that's going to bring Solana to the
+ 
+
+341
+00:06:07,400 --> 00:06:08,950
+that's going to bring Solana to the
+vision that you have or do you think
+
+342
+00:06:08,950 --> 00:06:08,960
+vision that you have or do you think
+ 
+
+343
+00:06:08,960 --> 00:06:11,030
+vision that you have or do you think
+there's still more work to do to get to
+
+344
+00:06:11,030 --> 00:06:11,040
+there's still more work to do to get to
+ 
+
+345
+00:06:11,040 --> 00:06:13,390
+there's still more work to do to get to
+this kind of NASDAQ on-chain vision that
+
+346
+00:06:13,390 --> 00:06:13,400
+this kind of NASDAQ on-chain vision that
+ 
+
+347
+00:06:13,400 --> 00:06:15,990
+this kind of NASDAQ on-chain vision that
+you have for the future? I think for
+
+348
+00:06:15,990 --> 00:06:16,000
+you have for the future? I think for
+ 
+
+349
+00:06:16,000 --> 00:06:19,110
+you have for the future? I think for
+my vision has been that Solana never is
+
+350
+00:06:19,110 --> 00:06:19,120
+my vision has been that Solana never is
+ 
+
+351
+00:06:19,120 --> 00:06:21,870
+my vision has been that Solana never is
+frozen. Is that it's like Linux. Yeah.
+
+352
+00:06:21,870 --> 00:06:21,880
+frozen. Is that it's like Linux. Yeah.
+ 
+
+353
+00:06:21,880 --> 00:06:24,830
+frozen. Is that it's like Linux. Yeah.
+>> Is is hardware changes,
+
+354
+00:06:24,830 --> 00:06:24,840
+>> Is is hardware changes,
+ 
+
+355
+00:06:24,840 --> 00:06:26,990
+>> Is is hardware changes,
+things change, you know, the internet's
+
+356
+00:06:26,990 --> 00:06:27,000
+things change, you know, the internet's
+ 
+
+357
+00:06:27,000 --> 00:06:29,270
+things change, you know, the internet's
+switching from fiber to lower earth
+
+358
+00:06:29,270 --> 00:06:29,280
+switching from fiber to lower earth
+ 
+
+359
+00:06:29,280 --> 00:06:32,350
+switching from fiber to lower earth
+orbit is going to have impact on how
+
+360
+00:06:32,350 --> 00:06:32,360
+orbit is going to have impact on how
+ 
+
+361
+00:06:32,360 --> 00:06:35,830
+orbit is going to have impact on how
+Solana should be constructed and
+
+362
+00:06:35,830 --> 00:06:35,840
+Solana should be constructed and
+ 
+
+363
+00:06:35,840 --> 00:06:37,830
+Solana should be constructed and
+that means that I want people to go
+
+364
+00:06:37,830 --> 00:06:37,840
+that means that I want people to go
+ 
+
+365
+00:06:37,840 --> 00:06:39,550
+that means that I want people to go
+change the code and make it better. And
+
+366
+00:06:39,550 --> 00:06:39,560
+change the code and make it better. And
+ 
+
+367
+00:06:39,560 --> 00:06:41,870
+change the code and make it better. And
+always think about how do we reshape the
+
+368
+00:06:41,870 --> 00:06:41,880
+always think about how do we reshape the
+ 
+
+369
+00:06:41,880 --> 00:06:43,710
+always think about how do we reshape the
+network to fit the best possible
+
+370
+00:06:43,710 --> 00:06:43,720
+network to fit the best possible
+ 
+
+371
+00:06:43,720 --> 00:06:45,830
+network to fit the best possible
+hardware. The joke that I always had was
+
+372
+00:06:45,830 --> 00:06:45,840
+hardware. The joke that I always had was
+ 
+
+373
+00:06:45,840 --> 00:06:48,870
+hardware. The joke that I always had was
+that we care so much about latency that
+
+374
+00:06:48,870 --> 00:06:48,880
+that we care so much about latency that
+ 
+
+375
+00:06:48,880 --> 00:06:51,910
+that we care so much about latency that
+eventually we'll build neutrino-based
+
+376
+00:06:51,910 --> 00:06:51,920
+eventually we'll build neutrino-based
+ 
+
+377
+00:06:51,920 --> 00:06:53,870
+eventually we'll build neutrino-based
+internet that goes through the center of
+
+378
+00:06:53,870 --> 00:06:53,880
+internet that goes through the center of
+ 
+
+379
+00:06:53,880 --> 00:06:55,630
+internet that goes through the center of
+the earth. If we have to do that, we'll
+
+380
+00:06:55,630 --> 00:06:55,640
+the earth. If we have to do that, we'll
+ 
+
+381
+00:06:55,640 --> 00:06:58,630
+the earth. If we have to do that, we'll
+do it, you know, and that's maybe like
+
+382
+00:06:58,630 --> 00:06:58,640
+do it, you know, and that's maybe like
+ 
+
+383
+00:06:58,640 --> 00:07:00,270
+do it, you know, and that's maybe like
+maybe that'll happen after we have
+
+384
+00:07:00,270 --> 00:07:00,280
+maybe that'll happen after we have
+ 
+
+385
+00:07:00,280 --> 00:07:02,270
+maybe that'll happen after we have
+quantum computers designing materials
+
+386
+00:07:02,270 --> 00:07:02,280
+quantum computers designing materials
+ 
+
+387
+00:07:02,280 --> 00:07:03,790
+quantum computers designing materials
+for this.
+
+388
+00:07:03,790 --> 00:07:03,800
+for this.
+ 
+
+389
+00:07:03,800 --> 00:07:04,790
+for this.
+But uh
+
+390
+00:07:04,790 --> 00:07:04,800
+But uh
+ 
+
+391
+00:07:04,800 --> 00:07:07,350
+But uh
+that's the dream is like build a system
+
+392
+00:07:07,350 --> 00:07:07,360
+that's the dream is like build a system
+ 
+
+393
+00:07:07,360 --> 00:07:09,310
+that's the dream is like build a system
+that is so fast that we actually change
+
+394
+00:07:09,310 --> 00:07:09,320
+that is so fast that we actually change
+ 
+
+395
+00:07:09,320 --> 00:07:10,510
+that is so fast that we actually change
+the internet.
+
+396
+00:07:10,510 --> 00:07:10,520
+the internet.
+ 
+
+397
+00:07:10,520 --> 00:07:12,750
+the internet.
+Yeah, that would be really cool. Um
+
+398
+00:07:12,750 --> 00:07:12,760
+Yeah, that would be really cool. Um
+ 
+
+399
+00:07:12,760 --> 00:07:15,190
+Yeah, that would be really cool. Um
+and I'm curious too cuz you're talking
+
+400
+00:07:15,190 --> 00:07:15,200
+and I'm curious too cuz you're talking
+ 
+
+401
+00:07:15,200 --> 00:07:17,870
+and I'm curious too cuz you're talking
+about where the future of finance now.
+
+402
+00:07:17,870 --> 00:07:17,880
+about where the future of finance now.
+ 
+
+403
+00:07:17,880 --> 00:07:20,150
+about where the future of finance now.
+Um one thing just to give some
+
+404
+00:07:20,150 --> 00:07:20,160
+Um one thing just to give some
+ 
+
+405
+00:07:20,160 --> 00:07:22,390
+Um one thing just to give some
+background for people that are watching
+
+406
+00:07:22,390 --> 00:07:22,400
+background for people that are watching
+ 
+
+407
+00:07:22,400 --> 00:07:25,030
+background for people that are watching
+that are are new to crypto. Just in
+
+408
+00:07:25,030 --> 00:07:25,040
+that are are new to crypto. Just in
+ 
+
+409
+00:07:25,040 --> 00:07:26,630
+that are are new to crypto. Just in
+traditional finance you have stock
+
+410
+00:07:26,630 --> 00:07:26,640
+traditional finance you have stock
+ 
+
+411
+00:07:26,640 --> 00:07:28,630
+traditional finance you have stock
+markets that close at 4:00 p.m.
+
+412
+00:07:28,630 --> 00:07:28,640
+markets that close at 4:00 p.m.
+ 
+
+413
+00:07:28,640 --> 00:07:30,510
+markets that close at 4:00 p.m.
+Settlements take two days and your
+
+414
+00:07:30,510 --> 00:07:30,520
+Settlements take two days and your
+ 
+
+415
+00:07:30,520 --> 00:07:31,990
+Settlements take two days and your
+capital sits idle on the nights,
+
+416
+00:07:31,990 --> 00:07:32,000
+capital sits idle on the nights,
+ 
+
+417
+00:07:32,000 --> 00:07:33,910
+capital sits idle on the nights,
+weekends and holidays, but Solana runs
+
+418
+00:07:33,910 --> 00:07:33,920
+weekends and holidays, but Solana runs
+ 
+
+419
+00:07:33,920 --> 00:07:37,070
+weekends and holidays, but Solana runs
+24/7, near instant finality. For a
+
+420
+00:07:37,070 --> 00:07:37,080
+24/7, near instant finality. For a
+ 
+
+421
+00:07:37,080 --> 00:07:39,550
+24/7, near instant finality. For a
+traditional trader that's
+
+422
+00:07:39,550 --> 00:07:39,560
+traditional trader that's
+ 
+
+423
+00:07:39,560 --> 00:07:41,470
+traditional trader that's
+a fundamental change in how capital
+
+424
+00:07:41,470 --> 00:07:41,480
+a fundamental change in how capital
+ 
+
+425
+00:07:41,480 --> 00:07:44,190
+a fundamental change in how capital
+efficiency works. So
+
+426
+00:07:44,190 --> 00:07:44,200
+efficiency works. So
+ 
+
+427
+00:07:44,200 --> 00:07:46,630
+efficiency works. So
+where do you see this heading and what
+
+428
+00:07:46,630 --> 00:07:46,640
+where do you see this heading and what
+ 
+
+429
+00:07:46,640 --> 00:07:48,550
+where do you see this heading and what
+do you think the actual mechanics of a
+
+430
+00:07:48,550 --> 00:07:48,560
+do you think the actual mechanics of a
+ 
+
+431
+00:07:48,560 --> 00:07:49,950
+do you think the actual mechanics of a
+trading desk is going to look like in 10
+
+432
+00:07:49,950 --> 00:07:49,960
+trading desk is going to look like in 10
+ 
+
+433
+00:07:49,960 --> 00:07:52,670
+trading desk is going to look like in 10
+years? I think um
+
+434
+00:07:52,670 --> 00:07:52,680
+years? I think um
+ 
+
+435
+00:07:52,680 --> 00:07:54,910
+years? I think um
+a lot of trading desks probably have
+
+436
+00:07:54,910 --> 00:07:54,920
+a lot of trading desks probably have
+ 
+
+437
+00:07:54,920 --> 00:07:57,230
+a lot of trading desks probably have
+already adopted because they trade
+
+438
+00:07:57,230 --> 00:07:57,240
+already adopted because they trade
+ 
+
+439
+00:07:57,240 --> 00:07:59,510
+already adopted because they trade
+across a bunch of different venues. Mhm.
+
+440
+00:07:59,510 --> 00:07:59,520
+across a bunch of different venues. Mhm.
+ 
+
+441
+00:07:59,520 --> 00:08:02,790
+across a bunch of different venues. Mhm.
+But this where you know, people trade in
+
+442
+00:08:02,790 --> 00:08:02,800
+But this where you know, people trade in
+ 
+
+443
+00:08:02,800 --> 00:08:05,630
+But this where you know, people trade in
+Japan and London and New York and all of
+
+444
+00:08:05,630 --> 00:08:05,640
+Japan and London and New York and all of
+ 
+
+445
+00:08:05,640 --> 00:08:08,350
+Japan and London and New York and all of
+those overlap effectively a full day.
+
+446
+00:08:08,350 --> 00:08:08,360
+those overlap effectively a full day.
+ 
+
+447
+00:08:08,360 --> 00:08:10,550
+those overlap effectively a full day.
+But even those traditional financial
+
+448
+00:08:10,550 --> 00:08:10,560
+But even those traditional financial
+ 
+
+449
+00:08:10,560 --> 00:08:13,190
+But even those traditional financial
+firms are now going to 24/7.
+
+450
+00:08:13,190 --> 00:08:13,200
+firms are now going to 24/7.
+ 
+
+451
+00:08:13,200 --> 00:08:16,830
+firms are now going to 24/7.
+And crypto's always been 24/7. I think
+
+452
+00:08:16,830 --> 00:08:16,840
+And crypto's always been 24/7. I think
+ 
+
+453
+00:08:16,840 --> 00:08:18,910
+And crypto's always been 24/7. I think
+you basically have the rest of the world
+
+454
+00:08:18,910 --> 00:08:18,920
+you basically have the rest of the world
+ 
+
+455
+00:08:18,920 --> 00:08:23,070
+you basically have the rest of the world
+coming online into like what what crypto
+
+456
+00:08:23,070 --> 00:08:23,080
+coming online into like what what crypto
+ 
+
+457
+00:08:23,080 --> 00:08:25,070
+coming online into like what what crypto
+is disrupting I think isn't so much
+
+458
+00:08:25,070 --> 00:08:25,080
+is disrupting I think isn't so much
+ 
+
+459
+00:08:25,080 --> 00:08:27,150
+is disrupting I think isn't so much
+traditional finance. It's that it's
+
+460
+00:08:27,150 --> 00:08:27,160
+traditional finance. It's that it's
+ 
+
+461
+00:08:27,160 --> 00:08:28,550
+traditional finance. It's that it's
+bringing
+
+462
+00:08:28,550 --> 00:08:28,560
+bringing
+ 
+
+463
+00:08:28,560 --> 00:08:30,390
+bringing
+online the rest of the world into the
+
+464
+00:08:30,390 --> 00:08:30,400
+online the rest of the world into the
+ 
+
+465
+00:08:30,400 --> 00:08:32,589
+online the rest of the world into the
+same level as TradFi has had over the
+
+466
+00:08:32,589 --> 00:08:32,599
+same level as TradFi has had over the
+ 
+
+467
+00:08:32,599 --> 00:08:34,750
+same level as TradFi has had over the
+last 20 20 years.
+
+468
+00:08:34,750 --> 00:08:34,760
+last 20 20 years.
+ 
+
+469
+00:08:34,760 --> 00:08:37,310
+last 20 20 years.
+And the rest of the world is bigger and
+
+470
+00:08:37,310 --> 00:08:37,320
+And the rest of the world is bigger and
+ 
+
+471
+00:08:37,320 --> 00:08:39,430
+And the rest of the world is bigger and
+growing faster and will eventually I
+
+472
+00:08:39,430 --> 00:08:39,440
+growing faster and will eventually I
+ 
+
+473
+00:08:39,440 --> 00:08:40,790
+growing faster and will eventually I
+think
+
+474
+00:08:40,790 --> 00:08:40,800
+think
+ 
+
+475
+00:08:40,800 --> 00:08:42,510
+think
+become finance. Like we're going to stop
+
+476
+00:08:42,510 --> 00:08:42,520
+become finance. Like we're going to stop
+ 
+
+477
+00:08:42,520 --> 00:08:44,190
+become finance. Like we're going to stop
+calling it there's not going to be a
+
+478
+00:08:44,190 --> 00:08:44,200
+calling it there's not going to be a
+ 
+
+479
+00:08:44,200 --> 00:08:45,830
+calling it there's not going to be a
+difference between DeFi and finance.
+
+480
+00:08:45,830 --> 00:08:45,840
+difference between DeFi and finance.
+ 
+
+481
+00:08:45,840 --> 00:08:48,550
+difference between DeFi and finance.
+We'll just call it all finance. Yeah.
+
+482
+00:08:48,550 --> 00:08:48,560
+We'll just call it all finance. Yeah.
+ 
+
+483
+00:08:48,560 --> 00:08:51,190
+We'll just call it all finance. Yeah.
+I see that. So do you think
+
+484
+00:08:51,190 --> 00:08:51,200
+I see that. So do you think
+ 
+
+485
+00:08:51,200 --> 00:08:53,030
+I see that. So do you think
+do you see that mathematically changing
+
+486
+00:08:53,030 --> 00:08:53,040
+do you see that mathematically changing
+ 
+
+487
+00:08:53,040 --> 00:08:55,110
+do you see that mathematically changing
+like the return profile of a trading
+
+488
+00:08:55,110 --> 00:08:55,120
+like the return profile of a trading
+ 
+
+489
+00:08:55,120 --> 00:08:57,750
+like the return profile of a trading
+strategy with all of that combining into
+
+490
+00:08:57,750 --> 00:08:57,760
+strategy with all of that combining into
+ 
+
+491
+00:08:57,760 --> 00:09:00,990
+strategy with all of that combining into
+just 24/7 markets? None of my strategies
+
+492
+00:09:00,990 --> 00:09:01,000
+just 24/7 markets? None of my strategies
+ 
+
+493
+00:09:01,000 --> 00:09:02,991
+just 24/7 markets? None of my strategies
+ever made any money.
+
+494
+00:09:02,991 --> 00:09:03,001
+ever made any money.
+ 
+
+495
+00:09:03,001 --> 00:09:03,110
+ever made any money.
+>> [laughter]
+
+496
+00:09:03,110 --> 00:09:03,120
+>> [laughter]
+ 
+
+497
+00:09:03,120 --> 00:09:05,510
+>> [laughter]
+>> Neither.
+
+498
+00:09:05,510 --> 00:09:05,520
+>> Neither.
+ 
+
+499
+00:09:05,520 --> 00:09:07,430
+>> Neither.
+So I'm an engineer. I can tell I can
+
+500
+00:09:07,430 --> 00:09:07,440
+So I'm an engineer. I can tell I can
+ 
+
+501
+00:09:07,440 --> 00:09:09,270
+So I'm an engineer. I can tell I can
+analyze and and give you like
+
+502
+00:09:09,270 --> 00:09:09,280
+analyze and and give you like
+ 
+
+503
+00:09:09,280 --> 00:09:11,270
+analyze and and give you like
+performance numbers and make something
+
+504
+00:09:11,270 --> 00:09:11,280
+performance numbers and make something
+ 
+
+505
+00:09:11,280 --> 00:09:13,950
+performance numbers and make something
+faster, but I think
+
+506
+00:09:13,950 --> 00:09:13,960
+faster, but I think
+ 
+
+507
+00:09:13,960 --> 00:09:15,870
+faster, but I think
+uh it takes a very different skill set.
+
+508
+00:09:15,870 --> 00:09:15,880
+uh it takes a very different skill set.
+ 
+
+509
+00:09:15,880 --> 00:09:17,670
+uh it takes a very different skill set.
+You probably need a team, a combination
+
+510
+00:09:17,670 --> 00:09:17,680
+You probably need a team, a combination
+ 
+
+511
+00:09:17,680 --> 00:09:19,550
+You probably need a team, a combination
+of maybe engineers like me and and
+
+512
+00:09:19,550 --> 00:09:19,560
+of maybe engineers like me and and
+ 
+
+513
+00:09:19,560 --> 00:09:22,110
+of maybe engineers like me and and
+quants and stuff to to make it to be
+
+514
+00:09:22,110 --> 00:09:22,120
+quants and stuff to to make it to be
+ 
+
+515
+00:09:22,120 --> 00:09:24,390
+quants and stuff to to make it to be
+successful in that space.
+
+516
+00:09:24,390 --> 00:09:24,400
+successful in that space.
+ 
+
+517
+00:09:24,400 --> 00:09:26,550
+successful in that space.
+Yeah, that makes sense.
+
+518
+00:09:26,550 --> 00:09:26,560
+Yeah, that makes sense.
+ 
+
+519
+00:09:26,560 --> 00:09:30,150
+Yeah, that makes sense.
+Now I kind of want to dive more into
+
+520
+00:09:30,150 --> 00:09:30,160
+Now I kind of want to dive more into
+ 
+
+521
+00:09:30,160 --> 00:09:33,790
+Now I kind of want to dive more into
+like the technical side of things. Um So
+
+522
+00:09:33,790 --> 00:09:33,800
+like the technical side of things. Um So
+ 
+
+523
+00:09:33,800 --> 00:09:36,310
+like the technical side of things. Um So
+we briefly touched on Fire Dancer and
+
+524
+00:09:36,310 --> 00:09:36,320
+we briefly touched on Fire Dancer and
+ 
+
+525
+00:09:36,320 --> 00:09:38,830
+we briefly touched on Fire Dancer and
+Alpenglow. But those are two pretty
+
+526
+00:09:38,830 --> 00:09:38,840
+Alpenglow. But those are two pretty
+ 
+
+527
+00:09:38,840 --> 00:09:41,190
+Alpenglow. But those are two pretty
+important advancements for Solana today.
+
+528
+00:09:41,190 --> 00:09:41,200
+important advancements for Solana today.
+ 
+
+529
+00:09:41,200 --> 00:09:45,150
+important advancements for Solana today.
+And Alpenglow is built by very
+
+530
+00:09:45,150 --> 00:09:45,160
+And Alpenglow is built by very
+ 
+
+531
+00:09:45,160 --> 00:09:47,150
+And Alpenglow is built by very
+professional researchers from Esoteric
+
+532
+00:09:47,150 --> 00:09:47,160
+professional researchers from Esoteric
+ 
+
+533
+00:09:47,160 --> 00:09:49,150
+professional researchers from Esoteric
+and then Fire Dancer by Jump Trading. So
+
+534
+00:09:49,150 --> 00:09:49,160
+and then Fire Dancer by Jump Trading. So
+ 
+
+535
+00:09:49,160 --> 00:09:51,910
+and then Fire Dancer by Jump Trading. So
+you have this renowned HFT firm deciding
+
+536
+00:09:51,910 --> 00:09:51,920
+you have this renowned HFT firm deciding
+ 
+
+537
+00:09:51,920 --> 00:09:54,230
+you have this renowned HFT firm deciding
+to build infrastructure for Solana
+
+538
+00:09:54,230 --> 00:09:54,240
+to build infrastructure for Solana
+ 
+
+539
+00:09:54,240 --> 00:09:56,190
+to build infrastructure for Solana
+rather than competing against it. And
+
+540
+00:09:56,190 --> 00:09:56,200
+rather than competing against it. And
+ 
+
+541
+00:09:56,200 --> 00:09:57,630
+rather than competing against it. And
+you have some of the brightest minds in
+
+542
+00:09:57,630 --> 00:09:57,640
+you have some of the brightest minds in
+ 
+
+543
+00:09:57,640 --> 00:09:59,870
+you have some of the brightest minds in
+cryptography writing a new consensus
+
+544
+00:09:59,870 --> 00:09:59,880
+cryptography writing a new consensus
+ 
+
+545
+00:09:59,880 --> 00:10:02,310
+cryptography writing a new consensus
+that brings your block finality to about
+
+546
+00:10:02,310 --> 00:10:02,320
+that brings your block finality to about
+ 
+
+547
+00:10:02,320 --> 00:10:05,990
+that brings your block finality to about
+150 milliseconds. So, what does that
+
+548
+00:10:05,990 --> 00:10:06,000
+150 milliseconds. So, what does that
+ 
+
+549
+00:10:06,000 --> 00:10:09,550
+150 milliseconds. So, what does that
+signal to you about where traditional
+
+550
+00:10:09,550 --> 00:10:09,560
+signal to you about where traditional
+ 
+
+551
+00:10:09,560 --> 00:10:11,510
+signal to you about where traditional
+finance is moving?
+
+552
+00:10:11,510 --> 00:10:11,520
+finance is moving?
+ 
+
+553
+00:10:11,520 --> 00:10:12,390
+finance is moving?
+Well,
+
+554
+00:10:12,390 --> 00:10:12,400
+Well,
+ 
+
+555
+00:10:12,400 --> 00:10:14,750
+Well,
+I think again, Solana
+
+556
+00:10:14,750 --> 00:10:14,760
+I think again, Solana
+ 
+
+557
+00:10:14,760 --> 00:10:16,710
+I think again, Solana
+my my dream is that it's like Linux,
+
+558
+00:10:16,710 --> 00:10:16,720
+my my dream is that it's like Linux,
+ 
+
+559
+00:10:16,720 --> 00:10:19,270
+my my dream is that it's like Linux,
+that it's open source, open
+
+560
+00:10:19,270 --> 00:10:19,280
+that it's open source, open
+ 
+
+561
+00:10:19,280 --> 00:10:22,510
+that it's open source, open
+uh protocols for anyone to participate.
+
+562
+00:10:22,510 --> 00:10:22,520
+uh protocols for anyone to participate.
+ 
+
+563
+00:10:22,520 --> 00:10:25,070
+uh protocols for anyone to participate.
+And a lot of adoption in Linux gained
+
+564
+00:10:25,070 --> 00:10:25,080
+And a lot of adoption in Linux gained
+ 
+
+565
+00:10:25,080 --> 00:10:28,190
+And a lot of adoption in Linux gained
+from big tech companies, Intel, Google,
+
+566
+00:10:28,190 --> 00:10:28,200
+from big tech companies, Intel, Google,
+ 
+
+567
+00:10:28,200 --> 00:10:32,270
+from big tech companies, Intel, Google,
+Qualcomm, um because they saw not the
+
+568
+00:10:32,270 --> 00:10:32,280
+Qualcomm, um because they saw not the
+ 
+
+569
+00:10:32,280 --> 00:10:34,150
+Qualcomm, um because they saw not the
+need to build a competitive operating
+
+570
+00:10:34,150 --> 00:10:34,160
+need to build a competitive operating
+ 
+
+571
+00:10:34,160 --> 00:10:36,670
+need to build a competitive operating
+system and to compete with Linux, but
+
+572
+00:10:36,670 --> 00:10:36,680
+system and to compete with Linux, but
+ 
+
+573
+00:10:36,680 --> 00:10:38,830
+system and to compete with Linux, but
+the benefit of using a common standard
+
+574
+00:10:38,830 --> 00:10:38,840
+the benefit of using a common standard
+ 
+
+575
+00:10:38,840 --> 00:10:41,150
+the benefit of using a common standard
+and get it all collaborating and working
+
+576
+00:10:41,150 --> 00:10:41,160
+and get it all collaborating and working
+ 
+
+577
+00:10:41,160 --> 00:10:42,950
+and get it all collaborating and working
+together and eliminating a lot of the
+
+578
+00:10:42,950 --> 00:10:42,960
+together and eliminating a lot of the
+ 
+
+579
+00:10:42,960 --> 00:10:45,950
+together and eliminating a lot of the
+pitfalls and attack factors and security
+
+580
+00:10:45,950 --> 00:10:45,960
+pitfalls and attack factors and security
+ 
+
+581
+00:10:45,960 --> 00:10:48,510
+pitfalls and attack factors and security
+threats um from doing that work
+
+582
+00:10:48,510 --> 00:10:48,520
+threats um from doing that work
+ 
+
+583
+00:10:48,520 --> 00:10:51,070
+threats um from doing that work
+separately, like all all on their own.
+
+584
+00:10:51,070 --> 00:10:51,080
+separately, like all all on their own.
+ 
+
+585
+00:10:51,080 --> 00:10:53,510
+separately, like all all on their own.
+And I think if you're going to have a a
+
+586
+00:10:53,510 --> 00:10:53,520
+And I think if you're going to have a a
+ 
+
+587
+00:10:53,520 --> 00:10:55,710
+And I think if you're going to have a a
+global financial layer, you kind of need
+
+588
+00:10:55,710 --> 00:10:55,720
+global financial layer, you kind of need
+ 
+
+589
+00:10:55,720 --> 00:10:57,590
+global financial layer, you kind of need
+that requirement. You need to be able to
+
+590
+00:10:57,590 --> 00:10:57,600
+that requirement. You need to be able to
+ 
+
+591
+00:10:57,600 --> 00:11:00,310
+that requirement. You need to be able to
+allow everyone in finance to participate
+
+592
+00:11:00,310 --> 00:11:00,320
+allow everyone in finance to participate
+ 
+
+593
+00:11:00,320 --> 00:11:02,750
+allow everyone in finance to participate
+in the system and to understand
+
+594
+00:11:02,750 --> 00:11:02,760
+in the system and to understand
+ 
+
+595
+00:11:02,760 --> 00:11:04,310
+in the system and to understand
+how
+
+596
+00:11:04,310 --> 00:11:04,320
+how
+ 
+
+597
+00:11:04,320 --> 00:11:06,070
+how
+um things that matter to them
+
+598
+00:11:06,070 --> 00:11:06,080
+um things that matter to them
+ 
+
+599
+00:11:06,080 --> 00:11:08,630
+um things that matter to them
+financially, um how those work on a
+
+600
+00:11:08,630 --> 00:11:08,640
+financially, um how those work on a
+ 
+
+601
+00:11:08,640 --> 00:11:10,870
+financially, um how those work on a
+technical level. So, they can have the
+
+602
+00:11:10,870 --> 00:11:10,880
+technical level. So, they can have the
+ 
+
+603
+00:11:10,880 --> 00:11:13,630
+technical level. So, they can have the
+trust to know that they're not getting a
+
+604
+00:11:13,630 --> 00:11:13,640
+trust to know that they're not getting a
+ 
+
+605
+00:11:13,640 --> 00:11:16,550
+trust to know that they're not getting a
+bad price or a bad fill or uh somebody
+
+606
+00:11:16,550 --> 00:11:16,560
+bad price or a bad fill or uh somebody
+ 
+
+607
+00:11:16,560 --> 00:11:18,750
+bad price or a bad fill or uh somebody
+has an unfair advantage over them. A lot
+
+608
+00:11:18,750 --> 00:11:18,760
+has an unfair advantage over them. A lot
+ 
+
+609
+00:11:18,760 --> 00:11:21,190
+has an unfair advantage over them. A lot
+of finance is really all about fairness.
+
+610
+00:11:21,190 --> 00:11:21,200
+of finance is really all about fairness.
+ 
+
+611
+00:11:21,200 --> 00:11:23,190
+of finance is really all about fairness.
+And you know, a lot of law in finance is
+
+612
+00:11:23,190 --> 00:11:23,200
+And you know, a lot of law in finance is
+ 
+
+613
+00:11:23,200 --> 00:11:25,230
+And you know, a lot of law in finance is
+about encoding that fairness and
+
+614
+00:11:25,230 --> 00:11:25,240
+about encoding that fairness and
+ 
+
+615
+00:11:25,240 --> 00:11:26,950
+about encoding that fairness and
+eliminating, you know, fraud and things
+
+616
+00:11:26,950 --> 00:11:26,960
+eliminating, you know, fraud and things
+ 
+
+617
+00:11:26,960 --> 00:11:30,670
+eliminating, you know, fraud and things
+like that. And open source protocols
+
+618
+00:11:30,670 --> 00:11:30,680
+like that. And open source protocols
+ 
+
+619
+00:11:30,680 --> 00:11:32,510
+like that. And open source protocols
+just increase transparency and improve
+
+620
+00:11:32,510 --> 00:11:32,520
+just increase transparency and improve
+ 
+
+621
+00:11:32,520 --> 00:11:35,670
+just increase transparency and improve
+fairness. Um so, I think this is our
+
+622
+00:11:35,670 --> 00:11:35,680
+fairness. Um so, I think this is our
+ 
+
+623
+00:11:35,680 --> 00:11:37,630
+fairness. Um so, I think this is our
+advantage over
+
+624
+00:11:37,630 --> 00:11:37,640
+advantage over
+ 
+
+625
+00:11:37,640 --> 00:11:39,310
+advantage over
+like a centralized system where they
+
+626
+00:11:39,310 --> 00:11:39,320
+like a centralized system where they
+ 
+
+627
+00:11:39,320 --> 00:11:41,270
+like a centralized system where they
+built their own internal stack and they,
+
+628
+00:11:41,270 --> 00:11:41,280
+built their own internal stack and they,
+ 
+
+629
+00:11:41,280 --> 00:11:42,829
+built their own internal stack and they,
+you know, invite Jump to trade there and
+
+630
+00:11:42,829 --> 00:11:42,839
+you know, invite Jump to trade there and
+ 
+
+631
+00:11:42,839 --> 00:11:44,230
+you know, invite Jump to trade there and
+everything, but
+
+632
+00:11:44,230 --> 00:11:44,240
+everything, but
+ 
+
+633
+00:11:44,240 --> 00:11:46,910
+everything, but
+the difference here is that Jump and
+
+634
+00:11:46,910 --> 00:11:46,920
+the difference here is that Jump and
+ 
+
+635
+00:11:46,920 --> 00:11:48,790
+the difference here is that Jump and
+their competitors all can share the same
+
+636
+00:11:48,790 --> 00:11:48,800
+their competitors all can share the same
+ 
+
+637
+00:11:48,800 --> 00:11:51,630
+their competitors all can share the same
+source code and all trust the markets
+
+638
+00:11:51,630 --> 00:11:51,640
+source code and all trust the markets
+ 
+
+639
+00:11:51,640 --> 00:11:54,350
+source code and all trust the markets
+that they're operating in and
+
+640
+00:11:54,350 --> 00:11:54,360
+that they're operating in and
+ 
+
+641
+00:11:54,360 --> 00:11:57,070
+that they're operating in and
+all can verify that Jump does not have a
+
+642
+00:11:57,070 --> 00:11:57,080
+all can verify that Jump does not have a
+ 
+
+643
+00:11:57,080 --> 00:11:58,910
+all can verify that Jump does not have a
+fair advantage over Citadel or whoever
+
+644
+00:11:58,910 --> 00:11:58,920
+fair advantage over Citadel or whoever
+ 
+
+645
+00:11:58,920 --> 00:12:00,430
+fair advantage over Citadel or whoever
+else.
+
+646
+00:12:00,430 --> 00:12:00,440
+else.
+ 
+
+647
+00:12:00,440 --> 00:12:00,829
+else.
+Yeah.
+
+648
+00:12:00,829 --> 00:12:00,839
+Yeah.
+ 
+
+649
+00:12:00,839 --> 00:12:02,670
+Yeah.
+>> I think that's that's ultimately kind of
+
+650
+00:12:02,670 --> 00:12:02,680
+>> I think that's that's ultimately kind of
+ 
+
+651
+00:12:02,680 --> 00:12:03,990
+>> I think that's that's ultimately kind of
+our
+
+652
+00:12:03,990 --> 00:12:04,000
+our
+ 
+
+653
+00:12:04,000 --> 00:12:05,790
+our
+our biggest advantage is
+
+654
+00:12:05,790 --> 00:12:05,800
+our biggest advantage is
+ 
+
+655
+00:12:05,800 --> 00:12:07,590
+our biggest advantage is
+that we're
+
+656
+00:12:07,590 --> 00:12:07,600
+that we're
+ 
+
+657
+00:12:07,600 --> 00:12:09,630
+that we're
+don't have any
+
+658
+00:12:09,630 --> 00:12:09,640
+don't have any
+ 
+
+659
+00:12:09,640 --> 00:12:12,910
+don't have any
+any way to really control any part of
+
+660
+00:12:12,910 --> 00:12:12,920
+any way to really control any part of
+ 
+
+661
+00:12:12,920 --> 00:12:15,350
+any way to really control any part of
+the stack and cause one entity to have
+
+662
+00:12:15,350 --> 00:12:15,360
+the stack and cause one entity to have
+ 
+
+663
+00:12:15,360 --> 00:12:17,829
+the stack and cause one entity to have
+an advantage over another one.
+
+664
+00:12:17,829 --> 00:12:17,839
+an advantage over another one.
+ 
+
+665
+00:12:17,839 --> 00:12:19,750
+an advantage over another one.
+Yeah. So, just leveling the playing
+
+666
+00:12:19,750 --> 00:12:19,760
+Yeah. So, just leveling the playing
+ 
+
+667
+00:12:19,760 --> 00:12:22,350
+Yeah. So, just leveling the playing
+field. And you mentioned two things that
+
+668
+00:12:22,350 --> 00:12:22,360
+field. And you mentioned two things that
+ 
+
+669
+00:12:22,360 --> 00:12:24,150
+field. And you mentioned two things that
+I want to talk more on. The first thing
+
+670
+00:12:24,150 --> 00:12:24,160
+I want to talk more on. The first thing
+ 
+
+671
+00:12:24,160 --> 00:12:27,350
+I want to talk more on. The first thing
+was um this global financial
+
+672
+00:12:27,350 --> 00:12:27,360
+was um this global financial
+ 
+
+673
+00:12:27,360 --> 00:12:29,870
+was um this global financial
+infrastructure. So, one thing that a lot
+
+674
+00:12:29,870 --> 00:12:29,880
+infrastructure. So, one thing that a lot
+ 
+
+675
+00:12:29,880 --> 00:12:32,430
+infrastructure. So, one thing that a lot
+of people new to crypto and Solana in
+
+676
+00:12:32,430 --> 00:12:32,440
+of people new to crypto and Solana in
+ 
+
+677
+00:12:32,440 --> 00:12:35,430
+of people new to crypto and Solana in
+general, um don't realize is that there
+
+678
+00:12:35,430 --> 00:12:35,440
+general, um don't realize is that there
+ 
+
+679
+00:12:35,440 --> 00:12:37,390
+general, um don't realize is that there
+are tokenized funds, equities, and
+
+680
+00:12:37,390 --> 00:12:37,400
+are tokenized funds, equities, and
+ 
+
+681
+00:12:37,400 --> 00:12:39,990
+are tokenized funds, equities, and
+commodities on Solana. And just in the
+
+682
+00:12:39,990 --> 00:12:40,000
+commodities on Solana. And just in the
+ 
+
+683
+00:12:40,000 --> 00:12:42,270
+commodities on Solana. And just in the
+last quarter, I believe Solana processed
+
+684
+00:12:42,270 --> 00:12:42,280
+last quarter, I believe Solana processed
+ 
+
+685
+00:12:42,280 --> 00:12:45,750
+last quarter, I believe Solana processed
+$1.1 trillion in volume. So, there is a
+
+686
+00:12:45,750 --> 00:12:45,760
+$1.1 trillion in volume. So, there is a
+ 
+
+687
+00:12:45,760 --> 00:12:49,390
+$1.1 trillion in volume. So, there is a
+lot of liquidity depth as well as
+
+688
+00:12:49,390 --> 00:12:49,400
+lot of liquidity depth as well as
+ 
+
+689
+00:12:49,400 --> 00:12:53,790
+lot of liquidity depth as well as
+tokenizing real-world assets. Um so,
+
+690
+00:12:53,790 --> 00:12:53,800
+tokenizing real-world assets. Um so,
+ 
+
+691
+00:12:53,800 --> 00:12:55,150
+tokenizing real-world assets. Um so,
+I guess
+
+692
+00:12:55,150 --> 00:12:55,160
+I guess
+ 
+
+693
+00:12:55,160 --> 00:12:57,030
+I guess
+what do you think still needs to be
+
+694
+00:12:57,030 --> 00:12:57,040
+what do you think still needs to be
+ 
+
+695
+00:12:57,040 --> 00:12:59,110
+what do you think still needs to be
+built to
+
+696
+00:12:59,110 --> 00:12:59,120
+built to
+ 
+
+697
+00:12:59,120 --> 00:13:01,870
+built to
+fully get this
+
+698
+00:13:01,870 --> 00:13:01,880
+fully get this
+ 
+
+699
+00:13:01,880 --> 00:13:05,110
+fully get this
+working? Um to have
+
+700
+00:13:05,110 --> 00:13:05,120
+working? Um to have
+ 
+
+701
+00:13:05,120 --> 00:13:06,590
+working? Um to have
+everyone be able to use this and and
+
+702
+00:13:06,590 --> 00:13:06,600
+everyone be able to use this and and
+ 
+
+703
+00:13:06,600 --> 00:13:08,870
+everyone be able to use this and and
+understand that it's available.
+
+704
+00:13:08,870 --> 00:13:08,880
+understand that it's available.
+ 
+
+705
+00:13:08,880 --> 00:13:11,550
+understand that it's available.
+I mean, the like we're already there.
+
+706
+00:13:11,550 --> 00:13:11,560
+I mean, the like we're already there.
+ 
+
+707
+00:13:11,560 --> 00:13:13,710
+I mean, the like we're already there.
+The the thing is like the
+
+708
+00:13:13,710 --> 00:13:13,720
+The the thing is like the
+ 
+
+709
+00:13:13,720 --> 00:13:16,950
+The the thing is like the
+what needs to happen is
+
+710
+00:13:16,950 --> 00:13:16,960
+what needs to happen is
+ 
+
+711
+00:13:16,960 --> 00:13:18,710
+what needs to happen is
+um
+
+712
+00:13:18,710 --> 00:13:18,720
+um
+ 
+
+713
+00:13:18,720 --> 00:13:21,790
+um
+I would say more like of a mental change
+
+714
+00:13:21,790 --> 00:13:21,800
+I would say more like of a mental change
+ 
+
+715
+00:13:21,800 --> 00:13:24,710
+I would say more like of a mental change
+in people's behaviors. Like a lot of
+
+716
+00:13:24,710 --> 00:13:24,720
+in people's behaviors. Like a lot of
+ 
+
+717
+00:13:24,720 --> 00:13:27,950
+in people's behaviors. Like a lot of
+technology shifts are happen faster on
+
+718
+00:13:27,950 --> 00:13:27,960
+technology shifts are happen faster on
+ 
+
+719
+00:13:27,960 --> 00:13:29,950
+technology shifts are happen faster on
+the engineering or technology side than
+
+720
+00:13:29,950 --> 00:13:29,960
+the engineering or technology side than
+ 
+
+721
+00:13:29,960 --> 00:13:32,550
+the engineering or technology side than
+it takes the human mind to adopt. Like
+
+722
+00:13:32,550 --> 00:13:32,560
+it takes the human mind to adopt. Like
+ 
+
+723
+00:13:32,560 --> 00:13:33,829
+it takes the human mind to adopt. Like
+people had to learn how to use a
+
+724
+00:13:33,829 --> 00:13:33,839
+people had to learn how to use a
+ 
+
+725
+00:13:33,839 --> 00:13:36,829
+people had to learn how to use a
+keyboard. That was not a a thing. And I
+
+726
+00:13:36,829 --> 00:13:36,839
+keyboard. That was not a a thing. And I
+ 
+
+727
+00:13:36,839 --> 00:13:38,750
+keyboard. That was not a a thing. And I
+don't know if you remember
+
+728
+00:13:38,750 --> 00:13:38,760
+don't know if you remember
+ 
+
+729
+00:13:38,760 --> 00:13:40,470
+don't know if you remember
+going to school if you had like typing
+
+730
+00:13:40,470 --> 00:13:40,480
+going to school if you had like typing
+ 
+
+731
+00:13:40,480 --> 00:13:42,110
+going to school if you had like typing
+class, like because it's just not a
+
+732
+00:13:42,110 --> 00:13:42,120
+class, like because it's just not a
+ 
+
+733
+00:13:42,120 --> 00:13:44,350
+class, like because it's just not a
+skill that everyone grew up with.
+
+734
+00:13:44,350 --> 00:13:44,360
+skill that everyone grew up with.
+ 
+
+735
+00:13:44,360 --> 00:13:46,950
+skill that everyone grew up with.
+Um people didn't understand web links.
+
+736
+00:13:46,950 --> 00:13:46,960
+Um people didn't understand web links.
+ 
+
+737
+00:13:46,960 --> 00:13:49,110
+Um people didn't understand web links.
+The idea of the web was a whole new idea
+
+738
+00:13:49,110 --> 00:13:49,120
+The idea of the web was a whole new idea
+ 
+
+739
+00:13:49,120 --> 00:13:50,510
+The idea of the web was a whole new idea
+that took time for people to like
+
+740
+00:13:50,510 --> 00:13:50,520
+that took time for people to like
+ 
+
+741
+00:13:50,520 --> 00:13:52,510
+that took time for people to like
+actually adopt and form. And people that
+
+742
+00:13:52,510 --> 00:13:52,520
+actually adopt and form. And people that
+ 
+
+743
+00:13:52,520 --> 00:13:54,790
+actually adopt and form. And people that
+grew up with in the in a
+
+744
+00:13:54,790 --> 00:13:54,800
+grew up with in the in a
+ 
+
+745
+00:13:54,800 --> 00:13:57,670
+grew up with in the in a
+environment now after AI exists
+
+746
+00:13:57,670 --> 00:13:57,680
+environment now after AI exists
+ 
+
+747
+00:13:57,680 --> 00:13:59,550
+environment now after AI exists
+are going to just assume that it was
+
+748
+00:13:59,550 --> 00:13:59,560
+are going to just assume that it was
+ 
+
+749
+00:13:59,560 --> 00:14:01,710
+are going to just assume that it was
+always there and like naturally be able
+
+750
+00:14:01,710 --> 00:14:01,720
+always there and like naturally be able
+ 
+
+751
+00:14:01,720 --> 00:14:04,510
+always there and like naturally be able
+to interact with it versus somebody that
+
+752
+00:14:04,510 --> 00:14:04,520
+to interact with it versus somebody that
+ 
+
+753
+00:14:04,520 --> 00:14:06,990
+to interact with it versus somebody that
+is experiencing as a new technology. So,
+
+754
+00:14:06,990 --> 00:14:07,000
+is experiencing as a new technology. So,
+ 
+
+755
+00:14:07,000 --> 00:14:08,829
+is experiencing as a new technology. So,
+adoption curves are all kind of limited
+
+756
+00:14:08,829 --> 00:14:08,839
+adoption curves are all kind of limited
+ 
+
+757
+00:14:08,839 --> 00:14:12,230
+adoption curves are all kind of limited
+by I would say the human human's
+
+758
+00:14:12,230 --> 00:14:12,240
+by I would say the human human's
+ 
+
+759
+00:14:12,240 --> 00:14:14,270
+by I would say the human human's
+understanding what they're dealing with.
+
+760
+00:14:14,270 --> 00:14:14,280
+understanding what they're dealing with.
+ 
+
+761
+00:14:14,280 --> 00:14:15,590
+understanding what they're dealing with.
+Um
+
+762
+00:14:15,590 --> 00:14:15,600
+Um
+ 
+
+763
+00:14:15,600 --> 00:14:17,310
+Um
+I think with finance, there's such a
+
+764
+00:14:17,310 --> 00:14:17,320
+I think with finance, there's such a
+ 
+
+765
+00:14:17,320 --> 00:14:19,310
+I think with finance, there's such a
+incentive to make money that people are
+
+766
+00:14:19,310 --> 00:14:19,320
+incentive to make money that people are
+ 
+
+767
+00:14:19,320 --> 00:14:21,750
+incentive to make money that people are
+willing to overcome the adoption
+
+768
+00:14:21,750 --> 00:14:21,760
+willing to overcome the adoption
+ 
+
+769
+00:14:21,760 --> 00:14:23,670
+willing to overcome the adoption
+barriers and go learn it and and figure
+
+770
+00:14:23,670 --> 00:14:23,680
+barriers and go learn it and and figure
+ 
+
+771
+00:14:23,680 --> 00:14:25,949
+barriers and go learn it and and figure
+out how to use it. Um so, that's the
+
+772
+00:14:25,949 --> 00:14:25,959
+out how to use it. Um so, that's the
+ 
+
+773
+00:14:25,959 --> 00:14:28,829
+out how to use it. Um so, that's the
+advantage. Um
+
+774
+00:14:28,829 --> 00:14:28,839
+advantage. Um
+ 
+
+775
+00:14:28,839 --> 00:14:30,949
+advantage. Um
+and
+
+776
+00:14:30,949 --> 00:14:30,959
+and
+ 
+
+777
+00:14:30,959 --> 00:14:33,110
+and
+the pace of how it's happening, I think,
+
+778
+00:14:33,110 --> 00:14:33,120
+the pace of how it's happening, I think,
+ 
+
+779
+00:14:33,120 --> 00:14:34,390
+the pace of how it's happening, I think,
+is both
+
+780
+00:14:34,390 --> 00:14:34,400
+is both
+ 
+
+781
+00:14:34,400 --> 00:14:36,069
+is both
+like surprised me how fast some things
+
+782
+00:14:36,069 --> 00:14:36,079
+like surprised me how fast some things
+ 
+
+783
+00:14:36,079 --> 00:14:38,630
+like surprised me how fast some things
+happen, like getting the genius act and
+
+784
+00:14:38,630 --> 00:14:38,640
+happen, like getting the genius act and
+ 
+
+785
+00:14:38,640 --> 00:14:39,949
+happen, like getting the genius act and
+I don't know, we're getting to what,
+
+786
+00:14:39,949 --> 00:14:39,959
+I don't know, we're getting to what,
+ 
+
+787
+00:14:39,959 --> 00:14:42,430
+I don't know, we're getting to what,
+close to 400 billion of stable coins
+
+788
+00:14:42,430 --> 00:14:42,440
+close to 400 billion of stable coins
+ 
+
+789
+00:14:42,440 --> 00:14:47,430
+close to 400 billion of stable coins
+issued, and how slow in in terms of like
+
+790
+00:14:47,430 --> 00:14:47,440
+issued, and how slow in in terms of like
+ 
+
+791
+00:14:47,440 --> 00:14:50,990
+issued, and how slow in in terms of like
+getting the regulators to kind of
+
+792
+00:14:50,990 --> 00:14:51,000
+getting the regulators to kind of
+ 
+
+793
+00:14:51,000 --> 00:14:53,150
+getting the regulators to kind of
+understand that
+
+794
+00:14:53,150 --> 00:14:53,160
+understand that
+ 
+
+795
+00:14:53,160 --> 00:14:54,990
+understand that
+a lot of the intermediaries that they
+
+796
+00:14:54,990 --> 00:14:55,000
+a lot of the intermediaries that they
+ 
+
+797
+00:14:55,000 --> 00:14:57,750
+a lot of the intermediaries that they
+created to deal with problems, you know,
+
+798
+00:14:57,750 --> 00:14:57,760
+created to deal with problems, you know,
+ 
+
+799
+00:14:57,760 --> 00:14:59,949
+created to deal with problems, you know,
+from the 19th century railroad stock
+
+800
+00:14:59,949 --> 00:14:59,959
+from the 19th century railroad stock
+ 
+
+801
+00:14:59,959 --> 00:15:01,230
+from the 19th century railroad stock
+boom,
+
+802
+00:15:01,230 --> 00:15:01,240
+boom,
+ 
+
+803
+00:15:01,240 --> 00:15:03,430
+boom,
+just no longer apply in crypto because
+
+804
+00:15:03,430 --> 00:15:03,440
+just no longer apply in crypto because
+ 
+
+805
+00:15:03,440 --> 00:15:05,590
+just no longer apply in crypto because
+we have cryptography to fully validate,
+
+806
+00:15:05,590 --> 00:15:05,600
+we have cryptography to fully validate,
+ 
+
+807
+00:15:05,600 --> 00:15:07,870
+we have cryptography to fully validate,
+you know, ownership and just go apply
+
+808
+00:15:07,870 --> 00:15:07,880
+you know, ownership and just go apply
+ 
+
+809
+00:15:07,880 --> 00:15:12,069
+you know, ownership and just go apply
+trust and all these other things. Um so,
+
+810
+00:15:12,069 --> 00:15:12,079
+trust and all these other things. Um so,
+ 
+
+811
+00:15:12,079 --> 00:15:14,470
+trust and all these other things. Um so,
+it takes time and regulators are
+
+812
+00:15:14,470 --> 00:15:14,480
+it takes time and regulators are
+ 
+
+813
+00:15:14,480 --> 00:15:16,150
+it takes time and regulators are
+typically
+
+814
+00:15:16,150 --> 00:15:16,160
+typically
+ 
+
+815
+00:15:16,160 --> 00:15:17,390
+typically
+uh
+
+816
+00:15:17,390 --> 00:15:17,400
+uh
+ 
+
+817
+00:15:17,400 --> 00:15:19,670
+uh
+the silver-haired professionals. They,
+
+818
+00:15:19,670 --> 00:15:19,680
+the silver-haired professionals. They,
+ 
+
+819
+00:15:19,680 --> 00:15:21,310
+the silver-haired professionals. They,
+you know, they go through the industry,
+
+820
+00:15:21,310 --> 00:15:21,320
+you know, they go through the industry,
+ 
+
+821
+00:15:21,320 --> 00:15:23,190
+you know, they go through the industry,
+they become best in class in their
+
+822
+00:15:23,190 --> 00:15:23,200
+they become best in class in their
+ 
+
+823
+00:15:23,200 --> 00:15:24,470
+they become best in class in their
+industry,
+
+824
+00:15:24,470 --> 00:15:24,480
+industry,
+ 
+
+825
+00:15:24,480 --> 00:15:26,030
+industry,
+and they're almost on the verge of
+
+826
+00:15:26,030 --> 00:15:26,040
+and they're almost on the verge of
+ 
+
+827
+00:15:26,040 --> 00:15:29,310
+and they're almost on the verge of
+retiring before they become a regulator.
+
+828
+00:15:29,310 --> 00:15:29,320
+retiring before they become a regulator.
+ 
+
+829
+00:15:29,320 --> 00:15:30,310
+retiring before they become a regulator.
+Yeah.
+
+830
+00:15:30,310 --> 00:15:30,320
+Yeah.
+ 
+
+831
+00:15:30,320 --> 00:15:33,230
+Yeah.
+>> the industry at that at that state and
+
+832
+00:15:33,230 --> 00:15:33,240
+>> the industry at that at that state and
+ 
+
+833
+00:15:33,240 --> 00:15:35,990
+>> the industry at that at that state and
+they have so much experience that
+
+834
+00:15:35,990 --> 00:15:36,000
+they have so much experience that
+ 
+
+835
+00:15:36,000 --> 00:15:37,990
+they have so much experience that
+adopting new technologies is they're
+
+836
+00:15:37,990 --> 00:15:38,000
+adopting new technologies is they're
+ 
+
+837
+00:15:38,000 --> 00:15:40,790
+adopting new technologies is they're
+usually the last to do it. Um so, it's
+
+838
+00:15:40,790 --> 00:15:40,800
+usually the last to do it. Um so, it's
+ 
+
+839
+00:15:40,800 --> 00:15:42,550
+usually the last to do it. Um so, it's
+going to take time for us to get through
+
+840
+00:15:42,550 --> 00:15:42,560
+going to take time for us to get through
+ 
+
+841
+00:15:42,560 --> 00:15:46,230
+going to take time for us to get through
+that like hump um across all the major
+
+842
+00:15:46,230 --> 00:15:46,240
+that like hump um across all the major
+ 
+
+843
+00:15:46,240 --> 00:15:48,510
+that like hump um across all the major
+regulatory environments in the world.
+
+844
+00:15:48,510 --> 00:15:48,520
+regulatory environments in the world.
+ 
+
+845
+00:15:48,520 --> 00:15:50,230
+regulatory environments in the world.
+And and it's not just United States,
+
+846
+00:15:50,230 --> 00:15:50,240
+And and it's not just United States,
+ 
+
+847
+00:15:50,240 --> 00:15:52,829
+And and it's not just United States,
+it's like everywhere in the world.
+
+848
+00:15:52,829 --> 00:15:52,839
+it's like everywhere in the world.
+ 
+
+849
+00:15:52,839 --> 00:15:55,230
+it's like everywhere in the world.
+Yeah, definitely adopting new technology
+
+850
+00:15:55,230 --> 00:15:55,240
+Yeah, definitely adopting new technology
+ 
+
+851
+00:15:55,240 --> 00:15:57,550
+Yeah, definitely adopting new technology
+like takes time. Um but for people that
+
+852
+00:15:57,550 --> 00:15:57,560
+like takes time. Um but for people that
+ 
+
+853
+00:15:57,560 --> 00:15:59,150
+like takes time. Um but for people that
+are learning and trying to make that
+
+854
+00:15:59,150 --> 00:15:59,160
+are learning and trying to make that
+ 
+
+855
+00:15:59,160 --> 00:16:00,630
+are learning and trying to make that
+like mental model shift, like what
+
+856
+00:16:00,630 --> 00:16:00,640
+like mental model shift, like what
+ 
+
+857
+00:16:00,640 --> 00:16:03,510
+like mental model shift, like what
+advice would you have for them to just
+
+858
+00:16:03,510 --> 00:16:03,520
+advice would you have for them to just
+ 
+
+859
+00:16:03,520 --> 00:16:05,510
+advice would you have for them to just
+kind of speed it up and and understand
+
+860
+00:16:05,510 --> 00:16:05,520
+kind of speed it up and and understand
+ 
+
+861
+00:16:05,520 --> 00:16:07,310
+kind of speed it up and and understand
+things a bit quicker?
+
+862
+00:16:07,310 --> 00:16:07,320
+things a bit quicker?
+ 
+
+863
+00:16:07,320 --> 00:16:10,590
+things a bit quicker?
+Um get a set up self-custody wallet.
+
+864
+00:16:10,590 --> 00:16:10,600
+Um get a set up self-custody wallet.
+ 
+
+865
+00:16:10,600 --> 00:16:13,270
+Um get a set up self-custody wallet.
+Like I think truly try to understand the
+
+866
+00:16:13,270 --> 00:16:13,280
+Like I think truly try to understand the
+ 
+
+867
+00:16:13,280 --> 00:16:14,670
+Like I think truly try to understand the
+risks.
+
+868
+00:16:14,670 --> 00:16:14,680
+risks.
+ 
+
+869
+00:16:14,680 --> 00:16:16,270
+risks.
+Lose lose a
+
+870
+00:16:16,270 --> 00:16:16,280
+Lose lose a
+ 
+
+871
+00:16:16,280 --> 00:16:19,110
+Lose lose a
+uh lose a custody wallet. And lose it.
+
+872
+00:16:19,110 --> 00:16:19,120
+uh lose a custody wallet. And lose it.
+ 
+
+873
+00:16:19,120 --> 00:16:20,190
+uh lose a custody wallet. And lose it.
+Oh, [laughter] no.
+
+874
+00:16:20,190 --> 00:16:20,200
+Oh, [laughter] no.
+ 
+
+875
+00:16:20,200 --> 00:16:21,230
+Oh, [laughter] no.
+Yeah.
+
+876
+00:16:21,230 --> 00:16:21,240
+Yeah.
+ 
+
+877
+00:16:21,240 --> 00:16:24,270
+Yeah.
+Set one up with uh
+
+878
+00:16:24,270 --> 00:16:24,280
+Set one up with uh
+ 
+
+879
+00:16:24,280 --> 00:16:26,829
+Set one up with uh
+enough to where the loss hurts, but not
+
+880
+00:16:26,829 --> 00:16:26,839
+enough to where the loss hurts, but not
+ 
+
+881
+00:16:26,839 --> 00:16:28,990
+enough to where the loss hurts, but not
+that it like hurts too much to where
+
+882
+00:16:28,990 --> 00:16:29,000
+that it like hurts too much to where
+ 
+
+883
+00:16:29,000 --> 00:16:30,430
+that it like hurts too much to where
+you'll remember the mistakes that you
+
+884
+00:16:30,430 --> 00:16:30,440
+you'll remember the mistakes that you
+ 
+
+885
+00:16:30,440 --> 00:16:33,270
+you'll remember the mistakes that you
+made. So, take a little bit of of risk
+
+886
+00:16:33,270 --> 00:16:33,280
+made. So, take a little bit of of risk
+ 
+
+887
+00:16:33,280 --> 00:16:36,510
+made. So, take a little bit of of risk
+to learn this technology. And geek out
+
+888
+00:16:36,510 --> 00:16:36,520
+to learn this technology. And geek out
+ 
+
+889
+00:16:36,520 --> 00:16:39,510
+to learn this technology. And geek out
+and understand like on how to actually
+
+890
+00:16:39,510 --> 00:16:39,520
+and understand like on how to actually
+ 
+
+891
+00:16:39,520 --> 00:16:41,829
+and understand like on how to actually
+make it secure. Like you would on like
+
+892
+00:16:41,829 --> 00:16:41,839
+make it secure. Like you would on like
+ 
+
+893
+00:16:41,839 --> 00:16:44,150
+make it secure. Like you would on like
+coffee or sourdough or whatever. I think
+
+894
+00:16:44,150 --> 00:16:44,160
+coffee or sourdough or whatever. I think
+ 
+
+895
+00:16:44,160 --> 00:16:45,990
+coffee or sourdough or whatever. I think
+that that's kind of become the expert of
+
+896
+00:16:45,990 --> 00:16:46,000
+that that's kind of become the expert of
+ 
+
+897
+00:16:46,000 --> 00:16:47,430
+that that's kind of become the expert of
+this. I think that that's really kind of
+
+898
+00:16:47,430 --> 00:16:47,440
+this. I think that that's really kind of
+ 
+
+899
+00:16:47,440 --> 00:16:49,670
+this. I think that that's really kind of
+what I would recommend. Um and you can
+
+900
+00:16:49,670 --> 00:16:49,680
+what I would recommend. Um and you can
+ 
+
+901
+00:16:49,680 --> 00:16:51,310
+what I would recommend. Um and you can
+do it as a hobbyist, you can take a lot
+
+902
+00:16:51,310 --> 00:16:51,320
+do it as a hobbyist, you can take a lot
+ 
+
+903
+00:16:51,320 --> 00:16:54,150
+do it as a hobbyist, you can take a lot
+more risk actually than a bank or a
+
+904
+00:16:54,150 --> 00:16:54,160
+more risk actually than a bank or a
+ 
+
+905
+00:16:54,160 --> 00:16:55,990
+more risk actually than a bank or a
+professional, but
+
+906
+00:16:55,990 --> 00:16:56,000
+professional, but
+ 
+
+907
+00:16:56,000 --> 00:16:57,190
+professional, but
+um
+
+908
+00:16:57,190 --> 00:16:57,200
+um
+ 
+
+909
+00:16:57,200 --> 00:16:58,750
+um
+once you understand that, I think you'll
+
+910
+00:16:58,750 --> 00:16:58,760
+once you understand that, I think you'll
+ 
+
+911
+00:16:58,760 --> 00:17:01,150
+once you understand that, I think you'll
+both see the power of it and
+
+912
+00:17:01,150 --> 00:17:01,160
+both see the power of it and
+ 
+
+913
+00:17:01,160 --> 00:17:04,150
+both see the power of it and
+kind of the the scary parts of
+
+914
+00:17:04,150 --> 00:17:04,160
+kind of the the scary parts of
+ 
+
+915
+00:17:04,160 --> 00:17:05,189
+kind of the the scary parts of
+like
+
+916
+00:17:05,189 --> 00:17:05,199
+like
+ 
+
+917
+00:17:05,199 --> 00:17:07,189
+like
+trusting cryptography only and not
+
+918
+00:17:07,189 --> 00:17:07,199
+trusting cryptography only and not
+ 
+
+919
+00:17:07,199 --> 00:17:09,189
+trusting cryptography only and not
+having like intermediaries that you rely
+
+920
+00:17:09,189 --> 00:17:09,199
+having like intermediaries that you rely
+ 
+
+921
+00:17:09,199 --> 00:17:10,910
+having like intermediaries that you rely
+on. Um
+
+922
+00:17:10,910 --> 00:17:10,920
+on. Um
+ 
+
+923
+00:17:10,920 --> 00:17:12,669
+on. Um
+both of those, I think, are, you know,
+
+924
+00:17:12,669 --> 00:17:12,679
+both of those, I think, are, you know,
+ 
+
+925
+00:17:12,679 --> 00:17:15,390
+both of those, I think, are, you know,
+empowering and and sobering.
+
+926
+00:17:15,390 --> 00:17:15,400
+empowering and and sobering.
+ 
+
+927
+00:17:15,400 --> 00:17:16,910
+empowering and and sobering.
+You see hacks and things like that
+
+928
+00:17:16,910 --> 00:17:16,920
+You see hacks and things like that
+ 
+
+929
+00:17:16,920 --> 00:17:18,669
+You see hacks and things like that
+happen because
+
+930
+00:17:18,669 --> 00:17:18,679
+happen because
+ 
+
+931
+00:17:18,679 --> 00:17:21,150
+happen because
+even professionals make mistakes. And if
+
+932
+00:17:21,150 --> 00:17:21,160
+even professionals make mistakes. And if
+ 
+
+933
+00:17:21,160 --> 00:17:23,230
+even professionals make mistakes. And if
+you really really like try to understand
+
+934
+00:17:23,230 --> 00:17:23,240
+you really really like try to understand
+ 
+
+935
+00:17:23,240 --> 00:17:25,069
+you really really like try to understand
+all the attack factors,
+
+936
+00:17:25,069 --> 00:17:25,079
+all the attack factors,
+ 
+
+937
+00:17:25,079 --> 00:17:27,470
+all the attack factors,
+you'll understand both the power and the
+
+938
+00:17:27,470 --> 00:17:27,480
+you'll understand both the power and the
+ 
+
+939
+00:17:27,480 --> 00:17:29,750
+you'll understand both the power and the
+and how hard it is to get this this
+
+940
+00:17:29,750 --> 00:17:29,760
+and how hard it is to get this this
+ 
+
+941
+00:17:29,760 --> 00:17:32,390
+and how hard it is to get this this
+technology fully adopted globally.
+
+942
+00:17:32,390 --> 00:17:32,400
+technology fully adopted globally.
+ 
+
+943
+00:17:32,400 --> 00:17:34,710
+technology fully adopted globally.
+Yeah, I love that advice. I actually
+
+944
+00:17:34,710 --> 00:17:34,720
+Yeah, I love that advice. I actually
+ 
+
+945
+00:17:34,720 --> 00:17:36,669
+Yeah, I love that advice. I actually
+accidentally pushed my private keys to
+
+946
+00:17:36,669 --> 00:17:36,679
+accidentally pushed my private keys to
+ 
+
+947
+00:17:36,679 --> 00:17:38,710
+accidentally pushed my private keys to
+GitHub once and there was a bot that
+
+948
+00:17:38,710 --> 00:17:38,720
+GitHub once and there was a bot that
+ 
+
+949
+00:17:38,720 --> 00:17:40,630
+GitHub once and there was a bot that
+immediately drained my wallet the second
+
+950
+00:17:40,630 --> 00:17:40,640
+immediately drained my wallet the second
+ 
+
+951
+00:17:40,640 --> 00:17:42,790
+immediately drained my wallet the second
+I pushed it and I've now learned my
+
+952
+00:17:42,790 --> 00:17:42,800
+I pushed it and I've now learned my
+ 
+
+953
+00:17:42,800 --> 00:17:45,230
+I pushed it and I've now learned my
+lesson and and have done all the
+
+954
+00:17:45,230 --> 00:17:45,240
+lesson and and have done all the
+ 
+
+955
+00:17:45,240 --> 00:17:49,870
+lesson and and have done all the
+research on security. [laughter]
+
+956
+00:17:49,870 --> 00:17:49,880
+
+ 
+
+957
+00:17:49,880 --> 00:17:52,110
+
+And when somebody tells you you should
+
+958
+00:17:52,110 --> 00:17:52,120
+And when somebody tells you you should
+ 
+
+959
+00:17:52,120 --> 00:17:54,270
+And when somebody tells you you should
+have a separate dedicated computer only
+
+960
+00:17:54,270 --> 00:17:54,280
+have a separate dedicated computer only
+ 
+
+961
+00:17:54,280 --> 00:17:56,190
+have a separate dedicated computer only
+for signing, you can understand why,
+
+962
+00:17:56,190 --> 00:17:56,200
+for signing, you can understand why,
+ 
+
+963
+00:17:56,200 --> 00:17:57,669
+for signing, you can understand why,
+right? You immediately understand, "Oh,
+
+964
+00:17:57,669 --> 00:17:57,679
+right? You immediately understand, "Oh,
+ 
+
+965
+00:17:57,679 --> 00:17:59,870
+right? You immediately understand, "Oh,
+this solves all these possible
+
+966
+00:17:59,870 --> 00:17:59,880
+this solves all these possible
+ 
+
+967
+00:17:59,880 --> 00:18:01,790
+this solves all these possible
+risks that I that could I I could
+
+968
+00:18:01,790 --> 00:18:01,800
+risks that I that could I I could
+ 
+
+969
+00:18:01,800 --> 00:18:03,750
+risks that I that could I I could
+accidentally screw up, right?" Yeah,
+
+970
+00:18:03,750 --> 00:18:03,760
+accidentally screw up, right?" Yeah,
+ 
+
+971
+00:18:03,760 --> 00:18:05,310
+accidentally screw up, right?" Yeah,
+exactly. [laughter]
+
+972
+00:18:05,310 --> 00:18:05,320
+exactly. [laughter]
+ 
+
+973
+00:18:05,320 --> 00:18:08,030
+exactly. [laughter]
+Realized the hard way. Yep.
+
+974
+00:18:08,030 --> 00:18:08,040
+Realized the hard way. Yep.
+ 
+
+975
+00:18:08,040 --> 00:18:09,830
+Realized the hard way. Yep.
+Yeah. Now, you mentioned earlier
+
+976
+00:18:09,830 --> 00:18:09,840
+Yeah. Now, you mentioned earlier
+ 
+
+977
+00:18:09,840 --> 00:18:11,710
+Yeah. Now, you mentioned earlier
+fairness, um and I just want to go back
+
+978
+00:18:11,710 --> 00:18:11,720
+fairness, um and I just want to go back
+ 
+
+979
+00:18:11,720 --> 00:18:13,990
+fairness, um and I just want to go back
+to that. So, I had one question that's a
+
+980
+00:18:13,990 --> 00:18:14,000
+to that. So, I had one question that's a
+ 
+
+981
+00:18:14,000 --> 00:18:16,630
+to that. So, I had one question that's a
+bit controversial, but that's around
+
+982
+00:18:16,630 --> 00:18:16,640
+bit controversial, but that's around
+ 
+
+983
+00:18:16,640 --> 00:18:18,790
+bit controversial, but that's around
+MEV. So, some people see it as
+
+984
+00:18:18,790 --> 00:18:18,800
+MEV. So, some people see it as
+ 
+
+985
+00:18:18,800 --> 00:18:21,190
+MEV. So, some people see it as
+predatory, others see it as legitimate
+
+986
+00:18:21,190 --> 00:18:21,200
+predatory, others see it as legitimate
+ 
+
+987
+00:18:21,200 --> 00:18:22,870
+predatory, others see it as legitimate
+arbitrage that improves market
+
+988
+00:18:22,870 --> 00:18:22,880
+arbitrage that improves market
+ 
+
+989
+00:18:22,880 --> 00:18:25,430
+arbitrage that improves market
+efficiency. So, for people coming from
+
+990
+00:18:25,430 --> 00:18:25,440
+efficiency. So, for people coming from
+ 
+
+991
+00:18:25,440 --> 00:18:27,669
+efficiency. So, for people coming from
+traditional finance, the equivalent
+
+992
+00:18:27,669 --> 00:18:27,679
+traditional finance, the equivalent
+ 
+
+993
+00:18:27,679 --> 00:18:29,950
+traditional finance, the equivalent
+exists, but it's either regulated away
+
+994
+00:18:29,950 --> 00:18:29,960
+exists, but it's either regulated away
+ 
+
+995
+00:18:29,960 --> 00:18:32,149
+exists, but it's either regulated away
+or it's reserved for the largest
+
+996
+00:18:32,149 --> 00:18:32,159
+or it's reserved for the largest
+ 
+
+997
+00:18:32,159 --> 00:18:34,870
+or it's reserved for the largest
+institutions. So, do you think MEV is
+
+998
+00:18:34,870 --> 00:18:34,880
+institutions. So, do you think MEV is
+ 
+
+999
+00:18:34,880 --> 00:18:37,310
+institutions. So, do you think MEV is
+good or bad for Solana?
+
+1000
+00:18:37,310 --> 00:18:37,320
+good or bad for Solana?
+ 
+
+1001
+00:18:37,320 --> 00:18:39,669
+good or bad for Solana?
+So, these are just kind of inherent
+
+1002
+00:18:39,669 --> 00:18:39,679
+So, these are just kind of inherent
+ 
+
+1003
+00:18:39,679 --> 00:18:41,310
+So, these are just kind of inherent
+parts of the system and it's neither
+
+1004
+00:18:41,310 --> 00:18:41,320
+parts of the system and it's neither
+ 
+
+1005
+00:18:41,320 --> 00:18:42,630
+parts of the system and it's neither
+good or bad.
+
+1006
+00:18:42,630 --> 00:18:42,640
+good or bad.
+ 
+
+1007
+00:18:42,640 --> 00:18:45,149
+good or bad.
+Um because the the function that these
+
+1008
+00:18:45,149 --> 00:18:45,159
+Um because the the function that these
+ 
+
+1009
+00:18:45,159 --> 00:18:48,030
+Um because the the function that these
+systems provide is like a fair market.
+
+1010
+00:18:48,030 --> 00:18:48,040
+systems provide is like a fair market.
+ 
+
+1011
+00:18:48,040 --> 00:18:49,870
+systems provide is like a fair market.
+And it's easy to say that, but if you
+
+1012
+00:18:49,870 --> 00:18:49,880
+And it's easy to say that, but if you
+ 
+
+1013
+00:18:49,880 --> 00:18:51,510
+And it's easy to say that, but if you
+think of it like
+
+1014
+00:18:51,510 --> 00:18:51,520
+think of it like
+ 
+
+1015
+00:18:51,520 --> 00:18:53,710
+think of it like
+you have an auction house,
+
+1016
+00:18:53,710 --> 00:18:53,720
+you have an auction house,
+ 
+
+1017
+00:18:53,720 --> 00:18:55,550
+you have an auction house,
+like a physical auction house, it can
+
+1018
+00:18:55,550 --> 00:18:55,560
+like a physical auction house, it can
+ 
+
+1019
+00:18:55,560 --> 00:18:58,550
+like a physical auction house, it can
+physically fit only so many people.
+
+1020
+00:18:58,550 --> 00:18:58,560
+physically fit only so many people.
+ 
+
+1021
+00:18:58,560 --> 00:19:01,390
+physically fit only so many people.
+So, if you want to place a bid, if you
+
+1022
+00:19:01,390 --> 00:19:01,400
+So, if you want to place a bid, if you
+ 
+
+1023
+00:19:01,400 --> 00:19:03,470
+So, if you want to place a bid, if you
+want to call it a fair auction house, it
+
+1024
+00:19:03,470 --> 00:19:03,480
+want to call it a fair auction house, it
+ 
+
+1025
+00:19:03,480 --> 00:19:05,110
+want to call it a fair auction house, it
+would have to be infinitely sized to
+
+1026
+00:19:05,110 --> 00:19:05,120
+would have to be infinitely sized to
+ 
+
+1027
+00:19:05,120 --> 00:19:07,470
+would have to be infinitely sized to
+allow everybody to be able to go in and
+
+1028
+00:19:07,470 --> 00:19:07,480
+allow everybody to be able to go in and
+ 
+
+1029
+00:19:07,480 --> 00:19:10,350
+allow everybody to be able to go in and
+place a bid. And the time that it takes
+
+1030
+00:19:10,350 --> 00:19:10,360
+place a bid. And the time that it takes
+ 
+
+1031
+00:19:10,360 --> 00:19:11,550
+place a bid. And the time that it takes
+to place a bid would have to be
+
+1032
+00:19:11,550 --> 00:19:11,560
+to place a bid would have to be
+ 
+
+1033
+00:19:11,560 --> 00:19:14,110
+to place a bid would have to be
+infinitely long because that would be
+
+1034
+00:19:14,110 --> 00:19:14,120
+infinitely long because that would be
+ 
+
+1035
+00:19:14,120 --> 00:19:16,030
+infinitely long because that would be
+unfair to block somebody, right? Like a
+
+1036
+00:19:16,030 --> 00:19:16,040
+unfair to block somebody, right? Like a
+ 
+
+1037
+00:19:16,040 --> 00:19:18,110
+unfair to block somebody, right? Like a
+second before they actually went in. So,
+
+1038
+00:19:18,110 --> 00:19:18,120
+second before they actually went in. So,
+ 
+
+1039
+00:19:18,120 --> 00:19:20,310
+second before they actually went in. So,
+as soon as you start thinking about the
+
+1040
+00:19:20,310 --> 00:19:20,320
+as soon as you start thinking about the
+ 
+
+1041
+00:19:20,320 --> 00:19:21,710
+as soon as you start thinking about the
+real world,
+
+1042
+00:19:21,710 --> 00:19:21,720
+real world,
+ 
+
+1043
+00:19:21,720 --> 00:19:23,870
+real world,
+it is impossible to build a system that
+
+1044
+00:19:23,870 --> 00:19:23,880
+it is impossible to build a system that
+ 
+
+1045
+00:19:23,880 --> 00:19:25,030
+it is impossible to build a system that
+is
+
+1046
+00:19:25,030 --> 00:19:25,040
+is
+ 
+
+1047
+00:19:25,040 --> 00:19:29,110
+is
+fair from without any kind of limits.
+
+1048
+00:19:29,110 --> 00:19:29,120
+fair from without any kind of limits.
+ 
+
+1049
+00:19:29,120 --> 00:19:30,669
+fair from without any kind of limits.
+So, as soon as you start adding limits,
+
+1050
+00:19:30,669 --> 00:19:30,679
+So, as soon as you start adding limits,
+ 
+
+1051
+00:19:30,679 --> 00:19:32,030
+So, as soon as you start adding limits,
+somebody's excluded, somebody's
+
+1052
+00:19:32,030 --> 00:19:32,040
+somebody's excluded, somebody's
+ 
+
+1053
+00:19:32,040 --> 00:19:34,110
+somebody's excluded, somebody's
+included. And you have to design these
+
+1054
+00:19:34,110 --> 00:19:34,120
+included. And you have to design these
+ 
+
+1055
+00:19:34,120 --> 00:19:36,870
+included. And you have to design these
+systems in a way that it's transparent
+
+1056
+00:19:36,870 --> 00:19:36,880
+systems in a way that it's transparent
+ 
+
+1057
+00:19:36,880 --> 00:19:40,190
+systems in a way that it's transparent
+why somebody's included or excluded. And
+
+1058
+00:19:40,190 --> 00:19:40,200
+why somebody's included or excluded. And
+ 
+
+1059
+00:19:40,200 --> 00:19:42,510
+why somebody's included or excluded. And
+everyone has a shot of being included.
+
+1060
+00:19:42,510 --> 00:19:42,520
+everyone has a shot of being included.
+ 
+
+1061
+00:19:42,520 --> 00:19:44,550
+everyone has a shot of being included.
+And in a regulated environment, they try
+
+1062
+00:19:44,550 --> 00:19:44,560
+And in a regulated environment, they try
+ 
+
+1063
+00:19:44,560 --> 00:19:48,230
+And in a regulated environment, they try
+to do this with um regulation and laws
+
+1064
+00:19:48,230 --> 00:19:48,240
+to do this with um regulation and laws
+ 
+
+1065
+00:19:48,240 --> 00:19:50,510
+to do this with um regulation and laws
+and stuff like that, but ultimately
+
+1066
+00:19:50,510 --> 00:19:50,520
+and stuff like that, but ultimately
+ 
+
+1067
+00:19:50,520 --> 00:19:53,510
+and stuff like that, but ultimately
+you end up with uh a lot of captured
+
+1068
+00:19:53,510 --> 00:19:53,520
+you end up with uh a lot of captured
+ 
+
+1069
+00:19:53,520 --> 00:19:55,550
+you end up with uh a lot of captured
+systems where you have exchanges that
+
+1070
+00:19:55,550 --> 00:19:55,560
+systems where you have exchanges that
+ 
+
+1071
+00:19:55,560 --> 00:19:56,950
+systems where you have exchanges that
+make a certain amount of money, but not
+
+1072
+00:19:56,950 --> 00:19:56,960
+make a certain amount of money, but not
+ 
+
+1073
+00:19:56,960 --> 00:19:59,230
+make a certain amount of money, but not
+too much. You have big market makers
+
+1074
+00:19:59,230 --> 00:19:59,240
+too much. You have big market makers
+ 
+
+1075
+00:19:59,240 --> 00:20:00,630
+too much. You have big market makers
+that make a certain amount of money, but
+
+1076
+00:20:00,630 --> 00:20:00,640
+that make a certain amount of money, but
+ 
+
+1077
+00:20:00,640 --> 00:20:02,150
+that make a certain amount of money, but
+if they make too much, the regulators
+
+1078
+00:20:02,150 --> 00:20:02,160
+if they make too much, the regulators
+ 
+
+1079
+00:20:02,160 --> 00:20:03,990
+if they make too much, the regulators
+start like, "Oh, what are you doing?
+
+1080
+00:20:03,990 --> 00:20:04,000
+start like, "Oh, what are you doing?
+ 
+
+1081
+00:20:04,000 --> 00:20:05,858
+start like, "Oh, what are you doing?
+This is probably something not right."
+
+1082
+00:20:05,858 --> 00:20:05,868
+This is probably something not right."
+ 
+
+1083
+00:20:05,868 --> 00:20:07,910
+This is probably something not right."
+>> [laughter]
+
+1084
+00:20:07,910 --> 00:20:07,920
+
+ 
+
+1085
+00:20:07,920 --> 00:20:08,950
+
+>> And
+
+1086
+00:20:08,950 --> 00:20:08,960
+>> And
+ 
+
+1087
+00:20:08,960 --> 00:20:12,470
+>> And
+uh in a open permissionless system, you
+
+1088
+00:20:12,470 --> 00:20:12,480
+uh in a open permissionless system, you
+ 
+
+1089
+00:20:12,480 --> 00:20:14,950
+uh in a open permissionless system, you
+have protocols and people find exploits
+
+1090
+00:20:14,950 --> 00:20:14,960
+have protocols and people find exploits
+ 
+
+1091
+00:20:14,960 --> 00:20:17,190
+have protocols and people find exploits
+or corner cases in the protocol and then
+
+1092
+00:20:17,190 --> 00:20:17,200
+or corner cases in the protocol and then
+ 
+
+1093
+00:20:17,200 --> 00:20:19,950
+or corner cases in the protocol and then
+they start exploiting them.
+
+1094
+00:20:19,950 --> 00:20:19,960
+they start exploiting them.
+ 
+
+1095
+00:20:19,960 --> 00:20:23,390
+they start exploiting them.
+And this is where an open system can
+
+1096
+00:20:23,390 --> 00:20:23,400
+And this is where an open system can
+ 
+
+1097
+00:20:23,400 --> 00:20:25,630
+And this is where an open system can
+self-correct because everything's
+
+1098
+00:20:25,630 --> 00:20:25,640
+self-correct because everything's
+ 
+
+1099
+00:20:25,640 --> 00:20:28,030
+self-correct because everything's
+observable. You can observe MEV, and we
+
+1100
+00:20:28,030 --> 00:20:28,040
+observable. You can observe MEV, and we
+ 
+
+1101
+00:20:28,040 --> 00:20:29,750
+observable. You can observe MEV, and we
+can as an industry decide what is good
+
+1102
+00:20:29,750 --> 00:20:29,760
+can as an industry decide what is good
+ 
+
+1103
+00:20:29,760 --> 00:20:31,630
+can as an industry decide what is good
+MEV and what is bad MEV. I don't know
+
+1104
+00:20:31,630 --> 00:20:31,640
+MEV and what is bad MEV. I don't know
+ 
+
+1105
+00:20:31,640 --> 00:20:34,830
+MEV and what is bad MEV. I don't know
+that, but businesses do. They see where
+
+1106
+00:20:34,830 --> 00:20:34,840
+that, but businesses do. They see where
+ 
+
+1107
+00:20:34,840 --> 00:20:36,470
+that, but businesses do. They see where
+their users are getting hurt to the
+
+1108
+00:20:36,470 --> 00:20:36,480
+their users are getting hurt to the
+ 
+
+1109
+00:20:36,480 --> 00:20:39,110
+their users are getting hurt to the
+point that they turn away, but they can
+
+1110
+00:20:39,110 --> 00:20:39,120
+point that they turn away, but they can
+ 
+
+1111
+00:20:39,120 --> 00:20:40,950
+point that they turn away, but they can
+also sometimes see that there's more
+
+1112
+00:20:40,950 --> 00:20:40,960
+also sometimes see that there's more
+ 
+
+1113
+00:20:40,960 --> 00:20:42,950
+also sometimes see that there's more
+liquidity on chain that allows their
+
+1114
+00:20:42,950 --> 00:20:42,960
+liquidity on chain that allows their
+ 
+
+1115
+00:20:42,960 --> 00:20:45,710
+liquidity on chain that allows their
+users to trade at at a better price.
+
+1116
+00:20:45,710 --> 00:20:45,720
+users to trade at at a better price.
+ 
+
+1117
+00:20:45,720 --> 00:20:46,870
+users to trade at at a better price.
+And
+
+1118
+00:20:46,870 --> 00:20:46,880
+And
+ 
+
+1119
+00:20:46,880 --> 00:20:49,990
+And
+that could be because somebody that is
+
+1120
+00:20:49,990 --> 00:20:50,000
+that could be because somebody that is
+ 
+
+1121
+00:20:50,000 --> 00:20:51,870
+that could be because somebody that is
+doing MEV is bringing more liquidity
+
+1122
+00:20:51,870 --> 00:20:51,880
+doing MEV is bringing more liquidity
+ 
+
+1123
+00:20:51,880 --> 00:20:53,390
+doing MEV is bringing more liquidity
+simply because they want their market to
+
+1124
+00:20:53,390 --> 00:20:53,400
+simply because they want their market to
+ 
+
+1125
+00:20:53,400 --> 00:20:56,710
+simply because they want their market to
+be accessed more. Um so, again, all
+
+1126
+00:20:56,710 --> 00:20:56,720
+be accessed more. Um so, again, all
+ 
+
+1127
+00:20:56,720 --> 00:20:58,350
+be accessed more. Um so, again, all
+these things are dynamic, and it's up to
+
+1128
+00:20:58,350 --> 00:20:58,360
+these things are dynamic, and it's up to
+ 
+
+1129
+00:20:58,360 --> 00:21:00,990
+these things are dynamic, and it's up to
+that business and front end to be able
+
+1130
+00:21:00,990 --> 00:21:01,000
+that business and front end to be able
+ 
+
+1131
+00:21:01,000 --> 00:21:02,710
+that business and front end to be able
+to decide what is a good market, what is
+
+1132
+00:21:02,710 --> 00:21:02,720
+to decide what is a good market, what is
+ 
+
+1133
+00:21:02,720 --> 00:21:04,470
+to decide what is a good market, what is
+a bad market, and the job of the
+
+1134
+00:21:04,470 --> 00:21:04,480
+a bad market, and the job of the
+ 
+
+1135
+00:21:04,480 --> 00:21:06,950
+a bad market, and the job of the
+protocol is to simply allow that
+
+1136
+00:21:06,950 --> 00:21:06,960
+protocol is to simply allow that
+ 
+
+1137
+00:21:06,960 --> 00:21:09,110
+protocol is to simply allow that
+business to be selective. We want
+
+1138
+00:21:09,110 --> 00:21:09,120
+business to be selective. We want
+ 
+
+1139
+00:21:09,120 --> 00:21:11,150
+business to be selective. We want
+ultimately like where the protocol fails
+
+1140
+00:21:11,150 --> 00:21:11,160
+ultimately like where the protocol fails
+ 
+
+1141
+00:21:11,160 --> 00:21:13,470
+ultimately like where the protocol fails
+is if you run a company on Solana and
+
+1142
+00:21:13,470 --> 00:21:13,480
+is if you run a company on Solana and
+ 
+
+1143
+00:21:13,480 --> 00:21:16,270
+is if you run a company on Solana and
+you have no choice but to be forced to
+
+1144
+00:21:16,270 --> 00:21:16,280
+you have no choice but to be forced to
+ 
+
+1145
+00:21:16,280 --> 00:21:18,710
+you have no choice but to be forced to
+use a particular market where you know
+
+1146
+00:21:18,710 --> 00:21:18,720
+use a particular market where you know
+ 
+
+1147
+00:21:18,720 --> 00:21:20,670
+use a particular market where you know
+you're going to get a bad price.
+
+1148
+00:21:20,670 --> 00:21:20,680
+you're going to get a bad price.
+ 
+
+1149
+00:21:20,680 --> 00:21:22,310
+you're going to get a bad price.
+So, to me, that means that the protocol
+
+1150
+00:21:22,310 --> 00:21:22,320
+So, to me, that means that the protocol
+ 
+
+1151
+00:21:22,320 --> 00:21:24,150
+So, to me, that means that the protocol
+has failed. If the protocol gives you
+
+1152
+00:21:24,150 --> 00:21:24,160
+has failed. If the protocol gives you
+ 
+
+1153
+00:21:24,160 --> 00:21:25,990
+has failed. If the protocol gives you
+optionality, use this market or another
+
+1154
+00:21:25,990 --> 00:21:26,000
+optionality, use this market or another
+ 
+
+1155
+00:21:26,000 --> 00:21:28,230
+optionality, use this market or another
+one or this proposer or another
+
+1156
+00:21:28,230 --> 00:21:28,240
+one or this proposer or another
+ 
+
+1157
+00:21:28,240 --> 00:21:30,430
+one or this proposer or another
+proposer, and you can go and look at the
+
+1158
+00:21:30,430 --> 00:21:30,440
+proposer, and you can go and look at the
+ 
+
+1159
+00:21:30,440 --> 00:21:32,950
+proposer, and you can go and look at the
+data and decide this is the best one
+
+1160
+00:21:32,950 --> 00:21:32,960
+data and decide this is the best one
+ 
+
+1161
+00:21:32,960 --> 00:21:35,230
+data and decide this is the best one
+that I'm getting, and I can exclude the
+
+1162
+00:21:35,230 --> 00:21:35,240
+that I'm getting, and I can exclude the
+ 
+
+1163
+00:21:35,240 --> 00:21:37,670
+that I'm getting, and I can exclude the
+bad one, that's great. That means we
+
+1164
+00:21:37,670 --> 00:21:37,680
+bad one, that's great. That means we
+ 
+
+1165
+00:21:37,680 --> 00:21:40,150
+bad one, that's great. That means we
+have a contestable market. People can go
+
+1166
+00:21:40,150 --> 00:21:40,160
+have a contestable market. People can go
+ 
+
+1167
+00:21:40,160 --> 00:21:41,750
+have a contestable market. People can go
+and decide which auction house to go
+
+1168
+00:21:41,750 --> 00:21:41,760
+and decide which auction house to go
+ 
+
+1169
+00:21:41,760 --> 00:21:45,910
+and decide which auction house to go
+into, and we will effectively converge
+
+1170
+00:21:45,910 --> 00:21:45,920
+into, and we will effectively converge
+ 
+
+1171
+00:21:45,920 --> 00:21:48,190
+into, and we will effectively converge
+on better pricing than the regulated
+
+1172
+00:21:48,190 --> 00:21:48,200
+on better pricing than the regulated
+ 
+
+1173
+00:21:48,200 --> 00:21:50,670
+on better pricing than the regulated
+path where you don't have contestable
+
+1174
+00:21:50,670 --> 00:21:50,680
+path where you don't have contestable
+ 
+
+1175
+00:21:50,680 --> 00:21:51,910
+path where you don't have contestable
+markets, and things kind of get
+
+1176
+00:21:51,910 --> 00:21:51,920
+markets, and things kind of get
+ 
+
+1177
+00:21:51,920 --> 00:21:54,310
+markets, and things kind of get
+entrenched, and you have to kind of the
+
+1178
+00:21:54,310 --> 00:21:54,320
+entrenched, and you have to kind of the
+ 
+
+1179
+00:21:54,320 --> 00:21:55,990
+entrenched, and you have to kind of the
+feedback loop is basically much, much
+
+1180
+00:21:55,990 --> 00:21:56,000
+feedback loop is basically much, much
+ 
+
+1181
+00:21:56,000 --> 00:21:59,070
+feedback loop is basically much, much
+slower in the regulated side. Um
+
+1182
+00:21:59,070 --> 00:21:59,080
+slower in the regulated side. Um
+ 
+
+1183
+00:21:59,080 --> 00:22:01,110
+slower in the regulated side. Um
+what we want is
+
+1184
+00:22:01,110 --> 00:22:01,120
+what we want is
+ 
+
+1185
+00:22:01,120 --> 00:22:04,110
+what we want is
+to identify places where somebody
+
+1186
+00:22:04,110 --> 00:22:04,120
+to identify places where somebody
+ 
+
+1187
+00:22:04,120 --> 00:22:05,790
+to identify places where somebody
+somehow has a
+
+1188
+00:22:05,790 --> 00:22:05,800
+somehow has a
+ 
+
+1189
+00:22:05,800 --> 00:22:08,910
+somehow has a
+uncontestable monopoly, and then we I
+
+1190
+00:22:08,910 --> 00:22:08,920
+uncontestable monopoly, and then we I
+ 
+
+1191
+00:22:08,920 --> 00:22:11,110
+uncontestable monopoly, and then we I
+see that as a protocol failure.
+
+1192
+00:22:11,110 --> 00:22:11,120
+see that as a protocol failure.
+ 
+
+1193
+00:22:11,120 --> 00:22:14,950
+see that as a protocol failure.
+If somebody has an edge, and I don't
+
+1194
+00:22:14,950 --> 00:22:14,960
+If somebody has an edge, and I don't
+ 
+
+1195
+00:22:14,960 --> 00:22:16,910
+If somebody has an edge, and I don't
+have to use them, that's great. Like,
+
+1196
+00:22:16,910 --> 00:22:16,920
+have to use them, that's great. Like,
+ 
+
+1197
+00:22:16,920 --> 00:22:18,910
+have to use them, that's great. Like,
+let them have that edge, let them figure
+
+1198
+00:22:18,910 --> 00:22:18,920
+let them have that edge, let them figure
+ 
+
+1199
+00:22:18,920 --> 00:22:20,630
+let them have that edge, let them figure
+out how to make it or break it, you
+
+1200
+00:22:20,630 --> 00:22:20,640
+out how to make it or break it, you
+ 
+
+1201
+00:22:20,640 --> 00:22:23,590
+out how to make it or break it, you
+know, in in this open environment. But
+
+1202
+00:22:23,590 --> 00:22:23,600
+know, in in this open environment. But
+ 
+
+1203
+00:22:23,600 --> 00:22:25,630
+know, in in this open environment. But
+if I don't have to use them, then it's
+
+1204
+00:22:25,630 --> 00:22:25,640
+if I don't have to use them, then it's
+ 
+
+1205
+00:22:25,640 --> 00:22:28,070
+if I don't have to use them, then it's
+not my problem, right? Like, I think ev-
+
+1206
+00:22:28,070 --> 00:22:28,080
+not my problem, right? Like, I think ev-
+ 
+
+1207
+00:22:28,080 --> 00:22:29,669
+not my problem, right? Like, I think ev-
+everyone that's building an application
+
+1208
+00:22:29,669 --> 00:22:29,679
+everyone that's building an application
+ 
+
+1209
+00:22:29,679 --> 00:22:31,270
+everyone that's building an application
+can kind of make that choice on their
+
+1210
+00:22:31,270 --> 00:22:31,280
+can kind of make that choice on their
+ 
+
+1211
+00:22:31,280 --> 00:22:32,630
+can kind of make that choice on their
+own.
+
+1212
+00:22:32,630 --> 00:22:32,640
+own.
+ 
+
+1213
+00:22:32,640 --> 00:22:34,550
+own.
+So, would you say that like MEV would
+
+1214
+00:22:34,550 --> 00:22:34,560
+So, would you say that like MEV would
+ 
+
+1215
+00:22:34,560 --> 00:22:35,790
+So, would you say that like MEV would
+give
+
+1216
+00:22:35,790 --> 00:22:35,800
+give
+ 
+
+1217
+00:22:35,800 --> 00:22:37,950
+give
+a unique opportunity to traders that
+
+1218
+00:22:37,950 --> 00:22:37,960
+a unique opportunity to traders that
+ 
+
+1219
+00:22:37,960 --> 00:22:39,230
+a unique opportunity to traders that
+like you don't really have in
+
+1220
+00:22:39,230 --> 00:22:39,240
+like you don't really have in
+ 
+
+1221
+00:22:39,240 --> 00:22:41,590
+like you don't really have in
+traditional finance?
+
+1222
+00:22:41,590 --> 00:22:41,600
+traditional finance?
+ 
+
+1223
+00:22:41,600 --> 00:22:45,590
+traditional finance?
+Where MEV hurts users is
+
+1224
+00:22:45,590 --> 00:22:45,600
+Where MEV hurts users is
+ 
+
+1225
+00:22:45,600 --> 00:22:48,390
+Where MEV hurts users is
+if they don't understand like the cost
+
+1226
+00:22:48,390 --> 00:22:48,400
+if they don't understand like the cost
+ 
+
+1227
+00:22:48,400 --> 00:22:50,830
+if they don't understand like the cost
+of it. Like, they they
+
+1228
+00:22:50,830 --> 00:22:50,840
+of it. Like, they they
+ 
+
+1229
+00:22:50,840 --> 00:22:53,910
+of it. Like, they they
+their applic- like, usually um
+
+1230
+00:22:53,910 --> 00:22:53,920
+their applic- like, usually um
+ 
+
+1231
+00:22:53,920 --> 00:22:55,669
+their applic- like, usually um
+users are rarely interacting with it
+
+1232
+00:22:55,669 --> 00:22:55,679
+users are rarely interacting with it
+ 
+
+1233
+00:22:55,679 --> 00:22:57,350
+users are rarely interacting with it
+directly. You have applications and
+
+1234
+00:22:57,350 --> 00:22:57,360
+directly. You have applications and
+ 
+
+1235
+00:22:57,360 --> 00:23:00,190
+directly. You have applications and
+wallets that set the slippage uh and all
+
+1236
+00:23:00,190 --> 00:23:00,200
+wallets that set the slippage uh and all
+ 
+
+1237
+00:23:00,200 --> 00:23:01,669
+wallets that set the slippage uh and all
+these other things, and they surface
+
+1238
+00:23:01,669 --> 00:23:01,679
+these other things, and they surface
+ 
+
+1239
+00:23:01,679 --> 00:23:03,870
+these other things, and they surface
+like this is the price that is being
+
+1240
+00:23:03,870 --> 00:23:03,880
+like this is the price that is being
+ 
+
+1241
+00:23:03,880 --> 00:23:06,430
+like this is the price that is being
+offered, and you're very likely to get
+
+1242
+00:23:06,430 --> 00:23:06,440
+offered, and you're very likely to get
+ 
+
+1243
+00:23:06,440 --> 00:23:08,030
+offered, and you're very likely to get
+this price, but the worst-case price
+
+1244
+00:23:08,030 --> 00:23:08,040
+this price, but the worst-case price
+ 
+
+1245
+00:23:08,040 --> 00:23:10,550
+this price, but the worst-case price
+you're going to get is is this.
+
+1246
+00:23:10,550 --> 00:23:10,560
+you're going to get is is this.
+ 
+
+1247
+00:23:10,560 --> 00:23:12,870
+you're going to get is is this.
+And when that's not surfaced to the user
+
+1248
+00:23:12,870 --> 00:23:12,880
+And when that's not surfaced to the user
+ 
+
+1249
+00:23:12,880 --> 00:23:14,630
+And when that's not surfaced to the user
+when the application fails to do a good
+
+1250
+00:23:14,630 --> 00:23:14,640
+when the application fails to do a good
+ 
+
+1251
+00:23:14,640 --> 00:23:16,510
+when the application fails to do a good
+job doing that, you end up with bad
+
+1252
+00:23:16,510 --> 00:23:16,520
+job doing that, you end up with bad
+ 
+
+1253
+00:23:16,520 --> 00:23:19,150
+job doing that, you end up with bad
+outcomes. Because then the user like is
+
+1254
+00:23:19,150 --> 00:23:19,160
+outcomes. Because then the user like is
+ 
+
+1255
+00:23:19,160 --> 00:23:21,390
+outcomes. Because then the user like is
+accidentally like sets their slippage to
+
+1256
+00:23:21,390 --> 00:23:21,400
+accidentally like sets their slippage to
+ 
+
+1257
+00:23:21,400 --> 00:23:24,510
+accidentally like sets their slippage to
+20%, and they submit to a market that
+
+1258
+00:23:24,510 --> 00:23:24,520
+20%, and they submit to a market that
+ 
+
+1259
+00:23:24,520 --> 00:23:27,669
+20%, and they submit to a market that
+takes max slippage, and then they get uh
+
+1260
+00:23:27,669 --> 00:23:27,679
+takes max slippage, and then they get uh
+ 
+
+1261
+00:23:27,679 --> 00:23:29,910
+takes max slippage, and then they get uh
+they're surprised, "Why am I getting
+
+1262
+00:23:29,910 --> 00:23:29,920
+they're surprised, "Why am I getting
+ 
+
+1263
+00:23:29,920 --> 00:23:34,270
+they're surprised, "Why am I getting
+this 20% or something like that?" Um
+
+1264
+00:23:34,270 --> 00:23:34,280
+this 20% or something like that?" Um
+ 
+
+1265
+00:23:34,280 --> 00:23:36,590
+this 20% or something like that?" Um
+So,
+
+1266
+00:23:36,590 --> 00:23:36,600
+So,
+ 
+
+1267
+00:23:36,600 --> 00:23:38,750
+So,
+finance is complicated, and when people
+
+1268
+00:23:38,750 --> 00:23:38,760
+finance is complicated, and when people
+ 
+
+1269
+00:23:38,760 --> 00:23:40,510
+finance is complicated, and when people
+like try to like, "Why doesn't it just
+
+1270
+00:23:40,510 --> 00:23:40,520
+like try to like, "Why doesn't it just
+ 
+
+1271
+00:23:40,520 --> 00:23:42,710
+like try to like, "Why doesn't it just
+all work perfectly?" Think of it as an
+
+1272
+00:23:42,710 --> 00:23:42,720
+all work perfectly?" Think of it as an
+ 
+
+1273
+00:23:42,720 --> 00:23:44,270
+all work perfectly?" Think of it as an
+auction house, and you have something
+
+1274
+00:23:44,270 --> 00:23:44,280
+auction house, and you have something
+ 
+
+1275
+00:23:44,280 --> 00:23:46,750
+auction house, and you have something
+that is so hot that there's a line to
+
+1276
+00:23:46,750 --> 00:23:46,760
+that is so hot that there's a line to
+ 
+
+1277
+00:23:46,760 --> 00:23:48,470
+that is so hot that there's a line to
+get into the auction house that is now
+
+1278
+00:23:48,470 --> 00:23:48,480
+get into the auction house that is now
+ 
+
+1279
+00:23:48,480 --> 00:23:50,430
+get into the auction house that is now
+packed, and now you're trying to get
+
+1280
+00:23:50,430 --> 00:23:50,440
+packed, and now you're trying to get
+ 
+
+1281
+00:23:50,440 --> 00:23:51,510
+packed, and now you're trying to get
+into it.
+
+1282
+00:23:51,510 --> 00:23:51,520
+into it.
+ 
+
+1283
+00:23:51,520 --> 00:23:53,230
+into it.
+And what happens if somebody just starts
+
+1284
+00:23:53,230 --> 00:23:53,240
+And what happens if somebody just starts
+ 
+
+1285
+00:23:53,240 --> 00:23:55,111
+And what happens if somebody just starts
+beating up everyone in line to get
+
+1286
+00:23:55,111 --> 00:23:55,121
+beating up everyone in line to get
+ 
+
+1287
+00:23:55,121 --> 00:23:56,230
+beating up everyone in line to get
+>> [laughter]
+
+1288
+00:23:56,230 --> 00:23:56,240
+>> [laughter]
+ 
+
+1289
+00:23:56,240 --> 00:23:58,870
+>> [laughter]
+>> to get to the front of the door.
+
+1290
+00:23:58,870 --> 00:23:58,880
+>> to get to the front of the door.
+ 
+
+1291
+00:23:58,880 --> 00:23:59,696
+>> to get to the front of the door.
+Right?
+
+1292
+00:23:59,696 --> 00:23:59,706
+Right?
+ 
+
+1293
+00:23:59,706 --> 00:23:59,950
+Right?
+>> [laughter]
+
+1294
+00:23:59,950 --> 00:23:59,960
+>> [laughter]
+ 
+
+1295
+00:23:59,960 --> 00:24:01,190
+>> [laughter]
+>> Yeah.
+
+1296
+00:24:01,190 --> 00:24:01,200
+>> Yeah.
+ 
+
+1297
+00:24:01,200 --> 00:24:03,910
+>> Yeah.
+So, as a the protocol's job is to make
+
+1298
+00:24:03,910 --> 00:24:03,920
+So, as a the protocol's job is to make
+ 
+
+1299
+00:24:03,920 --> 00:24:05,510
+So, as a the protocol's job is to make
+it obvious that there's a line, that the
+
+1300
+00:24:05,510 --> 00:24:05,520
+it obvious that there's a line, that the
+ 
+
+1301
+00:24:05,520 --> 00:24:07,390
+it obvious that there's a line, that the
+house is packed, and to prevent anyone
+
+1302
+00:24:07,390 --> 00:24:07,400
+house is packed, and to prevent anyone
+ 
+
+1303
+00:24:07,400 --> 00:24:09,510
+house is packed, and to prevent anyone
+from beating up to get ahead in the
+
+1304
+00:24:09,510 --> 00:24:09,520
+from beating up to get ahead in the
+ 
+
+1305
+00:24:09,520 --> 00:24:12,350
+from beating up to get ahead in the
+line, and to make that a fair the the
+
+1306
+00:24:12,350 --> 00:24:12,360
+line, and to make that a fair the the
+ 
+
+1307
+00:24:12,360 --> 00:24:14,910
+line, and to make that a fair the the
+whole process fair. This is like the the
+
+1308
+00:24:14,910 --> 00:24:14,920
+whole process fair. This is like the the
+ 
+
+1309
+00:24:14,920 --> 00:24:16,790
+whole process fair. This is like the the
+really, really hard part.
+
+1310
+00:24:16,790 --> 00:24:16,800
+really, really hard part.
+ 
+
+1311
+00:24:16,800 --> 00:24:18,390
+really, really hard part.
+Um
+
+1312
+00:24:18,390 --> 00:24:18,400
+Um
+ 
+
+1313
+00:24:18,400 --> 00:24:20,110
+Um
+Yeah, that's a great analogy. I love
+
+1314
+00:24:20,110 --> 00:24:20,120
+Yeah, that's a great analogy. I love
+ 
+
+1315
+00:24:20,120 --> 00:24:21,150
+Yeah, that's a great analogy. I love
+that.
+
+1316
+00:24:21,150 --> 00:24:21,160
+that.
+ 
+
+1317
+00:24:21,160 --> 00:24:22,390
+that.
+Um [laughter]
+
+1318
+00:24:22,390 --> 00:24:22,400
+Um [laughter]
+ 
+
+1319
+00:24:22,400 --> 00:24:24,710
+Um [laughter]
+so, we're almost at time, so I have one
+
+1320
+00:24:24,710 --> 00:24:24,720
+so, we're almost at time, so I have one
+ 
+
+1321
+00:24:24,720 --> 00:24:27,470
+so, we're almost at time, so I have one
+more question left. Um you're an
+
+1322
+00:24:27,470 --> 00:24:27,480
+more question left. Um you're an
+ 
+
+1323
+00:24:27,480 --> 00:24:31,190
+more question left. Um you're an
+engineer, and I think a lot of people
+
+1324
+00:24:31,190 --> 00:24:31,200
+engineer, and I think a lot of people
+ 
+
+1325
+00:24:31,200 --> 00:24:33,590
+engineer, and I think a lot of people
+that are engineers that are a little
+
+1326
+00:24:33,590 --> 00:24:33,600
+that are engineers that are a little
+ 
+
+1327
+00:24:33,600 --> 00:24:35,590
+that are engineers that are a little
+curious on crypto and blockchain,
+
+1328
+00:24:35,590 --> 00:24:35,600
+curious on crypto and blockchain,
+ 
+
+1329
+00:24:35,600 --> 00:24:37,390
+curious on crypto and blockchain,
+there's this misconception that there
+
+1330
+00:24:37,390 --> 00:24:37,400
+there's this misconception that there
+ 
+
+1331
+00:24:37,400 --> 00:24:40,750
+there's this misconception that there
+isn't a lot of cool tech happening. Um
+
+1332
+00:24:40,750 --> 00:24:40,760
+isn't a lot of cool tech happening. Um
+ 
+
+1333
+00:24:40,760 --> 00:24:42,870
+isn't a lot of cool tech happening. Um
+so, what advice do you have for
+
+1334
+00:24:42,870 --> 00:24:42,880
+so, what advice do you have for
+ 
+
+1335
+00:24:42,880 --> 00:24:45,070
+so, what advice do you have for
+developers, and what do you think is the
+
+1336
+00:24:45,070 --> 00:24:45,080
+developers, and what do you think is the
+ 
+
+1337
+00:24:45,080 --> 00:24:46,350
+developers, and what do you think is the
+most
+
+1338
+00:24:46,350 --> 00:24:46,360
+most
+ 
+
+1339
+00:24:46,360 --> 00:24:48,669
+most
+interesting thing to get them interested
+
+1340
+00:24:48,669 --> 00:24:48,679
+interesting thing to get them interested
+ 
+
+1341
+00:24:48,679 --> 00:24:51,430
+interesting thing to get them interested
+in wanting to dive into the land of
+
+1342
+00:24:51,430 --> 00:24:51,440
+in wanting to dive into the land of
+ 
+
+1343
+00:24:51,440 --> 00:24:53,150
+in wanting to dive into the land of
+crypto and Solana?
+
+1344
+00:24:53,150 --> 00:24:53,160
+crypto and Solana?
+ 
+
+1345
+00:24:53,160 --> 00:24:55,070
+crypto and Solana?
+So, to me, this is one of the most
+
+1346
+00:24:55,070 --> 00:24:55,080
+So, to me, this is one of the most
+ 
+
+1347
+00:24:55,080 --> 00:24:56,910
+So, to me, this is one of the most
+fascinating and interesting problems to
+
+1348
+00:24:56,910 --> 00:24:56,920
+fascinating and interesting problems to
+ 
+
+1349
+00:24:56,920 --> 00:24:58,390
+fascinating and interesting problems to
+work on because
+
+1350
+00:24:58,390 --> 00:24:58,400
+work on because
+ 
+
+1351
+00:24:58,400 --> 00:25:00,550
+work on because
+all the fun technology problems like
+
+1352
+00:25:00,550 --> 00:25:00,560
+all the fun technology problems like
+ 
+
+1353
+00:25:00,560 --> 00:25:02,710
+all the fun technology problems like
+just butt into physics.
+
+1354
+00:25:02,710 --> 00:25:02,720
+just butt into physics.
+ 
+
+1355
+00:25:02,720 --> 00:25:04,870
+just butt into physics.
+So, the problems we're dealing with in
+
+1356
+00:25:04,870 --> 00:25:04,880
+So, the problems we're dealing with in
+ 
+
+1357
+00:25:04,880 --> 00:25:07,310
+So, the problems we're dealing with in
+terms of like how fast can you
+
+1358
+00:25:07,310 --> 00:25:07,320
+terms of like how fast can you
+ 
+
+1359
+00:25:07,320 --> 00:25:10,110
+terms of like how fast can you
+synchronize the these like auction
+
+1360
+00:25:10,110 --> 00:25:10,120
+synchronize the these like auction
+ 
+
+1361
+00:25:10,120 --> 00:25:12,950
+synchronize the these like auction
+parameters and the state all around the
+
+1362
+00:25:12,950 --> 00:25:12,960
+parameters and the state all around the
+ 
+
+1363
+00:25:12,960 --> 00:25:15,669
+parameters and the state all around the
+world is a physics problem. And how do
+
+1364
+00:25:15,669 --> 00:25:15,679
+world is a physics problem. And how do
+ 
+
+1365
+00:25:15,679 --> 00:25:18,630
+world is a physics problem. And how do
+you do it in a way that we can guarantee
+
+1366
+00:25:18,630 --> 00:25:18,640
+you do it in a way that we can guarantee
+ 
+
+1367
+00:25:18,640 --> 00:25:22,030
+you do it in a way that we can guarantee
+that nobody can attack the system like
+
+1368
+00:25:22,030 --> 00:25:22,040
+that nobody can attack the system like
+ 
+
+1369
+00:25:22,040 --> 00:25:24,230
+that nobody can attack the system like
+for Byzantine fault tolerance is like
+
+1370
+00:25:24,230 --> 00:25:24,240
+for Byzantine fault tolerance is like
+ 
+
+1371
+00:25:24,240 --> 00:25:25,669
+for Byzantine fault tolerance is like
+one of the hardest problems in computer
+
+1372
+00:25:25,669 --> 00:25:25,679
+one of the hardest problems in computer
+ 
+
+1373
+00:25:25,679 --> 00:25:27,910
+one of the hardest problems in computer
+science. So, if you really, really get
+
+1374
+00:25:27,910 --> 00:25:27,920
+science. So, if you really, really get
+ 
+
+1375
+00:25:27,920 --> 00:25:29,910
+science. So, if you really, really get
+into it and get into markets and
+
+1376
+00:25:29,910 --> 00:25:29,920
+into it and get into markets and
+ 
+
+1377
+00:25:29,920 --> 00:25:33,630
+into it and get into markets and
+microstructure and MEV, uh you are
+
+1378
+00:25:33,630 --> 00:25:33,640
+microstructure and MEV, uh you are
+ 
+
+1379
+00:25:33,640 --> 00:25:36,150
+microstructure and MEV, uh you are
+fighting physics, and what what better
+
+1380
+00:25:36,150 --> 00:25:36,160
+fighting physics, and what what better
+ 
+
+1381
+00:25:36,160 --> 00:25:38,390
+fighting physics, and what what better
+thing can you possibly work on? I think
+
+1382
+00:25:38,390 --> 00:25:38,400
+thing can you possibly work on? I think
+ 
+
+1383
+00:25:38,400 --> 00:25:39,870
+thing can you possibly work on? I think
+this is why like
+
+1384
+00:25:39,870 --> 00:25:39,880
+this is why like
+ 
+
+1385
+00:25:39,880 --> 00:25:41,310
+this is why like
+AI is fascinating because you're
+
+1386
+00:25:41,310 --> 00:25:41,320
+AI is fascinating because you're
+ 
+
+1387
+00:25:41,320 --> 00:25:43,669
+AI is fascinating because you're
+fighting physics there, too. So,
+
+1388
+00:25:43,669 --> 00:25:43,679
+fighting physics there, too. So,
+ 
+
+1389
+00:25:43,679 --> 00:25:44,950
+fighting physics there, too. So,
+um the uh
+
+1390
+00:25:44,950 --> 00:25:44,960
+um the uh
+ 
+
+1391
+00:25:44,960 --> 00:25:47,190
+um the uh
+between finance and AI, I don't I mean,
+
+1392
+00:25:47,190 --> 00:25:47,200
+between finance and AI, I don't I mean,
+ 
+
+1393
+00:25:47,200 --> 00:25:48,990
+between finance and AI, I don't I mean,
+these are the the top two things to work
+
+1394
+00:25:48,990 --> 00:25:49,000
+these are the the top two things to work
+ 
+
+1395
+00:25:49,000 --> 00:25:49,830
+these are the the top two things to work
+on.
+
+1396
+00:25:49,830 --> 00:25:49,840
+on.
+ 
+
+1397
+00:25:49,840 --> 00:25:51,950
+on.
+Yeah, I agree. Um I've been in the space
+
+1398
+00:25:51,950 --> 00:25:51,960
+Yeah, I agree. Um I've been in the space
+ 
+
+1399
+00:25:51,960 --> 00:25:54,150
+Yeah, I agree. Um I've been in the space
+for a while now, and the more I'm here,
+
+1400
+00:25:54,150 --> 00:25:54,160
+for a while now, and the more I'm here,
+ 
+
+1401
+00:25:54,160 --> 00:25:55,830
+for a while now, and the more I'm here,
+the more I realize there's so much to
+
+1402
+00:25:55,830 --> 00:25:55,840
+the more I realize there's so much to
+ 
+
+1403
+00:25:55,840 --> 00:25:57,550
+the more I realize there's so much to
+learn, and we're just at the forefront
+
+1404
+00:25:57,550 --> 00:25:57,560
+learn, and we're just at the forefront
+ 
+
+1405
+00:25:57,560 --> 00:26:00,710
+learn, and we're just at the forefront
+of just innovation and technology. So,
+
+1406
+00:26:00,710 --> 00:26:00,720
+of just innovation and technology. So,
+ 
+
+1407
+00:26:00,720 --> 00:26:02,190
+of just innovation and technology. So,
+it's really cool.
+
+1408
+00:26:02,190 --> 00:26:02,200
+it's really cool.
+ 
+
+1409
+00:26:02,200 --> 00:26:04,802
+it's really cool.
+Yeah, it never ends. I mean, it's it's
+
+1410
+00:26:04,802 --> 00:26:04,812
+Yeah, it never ends. I mean, it's it's
+ 
+
+1411
+00:26:04,812 --> 00:26:07,070
+Yeah, it never ends. I mean, it's it's
+>> [laughter]
+
+1412
+00:26:07,070 --> 00:26:07,080
+
+ 
+
+1413
+00:26:07,080 --> 00:26:09,190
+
+>> The more you learn, the more you realize
+
+1414
+00:26:09,190 --> 00:26:09,200
+>> The more you learn, the more you realize
+ 
+
+1415
+00:26:09,200 --> 00:26:10,470
+>> The more you learn, the more you realize
+you don't know anything.
+
+1416
+00:26:10,470 --> 00:26:10,480
+you don't know anything.
+ 
+
+1417
+00:26:10,480 --> 00:26:11,350
+you don't know anything.
+>> Yeah.
+
+1418
+00:26:11,350 --> 00:26:11,360
+>> Yeah.
+ 
+
+1419
+00:26:11,360 --> 00:26:12,350
+>> Yeah.
+So, [laughter]
+
+1420
+00:26:12,350 --> 00:26:12,360
+So, [laughter]
+ 
+
+1421
+00:26:12,360 --> 00:26:15,310
+So, [laughter]
+awesome. Well, thanks so much for coming
+
+1422
+00:26:15,310 --> 00:26:15,320
+awesome. Well, thanks so much for coming
+ 
+
+1423
+00:26:15,320 --> 00:26:18,070
+awesome. Well, thanks so much for coming
+to chat, and I all of this is amazing
+
+1424
+00:26:18,070 --> 00:26:18,080
+to chat, and I all of this is amazing
+ 
+
+1425
+00:26:18,080 --> 00:26:20,470
+to chat, and I all of this is amazing
+insight, and I hope it helps a lot of
+
+1426
+00:26:20,470 --> 00:26:20,480
+insight, and I hope it helps a lot of
+ 
+
+1427
+00:26:20,480 --> 00:26:22,510
+insight, and I hope it helps a lot of
+people want to start learning. So, I
+
+1428
+00:26:22,510 --> 00:26:22,520
+people want to start learning. So, I
+ 
+
+1429
+00:26:22,520 --> 00:26:24,390
+people want to start learning. So, I
+appreciate it. Thank you.
+
+1430
+00:26:24,390 --> 00:26:24,400
+appreciate it. Thank you.
+ 
+
+1431
+00:26:24,400 --> 00:26:28,520
+appreciate it. Thank you.
+>> Thanks for having me. Yeah, thank you.
+

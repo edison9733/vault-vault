@@ -1,0 +1,139 @@
+#!/usr/bin/env python3
+"""
+yt_fetch.py - Fetch new videos from YouTube channel RSS feeds and save
+English subtitles as .srt into ~/Vault-YouTube/raw.
+
+Stdlib only. Dedup via _scripts/yt_seen.txt. A video is marked seen after
+ONE attempt (even with no subtitles) so it never retries forever.
+"""
+import os
+import re
+import sys
+import glob
+import shutil
+import subprocess
+import urllib.request
+import xml.etree.ElementTree as ET
+
+# launchd jobs get a minimal PATH; make Homebrew tools findable no matter what.
+os.environ["PATH"] = "/opt/homebrew/bin:/usr/local/bin:" + os.environ.get("PATH", "")
+
+VAULT = os.path.expanduser("~/Vault-YouTube")
+RAW = os.path.join(VAULT, "raw")
+FEEDS_FILE = os.path.join(VAULT, "_scripts", "yt_feeds.txt")
+SEEN_FILE = os.path.join(VAULT, "_scripts", "yt_seen.txt")
+
+NS = {"a": "http://www.w3.org/2005/Atom",
+      "yt": "http://www.youtube.com/xml/schemas/2015"}
+
+
+def load_seen():
+    if not os.path.exists(SEEN_FILE):
+        return set()
+    with open(SEEN_FILE) as f:
+        return {line.strip() for line in f if line.strip()}
+
+
+def mark_seen(video_id):
+    with open(SEEN_FILE, "a") as f:
+        f.write(video_id + "\n")
+
+
+def fetch_feed(url):
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return ET.fromstring(r.read())
+
+
+def srt_exists(video_id):
+    return bool(glob.glob(os.path.join(RAW, f"*[[]{video_id}[]]*.srt")))
+
+
+def download_subs(video_id):
+    """Primary: yt-dlp. Returns True if an .srt landed in RAW."""
+    ytdlp = shutil.which("yt-dlp")
+    if not ytdlp:
+        print("FATAL: yt-dlp not found. Run: brew install yt-dlp", file=sys.stderr)
+        sys.exit(1)
+    cmd = [
+        ytdlp, "--skip-download",
+        "--write-subs", "--write-auto-subs",
+        "--sub-langs", "en.*",
+        "--convert-subs", "srt",
+        "--sleep-requests", "2", "--retries", "3",
+        "--no-warnings",
+        "-o", os.path.join(RAW, "%(upload_date>%Y-%m-%d)s - %(title).80s [%(id)s].%(ext)s"),
+        f"https://www.youtube.com/watch?v={video_id}",
+    ]
+    # stdin=DEVNULL: never let a child process swallow anything.
+    subprocess.run(cmd, stdin=subprocess.DEVNULL, timeout=600)
+    return srt_exists(video_id)
+
+
+def fallback_transcript_api(video_id, title, date):
+    """Fallback: youtube_transcript_api CLI (optional, auto-used if installed)."""
+    cli = shutil.which("youtube_transcript_api")
+    if not cli:
+        return False
+    try:
+        out = subprocess.run(
+            [cli, video_id, "--languages", "en", "--format", "srt"],
+            stdin=subprocess.DEVNULL, capture_output=True, text=True, timeout=120)
+        if out.returncode == 0 and out.stdout.strip():
+            safe_title = re.sub(r'[/\\:*?"<>|]', "_", title)[:80]
+            path = os.path.join(RAW, f"{date} - {safe_title} [{video_id}].en.srt")
+            with open(path, "w") as f:
+                f.write(out.stdout)
+            return True
+    except Exception as e:
+        print(f"  fallback failed for {video_id}: {e}", file=sys.stderr)
+    return False
+
+
+def main():
+    os.makedirs(RAW, exist_ok=True)
+    if not os.path.exists(FEEDS_FILE):
+        print(f"FATAL: {FEEDS_FILE} not found. Add one feed URL per line.",
+              file=sys.stderr)
+        sys.exit(1)
+
+    seen = load_seen()
+    with open(FEEDS_FILE) as f:
+        feeds = [l.strip() for l in f
+                 if l.strip() and not l.strip().startswith("#")]
+
+    new_count = 0
+    for feed_url in feeds:
+        try:
+            root = fetch_feed(feed_url)
+        except Exception as e:
+            print(f"WARN: feed failed {feed_url}: {e}", file=sys.stderr)
+            continue
+        for entry in root.findall("a:entry", NS):
+            vid_el = entry.find("yt:videoId", NS)
+            if vid_el is None:
+                continue
+            vid = vid_el.text.strip()
+            if vid in seen:
+                continue
+            title_el = entry.find("a:title", NS)
+            pub_el = entry.find("a:published", NS)
+            title = title_el.text if title_el is not None else vid
+            date = (pub_el.text[:10] if pub_el is not None else "0000-00-00")
+            print(f"NEW: {vid} | {title[:60]}")
+            ok = False
+            try:
+                ok = download_subs(vid)
+            except Exception as e:
+                print(f"  yt-dlp error for {vid}: {e}", file=sys.stderr)
+            if not ok:
+                ok = fallback_transcript_api(vid, title, date)
+            print(f"  -> {'OK' if ok else 'NOSUBS (marked seen, will not retry)'}")
+            mark_seen(vid)
+            seen.add(vid)
+            new_count += 1
+    print(f"Done. {new_count} new video(s) processed.")
+
+
+if __name__ == "__main__":
+    main()

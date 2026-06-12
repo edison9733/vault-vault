@@ -1,0 +1,1 @@
+Tensor Processing Unit — Google's custom AI accelerator chip. At Google I/O 2026, Google split the TPU into two specialized variants: TPU-T (training) and TPU-I (inference), enabling more efficient large-scale AI deployment compared to a single general-purpose chip.

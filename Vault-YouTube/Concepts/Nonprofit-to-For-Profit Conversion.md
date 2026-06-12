@@ -1,0 +1,1 @@
+The structural transformation [[OpenAI]] made by attaching a capped for-profit subsidiary to its nonprofit parent, enabling it to accept large-scale VC and corporate investment (including $13B+ from Microsoft). The legal and ethical legitimacy of this conversion is the central dispute in the [[Musk vs Altman Trial]].

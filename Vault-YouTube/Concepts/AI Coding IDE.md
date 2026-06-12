@@ -1,0 +1,1 @@
+AI-native development environments that use LLMs to generate, refactor, and manage code. Key players: Cursor, OpenAI Codex, and Google's Anti-gravity (formerly Windserve). By 2026 the category is shifting from code-writing tools toward agent orchestration platforms.

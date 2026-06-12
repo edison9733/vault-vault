@@ -1,0 +1,125 @@
+1
+00:00:00,000 --> 00:00:01,710
+
+In this video, we're going to create,
+
+2
+00:00:01,710 --> 00:00:01,720
+In this video, we're going to create,
+ 
+
+3
+00:00:01,720 --> 00:00:03,990
+In this video, we're going to create,
+build, and deploy a Solana app in less
+
+4
+00:00:03,990 --> 00:00:04,000
+build, and deploy a Solana app in less
+ 
+
+5
+00:00:04,000 --> 00:00:05,510
+build, and deploy a Solana app in less
+than 5 minutes, hopefully. Let's see how
+
+6
+00:00:05,510 --> 00:00:05,520
+than 5 minutes, hopefully. Let's see how
+ 
+
+7
+00:00:05,520 --> 00:00:07,230
+than 5 minutes, hopefully. Let's see how
+fast we can do it. So, first we're going
+
+8
+00:00:07,230 --> 00:00:07,240
+fast we can do it. So, first we're going
+ 
+
+9
+00:00:07,240 --> 00:00:08,990
+fast we can do it. So, first we're going
+to go to one of my favorite developer
+
+10
+00:00:08,990 --> 00:00:09,000
+to go to one of my favorite developer
+ 
+
+11
+00:00:09,000 --> 00:00:10,630
+to go to one of my favorite developer
+tools on Solana, which is the [music]
+
+12
+00:00:10,630 --> 00:00:10,640
+tools on Solana, which is the [music]
+ 
+
+13
+00:00:10,640 --> 00:00:12,590
+tools on Solana, which is the [music]
+Solana templates page. So, here you can
+
+14
+00:00:12,590 --> 00:00:12,600
+Solana templates page. So, here you can
+ 
+
+15
+00:00:12,600 --> 00:00:14,350
+Solana templates page. So, here you can
+see there's several templates available.
+
+16
+00:00:14,350 --> 00:00:14,360
+see there's several templates available.
+ 
+
+17
+00:00:14,360 --> 00:00:16,150
+see there's several templates available.
+You can read through and pick which one
+
+18
+00:00:16,150 --> 00:00:16,160
+You can read through and pick which one
+ 
+
+19
+00:00:16,160 --> 00:00:17,350
+You can read through and pick which one
+is the best for your product
+
+20
+00:00:17,350 --> 00:00:17,360
+is the best for your product
+ 
+
+21
+00:00:17,360 --> 00:00:19,150
+is the best for your product
+specifically. For this tutorial, I'm
+
+22
+00:00:19,150 --> 00:00:19,160
+specifically. For this tutorial, I'm
+ 
+
+23
+00:00:19,160 --> 00:00:21,470
+specifically. For this tutorial, I'm
+going to use the [music] Next.js anchor
+
+24
+00:00:21,470 --> 00:00:21,480
+going to use the [music] Next.js anchor
+ 
+
+25
+00:00:21,480 --> 00:00:25,520
+going to use the [music] Next.js anchor
+template. So, let's click into it.
+

@@ -1,0 +1,285 @@
+1
+00:00:00,000 --> 00:00:03,750
+
+SpaceX is being valued at 1.75 trillion.
+
+2
+00:00:03,750 --> 00:00:03,760
+SpaceX is being valued at 1.75 trillion.
+ 
+
+3
+00:00:03,760 --> 00:00:05,470
+SpaceX is being valued at 1.75 trillion.
+That's what they want to sell the
+
+4
+00:00:05,470 --> 00:00:05,480
+That's what they want to sell the
+ 
+
+5
+00:00:05,480 --> 00:00:09,110
+That's what they want to sell the
+business for to retail investors. The
+
+6
+00:00:09,110 --> 00:00:09,120
+business for to retail investors. The
+ 
+
+7
+00:00:09,120 --> 00:00:11,910
+business for to retail investors. The
+current annual revenue is $16 billion.
+
+8
+00:00:11,910 --> 00:00:11,920
+current annual revenue is $16 billion.
+ 
+
+9
+00:00:11,920 --> 00:00:13,910
+current annual revenue is $16 billion.
+Current profit before tax and
+
+10
+00:00:13,910 --> 00:00:13,920
+Current profit before tax and
+ 
+
+11
+00:00:13,920 --> 00:00:16,190
+Current profit before tax and
+depreciation and amortization is $8
+
+12
+00:00:16,190 --> 00:00:16,200
+depreciation and amortization is $8
+ 
+
+13
+00:00:16,200 --> 00:00:17,150
+depreciation and amortization is $8
+billion.
+
+14
+00:00:17,150 --> 00:00:17,160
+billion.
+ 
+
+15
+00:00:17,160 --> 00:00:20,070
+billion.
+So, if you take the total valuation
+
+16
+00:00:20,070 --> 00:00:20,080
+So, if you take the total valuation
+ 
+
+17
+00:00:20,080 --> 00:00:22,390
+So, if you take the total valuation
+divided by the revenue, you get a price
+
+18
+00:00:22,390 --> 00:00:22,400
+divided by the revenue, you get a price
+ 
+
+19
+00:00:22,400 --> 00:00:26,470
+divided by the revenue, you get a price
+to sales ratio of 109 times. If you take
+
+20
+00:00:26,470 --> 00:00:26,480
+to sales ratio of 109 times. If you take
+ 
+
+21
+00:00:26,480 --> 00:00:29,870
+to sales ratio of 109 times. If you take
+the total value divide by the profits,
+
+22
+00:00:29,870 --> 00:00:29,880
+the total value divide by the profits,
+ 
+
+23
+00:00:29,880 --> 00:00:31,350
+the total value divide by the profits,
+which is the EBITDA profits, you're
+
+24
+00:00:31,350 --> 00:00:31,360
+which is the EBITDA profits, you're
+ 
+
+25
+00:00:31,360 --> 00:00:34,550
+which is the EBITDA profits, you're
+getting a price to EBITDA ratio of 218
+
+26
+00:00:34,550 --> 00:00:34,560
+getting a price to EBITDA ratio of 218
+ 
+
+27
+00:00:34,560 --> 00:00:36,990
+getting a price to EBITDA ratio of 218
+times. Now, this is based on last year's
+
+28
+00:00:36,990 --> 00:00:37,000
+times. Now, this is based on last year's
+ 
+
+29
+00:00:37,000 --> 00:00:39,270
+times. Now, this is based on last year's
+revenue and profits. But, how about we
+
+30
+00:00:39,270 --> 00:00:39,280
+revenue and profits. But, how about we
+ 
+
+31
+00:00:39,280 --> 00:00:40,950
+revenue and profits. But, how about we
+calculate the forward price to sales,
+
+32
+00:00:40,950 --> 00:00:40,960
+calculate the forward price to sales,
+ 
+
+33
+00:00:40,960 --> 00:00:43,110
+calculate the forward price to sales,
+the forward price to earnings? Well,
+
+34
+00:00:43,110 --> 00:00:43,120
+the forward price to earnings? Well,
+ 
+
+35
+00:00:43,120 --> 00:00:45,150
+the forward price to earnings? Well,
+depends on the projections. So, let's be
+
+36
+00:00:45,150 --> 00:00:45,160
+depends on the projections. So, let's be
+ 
+
+37
+00:00:45,160 --> 00:00:47,710
+depends on the projections. So, let's be
+very optimistic and let's take the
+
+38
+00:00:47,710 --> 00:00:47,720
+very optimistic and let's take the
+ 
+
+39
+00:00:47,720 --> 00:00:50,150
+very optimistic and let's take the
+aggressive projection. If the company is
+
+40
+00:00:50,150 --> 00:00:50,160
+aggressive projection. If the company is
+ 
+
+41
+00:00:50,160 --> 00:00:53,350
+aggressive projection. If the company is
+looking to double its revenue in 1 year
+
+42
+00:00:53,350 --> 00:00:53,360
+looking to double its revenue in 1 year
+ 
+
+43
+00:00:53,360 --> 00:00:56,230
+looking to double its revenue in 1 year
+to 32 billion and double its profits to
+
+44
+00:00:56,230 --> 00:00:56,240
+to 32 billion and double its profits to
+ 
+
+45
+00:00:56,240 --> 00:00:57,910
+to 32 billion and double its profits to
+16 billion. Let's take the most
+
+46
+00:00:57,910 --> 00:00:57,920
+16 billion. Let's take the most
+ 
+
+47
+00:00:57,920 --> 00:01:00,470
+16 billion. Let's take the most
+aggressive projection. At a current
+
+48
+00:01:00,470 --> 00:01:00,480
+aggressive projection. At a current
+ 
+
+49
+00:01:00,480 --> 00:01:03,230
+aggressive projection. At a current
+valuation of 1.75 trillion, that is
+
+50
+00:01:03,230 --> 00:01:03,240
+valuation of 1.75 trillion, that is
+ 
+
+51
+00:01:03,240 --> 00:01:05,470
+valuation of 1.75 trillion, that is
+still a forward price to sales ratio of
+
+52
+00:01:05,470 --> 00:01:05,480
+still a forward price to sales ratio of
+ 
+
+53
+00:01:05,480 --> 00:01:08,710
+still a forward price to sales ratio of
+54 times and a forward price to EBITDA
+
+54
+00:01:08,710 --> 00:01:08,720
+54 times and a forward price to EBITDA
+ 
+
+55
+00:01:08,720 --> 00:01:11,510
+54 times and a forward price to EBITDA
+ratio of 109 times.
+
+56
+00:01:11,510 --> 00:01:11,520
+ratio of 109 times.
+ 
+
+57
+00:01:11,520 --> 00:01:15,080
+ratio of 109 times.
+So, is that expensive or cheap?
+

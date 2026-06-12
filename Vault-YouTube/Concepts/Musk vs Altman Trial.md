@@ -1,0 +1,1 @@
+Federal lawsuit (filed 2024, closing arguments May 2026) in which Elon Musk sued Sam Altman, Greg Brockman, [[OpenAI]], and Microsoft for up to $134 billion, claiming they converted a nonprofit charity into a for-profit entity in breach of their founding agreement. Judge: Yvonne Gonzalez Rogers. Key twist: Musk himself pushed for a for-profit conversion in 2017.

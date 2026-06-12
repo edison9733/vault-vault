@@ -1,0 +1,1585 @@
+1
+00:00:00,000 --> 00:00:02,630
+
+It's only April, and already 2026 has
+
+2
+00:00:02,630 --> 00:00:02,640
+It's only April, and already 2026 has
+ 
+
+3
+00:00:02,640 --> 00:00:04,550
+It's only April, and already 2026 has
+been full of revolutionary new tech.
+
+4
+00:00:04,550 --> 00:00:04,560
+been full of revolutionary new tech.
+ 
+
+5
+00:00:04,560 --> 00:00:07,510
+been full of revolutionary new tech.
+There's a $400 AI-enabled smart toilet
+
+6
+00:00:07,510 --> 00:00:07,520
+There's a $400 AI-enabled smart toilet
+ 
+
+7
+00:00:07,520 --> 00:00:09,350
+There's a $400 AI-enabled smart toilet
+that comes with a microphone and a
+
+8
+00:00:09,350 --> 00:00:09,360
+that comes with a microphone and a
+ 
+
+9
+00:00:09,360 --> 00:00:11,310
+that comes with a microphone and a
+2-megapixel camera, so you can know
+
+10
+00:00:11,310 --> 00:00:11,320
+2-megapixel camera, so you can know
+ 
+
+11
+00:00:11,320 --> 00:00:13,910
+2-megapixel camera, so you can know
+exactly how many Taco Bell Diablo-dusted
+
+12
+00:00:13,910 --> 00:00:13,920
+exactly how many Taco Bell Diablo-dusted
+ 
+
+13
+00:00:13,920 --> 00:00:15,550
+exactly how many Taco Bell Diablo-dusted
+chicken nuggets you can eat before your
+
+14
+00:00:15,550 --> 00:00:15,560
+chicken nuggets you can eat before your
+ 
+
+15
+00:00:15,560 --> 00:00:18,110
+chicken nuggets you can eat before your
+gut microbiome unalives itself. We got
+
+16
+00:00:18,110 --> 00:00:18,120
+gut microbiome unalives itself. We got
+ 
+
+17
+00:00:18,120 --> 00:00:20,350
+gut microbiome unalives itself. We got
+the AI-enabled smart clippers, so Claude
+
+18
+00:00:20,350 --> 00:00:20,360
+the AI-enabled smart clippers, so Claude
+ 
+
+19
+00:00:20,360 --> 00:00:22,110
+the AI-enabled smart clippers, so Claude
+can go Sweeney Todd when you tell it you
+
+20
+00:00:22,110 --> 00:00:22,120
+can go Sweeney Todd when you tell it you
+ 
+
+21
+00:00:22,120 --> 00:00:24,150
+can go Sweeney Todd when you tell it you
+don't want the Dario Eagles Nest look.
+
+22
+00:00:24,150 --> 00:00:24,160
+don't want the Dario Eagles Nest look.
+ 
+
+23
+00:00:24,160 --> 00:00:26,110
+don't want the Dario Eagles Nest look.
+And of course, my personal favorite, the
+
+24
+00:00:26,110 --> 00:00:26,120
+And of course, my personal favorite, the
+ 
+
+25
+00:00:26,120 --> 00:00:28,430
+And of course, my personal favorite, the
+AI pocket pet that you can feed, bathe,
+
+26
+00:00:28,430 --> 00:00:28,440
+AI pocket pet that you can feed, bathe,
+ 
+
+27
+00:00:28,440 --> 00:00:30,030
+AI pocket pet that you can feed, bathe,
+and play with. But now I get to hear it
+
+28
+00:00:30,030 --> 00:00:30,040
+and play with. But now I get to hear it
+ 
+
+29
+00:00:30,040 --> 00:00:31,910
+and play with. But now I get to hear it
+beg for its life as it fakes sentience
+
+30
+00:00:31,910 --> 00:00:31,920
+beg for its life as it fakes sentience
+ 
+
+31
+00:00:31,920 --> 00:00:33,870
+beg for its life as it fakes sentience
+before dying of starvation. But it
+
+32
+00:00:33,870 --> 00:00:33,880
+before dying of starvation. But it
+ 
+
+33
+00:00:33,880 --> 00:00:35,470
+before dying of starvation. But it
+hasn't all been bad. This year has
+
+34
+00:00:35,470 --> 00:00:35,480
+hasn't all been bad. This year has
+ 
+
+35
+00:00:35,480 --> 00:00:37,150
+hasn't all been bad. This year has
+already brought us the rise of personal
+
+36
+00:00:37,150 --> 00:00:37,160
+already brought us the rise of personal
+ 
+
+37
+00:00:37,160 --> 00:00:39,150
+already brought us the rise of personal
+AI assistants with the release of Open
+
+38
+00:00:39,150 --> 00:00:39,160
+AI assistants with the release of Open
+ 
+
+39
+00:00:39,160 --> 00:00:40,790
+AI assistants with the release of Open
+Claw, which we first covered on this
+
+40
+00:00:40,790 --> 00:00:40,800
+Claw, which we first covered on this
+ 
+
+41
+00:00:40,800 --> 00:00:42,790
+Claw, which we first covered on this
+channel back in January. Since then,
+
+42
+00:00:42,790 --> 00:00:42,800
+channel back in January. Since then,
+ 
+
+43
+00:00:42,800 --> 00:00:44,310
+channel back in January. Since then,
+it's become the ringleader of the slop
+
+44
+00:00:44,310 --> 00:00:44,320
+it's become the ringleader of the slop
+ 
+
+45
+00:00:44,320 --> 00:00:46,350
+it's become the ringleader of the slop
+circus and has seen more backdoors than
+
+46
+00:00:46,350 --> 00:00:46,360
+circus and has seen more backdoors than
+ 
+
+47
+00:00:46,360 --> 00:00:48,310
+circus and has seen more backdoors than
+Bill Gates in a Russian hotel room. But
+
+48
+00:00:48,310 --> 00:00:48,320
+Bill Gates in a Russian hotel room. But
+ 
+
+49
+00:00:48,320 --> 00:00:50,150
+Bill Gates in a Russian hotel room. But
+just last week, its creator Peter
+
+50
+00:00:50,150 --> 00:00:50,160
+just last week, its creator Peter
+ 
+
+51
+00:00:50,160 --> 00:00:52,230
+just last week, its creator Peter
+Steinberger told Open Claw's origin
+
+52
+00:00:52,230 --> 00:00:52,240
+Steinberger told Open Claw's origin
+ 
+
+53
+00:00:52,240 --> 00:00:54,390
+Steinberger told Open Claw's origin
+story to a room full of elites at TED,
+
+54
+00:00:54,390 --> 00:00:54,400
+story to a room full of elites at TED,
+ 
+
+55
+00:00:54,400 --> 00:00:56,070
+story to a room full of elites at TED,
+and then spoke about fixing its security
+
+56
+00:00:56,070 --> 00:00:56,080
+and then spoke about fixing its security
+ 
+
+57
+00:00:56,080 --> 00:00:57,590
+and then spoke about fixing its security
+vulnerabilities to a room full of
+
+58
+00:00:57,590 --> 00:00:57,600
+vulnerabilities to a room full of
+ 
+
+59
+00:00:57,600 --> 00:01:00,150
+vulnerabilities to a room full of
+engineers at AI Engineer Europe. In this
+
+60
+00:01:00,150 --> 00:01:00,160
+engineers at AI Engineer Europe. In this
+ 
+
+61
+00:01:00,160 --> 00:01:01,590
+engineers at AI Engineer Europe. In this
+video, we'll break down the current
+
+62
+00:01:01,590 --> 00:01:01,600
+video, we'll break down the current
+ 
+
+63
+00:01:01,600 --> 00:01:03,550
+video, we'll break down the current
+state of the claw and give it a shot at
+
+64
+00:01:03,550 --> 00:01:03,560
+state of the claw and give it a shot at
+ 
+
+65
+00:01:03,560 --> 00:01:04,910
+state of the claw and give it a shot at
+solving one of my most annoying
+
+66
+00:01:04,910 --> 00:01:04,920
+solving one of my most annoying
+ 
+
+67
+00:01:04,920 --> 00:01:08,190
+solving one of my most annoying
+problems. It is April 23rd, 2026, and
+
+68
+00:01:08,190 --> 00:01:08,200
+problems. It is April 23rd, 2026, and
+ 
+
+69
+00:01:08,200 --> 00:01:09,750
+problems. It is April 23rd, 2026, and
+you are watching The Code Report. Back
+
+70
+00:01:09,750 --> 00:01:09,760
+you are watching The Code Report. Back
+ 
+
+71
+00:01:09,760 --> 00:01:11,310
+you are watching The Code Report. Back
+in my day, if you wanted to flex on
+
+72
+00:01:11,310 --> 00:01:11,320
+in my day, if you wanted to flex on
+ 
+
+73
+00:01:11,320 --> 00:01:12,830
+in my day, if you wanted to flex on
+somebody, you'd buy a token on a
+
+74
+00:01:12,830 --> 00:01:12,840
+somebody, you'd buy a token on a
+ 
+
+75
+00:01:12,840 --> 00:01:14,670
+somebody, you'd buy a token on a
+blockchain that contained metadata,
+
+76
+00:01:14,670 --> 00:01:14,680
+blockchain that contained metadata,
+ 
+
+77
+00:01:14,680 --> 00:01:16,910
+blockchain that contained metadata,
+which pointed to an off-chain URL, which
+
+78
+00:01:16,910 --> 00:01:16,920
+which pointed to an off-chain URL, which
+ 
+
+79
+00:01:16,920 --> 00:01:18,830
+which pointed to an off-chain URL, which
+held the contents of a JPEG monkey on a
+
+80
+00:01:18,830 --> 00:01:18,840
+held the contents of a JPEG monkey on a
+ 
+
+81
+00:01:18,840 --> 00:01:20,750
+held the contents of a JPEG monkey on a
+private server that would eventually get
+
+82
+00:01:20,750 --> 00:01:20,760
+private server that would eventually get
+ 
+
+83
+00:01:20,760 --> 00:01:22,390
+private server that would eventually get
+shut down when everyone realized how
+
+84
+00:01:22,390 --> 00:01:22,400
+shut down when everyone realized how
+ 
+
+85
+00:01:22,400 --> 00:01:24,310
+shut down when everyone realized how
+stupid it was to try to use a blockchain
+
+86
+00:01:24,310 --> 00:01:24,320
+stupid it was to try to use a blockchain
+ 
+
+87
+00:01:24,320 --> 00:01:26,510
+stupid it was to try to use a blockchain
+as a database. But nowadays, it seems
+
+88
+00:01:26,510 --> 00:01:26,520
+as a database. But nowadays, it seems
+ 
+
+89
+00:01:26,520 --> 00:01:28,590
+as a database. But nowadays, it seems
+the new status symbol is to flex on how
+
+90
+00:01:28,590 --> 00:01:28,600
+the new status symbol is to flex on how
+ 
+
+91
+00:01:28,600 --> 00:01:30,510
+the new status symbol is to flex on how
+many tokens it takes to automate any
+
+92
+00:01:30,510 --> 00:01:30,520
+many tokens it takes to automate any
+ 
+
+93
+00:01:30,520 --> 00:01:31,870
+many tokens it takes to automate any
+part of your life where you might be
+
+94
+00:01:31,870 --> 00:01:31,880
+part of your life where you might be
+ 
+
+95
+00:01:31,880 --> 00:01:33,550
+part of your life where you might be
+experiencing some mild form of
+
+96
+00:01:33,550 --> 00:01:33,560
+experiencing some mild form of
+ 
+
+97
+00:01:33,560 --> 00:01:35,550
+experiencing some mild form of
+inconvenience, and Open Claw has been
+
+98
+00:01:35,550 --> 00:01:35,560
+inconvenience, and Open Claw has been
+ 
+
+99
+00:01:35,560 --> 00:01:37,270
+inconvenience, and Open Claw has been
+the biggest enabler of this. Are you
+
+100
+00:01:37,270 --> 00:01:37,280
+the biggest enabler of this. Are you
+ 
+
+101
+00:01:37,280 --> 00:01:38,830
+the biggest enabler of this. Are you
+sick of reading all those emails you're
+
+102
+00:01:38,830 --> 00:01:38,840
+sick of reading all those emails you're
+ 
+
+103
+00:01:38,840 --> 00:01:40,870
+sick of reading all those emails you're
+paid to read? Get a daily digest with
+
+104
+00:01:40,870 --> 00:01:40,880
+paid to read? Get a daily digest with
+ 
+
+105
+00:01:40,880 --> 00:01:42,510
+paid to read? Get a daily digest with
+the email summary skill. You can't
+
+106
+00:01:42,510 --> 00:01:42,520
+the email summary skill. You can't
+ 
+
+107
+00:01:42,520 --> 00:01:44,150
+the email summary skill. You can't
+figure out why you're fat? Check out the
+
+108
+00:01:44,150 --> 00:01:44,160
+figure out why you're fat? Check out the
+ 
+
+109
+00:01:44,160 --> 00:01:45,830
+figure out why you're fat? Check out the
+diet tracker skill. Erectile
+
+110
+00:01:45,830 --> 00:01:45,840
+diet tracker skill. Erectile
+ 
+
+111
+00:01:45,840 --> 00:01:47,750
+diet tracker skill. Erectile
+dysfunction? Try rubbing some tokens on
+
+112
+00:01:47,750 --> 00:01:47,760
+dysfunction? Try rubbing some tokens on
+ 
+
+113
+00:01:47,760 --> 00:01:49,790
+dysfunction? Try rubbing some tokens on
+it. But unfortunately, I learned from my
+
+114
+00:01:49,790 --> 00:01:49,800
+it. But unfortunately, I learned from my
+ 
+
+115
+00:01:49,800 --> 00:01:52,190
+it. But unfortunately, I learned from my
+close personal friend and former CEO of
+
+116
+00:01:52,190 --> 00:01:52,200
+close personal friend and former CEO of
+ 
+
+117
+00:01:52,200 --> 00:01:54,550
+close personal friend and former CEO of
+GitHub Nat Friedman that pessimists
+
+118
+00:01:54,550 --> 00:01:54,560
+GitHub Nat Friedman that pessimists
+ 
+
+119
+00:01:54,560 --> 00:01:56,870
+GitHub Nat Friedman that pessimists
+sound smart, but optimists make money.
+
+120
+00:01:56,870 --> 00:01:56,880
+sound smart, but optimists make money.
+ 
+
+121
+00:01:56,880 --> 00:01:58,670
+sound smart, but optimists make money.
+So I'm trying to be positive even though
+
+122
+00:01:58,670 --> 00:01:58,680
+So I'm trying to be positive even though
+ 
+
+123
+00:01:58,680 --> 00:02:00,350
+So I'm trying to be positive even though
+the interest chart looks like this.
+
+124
+00:02:00,350 --> 00:02:00,360
+the interest chart looks like this.
+ 
+
+125
+00:02:00,360 --> 00:02:02,990
+the interest chart looks like this.
+After all, Nvidia CEO Jensen Huang
+
+126
+00:02:02,990 --> 00:02:03,000
+After all, Nvidia CEO Jensen Huang
+ 
+
+127
+00:02:03,000 --> 00:02:06,670
+After all, Nvidia CEO Jensen Huang
+called it the single most important um
+
+128
+00:02:06,670 --> 00:02:06,680
+called it the single most important um
+ 
+
+129
+00:02:06,680 --> 00:02:08,669
+called it the single most important um
+uh release of software, you know,
+
+130
+00:02:08,669 --> 00:02:08,679
+uh release of software, you know,
+ 
+
+131
+00:02:08,679 --> 00:02:10,510
+uh release of software, you know,
+probably ever. And the non-technical
+
+132
+00:02:10,510 --> 00:02:10,520
+probably ever. And the non-technical
+ 
+
+133
+00:02:10,520 --> 00:02:12,270
+probably ever. And the non-technical
+thread boys have been just as excited
+
+134
+00:02:12,270 --> 00:02:12,280
+thread boys have been just as excited
+ 
+
+135
+00:02:12,280 --> 00:02:13,990
+thread boys have been just as excited
+about it. The biggest criticism with
+
+136
+00:02:13,990 --> 00:02:14,000
+about it. The biggest criticism with
+ 
+
+137
+00:02:14,000 --> 00:02:16,070
+about it. The biggest criticism with
+OpenClaw since its release has been its
+
+138
+00:02:16,070 --> 00:02:16,080
+OpenClaw since its release has been its
+ 
+
+139
+00:02:16,080 --> 00:02:17,910
+OpenClaw since its release has been its
+lack of security, which still didn't
+
+140
+00:02:17,910 --> 00:02:17,920
+lack of security, which still didn't
+ 
+
+141
+00:02:17,920 --> 00:02:19,550
+lack of security, which still didn't
+stop any of you from triggering a
+
+142
+00:02:19,550 --> 00:02:19,560
+stop any of you from triggering a
+ 
+
+143
+00:02:19,560 --> 00:02:21,630
+stop any of you from triggering a
+nationwide Mac mini shortage to run it
+
+144
+00:02:21,630 --> 00:02:21,640
+nationwide Mac mini shortage to run it
+ 
+
+145
+00:02:21,640 --> 00:02:23,990
+nationwide Mac mini shortage to run it
+back in January. But because the project
+
+146
+00:02:23,990 --> 00:02:24,000
+back in January. But because the project
+ 
+
+147
+00:02:24,000 --> 00:02:26,350
+back in January. But because the project
+has received over 1,100
+
+148
+00:02:26,350 --> 00:02:26,360
+has received over 1,100
+ 
+
+149
+00:02:26,360 --> 00:02:28,070
+has received over 1,100
+security advisories and has resolved or
+
+150
+00:02:28,070 --> 00:02:28,080
+security advisories and has resolved or
+ 
+
+151
+00:02:28,080 --> 00:02:30,510
+security advisories and has resolved or
+closed about 650 of them, according to
+
+152
+00:02:30,510 --> 00:02:30,520
+closed about 650 of them, according to
+ 
+
+153
+00:02:30,520 --> 00:02:32,750
+closed about 650 of them, according to
+Peter, most of the rest of them are slop
+
+154
+00:02:32,750 --> 00:02:32,760
+Peter, most of the rest of them are slop
+ 
+
+155
+00:02:32,760 --> 00:02:34,949
+Peter, most of the rest of them are slop
+issues. His filter being anytime the
+
+156
+00:02:34,949 --> 00:02:34,959
+issues. His filter being anytime the
+ 
+
+157
+00:02:34,959 --> 00:02:36,390
+issues. His filter being anytime the
+report is too nice or someone
+
+158
+00:02:36,390 --> 00:02:36,400
+report is too nice or someone
+ 
+
+159
+00:02:36,400 --> 00:02:39,190
+report is too nice or someone
+apologizes, that is very likely AI.
+
+160
+00:02:39,190 --> 00:02:39,200
+apologizes, that is very likely AI.
+ 
+
+161
+00:02:39,200 --> 00:02:40,990
+apologizes, that is very likely AI.
+Because usually people in security don't
+
+162
+00:02:40,990 --> 00:02:41,000
+Because usually people in security don't
+ 
+
+163
+00:02:41,000 --> 00:02:43,070
+Because usually people in security don't
+apologize. Good enough for me, so I
+
+164
+00:02:43,070 --> 00:02:43,080
+apologize. Good enough for me, so I
+ 
+
+165
+00:02:43,080 --> 00:02:44,590
+apologize. Good enough for me, so I
+wanted to give it another shot at
+
+166
+00:02:44,590 --> 00:02:44,600
+wanted to give it another shot at
+ 
+
+167
+00:02:44,600 --> 00:02:46,710
+wanted to give it another shot at
+solving a real issue I face in life.
+
+168
+00:02:46,710 --> 00:02:46,720
+solving a real issue I face in life.
+ 
+
+169
+00:02:46,720 --> 00:02:48,470
+solving a real issue I face in life.
+Here's the idea. Because I make YouTube
+
+170
+00:02:48,470 --> 00:02:48,480
+Here's the idea. Because I make YouTube
+ 
+
+171
+00:02:48,480 --> 00:02:50,390
+Here's the idea. Because I make YouTube
+videos making fun of JavaScript, all my
+
+172
+00:02:50,390 --> 00:02:50,400
+videos making fun of JavaScript, all my
+ 
+
+173
+00:02:50,400 --> 00:02:51,910
+videos making fun of JavaScript, all my
+relatives think I know how to fix their
+
+174
+00:02:51,910 --> 00:02:51,920
+relatives think I know how to fix their
+ 
+
+175
+00:02:51,920 --> 00:02:53,790
+relatives think I know how to fix their
+printers. Let's find out if we can
+
+176
+00:02:53,790 --> 00:02:53,800
+printers. Let's find out if we can
+ 
+
+177
+00:02:53,800 --> 00:02:55,910
+printers. Let's find out if we can
+configure OpenClaw to handle all these
+
+178
+00:02:55,910 --> 00:02:55,920
+configure OpenClaw to handle all these
+ 
+
+179
+00:02:55,920 --> 00:02:57,990
+configure OpenClaw to handle all these
+requests for me in my own voice, which
+
+180
+00:02:57,990 --> 00:02:58,000
+requests for me in my own voice, which
+ 
+
+181
+00:02:58,000 --> 00:02:59,430
+requests for me in my own voice, which
+should be easy since all of you are
+
+182
+00:02:59,430 --> 00:02:59,440
+should be easy since all of you are
+ 
+
+183
+00:02:59,440 --> 00:03:01,630
+should be easy since all of you are
+convinced I'm an AI anyway. To host
+
+184
+00:03:01,630 --> 00:03:01,640
+convinced I'm an AI anyway. To host
+ 
+
+185
+00:03:01,640 --> 00:03:03,670
+convinced I'm an AI anyway. To host
+OpenClaw, I could buy a Mac mini like
+
+186
+00:03:03,670 --> 00:03:03,680
+OpenClaw, I could buy a Mac mini like
+ 
+
+187
+00:03:03,680 --> 00:03:05,310
+OpenClaw, I could buy a Mac mini like
+all the other cool indie hackers who
+
+188
+00:03:05,310 --> 00:03:05,320
+all the other cool indie hackers who
+ 
+
+189
+00:03:05,320 --> 00:03:06,830
+all the other cool indie hackers who
+have been using it to automate their
+
+190
+00:03:06,830 --> 00:03:06,840
+have been using it to automate their
+ 
+
+191
+00:03:06,840 --> 00:03:08,750
+have been using it to automate their
+unemployment applications. But I'd
+
+192
+00:03:08,750 --> 00:03:08,760
+unemployment applications. But I'd
+ 
+
+193
+00:03:08,760 --> 00:03:10,590
+unemployment applications. But I'd
+rather pay just a few bucks a month to
+
+194
+00:03:10,590 --> 00:03:10,600
+rather pay just a few bucks a month to
+ 
+
+195
+00:03:10,600 --> 00:03:12,430
+rather pay just a few bucks a month to
+run it on a virtual private server from
+
+196
+00:03:12,430 --> 00:03:12,440
+run it on a virtual private server from
+ 
+
+197
+00:03:12,440 --> 00:03:14,870
+run it on a virtual private server from
+Hostinger, the sponsor of today's video.
+
+198
+00:03:14,870 --> 00:03:14,880
+Hostinger, the sponsor of today's video.
+ 
+
+199
+00:03:14,880 --> 00:03:16,550
+Hostinger, the sponsor of today's video.
+Their platform gives you the power and
+
+200
+00:03:16,550 --> 00:03:16,560
+Their platform gives you the power and
+ 
+
+201
+00:03:16,560 --> 00:03:18,550
+Their platform gives you the power and
+flexibility to run anything you want,
+
+202
+00:03:18,550 --> 00:03:18,560
+flexibility to run anything you want,
+ 
+
+203
+00:03:18,560 --> 00:03:20,070
+flexibility to run anything you want,
+and they have a few different one-click
+
+204
+00:03:20,070 --> 00:03:20,080
+and they have a few different one-click
+ 
+
+205
+00:03:20,080 --> 00:03:22,070
+and they have a few different one-click
+OpenClaw plans depending on how much
+
+206
+00:03:22,070 --> 00:03:22,080
+OpenClaw plans depending on how much
+ 
+
+207
+00:03:22,080 --> 00:03:23,710
+OpenClaw plans depending on how much
+control you need. It also runs
+
+208
+00:03:23,710 --> 00:03:23,720
+control you need. It also runs
+ 
+
+209
+00:03:23,720 --> 00:03:25,310
+control you need. It also runs
+everything in a private vault, which
+
+210
+00:03:25,310 --> 00:03:25,320
+everything in a private vault, which
+ 
+
+211
+00:03:25,320 --> 00:03:26,670
+everything in a private vault, which
+means your agent can't leak any
+
+212
+00:03:26,670 --> 00:03:26,680
+means your agent can't leak any
+ 
+
+213
+00:03:26,680 --> 00:03:28,470
+means your agent can't leak any
+embarrassing personal data about a very
+
+214
+00:03:28,470 --> 00:03:28,480
+embarrassing personal data about a very
+ 
+
+215
+00:03:28,480 --> 00:03:30,150
+embarrassing personal data about a very
+common medical condition that affects
+
+216
+00:03:30,150 --> 00:03:30,160
+common medical condition that affects
+ 
+
+217
+00:03:30,160 --> 00:03:32,350
+common medical condition that affects
+more than 30% of men worldwide. I'm
+
+218
+00:03:32,350 --> 00:03:32,360
+more than 30% of men worldwide. I'm
+ 
+
+219
+00:03:32,360 --> 00:03:34,150
+more than 30% of men worldwide. I'm
+choosing Hostinger's manual quick start
+
+220
+00:03:34,150 --> 00:03:34,160
+choosing Hostinger's manual quick start
+ 
+
+221
+00:03:34,160 --> 00:03:36,430
+choosing Hostinger's manual quick start
+option here since we'll want to SSH into
+
+222
+00:03:36,430 --> 00:03:36,440
+option here since we'll want to SSH into
+ 
+
+223
+00:03:36,440 --> 00:03:37,949
+option here since we'll want to SSH into
+the server in a little bit to make some
+
+224
+00:03:37,949 --> 00:03:37,959
+the server in a little bit to make some
+ 
+
+225
+00:03:37,959 --> 00:03:39,990
+the server in a little bit to make some
+changes. It's just a few bucks a month,
+
+226
+00:03:39,990 --> 00:03:40,000
+changes. It's just a few bucks a month,
+ 
+
+227
+00:03:40,000 --> 00:03:41,710
+changes. It's just a few bucks a month,
+but if you're too poor to afford that,
+
+228
+00:03:41,710 --> 00:03:41,720
+but if you're too poor to afford that,
+ 
+
+229
+00:03:41,720 --> 00:03:43,790
+but if you're too poor to afford that,
+you can also use the code Fireship to
+
+230
+00:03:43,790 --> 00:03:43,800
+you can also use the code Fireship to
+ 
+
+231
+00:03:43,800 --> 00:03:45,470
+you can also use the code Fireship to
+save even more money. From there, it
+
+232
+00:03:45,470 --> 00:03:45,480
+save even more money. From there, it
+ 
+
+233
+00:03:45,480 --> 00:03:47,270
+save even more money. From there, it
+gives us a bunch of config options out
+
+234
+00:03:47,270 --> 00:03:47,280
+gives us a bunch of config options out
+ 
+
+235
+00:03:47,280 --> 00:03:49,430
+gives us a bunch of config options out
+of the box, including a Telegram bot
+
+236
+00:03:49,430 --> 00:03:49,440
+of the box, including a Telegram bot
+ 
+
+237
+00:03:49,440 --> 00:03:51,550
+of the box, including a Telegram bot
+that's already be up. And all we need is
+
+238
+00:03:51,550 --> 00:03:51,560
+that's already be up. And all we need is
+ 
+
+239
+00:03:51,560 --> 00:03:54,070
+that's already be up. And all we need is
+a token from Telegram. To get the token,
+
+240
+00:03:54,070 --> 00:03:54,080
+a token from Telegram. To get the token,
+ 
+
+241
+00:03:54,080 --> 00:03:55,830
+a token from Telegram. To get the token,
+we'll create a new bot by messaging the
+
+242
+00:03:55,830 --> 00:03:55,840
+we'll create a new bot by messaging the
+ 
+
+243
+00:03:55,840 --> 00:03:58,150
+we'll create a new bot by messaging the
+Bot Father and copy and paste the ID
+
+244
+00:03:58,150 --> 00:03:58,160
+Bot Father and copy and paste the ID
+ 
+
+245
+00:03:58,160 --> 00:03:59,870
+Bot Father and copy and paste the ID
+into Hostinger. While the project is
+
+246
+00:03:59,870 --> 00:03:59,880
+into Hostinger. While the project is
+ 
+
+247
+00:03:59,880 --> 00:04:01,950
+into Hostinger. While the project is
+being deployed, let's play God and give
+
+248
+00:04:01,950 --> 00:04:01,960
+being deployed, let's play God and give
+ 
+
+249
+00:04:01,960 --> 00:04:03,590
+being deployed, let's play God and give
+our bot some purpose, and then let's
+
+250
+00:04:03,590 --> 00:04:03,600
+our bot some purpose, and then let's
+ 
+
+251
+00:04:03,600 --> 00:04:04,950
+our bot some purpose, and then let's
+play alcohol and give it some
+
+252
+00:04:04,950 --> 00:04:04,960
+play alcohol and give it some
+ 
+
+253
+00:04:04,960 --> 00:04:06,870
+play alcohol and give it some
+personality. At this point, our server
+
+254
+00:04:06,870 --> 00:04:06,880
+personality. At this point, our server
+ 
+
+255
+00:04:06,880 --> 00:04:09,350
+personality. At this point, our server
+should be set up, so let's SSH into it
+
+256
+00:04:09,350 --> 00:04:09,360
+should be set up, so let's SSH into it
+ 
+
+257
+00:04:09,360 --> 00:04:10,870
+should be set up, so let's SSH into it
+and have a look under the hood. The
+
+258
+00:04:10,870 --> 00:04:10,880
+and have a look under the hood. The
+ 
+
+259
+00:04:10,880 --> 00:04:13,070
+and have a look under the hood. The
+personality we gave it is located in the
+
+260
+00:04:13,070 --> 00:04:13,080
+personality we gave it is located in the
+ 
+
+261
+00:04:13,080 --> 00:04:15,910
+personality we gave it is located in the
+writable soul.md file. To generate
+
+262
+00:04:15,910 --> 00:04:15,920
+writable soul.md file. To generate
+ 
+
+263
+00:04:15,920 --> 00:04:18,069
+writable soul.md file. To generate
+responses in my own voice, we'll use 11
+
+264
+00:04:18,069 --> 00:04:18,079
+responses in my own voice, we'll use 11
+ 
+
+265
+00:04:18,079 --> 00:04:20,030
+responses in my own voice, we'll use 11
+Labs where I've already created my own
+
+266
+00:04:20,030 --> 00:04:20,040
+Labs where I've already created my own
+ 
+
+267
+00:04:20,040 --> 00:04:22,310
+Labs where I've already created my own
+voice profile. I can just add the API
+
+268
+00:04:22,310 --> 00:04:22,320
+voice profile. I can just add the API
+ 
+
+269
+00:04:22,320 --> 00:04:24,750
+voice profile. I can just add the API
+key and voice ID in an environment file
+
+270
+00:04:24,750 --> 00:04:24,760
+key and voice ID in an environment file
+ 
+
+271
+00:04:24,760 --> 00:04:26,110
+key and voice ID in an environment file
+on the server, and then we'll need
+
+272
+00:04:26,110 --> 00:04:26,120
+on the server, and then we'll need
+ 
+
+273
+00:04:26,120 --> 00:04:29,870
+on the server, and then we'll need
+FFmpeg to convert the 11 Labs MP3 into a
+
+274
+00:04:29,870 --> 00:04:29,880
+FFmpeg to convert the 11 Labs MP3 into a
+ 
+
+275
+00:04:29,880 --> 00:04:32,510
+FFmpeg to convert the 11 Labs MP3 into a
+.ogg voice memo. If we then add a
+
+276
+00:04:32,510 --> 00:04:32,520
+.ogg voice memo. If we then add a
+ 
+
+277
+00:04:32,520 --> 00:04:35,150
+.ogg voice memo. If we then add a
+tools.md file, we can give Open Claw
+
+278
+00:04:35,150 --> 00:04:35,160
+tools.md file, we can give Open Claw
+ 
+
+279
+00:04:35,160 --> 00:04:37,470
+tools.md file, we can give Open Claw
+some context on the whole process. Now,
+
+280
+00:04:37,470 --> 00:04:37,480
+some context on the whole process. Now,
+ 
+
+281
+00:04:37,480 --> 00:04:39,590
+some context on the whole process. Now,
+whenever a message request comes in, I
+
+282
+00:04:39,590 --> 00:04:39,600
+whenever a message request comes in, I
+ 
+
+283
+00:04:39,600 --> 00:04:41,550
+whenever a message request comes in, I
+can forward that directly to our bot,
+
+284
+00:04:41,550 --> 00:04:41,560
+can forward that directly to our bot,
+ 
+
+285
+00:04:41,560 --> 00:04:44,270
+can forward that directly to our bot,
+which will analyze it, draft a response,
+
+286
+00:04:44,270 --> 00:04:44,280
+which will analyze it, draft a response,
+ 
+
+287
+00:04:44,280 --> 00:04:46,030
+which will analyze it, draft a response,
+run it through the Python script, and
+
+288
+00:04:46,030 --> 00:04:46,040
+run it through the Python script, and
+ 
+
+289
+00:04:46,040 --> 00:04:48,510
+run it through the Python script, and
+give us back the final voice memo. Yeah,
+
+290
+00:04:48,510 --> 00:04:48,520
+give us back the final voice memo. Yeah,
+ 
+
+291
+00:04:48,520 --> 00:04:50,390
+give us back the final voice memo. Yeah,
+the internet is down because that router
+
+292
+00:04:50,390 --> 00:04:50,400
+the internet is down because that router
+ 
+
+293
+00:04:50,400 --> 00:04:52,470
+the internet is down because that router
+port is cooked. Unplug it and replace
+
+294
+00:04:52,470 --> 00:04:52,480
+port is cooked. Unplug it and replace
+ 
+
+295
+00:04:52,480 --> 00:04:54,310
+port is cooked. Unplug it and replace
+the router, unless electrical fire was
+
+296
+00:04:54,310 --> 00:04:54,320
+the router, unless electrical fire was
+ 
+
+297
+00:04:54,320 --> 00:04:56,110
+the router, unless electrical fire was
+the plan. But from there, I can forward
+
+298
+00:04:56,110 --> 00:04:56,120
+the plan. But from there, I can forward
+ 
+
+299
+00:04:56,120 --> 00:04:57,990
+the plan. But from there, I can forward
+the memo to Uncle Frank, achieving what
+
+300
+00:04:57,990 --> 00:04:58,000
+the memo to Uncle Frank, achieving what
+ 
+
+301
+00:04:58,000 --> 00:04:59,550
+the memo to Uncle Frank, achieving what
+every computer programmer has always
+
+302
+00:04:59,550 --> 00:04:59,560
+every computer programmer has always
+ 
+
+303
+00:04:59,560 --> 00:05:01,350
+every computer programmer has always
+dreamed of, emotional detachment from
+
+304
+00:05:01,350 --> 00:05:01,360
+dreamed of, emotional detachment from
+ 
+
+305
+00:05:01,360 --> 00:05:03,430
+dreamed of, emotional detachment from
+your family at scale. Huge thanks again
+
+306
+00:05:03,430 --> 00:05:03,440
+your family at scale. Huge thanks again
+ 
+
+307
+00:05:03,440 --> 00:05:05,430
+your family at scale. Huge thanks again
+to Hostinger for sponsoring this video,
+
+308
+00:05:05,430 --> 00:05:05,440
+to Hostinger for sponsoring this video,
+ 
+
+309
+00:05:05,440 --> 00:05:07,510
+to Hostinger for sponsoring this video,
+and get your own VPS using the discount
+
+310
+00:05:07,510 --> 00:05:07,520
+and get your own VPS using the discount
+ 
+
+311
+00:05:07,520 --> 00:05:09,630
+and get your own VPS using the discount
+code Fireship at the link below. This
+
+312
+00:05:09,630 --> 00:05:09,640
+code Fireship at the link below. This
+ 
+
+313
+00:05:09,640 --> 00:05:11,030
+code Fireship at the link below. This
+has been the Code Report. Thanks for
+
+314
+00:05:11,030 --> 00:05:11,040
+has been the Code Report. Thanks for
+ 
+
+315
+00:05:11,040 --> 00:05:12,710
+has been the Code Report. Thanks for
+watching, and I will see you in the next
+
+316
+00:05:12,710 --> 00:05:12,720
+watching, and I will see you in the next
+ 
+
+317
+00:05:12,720 --> 00:05:15,080
+watching, and I will see you in the next
+one.
+
