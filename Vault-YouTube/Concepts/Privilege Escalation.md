@@ -8,3 +8,4 @@
 
 ## Seen in
 - [[2026-05-04 - 732 bytes of Python just borked every Linux machine on earth… [lkifbWtxxlk]]]
+- [[2026-04-10 - Claude Mythos is too dangerous for public consumption... [d3Qq-rkp_to]]]

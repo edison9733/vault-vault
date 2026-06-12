@@ -4,7 +4,7 @@
 ## Recurring concepts (with running counts)
 <!-- format: - [[Concept]] - count N - short gloss -->
 - [[OpenAI]] - count 2 - appears in both Google IO and Musk trial videos; central node for AI industry coverage
-- [[Anthropic]] - count 2 - Google's named rival; rapid product expansion: Claude Code → Opus 4.7 → Claude Design (April 2026), disrupting Figma directly
+- [[Anthropic]] - count 3 - Google's named rival; rapid product expansion: Claude Code → Opus 4.7 → Claude Design → Claude Mythos (withheld, April 2026)
 - [[Gemini]] - count 1 - Google's AI family; flagship of the agentic era strategy
 - [[Agentic AI Era]] - count 3 - Google's 2026 paradigm; root cause of GitHub failures; also the demand driving personal AI assistants like OpenClaw
 - [[Multimodal AI]] - count 1 - Gemini Omni as flagship natively multimodal model
@@ -18,7 +18,7 @@
 - [[Trusted Publishing]] - count 1 - OIDC-based short-lived token issuance; bypassed by CI cache poisoning, not token theft
 - [[pnpm]] - count 1 - npm alternative; v11 default security features (release age, exotic subdeps, approved builds)
 - [[Dead Man's Switch]] - count 1 - malware tactic: nukes machine if stolen token is revoked/expires
-- [[Kernel]] - count 2 - core OS layer; target of CVE-2026-31431 (AF_ALG splice bug → page cache misdirection)
+- [[Kernel]] - count 3 - core OS layer; target of CVE-2026-31431; also target of Mythos's bit-flip root exploit and browser JS engine sandbox escapes
 - [[Privilege Rings]] - count 2 - CPU-enforced separation: Ring 0 (kernel) vs Ring 3 (user space)
 - [[Virtual Memory]] - count 1 - OS abstraction giving each process a private fake address space via MMU
 - [[File System]] - count 1 - maps raw disk blocks to named files/folders; uses inodes + journaling
@@ -27,8 +27,8 @@
 - [[Threads]] - count 1 - lightweight execution within a process; share memory; risk race conditions
 - [[Scheduler]] - count 1 - decides which process/thread runs on which CPU core (EEVDF on Linux)
 - [[IPC]] - count 1 - interprocess communication: pipes, sockets, message queues
-- [[AI-Assisted Vulnerability Discovery]] - count 1 - AI agents (Theory) found copy-fail kernel CVE in ~1 hr; $7M gray-market value
-- [[Privilege Escalation]] - count 1 - unprivileged user→root via kernel bug; copy-fail (CVE-2026-31431) canonical 2026 example
+- [[AI-Assisted Vulnerability Discovery]] - count 2 - AI agents (Theory) found copy-fail kernel CVE in ~1 hr; Claude Mythos ran 1000 parallel agents at $20K/run to find OpenBSD zero-day
+- [[Privilege Escalation]] - count 2 - unprivileged user→root via kernel bug; copy-fail CVE-2026-31431 AND Mythos's Linux kernel bit-flip exploit are canonical 2026 examples
 - [[Page Cache]] - count 1 - kernel RAM cache for file data; copy-fail redirected writes here to corrupt su binary
 - [[AF_ALG]] - count 1 - Linux kernel crypto socket interface; splice bug was root cause of copy-fail exploit
 - [[Solana]] - count 3 - high-throughput blockchain; $1T volume 2025; primary platform for DeFi and on-chain app development via Anchor; escrow is the canonical intermediate dev exercise
@@ -56,10 +56,20 @@
 - [[Escrow Program]] - count 1 - fundamental blockchain primitive: holds assets in trust until condition met, then auto-releases; core logic for DEXs, NFT markets, freelance platforms
 - [[DEX]] - count 1 - decentralized exchange running as smart contracts; uses escrow logic for atomic trustless token swaps
 - [[LiteSVM]] - count 1 - lightweight in-process Solana VM for testing Anchor programs; replaces slow local validator with near-instant test loop
+- [[Zero-day Vulnerability]] - count 1 - unknown bug with no patch; Mythos found zero-days autonomously in FFmpeg (16-yr-old), OpenBSD (27-yr-old), all major browsers, and Linux kernel
+- [[Claude Mythos]] - count 1 - Anthropic's withheld model (internal use Feb 24 2026); too dangerous for public per Anthropic; accessible only via Project Glasswing enterprise coalition
+- [[Project Glasswing]] - count 1 - Anthropic's enterprise-only access program for Mythos; frames safety restriction as exclusive product launch for trillion-dollar companies
+- [[Browser Sandbox]] - count 1 - JS engine isolation layer; Mythos found escape bugs in every major browser (cross-site theft + kernel write vectors)
+- [[Gemma 4]] - count 1 - Google's April 2026 open-source LLM; Apache 2.0; 31B parameters runs on single RTX 4090; matches Kimmi K 2.5 thinking benchmarks
+- [[Apache 2.0 License]] - count 1 - genuinely permissive open-source license; distinguishes Gemma 4 from quasi-open models (Meta Llama, older open-weight releases)
+- [[Quantization]] - count 1 - weight compression technique; classic tradeoff: smaller model but weaker; TurboQuant attempts to break this tradeoff
+- [[TurboQuant]] - count 1 - Google's polar-coordinate + Johnson-Lindenstrauss quantization; powers Gemma 4's extreme size/quality ratio
+- [[Per-layer Embeddings]] - count 1 - each transformer layer gets its own token embedding; injects information when useful; key to Gemma 4 "E" models (E2B, E4B)
+- [[VRAM]] - count 1 - GPU memory; the real LLM bottleneck is VRAM bandwidth, not compute; Gemma 4 attacks this directly
 
 ## Channel themes
 <!-- format: - <channel>: <theme summary> -->
-- The Code Report (Fireship): Sardonic developer-news commentary covering AI industry, security, and CS fundamentals. Two registers: (1) genuine factual reporting on real events/products, (2) humorous framing and nicknames ("mini shai hulud" for npm worm, "trust me bro benchmarks") that signal skepticism without invalidating the underlying data. Videos range 5-11 minutes; audience is developers. Eight videos reviewed to date.
+- The Code Report (Fireship): Sardonic developer-news commentary covering AI industry, security, and CS fundamentals. Two registers: (1) genuine factual reporting on real events/products, (2) humorous framing and nicknames ("mini shai hulud" for npm worm, "trust me bro benchmarks") that signal skepticism without invalidating the underlying data. Videos range 5-11 minutes; audience is developers. Ten videos reviewed to date.
 
 ## Cross-links discovered
 <!-- format: - [[A]] relates to [[B]] - why -->
@@ -94,3 +104,9 @@
 - [[Command and Control]] ↔ [[Smart Contract]] — Ethereum smart contract used for C&C domain resolution in 2026 WordPress attack; immutable blockchain record defeats domain-seizure takedowns by allowing attacker to redirect C&C at will
 - [[Escrow Program]] ↔ [[DEX]] ↔ [[DeFi]] — escrow is the foundational primitive for atomic trustless swaps; DEX token-swap logic IS an escrow contract; learning escrow unlocks the core of most DeFi protocols simultaneously
 - [[LiteSVM]] ↔ [[Anchor Framework]] — LiteSVM is the preferred fast-iteration testing runtime for Anchor; replaces local validator with in-process Solana VM, collapsing test cycle from seconds to milliseconds
+- [[Claude Mythos]] ↔ [[Zero-day Vulnerability]] ↔ [[AI-Assisted Vulnerability Discovery]] — Mythos is the first publicly acknowledged model to autonomously discover zero-days at scale (16-yr FFmpeg, 27-yr OpenBSD, all major browser sandboxes); cost: $20K/exploit at 1000 parallel agent runs
+- [[Claude Mythos]] ↔ [[Project Glasswing]] ↔ [[Anthropic]] — Glasswing gates Mythos access to enterprise customers; "too dangerous for public, safe for corporations" is the editorial story Fireship is telling
+- [[Zero-day Vulnerability]] ↔ [[Browser Sandbox]] — Mythos's browser exploits chain directly: JS engine zero-day → sandbox escape → (a) cross-site theft or (b) kernel write → full device control
+- [[Gemma 4]] ↔ [[TurboQuant]] ↔ [[Per-layer Embeddings]] — these three always co-appear; TurboQuant and per-layer embeddings are the two techniques jointly explaining Gemma 4's size/quality achievement
+- [[VRAM]] ↔ [[Quantization]] ↔ [[TurboQuant]] — VRAM bandwidth is the LLM bottleneck; quantization reduces it; TurboQuant is Google's 2026 answer to doing this without quality loss
+- [[Gemma 4]] ↔ [[Apache 2.0 License]] — Apache 2.0 is what makes Gemma 4 editorially significant vs. prior "open" releases (Llama's leverage clauses, research-only restrictions)

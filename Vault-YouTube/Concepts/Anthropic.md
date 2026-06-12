@@ -9,3 +9,4 @@
 ## Seen in
 - [[2026-05-22 - Google's AI endgame is here… everything you missed at I⧸O 2026 [9OQ5vaYbGV0]]]
 - [[2026-04-21 - Claude just got another superpower... [jeA-KBv0b68]]]
+- [[2026-04-10 - Claude Mythos is too dangerous for public consumption... [d3Qq-rkp_to]]]
