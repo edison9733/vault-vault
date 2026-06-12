@@ -4,9 +4,9 @@
 ## Recurring concepts (with running counts)
 <!-- format: - [[Concept]] - count N - short gloss -->
 - [[OpenAI]] - count 2 - appears in both Google IO and Musk trial videos; central node for AI industry coverage
-- [[Anthropic]] - count 1 - named as Google's key rival in the "interface to reality" race
+- [[Anthropic]] - count 2 - Google's named rival; rapid product expansion: Claude Code → Opus 4.7 → Claude Design (April 2026), disrupting Figma directly
 - [[Gemini]] - count 1 - Google's AI family; flagship of the agentic era strategy
-- [[Agentic AI Era]] - count 2 - Google's 2026 paradigm of AI agents acting autonomously; also the root cause of GitHub's infrastructure failures (AI agent traffic overwhelming the platform)
+- [[Agentic AI Era]] - count 3 - Google's 2026 paradigm; root cause of GitHub failures; also the demand driving personal AI assistants like OpenClaw
 - [[Multimodal AI]] - count 1 - Gemini Omni as flagship natively multimodal model
 - [[AI Coding IDE]] - count 1 - category shifting from code-writing to agent orchestration (Anti-gravity, Cursor, Codex)
 - [[xAI]] - count 1 - Musk's AI company; Grok admitted to using OpenAI model outputs
@@ -43,10 +43,17 @@
 - [[Anchor Framework]] - count 1 - standard Solana smart contract dev toolkit; Anchor CLI sets up workspace, handles boilerplate
 - [[CRUD]] - count 1 - create/read/update/delete; canonical on-chain data management pattern in Solana development
 - [[Smart Contract]] - count 1 - blockchain program executing autonomously; called "programs" on Solana; built with Anchor in Rust
+- [[OpenClaw]] - count 1 - open-source personal AI assistant by Peter Steinberger; self-hosted, voice-clonable, Telegram-integrated
+- [[Claude Design]] - count 1 - Anthropic's AI UI/UX tool; generates interactive prototypes from Figma files; caused Figma stock to drop 7%
+- [[Opus 4.7]] - count 1 - Anthropic flagship model (April 2026); 3.75 MP vision, 87.6% SWE-bench; powers Claude Design
+- [[Voice Cloning]] - count 1 - AI voice synthesis from samples; enables autonomous agents to respond in the owner's voice
+- [[ElevenLabs]] - count 1 - leading voice cloning API; used in OpenClaw pipeline to produce voice memos
+- [[Google Stitch]] - count 1 - Google's AI UI design tool; faster than Claude Design but weaker on interactivity and animations
+- [[Figma]] - count 1 - dominant UI design tool; stock dropped 7% on Claude Design announcement
 
 ## Channel themes
 <!-- format: - <channel>: <theme summary> -->
-- The Code Report (Fireship): Sardonic developer-news commentary covering AI industry, security, and CS fundamentals. Two registers: (1) genuine factual reporting on real events/products, (2) humorous framing and nicknames ("mini shai hulud" for npm worm, "trust me bro benchmarks") that signal skepticism without invalidating the underlying data. Videos range 5-11 minutes; audience is developers. Six videos reviewed to date.
+- The Code Report (Fireship): Sardonic developer-news commentary covering AI industry, security, and CS fundamentals. Two registers: (1) genuine factual reporting on real events/products, (2) humorous framing and nicknames ("mini shai hulud" for npm worm, "trust me bro benchmarks") that signal skepticism without invalidating the underlying data. Videos range 5-11 minutes; audience is developers. Eight videos reviewed to date.
 
 ## Cross-links discovered
 <!-- format: - [[A]] relates to [[B]] - why -->
@@ -72,3 +79,8 @@
 - [[Enshittification]] ↔ [[GitHub]] ↔ [[Agentic AI Era]] — GitHub improved post-2018 then declined sharply; agentic AI load accelerated the trajectory; Mitchell Hashimoto exodus is the canonical human-cost signal
 - [[Anchor Framework]] ↔ [[Solana]] ↔ [[CRUD]] — Anchor is the standard Solana dev toolkit; CRUD app is the canonical entry exercise for on-chain development
 - [[Smart Contract]] ↔ [[DeFi]] ↔ [[Solana]] — DeFi protocols are composed of smart contracts; Solana's throughput advantage applies equally to financial and CRUD-style on-chain programs
+- [[Claude Design]] ↔ [[Opus 4.7]] — Claude Design is built exclusively on Opus 4.7; these always co-appear; high-res vision is what makes the design tool viable
+- [[Claude Design]] ↔ [[Figma]] — Claude Design accepts Figma file imports and substitutes for Figma in the design workflow; 7% Figma stock drop signals market's read of the threat
+- [[Claude Design]] ↔ [[Google Stitch]] — direct competitors in AI UI generation; Claude wins on interactivity/animations, Stitch wins on speed
+- [[OpenClaw]] ↔ [[Voice Cloning]] ↔ [[ElevenLabs]] — OpenClaw pipeline: agent drafts text → ElevenLabs synthesizes in owner's cloned voice → Telegram voice memo; voice cloning closes the human-impersonation loop
+- [[OpenClaw]] ↔ [[Agentic AI Era]] — OpenClaw is the consumer-tier materialization of the agentic era: a personal AI agent that acts autonomously on the owner's behalf in their own voice

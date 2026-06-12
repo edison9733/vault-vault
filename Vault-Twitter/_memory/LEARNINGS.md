@@ -8,3 +8,5 @@
 - [2026-06-12] Teaser tweets with no informational content ("Something is cooking", "Wow @X") always score ≤2, regardless of account reliability — wait for the announcement tweet.
 - [2026-06-12] @federalreserve quantitative data releases (G.19 consumer credit, Z.1 flow of funds) score 7-8; governor speech announcements score 6-7; educational FAQs, calendar links, and trivia RTs score ≤4.
 - [2026-06-12] First-milestone tweets for a DeFi primitive (first major loan, first leveraged product live) score 7-8 even when the protocol is young; the milestone is the news, not the protocol's maturity.
+- [2026-06-12] Fed routine weekly link tweets (H.8 commercial bank assets, H.4.1 balance sheet) posted as bare links with no headline numbers in the tweet body score 4-5 — distinct from named statistical releases (G.19, Z.1) which score 7-8.
+- [2026-06-12] When the Fed posts an advance notice of a vice chair testimony (day before, score 6) and then the live testimony tweet (score 7), include both in the digest but flag the advance notice as context only; they are one event, not two.

@@ -9,3 +9,4 @@
 ## Seen in
 - [[2026-05-22 - Google's AI endgame is here… everything you missed at I⧸O 2026 [9OQ5vaYbGV0]]]
 - [[2026-04-30 - GitHub is having some major issues right now… [d53Zk28esmU]]]
+- [[2026-04-23 - I finally found a use case for OpenClaw… [FM5-R4VPArw]]]
