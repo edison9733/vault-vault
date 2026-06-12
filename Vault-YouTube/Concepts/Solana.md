@@ -9,3 +9,4 @@
 ## Seen in
 - [[2026-05-05 - Learn about why you should trade on solana in the linked video #trading [73Jyz7YZNLk]]]
 - [[2026-04-29 - Build a CRUD app with me in the linked tutorial [zGR6WvLLo1Q]]]
+- [[2026-04-16 - Learn how to build an escrow program on a blockchain in the linked tutorial [x-OQJ2X5q30]]]

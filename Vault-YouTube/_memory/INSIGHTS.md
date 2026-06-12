@@ -12,7 +12,7 @@
 - [[xAI]] - count 1 - Musk's AI company; Grok admitted to using OpenAI model outputs
 - [[Musk vs Altman Trial]] - count 1 - defining AI governance case of 2026
 - [[TPU]] - count 1 - Google's custom AI chip, now split into training and inference variants
-- [[Supply Chain Attack]] - count 1 - core attack class: compromise a trusted dependency to reach millions of downstream users
+- [[Supply Chain Attack]] - count 2 - core attack class: two variants seen: (1) malicious package injection (npm/PyPI), (2) legitimate marketplace acquisition (Flippa) — both exploit trusted update channels
 - [[NPM Registry]] - count 1 - JS package distribution hub; primary surface for supply chain attacks on web developers
 - [[GitHub Actions]] - count 2 - CI/CD system; root cause of TanStack worm AND a feature of GitHub whose reliability degraded in the AI coding era
 - [[Trusted Publishing]] - count 1 - OIDC-based short-lived token issuance; bypassed by CI cache poisoning, not token theft
@@ -31,7 +31,7 @@
 - [[Privilege Escalation]] - count 1 - unprivileged user→root via kernel bug; copy-fail (CVE-2026-31431) canonical 2026 example
 - [[Page Cache]] - count 1 - kernel RAM cache for file data; copy-fail redirected writes here to corrupt su binary
 - [[AF_ALG]] - count 1 - Linux kernel crypto socket interface; splice bug was root cause of copy-fail exploit
-- [[Solana]] - count 2 - high-throughput blockchain; $1T volume 2025; primary platform for DeFi and on-chain app development via Anchor
+- [[Solana]] - count 3 - high-throughput blockchain; $1T volume 2025; primary platform for DeFi and on-chain app development via Anchor; escrow is the canonical intermediate dev exercise
 - [[DeFi]] - count 1 - on-chain permissionless finance; Yakovenko predicts DeFi/TradFi convergence within 10 years
 - [[GitHub]] - count 1 - central code hosting platform; triple crisis week of April 23–28 2026: merge queue failure, botnet DDoS, RCE disclosure
 - [[Git]] - count 1 - distributed VCS; foundation of GitHub; 2026 RCE allowed git push to execute arbitrary code on GitHub servers
@@ -40,9 +40,9 @@
 - [[Botnet]] - count 1 - DDoS tool; took down GitHub Elasticsearch search via botnet attack, April 27 2026
 - [[Enshittification]] - count 1 - platform decay pattern; GitHub improved post-2018 then declined; Mitchell Hashimoto exodus as signal
 - [[Uptime]] - count 1 - GitHub ~86% in April 2026 per third-party monitoring; own status page claimed >99%
-- [[Anchor Framework]] - count 1 - standard Solana smart contract dev toolkit; Anchor CLI sets up workspace, handles boilerplate
+- [[Anchor Framework]] - count 2 - standard Solana smart contract dev toolkit; Anchor CLI sets up workspace, handles boilerplate; tested with LiteSVM for fast iteration
 - [[CRUD]] - count 1 - create/read/update/delete; canonical on-chain data management pattern in Solana development
-- [[Smart Contract]] - count 1 - blockchain program executing autonomously; called "programs" on Solana; built with Anchor in Rust
+- [[Smart Contract]] - count 2 - blockchain program executing autonomously; called "programs" on Solana; also used for attacker-controlled C&C domain resolution (Ethereum) in WordPress attack
 - [[OpenClaw]] - count 1 - open-source personal AI assistant by Peter Steinberger; self-hosted, voice-clonable, Telegram-integrated
 - [[Claude Design]] - count 1 - Anthropic's AI UI/UX tool; generates interactive prototypes from Figma files; caused Figma stock to drop 7%
 - [[Opus 4.7]] - count 1 - Anthropic flagship model (April 2026); 3.75 MP vision, 87.6% SWE-bench; powers Claude Design
@@ -50,6 +50,12 @@
 - [[ElevenLabs]] - count 1 - leading voice cloning API; used in OpenClaw pipeline to produce voice memos
 - [[Google Stitch]] - count 1 - Google's AI UI design tool; faster than Claude Design but weaker on interactivity and animations
 - [[Figma]] - count 1 - dominant UI design tool; stock dropped 7% on Claude Design announcement
+- [[WordPress]] - count 1 - world's most popular CMS (~43% of all websites); 96% of vulnerabilities from plugin architecture; targeted by acquisition-based supply chain attack 2026
+- [[WordPress Plugin Architecture]] - count 1 - PHP plugins run with full server privileges and zero isolation; root cause of 96% of WordPress CVEs; Cloudflare "m-" project proposes capability-binding model as fix
+- [[Command and Control]] - count 1 - malware C&C infrastructure; 2026 WordPress attack used Ethereum smart contract for resilient C&C domain resolution, defeating standard domain-seizure takedowns
+- [[Escrow Program]] - count 1 - fundamental blockchain primitive: holds assets in trust until condition met, then auto-releases; core logic for DEXs, NFT markets, freelance platforms
+- [[DEX]] - count 1 - decentralized exchange running as smart contracts; uses escrow logic for atomic trustless token swaps
+- [[LiteSVM]] - count 1 - lightweight in-process Solana VM for testing Anchor programs; replaces slow local validator with near-instant test loop
 
 ## Channel themes
 <!-- format: - <channel>: <theme summary> -->
@@ -84,3 +90,7 @@
 - [[Claude Design]] ↔ [[Google Stitch]] — direct competitors in AI UI generation; Claude wins on interactivity/animations, Stitch wins on speed
 - [[OpenClaw]] ↔ [[Voice Cloning]] ↔ [[ElevenLabs]] — OpenClaw pipeline: agent drafts text → ElevenLabs synthesizes in owner's cloned voice → Telegram voice memo; voice cloning closes the human-impersonation loop
 - [[OpenClaw]] ↔ [[Agentic AI Era]] — OpenClaw is the consumer-tier materialization of the agentic era: a personal AI agent that acts autonomously on the owner's behalf in their own voice
+- [[WordPress Plugin Architecture]] ↔ [[Supply Chain Attack]] — full-privilege plugin execution makes each third-party plugin a potential total-compromise vector; acquisition of trusted plugins bypasses all code-review defenses
+- [[Command and Control]] ↔ [[Smart Contract]] — Ethereum smart contract used for C&C domain resolution in 2026 WordPress attack; immutable blockchain record defeats domain-seizure takedowns by allowing attacker to redirect C&C at will
+- [[Escrow Program]] ↔ [[DEX]] ↔ [[DeFi]] — escrow is the foundational primitive for atomic trustless swaps; DEX token-swap logic IS an escrow contract; learning escrow unlocks the core of most DeFi protocols simultaneously
+- [[LiteSVM]] ↔ [[Anchor Framework]] — LiteSVM is the preferred fast-iteration testing runtime for Anchor; replaces local validator with in-process Solana VM, collapsing test cycle from seconds to milliseconds

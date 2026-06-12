@@ -8,3 +8,4 @@
 
 ## Seen in
 - [[2026-05-14 - A single PR just hijacked the NPM registry... [gwTQLZSIlsU]]]
+- [[2026-04-16 - Millions of WordPress sites just got hacked... again [piah4fV_o2Q]]]
