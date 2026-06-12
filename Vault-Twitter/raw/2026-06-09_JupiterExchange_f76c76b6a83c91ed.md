@@ -2,7 +2,8 @@
 handle: "@JupiterExchange"
 url: "https://x.com/JupiterExchange/status/2064346670247424374"
 date: 2026-06-09
-processed: false
+processed: true
+score: 4
 ---
 
 DeFi vaults, in 10 minutes.

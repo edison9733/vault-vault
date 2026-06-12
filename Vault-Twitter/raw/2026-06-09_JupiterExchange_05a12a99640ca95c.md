@@ -2,7 +2,8 @@
 handle: "@JupiterExchange"
 url: "https://x.com/JupiterExchange/status/2064336918557397464"
 date: 2026-06-09
-processed: false
+processed: true
+score: 6
 ---
 
 RT JUP ZH 中文

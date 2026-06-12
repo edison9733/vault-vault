@@ -2,7 +2,8 @@
 handle: "@JupiterExchange"
 url: "https://x.com/JupiterExchange/status/2064796955684008347"
 date: 2026-06-10
-processed: false
+processed: true
+score: 7
 ---
 
 RT Jupiter Spot

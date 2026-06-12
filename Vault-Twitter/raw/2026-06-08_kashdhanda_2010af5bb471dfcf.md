@@ -2,7 +2,8 @@
 handle: "@kashdhanda"
 url: "https://x.com/kashdhanda/status/2063917450174099465"
 date: 2026-06-08
-processed: false
+processed: true
+score: 5
 ---
 
 are people still interested in no-loss lotteries?

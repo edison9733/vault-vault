@@ -6,7 +6,7 @@
 - [[OpenAI]] - count 2 - appears in both Google IO and Musk trial videos; central node for AI industry coverage
 - [[Anthropic]] - count 1 - named as Google's key rival in the "interface to reality" race
 - [[Gemini]] - count 1 - Google's AI family; flagship of the agentic era strategy
-- [[Agentic AI Era]] - count 1 - Google's declared 2026 paradigm: AI agents embedded in every product surface
+- [[Agentic AI Era]] - count 2 - Google's 2026 paradigm of AI agents acting autonomously; also the root cause of GitHub's infrastructure failures (AI agent traffic overwhelming the platform)
 - [[Multimodal AI]] - count 1 - Gemini Omni as flagship natively multimodal model
 - [[AI Coding IDE]] - count 1 - category shifting from code-writing to agent orchestration (Anti-gravity, Cursor, Codex)
 - [[xAI]] - count 1 - Musk's AI company; Grok admitted to using OpenAI model outputs
@@ -14,7 +14,7 @@
 - [[TPU]] - count 1 - Google's custom AI chip, now split into training and inference variants
 - [[Supply Chain Attack]] - count 1 - core attack class: compromise a trusted dependency to reach millions of downstream users
 - [[NPM Registry]] - count 1 - JS package distribution hub; primary surface for supply chain attacks on web developers
-- [[GitHub Actions]] - count 1 - CI/CD system; misconfigured pull_request_target trigger was root cause of TanStack worm
+- [[GitHub Actions]] - count 2 - CI/CD system; root cause of TanStack worm AND a feature of GitHub whose reliability degraded in the AI coding era
 - [[Trusted Publishing]] - count 1 - OIDC-based short-lived token issuance; bypassed by CI cache poisoning, not token theft
 - [[pnpm]] - count 1 - npm alternative; v11 default security features (release age, exotic subdeps, approved builds)
 - [[Dead Man's Switch]] - count 1 - malware tactic: nukes machine if stolen token is revoked/expires
@@ -31,12 +31,22 @@
 - [[Privilege Escalation]] - count 1 - unprivileged user→root via kernel bug; copy-fail (CVE-2026-31431) canonical 2026 example
 - [[Page Cache]] - count 1 - kernel RAM cache for file data; copy-fail redirected writes here to corrupt su binary
 - [[AF_ALG]] - count 1 - Linux kernel crypto socket interface; splice bug was root cause of copy-fail exploit
-- [[Solana]] - count 1 - high-throughput blockchain; $1T volume 2025; Yakovenko: will become infrastructure of all finance
+- [[Solana]] - count 2 - high-throughput blockchain; $1T volume 2025; primary platform for DeFi and on-chain app development via Anchor
 - [[DeFi]] - count 1 - on-chain permissionless finance; Yakovenko predicts DeFi/TradFi convergence within 10 years
+- [[GitHub]] - count 1 - central code hosting platform; triple crisis week of April 23–28 2026: merge queue failure, botnet DDoS, RCE disclosure
+- [[Git]] - count 1 - distributed VCS; foundation of GitHub; 2026 RCE allowed git push to execute arbitrary code on GitHub servers
+- [[Remote Code Execution]] - count 1 - critical vuln class (CVSS 9–10); GitHub disclosed RCE same day CTO posted reliability apology
+- [[Merge Queue]] - count 1 - GitHub feature; silently unmerged 2,092 PRs across 658 repos on April 23 2026
+- [[Botnet]] - count 1 - DDoS tool; took down GitHub Elasticsearch search via botnet attack, April 27 2026
+- [[Enshittification]] - count 1 - platform decay pattern; GitHub improved post-2018 then declined; Mitchell Hashimoto exodus as signal
+- [[Uptime]] - count 1 - GitHub ~86% in April 2026 per third-party monitoring; own status page claimed >99%
+- [[Anchor Framework]] - count 1 - standard Solana smart contract dev toolkit; Anchor CLI sets up workspace, handles boilerplate
+- [[CRUD]] - count 1 - create/read/update/delete; canonical on-chain data management pattern in Solana development
+- [[Smart Contract]] - count 1 - blockchain program executing autonomously; called "programs" on Solana; built with Anchor in Rust
 
 ## Channel themes
 <!-- format: - <channel>: <theme summary> -->
-- The Code Report (Fireship): Sardonic developer-news commentary covering AI industry, security, and CS fundamentals. Two registers: (1) genuine factual reporting on real events/products, (2) humorous framing and nicknames ("mini shai hulud" for npm worm, "trust me bro benchmarks") that signal skepticism without invalidating the underlying data. Videos range 5-11 minutes; audience is developers. Five videos reviewed to date.
+- The Code Report (Fireship): Sardonic developer-news commentary covering AI industry, security, and CS fundamentals. Two registers: (1) genuine factual reporting on real events/products, (2) humorous framing and nicknames ("mini shai hulud" for npm worm, "trust me bro benchmarks") that signal skepticism without invalidating the underlying data. Videos range 5-11 minutes; audience is developers. Six videos reviewed to date.
 
 ## Cross-links discovered
 <!-- format: - [[A]] relates to [[B]] - why -->
@@ -57,3 +67,8 @@
 - [[Privilege Escalation]] ↔ [[AF_ALG]] ↔ [[Page Cache]] — the copy-fail (CVE-2026-31431) exploit chain: AF_ALG splice bug misdirects a 4-byte write into the page cache of the read-only su binary → instant root
 - [[Solana]] ↔ [[DeFi]] — Solana is the primary execution layer for DeFi; Yakovenko's thesis: on-chain latency wins pull all finance onto the chain within 10 years
 - [[AI-Assisted Vulnerability Discovery]] ↔ [[Agentic AI Era]] — automated kernel exploit discovery is the offensive mirror of the agentic era; same AI agent capabilities enabling productivity tools also enable zero-day research
+- [[Agentic AI Era]] ↔ [[GitHub]] — AI agent traffic is the direct, CTO-admitted cause of GitHub's 2026 reliability failures; agentic era is hammering legacy infrastructure at unprecedented scale
+- [[Remote Code Execution]] ↔ [[GitHub]] ↔ [[Git]] — April 28 2026: crafted git push triggered arbitrary code execution on GitHub servers; disclosed simultaneously with reliability apology
+- [[Enshittification]] ↔ [[GitHub]] ↔ [[Agentic AI Era]] — GitHub improved post-2018 then declined sharply; agentic AI load accelerated the trajectory; Mitchell Hashimoto exodus is the canonical human-cost signal
+- [[Anchor Framework]] ↔ [[Solana]] ↔ [[CRUD]] — Anchor is the standard Solana dev toolkit; CRUD app is the canonical entry exercise for on-chain development
+- [[Smart Contract]] ↔ [[DeFi]] ↔ [[Solana]] — DeFi protocols are composed of smart contracts; Solana's throughput advantage applies equally to financial and CRUD-style on-chain programs

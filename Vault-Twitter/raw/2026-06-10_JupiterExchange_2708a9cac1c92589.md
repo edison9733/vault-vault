@@ -2,7 +2,8 @@
 handle: "@JupiterExchange"
 url: "https://x.com/JupiterExchange/status/2064734593518084508"
 date: 2026-06-10
-processed: false
+processed: true
+score: 5
 ---
 
 RT Jupiter Wallet
