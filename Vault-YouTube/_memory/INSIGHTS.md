@@ -31,7 +31,7 @@
 - [[Privilege Escalation]] - count 2 - unprivileged user→root via kernel bug; copy-fail CVE-2026-31431 AND Mythos's Linux kernel bit-flip exploit are canonical 2026 examples
 - [[Page Cache]] - count 1 - kernel RAM cache for file data; copy-fail redirected writes here to corrupt su binary
 - [[AF_ALG]] - count 1 - Linux kernel crypto socket interface; splice bug was root cause of copy-fail exploit
-- [[Solana]] - count 3 - high-throughput blockchain; $1T volume 2025; primary platform for DeFi and on-chain app development via Anchor; escrow is the canonical intermediate dev exercise
+- [[Solana]] - count 4 - high-throughput blockchain; $1T volume 2025; primary platform for DeFi and on-chain app development via Anchor; escrow is the canonical intermediate dev exercise; Solana Templates page is the recommended rapid-scaffold entry point
 - [[DeFi]] - count 1 - on-chain permissionless finance; Yakovenko predicts DeFi/TradFi convergence within 10 years
 - [[GitHub]] - count 1 - central code hosting platform; triple crisis week of April 23–28 2026: merge queue failure, botnet DDoS, RCE disclosure
 - [[Git]] - count 1 - distributed VCS; foundation of GitHub; 2026 RCE allowed git push to execute arbitrary code on GitHub servers
@@ -40,7 +40,9 @@
 - [[Botnet]] - count 1 - DDoS tool; took down GitHub Elasticsearch search via botnet attack, April 27 2026
 - [[Enshittification]] - count 1 - platform decay pattern; GitHub improved post-2018 then declined; Mitchell Hashimoto exodus as signal
 - [[Uptime]] - count 1 - GitHub ~86% in April 2026 per third-party monitoring; own status page claimed >99%
-- [[Anchor Framework]] - count 2 - standard Solana smart contract dev toolkit; Anchor CLI sets up workspace, handles boilerplate; tested with LiteSVM for fast iteration
+- [[Anchor Framework]] - count 3 - standard Solana smart contract dev toolkit; Anchor CLI sets up workspace, handles boilerplate; tested with LiteSVM for fast iteration; bundled in the Next.js Anchor template on Solana Templates page
+- [[Next.js]] - count 1 - React full-stack framework with SSR and file-based routing; default frontend in Solana dApp templates; deployed via Vercel
+- [[Solana Templates]] - count 1 - official Solana scaffold library; bundles frontend + wallet adapter + Anchor into ready-to-deploy dApp in under 5 minutes
 - [[CRUD]] - count 1 - create/read/update/delete; canonical on-chain data management pattern in Solana development
 - [[Smart Contract]] - count 2 - blockchain program executing autonomously; called "programs" on Solana; also used for attacker-controlled C&C domain resolution (Ethereum) in WordPress attack
 - [[OpenClaw]] - count 1 - open-source personal AI assistant by Peter Steinberger; self-hosted, voice-clonable, Telegram-integrated
@@ -110,3 +112,4 @@
 - [[Gemma 4]] ↔ [[TurboQuant]] ↔ [[Per-layer Embeddings]] — these three always co-appear; TurboQuant and per-layer embeddings are the two techniques jointly explaining Gemma 4's size/quality achievement
 - [[VRAM]] ↔ [[Quantization]] ↔ [[TurboQuant]] — VRAM bandwidth is the LLM bottleneck; quantization reduces it; TurboQuant is Google's 2026 answer to doing this without quality loss
 - [[Gemma 4]] ↔ [[Apache 2.0 License]] — Apache 2.0 is what makes Gemma 4 editorially significant vs. prior "open" releases (Llama's leverage clauses, research-only restrictions)
+- [[Solana Templates]] ↔ [[Next.js]] ↔ [[Anchor Framework]] — the Next.js + Anchor template is the canonical Solana dApp scaffold: templates page is the entry-point, Next.js is the frontend, Anchor is the smart contract layer
