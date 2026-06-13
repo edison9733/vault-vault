@@ -183,8 +183,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "a21657a1dd9a5a0c",
+  "active": "fbc516ec36952b6a",
   "lastOpenFiles": [
+    "raw/examples/top_website-builder_2026-06-13.json",
+    "_logs/launchd.err.log",
+    "_logs/launchd.out.log",
     "notes/zhayujie--CowAgent.md",
     "notes/thedaviddias--Front-End-Checklist.md",
     "notes/shareAI-lab--learn-claude-code.md",
