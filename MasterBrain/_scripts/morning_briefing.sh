@@ -1,7 +1,7 @@
 #!/bin/bash
-# morning_briefing.sh - daily 07:00: Claude writes briefings/YYYY-MM-DD.md
+# morning_briefing.sh - daily 07:00: DeepSeek writes briefings/YYYY-MM-DD.md
 # from all three vaults, then pushes a summary to your phone via ntfy.sh.
-# Flags: --test-push  (skip Claude, just test the phone notification)
+# Flags: --test-push  (skip briefing, just test the phone notification)
 export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 set -uo pipefail
 MB="$HOME/MasterBrain"
@@ -9,6 +9,7 @@ LOGS="$MB/_logs"; mkdir -p "$LOGS" "$MB/briefings"
 cd "$MB" || exit 1
 TOPIC="$(cat "$MB/_scripts/ntfy_topic.txt" 2>/dev/null || true)"
 DATE="$(date +%Y-%m-%d)"
+SCRIPT_DIR="$MB/_scripts"
 
 push () { # $1=title $2=body
   [ -z "$TOPIC" ] && return 0
@@ -22,15 +23,12 @@ if [ "${1:-}" = "--test-push" ]; then
   exit 0
 fi
 
-command -v claude >/dev/null 2>&1 || { echo "FATAL: claude not on PATH" >&2; exit 1; }
+command -v python3 >/dev/null 2>&1 || { echo "FATAL: python3 not on PATH" >&2; exit 1; }
 BFILE="briefings/$DATE.md"
 [ -f "$BFILE" ] && { echo "$(date) briefing already exists, skipping." >> "$LOGS/briefing.log"; exit 0; }
 
-claude -p "Write the morning briefing for $DATE following the MORNING BRIEFING section in CLAUDE.md exactly. Save it as $BFILE. Look only at notes/digests/index entries from the last 2 days." \
-  --output-format json \
-  --allowedTools "Read,Write,Glob,Grep" \
-  --max-turns 25 \
-  > "$LOGS/.briefing_last.json" 2>> "$LOGS/briefing.log"
+python3 "$SCRIPT_DIR/briefing_deepseek.py" \
+  >> "$LOGS/briefing.out.log" 2>> "$LOGS/briefing.log"
 RC=$?
 
 if [ -f "$BFILE" ]; then
@@ -41,6 +39,6 @@ if [ -f "$BFILE" ]; then
   echo "$(date) briefing written + pushed." >> "$LOGS/briefing.log"
 else
   echo "$(date) briefing FAILED (rc=$RC) - see briefing.log" >> "$LOGS/briefing.log"
-  push "Briefing failed" "Claude run failed this morning (rc=$RC). Check MasterBrain/_logs/briefing.log"
+  push "Briefing failed" "DeepSeek run failed this morning (rc=$RC). Check MasterBrain/_logs/briefing.log"
 fi
 exit "$RC"

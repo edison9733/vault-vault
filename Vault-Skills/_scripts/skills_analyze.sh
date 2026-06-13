@@ -40,9 +40,11 @@ STEP C: evaluate raw/skills-sources/ candidates not yet in Skills-Index.md; inst
 Also process any files in raw/clips/. Then do the REFLECTION STEP from CLAUDE.md once. If truly nothing new anywhere, reply 'nothing to do'."
 
 JSON_OUT="$SESSIONS/.last_run.json"
-claude -p "$PROMPT" --output-format json \
-  --allowedTools "Read,Write,Edit,Glob,Grep,WebFetch" --max-turns 60 \
-  > "$JSON_OUT" 2>> "$LOGS/analyze.log"
+python3 "$HOME/MasterBrain/_scripts/ds_agent.py" \
+  --cwd "$VAULT" --prompt "$PROMPT" \
+  --tools "Read,Write,Edit,Glob,Grep,WebFetch" --max-turns 60 \
+  --output-json "$JSON_OUT" \
+  2>> "$LOGS/analyze.log"
 RC=$?
 
 RESULT="$(jq -r '.result // ""' "$JSON_OUT" 2>/dev/null || echo "")"

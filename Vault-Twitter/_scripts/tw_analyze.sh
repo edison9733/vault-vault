@@ -26,9 +26,11 @@ $WORKLIST
 Do NOT touch any other raw files this run. After the last one, do the REFLECTION STEP from CLAUDE.md once."
 
 JSON_OUT="$SESSIONS/.last_run.json"
-claude -p "$PROMPT" --output-format json \
-  --allowedTools "Read,Write,Edit,Glob,Grep" --max-turns 40 \
-  > "$JSON_OUT" 2>> "$LOGS/analyze.log"
+python3 "$HOME/MasterBrain/_scripts/ds_agent.py" \
+  --cwd "$VAULT" --prompt "$PROMPT" \
+  --tools "Read,Write,Edit,Glob,Grep" --max-turns 40 \
+  --output-json "$JSON_OUT" \
+  2>> "$LOGS/analyze.log"
 RC=$?
 
 RESULT="$(jq -r '.result // ""' "$JSON_OUT" 2>/dev/null || echo "")"

@@ -13,7 +13,10 @@ find "$MEM/sessions" -type f \( -name '*.md' -o -name '*.jsonl' \) -mtime +14 -e
 # archive raw tweets older than 30 days (digests keep the curated history)
 mkdir -p "$VAULT/raw/archive"
 find "$VAULT/raw" -maxdepth 1 -name '*.md' -mtime +30 -exec mv {} "$VAULT/raw/archive/" \; 2>/dev/null || true
-claude -p 'Consolidation pass. (1) _memory/LEARNINGS.md: merge duplicate rules, resolve contradictions (most recent/specific wins), keep [YYYY-MM-DD] prefixes, under 100 lines, remove any "> NEEDS CONSOLIDATION" marker. (2) _memory/INSIGHTS.md: merge duplicate topics/people, tidy, under 150 lines. Touch ONLY files inside _memory/. Report changes.' \
-  --output-format json --allowedTools "Read,Write,Edit,Glob,Grep" --max-turns 20 \
-  > "$MEM/sessions/.consolidate_$(date +%Y-%m-%d).json" 2>> "$VAULT/_logs/consolidate.log"
+python3 "$HOME/MasterBrain/_scripts/ds_agent.py" \
+  --cwd "$VAULT" --max-turns 20 \
+  --tools "Read,Write,Edit,Glob,Grep" \
+  --output-json "$MEM/sessions/.consolidate_$(date +%Y-%m-%d).json" \
+  --prompt 'Consolidation pass. (1) _memory/LEARNINGS.md: merge duplicate rules, resolve contradictions (most recent/specific wins), keep [YYYY-MM-DD] prefixes, under 100 lines, remove any "> NEEDS CONSOLIDATION" marker. (2) _memory/INSIGHTS.md: merge duplicate topics/people, tidy, under 150 lines. Touch ONLY files inside _memory/. Report changes.' \
+  2>> "$VAULT/_logs/consolidate.log"
 echo "$(date) consolidation done" >> "$VAULT/_logs/consolidate.log"

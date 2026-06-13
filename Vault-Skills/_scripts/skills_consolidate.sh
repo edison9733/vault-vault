@@ -14,7 +14,10 @@ find "$MEM/sessions" -type f \( -name '*.md' -o -name '*.jsonl' \) -mtime +14 -e
 for d in raw/examples raw/skills-sources; do
   ls -1t "$d"/*.json 2>/dev/null | awk -F'_[0-9]{4}-' '{print}' | tail -n +30 | xargs rm -f 2>/dev/null || true
 done
-claude -p 'Consolidation pass. (1) _memory/LEARNINGS.md: merge duplicates, resolve contradictions (most recent/specific wins), keep [YYYY-MM-DD] prefixes, under 100 lines, remove any "> NEEDS CONSOLIDATION" marker. (2) _memory/INSIGHTS.md: merge duplicate patterns, tidy, under 150 lines. (3) Skills-Index.md: dedupe rows, keep newest verdicts. Touch ONLY _memory/ and Skills-Index.md. Report changes.' \
-  --output-format json --allowedTools "Read,Write,Edit,Glob,Grep" --max-turns 20 \
-  > "$MEM/sessions/.consolidate_$(date +%Y-%m-%d).json" 2>> "$VAULT/_logs/consolidate.log"
+python3 "$HOME/MasterBrain/_scripts/ds_agent.py" \
+  --cwd "$VAULT" --max-turns 20 \
+  --tools "Read,Write,Edit,Glob,Grep" \
+  --output-json "$MEM/sessions/.consolidate_$(date +%Y-%m-%d).json" \
+  --prompt 'Consolidation pass. (1) _memory/LEARNINGS.md: merge duplicates, resolve contradictions (most recent/specific wins), keep [YYYY-MM-DD] prefixes, under 100 lines, remove any "> NEEDS CONSOLIDATION" marker. (2) _memory/INSIGHTS.md: merge duplicate patterns, tidy, under 150 lines. (3) Skills-Index.md: dedupe rows, keep newest verdicts. Touch ONLY _memory/ and Skills-Index.md. Report changes.' \
+  2>> "$VAULT/_logs/consolidate.log"
 echo "$(date) consolidation done" >> "$VAULT/_logs/consolidate.log"
