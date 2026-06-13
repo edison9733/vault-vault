@@ -1,0 +1,10 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "num_turns": 5,
+  "result": "## Consolidation Report — Changes to `_memory/`\n\n### LEARNINGS.md\n\n| Before | After | Change |\n|--------|-------|--------|\n| **10 lines** (9 rules + header) | **8 lines** (7 rules + header) | ↓ 2 lines, well under 100-line cap |\n| Rules 6, 8, 9 — three separate @federalreserve entries | Rule 6 — one consolidated @federalreserve entry | **Merged duplicates**: all Fed scoring logic lives in a single rule covering named releases (7-8), weekly links (4-5), governor speeches (6-7), vice chair testimony + advance notice handling (6/7), and low-signal content (≤4). No contradictions existed (Rule 8 explicitly distinguished itself from Rule 6); merged without loss. |\n| — | — | No `> NEEDS CONSOLIDATION` markers found or removed. All entries retain `[2026-06-12]` prefixes. |\n\n### INSIGHTS.md\n\n| Before | After | Change |\n|--------|-------|--------|\n| Lines: ~98 | Lines: ~86 | ↓ ~12 lines, well under 150-line cap |\n| `[[Phygitals]]` wiki-link in jup_offerbook topic | `phygitals` (plain text) | **Consistency**: wiki-link syntax not needed for a non-entity reference |\n| `@Phygitals` parenthetical in jup_offerbook entry | Removed; the \"phygitals borrowing live\" text already covers it | **Deduplication**: handle reference was redundant (the concept is described inline) |\n| `[[Traded]]` wiki-link | `[[Traded]]` kept but surrounding text tidied | Cleaned up mixed wiki-link / plain-text formatting |\n| No other duplicate topics or people found | Structure unchanged | All 9 topics, 12 people/orgs, and 6 per-handle entries preserved |\n\n### Summary\n- **No data lost** — all scoring rules, topic counts, people annotations, and handle reliability notes are retained.\n- **3 Fed rules → 1 Fed rule** in LEARNINGS.md, eliminating redundancy while keeping all specificity.\n- **3 minor formatting tidies** in INSIGHTS.md for consistency.\n- Both files are well within their caps (8/100 lines and ~86/150 lines respectively).",
+  "session_id": "",
+  "total_cost_usd": 0,
+  "api_error_status": null
+}

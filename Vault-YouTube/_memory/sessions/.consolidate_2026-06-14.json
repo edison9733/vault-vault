@@ -1,0 +1,10 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "is_error": false,
+  "num_turns": 14,
+  "result": "Here is the consolidation report.\n\n---\n\n## Consolidation Report — `_memory/`\n\n### 1. `LEARNINGS.md` — No changes needed\n\n| Check | Status |\n|---|---|\n| Duplicate/near-duplicate rules | **None found.** All 15 rules are distinct (Chinese transcripts, investing wikilinks, Fireship humor/facts vs. nicknames, OS concepts, CVE classification, promo clips, outage docs, AI benchmarks, build pipelines, supply chain phases, blockchain C&C, withheld AI models, open-source LLM releases, SRT dedup). |\n| `> NEEDS CONSOLIDATION` markers | **None present.** The marker only exists as an instruction in `CLAUDE.md.bak` — not in `LEARNINGS.md` itself. Nothing to remove. |\n| Line count | **19 lines** — well under the 100-line cap. |\n| Date prefixes | All `[2026-06-12]` prefixes preserved. |\n\n**Result:** File rewritten with identical content; no merges or removals performed.\n\n---\n\n### 2. `INSIGHTS.md` — No changes needed\n\n| Check | Status |\n|---|---|\n| Duplicate concepts | **None found.** All 63 concept entries are unique (e.g., `Solana` count 4, `Anchor Framework` count 3 — these are distinct concepts, not duplicates). |\n| Count summing | **Not required.** Each concept appears exactly once with its own count. |\n| Cross-links tidiness | **Already tidy.** 38 cross-links, all distinct, no duplicate entries. |\n| Line count | **~113 lines** — well under the 150-line cap. |\n\n**Result:** File rewritten with identical content; no merges or removals performed.\n\n---\n\n### Summary\n\nBoth files were already clean — no duplicate rules, no duplicate concepts, no `> NEEDS CONSOLIDATION` markers, no line-count violations. No content was merged or removed. The files were rewritten byte-for-byte identical to confirm they meet the stated constraints.",
+  "session_id": "",
+  "total_cost_usd": 0,
+  "api_error_status": null
+}
